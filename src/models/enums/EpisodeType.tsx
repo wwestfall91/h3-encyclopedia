@@ -1,0 +1,17 @@
+export enum EpisodeType {
+  Podcast,
+  OTR,
+  H3TV,
+  Frenemies,
+  Families,
+  Leftovers,
+  ContentCourt,
+  SUNT,
+  AfterDark,
+  H3H3Productions,
+  BTS,
+  Lore,
+  Guest,
+  TranscriptMissing,
+  Misc,
+}
