@@ -9,28 +9,23 @@ interface Props {
 function SoundbiteList(props: Props) {
   return (
     <>
-      <li>
-        <div className="details">
-          <div onClick={() => PlayAudio(props.soundbite.sound)}>
-            <h2>{props.soundbite.title}</h2>
-            <div className="product">
-              <img src={props.image} />
-            </div>
+      <div className="card" onClick={() => PlayAudio(props.soundbite.sound)}>
+        {props.soundbite.sound != "" ? (
+          <img src={props.image} className="card__img" />
+        ) : (
+          <img src={props.image} className="card__img grayscale" />
+        )}
+
+        <span className="card__footer">
+          <span>{props.soundbite.title}</span>
+          <div>
+            <a href={props.soundbite.episode.URL}>
+              {props.soundbite.episode.shortTitle}
+            </a>
           </div>
-          {props.soundbite.episode.shortTitle != "" ||
-          props.soundbite.episode == undefined ? (
-            <p>
-              <a
-                href={props.soundbite.GetTimestamp()}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {props.soundbite.episode.shortTitle}
-              </a>
-            </p>
-          ) : null}
-        </div>
-      </li>
+        </span>
+        <span className="card__action">H3 Podcast #234</span>
+      </div>
     </>
   );
 

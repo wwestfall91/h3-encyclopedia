@@ -2,6 +2,7 @@ import { AB } from "./People/AB";
 import { Person } from "./Person";
 import * as SB from "./Soundbites";
 import * as Faces from "./Faces";
+
 export const People: Person[] = new Array(
   new Person(
     "2007 World Cup Announcer",
@@ -17,11 +18,18 @@ export const People: Person[] = new Array(
     "https://upload.wikimedia.org/wikipedia/commons/b/bf/Al_Roker_by_Gage_Skidmore.jpg"
   ),
   new Person(
+    "Andrew",
+    "Caldwell",
+    [SB.AndrewCaldwell_Im_Not_Gay_No_More],
+    "https://compote.slate.com/images/d2552f5a-b6ef-488f-ae36-4760156fe697.png"
+  ),
+  new Person(
     "Alex",
     "Jones",
     [
       SB.AlexJones_I_Never_Sucked_Any_Ding_Dongs,
       SB.AlexJones_Turned_The_Friggin_Frogs_Gay,
+      SB.AlexJones_Suckin_A_Ding_Dong,
     ],
     "https://ichef.bbci.co.uk/news/976/cpsprodpb/14CED/production/_126192258_alexjones.jpg.webp"
   ),
@@ -40,7 +48,7 @@ export const People: Person[] = new Array(
   new Person(
     "Andrew",
     "Tate",
-    [SB.AndrewTate_I_Have_Small_Dick_Energy],
+    [SB.AndrewTate_I_Have_Small_Dick_Energy, SB.AndrewTate_Thats_The_Game],
     "https://i.kym-cdn.com/entries/icons/original/000/043/388/andrewtateshocked.jpg"
   ),
   new Person(
@@ -58,8 +66,15 @@ export const People: Person[] = new Array(
       SB.AustinMcBroom_I_Need_That_Clout,
       SB.AustinMcBroom_Im_Itching_For_That_Clout_Pill,
       SB.AustinMcBroom_In_Reality_You_Guys_Got_Scammed,
+      SB.AustinMcBroom_Suck_A_Fat_Donut,
     ],
     "https://www.the-sun.com/wp-content/uploads/sites/6/2020/07/NINTCHDBPICT000597015821.jpg"
+  ),
+  new Person(
+    "Nintendo Direct Announcer",
+    "",
+    [SB.NintendoDirectAnnouncer_Hes_So_Cool],
+    "https://assetsio.reedpopcdn.com/chris-pratt-to-play-mario-in-super-mario-movie-1632443583011_l8oeila_TohoCgS.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp"
   ),
   new Person(
     "Austin McBrooms Neighbor",
@@ -101,6 +116,7 @@ export const People: Person[] = new Array(
       SB.Bowblax_BITCH_YOU_HAVE_NOTHING,
       SB.Bowblax_FIVE_HUNDRED_SUBS,
       SB.BowBlax_THIS_THIS_THIS_IS_WHY_IM_WATCHING,
+      SB.BowBlax_Talk_About_The_Allegations,
     ],
     "https://sp.rmbl.ws/s8/1/a/z/y/w/azywk.oq1b-small-Keemstar-wants-ME-to-FIGHT-.jpg"
   ),
@@ -155,6 +171,18 @@ export const People: Person[] = new Array(
     "https://pyxis.nymag.com/v1/imgs/fd6/1b0/0c88bea85de59317b804ad289737883a5d-12-Chet-Hanks.rsquare.w600.png"
   ),
   new Person(
+    "Carl",
+    "",
+    [SB.Carl_Sharples_Thats_Not_Your_ID],
+    "https://i.dailymail.co.uk/1s/2019/04/23/17/12622610-6950971-image-a-142_1556036180493.jpg"
+  ),
+  new Person(
+    "Charismatic Fisherman",
+    "",
+    [SB.CharismaticFisherman_We_Got_Weights_In_Fish],
+    "https://www.toledoblade.com/image/2022/09/07/1140x_a10-7_cTC/nwt.jpg"
+  ),
+  new Person(
     "Chris",
     "Hanson",
     [SB.ChrisHanson_Did_You_Bring_Condoms],
@@ -168,7 +196,6 @@ export const People: Person[] = new Array(
     SB.SongbyZach_DAN_THE_HATER,
     SB.ZoomLawyer_Im_Not_A_Cat,
     SB.VinDiesels_Family,
-    SB.WorldCup_Ohhhh_Monsieurerrrrrrr,
   ]),
   new Person(
     "Curly",
@@ -235,16 +262,49 @@ export const People: Person[] = new Array(
     "https://www.rollingstone.com/wp-content/uploads/2021/11/dennis-prager.jpg"
   ),
   new Person(
+    "Tom",
+    "Selleck",
+    [
+      SB.TomSelleck_And_Its_Become_Your_Familys_Heart_And_Soul,
+      SB.TomSelleck_Its_Just_A_Loan,
+    ],
+    "https://m.media-amazon.com/images/M/MV5BMTQyMjQzODMzNF5BMl5BanBnXkFtZTcwMjE0NTM1Mw@@._V1_.jpg"
+  ),
+  new Person(
     "Dick",
     "Tips",
     [SB.DickTips_Hi_Im_Dick_Tips],
     "https://archive.totalfratmove.com/wp-content/uploads/2015/09/870ca8c7572b664649daa8f6c970673f.png"
   ),
   new Person(
+    "Tipster",
+    "",
+    [SB.Tipster_Cheers_My_Dude],
+    "https://external-preview.redd.it/cheers-my-dude-v0-NmNnOG51MTNxN2NiMZlAEwdAHHbCbAbPFJKkN1i_sXLAWVZmupNsLtlGapu4.png?width=640&crop=smart&format=pjpg&auto=webp&s=7a15ea9845f77d474c99c0b2c0c15ef67a7b6317"
+  ),
+  new Person(
     "DJ",
     "Akademiks",
     [SB.DJAkademiks_DRAKE],
     "https://urbanislandz.com/wp-content/uploads/2023/07/Akademiks.webp"
+  ),
+  new Person(
+    "Rich",
+    "Lux",
+    [SB.RichLux_Dan_Is_The_Queen, SB.RichLux_Cant_Do_Nothing_Wrong],
+    "https://s3-us-west-2.amazonaws.com/api.starngage.media.profile/268190379_334535715183000_6150433005347161040_n.jpg"
+  ),
+  new Person(
+    "Sam",
+    "Temple",
+    [SB.Sam_KIM_KHARDASHIAN],
+    "http://voyagela.com/wp-content/uploads/2023/03/c-PersonalSamTemple__WM5A6163_1678393163429-1000x600.jpg"
+  ),
+  new Person(
+    "Simon",
+    "Kaggwa Njala",
+    [SB.SimonKaggwaNjala_Why_Are_You_Gay],
+    "https://nbs.ug/wp-content/uploads/2022/06/Simon-Kaggwa-Njala-iamge.jpg"
   ),
   new Person(
     "Donna",
@@ -267,8 +327,26 @@ export const People: Person[] = new Array(
   new Person(
     "Ethan",
     "Klein",
-    [SB.Ethan_WOAAAAAAH],
+    [
+      SB.Ethan_WOAAAAAAH,
+      SB.Ethan_Are_You_Fuckin_My_Tits_RAW,
+      SB.Ethan_Blew_My_Tites_Right_Off_My_Fat_Body,
+      SB.Ethan_DAAAAN_SWERDLOVE,
+      SB.Ethan_Dan_Has_Never_Looked_Good,
+      SB.Ethan_Do_Not_Waste_That_Sweet_Milk,
+      SB.Ethan_Im_Trying_To_Think_But_Nothing_Happens,
+      SB.Ethan_LUNCHTIME,
+      SB.Ethan_Spit_On_My_Tits_And_Fuck_Em,
+      SB.Ethan_Who_Is_Sam,
+      SB.Ethan_You_Wanna_Come_To_The_Car_And_Suck_My_Cock,
+    ],
     "https://pbs.twimg.com/profile_images/1663636443275857920/I9XjlEWX_400x400.jpg"
+  ),
+  new Person(
+    "Ewan",
+    "McGregor",
+    [SB.EwanMcGregor_Theres_A_Hunger_For_This_Character_To_Come_Back],
+    "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/01/30/11/Ewan-McGregor-as-Obi-Wan-014.jpg"
   ),
   new Person(
     "Faze",
@@ -287,9 +365,18 @@ export const People: Person[] = new Array(
     "https://api.time.com/wp-content/uploads/2015/10/yousef-saleh-erakat.jpg?quality=85&w=1757"
   ),
   new Person(
+    "Kris",
+    "Jenner",
+    [SB.KrisJenner_Close_The_Trunk],
+    "https://pbs.twimg.com/profile_images/1148230318911963136/QO3WaOWg_400x400.jpg"
+  ),
+  new Person(
     "Fresh n' Fit",
     "",
-    [SB.FreshAndFit_Man_It_Is_Wednesday_Man],
+    [
+      SB.FreshAndFit_Man_It_Is_Wednesday_Man,
+      SB.FreshAndFit_Coconuts_In_Barbados,
+    ],
     "https://s.yimg.com/ny/api/res/1.2/Qt8eqYR_wWDwtXD7.T.KTg--/YXBwaWQ9aGlnaGxhbmRlcjtoPTY2Ng--/https://media.zenfs.com/en/accesswire.ca/0d7f86e966db44e23d167f9bf9dd0d23"
   ),
   new Person(
@@ -310,7 +397,12 @@ export const People: Person[] = new Array(
   new Person(
     "Hasan",
     "Piker",
-    [SB.Hasan_CRACKA, SB.Hasan_What_A_Fucking_Piece_Of_Shit_Dude],
+    [
+      SB.Hasan_CRACKA,
+      SB.Hasan_What_A_Fucking_Piece_Of_Shit_Dude,
+      SB.Hasan_Weasily_Little_Liar_Dude,
+      SB.Hasan_Adolf_Hitler_DUDE_Laughs_Maniacally_,
+    ],
     "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2021-12/211214-hasan-piker-jm-1212-e3ccb2.jpg"
   ),
   new Person(
@@ -335,6 +427,7 @@ export const People: Person[] = new Array(
       SB.HowieMandel_I_Took_It_Down_Okay,
       SB.HowieMandel_The_Number_One_Podcast_In_The_World,
       SB.HowieMandel_When_My_Friend_Neal_Bent_Over_This_Happened,
+      SB.HowieMandel_Im_Growing_My_Hair_Back_People,
     ],
     "https://ntvb.tmsimg.com/assets/assets/1082_v9_bb.jpg?w=270&h=360"
   ),
@@ -401,7 +494,13 @@ export const People: Person[] = new Array(
   new Person(
     "Jimmie",
     "Lee",
-    [SB.JimmieLee_Aaauuuudioooooo, SB.JimmieLee_All_Different_Flavors_2],
+    [
+      SB.JimmieLee_Aaauuuudioooooo,
+      SB.JimmieLee_All_Different_Flavors_2,
+      SB.JimmieLee_All_Different_Flavors_1,
+      SB.JimmieLee_AudioAudioAudio,
+      SB.JimmieLee_I_Got_My_Eye_On_You,
+    ],
     "https://www.24-7pressrelease.com/assets/attachments/050/press_release_distribution_0500031_190169.jpg"
   ),
   new Person(
@@ -417,6 +516,9 @@ export const People: Person[] = new Array(
       SB.JoeBiden_I_Love_Kids_Jumping_On_My_Lap,
       SB.JoeBiden_Look_Fat_Heres_The_Deal,
       SB.JoeBiden_Youre_A_Lying_Dog_Face_Pony_Soldier,
+      SB.JoeBiden_Go_To_Joe_30330,
+      SB.JoeBiden_Hurts_Nobody,
+      SB.JoeBiden_Ththatthatthatthat_That,
     ],
     "https://image.cnbcfm.com/api/v1/image/106878527-1620223837055-106748412-1602881184740-biden.jpg?v=1620224062"
   ),
@@ -445,8 +547,21 @@ export const People: Person[] = new Array(
   new Person(
     "Jordan",
     "Peterson",
-    [SB.JordanPeterson_What_The_Hell_Are_We_Gonna_Do_Without_Men],
+    [
+      SB.JordanPeterson_What_The_Hell_Are_We_Gonna_Do_Without_Men,
+      SB.JordanPeterson_I_Saw_My_Maternal_Grandmother,
+      SB.JordanPeterson_Joker_Church,
+      SB.JordanPeterson_Sorry_Not_Beautiful,
+      SB.JordanPeterson_Up_Yours_Woke_Moralists,
+      SB.JordanPeterson_What_Rules_You_Sons_A_Bitches,
+    ],
     "https://i.kym-cdn.com/photos/images/original/002/367/925/3f2"
+  ),
+  new Person(
+    "Jose",
+    "Mourinho",
+    [SB.JoseMourinho_If_I_Speak_I_Am_In_Big_Trouble],
+    "https://upload.wikimedia.org/wikipedia/commons/7/79/FC_Salzburg_gegen_AS_Roma_%28UEFA_Euroleague_play-off%2C_2023-02-16%29_41.jpg"
   ),
   new Person(
     "Justin",
@@ -467,6 +582,18 @@ export const People: Person[] = new Array(
     "https://cdn.britannica.com/09/193109-050-51B44FEE/Kamala-Harris.jpg"
   ),
   new Person(
+    "Garth",
+    "Brooks",
+    [SB.GarthBrooks_I_Like_That, SB.GarthBrooks_Let_The_Conversation_Begin],
+    "https://hips.hearstapps.com/hmg-prod/images/2018_20180809-gb2105_3_10_rgb.jpg"
+  ),
+  new Person(
+    "Hannibal B",
+    "",
+    [SB.HannibalB_FLOCKA],
+    "https://image.tmdb.org/t/p/w500/mcw3Orbg4vbALXTVG4hriZjH1sj.jpg"
+  ),
+  new Person(
     "Keemstar",
     "",
     [
@@ -482,6 +609,9 @@ export const People: Person[] = new Array(
       SB.Keemstar_SO_FRUSTRATING,
       SB.Keemstar_This_Dumb_Motherfucker_AB,
       SB.Keemstar_Why_Are_You_So_Cute_When_You_Talk_Shit,
+      SB.Keemstar_AHHHHHHHHHHHHHHHHHHHHHHHHH,
+      SB.Keemstar_Keemstars_Joke_Hit,
+      SB.Keemstar_That_Makes_Sense,
     ],
     "https://upload.wikimedia.org/wikipedia/commons/0/0c/KeemstarColdOnes2020_%28cropped%29.jpg"
   ),
@@ -524,13 +654,19 @@ export const People: Person[] = new Array(
       SB.LoganPaul_Im_A_Motha_Freakin_Blueberry,
       SB.LoganPaul_Let_Me_Tell_You_Bout_Banana,
       SB.LoganPaul_Ohoho_Now_Im_A_Strawberry,
+      SB.LoganPaul__Dink_Doink_Is_My_Favorite_Coin,
     ],
     "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2023-07/230709-logan-paul-jm-1233-102ef8.jpg"
   ),
   new Person(
     "Love",
     "",
-    [SB.Love_AB_Did_That_Everyone_Saw_That],
+    [
+      SB.Love_AB_Did_That_Everyone_Saw_That,
+      SB.Love_Anyone_Here_From_Arizona,
+      SB.Love_God_Damn_Rascal,
+      SB.Love_You_Guys_Are_A_Bunch_Of_Pussies,
+    ],
     "https://pbs.twimg.com/profile_images/1495859231072813058/ze_CMT1M_400x400.jpg"
   ),
   new Person(
@@ -552,6 +688,7 @@ export const People: Person[] = new Array(
       SB.MartinSsempa_Deepah,
       SB.MartinSsempa_Eat_Da_Poo_Poo,
       SB.MartinSsempa_This_Is_Seeck,
+      SB.MartinSsempa_Anal_Licking,
     ],
     "https://76crimes.com/wp-content/uploads/2018/06/Martin-Ssempa-June-2018.jpg"
   ),
@@ -560,6 +697,15 @@ export const People: Person[] = new Array(
     "Corleone",
     [SB.MichaelCorleone_I_Know_It_Was_You_Fredo],
     "https://rare-gallery.com/thumbs/502539-al-pacino-michael.jpg"
+  ),
+  new Person(
+    "Mikayla",
+    "Nogueira",
+    [
+      SB.MikaylaNogueira_KIM_KHARDASHIAN,
+      SB.MikaylaNogueira_This_Filter_Is_Suppose_To_Make_You_Look_Like_BAHBEE,
+    ],
+    "https://p19-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/c7be889e3e314ff184c5c1ec002a1a9c_1693199812~tplv-r00ih4996s-1:480:480.jpeg?x-expires=1693267200&x-signature=SVVEwxagN%2BsS353GhLs9Zj9SE8M%3D"
   ),
   new Person(
     "Mike",
@@ -580,6 +726,8 @@ export const People: Person[] = new Array(
       SB.Ninja_Hello,
       SB.Ninja_I_Thought_It_Was_Free_Speech,
       SB.Ninja_Yayayayayay_Woooooooooooo,
+      SB.Ninja_I_Cant_Control_My_GOOOOO,
+      SB.Ninja_Thank_You_For_The_Gifted_Crew_Pack,
     ],
     "https://www.svg.com/img/gallery/streamers-confirm-what-we-all-suspected-about-ninjas-real-life-behavior/intro-1639758649.jpg"
   ),
@@ -591,6 +739,12 @@ export const People: Person[] = new Array(
       SB.NoahBeck_Yo_Triller_My_Thing_Is_Flipped,
     ],
     "https://upload.wikimedia.org/wikipedia/commons/3/30/Noah_Beck.jpg"
+  ),
+  new Person(
+    "LiverKing",
+    "",
+    [SB.LiverKing_How_Do_You_Milk_An_Oat],
+    "https://image-cdn.essentiallysports.com/wp-content/uploads/liver-king-1-1110x999.jpg"
   ),
   new Person(
     "Oliver",
@@ -626,6 +780,12 @@ export const People: Person[] = new Array(
     "https://www.advocate.com/media-library/pastor-james-david-manning.jpg?id=32684309&width=400&height=300"
   ),
   new Person(
+    "Kornbread",
+    "",
+    [SB.Kornbread_Leaving_My_Friendships_BEHHIND],
+    "https://tv-fanatic-res.cloudinary.com/iu/s--kUd9Zv1p--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1641514909/kornbread-confessional-rupauls-drag-race-s14e1.png"
+  ),
+  new Person(
     "Prince Harry",
     "",
     [SB.PrinceHarry_Sucking_A_Smoko, SB.PrinceHarry_Todger],
@@ -657,6 +817,15 @@ export const People: Person[] = new Array(
     "Williams",
     [SB.RobinWilliams_Its_Not_Your_Fault],
     "https://flxt.tmsimg.com/assets/55875_v9_ba.jpg"
+  ),
+  new Person(
+    "Adin",
+    "Ross",
+    [
+      SB.AdinRoss_Im_21_FUCK_YOU,
+      SB.AdinRoss_Youre_A_Dick_Rider_A_Dick_Sucker_Suck_My_Dick,
+    ],
+    "https://i0.wp.com/roundindex.com/wp-content/uploads/2023/02/Snapinsta.app_1080_245059404_307599324044194_944802579902742451_n.jpg?fit=750%2C750&ssl=1"
   ),
   new Person(
     "Rolo Tony",
@@ -702,11 +871,19 @@ export const People: Person[] = new Array(
     "https://media.npr.org/assets/img/2022/02/09/ap22040834747746-7cb2ce678435616dd74ebc80d52d826b06a61fef-s1100-c50.jpg"
   ),
   new Person(
+    "Theodore",
+    "Klein",
+    [SB.TheodoreKlein_What_Da_Fuck],
+    Faces.default.Theodore_Blurred
+  ),
+  new Person(
     "Steven",
     "Crowder",
     [
       SB.StevenCrowder_That_Doesnt_Work_For_Me_Eiiiither,
       SB.StevenCrowder_You_Dont_Even_Have_To_Think_About_It_Dude,
+      SB.StevenCrowder_I_Had_No_Idea_This_Was_Going_To_Happen,
+      SB.StevenCrowder_I_Thought_Ethan_Was_A_Stand_Up_Guy,
     ],
     "https://pbs.twimg.com/media/FuuziqwaQAIWPrr.jpg"
   ),
@@ -769,8 +946,21 @@ export const People: Person[] = new Array(
       SB.Trump_We_Do_A_Little_Trolling_Its_Called_We_Do_A_Little_Trolling,
       SB.Trump_We_Love_You_Youre_Very_Special,
       SB.Trump_We_Need_To_Keep_Our_Country_Gay_Brup_Bup,
+      SB.Trump_I_Did_Everything_Right_And_The_Indicted_Me,
+      SB.Trump_Ill_Just_Give_Ya_A_Big_Fat_Kiss,
+      SB.Trump_Ill_Kiss_The_GUYS_And_The_BEAUTIFUL_WOMEN,
     ],
     "https://static.independent.co.uk/2023/05/10/05/Election_2024_Trump_88156.jpg?width=1200&height=1200&fit=crop"
+  ),
+  new Person(
+    "Olivia",
+    "Lopez",
+    [
+      SB.Olivia_I_Got_My_Prostate_Milked_By_Ethan_Klein,
+      SB.Olivia_Its_Happening,
+      SB.Olivia_Thank_You_For_The_Gifted,
+    ],
+    "https://pbs.twimg.com/profile_images/1657465253695979520/0sh97HeY_400x400.jpg"
   ),
   new Person(
     "Trump Jr",
@@ -784,8 +974,18 @@ export const People: Person[] = new Array(
   new Person(
     "Uncle Gabe",
     "",
-    [SB.UncleGabe_Fried_Chicken_Wednesday, SB.UncleGabe_Its_Friday_Baby],
+    [
+      SB.UncleGabe_Fried_Chicken_Wednesday,
+      SB.UncleGabe_Its_Friday_Baby,
+      SB.UncleGabe_Sorry_About_Your_Dad_Passing_Away,
+    ],
     "https://image.mux.com/HvSmr3iX3vntGhZemUwzAQvgl66TV013CvJjZheoJNog/thumbnail.jpg?height=650"
+  ),
+  new Person(
+    "Owen",
+    "Cook",
+    [SB.OwenCook_Never_Ever_Do_It_It_Is_DEATH],
+    "https://beastpreneur.com/wp-content/uploads/2021/12/Real-Social-Dynamics-Owen-Cook-RSD-Tyler-Durden.jpg"
   ),
   new Person(
     "Vin",
@@ -827,7 +1027,17 @@ export const People: Person[] = new Array(
   new Person(
     "XQC",
     "",
-    [SB.xQc_A_CARROTAH, SB.xQc_Get_Yo_Balls_Off_My_Face_Man],
+    [
+      SB.xQc_A_CARROTAH,
+      SB.xQc_Get_Yo_Balls_Off_My_Face_Man,
+      SB.XQC_FAT_FAT_FAT_FAT,
+    ],
     "https://image-cdn.essentiallysports.com/wp-content/uploads/Debating-xQc-On-Copyright-H3TV-86-1-16-40-screenshot-2-640x640.png"
+  ),
+  new Person(
+    "Yi Long",
+    "Ma",
+    [SB.YiLongMa_Mohney],
+    "https://img-9gag-fun.9cache.com/photo/axBmXVW_460s.jpg"
   )
 );

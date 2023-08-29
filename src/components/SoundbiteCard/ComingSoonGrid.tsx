@@ -1,19 +1,22 @@
 import { People } from "../../models/People";
 import SoundbiteList from "./SoundbiteList";
+import "./SoundbiteGrid.css";
 import "./SoundbiteList.css";
 
-function SoundbiteGrid() {
+function ComingSoonGrid() {
   return (
     <>
       <div className="grid">
         {People.map((person) =>
           person.soundbites
-            .filter((include) => include.sound != "")
-            .map((soundbite) => (
+            .filter((soundbite) => soundbite.sound == "")
+            .map((comingSoonSB) => (
               <>
                 <SoundbiteList
-                  soundbite={soundbite}
-                  image={soundbite.image == "" ? person.face : soundbite.image}
+                  soundbite={comingSoonSB}
+                  image={
+                    comingSoonSB.image == "" ? person.face : comingSoonSB.image
+                  }
                 ></SoundbiteList>
               </>
             ))
@@ -23,4 +26,4 @@ function SoundbiteGrid() {
   );
 }
 
-export default SoundbiteGrid;
+export default ComingSoonGrid;
