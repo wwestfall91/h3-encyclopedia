@@ -10,6 +10,7 @@ import { AllH3TVs } from "./AllH3TVs";
 import { EpisodeType } from "../enums/EpisodeType";
 import { AllMiscEpisodes } from "./AllMiscEpisodes";
 import { AllSeeYouNextTuesdays } from "./AllSeeYouNextTuesdays";
+import { AllEthanAndHilas } from "./AllEthanAndHilaVideos";
 import JeffEpisode from "./JeffDunham";
 
 export const AllEpisodes: Episode[] = [
@@ -23,6 +24,7 @@ export const AllEpisodes: Episode[] = [
   ...AllH3TVs,
   ...AllMiscEpisodes,
   ...AllSeeYouNextTuesdays,
+  ...AllEthanAndHilas,
 ];
 
 export function GetEpisode(type: EpisodeType, episodeNumber: Number) {

@@ -9,9 +9,13 @@ export enum EpisodeType {
   SUNT,
   AfterDark,
   H3H3Productions,
+  EthanAndHila,
   BTS,
+  Live,
   Lore,
   Guest,
   TranscriptMissing,
   Misc,
+  FanChannel,
+  LostEpisode,
 }

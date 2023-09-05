@@ -499,5 +499,11 @@ export const AllH3TVs: Episode[] = new Array(
     `https://youtu.be/ETvW-4y6gMw`,
     `7-31-2023`,
     [EpisodeType.H3TV]
+  ),
+  new Episode(
+    `Drake & Bobbi Althoff's Bizarre Falling Out, Dylan Page Is A Demon For This - H3TV #87`,
+    `https://youtu.be/i_gylTJdgeY`,
+    `08-14-2023`,
+    [EpisodeType.H3TV]
   )
 );

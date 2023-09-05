@@ -22,6 +22,6 @@ export class Soundbite {
   }
 
   GetTimestamp() {
-    return `${this.episode.URL}&t=${this.time}`;
+    return `${this.episode.URL}&t=${this.time}s`;
   }
 }

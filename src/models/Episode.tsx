@@ -31,4 +31,8 @@ export class Episode {
         : `${EpisodeType[types[0]]} #${episodeNumber}`;
     }
   }
+
+  getTimestampURL(seconds: number) {
+    return `${this.URL}&t=${seconds}s`;
+  }
 }

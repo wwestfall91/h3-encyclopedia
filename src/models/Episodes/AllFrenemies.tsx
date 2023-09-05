@@ -33,6 +33,12 @@ export const AllFrenemies: Episode[] = new Array(
     [EpisodeType.Frenemies]
   ),
   new Episode(
+    `Trisha & Ethan Reconcile...Kind of - Frenemies #6`,
+    `https://www.youtube.com/watch?v=7E6SuDyDUos`,
+    `10-20-2020`,
+    [EpisodeType.Frenemies]
+  ),
+  new Episode(
     `Couples Therapy With Dr. Drew - Frenemies #7`,
     `https://youtu.be/JnLGwc4wivw`,
     `10-27-2020`,
@@ -91,6 +97,12 @@ export const AllFrenemies: Episode[] = new Array(
     `https://youtu.be/eE-eJVJNYKQ`,
     `1-12-2021`,
     [EpisodeType.Frenemies]
+  ),
+  new Episode(
+    `Trisha Was Bullied & It's Not OK - Frenemies #17`,
+    `https://www.youtube.com/watch?v=FHXqp4CyaAc`,
+    `1-19-2021`,
+    [EpisodeType.Frenemies, EpisodeType.LostEpisode]
   ),
   new Episode(
     `Pop Culture Trivia War & Friendship With Shane Is Over - Frenemies #18`,
@@ -199,6 +211,24 @@ export const AllFrenemies: Episode[] = new Array(
     `https://youtu.be/Ru5D83BKNbE`,
     `5-11-2021`,
     [EpisodeType.Frenemies]
+  ),
+  new Episode(
+    `Trisha & Ethan Got Bullied & Are Fighting Back - Frenemies # 36`,
+    `https://youtu.be/IUGvnECknlI`,
+    `05-18-2021`,
+    [EpisodeType.Frenemies, EpisodeType.TranscriptMissing]
+  ),
+  new Episode(
+    `Taking Trisha To Meme School - Frenemies # 37`,
+    `https://youtu.be/eMV9_HIAQGI`,
+    `05-25-2021`,
+    [EpisodeType.Frenemies, EpisodeType.TranscriptMissing]
+  ),
+  new Episode(
+    `PREGNANCY ANNOUNCEMENT! - Frenemies # 38`,
+    `https://youtu.be/_d5QneG6oF8`,
+    `06-01-2021`,
+    [EpisodeType.Frenemies, EpisodeType.TranscriptMissing]
   ),
   new Episode(
     `Talking About Gabbie Hanna - Frenemies # 39`,

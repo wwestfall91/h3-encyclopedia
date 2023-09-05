@@ -2,15 +2,8 @@
   box-sizing: border-box;
 }
 
-body {
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
-  background: url(https://img.freepik.com/free-vector/multicolor-background-design_1117-99.jpg);
-}
-
 a {
-  color: white !important;
+  color: white;
 }
 .grayscale {
   filter: grayscale(100%);
@@ -94,4 +87,44 @@ a {
 
 .card:is(:hover, :focus-visible) {
   --hover: 1;
+}
+
+@media (min-width: 300px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.5rem;
+  }
 }

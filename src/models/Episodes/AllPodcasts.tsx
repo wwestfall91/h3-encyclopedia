@@ -9,6 +9,12 @@ export const AllPodcasts: Episode[] = new Array(
     [EpisodeType.Podcast]
   ),
   new Episode(
+    `We Open Belle Delphine's Mystery Box And... WOW - H3 Podcast #205`,
+    `https://youtu.be/sVlTKQueUSE`,
+    `9-8-2020`,
+    [EpisodeType.Podcast, EpisodeType.TranscriptMissing]
+  ),
+  new Episode(
     `Theo Von - H3 Podcast #109`,
     `https://youtu.be/PafIrG4WJHU`,
     `3-20-2019`,
