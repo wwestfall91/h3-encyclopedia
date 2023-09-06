@@ -208,6 +208,19 @@ export const Moments = [
     2755,
     [Tag["Pride Minute"]]
   ),
+  new Moment("Steamy's #1 with Trisha", e.GetFrenemies(15), 0, [Tag.Steamys]),
+  new Moment(
+    "Steamy's #2 with Def Noodles",
+    e.getEpisodeByTitle("Surprise Reunion For 2nd Annual Steamies")!,
+    0,
+    [Tag.Steamys]
+  ),
+  new Moment(
+    "Steamy's #3 with Jeff and Tana",
+    e.getEpisodeByTitle("The Steamy Awards (Ft. Jeff Wittek & Tana Mongeau)")!,
+    0,
+    [Tag.Steamys]
+  ),
   new Moment(
     "First discussion about Ethan's hairline",
     e.GetPodcast(17),

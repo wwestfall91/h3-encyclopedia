@@ -1,6 +1,6 @@
 .modal-transparent-background {
   display: flex;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -8,10 +8,12 @@
   background-color: rgba(0, 0, 0, 0.5);
   align-items: center;
   justify-content: center;
+  z-index: 3;
 }
 
 .modal-container {
   padding: 30px;
+  position: fixed;
   display: grid;
   grid-auto-flow: column;
   grid-auto-flow: row;
@@ -43,6 +45,11 @@
 .links-grid {
   display: grid;
   row-gap: 1fr;
+}
+
+.link-items {
+  display: grid;
+  grid-template-columns: 9% 91%;
 }
 
 .modal-cancel-button {

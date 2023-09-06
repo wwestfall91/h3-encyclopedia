@@ -13,4 +13,6 @@ import * as Layer12 from "./IcebergLayer12";
 
 export default {
   Layer1,
+  Layer2,
+  Layer3,
 };

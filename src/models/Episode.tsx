@@ -17,7 +17,12 @@ export class Episode {
   ) {
     this.title = title;
     this.URL = URL;
-    this.date = date;
+    this.date =
+      ("0" + new Date(date).getDate()).slice(-2) +
+      "-" +
+      ("0" + (new Date(date).getMonth() + 1)).slice(-2) +
+      "-" +
+      new Date(date).getFullYear();
     this.types = types;
     this.episodeNumber = episodeNumber;
 
