@@ -35,11 +35,8 @@ export function GetEpisode(type: EpisodeType, episodeNumber: Number) {
   return episode != undefined ? episode : new JeffEpisode();
 }
 
-export function getEpisodeByTitle(title: string) {
-  if (title.includes("Content Court: The ACE Family")) {
-  }
-
-  return AllEpisodes.find((x) => x.title.includes(title));
+export function GetEpisodeByTitle(title: string): Episode {
+  return AllEpisodes.find((x) => x.title.includes(title)) ?? new JeffEpisode();
 }
 
 export function GetAfterDark(episodeNumber: Number) {

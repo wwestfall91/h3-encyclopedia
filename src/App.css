@@ -1,7 +1,5 @@
 body {
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
+  background-color: transparent !important;
 }
 
 .grid-col-span-2 {
@@ -14,43 +12,10 @@ body {
   margin-left: 5px;
 }
 
-.header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.header-buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 50px 100px 0px;
-  margin-left: 50px;
-}
-
 .navigation-grid {
   display: grid;
   grid-template-columns: 10% 10%;
   gap: 100px;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-.button-round {
-  background-color: #48abe0;
-  color: white;
-  border: none;
-  padding: 5px;
-  font-size: 31px;
-  height: 130px;
-  width: 130px;
-  box-shadow: 0 2px 4px darkslategray;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-.button-round:hover {
-  background-color: #65b9e6;
-}
-
-.button-round:active {
-  box-shadow: 0 0 2px darkslategray;
-  transform: translateY(2px);
 }

@@ -465,7 +465,7 @@ export const FouseyTube_CHEEEEZE = new Soundbite(
 export const FouseyTube_I_Felt_Worthless_I_Felt_Ugly_I_Felt_Gay = new Soundbite(
   "I felt worthless, I felt ugly, I felt gay",
   "https://h3historian.com/soundbites/ifeltworthless.mp3",
-  episodes.getEpisodeByTitle("2nd Annual Steamies")!,
+  episodes.GetEpisodeByTitle("2nd Annual Steamies")!,
   3446
 );
 export const FouseyTube_It_Tastes_Like_Beef_Jerky = new Soundbite(
@@ -1255,7 +1255,7 @@ export const PrinceHarry_Todger = new Soundbite(
 export const RichLux_Dan_Is_The_Queen = new Soundbite(
   "Dan is the Queen",
   "",
-  episodes.getEpisodeByTitle("See You Next Tuesday #31")!,
+  episodes.GetEpisodeByTitle("See You Next Tuesday #31")!,
   2805
 );
 export const RichLux_Cant_Do_Nothing_Wrong = new Soundbite(
@@ -1699,7 +1699,7 @@ export const ZoomLawyer_Im_Not_A_Cat = new Soundbite(
 export const AB_Who_You_Kiddin_Eh = new Soundbite(
   "Who you kiddin' eh",
   "https://cdn.glitch.com/3b576859-bca3-4031-ae39-117a4ffdc779%2Fab_who_you_kiddin.mp3?v=1620096115217",
-  episodes.getEpisodeByTitle("Content Court: The ACE Family")!,
+  episodes.GetEpisodeByTitle("Content Court: The ACE Family")!,
   207
 );
 
@@ -1739,7 +1739,7 @@ export const BelleDelphine_So_Thick = new Soundbite(
 export const CarlosMatos_BITCONNNNNNECT = new Soundbite(
   "BITCONNNNECT",
   "https://cdn.glitch.com/3b576859-bca3-4031-ae39-117a4ffdc779%2Fcarlos_matos_bitconnect.mp3?v=1620108579230",
-  episodes.getEpisodeByTitle(
+  episodes.GetEpisodeByTitle(
     "How To Lose Your Life's Savings w Cryptocurrency"
   )!,
   49
@@ -1747,7 +1747,7 @@ export const CarlosMatos_BITCONNNNNNECT = new Soundbite(
 export const CarlosMatos_Hey_Hey_Heyyyy = new Soundbite(
   "Hey hey heyyyy",
   "https://cdn.glitch.com/3b576859-bca3-4031-ae39-117a4ffdc779%2Fcarlos_matos_hey_hey_hey.mp3?v=1620108584998",
-  episodes.getEpisodeByTitle(
+  episodes.GetEpisodeByTitle(
     "How To Lose Your Life's Savings w Cryptocurrency"
   )!,
   36
@@ -1755,7 +1755,7 @@ export const CarlosMatos_Hey_Hey_Heyyyy = new Soundbite(
 export const CarlosMatos_Mmmm_NO_NO_NO = new Soundbite(
   "Mmmm NO NO NO",
   "https://cdn.glitch.com/3b576859-bca3-4031-ae39-117a4ffdc779%2Fcarlos_matos_mm_no_no_no.mp3?v=1620108592518",
-  episodes.getEpisodeByTitle(
+  episodes.GetEpisodeByTitle(
     "How To Lose Your Life's Savings w Cryptocurrency"
   )!,
   113
@@ -1763,7 +1763,7 @@ export const CarlosMatos_Mmmm_NO_NO_NO = new Soundbite(
 export const CarlosMatos_What_Am_I_Gonna_Do = new Soundbite(
   "What am I gonna do",
   "https://cdn.glitch.com/3b576859-bca3-4031-ae39-117a4ffdc779%2Fcarlos_matos_what_am_i_gonna_do.mp3?v=1620108605169",
-  episodes.getEpisodeByTitle(
+  episodes.GetEpisodeByTitle(
     "How To Lose Your Life's Savings w Cryptocurrency"
   )!,
   356
@@ -2080,7 +2080,7 @@ export const Trump_Im_Gonna_Cum = new Soundbite(
 export const CarlosMatos_I_Am_So_Excited = new Soundbite(
   "I am so excited",
   "https://h3historian.com/soundbites/imsoexcited.mp3",
-  episodes.getEpisodeByTitle(
+  episodes.GetEpisodeByTitle(
     "How To Lose Your Life's Savings w Cryptocurrency"
   )!,
   92
