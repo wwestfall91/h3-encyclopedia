@@ -3,6 +3,8 @@
   grid-template-columns: 1fr 1fr 5fr 1fr 1fr;
   column-gap: 100px;
   align-content: center;
+  justify-content: center;
+  align-items: center;
   justify-items: center;
   background: rgb(171, 60, 173);
   background: radial-gradient(

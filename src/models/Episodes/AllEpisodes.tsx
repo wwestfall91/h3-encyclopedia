@@ -12,6 +12,7 @@ import { AllMiscEpisodes } from "./AllMiscEpisodes";
 import { AllSeeYouNextTuesdays } from "./AllSeeYouNextTuesdays";
 import { AllEthanAndHilas } from "./AllEthanAndHilaVideos";
 import JeffEpisode from "./JeffDunham";
+import { AllH3H3Episodes } from "./AllH3H3Videos";
 
 export const AllEpisodes: Episode[] = [
   ...AllPodcasts,
@@ -25,6 +26,7 @@ export const AllEpisodes: Episode[] = [
   ...AllMiscEpisodes,
   ...AllSeeYouNextTuesdays,
   ...AllEthanAndHilas,
+  ...AllH3H3Episodes,
 ];
 
 export function GetEpisode(type: EpisodeType, episodeNumber: Number) {

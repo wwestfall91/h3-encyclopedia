@@ -1,9 +1,9 @@
 import { PageRoute } from "./../PageRoute";
 
 export const Page = Object.freeze({
-  Home: new PageRoute("Home", "/"),
+  Soundbites: new PageRoute("Soundbites", "/"),
   ComingSoon: new PageRoute("Coming Soon", "/ComingSoon"),
-  AnotherOne: new PageRoute("Another One", "/AnotherOne"),
+  Iceberg: new PageRoute("Iceberg", "/Iceberg"),
 });
 
 export default Page;

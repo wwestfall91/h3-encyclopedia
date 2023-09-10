@@ -27,7 +27,6 @@ export const People: Person[] = new Array(
     "Alex",
     "Jones",
     [
-      SB.AlexJones_I_Never_Sucked_Any_Ding_Dongs,
       SB.AlexJones_Turned_The_Friggin_Frogs_Gay,
       SB.AlexJones_Suckin_A_Ding_Dong,
     ],
@@ -898,7 +897,6 @@ export const People: Person[] = new Array(
     "",
     [
       SB.TheQuartering_I_Just_Peed_In_My_Basement,
-      SB.TheQuartering_Im_Going_To_Pee_In_My_Own_Basement,
       SB.TheQuartering_Im_Not_Taking_A_Pause_To_SHIT_ALL_OVER_THE_FLOOR,
       SB.TheQuartering_My_Wife_Went_Out_For_Pizza_Without_Me,
       SB.TheQuartering_Theres_Shit_All_Over_The_Floor,

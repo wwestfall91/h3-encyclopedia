@@ -1,18 +1,19 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Home from "./Pages/SoundBitesPage";
+import Soundbites from "./Pages/SoundBitesPage";
 import Iceberg from "./Pages/Iceberg/IcebergPage";
 import PageHeader from "./Pages/PageHeader/PageHeader";
+import ComingSoon from "./Pages/ComingSoonPage";
 
 function App() {
   return (
     <>
-      <PageHeader />
       <Router>
+        <PageHeader />
         <div className="soundbite-navigation"></div>
         <Routes>
-          <Route path="/" Component={Home}></Route>
-          <Route path="/comingSoon" Component={Iceberg}></Route>
+          <Route path="/" Component={Soundbites}></Route>
+          <Route path="/comingSoon" Component={ComingSoon}></Route>
           <Route path="/iceberg" Component={Iceberg}></Route>
         </Routes>
       </Router>

@@ -8,9 +8,13 @@ interface Props {
 function SoundbiteCard(props: Props) {
   return (
     <>
-      <div className="card" onClick={() => PlayAudio(props.soundbite.sound)}>
+      <div className="card">
         {props.soundbite.sound != "" ? (
-          <img src={props.image} className="card__img" />
+          <img
+            src={props.image}
+            onClick={() => PlayAudio(props.soundbite.sound)}
+            className="card__img"
+          />
         ) : (
           <img src={props.image} className="card__img grayscale" />
         )}
@@ -18,7 +22,14 @@ function SoundbiteCard(props: Props) {
         <span className="card__footer">
           <span>{props.soundbite.title}</span>
           <div>
-            <a href={props.soundbite.episode.URL}>
+            <a
+              className="soundbite-link"
+              href={props.soundbite.episode.getTimestampURL(
+                props.soundbite.time
+              )}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {props.soundbite.episode.shortTitle}
             </a>
           </div>

@@ -15,7 +15,7 @@ export function Modal(props: Props) {
   return (
     <>
       <div className="transparent-background">
-        <div className="grid">
+        <div className="modal-grid">
           <div className="modal-container">
             <div className="section-title-large-underlined">
               {props.title}

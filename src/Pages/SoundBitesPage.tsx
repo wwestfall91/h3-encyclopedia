@@ -3,7 +3,7 @@ import SoundbiteGrid from "../components/SoundbiteCard/SoundbiteGrid";
 import Page from "../models/enums/Page";
 import "../App.css";
 
-function Home() {
+function Soundbites() {
   return (
     <>
       <div className="navigation-grid">
@@ -17,4 +17,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Soundbites;

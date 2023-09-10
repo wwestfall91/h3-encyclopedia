@@ -1,6 +1,5 @@
 import { People } from "../../models/People";
 import SoundbiteList from "./SoundbiteList";
-import "./SoundbiteGrid.css";
 import "./SoundbiteList.css";
 
 function ComingSoonGrid() {

@@ -29,15 +29,21 @@ export class Episode {
     if (types.includes(EpisodeType.H3H3Productions)) {
       this.shortTitle = "H3H3Productions";
     } else {
-      this.shortTitle = Number.isNaN(episodeNumber)
-        ? this.title.includes("JEFF DUNHAM")
-          ? ""
-          : this.title
-        : `${EpisodeType[types[0]]} #${episodeNumber}`;
+      this.shortTitle =
+        Number.isNaN(episodeNumber) || episodeNumber == 0
+          ? this.title.includes("JEFF DUNHAM")
+            ? ""
+            : this.title
+          : `${EpisodeType[types[0]]} #${episodeNumber}`;
     }
   }
 
   getTimestampURL(seconds: number) {
+    console.log(this.URL);
+    if (this.URL.includes("youtu.be")) {
+      return `${this.URL}?t=${seconds}`;
+    }
+
     return `${this.URL}&t=${seconds}s`;
   }
 }

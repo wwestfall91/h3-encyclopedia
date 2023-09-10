@@ -1900,28 +1900,39 @@ export const KennethCopeland_Oh_Jesus = new Soundbite(
 export const LilXan_Get_Out = new Soundbite(
   "Get out",
   "https://cdn.glitch.com/3b576859-bca3-4031-ae39-117a4ffdc779%2Flil_xan_get_out.mp3?v=1620181490950",
-  new JeffEpisode()
+  episodes.GetPodcast(121),
+  3473
 );
 
 export const LoganPaul_Im_A_Motha_Freakin_Blueberry = new Soundbite(
   "I'm a motha freakin blueberry",
   "https://cdn.glitch.com/3b576859-bca3-4031-ae39-117a4ffdc779%2Flogan_paul_im_a_mother_freakin_blueberry.mp3?v=1626039028443",
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle(
+    "THESE GLASSES CURED OUR COLOR BLINDNESS! FT. iDubbbzTV"
+  ),
+  684
 );
 export const LoganPaul_Let_Me_Tell_You_Bout_Banana = new Soundbite(
   "Let me tell you 'bout banana",
   "https://cdn.glitch.com/3b576859-bca3-4031-ae39-117a4ffdc779%2Flogan_paul_let_me_tell_you_about_banana.mp3?v=1626039040084",
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle(
+    "THESE GLASSES CURED OUR COLOR BLINDNESS! FT. iDubbbzTV"
+  ),
+  684
 );
 export const LoganPaul_Ohoho_Now_Im_A_Strawberry = new Soundbite(
   "Ohoho Now I'm a strawberry",
   "https://cdn.glitch.com/3b576859-bca3-4031-ae39-117a4ffdc779%2Flogan_paul_now_im_a_strawberry.mp3?v=1626039078007",
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle(
+    "THESE GLASSES CURED OUR COLOR BLINDNESS! FT. iDubbbzTV"
+  ),
+  684
 );
 export const MarkZuckerberg_Im_The_Meat_Chef = new Soundbite(
   "I'm the meat chef",
   "https://cdn.glitch.com/3b576859-bca3-4031-ae39-117a4ffdc779%2Fmark_zuckerberg_im_the_meat_chef.mp3?v=1628709276496",
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle("Becoming THE ZUCC (ft idubbbz)"),
+  1035
 );
 
 export const Wali_Joe_Biden_Wake_Up = new Soundbite(
@@ -1934,17 +1945,20 @@ export const TheQuartering_My_Wife_Went_Out_For_Pizza_Without_Me =
   new Soundbite(
     "My wife went out for pizza without me",
     "https://cdn.glitch.com/3b576859-bca3-4031-ae39-117a4ffdc779%2Fquartering_my_wife_went_out_for_pizza.mp3?v=1620183073714",
-    new JeffEpisode()
+    episodes.GetEpisodeByTitle("Content Court: TheQuartering"),
+    3308
   );
 export const TheQuartering_I_Just_Peed_In_My_Basement = new Soundbite(
   "I just pee'd in my basement",
   "https://cdn.glitch.com/3b576859-bca3-4031-ae39-117a4ffdc779%2Fquartering_peed_in_my_basement.mp3?v=1620183081376",
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle("Content Court: TheQuartering"),
+  3369
 );
 export const Ricegum_Erhaha = new Soundbite(
   "erhaha",
   "https://cdn.glitch.com/3b576859-bca3-4031-ae39-117a4ffdc779%2Fricegum_laugh.mp3?v=1620184055834",
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle("This YouTuber is Lying To You (H3H3)"),
+  359
 );
 
 export const ChurchChorus_Something_Is_About_To_Bust = new Soundbite(
@@ -1993,16 +2007,11 @@ export const UncleGabe_Fried_Chicken_Wednesday = new Soundbite(
   new JeffEpisode()
 );
 
-export const AlexJones_I_Never_Sucked_Any_Ding_Dongs = new Soundbite(
-  "I never sucked any ding dongs",
-  "https://cdn.glitch.global/3b576859-bca3-4031-ae39-117a4ffdc779/alex_jones_i_never_sucked_any_ding_dongs.mp3?v=1641706042842",
-  new JeffEpisode()
-);
-
 export const Trump_Ive_Been_Listening_To_Olivia_The_Entire_Time = new Soundbite(
   "I've been listening to Olivia the entire time",
   "https://cdn.glitch.global/3b576859-bca3-4031-ae39-117a4ffdc779/donald_trump_ive_been_listening_to_olivia.mp3?v=1641772368642",
-  new JeffEpisode()
+  episodes.GetOffTheRails(19),
+  2430
 );
 
 export const Hasan_CRACKA = new Soundbite(
@@ -2052,7 +2061,8 @@ export const RobinWilliams_Its_Not_Your_Fault = new Soundbite(
 export const Shaq_Delete_Me_From_This_Conversation = new Soundbite(
   "Delete Me From This Conversation",
   "https://cdn.glitch.global/3b576859-bca3-4031-ae39-117a4ffdc779/shaq_delete_me_from_this_conversation.mp3?v=1641709411448",
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle("NELK Is A Menace To Society - Content Court"),
+  2151
 );
 export const StevenSeagal_Vladamir_Putin = new Soundbite(
   "Vladamir Putin",
@@ -2089,7 +2099,8 @@ export const CarlosMatos_I_Am_So_Excited = new Soundbite(
 export const DarkViperAU_FOURTEEN_PAGES = new Soundbite(
   "FOURTEEN PAGES",
   "https://h3historian.com/soundbites/itsfourteenpages.mp3",
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle("MoistCritikal Is Destroying YouTube"),
+  370
 );
 
 export const WillSmith_Keep_Fucking_My_My_Wifes_Mouth_Im_Going_To_Okay =
@@ -2102,13 +2113,15 @@ export const WillSmith_Keep_Fucking_My_My_Wifes_Mouth_Im_Going_To_Okay =
 export const Ricegum_Monotone_Monica_Over_Here = new Soundbite(
   "Monotone Monica over here",
   "https://h3historian.com/soundbites/monotonemonica.mp3",
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle("This YouTuber is Lying To You (H3H3)"),
+  359
 );
 
 export const Trump_Olivia = new Soundbite(
   "Olivia",
   "https://h3historian.com/soundbites/olivia.mp3",
-  new JeffEpisode()
+  episodes.GetOffTheRails(19),
+  2430
 );
 export const AndrewTate_I_Have_Small_Dick_Energy = new Soundbite(
   "I have small dick energy",
@@ -2121,7 +2134,7 @@ export const Bowblax_Stop_Laughing_AT_SONIC = new Soundbite(
   "https://h3historian.com/soundbites/stoplaughingatsonic.mp3",
   new JeffEpisode()
 );
-export const CPACAnnouncer_Ladies_And_Gentleman_We_Are_All_Deomstic_Terrorists =
+export const CPACAnnouncer_Ladies_And_Gentleman_We_Are_All_Domestic_Terrorists =
   new Soundbite(
     "Ladies and gentleman we are all deomstic terrorists",
     "https://h3historian.com/soundbites/wearealldomesticterrorists.mp3",

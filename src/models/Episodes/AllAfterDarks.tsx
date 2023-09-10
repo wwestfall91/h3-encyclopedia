@@ -316,6 +316,12 @@ export const AllAfterDarks: Episode[] = new Array(
     [EpisodeType.AfterDark]
   ),
   new Episode(
+    `Shane Dawson Is 100% Canceled After This - After Dark #54`,
+    `https://www.youtube.com/watch?v=eioZLqucKU4`,
+    `10-15-2021`,
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
     `James Charles Enablers & Keemstar Is Obsessed With Me - After Dark #55`,
     `https://youtu.be/R63J0T2cK8w`,
     `10-22-2021`,
@@ -477,6 +483,13 @@ export const AllAfterDarks: Episode[] = new Array(
     `9-30-2022`,
     [EpisodeType.AfterDark]
   ),
+  new Episode(
+    `It's Frenemies All Over Again - After Dark #87`,
+    `https://www.youtube.com/watch?v=Cjv07aA7WFw`,
+    `10-07-2022`,
+    [EpisodeType.AfterDark]
+  ),
+
   new Episode(
     `We Made Wax Figures Of Ethan, Hila Responds To Haters, Overwatch 2 Is A Disaster! - After Dark #88`,
     `https://youtu.be/OQOw4EDREDk`,

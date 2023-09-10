@@ -8,7 +8,7 @@ function ComingSoon() {
     <>
       <div className="navigation-grid">
         <NavigationButton
-          page={Page.Home}
+          page={Page.Soundbites}
           buttonClass="nav-button"
         ></NavigationButton>
       </div>

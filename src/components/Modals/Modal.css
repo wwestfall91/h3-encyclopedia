@@ -1,3 +1,7 @@
+.soundbite-link {
+  color: white;
+}
+
 .transparent-background {
   display: grid;
   position: fixed;
@@ -11,7 +15,8 @@
   z-index: 3;
 }
 
-.grid {
+.modal-grid {
+  display: grid;
   grid-template:
     ". . ." 15%
     ". m ." 1fr

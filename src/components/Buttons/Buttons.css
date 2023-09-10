@@ -1,25 +1,18 @@
 .nav-button {
   background-color: #1d1b1b;
-  box-sizing: border-box;
   color: #ffffff;
-  display: flex;
   font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 700;
-  justify-content: center;
   line-height: 1.25rem;
-  position: relative;
-  text-align: center;
-  width: 100%;
-  max-width: 700px;
-  position: relative;
   cursor: pointer;
   transform: rotate(-2deg);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+}
+
+.button-text {
+  text-decoration: none;
 }
 
 .nav-button:focus {

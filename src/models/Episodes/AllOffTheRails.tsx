@@ -303,6 +303,12 @@ export const AllOffTheRails: Episode[] = new Array(
     [EpisodeType.OTR]
   ),
   new Episode(
+    `Dan Eats The World's Hottest Chip, Elon Musk Is Ruining Twitter, Defending Andrew Tate - OTR #54`,
+    `https://youtu.be/BraYUdc3YRo`,
+    `11-09-2022`,
+    [EpisodeType.OTR]
+  ),
+  new Episode(
     `MoistCr1TiKaL, I didn't want to go to war, but... - Off The Rails #55`,
     `https://youtu.be/wLZaQAqSdNI`,
     `11-23-2022`,

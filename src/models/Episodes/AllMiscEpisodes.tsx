@@ -46,5 +46,17 @@ export const AllMiscEpisodes: Episode[] = new Array(
     "https://www.youtube.com/watch?v=f-O3Tv7XWH8",
     "02-06-2023",
     [EpisodeType.Misc, EpisodeType.FanChannel]
+  ),
+  new Episode(
+    "This YouTuber is Lying To You (H3H3)",
+    "https://www.youtube.com/watch?v=HNdoEy1gdR8&t=359s",
+    "01-06-2019",
+    [EpisodeType.Misc]
+  ),
+  new Episode(
+    "MoistCritikal Is Destroying YouTube",
+    "https://youtu.be/8CcVkyFXHyw",
+    "02-10-2022",
+    [EpisodeType.Misc]
   )
 );
