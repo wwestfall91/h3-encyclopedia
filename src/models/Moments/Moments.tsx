@@ -562,7 +562,7 @@ export const Moments = [
   ),
   new Moment(
     "Zach's Joker Brain NFT",
-    e.GetEpisodeByTitle("I’m Selling Vape Nation - H3 Podcast # 239"),
+    e.GetEpisodeByTitle("I’m Selling Vape Nation - H3 Podcast #239"),
     3956,
     [Tag["Joker Brain"]]
   ),
@@ -870,7 +870,7 @@ export const Moments = [
   new Moment(
     "Showing R Kelly passports song to Trisha",
     e.GetEpisodeByTitle(
-      "David Dobrik’s Lawyers Go After Trisha & Cooking Competition - Frenemies # 25"
+      "David Dobrik’s Lawyers Go After Trisha & Cooking Competition - Frenemies #25"
     ),
     394,
     [Tag["R Kelly Passport Song"]]
@@ -1151,14 +1151,14 @@ export const Moments = [
   ),
   new Moment(
     "Dink Doink is my favorite coin",
-    e.GetEpisodeByTitle("im sorry hila - Off The Rails # 5"),
+    e.GetEpisodeByTitle("im sorry hila - Off The Rails #5"),
     3474,
     [Tag["Dink Doink"]]
   ),
   new Moment(
     "Donna giving butterfly facts",
     e.GetEpisodeByTitle(
-      "James Charles IS GOING TO JAIL! says my mom - Families # 5"
+      "James Charles IS GOING TO JAIL! says my mom - Families #5"
     ),
     6277,
     [Tag["Donnarchs"]]
@@ -1261,7 +1261,7 @@ export const Moments = [
   ),
   new Moment(
     "EthansFeet.com - Big debut!",
-    e.GetEpisodeByTitle("And The Number Of Babies Is... - H3 After Dark # 40"),
+    e.GetEpisodeByTitle("And The Number Of Babies Is... - H3 After Dark #40"),
     1678,
     [Tag["EthansFeet.com"]]
   ),
@@ -1386,7 +1386,7 @@ export const Moments = [
   new Moment(
     "Sam Seder is brought in to interview Steven Crowder ",
     e.GetEpisodeByTitle(
-      "Ethan Klein Debates Steven Crowder (Ft. Sam Seder) - H3 Podcast # 248"
+      "Ethan Klein Debates Steven Crowder (Ft. Sam Seder) - H3 Podcast #248"
     ),
     634,
     [Tag["Oh no! Sam Seder"]]
@@ -1666,7 +1666,7 @@ export const Moments = [
   ),
   new Moment(
     "Vape God Token is created",
-    e.GetEpisodeByTitle("I’m Selling Vape Nation - H3 Podcast # 239"),
+    e.GetEpisodeByTitle("I’m Selling Vape Nation - H3 Podcast #239"),
     4121,
     [Tag["Vape God NFT"]]
   ),
@@ -1708,7 +1708,7 @@ export const Moments = [
   ),
   new Moment(
     "Love Bot VS. The Gatsby",
-    e.GetEpisodeByTitle("Ethan Destroys The New Office - Off The Rails # 1"),
+    e.GetEpisodeByTitle("Ethan Destroys The New Office - Off The Rails #1"),
     3204,
     [Tag["Gatsby"]]
   ),
@@ -1753,7 +1753,7 @@ export const Moments = [
   new Moment(
     "The Gatsby is... THE HOGWARDS EXPRESS",
     e.GetEpisodeByTitle(
-      "Dream, Keemstar, All Gas No Breaks Interview with Andrew Callaghan - Off The Rails # 2"
+      "Dream, Keemstar, All Gas No Breaks Interview with Andrew Callaghan - Off The Rails #2"
     ),
     151,
     [Tag["Gatsby"]]
@@ -1789,7 +1789,7 @@ export const Moments = [
   new Moment(
     "Wendy Williams farts a third time",
     e.GetEpisodeByTitle(
-      "FaZe Banks, Jeff Wittek, James Charles, David Dobrik - H3 After Dark # 29"
+      "FaZe Banks, Jeff Wittek, James Charles, David Dobrik - H3 After Dark #29"
     ),
     4776,
     [Tag["Wendy Williams Fartgate"]]
@@ -1909,7 +1909,7 @@ export const Moments = [
   new Moment(
     "Belle Delphine's spit is... GONE?!",
     e.GetEpisodeByTitle(
-      "The Belle Delphine Mystery & Our New Studio - H3 Podcast # 246"
+      "The Belle Delphine Mystery & Our New Studio - H3 Podcast #246"
     ),
     948,
     [Tag["Belle Delphine Spit Jar"]]
@@ -2025,7 +2025,7 @@ export const Moments = [
   new Moment(
     "Zach defends taking a shit on some dudes lawn",
     e.GetEpisodeByTitle(
-      "The Belle Delphine Mystery & Our New Studio - H3 Podcast # 246"
+      "The Belle Delphine Mystery & Our New Studio - H3 Podcast #246"
     ),
     2140,
     [Tag["Zachs Lawn Shit"]]
@@ -2295,7 +2295,7 @@ export const Moments = [
   new Moment(
     "Crew Discusses the CCR curse with Zach",
     e.GetEpisodeByTitle(
-      "James Charles Returns & Baby Update - H3 After Dark # 43"
+      "James Charles Returns & Baby Update - H3 After Dark #43"
     ),
     5108,
     [Tag["CCR Curse"]]
@@ -2492,20 +2492,20 @@ export const Moments = [
   ),
   new Moment(
     "Chet Hanks in... White Boy Summer",
-    e.GetEpisodeByTitle("It's Time To Stop James Charles - H3 Podcast # 241"),
+    e.GetEpisodeByTitle("It's Time To Stop James Charles - H3 Podcast #241"),
     3915,
     [Tag["Chet Hanks Threats"]]
   ),
   new Moment(
     "Cant say Chet Hanks without ETHAN in the middle",
-    e.GetEpisodeByTitle("Jake Paul Fight Was A Disaster - H3 Podcast # 244"),
+    e.GetEpisodeByTitle("Jake Paul Fight Was A Disaster - H3 Podcast #244"),
     4496,
     [Tag["Chet Hanks Threats"]]
   ),
   new Moment(
     "Chet Hanks Joker Impression",
     e.GetEpisodeByTitle(
-      "Twitch Hot Tubs & Bitconnect Carlos Calls In - H3 After Dark # 34"
+      "Twitch Hot Tubs & Bitconnect Carlos Calls In - H3 After Dark #34"
     ),
     8328,
     [Tag["Chet Hanks Threats"]]
@@ -2540,9 +2540,7 @@ export const Moments = [
   ),
   new Moment(
     "Crew explains why they didn't release the Triller video",
-    e.GetEpisodeByTitle(
-      "Jake Paul & Triller Are Suing Me - H3 After Dark # 35"
-    ),
+    e.GetEpisodeByTitle("Jake Paul & Triller Are Suing Me - H3 After Dark #35"),
     1219,
     [Tag["Triller Lawsuit Lost Episode"]]
   ),

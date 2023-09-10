@@ -1,17 +1,22 @@
-import HeaderImage from "../../assets/images/H3 Sound Station.png";
 import { NavigationButton } from "../../components/Buttons/NavigationButton";
 import Page from "../../models/enums/Page";
 import "./PageHeader.css";
-function PageHeader() {
+
+export interface Props {
+  image: string;
+  class: string;
+}
+
+function PageHeader(props: Props) {
   return (
     <>
-      <div className="header">
+      <div className={props.class}>
         <div></div>
         <NavigationButton
           page={Page.Soundbites}
           buttonClass="nav-button"
         ></NavigationButton>
-        <img src={HeaderImage}></img>
+        <img src={props.image}></img>
         <NavigationButton
           page={Page.Iceberg}
           buttonClass="nav-button"

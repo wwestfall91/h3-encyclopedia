@@ -54,7 +54,7 @@ export const DrFaddelDeletedSegment = new IcebergItem(
   Moments.GetMomentsByTag(Tag["Dr. Faddel Deleted Segment"])
 );
 export const IanTheInternPowerpoints = new IcebergItem(
-  "Ian the Inter Powerpoints",
+  "Ian the Intern Powerpoints",
   "In the earlier days of the Podcast Ian was known for creating detailed PowerPoints about various topics. While this segment didn't last too long, they are hilarious, and hold a special place in many long-time fans' hearts, and these days Olivia has been taking the helm and creating some amazing PowerPoints of her own!",
   Moments.GetMomentsByTag(Tag["Ian the Intern Powerpoints"])
 );

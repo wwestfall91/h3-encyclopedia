@@ -21,7 +21,7 @@ export const BlockedByOJSimpson = new IcebergItem(
 );
 export const ChetHanksThreats = new IcebergItem(
   "Chet Hanks Threats",
-  "Chet Hanks has been an often talked about and criticized on the podcast, and eventually Chet had enough and started sending threatening DM's to Ethan.",
+  "Chet Hanks has been an often talked about and criticized figure on the podcast, from his controversial Jamaican accent, to being boo'd off the stage because he was being so unhinged, Ethan and crew have covered him A LOT! This would eventually lead to Chet Hanks finally having enough and sending some threatening DM's to Ethan.",
   Moments.GetMomentsByTag(Tag["Chet Hanks Threats"])
 );
 export const BillBurrEpisode1 = new IcebergItem(

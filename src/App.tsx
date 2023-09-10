@@ -9,7 +9,6 @@ function App() {
   return (
     <>
       <Router>
-        <PageHeader />
         <div className="soundbite-navigation"></div>
         <Routes>
           <Route path="/" Component={Soundbites}></Route>

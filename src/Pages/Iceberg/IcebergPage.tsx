@@ -4,6 +4,8 @@ import { Moment } from "../../models/Moments/Moment";
 import { Modal } from "../../components/Modals/Modal";
 import IcebergGridItem from "./IcebergGridItem";
 import AllIcebergLayers from "../../models/IcebergLayers/AllIcebergLayers";
+import PageHeader from "../PageHeader/PageHeader";
+import HeaderImage from "./../../assets/images/H3LoreIcebergHeader.png";
 
 export function IcebergPage() {
   function SetModalData(
@@ -23,6 +25,7 @@ export function IcebergPage() {
   const [modalTimestamps, setModalTimestamps] = useState(new Array());
   return (
     <>
+      <PageHeader image={HeaderImage} class={"header-blue"} />
       <Modal
         title={modalTitle}
         description={modalDescription}
