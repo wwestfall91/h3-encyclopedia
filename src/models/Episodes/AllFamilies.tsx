@@ -3,37 +3,37 @@ import { EpisodeType } from "../enums/EpisodeType";
 
 export const AllFamilies: Episode[] = new Array(
   new Episode(
-    `Trisha Paytas vs Gabbie Hanna Explained By My Mom - Families # 2`,
+    `Trisha Paytas vs Gabbie Hanna Explained By My Mom - Families #2`,
     `https://youtu.be/_SdeGi-8rZ8`,
     `6-30-2021`,
     [EpisodeType.Families]
   ),
   new Episode(
-    `The Biggest Cancellation In YouTube History - Families # 3`,
+    `The Biggest Cancellation In YouTube History - Families #3`,
     `https://youtu.be/L3XK1hC8KsM`,
     `7-7-2021`,
     [EpisodeType.Families]
   ),
   new Episode(
-    `Mom's Embarrassing Story Destroyed My Soul - Families # 4`,
+    `Mom's Embarrassing Story Destroyed My Soul - Families #4`,
     `https://youtu.be/OJo0Z90eWDE`,
     `7-14-2021`,
     [EpisodeType.Families]
   ),
   new Episode(
-    `James Charles IS GOING TO JAIL! says my mom - Families # 5`,
+    `James Charles IS GOING TO JAIL! says my mom - Families #5`,
     `https://youtu.be/h-sbveUVSUc`,
     `7-21-2021`,
     [EpisodeType.Families]
   ),
   new Episode(
-    `Omegle With My Mom - Families # 6`,
+    `Omegle With My Mom - Families #6`,
     `https://youtu.be/sBknX8jMuGw`,
     `7-28-2021`,
     [EpisodeType.Families]
   ),
   new Episode(
-    `My Family Is Being Torn Apart - Families # 7`,
+    `My Family Is Being Torn Apart - Families #7`,
     `https://youtu.be/IcHJNW2zxkM`,
     `8-4-2021`,
     [EpisodeType.Families]

@@ -21,7 +21,7 @@ export const AllH3TVs: Episode[] = new Array(
     [EpisodeType.H3TV]
   ),
   new Episode(
-    `David Dobrik Kicked Out Of Lollapalooza Party - H3TV # 4`,
+    `David Dobrik Kicked Out Of Lollapalooza Party - H3TV #4`,
     `https://youtu.be/QhA1sdISvME`,
     `8-2-2021`,
     [EpisodeType.H3TV]

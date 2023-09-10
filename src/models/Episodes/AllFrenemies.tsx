@@ -147,91 +147,91 @@ export const AllFrenemies: Episode[] = new Array(
     [EpisodeType.Frenemies]
   ),
   new Episode(
-    `David Dobrik's Lawyers Go After Trisha & Cooking Competition - Frenemies # 25`,
+    `David Dobrik's Lawyers Go After Trisha & Cooking Competition - Frenemies #25`,
     `https://youtu.be/elFvrO4Y8yY`,
     `3-16-2021`,
     [EpisodeType.Frenemies]
   ),
   new Episode(
-    `Responding To Jeff Wittek & New David Dobrik Footage - Frenemies # 26`,
+    `Responding To Jeff Wittek & New David Dobrik Footage - Frenemies #26`,
     `https://youtu.be/0XCZ-t5e-fI`,
     `3-21-2021`,
     [EpisodeType.Frenemies]
   ),
   new Episode(
-    `Jeff Wittek Interview Fallout - Frenemies # 27`,
+    `Jeff Wittek Interview Fallout - Frenemies #27`,
     `https://youtu.be/JHUfQXheOrs`,
     `3-23-2021`,
     [EpisodeType.Frenemies]
   ),
   new Episode(
-    `Responding To David Dobrik's Apology - Frenemies # 28`,
+    `Responding To David Dobrik's Apology - Frenemies #28`,
     `https://youtu.be/-QLJROolYas`,
     `3-23-2021`,
     [EpisodeType.Frenemies]
   ),
   new Episode(
-    `Trisha's Epic Passover Dinner At Ethan's - Frenemies # 29`,
+    `Trisha's Epic Passover Dinner At Ethan's - Frenemies #29`,
     `https://youtu.be/46oesaefwP4`,
     `3-30-2021`,
     [EpisodeType.Frenemies]
   ),
   new Episode(
-    `Trisha & Ethan Do Oddly Satisfying Trends - Frenemies # 30`,
+    `Trisha & Ethan Do Oddly Satisfying Trends - Frenemies #30`,
     `https://youtu.be/DZp6yuHZTzo`,
     `4-6-2021`,
     [EpisodeType.Frenemies]
   ),
   new Episode(
-    `Khloe Kardashian Photo Drama & Pizza Eating Contest - Frenemies # 31`,
+    `Khloe Kardashian Photo Drama & Pizza Eating Contest - Frenemies #31`,
     `https://youtu.be/R3XpjB3P9WU`,
     `4-13-2021`,
     [EpisodeType.Frenemies]
   ),
   new Episode(
-    `James Charles Entire Channel Demonetized by YouTube - Frenemies # 32`,
+    `James Charles Entire Channel Demonetized by YouTube - Frenemies #32`,
     `https://youtu.be/EjkLRX7m5TY`,
     `4-20-2021`,
     [EpisodeType.Frenemies]
   ),
   new Episode(
-    `Jeff Wittek, David Dobrik, & TRIVIA! - Frenemies # 33`,
+    `Jeff Wittek, David Dobrik, & TRIVIA! - Frenemies #33`,
     `https://youtu.be/gkbn7Zv0MsU`,
     `4-27-2021`,
     [EpisodeType.Frenemies]
   ),
   new Episode(
-    `Trisha's Birthday Celebration - Frenemies # 34`,
+    `Trisha's Birthday Celebration - Frenemies #34`,
     `https://youtu.be/2-sRFyE2Dcw`,
     `5-4-2021`,
     [EpisodeType.Frenemies]
   ),
   new Episode(
-    `Ethan Embarrassed Himself In Front Of Trisha's Family - Frenemies # 35`,
+    `Ethan Embarrassed Himself In Front Of Trisha's Family - Frenemies #35`,
     `https://youtu.be/Ru5D83BKNbE`,
     `5-11-2021`,
     [EpisodeType.Frenemies]
   ),
   new Episode(
-    `Trisha & Ethan Got Bullied & Are Fighting Back - Frenemies # 36`,
+    `Trisha & Ethan Got Bullied & Are Fighting Back - Frenemies #36`,
     `https://youtu.be/IUGvnECknlI`,
     `05-18-2021`,
     [EpisodeType.Frenemies, EpisodeType.TranscriptMissing]
   ),
   new Episode(
-    `Taking Trisha To Meme School - Frenemies # 37`,
+    `Taking Trisha To Meme School - Frenemies #37`,
     `https://youtu.be/eMV9_HIAQGI`,
     `05-25-2021`,
     [EpisodeType.Frenemies, EpisodeType.TranscriptMissing]
   ),
   new Episode(
-    `PREGNANCY ANNOUNCEMENT! - Frenemies # 38`,
+    `PREGNANCY ANNOUNCEMENT! - Frenemies #38`,
     `https://youtu.be/_d5QneG6oF8`,
     `06-01-2021`,
     [EpisodeType.Frenemies, EpisodeType.TranscriptMissing]
   ),
   new Episode(
-    `Talking About Gabbie Hanna - Frenemies # 39`,
+    `Talking About Gabbie Hanna - Frenemies #39`,
     `https://youtu.be/poqMtuBVHU4`,
     `6-8-2021`,
     [EpisodeType.Frenemies]

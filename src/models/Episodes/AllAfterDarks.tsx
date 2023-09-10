@@ -190,85 +190,85 @@ export const AllAfterDarks: Episode[] = new Array(
     [EpisodeType.AfterDark]
   ),
   new Episode(
-    `FaZe Banks, Jeff Wittek, James Charles, David Dobrik - H3 After Dark # 29`,
+    `FaZe Banks, Jeff Wittek, James Charles, David Dobrik - H3 After Dark #29`,
     `https://youtu.be/Ze3pzXECLzY`,
     `3-26-2021`,
     [EpisodeType.AfterDark]
   ),
   new Episode(
-    `Jake Paul, Wendy Williams, Bhad Bhabie & Dr. Phil - H3 After Dark # 31`,
+    `Jake Paul, Wendy Williams, Bhad Bhabie & Dr. Phil - H3 After Dark #31`,
     `https://youtu.be/BbFYG-tyk48`,
     `4-9-2021`,
     [EpisodeType.AfterDark]
   ),
   new Episode(
-    `Jake Paul Exposed By Bombshell New York Times Article - H3 After Dark # 33`,
+    `Jake Paul Exposed By Bombshell New York Times Article - H3 After Dark #33`,
     `https://youtu.be/MjDYycK6n7M`,
     `4-23-2021`,
     [EpisodeType.AfterDark]
   ),
   new Episode(
-    `Twitch Hot Tubs & Bitconnect Carlos Calls In - H3 After Dark # 34`,
+    `Twitch Hot Tubs & Bitconnect Carlos Calls In - H3 After Dark #34`,
     `https://youtu.be/ISvqL4D7SL4`,
     `4-30-2021`,
     [EpisodeType.AfterDark]
   ),
   new Episode(
-    `Jake Paul & Triller Are Suing Me - H3 After Dark # 35`,
+    `Jake Paul & Triller Are Suing Me - H3 After Dark #35`,
     `https://youtu.be/uw0c45OwQV0`,
     `5-7-2021`,
     [EpisodeType.AfterDark]
   ),
   new Episode(
-    `James Charles Is Being Sued & Bill Gates Calls In - H3 After Dark # 36`,
+    `James Charles Is Being Sued & Bill Gates Calls In - H3 After Dark #36`,
     `https://youtu.be/4CP_nl037_c`,
     `5-13-2021`,
     [EpisodeType.AfterDark]
   ),
   new Episode(
-    `Joe Rogan Trashed Hila On His Podcast - H3 After Dark # 37`,
+    `Joe Rogan Trashed Hila On His Podcast - H3 After Dark #37`,
     `https://youtu.be/SaC97huq9Ss`,
     `5-21-2021`,
     [EpisodeType.AfterDark]
   ),
   new Episode(
-    `We're Pregnant! - H3 After Dark # 38`,
+    `We're Pregnant! - H3 After Dark #38`,
     `https://youtu.be/BUHxXNxEUYc`,
     `5-28-2021`,
     [EpisodeType.AfterDark]
   ),
   new Episode(
-    `We're Having Twins Or Triplets! - H3 After Dark # 39`,
+    `We're Having Twins Or Triplets! - H3 After Dark #39`,
     `https://youtu.be/Cn2xlYd5oCc`,
     `6-4-2021`,
     [EpisodeType.AfterDark]
   ),
   new Episode(
-    `And The Number Of Babies Is... - H3 After Dark # 40`,
+    `And The Number Of Babies Is... - H3 After Dark #40`,
     `https://youtu.be/uvc-dX0fG3s`,
     `6-11-2021`,
     [EpisodeType.AfterDark]
   ),
   new Episode(
-    `The Birthday Roast Of Ethan Klein - H3 After Dark # 42`,
+    `The Birthday Roast Of Ethan Klein - H3 After Dark #42`,
     `https://youtu.be/-I_xmrcEAdU`,
     `6-24-2021`,
     [EpisodeType.AfterDark]
   ),
   new Episode(
-    `James Charles Returns & Baby Update - H3 After Dark # 43`,
+    `James Charles Returns & Baby Update - H3 After Dark #43`,
     `https://youtu.be/lw8E6x_tiQE`,
     `7-2-2021`,
     [EpisodeType.AfterDark]
   ),
   new Episode(
-    `Hila's Final Episode - H3 After Dark # 44`,
+    `Hila's Final Episode - H3 After Dark #44`,
     `https://youtu.be/s2FpIS2ywlE`,
     `7-9-2021`,
     [EpisodeType.AfterDark]
   ),
   new Episode(
-    `Hila Is Back... And She's Being Sued - H3 After Dark # 45`,
+    `Hila Is Back... And She's Being Sued - H3 After Dark #45`,
     `https://youtu.be/SXxSAyvkYH4`,
     `7-30-2021`,
     [EpisodeType.AfterDark]

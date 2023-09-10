@@ -3,31 +3,31 @@ import { EpisodeType } from "../enums/EpisodeType";
 
 export const AllOffTheRails: Episode[] = new Array(
   new Episode(
-    `Ethan Destroys The New Office - Off The Rails # 1`,
+    `Ethan Destroys The New Office - Off The Rails #1`,
     `https://youtu.be/JHGs0juAZX4`,
     `5-27-2021`,
     [EpisodeType.OTR]
   ),
   new Episode(
-    `Dream, Keemstar, All Gas No Breaks Interview with Andrew Callaghan - Off The Rails # 2`,
+    `Dream, Keemstar, All Gas No Breaks Interview with Andrew Callaghan - Off The Rails #2`,
     `https://youtu.be/RSirCfZjonY`,
     `6-3-2021`,
     [EpisodeType.OTR]
   ),
   new Episode(
-    `Trisha's Apology & Ace Family Scam - Off The Rails # 3`,
+    `Trisha's Apology & Ace Family Scam - Off The Rails #3`,
     `https://youtu.be/6kNZujESbNI`,
     `7-1-2021`,
     [EpisodeType.OTR]
   ),
   new Episode(
-    `The Biggest Scam In YouTube History - Off The Rails # 4`,
+    `The Biggest Scam In YouTube History - Off The Rails #4`,
     `https://youtu.be/iBXtS72EGcM`,
     `7-8-2021`,
     [EpisodeType.OTR]
   ),
   new Episode(
-    `im sorry hila - Off The Rails # 5`,
+    `im sorry hila - Off The Rails #5`,
     `https://youtu.be/xamEkP8HLdA`,
     `7-15-2021`,
     [EpisodeType.OTR]

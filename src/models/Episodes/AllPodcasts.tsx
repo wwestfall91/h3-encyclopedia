@@ -861,13 +861,13 @@ export const AllPodcasts: Episode[] = new Array(
     [EpisodeType.Podcast]
   ),
   new Episode(
-    `I'm Selling Vape Nation - H3 Podcast # 239`,
+    `I'm Selling Vape Nation - H3 Podcast #239`,
     `https://youtu.be/zfWQpaPGW4g`,
     `3-11-2021`,
     [EpisodeType.Podcast]
   ),
   new Episode(
-    `Insider Article Could End David Dobrik's Career - H3 Podcast # 240`,
+    `Insider Article Could End David Dobrik's Career - H3 Podcast #240`,
     `https://youtu.be/jrDi9gDSVu4`,
     `3-17-2021`,
     [EpisodeType.Podcast]
@@ -879,25 +879,25 @@ export const AllPodcasts: Episode[] = new Array(
     [EpisodeType.Podcast]
   ),
   new Episode(
-    `It's Time To Stop James Charles - H3 Podcast # 241`,
+    `It's Time To Stop James Charles - H3 Podcast #241`,
     `https://youtu.be/ABT5w_LNtx8`,
     `4-1-2021`,
     [EpisodeType.Podcast]
   ),
   new Episode(
-    `We're Not Done With James Charles - H3 Podcast # 242`,
+    `We're Not Done With James Charles - H3 Podcast #242`,
     `https://youtu.be/PcDqarjl4w0`,
     `4-8-2021`,
     [EpisodeType.Podcast]
   ),
   new Episode(
-    `Infowars Attacks Ethan - H3 Podcast # 243`,
+    `Infowars Attacks Ethan - H3 Podcast #243`,
     `https://youtu.be/0Os_vIpQXg4`,
     `4-15-2021`,
     [EpisodeType.Podcast]
   ),
   new Episode(
-    `Jake Paul Fight Was A Disaster - H3 Podcast # 244`,
+    `Jake Paul Fight Was A Disaster - H3 Podcast #244`,
     `https://youtu.be/bfKPts4BJkA`,
     `4-22-2021`,
     [EpisodeType.Podcast]
@@ -915,13 +915,13 @@ export const AllPodcasts: Episode[] = new Array(
     [EpisodeType.Podcast]
   ),
   new Episode(
-    `Humanity Is Doomed - H3 Podcast # 245`,
+    `Humanity Is Doomed - H3 Podcast #245`,
     `https://youtu.be/Htq468essmM`,
     `4-29-2021`,
     [EpisodeType.Podcast]
   ),
   new Episode(
-    `The Belle Delphine Mystery & Our New Studio - H3 Podcast # 246`,
+    `The Belle Delphine Mystery & Our New Studio - H3 Podcast #246`,
     `https://youtu.be/f_g3mOv7s5o`,
     `5-20-2021`,
     [EpisodeType.Podcast]
@@ -933,13 +933,13 @@ export const AllPodcasts: Episode[] = new Array(
     [EpisodeType.Podcast]
   ),
   new Episode(
-    `Bella Poarch - H3 Podcast # 247`,
+    `Bella Poarch - H3 Podcast #247`,
     `https://youtu.be/2jFIQr_cVz4`,
     `6-17-2021`,
     [EpisodeType.Podcast]
   ),
   new Episode(
-    `Ethan Klein Debates Steven Crowder (Ft. Sam Seder) - H3 Podcast # 248`,
+    `Ethan Klein Debates Steven Crowder (Ft. Sam Seder) - H3 Podcast #248`,
     `https://youtu.be/Fvg5RTrFLfI`,
     `6-21-2021`,
     [EpisodeType.Podcast]

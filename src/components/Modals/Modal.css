@@ -1,5 +1,5 @@
 .transparent-background {
-  display: flex;
+  display: grid;
   position: fixed;
   left: 0;
   top: 0;
