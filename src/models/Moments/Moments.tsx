@@ -341,7 +341,7 @@ export const Moments = [
     [Tag.Prolapse]
   ),
   new Moment(
-    "Ethan shows prolapse to the audience LIVE AT THE ACE THEATER!",
+    "Ethan shows the prolapse LIVE",
     e.GetEpisodeByTitle(
       "Ethan's Birthday Extravaganza LIVE From The Ace Theater!"
     )!,
@@ -683,16 +683,22 @@ export const Moments = [
     [Tag["Weights in Fish"]]
   ),
   new Moment(
-    "",
+    "Mr. Beast Bars gets ZONK'D",
     e.GetEpisodeByTitle(
       "David Dobrik Exposed By Casey Neistat Documentary - H3TV #27"
     ),
     6500,
     [Tag["Zilly Zonka"]]
   ),
-  new Moment("", e.GetEpisodeByTitle("WE'RE BACK! - Leftovers #12"), 13, [
-    Tag["20 Billion Dollar Compound"],
+  new Moment("P(ump) A(nd) D(ump) Coin", e.GetAfterDark(79), 6286, [
+    Tag["Zilly Zonka"],
   ]),
+  new Moment(
+    "The 20 billion dollar compound!",
+    e.GetEpisodeByTitle("WE'RE BACK! - Leftovers #12"),
+    13,
+    [Tag["20 Billion Dollar Compound"]]
+  ),
   new Moment(
     "Diet Coke is... Good for you?!",
     e.GetEpisodeByTitle(
@@ -2465,7 +2471,7 @@ export const Moments = [
     [Tag["Blocked on Twitter by OJ"]]
   ),
   new Moment(
-    "",
+    "Gokanaru",
     e.GetEpisodeByTitle("The Death Of H3H3 by Gokanaru - H3 Podcast #192"),
     2642,
     [Tag["n******* f******"]]

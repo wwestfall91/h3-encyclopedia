@@ -18,23 +18,24 @@
     ". image ." 1fr
     ". image ." 1fr
     ". image ." 1fr
-    / 24% 1fr 24%;
-  height: inherit;
+    / 15% 1fr 15%;
 }
 
 .iceberg-image {
   background-image: url("../../assets/images/iceberg-long.png");
-  border: 3px solid black;
+  background-repeat: no-repeat;
+  background-position: center;
   grid-area: image;
-  height: inherit;
 }
 
 .layer {
   display: grid;
   grid-template: repeat(5, 1fr) / repeat(10, 1fr);
+  column-gap: 15px;
   width: 100%;
   border-bottom: 5px solid red;
   height: 484px;
+  justify-items: center;
 }
 
 .item {

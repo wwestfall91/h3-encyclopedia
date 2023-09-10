@@ -13,14 +13,14 @@ export class Episode {
     URL: string,
     date: string,
     types: EpisodeType[],
-    episodeNumber: number = Number(title.split("#")[1])
+    episodeNumber: number = Number(title.match(/(?<=#)\d+/g))
   ) {
     this.title = title;
     this.URL = URL;
     this.date =
-      ("0" + new Date(date).getDate()).slice(-2) +
-      "-" +
       ("0" + (new Date(date).getMonth() + 1)).slice(-2) +
+      "-" +
+      ("0" + new Date(date).getDate()).slice(-2) +
       "-" +
       new Date(date).getFullYear();
     this.types = types;

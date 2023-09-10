@@ -2,7 +2,7 @@ import * as Moments from "../Moments/Moments";
 import { Tag } from "../enums/Tag";
 import IcebergItem from "./IcebergItem";
 
-export const SteamAwards = new IcebergItem(
+export const SteamyAwards = new IcebergItem(
   "The Steamy Awards",
   "A yearly segment that is meant to be a parody of the Streamy awards. The co-host(s) change every year, and are cursed if they take on the role, always getting cancelled in the year that follows. This year Ethan attended the Streamy's in person AND THEY FUCKED HIM!! Because of this we do not know what the future holds for the Steamy's, but we can be sure that it's going to something petty as hell, and we cannot wait to find out.",
   Moments.GetMomentsByTag(Tag.Steamys)
@@ -40,7 +40,7 @@ export const WAN = new IcebergItem(
 
 export const FLOCKA = new IcebergItem(
   "FLOCKA",
-  "FLOCKA",
+  "One day Zach was unable to make it to the show, and thus AB took over on the soundboard. However, not wanting to truly commit to competing with Zach, AB only used a single soundbite... FLOCKA!",
   Moments.GetMomentsByTag(Tag.FLOCKA)
 );
 

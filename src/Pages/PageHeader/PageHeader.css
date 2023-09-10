@@ -1,8 +1,17 @@
 .header {
   display: grid;
-  grid-template-columns: 3fr repeat(5, 1fr);
+  grid-template-columns: 1fr 1fr 5fr 1fr 1fr;
   column-gap: 100px;
-  align-items: center;
+  align-content: center;
+  justify-items: center;
+  background: rgb(171, 60, 173);
+  background: radial-gradient(
+    circle,
+    rgba(171, 60, 173, 1) 0%,
+    rgba(112, 26, 187, 1) 50%,
+    rgba(33, 5, 48, 1) 100%
+  );
+  border-bottom: 5px solid rgb(0, 0, 0);
 }
 
 .button-round {

@@ -1,4 +1,4 @@
-import "./IcebergGrid.css";
+import "./IcebergGridItem.css";
 import IcebergItem from "../../models/IcebergLayers/IcebergItem";
 import { PropsWithChildren } from "react";
 
