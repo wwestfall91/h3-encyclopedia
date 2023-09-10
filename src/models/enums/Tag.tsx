@@ -112,4 +112,5 @@ export enum Tag {
   "VoiceFlamingo-R",
   "Beautiful World",
   "Bomb Threats",
+  "The Drunk Stream",
 }

@@ -1,4 +1,3 @@
-import ResponsiveModal from "../Modals/ResponsiveModal";
 import "./LaserToolTip.css";
 
 function LaserToolTip() {
@@ -6,7 +5,6 @@ function LaserToolTip() {
     <>
       <div className="item-hints">
         <div className="hint" data-position="4">
-          <ResponsiveModal title="Peace & Love" />
           <div className="hint-content do--split-children">
             <p>
               The point of using Lorem Ipsum is that it has a more-or-less

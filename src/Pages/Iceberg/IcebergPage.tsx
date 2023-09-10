@@ -1,8 +1,9 @@
 import { useState } from "react";
-import GridItem from "./GridItem";
 import "./IcebergPage.css";
 import { Moment } from "../../models/Moments/Moment";
 import { Modal } from "../../components/Modals/Modal";
+import IcebergGridItem from "./IcebergGridItem";
+import AllIcebergLayers from "../../models/IcebergLayers/AllIcebergLayers";
 
 export function IcebergPage() {
   function SetModalData(
@@ -35,7 +36,30 @@ export function IcebergPage() {
           <div className="page-layout">
             <div className="iceberg-image">
               <div className="layer 1">
-                <GridItem column={7} row={2}></GridItem>
+                <IcebergGridItem
+                  item={AllIcebergLayers.Layer1.FAMILY}
+                  SetModalData={SetModalData}
+                  column={3}
+                  row={2}
+                ></IcebergGridItem>
+                <IcebergGridItem
+                  item={AllIcebergLayers.Layer1.FootSoldiers}
+                  SetModalData={SetModalData}
+                  column={7}
+                  row={2}
+                ></IcebergGridItem>
+                <IcebergGridItem
+                  item={AllIcebergLayers.Layer1.Frenemies}
+                  SetModalData={SetModalData}
+                  column={4}
+                  row={4}
+                ></IcebergGridItem>
+                <IcebergGridItem
+                  item={AllIcebergLayers.Layer1.PeaceAndLove}
+                  SetModalData={SetModalData}
+                  column={8}
+                  row={4}
+                ></IcebergGridItem>
               </div>
               <div className="layer 2"></div>
               <div className="layer 3"></div>
