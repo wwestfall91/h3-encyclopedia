@@ -1,5 +1,5 @@
 import SoundbiteGrid from "../../components/SoundbiteCard/SoundbiteGrid";
-import "./SoundBitesPage.css";
+import "./SoundBitesPage.scss";
 import HeaderImage from "../../assets/images/H3 Sound Station.png";
 import PageHeader from "../PageHeader/PageHeader";
 
