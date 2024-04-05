@@ -5,9 +5,11 @@ import PageHeader from "../PageHeader/PageHeader";
 
 function Soundbites() {
   return (
-    <div className="soundbite-page-container">
-      <PageHeader image={HeaderImage} class={"header-container"} />
-      <SoundbiteGrid />
+    <div id="SoundbitePage">
+      <div className="soundbite-page-container">
+        <PageHeader image={HeaderImage} class={"header-container"} />
+        <SoundbiteGrid />
+      </div>
     </div>
   );
 }

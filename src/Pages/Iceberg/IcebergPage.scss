@@ -1,0 +1,209 @@
+#IcebergPage {
+  body {
+    background: rgb(113, 0, 0);
+    background: linear-gradient(
+      0deg,
+      rgba(113, 0, 0, 1) 0%,
+      rgba(20, 5, 5, 1) 5%,
+      rgba(0, 0, 0, 1) 21%,
+      rgba(0, 0, 0, 1) 42%,
+      rgba(0, 20, 126, 1) 72%,
+      rgba(83, 149, 255, 1) 100%
+    );
+    height: 379vh;
+  }
+
+  .iceberg-page-container {
+    display: flex;
+    flex-direction: column;
+    height: 369vh;
+    width: 100vw;
+  }
+
+  .iceberg-body-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .iceberg-image {
+    position: absolute;
+    width: 50%;
+    height: 369vh;
+    z-index: 0;
+  }
+
+  .iceberg-layers {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    gap: 3vh;
+  }
+
+  .layer {
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(9, 1fr);
+    border-bottom: 5px solid red;
+    justify-items: center;
+    gap: 5px;
+  }
+
+  .layer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .layer-label {
+    font-size: 3.25vh;
+    font-family: monospace;
+  }
+
+  .item {
+    height: 5vh;
+    width: 7vw;
+    justify-self: center;
+    align-self: center;
+    grid-row-start: var(--row);
+    grid-column-start: var(--column);
+  }
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+    .layer {
+      display: grid;
+      grid-template: repeat(5, 1fr) / repeat(9, 1fr);
+      border-bottom: 5px solid red;
+      justify-items: center;
+      row-gap: 3vh;
+    }
+
+    .iceberg-layers {
+      display: flex;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      gap: 10vh;
+    }
+
+    .iceberg-image {
+      position: absolute;
+      background-position: center;
+      width: 100vw;
+      height: 563vh;
+      z-index: 0;
+    }
+
+    .layer-container {
+      display: none;
+    }
+
+    .layer-label {
+      display: none;
+    }
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    .layer {
+      display: grid;
+      grid-template: repeat(5, 1fr) / repeat(9, 1fr);
+      border-bottom: 5px solid red;
+      justify-items: center;
+      row-gap: 3vh;
+    }
+
+    .iceberg-layers {
+      display: flex;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      gap: 10vh;
+    }
+
+    .iceberg-image {
+      position: absolute;
+      background-position: center;
+      width: 100vw;
+      height: 563vh;
+      z-index: 0;
+    }
+
+    .layer-container {
+      display: none;
+    }
+
+    .layer-label {
+      display: none;
+    }
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    .layer {
+      display: grid;
+      grid-template: repeat(5, 1fr) / repeat(9, 1fr);
+      border-bottom: 5px solid red;
+      justify-items: center;
+      row-gap: 3vh;
+    }
+
+    .iceberg-layers {
+      display: flex;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      gap: 10vh;
+    }
+
+    .iceberg-image {
+      position: absolute;
+      background-position: center;
+      width: 100vw;
+      height: 563vh;
+      z-index: 0;
+    }
+
+    .layer-container {
+      display: none;
+    }
+
+    .layer-label {
+      display: none;
+    }
+  }
+
+  @media all and (max-width: 480px) {
+    .layer {
+      display: grid;
+      grid-template: repeat(5, 1fr) / repeat(9, 1fr);
+      border-bottom: 5px solid red;
+      justify-items: center;
+      row-gap: 3vh;
+    }
+
+    .iceberg-layers {
+      display: flex;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      gap: 10vh;
+    }
+
+    .iceberg-image {
+      position: absolute;
+      background-position: center;
+      width: 100vw;
+      height: 563vh;
+      z-index: 0;
+    }
+
+    .layer-container {
+      display: none;
+    }
+
+    .layer-label {
+      display: none;
+    }
+  }
+}
