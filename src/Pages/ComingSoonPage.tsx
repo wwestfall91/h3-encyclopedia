@@ -1,4 +1,4 @@
-import { NavigationButton } from "../components/Buttons/NavigationButton";
+import { CustomButton } from "../components/Buttons/CustomButton";
 import HeaderImage from "./../assets/images/H3 Sound Station.png";
 import ComingSoonGrid from "../components/SoundbiteCard/ComingSoonGrid";
 import Page from "../models/enums/Page";
@@ -10,10 +10,10 @@ function ComingSoon() {
     <>
       <PageHeader image={HeaderImage} class={"header-purple"} />
       <div className="navigation-grid">
-        <NavigationButton
+        <CustomButton
           page={Page.Soundbites}
           buttonClass="nav-button"
-        ></NavigationButton>
+        ></CustomButton>
       </div>
 
       <ComingSoonGrid></ComingSoonGrid>

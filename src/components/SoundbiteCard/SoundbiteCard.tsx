@@ -1,4 +1,5 @@
 import { Soundbite } from "../../models/Soundbite";
+import "./SoundbiteCard.css";
 
 interface Props {
   soundbite: Soundbite;
@@ -9,18 +10,14 @@ function SoundbiteCard(props: Props) {
   return (
     <>
       <div className="card">
-        {props.soundbite.sound != "" ? (
-          <img
-            src={props.image}
-            onClick={() => PlayAudio(props.soundbite.sound)}
-            className="card__img"
-          />
-        ) : (
-          <img src={props.image} className="card__img grayscale" />
-        )}
+        <img
+          className={props.soundbite ? "card-image" : "card-image grayscale"}
+          src={props.image}
+          onClick={() => PlayAudio(props.soundbite.sound)}
+        />
 
-        <span className="card__footer">
-          <span>{props.soundbite.title}</span>
+        <div className="soundbite-card-footer">
+          <div className="soundbite-card-title">{props.soundbite.title}</div>
           <div>
             <a
               className="soundbite-link"
@@ -33,7 +30,7 @@ function SoundbiteCard(props: Props) {
               {props.soundbite.episode.shortTitle}
             </a>
           </div>
-        </span>
+        </div>
       </div>
     </>
   );

@@ -1,6 +1,4 @@
 import { People } from "../../models/People";
-import SoundbiteList from "./SoundbiteList";
-import "./SoundbiteList.css";
 
 function ComingSoonGrid() {
   return (
@@ -11,12 +9,12 @@ function ComingSoonGrid() {
             .filter((soundbite) => soundbite.sound == "")
             .map((comingSoonSB) => (
               <>
-                <SoundbiteList
+                {/* <SoundbiteList
                   soundbite={comingSoonSB}
                   image={
                     comingSoonSB.image == "" ? person.face : comingSoonSB.image
                   }
-                ></SoundbiteList>
+                ></SoundbiteList> */}
               </>
             ))
         )}

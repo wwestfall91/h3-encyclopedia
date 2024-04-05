@@ -1,0 +1,8 @@
+.soundbite-page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 10vh;
+}

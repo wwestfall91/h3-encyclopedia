@@ -1,10 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Soundbites from "./Pages/SoundBitesPage";
+import Soundbites from "./Pages/SoundBitesPage/SoundBitesPage";
 import Iceberg from "./Pages/Iceberg/IcebergPage";
-import PageHeader from "./Pages/PageHeader/PageHeader";
 import ComingSoon from "./Pages/ComingSoonPage";
-
 function App() {
   return (
     <>

@@ -8,21 +8,3 @@ body {
     rgba(70, 19, 97, 1) 100%
   );
 }
-
-.grid-col-span-2 {
-  grid-column: span 2;
-}
-
-.soundbite-grid {
-  display: grid;
-  grid-template-columns: repeat(14, 1fr);
-  margin-left: 5px;
-}
-
-.navigation-grid {
-  display: grid;
-  grid-template-columns: 10% 10%;
-  gap: 100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}

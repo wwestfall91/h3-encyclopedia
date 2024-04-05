@@ -1,24 +1,38 @@
-.header-purple {
-  display: grid;
-  grid-template-columns: 1fr 1fr 5fr 1fr 1fr;
-  column-gap: 100px;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
-  background: rgb(171, 60, 173);
+.header-container {
+  border-bottom: 5px solid rgb(0, 0, 0);
+  height: 10vh;
   background: radial-gradient(
     circle,
-    rgba(171, 60, 173, 1) 0%,
-    rgba(112, 26, 187, 1) 50%,
-    rgba(33, 5, 48, 1) 100%
+    rgba(171, 60, 173, 1) 30%,
+    rgba(112, 26, 187, 1) 95%,
+    rgb(71, 19, 99, 1) 101%
   );
-  border-bottom: 5px solid rgb(0, 0, 0);
 }
 
+.site-logo {
+  height: 100%;
+  transform: rotate(-2deg);
+}
+
+.header {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  padding-left: 15rem;
+  justify-content: space-between;
+  padding-right: 5rem;
+}
+.right-header {
+  display: flex;
+  height: 60%;
+  width: 40%;
+  align-items: center;
+  gap: 5rem;
+}
 .header-blue {
   display: grid;
-  grid-template-columns: 1fr 1fr 5fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 100px;
   align-content: center;
   justify-content: center;
@@ -53,4 +67,8 @@
 .button-round:active {
   box-shadow: 0 0 2px darkslategray;
   transform: translateY(2px);
+}
+
+.header-item {
+  height: 100%;
 }

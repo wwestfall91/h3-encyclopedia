@@ -1,4 +1,4 @@
-import { NavigationButton } from "../../components/Buttons/NavigationButton";
+import { CustomButton } from "../../components/Buttons/CustomButton";
 import Page from "../../models/enums/Page";
 import "./PageHeader.css";
 
@@ -9,21 +9,15 @@ export interface Props {
 
 function PageHeader(props: Props) {
   return (
-    <>
-      <div className={props.class}>
-        <div></div>
-        <NavigationButton
-          page={Page.Soundbites}
-          buttonClass="nav-button"
-        ></NavigationButton>
-        <img src={props.image}></img>
-        <NavigationButton
-          page={Page.Iceberg}
-          buttonClass="nav-button"
-        ></NavigationButton>
-        <div></div>
+    <div className="header-container">
+      <div className="header">
+        <img className="site-logo" src={props.image}></img>
+        <div className="right-header">
+          <CustomButton page={Page.Soundbites}></CustomButton>
+          <CustomButton page={Page.Iceberg}></CustomButton>
+        </div>
       </div>
-    </>
+    </div>
   );
 }
 
