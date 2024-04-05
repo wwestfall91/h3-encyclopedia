@@ -1,4 +1,4 @@
-import { CustomButton } from "../../components/Buttons/CustomButton";
+import { CustomButton } from "../../components/Buttons/CustomButton/CustomButton";
 import Page from "../../models/enums/Page";
 import "./PageHeader.css";
 
@@ -9,7 +9,7 @@ export interface Props {
 
 function PageHeader(props: Props) {
   return (
-    <div className="header-container">
+    <div className={props.class}>
       <div className="header">
         <img className="site-logo" src={props.image}></img>
         <div className="right-header">

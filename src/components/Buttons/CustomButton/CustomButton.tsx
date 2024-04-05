@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { PageRoute } from "../../models/PageRoute";
+import { PageRoute } from "../../../models/PageRoute";
 import "./CustomButton.css";
 
 export interface Props {

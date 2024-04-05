@@ -1,4 +1,4 @@
-import { CustomButton } from "../../components/Buttons/CustomButton";
+import { CustomButton } from "../../components/Buttons/CustomButton/CustomButton";
 import SoundbiteGrid from "../../components/SoundbiteCard/SoundbiteGrid";
 import Page from "../../models/enums/Page";
 import "./../../App.css";

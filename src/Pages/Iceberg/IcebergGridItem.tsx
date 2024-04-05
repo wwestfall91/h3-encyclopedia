@@ -22,7 +22,7 @@ function IcebergItemButton(props: Props) {
         }
       >
         <button
-          className="nav-button"
+          className="iceberg-button"
           onClick={() =>
             props.SetModalData(
               props.item.title,

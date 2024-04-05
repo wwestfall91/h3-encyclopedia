@@ -38,7 +38,7 @@
   position: absolute;
   justify-content: space-between;
   bottom: 0;
-  width: 110%;
+  width: 101%;
   height: 25%;
   background-color: rgba(0, 0, 0, 0.452);
   backdrop-filter: blur(0.5vw);
@@ -47,12 +47,12 @@
 .soundbite-card-title {
   color: white;
   display: flex;
-  font-size: 1.25vw;
+  font-size: 1vw;
 }
 
 .soundbite-link {
   display: flex;
-  font-size: 1.1vw;
+  font-size: 1vw;
 }
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {
@@ -63,7 +63,10 @@
   }
   .soundbite-link {
     display: flex;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
+  }
+  .soundbite-card-footer {
+    padding: 1.5%;
   }
 }
 
@@ -71,11 +74,11 @@
   .soundbite-card-title {
     color: white;
     display: flex;
-    font-size: 1.75vw;
+    font-size: 1.5vw;
   }
   .soundbite-link {
     display: flex;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
   }
 }
 
