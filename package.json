@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.3.1",
     "class-transformer": "^0.5.1",
     "flexbox": "^0.0.3",
     "list-react-files": "^0.2.0",
