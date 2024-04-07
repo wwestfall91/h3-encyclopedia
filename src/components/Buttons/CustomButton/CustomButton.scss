@@ -1,0 +1,45 @@
+#CustomButton {
+  .custom-button-container {
+    /* Text */
+    // font: 700 1.25vw/3vh Raleway, sans-serif;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+
+    /* Button sizing */
+    padding: 0.85em;
+    width: 100%;
+
+    cursor: pointer;
+
+    /* Effects */
+    position: relative;
+  }
+  .custom-button-container:hover {
+    border: 0.25rem solid rgba(255, 255, 255, 0.404);
+    border-radius: 1rem;
+  }
+
+  .selected {
+    border: 0.25rem solid rgba(255, 255, 255, 0.404);
+    border-radius: 1rem;
+  }
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+    font: 700 5vw/5vh Raleway, sans-serif;
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    font: 700 4vw/3vh Raleway, sans-serif;
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    font: 700 10vw/10vh Raleway, sans-serif;
+  }
+
+  @media all and (max-width: 480px) {
+    width: 100vw;
+  }
+}

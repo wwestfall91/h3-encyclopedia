@@ -10,6 +10,7 @@
 }
 
 .header-container-blue {
+  width: 100vw;
   height: 10vh;
   border-bottom: 5px solid rgb(0, 0, 0);
   background: radial-gradient(
@@ -46,22 +47,51 @@
 }
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {
+  .header {
+    justify-content: end;
+  }
+
+  .site-logo {
+    display: none;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  .header-container {
+  .header {
+    justify-content: start;
+  }
+
+  .site-logo {
     display: none;
   }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
-  .header-container {
+  .header {
+    justify-content: start;
+    flex-shrink: 1;
+  }
+
+  .site-logo {
     display: none;
   }
 }
 
 @media all and (max-width: 480px) {
-  .header-container {
+  .header {
+    justify-content: start;
+  }
+
+  .site-logo {
     display: none;
+  }
+
+  .right-header {
+    display: flex;
+    height: 60%;
+    width: 1rem;
+
+    gap: 5rem;
+    flex-shrink: 1;
   }
 }

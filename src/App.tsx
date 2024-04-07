@@ -9,7 +9,7 @@ function App() {
       <Router>
         <div className="soundbite-navigation"></div>
         <Routes>
-          <Route path="/" Component={Soundbites}></Route>
+          <Route path="/soundbites" Component={Soundbites}></Route>
           <Route path="/comingSoon" Component={ComingSoon}></Route>
           <Route path="/iceberg" Component={Iceberg}></Route>
         </Routes>

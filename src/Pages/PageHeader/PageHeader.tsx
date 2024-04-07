@@ -13,8 +13,20 @@ function PageHeader(props: Props) {
       <div className="header">
         <img className="site-logo" src={props.image}></img>
         <div className="right-header">
-          <CustomButton page={Page.Soundbites}></CustomButton>
-          <CustomButton page={Page.Iceberg}></CustomButton>
+          <CustomButton
+            page={Page.Soundbites}
+            selected={
+              window.location.href.includes(Page.Soundbites.route)
+                ? true
+                : false
+            }
+          ></CustomButton>
+          <CustomButton
+            page={Page.Iceberg}
+            selected={
+              window.location.href.includes(Page.Iceberg.route) ? true : false
+            }
+          ></CustomButton>
         </div>
       </div>
     </div>
