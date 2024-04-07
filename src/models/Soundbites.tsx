@@ -1035,7 +1035,7 @@ export const Love_Anyone_Here_From_Arizona = new Soundbite(
   3008
 );
 export const Love_God_Damn_Rascal = new Soundbite(
-  "god damn rascal",
+  "God damn rascal",
   Soundbites.Love_GodDamnRascal,
   episodes.GetH3TV(30),
   3023
@@ -2154,62 +2154,78 @@ export const CPACAnnouncer_Ladies_And_Gentleman_We_Are_All_Domestic_Terrorists =
 export const AbaAndPreach_BurnTheWitch = new Soundbite(
   "You know the age where we burn the witch? ...",
   Soundbites.AbaAndPreach_BurnTheWitch,
-  new JeffEpisode()
+  episodes.GetAfterDark(108),
+  12939
 );
 export const AbaAndPreach_OmeletteOfKnowledge = new Soundbite(
   "The omelette of KNOWLEDGE",
   Soundbites.AbaAndPreach_OmeletteOfKnowledge,
-  new JeffEpisode()
+  episodes.GetAfterDark(108),
+  12968
 );
 export const AlexJones_DestroyTheChild = new Soundbite(
   "DESTROY THE CHILD!",
   Soundbites.AlexJones_DestroyTheChild,
-  new JeffEpisode()
+  episodes.GetPodcast(77),
+  1593
 );
 export const Boogie_INeverDid = new Soundbite(
   "I NEVER DID. I NEVER DID. I NEEEVER DID!",
   Soundbites.Boogie_INeverDid,
-  new JeffEpisode()
+  episodes.GetOffTheRails(77),
+  1293
 );
 export const Boogie_UnemploymentRant = new Soundbite(
   "*Unemployment Rant*",
   Soundbites.Boogie_UnemploymentRant,
-  new JeffEpisode()
+  episodes.GetOffTheRails(93),
+  10917
 );
 export const CarlosMatos_TheWorldIsNotTheWayItUsedToBe = new Soundbite(
   "THE WORLD IS NOT ANYMORE THE WAY THAT IT USED TO BE!",
   Soundbites.CarlosMatos_TheWorldIsNotTheWayItUsedToBe,
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle(
+    "How To Lose Your Life's Savings w Cryptocurrency"
+  ),
+  110
 );
 export const CarlosMatos_WhatsUp = new Soundbite(
   "WHATSA WHATSA WHATSA WHATSA WHATS UP BITCONNNNECT",
   Soundbites.CarlosMatos_WhatsUp,
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle(
+    "How To Lose Your Life's Savings w Cryptocurrency"
+  ),
+  44
 );
 export const CharlieKirk_IfISeeABlackPilot = new Soundbite(
   "If I see a black pilot...",
   Soundbites.CharlieKirk_IfISeeABlackPilot,
-  new JeffEpisode()
+  episodes.GetH3TV(105),
+  5772
 );
 export const ColleenBallinger_FuckMeRight = new Soundbite(
   "Fuck me right?",
   Soundbites.ColleenBallinger_FuckMeRight,
-  new JeffEpisode()
+  episodes.GetH3TV(82),
+  8593
 );
 export const DaliLama_SuckMyTongue = new Soundbite(
   "Suck... My Tongue",
   Soundbites.DaliLama_SuckMyTongue,
-  new JeffEpisode()
+  episodes.GetOffTheRails(67),
+  5349
 );
 export const Dan_PutYourBallsInMyMouth = new Soundbite(
   "Put your balls in my mouth",
   Soundbites.Dan_PutYourBallsInMyMouth,
-  new JeffEpisode()
+  episodes.GetOffTheRails(62),
+  4419
 );
 export const DJKhaled_TheWholeOcean = new Soundbite(
   "Tell em' to bring out the whole ocean!",
   Soundbites.DJKhaled_TheWholeOcean,
-  new JeffEpisode()
+  episodes.GetH3TV(85),
+  5171
 );
 export const Drake_Congratulations = new Soundbite(
   "Congrachulations!",
@@ -2231,211 +2247,261 @@ export const Drake_OhMyGod = new Soundbite(
   Soundbites.Drake_OhMyGod,
   new JeffEpisode()
 );
-export const Dream_ANighmareANightmare = new Soundbite(
-  "Tell em' to bring out the whole ocean!",
-  Soundbites.Dream_ANighmareANightmare,
-  new JeffEpisode()
+export const Dream_ANightmareANightmare = new Soundbite(
+  "A nightmare... A nightmare.",
+  Soundbites.Dream_ANightmareANightmare,
+  episodes.GetH3TV(93),
+  9297
 );
 export const Dream_ICantBreathWhenYoureNotThere1 = new Soundbite(
   "I can't breath when you're not there!",
   Soundbites.Dream_ICantBreathWhenYoureNotThere1,
-  new JeffEpisode()
+  episodes.GetH3TV(93),
+  9249
+);
+export const Dream_ICantSleepItsANightmare = new Soundbite(
+  "I can't sleep, it's a nightmare!",
+  Soundbites.Dream_ICantSleepItsANightmare,
+  episodes.GetH3TV(93),
+  9288
 );
 export const Dream_ICantBreathWhenYoureNotThere2 = new Soundbite(
   "I can't BREATH WHEN YOU'RE NOT THEeeRe!",
   Soundbites.Dream_ICantBreathWhenYoureNotThere2,
-  new JeffEpisode()
+  episodes.GetH3TV(93),
+  9300
 );
 export const Dream_YoureNotThere = new Soundbite(
-  "You're not there... You're not there",
+  "You're not there... You're not there.",
   Soundbites.Dream_YoureNotThere,
-  new JeffEpisode()
+  episodes.GetH3TV(93),
+  9342
 );
 export const EnriqueIglesias_SingingPoorly = new Soundbite(
-  "♪ ALL I NEEEEEEED IS THE RHYTHM DIVINE!! ... ♫ ",
+  "♪ AlLlL I NeeEEEd iS the RYThM DIViNE!! ... ♪",
   Soundbites.EnriqueIglesias_SingingPoorly,
-  new JeffEpisode()
+  episodes.GetOffTheRails(96),
+  743
 );
 
 export const Ericdoa_ImagineIfNinjaGotALowTaperFade = new Soundbite(
   "♪ IMAGINE IF NINJA GOT A LOW TAPER FADE ♪",
   Soundbites.Ericdoa_ImagineIfNinjaGotALowTaperFade,
-  new JeffEpisode()
+  episodes.GetOffTheRails(100),
+  6265
 );
 export const Ethan_DrunkTalk = new Soundbite(
   "SZIT (?) SZIT!!! (?)",
   Soundbites.Ethan_DrunkTalk,
-  new JeffEpisode()
+  episodes.GetAfterDark(23),
+  22987
 );
 export const Ethan_ItsARainyDayOutHereInLosAngeles = new Soundbite(
   "It's a rainy day out here in Los Angeles!",
   Soundbites.Ethan_ItsARainyDayOutHereInLosAngeles,
-  new JeffEpisode()
+  episodes.GetPodcast(267),
+  3
 );
 export const Ethan_XXXTassion = new Soundbite(
   "X-X-X-Tassion",
   Soundbites.Ethan_XXXTassion,
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle("Content Court: JayStation"),
+  314
 );
 
 export const EthanBradberry_TheHeartOfBrooklyn = new Soundbite(
   "I'm from the HEEEART of Brooklyn!",
   Soundbites.EthanBradberry_TheHeartOfBrooklyn,
-  new JeffEpisode()
+  episodes.GetH3TV(105),
+  1173
 );
 
 export const HowieMandel_ImNotGonnaReadIt = new Soundbite(
   "I'm not gonna read it, FUCK YOU",
   Soundbites.HowieMandel_ImNotGonnaReadIt,
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle(
+    "Ethan's Birthday Extravaganza LIVE From The Ace Theater!"
+  ),
+  3910
 );
 
 export const HowieMandel_IsThisCovidRelated = new Soundbite(
-  "Does somebody know, is this Covid Related? ...",
+  "Does anyone know, is this Covid Related? ...",
   Soundbites.HowieMandel_IsThisCovidRelated,
-  new JeffEpisode()
+  episodes.GetH3TV(42),
+  829
 );
 export const HowieMandel_Ow = new Soundbite(
   "Ow",
   Soundbites.HowieMandel_Ow,
-  new JeffEpisode()
+  episodes.GetH3TV(42),
+  829
 );
 export const HowieMandel_ShowUs = new Soundbite(
   "Show Us!! ...",
   Soundbites.HowieMandel_ShowUs,
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle(
+    "Ethan's Birthday Extravaganza LIVE From The Ace Theater!"
+  ),
+  2581
 );
 export const JakeDoolittle_NoEthanThatsNotHowThatWorks = new Soundbite(
   "No - Ethan, that's not how that works",
   Soundbites.JakeDoolittle_NoEthanThatsNotHowThatWorks,
-  new JeffEpisode()
+  episodes.GetH3TV(103),
+  10012
 );
 export const JakeDoolittle_Ooooops = new Soundbite(
   "OooOoOops",
   Soundbites.JakeDoolittle_Ooooops,
-  new JeffEpisode()
+  episodes.GetH3TV(103),
+  13046
 );
 export const JasonReborn_FullGlizzyOverDrive = new Soundbite(
   "Now entering GLIZZY OVERDRIVE",
   Soundbites.JasonReborn_FullGlizzyOverDrive,
-  new JeffEpisode()
+  episodes.GetAfterDark(117),
+  3859
 );
 export const JasonReborn_GlizzyOverdriveConsumption = new Soundbite(
   "*INTENSE GLIZZY NOISES*",
   Soundbites.JasonReborn_GlizzyOverdriveConsumption,
-  new JeffEpisode()
+  episodes.GetAfterDark(117),
+  3877
 );
 
 export const JesseLeePeterson_DoesGodKnowYoureGay = new Soundbite(
-  "*INTENSE GLIZZY NOISES*",
+  "*Does God know you're gay?*",
   Soundbites.JesseLeePeterson_DoesGodKnowYoureGay,
-  new JeffEpisode()
+  episodes.GetH3TV(70),
+  3555
 );
 export const JesseLeePeterson_IDidntKnowYouWereGay = new Soundbite(
-  "*INTENSE GLIZZY NOISES*",
+  "I didn't know you were gay!",
   Soundbites.JesseLeePeterson_IDidntKnowYouWereGay,
-  new JeffEpisode()
+  episodes.GetH3TV(70),
+  3555
 );
 export const JesseLeePeterson_MindBlowin = new Soundbite(
   "Thas Min' Blowin'",
   Soundbites.JesseLeePeterson_MindBlowin,
-  new JeffEpisode()
+  episodes.GetH3TV(70),
+  3514
 );
 export const JesseLeePeterson_Reaaaally = new Soundbite(
   "REeAAally?!",
   Soundbites.JesseLeePeterson_Reaaaally,
-  new JeffEpisode()
+  episodes.GetH3TV(70),
+  3514
 );
 export const JesseLeePeterson_REAALLYThatsMindblowin = new Soundbite(
   "REeAAally?! Thas Min' Blowin'",
   Soundbites.JesseLeePeterson_REAALLYThatsMindblowin,
-  new JeffEpisode()
+  episodes.GetH3TV(70),
+  3514
 );
 export const JesseLeePeterson_YouGay = new Soundbite(
   "You Gay?",
   Soundbites.JesseLeePeterson_YouGay,
-  new JeffEpisode()
+  episodes.GetH3TV(70),
+  3555
 );
 export const JesseLeePeterson_YouGay2 = new Soundbite(
   "You Gaaay?!",
   Soundbites.JesseLeePeterson_YouGay2,
-  new JeffEpisode()
+  episodes.GetH3TV(70),
+  3555
 );
 
 export const JimmieLee_UHHHP = new Soundbite(
   "UhHHhp",
   Soundbites.JimmieLee_UHHHP,
-  new JeffEpisode()
+  episodes.GetOffTheRails(105),
+  1096
 );
 export const JoeBiden_MayoForSam = new Soundbite(
   "MAYO FOR SAM!!",
   Soundbites.JoeBiden_MayoForSam,
-  new JeffEpisode()
+  episodes.GetH3TV(73),
+  10773
 );
 export const JoeRogan_WhereTheWokeMeetsTheWall = new Soundbite(
   "We're the last line of defense - This is where the woke meets the wall",
   Soundbites.JoeRogan_WhereTheWokeMeetsTheWall,
-  new JeffEpisode()
+  episodes.GetOffTheRails(99),
+  6463
 );
 export const JordanPeterson_TakeTheUltimateLoad = new Soundbite(
   "You can take the ULTIMATE load",
   Soundbites.JordanPeterson_TakeTheUltimateLoad,
-  new JeffEpisode()
+  episodes.GetOffTheRails(107),
+  5281
 );
 export const KidRock_GrandpasFeelingALittleFrisky = new Soundbite(
   "Grandpa's feeling a little frisky",
   Soundbites.KidRock_GrandpasFeelingALittleFrisky,
-  new JeffEpisode()
+  episodes.GetPodcast(269),
+  2950
 );
 export const Love_5000DunGarne = new Soundbite(
   "5000 dun garne",
   Soundbites.Love_5000DunGarne,
-  new JeffEpisode()
+  episodes.GetH3TV(30),
+  3099
 );
 export const Love_oOoOoeeee = new Soundbite(
   "5000 dun garne",
   Soundbites.Love_oOoOoeeee,
-  new JeffEpisode()
+  episodes.GetH3TV(30),
+  3021
 );
 export const Love_ShweeEeeeEeEee = new Soundbite(
-  "5000 dun garne",
-  Soundbites.Love_oOoOoeeee,
-  new JeffEpisode()
+  "SHWEEEE",
+  Soundbites.Love_ShweeEeeeEeEee,
+  episodes.GetH3TV(30),
+  3404
 );
 export const Love_WheresMyShoompaLoompa = new Soundbite(
   "Where's my shoompa loompa?",
   Soundbites.Love_WheresMyShoompaLoompa,
-  new JeffEpisode()
+  episodes.GetAfterDark(111),
+  9012
 );
 export const Love_WhatTheHeckinDog = new Soundbite(
   "What the heckin' dog?!",
   Soundbites.Love_WhatTheHeckinDog,
-  new JeffEpisode()
+  episodes.GetH3TV(30),
+  3108
 );
 export const Love_Yeeeee = new Soundbite(
   "YeEeEEee!!",
   Soundbites.Love_Yeeeee,
-  new JeffEpisode()
+  episodes.GetH3TV(30),
+  3021
 );
 export const MarkZuckerberg_GoodSmokyFlavor = new Soundbite(
   "Good Smokey Flavor",
   Soundbites.MarkZuckerberg_GoodSmokyFlavor,
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle("Becoming THE ZUCC (ft idubbbz)"),
+  1035
 );
 export const MarkZuckerberg_SmokingTheseMeats = new Soundbite(
   "Smoking these meats!",
   Soundbites.MarkZuckerberg_SmokingTheseMeats,
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle("Becoming THE ZUCC (ft idubbbz)"),
+  1035
 );
 export const MartinSsempa_EatingPooPooAllOver = new Soundbite(
   "And this one is eating the poo poo all over the place",
   Soundbites.MartinSsempa_EatingPooPooAllOver,
-  new JeffEpisode()
+  episodes.GetAfterDark(3),
+  7287
 );
 export const MikaylaNogueira_MAKEUPBAG = new Soundbite(
   "This filter is suppose to make you look like BAHBEE",
   Soundbites.Mikayla_MAKEUPBAG,
-  new JeffEpisode()
+  episodes.GetH3TV(78),
+  7217
 );
 export const Misc_BonkNoise = new Soundbite(
   "*BONK*",
@@ -2450,22 +2516,26 @@ export const Misc_Bruh = new Soundbite(
 export const Misc_DeathBell = new Soundbite(
   "The death bell tolls.",
   Soundbites.Misc_DeathBell,
-  new JeffEpisode()
+  episodes.GetLeftovers(52),
+  3077
 );
 export const Ninja_Balenciaga = new Soundbite(
-  "Balenciaga",
+  "Balenciagaaa",
   Soundbites.Ninja_Balenciaga,
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle("We Play Silent Library 2 And Regret It"),
+  165
 );
 export const Ninja_CantControlMyGoo = new Soundbite(
   "I can't control my GOOOO",
   Soundbites.Ninja_CantControlMyGoo,
-  new JeffEpisode()
+  episodes.GetOffTheRails(52),
+  1758
 );
 export const Penguiz0_CookieRant = new Soundbite(
   "$28, no matter how you spin this is A LOT for some Cookies... ...",
   Soundbites.Penguiz0_CookieRant,
-  new JeffEpisode()
+  episodes.GetH3TV(99),
+  10981
 );
 export const PhillyD_supsupsupsup = new Soundbite(
   "SUP SUP SUP SUP SUP SUP SUP",
@@ -2475,75 +2545,87 @@ export const PhillyD_supsupsupsup = new Soundbite(
 export const RichardSimons_Screaming = new Soundbite(
   "**Screams as car runs over foot**",
   Soundbites.RichardSimons_Screaming,
-  new JeffEpisode()
+  episodes.GetH3TV(113),
+  7433
 );
 export const RichLux_DanIsJealousOfMe = new Soundbite(
   "Dan... Is jealous of me",
   Soundbites.RichLux_DanIsJealousOfMe,
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle("See You Next Tuesday #31"),
+  2284
 );
 export const RichLux_ICantStandDan = new Soundbite(
   "I can't STAND Dan",
   Soundbites.RichLux_ICantStandDan,
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle("See You Next Tuesday #31")
 );
 export const RichLux_SpaceMountain = new Soundbite(
   "Can't even ride Space Mountain without Dan ruining my vacation",
   Soundbites.RichLux_SpaceMountain,
-  new JeffEpisode()
+  episodes.GetEpisodeByTitle("See You Next Tuesday #31")
 );
 export const RyanKavanaugh_ThankYouLuke = new Soundbite(
   "Thank you Luke",
   Soundbites.RyanKavanaugh_ThankYouLuke,
-  new JeffEpisode()
+  episodes.GetH3TV(21),
+  4663
 );
 export const SenatorJohnKennedy_BlowJobOfYourLife = new Soundbite(
   "I'm going to give you the blowjob of your life",
   Soundbites.SenatorJohnKennedy_BlowJobOfYourLife,
-  new JeffEpisode()
+  episodes.GetLeftovers(57),
+  5526
 );
 export const SenatorJohnKennedy_ICantWaitToHaveYourCockInMyMouth =
   new Soundbite(
     "I can't wait to have your cock in my mouth",
     Soundbites.SenatorJohnKennedy_ICantWaitToHaveYourCockInMyMouth,
-    new JeffEpisode()
+    episodes.GetLeftovers(57),
+    5526
   );
 export const SenatorJohnKennedy_IGotANewStrapOnHarnessToday = new Soundbite(
   "I got a new strap on harness today",
   Soundbites.SenatorJohnKennedy_IGotANewStrapOnHarnessToday,
-  new JeffEpisode()
+  episodes.GetLeftovers(57),
+  5526
 );
 export const SenatorJohnKennedy_IGotSomeLubeOnAndGotHimOnHisKnees =
   new Soundbite(
     "I got some lube on and got him on his knee's",
     Soundbites.SenatorJohnKennedy_IGotSomeLubeOnAndGotHimOnHisKnees,
-    new JeffEpisode()
+    episodes.GetLeftovers(57),
+    5526
   );
 export const SenatorJohnKennedy_IPullOutOfHimAndKissedHimWhileHeMasturbated =
   new Soundbite(
     "I pulled out of him and kissed him while he masturbated",
     Soundbites.SenatorJohnKennedy_IPullOutOfHimAndKissedHimWhileHeMasturbated,
-    new JeffEpisode()
+    episodes.GetLeftovers(57),
+    5526
   );
 export const SenatorJohnKennedy_IWantYouInsideOfMe = new Soundbite(
   "I want you inside of me",
   Soundbites.SenatorJohnKennedy_IWantYouInsideOfMe,
-  new JeffEpisode()
+  episodes.GetLeftovers(57),
+  5526
 );
 export const SenatorJohnKennedy_SlippedACondomOn = new Soundbite(
   "He asked me to turn over while he slipped a condom on himself",
   Soundbites.SenatorJohnKennedy_SlippedACondomOn,
-  new JeffEpisode()
+  episodes.GetLeftovers(57),
+  5526
 );
 export const SenatorJohnKennedy_SlowlyInsertedIntoMe = new Soundbite(
   "He got on top and slowly inserted himself into me",
   Soundbites.SenatorJohnKennedy_SlowlyInsertedIntoMe,
-  new JeffEpisode()
+  episodes.GetLeftovers(57),
+  5526
 );
 export const SenatorJohnKennedy_ThisWasMyAss = new Soundbite(
   "This was MY ASS",
   Soundbites.SenatorJohnKennedy_ThisWasMyAss,
-  new JeffEpisode()
+  episodes.GetLeftovers(57),
+  5526
 );
 export const StephenCrowder_OhNoSamSeder = new Soundbite(
   "Oh no, what a fucking nightmare!",
@@ -2560,90 +2642,87 @@ export const TheGoodDoctor_CantDoThis = new Soundbite(
 export const TheGoodDoctor_IAmASurgeon = new Soundbite(
   "I AM A SURGEON",
   Soundbites.TheGoodDoctor_IAmASurgeon,
-  episodes.GetPodcast(248),
-  630
+  episodes.GetOffTheRails(71),
+  6496
 );
 export const TheGoodDoctor_ISaidNoPickles = new Soundbite(
   "I said no pickles...",
   Soundbites.TheGoodDoctor_ISaidNoPickles,
-  episodes.GetPodcast(248),
-  630
+  episodes.GetH3TV(102),
+  6808
 );
 export const TheGoodDoctor_No = new Soundbite(
   "Nooo!",
   Soundbites.TheGoodDoctor_No,
-  episodes.GetPodcast(248),
-  630
+  episodes.GetOffTheRails(71),
+  6622
 );
 export const TheGoodDoctor_NoNoNo = new Soundbite(
   "No-No-Nooo!",
   Soundbites.TheGoodDoctor_NoNoNo,
-  episodes.GetPodcast(248),
-  630
+  episodes.GetOffTheRails(71),
+  6622
 );
 export const Tipster_GivingItToYourMom = new Soundbite(
   "... When I was giving it to your FUCKING MOM!",
   Soundbites.Tipster_GivingItToYourMom,
-  episodes.GetPodcast(248),
-  630
+  episodes.GetH3TV(103),
+  12510
 );
 export const Tipster_VaginaLooksLike = new Soundbite(
-  "At least I know what a vagina looks like",
+  "At least I've seen what a vagina looks like",
   Soundbites.Tipster_VaginaLooksLike,
-  episodes.GetPodcast(248),
-  630
+  episodes.GetAfterDark(112),
+  922
 );
 export const Trump_BlowinOutMyVoiceTalkingToThisStupidMic = new Soundbite(
   "I'm blowin' out my voice talking in this stupid mic!",
   Soundbites.Trump_BlowinOutMyVoiceTalkingToThisStupidMic,
-  episodes.GetPodcast(248),
-  630
+  new JeffEpisode()
 );
 export const Trump_DontCallHimAFatPig = new Soundbite(
   "Don't call him a fat pig",
   Soundbites.Trump_DontCallHimAFatPig,
-  episodes.GetPodcast(248),
-  630
+  episodes.GetLeftovers(54),
+  6657
 );
 export const Trump_ExtremelyWet = new Soundbite(
   "EXTREMELY WET",
   Soundbites.Trump_ExtremelyWet,
-  episodes.GetPodcast(248),
-  630
+  episodes.GetLeftovers(54),
+  6581
 );
 export const Trump_Its104Or5DegressInThisRoom = new Soundbite(
   "It's about 104 or 5 degrees in this room",
   Soundbites.Trump_Its104Or5DegressInThisRoom,
-  episodes.GetPodcast(248),
-  630
+  episodes.GetLeftovers(54),
+  6581
 );
 export const Trump_ThisIsTheWorstMicrophoneIveEverHad = new Soundbite(
   "This is the worst microphone I think I've ever had.",
   Soundbites.Trump_ThisIsTheWorstMicrophoneIveEverHad,
-  episodes.GetPodcast(248),
-  630
+  new JeffEpisode()
 );
 export const Trump_PleaseDoNotCallHimAFatPig = new Soundbite(
   "Please do not call him a fat pig",
   Soundbites.Trump_PleaseDoNotCallHimAFatPig,
-  episodes.GetPodcast(248),
-  630
+  episodes.GetLeftovers(54),
+  6657
 );
 export const Trump_WorstMicIveEverHad = new Soundbite(
   "This is the worst mic I've ever had",
   Soundbites.Trump_WorstMicIveEverHad,
-  episodes.GetPodcast(248),
-  630
+  new JeffEpisode()
 );
 export const Vaush_TakomaWept = new Soundbite(
   "Takoma Wept",
   Soundbites.Vaush_TakomaWept,
-  episodes.GetPodcast(248),
-  630
+  episodes.GetAfterDark(136),
+  8748
 );
 export const YilongMe_GiveToYa = new Soundbite(
   "GIB TO YA",
   Soundbites.YilongMe_GiveToYa,
-  episodes.GetPodcast(248),
-  630
+  episodes.GetPodcast(257),
+  3306
 );

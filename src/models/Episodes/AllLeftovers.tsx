@@ -297,7 +297,7 @@ export const AllLeftovers: Episode[] = new Array(
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    `Mitch McConnell DIES On Live TV (RIP Bozo) - Leftovers #52`,
+    `Mitch McConnell DIES On Live TV (RIP Bozo) - Leftovers 1`,
     `https://youtu.be/JeUGqefy2TQ`,
     `7-27-2023`,
     [EpisodeType.Leftovers]
@@ -306,6 +306,18 @@ export const AllLeftovers: Episode[] = new Array(
     `Trump's 3rd Indictment - Leftovers #53`,
     `https://youtu.be/PuHpRtKf3Mw`,
     `8-3-2023`,
+    [EpisodeType.Leftovers]
+  ),
+  new Episode(
+    `Crowder Can't Stop Taking Massive L's - Leftovers #54`,
+    `https://youtu.be/Pi6I56w96nE`,
+    `8-10-2023`,
+    [EpisodeType.Leftovers]
+  ),
+  new Episode(
+    `Joe Biden Is Getting Impeached - Leftovers #57`,
+    `https://youtu.be/EeFuFKH-uOo`,
+    `9-14-2023`,
     [EpisodeType.Leftovers]
   )
 );

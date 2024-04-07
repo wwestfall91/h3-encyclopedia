@@ -457,5 +457,191 @@ export const AllOffTheRails: Episode[] = new Array(
     `https://youtu.be/MDG-CAU6sk8`,
     `8-2-2023`,
     [EpisodeType.OTR]
+  ),
+  new Episode(
+    "ThisBeautyTikTokerIsComingAfterMeOffTheRails#111",
+    "https://www.youtube.com/watch?v=xIl2dEZnvYQ",
+    "2024-04-03",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "MassiveStevenCrowderLawsuitDiddysMansionsRaidedOffTheRails#110",
+    "https://www.youtube.com/watch?v=Oi-YzJ_3x8E",
+    "2024-03-27",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "DanSchneiderNickelodeonEthanPukedInHisUberOffTheRails#109",
+    "https://www.youtube.com/watch?v=VN3bWz5HfBI",
+    "2024-03-20",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "DebatingFreshFitOffTheRails#108",
+    "https://www.youtube.com/watch?v=lPl1XTHQsHA",
+    "2024-03-13",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "AdinRossTestifiesAgainstAndrewTateOffTheRails#107",
+    "https://www.youtube.com/watch?v=7H2vgnSz0tg",
+    "2024-03-06",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "TheBacH3lorEp#2wJeffWittekTheFirstDatesOffTheRails#106",
+    "https://www.youtube.com/watch?v=HOwHh6xs4eE",
+    "2024-02-28",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "EthanDebatesJesseLeePetersonOffTheRails#105",
+    "https://www.youtube.com/watch?v=8ZkY_nHj3vY",
+    "2024-02-21",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "JeffWittekIsYourBach3lorEpisode#1OTR#104",
+    "https://www.youtube.com/watch?v=ZPdgcyuob2g",
+    "2024-02-14",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "JeffWittekBach3lorApplicationsAreOPENOffTheRails#103",
+    "https://www.youtube.com/watch?v=a2aX3RGRWSg",
+    "2024-02-07",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "AustinsRVBrokeDownHesSleepingOnAnAirMattressOffTheRails#102",
+    "https://www.youtube.com/watch?v=eU2bgjBjUKQ",
+    "2024-01-31",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "EthanGetsALowTaperFadeFromJeffWittekBach3lorAnnouncementOffTheRails#101",
+    "https://www.youtube.com/watch?v=hshRIiyFSu0",
+    "2024-01-24",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "SeanStephensKidnappedExclusiveInterviewAceFamilyUpdatesOffTheRails#100",
+    "https://www.youtube.com/watch?v=cfZM73q7NOc",
+    "2024-01-17",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "GypsyRoseComprehensiveDeepDiveOffTheRails#99",
+    "https://www.youtube.com/watch?v=GBj19zjrWzQ",
+    "2024-01-10",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "The2023SoundbiteTournamentOffTheRails#98",
+    "https://www.youtube.com/watch?v=vL8FTN9O4ms",
+    "2023-12-13",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "StavrosHalkiasOffTheRails#97",
+    "https://www.youtube.com/watch?v=QUmPPu8nQlE",
+    "2023-12-06",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "PotatoCookingCompetitionOffTheRails#96",
+    "https://www.youtube.com/watch?v=Z17qb2ybiuI",
+    "2023-11-29",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "ColleenBallingerApologyAnalysisExpertsWeighInOffTheRails#95",
+    "https://www.youtube.com/watch?v=slwIBihA6HI",
+    "2023-11-22",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "MikeLindellCallsInNewJamesCharlesAccusationWillSmithHumiliatedOffTheRails#94",
+    "https://www.youtube.com/watch?v=R8IClKasNBU",
+    "2023-11-15",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "Boogie2988DocumentaryJeffWittekHarassedByDobrikFanRyanKavanaughFailurePodcastOTR#93",
+    "https://www.youtube.com/watch?v=FCzT_C9CJew",
+    "2023-11-08",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "WeDoJadeGamblingLIVERichLuxvsDanHugeBobaScandalOffTheRails#92",
+    "https://www.youtube.com/watch?v=HbhH3KAN75I",
+    "2023-11-01",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "DishwasherVsFilthyDishesExperimentPranksterArrestedInJapanOffTheRails#91",
+    "https://www.youtube.com/watch?v=WVwlc6pIBVs",
+    "2023-10-25",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "22YearOldManTriesVegetablesForTheFirstTimeOffTheRails#90",
+    "https://www.youtube.com/watch?v=vI6gooWrtX8",
+    "2023-10-18",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "HowWellDoesEthanKnowTheCrewTheGameShowOffTheRails#89",
+    "https://www.youtube.com/watch?v=YmbtrKQIgd8",
+    "2023-10-11",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "ShockingNewDavidDobrikAllegationsBarstoolvsTaylorSwiftOffTheRails#88",
+    "https://www.youtube.com/watch?v=2bgjMRQJ6wI",
+    "2023-10-04",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "KoreanFoodTasteTestTaylorSwiftsNewBoyfriendPowerPointOffTheRails#87",
+    "https://www.youtube.com/watch?v=R8Y-ih8DLlc",
+    "2023-09-27",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "ColleenCheatingScandalFtSWOOP8PassengersUpdateOffTheRails#86",
+    "https://www.youtube.com/watch?v=OHEugdCtZdk",
+    "2023-09-20",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "JojoSiwaDefendsColleenBallingerOffTheRails#85",
+    "https://www.youtube.com/watch?v=2MsD5d7Nakg",
+    "2023-09-13",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "8PassengersUpdateEDPCaughtAgainBurningManDisasterOffTheRails#84",
+    "https://www.youtube.com/watch?v=-kXDNhjOtpA",
+    "2023-09-06",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "FreshFitGotBannedOnYouTubeRIPBozosOffTheRails#83",
+    "https://www.youtube.com/watch?v=Tzjt_KVK58w",
+    "2023-08-23",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "TryingDIYTiktokBathroomRecipesOffTheRails#82",
+    "https://www.youtube.com/watch?v=oj8MPSogvvE",
+    "2023-08-16",
+    [EpisodeType.OTR]
+  ),
+  new Episode(
+    "xQcFalloutHowieLiveDisasterMrBeastIsBeingSuedFor100MillionOffTheRails#81",
+    "https://www.youtube.com/watch?v=-heIMOy6qDs",
+    "2023-08-09",
+    [EpisodeType.OTR]
   )
 );

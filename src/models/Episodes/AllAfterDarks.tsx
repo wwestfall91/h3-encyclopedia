@@ -651,5 +651,179 @@ export const AllAfterDarks: Episode[] = new Array(
     `https://youtu.be/eJDEB-EeV0E`,
     `8-4-2023`,
     [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "CameronIsLeavingTheShowAfterDark#143",
+    "https://www.youtube.com/watch?v=HiGxuc1bSvo",
+    "03-29-24",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "TheBacH3lorEp#4MakingPotterywMaeganFtJeffWittekAfterDark#142",
+    "https://www.youtube.com/watch?v=zfYk1bimFMM",
+    "03-22-24",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "TheBacH3lorEp#3ARomanticBoatRidewMorganFtJeffWittekAfterDark#141",
+    "https://www.youtube.com/watch?v=MBDl186rta8",
+    "03-15-24",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "ComplimentBattle2AfterDark#140",
+    "https://www.youtube.com/watch?v=TjYCBzI_Cwk",
+    "03-08-24",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "JayShettyExposedByExGirlfriendHeLiedAboutBeingAMonkAfterDark#139",
+    "https://www.youtube.com/watch?v=5XrPXgcKwVc",
+    "03-01-24",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "ContentCourtAdinRossAfterDark#138",
+    "https://www.youtube.com/watch?v=tYxHTHIXg7s",
+    "02-23-24",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "EthansRighteousCrusadeAgainstTheWickedLolipopsAfterDark#137",
+    "https://www.youtube.com/watch?v=gjKye-weNxw",
+    "02-16-24",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "EarthquakeHitsTheStudioLIVETheMostShockingLeakWeveSeenInYearsAfterDark#136",
+    "https://www.youtube.com/watch?v=H61pA1ZPTs8",
+    "02-09-24",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "AustinMcBroomHasJumpedTheSharkAfterDark#135",
+    "https://www.youtube.com/watch?v=5VZIfAv63i8",
+    "02-02-24",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "DavidDobrikCallsOutJasonNashBenShaprioDropsRapSongAfterDark#134",
+    "https://www.youtube.com/watch?v=-kKCjzHAJtQ",
+    "01-26-24",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "MASSIVELAWSUITUPDATEAfterDark#133",
+    "https://www.youtube.com/watch?v=VsG_aWgJkHk",
+    "01-19-24",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "AceFamilyDivorceAfterDark#132",
+    "https://www.youtube.com/watch?v=z9IPrpq6wVs",
+    "01-12-24",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "MattRifeDramaPowerPointMeetOurNewPuppyAfterDark#131",
+    "https://www.youtube.com/watch?v=evmZ3TGPbbk",
+    "12-15-23",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "SelenaGomezsFansAreTurningOnHerEveryoneIsMADAfterDark#130",
+    "https://www.youtube.com/watch?v=2WZn429v00U",
+    "12-08-23",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "RevealingOurEmbarrassingSpotifyWrappedAfterDark#129",
+    "https://www.youtube.com/watch?v=5izWSo355J8",
+    "12-01-23",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "NewBoogie2988DramaIsSoGoodRomanAtwoodDeepDiveftWhitneyCummingsAfterDark#128",
+    "https://www.youtube.com/watch?v=zXshaFr2szY",
+    "11-17-23",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "DreamSongRemixTournamentAfterDark#127",
+    "https://www.youtube.com/watch?v=lMKbp80Uhyw",
+    "11-10-23",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "DreamConfrontsUsForStealingHisSongNewEvidenceInTheMrBeastScandalAfterDark#126",
+    "https://www.youtube.com/watch?v=3SwwKqSeF6c",
+    "11-03-23",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "MrBeastCalledOutForFakingVideoNewDavidDobrikClipIsHorrifyingFtPokimaneAD#125",
+    "https://www.youtube.com/watch?v=lNfOxmaiFJ0",
+    "10-27-23",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "SSSniperwolfCancelledDemonetizedCrewWritesEthanPoemsDishwasherDebateAfterDark#124",
+    "https://www.youtube.com/watch?v=9tcQINAY-Ic",
+    "10-20-23",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "The2023SubathonBonanzaAfterDark#123",
+    "https://www.youtube.com/watch?v=omM-bRIBEng",
+    "10-06-23",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "OliverTreeBackInTheStudioForASeriousInterviewAfterDark#122",
+    "https://www.youtube.com/watch?v=COwUauc8cY4",
+    "09-29-23",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "RussellBrandIsAWeirdFreakLoserWeNeverLikedHimAnywayAfterDark#121",
+    "https://www.youtube.com/watch?v=591_hT-rWjc",
+    "09-22-23",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "TheCrewPaintsEthanWeTakeARedFlagDatingTestWeRuinHowieMandelsLifeAfterDark#120",
+    "https://www.youtube.com/watch?v=-pPIPXwK1wQ",
+    "09-15-23",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "JoeJonasSophieTurnerDivorcePPGayObamaScandalDillonDanisLoganPaulAfterDark#119",
+    "https://www.youtube.com/watch?v=uJVzxi2WNGw",
+    "09-08-23",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "FamilyVlogger8PassengersArrestedWarWithStreamysJayShettyContinuesAfterDark#118",
+    "https://www.youtube.com/watch?v=ObXKADhOoxU",
+    "09-01-23",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "WePlayTheBabyPhotoGuessingGameAfterDark#117",
+    "https://www.youtube.com/watch?v=HbATtwgldBw",
+    "08-25-23",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "TryingWeirdPregnancyCravingCombosLoveMakesAnEthanSculptureAfterDark#116",
+    "https://www.youtube.com/watch?v=DWY8krPi_Sc",
+    "08-18-23",
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
+    "xQcIsStillALoserEthansFirstThirstTrapLoganPaulIndictedAfterDark#115",
+    "https://www.youtube.com/watch?v=JKiAcq2q4Vg",
+    "08-11-23",
+    [EpisodeType.AfterDark]
   )
 );

@@ -39,7 +39,6 @@ export class Episode {
   }
 
   getTimestampURL(seconds: number) {
-    console.log(this.URL);
     if (this.URL.includes("youtu.be")) {
       return `${this.URL}?t=${seconds}`;
     }

@@ -505,5 +505,161 @@ export const AllH3TVs: Episode[] = new Array(
     `https://youtu.be/i_gylTJdgeY`,
     `08-14-2023`,
     [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "RespondingToTheAllegations",
+    "https://www.youtube.com/watch?v=zkoKnz5zE3o",
+    "2024-04-01",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "TheBacH3lorEp#5ABeachPicnicWithVericaFtJeffWittekH3TV#112",
+    "https://www.youtube.com/watch?v=9Lm16M0pafY",
+    "2024-03-25",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "WeGetSloshedForStPaddysDayH3TV#111",
+    "https://www.youtube.com/watch?v=qIcAvk1z4iM",
+    "2024-03-18",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "ImTakingAnIndefiniteBreakH3TV#110",
+    "https://www.youtube.com/watch?v=X4WWPKqleZs",
+    "2024-03-11",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "BeavoInTheStudioH3TV#109",
+    "https://www.youtube.com/watch?v=qTHgq8Snxxw",
+    "2024-03-04",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "MassiveBeavoUpdatesVaushResponds8PassengersRubyFrankeSentencedH3TV#108",
+    "https://www.youtube.com/watch?v=B3FlUe8izyI",
+    "2024-02-20",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "VaushNoMoreHorsingAroundH3TV#107",
+    "https://www.youtube.com/watch?v=Uf6JFPY0g2Y",
+    "2024-02-12",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "AdinRossScammedFor2MillionLiveBeavoCheatsOnHisGirlfriendFtMarcRebilletH3TV#106",
+    "https://www.youtube.com/watch?v=euwdGWvS4Q4",
+    "2024-02-05",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "AustinMcBroomLivesInAVanOutsideHisExWifesHouseH3TV#105",
+    "https://www.youtube.com/watch?v=k1VrTaTohWA",
+    "2024-01-29",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "JayShettyThreatenedMeInInstagramDMsH3TV#104",
+    "https://www.youtube.com/watch?v=65BnjSw3EEQ",
+    "2024-01-22",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "EthanAdmitsToFakingIllnessForMoneyH3TV#103",
+    "https://www.youtube.com/watch?v=WuaEyOStUds",
+    "2024-01-08",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "DavidDobrikSuedByStateFarmOverJeffWittekInjuryCrewDesignsNewUniformsH3TV#102",
+    "https://www.youtube.com/watch?v=_uO9aEEOUa8",
+    "2023-12-11",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "EthanDoesAcupunctureWithSteveOH3TV#101",
+    "https://www.youtube.com/watch?v=uvV6dwI6auI",
+    "2023-12-04",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "EthansInsaneThanksgivingDramaH3TV#100",
+    "https://www.youtube.com/watch?v=mjVWGr4v-6w",
+    "2023-11-27",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "ColleenReturnsToYouTubePokimaneCookieControversyH3TV#99",
+    "https://www.youtube.com/watch?v=npYrseihU8E",
+    "2023-11-20",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "DavidDobrikHasHurtAnotherPersonH3TV#98",
+    "https://www.youtube.com/watch?v=v97xGpOpzuM",
+    "2023-11-13",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "WasJordanPetersonRightAboutMeBadNewsAboutJimmyLeeH3TV#97",
+    "https://www.youtube.com/watch?v=GtRc3HPYFdQ",
+    "2023-11-06",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "AreYouFasterThanMichaelMyersHalloweenSpecialH3TV#96",
+    "https://www.youtube.com/watch?v=tRJYcVslWg8",
+    "2023-10-30",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "AdinRossKickedFromTwitchConMrBeastRoastedOnTwitterH3TV#95",
+    "https://www.youtube.com/watch?v=vGqJWGZTpcI",
+    "2023-10-23",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "SssniperwolfDoxxedJacksfilmsH3TV#94",
+    "https://www.youtube.com/watch?v=VBM5JQx3eSU",
+    "2023-10-16",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "i made a mistake im sorry H3TV#93",
+    "https://www.youtube.com/watch?v=ZNFeRPMOu8g",
+    "2023-10-09",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "EthanRuinedHisNewTattooH3TV#92",
+    "https://www.youtube.com/watch?v=pK6dg-BRiqU",
+    "2023-10-02",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "RussellBrandSentUsaLegalNoticeEthansTattooWentHorriblyWrongH3TV#91",
+    "https://www.youtube.com/watch?v=qbDqgYZBEeY",
+    "2023-09-25",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "8PassengersMomBlamesKidsTheCrewTookDNATestsH3TV#90",
+    "https://www.youtube.com/watch?v=Xz4-cgBboe0",
+    "2023-09-11",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "WeWentToTheStreamysLostDuringACommercialBreakH3TV#89",
+    "https://www.youtube.com/watch?v=Mifmb_p4ec0",
+    "2023-08-28",
+    [EpisodeType.H3TV]
+  ),
+  new Episode(
+    "TheColleenBallingerSagaTookAWeirdNewTurnH3TV#88",
+    "https://www.youtube.com/watch?v=iU67JsRQRkc",
+    "2023-08-21",
+    [EpisodeType.H3TV]
   )
 );

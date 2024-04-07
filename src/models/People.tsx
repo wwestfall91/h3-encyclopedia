@@ -106,12 +106,7 @@ export const People: Person[] = new Array(
     [SB.BenShapiro_Extra_Large_And_Extra_Hard, SB.BenShapiro_Wet_Ass_PWord],
     "https://media1.dallasobserver.com/dal/imager/u/slideshow/13981415/ben-shapiro-credit-jason-kempin-getty.jpg"
   ),
-  new Person(
-    "Bill",
-    "O'Reilly",
-    [],
-    "https://assets.vogue.com/photos/58f7b8be19582741002751d1/master/w_2560%2Cc_limit/00-lede-bill-oreilly.jpg"
-  ),
+
   new Person(
     "Boogie2988",
     "",
@@ -345,7 +340,7 @@ export const People: Person[] = new Array(
     "Richard",
     "Simmons",
     [SB.RichardSimons_Screaming],
-    "https://nypost.com/wp-content/uploads/sites/2/2023/07/NYPICHPDPICT000013990442.jpg?w=745"
+    "https://www.the-sun.com/wp-content/uploads/sites/6/2022/08/NINTCHDBPICT000754765106-2.jpg"
   ),
   new Person(
     "Rich",
@@ -383,7 +378,7 @@ export const People: Person[] = new Array(
     "",
     [
       SB.Dream_Hell_Yeah_HELL_YEAH,
-      SB.Dream_ANighmareANightmare,
+      SB.Dream_ANightmareANightmare,
       SB.Dream_ICantBreathWhenYoureNotThere1,
       SB.Dream_ICantBreathWhenYoureNotThere2,
       SB.Dream_YoureNotThere,

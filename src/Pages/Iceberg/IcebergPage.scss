@@ -1,4 +1,5 @@
 #IcebergPage {
+  height: 560vh;
   body {
     background: rgb(113, 0, 0);
     background: linear-gradient(
@@ -10,7 +11,7 @@
       rgba(0, 20, 126, 1) 72%,
       rgba(83, 149, 255, 1) 100%
     );
-    height: 379vh;
+    height: 100%;
     place-items: none;
   }
 
@@ -37,21 +38,21 @@
   .iceberg-page-container {
     display: flex;
     flex-direction: column;
-    height: 369vh;
+    height: 100%;
     width: 100vw;
   }
 
   .iceberg-body-container {
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 98%;
     justify-content: center;
   }
 
   .iceberg-image {
-    position: absolute;
+    position: relative;
     width: 50%;
-    height: 369vh;
+    height: 100%;
     z-index: 0;
   }
 
@@ -66,10 +67,9 @@
 
   .layer {
     display: grid;
-    grid-template: repeat(5, 1fr) / repeat(9, 1fr);
-    border-bottom: 5px solid red;
+    grid-template: repeat(6, 1fr) / repeat(10, 1fr);
     justify-items: center;
-    gap: 5px;
+    gap: 2.5vh;
   }
 
   .layer-container {
@@ -99,7 +99,6 @@
     .layer {
       display: grid;
       grid-template: repeat(5, 1fr) / repeat(9, 1fr);
-      border-bottom: 5px solid red;
       justify-items: center;
       row-gap: 3vh;
     }
@@ -132,7 +131,6 @@
     .layer {
       display: grid;
       grid-template: repeat(5, 1fr) / repeat(9, 1fr);
-      border-bottom: 5px solid red;
       justify-items: center;
       row-gap: 3vh;
     }
@@ -166,7 +164,6 @@
     .layer {
       display: grid;
       grid-template: repeat(5, 1fr) / repeat(9, 1fr);
-      border-bottom: 5px solid red;
       justify-items: center;
       row-gap: 3vh;
     }
@@ -204,7 +201,6 @@
     .layer {
       display: grid;
       grid-template: repeat(5, 1fr) / repeat(9, 1fr);
-      border-bottom: 5px solid red;
       justify-items: center;
       row-gap: 3vh;
     }

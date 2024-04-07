@@ -8,9 +8,9 @@ import PageHeader from "./PageHeader/PageHeader";
 function ComingSoon() {
   return (
     <>
-      <PageHeader image={HeaderImage} class={"header-purple"} />
+      <PageHeader image={HeaderImage} class={"page-header-container purple"} />
       <div className="navigation-grid">
-        <CustomButton page={Page.Soundbites}></CustomButton>
+        {/* <CustomButton page={Page.Soundbites} ></CustomButton> */}
       </div>
 
       <ComingSoonGrid></ComingSoonGrid>

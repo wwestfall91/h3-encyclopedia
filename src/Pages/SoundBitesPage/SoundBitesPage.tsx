@@ -7,7 +7,7 @@ function Soundbites() {
   return (
     <div id="SoundbitePage">
       <div className="soundbite-page-container">
-        <PageHeader image={HeaderImage} class={"header-container"} />
+        <PageHeader image={HeaderImage} class={"header-container purple"} />
         <SoundbiteGrid />
       </div>
     </div>

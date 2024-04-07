@@ -10,7 +10,7 @@ function ButtonMoments() {
     <>
       <PageHeader image={HeaderImage} class={"header-purple"} />
       <div className="navigation-grid">
-        <CustomButton page={Page.ComingSoon}></CustomButton>
+        {/* <CustomButton page={Page.ComingSoon}></CustomButton> */}
       </div>
       <SoundbiteGrid />
     </>

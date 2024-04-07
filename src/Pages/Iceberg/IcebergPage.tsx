@@ -28,7 +28,7 @@ export function IcebergPage() {
     <div id="IcebergPage">
       <body>
         <div className="iceberg-page-container">
-          <PageHeader image={HeaderImage} class={"header-container-blue"} />
+          <PageHeader image={HeaderImage} class={"header-container blue"} />
           <Modal
             title={modalTitle}
             description={modalDescription}
@@ -224,7 +224,7 @@ export function IcebergPage() {
                   item={AllIcebergLayers.Layer4.TwentyBillionDollarCompound}
                   SetModalData={SetModalData}
                   row={2}
-                  column={2}
+                  column={1}
                 ></IcebergGridItem>
                 <IcebergGridItem
                   item={AllIcebergLayers.Layer4.WeightsInFish}
@@ -250,7 +250,7 @@ export function IcebergPage() {
                   item={AllIcebergLayers.Layer5.ApologyPodium}
                   SetModalData={SetModalData}
                   row={1}
-                  column={5}
+                  column={4}
                 ></IcebergGridItem>
                 <IcebergGridItem
                   item={AllIcebergLayers.Layer5.BeautifulWorld}
@@ -262,7 +262,7 @@ export function IcebergPage() {
                   item={AllIcebergLayers.Layer5.ChestnutGate}
                   SetModalData={SetModalData}
                   row={2}
-                  column={2}
+                  column={3}
                 ></IcebergGridItem>
                 <IcebergGridItem
                   item={AllIcebergLayers.Layer5.EthanKleinBodyDouble}
@@ -274,7 +274,7 @@ export function IcebergPage() {
                   item={AllIcebergLayers.Layer5.Lou}
                   SetModalData={SetModalData}
                   row={3}
-                  column={2}
+                  column={1}
                 ></IcebergGridItem>
                 <IcebergGridItem
                   item={AllIcebergLayers.Layer5.RKellyPassports}
