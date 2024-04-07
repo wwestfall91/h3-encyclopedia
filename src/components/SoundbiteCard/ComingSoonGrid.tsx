@@ -1,9 +1,7 @@
-import { People } from "../../models/People";
-
 function ComingSoonGrid() {
   return (
     <>
-      <div className="grid">
+      {/* <div className="grid">
         {People.map((person) =>
           person.soundbites
             .filter((soundbite) => soundbite.sound == "")
@@ -14,11 +12,11 @@ function ComingSoonGrid() {
                   image={
                     comingSoonSB.image == "" ? person.face : comingSoonSB.image
                   }
-                ></SoundbiteList> */}
+                ></SoundbiteList>
               </>
             ))
         )}
-      </div>
+      </div> */}
     </>
   );
 }

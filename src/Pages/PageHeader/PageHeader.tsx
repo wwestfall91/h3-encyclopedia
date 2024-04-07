@@ -16,17 +16,15 @@ function PageHeader(props: Props) {
           <CustomButton
             page={Page.Soundbites}
             selected={
-              window.location.href.includes(Page.Soundbites.route)
-                ? true
-                : false
+              !window.location.href.includes(Page.Iceberg.route) ? true : false
             }
-          ></CustomButton>
+          />
           <CustomButton
             page={Page.Iceberg}
             selected={
               window.location.href.includes(Page.Iceberg.route) ? true : false
             }
-          ></CustomButton>
+          />
         </div>
       </div>
     </div>
