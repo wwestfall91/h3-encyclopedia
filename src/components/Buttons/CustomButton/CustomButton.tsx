@@ -11,7 +11,7 @@ export function CustomButton(props: Props) {
   const navigate = useNavigate();
 
   return (
-    <div id="CustomButton">
+    <div id="CustomButton" onClick={() => navigate(props.page.route)}>
       <div
         className={
           props.selected
@@ -19,10 +19,7 @@ export function CustomButton(props: Props) {
             : "custom-button-container"
         }
       >
-        <div
-          className="custom-button"
-          onClick={() => navigate(props.page.route)}
-        >
+        <div className="custom-button">
           <div className="custom-button-text">{props.page.name}</div>
         </div>
       </div>

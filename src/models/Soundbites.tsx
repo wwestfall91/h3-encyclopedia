@@ -2190,7 +2190,7 @@ export const CarlosMatos_TheWorldIsNotTheWayItUsedToBe = new Soundbite(
   110
 );
 export const CarlosMatos_WhatsUp = new Soundbite(
-  "WHATSA WHATSA WHATSA WHATSA WHATS UP BITCONNNNECT",
+  "WHATSA WHATSA WHATSA WHATSA WHATS UP",
   Soundbites.CarlosMatos_WhatsUp,
   episodes.GetEpisodeByTitle(
     "How To Lose Your Life's Savings w Cryptocurrency"

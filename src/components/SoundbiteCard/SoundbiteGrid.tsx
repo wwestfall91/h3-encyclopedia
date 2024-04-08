@@ -2,20 +2,26 @@ import { People } from "../../models/People";
 import SoundbiteCard from "./SoundbiteCard";
 import "./SoundbiteGrid.css";
 
-function getPeople(): any {
-  return People.map((person) =>
-    person.soundbites
-      .filter((include) => include.sound != "")
-      .map((soundbite) => (
-        <SoundbiteCard
-          soundbite={soundbite}
-          image={soundbite.image == "" ? person.face : soundbite.image}
-        />
-      ))
-  );
-}
+type Props = { searchTerm: string };
 
-function SoundbiteGrid() {
+function SoundbiteGrid(props: Props) {
+  function getPeople(): any {
+    return People.map((person) =>
+      person.soundbites
+        .filter(
+          (include) =>
+            (include.sound != "" && props.searchTerm.length < 2) ||
+            include.title.toLowerCase().includes(props.searchTerm.toLowerCase())
+        )
+        .map((soundbite) => (
+          <SoundbiteCard
+            soundbite={soundbite}
+            image={soundbite.image == "" ? person.face : soundbite.image}
+          />
+        ))
+    );
+  }
+
   return <div className="grid">{getPeople()}</div>;
 }
 

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Soundbite } from "../../models/Soundbite";
 import "./SoundbiteCard.css";
 
@@ -7,9 +8,27 @@ interface Props {
 }
 
 function SoundbiteCard(props: Props) {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  async function PlayAudio(directory: string) {
+    if (isPlaying) return;
+
+    let audio = new Audio(directory);
+    audio.load();
+
+    setIsPlaying(true);
+
+    audio.addEventListener("ended", function () {
+      audio.currentTime = 0;
+      setIsPlaying(false);
+    });
+
+    await audio.play();
+  }
+
   return (
     <>
-      <div className="card">
+      <div className="card" key={props.soundbite.title}>
         <img
           className={props.soundbite ? "card-image" : "card-image grayscale"}
           src={props.image}
@@ -34,23 +53,6 @@ function SoundbiteCard(props: Props) {
       </div>
     </>
   );
-}
-
-function PlayAudio(directory: string) {
-  let audio = new Audio(directory);
-  audio.load();
-
-  const audioPromise = audio.play();
-  if (audioPromise !== undefined) {
-    audioPromise
-      .then((_) => {
-        // autoplay started
-      })
-      .catch((err) => {
-        // catch dom exception
-        console.info(err);
-      });
-  }
 }
 
 export default SoundbiteCard;
