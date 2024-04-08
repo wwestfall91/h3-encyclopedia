@@ -15,7 +15,44 @@ export function Modal(props: Props) {
   return (
     <>
       <div className="transparent-background">
-        <div className="modal-grid">
+        <div className="new-modal-container">
+          <div className="new-modal-header">
+            <div className="new-modal-title">{props.title}</div>
+            <div
+              className="new-modal-close-button"
+              onClick={() => {
+                props.closeModal(!props.isOpen);
+              }}
+            >
+              X
+            </div>
+          </div>
+          <div className="new-modal-content">{props.description}</div>
+          <div className="new-modal-footer">
+            <div className="related-links">Related Links</div>
+            <div className="new-modal-links-container">
+              {sortMomentsByDate(props.timeStamps).map((moment) => (
+                <div className="link-container">
+                  <div className="related-links-date">
+                    {moment.episode.date}
+                  </div>
+                  <div> | </div>
+                  <a
+                    href={moment.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="related-links-title">
+                      {moment.episode.title}
+                    </div>
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* <div className="modal-grid">
           <div className="modal-container">
             <div className="section-title-large-underlined">
               {props.title}
@@ -48,7 +85,7 @@ export function Modal(props: Props) {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

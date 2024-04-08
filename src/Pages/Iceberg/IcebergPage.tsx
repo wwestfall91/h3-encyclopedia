@@ -24,9 +24,10 @@ export function IcebergPage() {
   const [modalTitle, setModalTitle] = useState("");
   const [modalDescription, setModalDescription] = useState("");
   const [modalTimestamps, setModalTimestamps] = useState(new Array());
+
   return (
     <div id="IcebergPage">
-      <body>
+      <body className={modalOpen ? "disable-scroll" : ""}>
         <div className="iceberg-page-container">
           <PageHeader image={HeaderImage} class={"header-container blue"} />
           <Modal
