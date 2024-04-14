@@ -11,7 +11,12 @@ function SoundbiteGrid(props: Props) {
         .filter(
           (include) =>
             (include.sound != "" && props.searchTerm.length < 2) ||
-            include.title.toLowerCase().includes(props.searchTerm.toLowerCase())
+            include.title
+              .toLowerCase()
+              .includes(props.searchTerm.toLowerCase()) ||
+            `${person.firstName.toLowerCase()} ${person.lastName.toLowerCase()}`.includes(
+              props.searchTerm.toLowerCase()
+            )
         )
         .map((soundbite) => (
           <SoundbiteCard

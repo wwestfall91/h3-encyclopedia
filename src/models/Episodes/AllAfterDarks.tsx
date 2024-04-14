@@ -334,6 +334,12 @@ export const AllAfterDarks: Episode[] = new Array(
     [EpisodeType.AfterDark]
   ),
   new Episode(
+    `Please Take Me Back - After Dark #57`,
+    `https://youtu.be/Qgrev_fH9zM`,
+    `11-5-2021`,
+    [EpisodeType.AfterDark]
+  ),
+  new Episode(
     `David Dobrik Busted Again & We Went To Britney Spears Conservatorship Trial & - After Dark #58`,
     `https://youtu.be/ADjcxhKgfp0`,
     `11-12-2021`,

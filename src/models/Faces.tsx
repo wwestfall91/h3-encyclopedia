@@ -3,8 +3,10 @@ import Dan_Swerdlove from "./../assets/images/Dan_Swerdlove.png";
 import Oh_Monsieur from "./../assets/images/oh monsierr.png";
 import Theodore_Blurred from "./../assets/images/Theodore_Blurred.png";
 
-export { default as Sam } from "./../assets/images/SamTemple.png";
-export { default as Olivia } from "./../assets/images/OliviaLopez.png";
+export { default as Sam } from "../assets/images/SamTemple.png";
+export { default as Olivia } from "../assets/images/OliviaLopez.png";
+export { default as Ian } from "../assets/images/IanSlater.png";
+export { default as TrumpSupporter } from "../assets/images/TrumpSupporter.png";
 
 export const AB_Ayad =
   "https://pbs.twimg.com/profile_images/1527525634586554368/uQIqvfbr_400x400.jpg";

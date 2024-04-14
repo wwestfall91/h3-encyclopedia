@@ -44,27 +44,44 @@
   backdrop-filter: blur(0.5vw);
 }
 
+.soundbite-footer-bottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: end;
+  padding-right: 0.25rem;
+}
+
 .soundbite-card-title {
   color: white;
   display: flex;
-  font-size: 1vw;
+  font-size: 0.9vw;
+}
+.soundbite-download-button-container {
+  width: 10%;
+}
+.soundbite-download-button {
+  display: flex;
+  width: 100%;
+  right: 0;
 }
 
 .soundbite-link {
-  display: flex;
-  font-size: 1vw;
+  font-size: 0.8vw;
   color: white;
+  width: 90%;
 }
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {
   .soundbite-card-title {
     color: white;
     display: flex;
-    font-size: 1.25vw;
+    font-size: 1.1vw;
   }
   .soundbite-link {
     display: flex;
-    font-size: 1.25vw;
+    font-size: 1vw;
   }
   .soundbite-card-footer {
     padding: 1.5%;
@@ -75,11 +92,11 @@
   .soundbite-card-title {
     color: white;
     display: flex;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
   }
   .soundbite-link {
     display: flex;
-    font-size: 1.25vw;
+    font-size: 1.1vw;
   }
 }
 
@@ -87,11 +104,11 @@
   .soundbite-card-title {
     color: white;
     display: flex;
-    font-size: 2.25vw;
+    font-size: 1.75vw;
   }
   .soundbite-link {
     display: flex;
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 }
 
@@ -99,10 +116,10 @@
   .soundbite-card-title {
     color: white;
     display: flex;
-    font-size: 2.75vw;
+    font-size: 2.5vw;
   }
   .soundbite-link {
     display: flex;
-    font-size: 2.75vw;
+    font-size: 2.25vw;
   }
 }

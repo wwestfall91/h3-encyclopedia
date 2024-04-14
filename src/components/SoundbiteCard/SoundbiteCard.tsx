@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Soundbite } from "../../models/Soundbite";
 import "./SoundbiteCard.css";
+import download_icon from "../../assets/icons/download_icon.png";
 
 interface Props {
   soundbite: Soundbite;
@@ -37,7 +38,7 @@ function SoundbiteCard(props: Props) {
 
         <div className="soundbite-card-footer">
           <div className="soundbite-card-title">{props.soundbite.title}</div>
-          <div>
+          <div className="soundbite-footer-bottom">
             <a
               className="soundbite-link"
               href={props.soundbite.episode.getTimestampURL(
@@ -47,6 +48,16 @@ function SoundbiteCard(props: Props) {
               rel="noopener noreferrer"
             >
               {props.soundbite.episode.shortTitle}
+            </a>
+            <a
+              className="soundbite-download-button-container"
+              href={props.soundbite.sound}
+              download={props.soundbite.title}
+            >
+              <img
+                className="soundbite-download-button"
+                src={download_icon}
+              ></img>
             </a>
           </div>
         </div>

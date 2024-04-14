@@ -120,11 +120,9 @@ export const People: Person[] = new Array(
       SB.Bowblax_BITCH_YOU_HAVE_NOTHING,
       SB.BowBlax_TALK_ABOUT_THE_ALLEGATIONS,
       SB.BowBlax_THIS_THIS_THIS_IS_WHY_IM_WATCHING,
-      SB.Bowblax_BITCH_YOU_HAVE_NOTHING,
       SB.Bowblax_FIVE_HUNDRED_SUBS,
-      SB.BowBlax_THIS_THIS_THIS_IS_WHY_IM_WATCHING,
-      SB.BowBlax_Talk_About_The_Allegations,
       SB.Bowblax_LET_ME_SPEEEEAAAAK,
+      SB.Bowblax_Stop_Laughing_AT_SONIC,
     ],
     "https://sp.rmbl.ws/s8/1/a/z/y/w/azywk.oq1b-small-Keemstar-wants-ME-to-FIGHT-.jpg"
   ),
@@ -226,6 +224,12 @@ export const People: Person[] = new Array(
     "Ballinger",
     [SB.ColleenBallinger_FuckMeRight],
     "https://media.distractify.com/brand-img/KqylDWUeV/0x0/colleen-1688001131096.jpg"
+  ),
+  new Person(
+    "Corpse",
+    "Husband",
+    [SB.CorpseHusband_breathes],
+    "https://upload.wikimedia.org/wikipedia/en/a/a2/Corpse_Husband.jpg"
   ),
   new Person(
     "Curly",
@@ -538,6 +542,22 @@ export const People: Person[] = new Array(
       SB.HowieMandel_ImNotGonnaReadIt,
     ],
     "https://ntvb.tmsimg.com/assets/assets/1082_v9_bb.jpg?w=270&h=360"
+  ),
+  new Person(
+    "Ian",
+    "Slater",
+    [
+      SB.Ian_I_Gotta_Pee_So_Bad,
+      SB.Ian_Im_Strokin_Pussy_Down_Here,
+      SB.Ian_Ive_Been_Chuggin_The_Waaater,
+    ],
+    Faces.Ian
+  ),
+  new Person(
+    "Ice",
+    "T",
+    [SB.IceT_Ive_Got_News_For_You_That_Means_Youre_Gay],
+    "https://nationaltoday.com/wp-content/uploads/2022/10/456840948-min.jpg"
   ),
   new Person(
     "Jason.Reborn",
@@ -874,6 +894,12 @@ export const People: Person[] = new Array(
     "https://i.ytimg.com/vi/YEC6SjxFzs4/maxresdefault.jpg"
   ),
   new Person(
+    "Mohammad Rajab",
+    "Wali",
+    [SB.Wali_Joe_Biden_Wake_Up],
+    "https://media.tenor.com/BllOf3uqsToAAAAe/mohammad-rajab-wali.png"
+  ),
+  new Person(
     "Ninja",
     "",
     [
@@ -928,11 +954,7 @@ export const People: Person[] = new Array(
   new Person(
     "Pastor Manning",
     "",
-    [
-      SB.PastorJamesManning_Semen_Isis_Another_Kind_Of_Milk,
-      SB.PastorManning_Semen_Is_Another_Kind_Of_Milk,
-      SB.PastorManning_Semen_Isis_Another_Kind_Of_Milk,
-    ],
+    [SB.PastorJamesManning_Semen_Is_Another_Kind_Of_Milk],
     "https://www.advocate.com/media-library/pastor-james-david-manning.jpg?id=32684309&width=400&height=300"
   ),
   new Person(
@@ -1222,6 +1244,25 @@ export const People: Person[] = new Array(
       SB.WillSmith_Yaahh,
     ],
     "https://parade.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cq_auto:good%2Cw_1200/MTkwNTgwODMyOTMzNzE3ODg0/will-smith-net-worth.png"
+  ),
+  new Person(
+    "William",
+    "Knight",
+    [
+      SB.WilliamKnight_Theres_No_Such_Thing_As_A_Coincidence,
+      SB.WilliamKnight_Excuse_Me_AH,
+    ],
+    "https://pbs.twimg.com/profile_images/1584666206337892354/Lu-ITI2y_400x400.jpg"
+  ),
+  new Person(
+    "William",
+    "Shatner",
+    [
+      SB.WilliamShatner_Oh_My_God,
+      SB.WilliamShatner_Oh_Im_Telling_You,
+      SB.WilliamShatner_Oh_Jesus,
+    ],
+    "https://variety.com/wp-content/uploads/2018/10/william-shatner.jpg"
   ),
   new Person(
     "XQC",
