@@ -1,6 +1,6 @@
 export { default as WorldCupAnnoucer_OhhhMonseiuur } from "./WorldCupAnnouncer_OhMonsieur.mp3";
 export { default as AbaAndPreach_BurnTheWitch } from "./AbaAndPreach_BurnTheWitch.wav";
-export { default as AbaAndPreach_OmeletteOfKnowledge } from "./AbaAndPreach_OmeletteOfKnowledge.wav";
+export { default as AbaAndPreach_OmeletteOfKnowledge } from "./AbaAndPreach_OmeletteOfKnowledge.mp3";
 export { default as AdinRoss_21FUCKYOU } from "./AdinRoss_21FUCKYOU.wav";
 export { default as AdinRoss_YoureADickSucker } from "./AdinRoss_YoureADickSucker.wav";
 export { default as AlexJones_DestroyTheChild } from "./AlexJones_DestroyTheChild.wav";
