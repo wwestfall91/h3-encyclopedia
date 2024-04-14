@@ -4,18 +4,27 @@ import HeaderImage from "../../assets/images/H3 Sound Station.png";
 import PageHeader from "../PageHeader/PageHeader";
 import SubHeader from "../SubHeader/SubHeader";
 import { useState } from "react";
+import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 
 function Soundbites() {
   const [searchTerm, setSearchTerm] = useState("");
-
+  const [showEmailModal, setShowEmailModal] = useState<boolean>(false);
   return (
-    <div id="SoundbitePage">
-      <div className="soundbite-page-container">
-        <PageHeader image={HeaderImage} class={"header-container purple"} />
-        <SubHeader setSearchTerm={setSearchTerm}></SubHeader>
-        <SoundbiteGrid searchTerm={searchTerm} />
+    <>
+      <div id="SoundbitePage">
+        <div className="soundbite-page-container">
+          <PageHeader image={HeaderImage} class={"header-container purple"} />
+          {showEmailModal && (
+            <SubmitModal toggleShown={setShowEmailModal}></SubmitModal>
+          )}
+          <SubHeader
+            setSearchTerm={setSearchTerm}
+            setShowSubmitModel={setShowEmailModal}
+          ></SubHeader>
+          <SoundbiteGrid searchTerm={searchTerm} />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

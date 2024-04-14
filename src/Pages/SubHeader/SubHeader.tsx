@@ -1,6 +1,9 @@
 import "./SubHeader.scss";
 
-type Props = { setSearchTerm: (value: string) => void };
+type Props = {
+  setSearchTerm: (value: string) => void;
+  setShowSubmitModel: (show: boolean) => void;
+};
 
 function SubHeader(props: Props) {
   return (
@@ -12,6 +15,12 @@ function SubHeader(props: Props) {
           props.setSearchTerm(e.target.value ?? "");
         }}
       ></input>
+      <button
+        className="submit-button"
+        onClick={() => props.setShowSubmitModel(true)}
+      >
+        Request a Soundbite!
+      </button>
     </div>
   );
 }

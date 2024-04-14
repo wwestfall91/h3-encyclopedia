@@ -25,6 +25,7 @@
 .site-logo {
   height: 100%;
   transform: rotate(-2deg);
+  padding-left: 1rem;
 }
 
 .header {
@@ -38,7 +39,7 @@
 .right-header {
   display: flex;
   height: 60%;
-  width: 40%;
+  width: 32%;
   align-items: center;
   gap: 5rem;
   flex-shrink: 1;

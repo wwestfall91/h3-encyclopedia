@@ -1,3 +1,16 @@
+.transparent-background {
+  display: grid;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
 .new-modal-container {
   display: flex;
   flex-direction: column;
@@ -58,19 +71,6 @@
   display: flex;
   gap: 0.5rem;
   color: black;
-}
-
-.transparent-background {
-  display: grid;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.6);
-  align-items: center;
-  justify-content: center;
-  z-index: 1;
 }
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {
