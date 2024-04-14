@@ -53,7 +53,7 @@ function SoundbiteCard(props: Props) {
               className="soundbite-download-button-container"
               href={props.soundbite.sound}
               download={props.soundbite.title}
-              type="wav"
+              type="audio/wav"
             >
               <img
                 className="soundbite-download-button"
