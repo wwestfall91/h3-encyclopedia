@@ -1,4 +1,5 @@
 body {
+  overflow-x: hidden;
   background-color: transparent !important;
   background: rgb(224, 88, 227);
   background: radial-gradient(

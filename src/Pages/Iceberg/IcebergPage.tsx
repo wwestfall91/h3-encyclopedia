@@ -35,7 +35,7 @@ export function IcebergPage() {
             description={modalDescription}
             timeStamps={modalTimestamps}
             isOpen={modalOpen}
-            closeModal={setModalOpen}
+            openModal={setModalOpen}
           />
           <div className="iceberg-body-container">
             <img className="iceberg-image" src={IceBergImage}></img>
