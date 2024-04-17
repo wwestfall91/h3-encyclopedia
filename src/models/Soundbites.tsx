@@ -6,7 +6,7 @@ import * as Faces from "./Faces";
 import * as SB from "../assets/sounds/soundbites/SoundbiteIndex";
 
 export const WorldCup_Ohhhh_Monsieurerrrrrrr = new Soundbite(
-  "Ohhhh monsieurerrrrrrr",
+  "OHHHH monsieurerrrrrrr",
   SB.WorldCupAnnoucer_OhhhMonseiuur,
   episodes.GetAfterDark(65),
   2439
