@@ -113,4 +113,5 @@ export enum Tag {
   "Beautiful World",
   "Bomb Threats",
   "The Drunk Stream",
+  Lore,
 }

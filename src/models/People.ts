@@ -3,6 +3,22 @@ import { Person } from "./Person";
 import * as SB from "./Soundbites";
 import * as Faces from "./Faces";
 
+export { default as Sam } from "../assets/images/SamTemple.png";
+export const Dan = new Person(
+  "Dan",
+  "Swerdlove",
+  [
+    SB.Dan_I_Cant_Jerk_Off_To_This,
+    SB.Dan_I_Wanna_Talk_About_Feet,
+    SB.Dan_Im_Gonna_Cum,
+    SB.Dan_Im_So_Sorry_To_Interrupt_We_Gotta_Go_To_Break,
+    SB.Dan_Jack_It_Off,
+    SB.Dan_Stick_Your_Funger,
+    SB.Dan_PutYourBallsInMyMouth,
+  ],
+  Faces.default.Dan_Swerdlove
+);
+
 export const People: Person[] = new Array(
   new Person(
     "2007 World Cup Announcer",

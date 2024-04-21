@@ -4,7 +4,6 @@ import "./CustomButton.scss";
 
 export interface Props {
   page: PageRoute;
-  selected: boolean;
 }
 
 export function CustomButton(props: Props) {
@@ -12,13 +11,7 @@ export function CustomButton(props: Props) {
 
   return (
     <div id="CustomButton" onClick={() => navigate(props.page.route)}>
-      <div
-        className={
-          props.selected
-            ? "custom-button-container selected"
-            : "custom-button-container"
-        }
-      >
+      <div className="custom-button-container">
         <div className="custom-button">
           <div className="custom-button-text">{props.page.name}</div>
         </div>

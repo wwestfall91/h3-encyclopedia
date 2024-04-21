@@ -1,0 +1,17 @@
+#MultiMomentComponent {
+  .multi-moment-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 10px);
+  }
+
+  .multi-moment-item {
+    width: 100%;
+  }
+
+  .multi-moment-item:hover {
+    z-index: 10;
+  }
+  .multi-moment-item:not:hover {
+    z-index: 1;
+  }
+}

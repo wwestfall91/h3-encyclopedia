@@ -1,0 +1,79 @@
+$randomNumber: random(5);
+
+#CrewPage {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: auto;
+  gap: 2rem;
+  padding-top: 2rem;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .submit-button {
+    width: fit-content;
+    min-width: 5%;
+    max-width: 80%;
+    padding: 0.5rem;
+    background-color: rgb(83, 83, 83);
+    color: white;
+    font-size: 1vw;
+    font-weight: 600;
+    transform: rotate(-2deg);
+    margin-left: 3rem;
+  }
+
+  .crew-page-header {
+    color: black;
+  }
+
+  .crew-page-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .crew-page-subheader {
+    display: flex;
+    width: fit-content;
+    height: 3.5rem;
+    border: black solid 5px;
+    border-left: unset;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    align-items: center;
+    font-size: 1.75vw;
+    padding: 1.75rem 3rem 1.75rem 1.75rem;
+    color: Black;
+    background: linear-gradient(to right, #adcaff, #1dbfff);
+    font-style: italic;
+    font-weight: 600;
+    font-family: monospace;
+    text-transform: uppercase;
+    box-shadow: 4px 5px 6px 1px rgba(0, 0, 0, 0.555);
+  }
+
+  .crew-page-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem 2rem 2rem;
+  }
+
+  .crew-page-content-description {
+    font-size: 1vw;
+    font-weight: 600;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+    color: black;
+  }
+
+  .crew-page-moments-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+    padding-top: 1rem;
+  }
+}

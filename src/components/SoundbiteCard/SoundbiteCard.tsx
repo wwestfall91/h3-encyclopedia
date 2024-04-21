@@ -30,6 +30,7 @@ function SoundbiteCard(props: Props) {
   return (
     <>
       <div className="card" key={props.soundbite.title}>
+        <div className="soundbite-award"></div>
         <img
           className={props.soundbite ? "card-image" : "card-image grayscale"}
           src={props.image}
