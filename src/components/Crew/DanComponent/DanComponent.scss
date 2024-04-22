@@ -50,7 +50,7 @@
   .crew-page-content {
     display: flex;
     flex-direction: column;
-    padding: 1rem 2rem 2rem 2rem;
+    padding: 1rem 1rem 1rem 0.75rem;
   }
 
   .crew-page-content-description {
@@ -67,5 +67,89 @@
     grid-template-columns: repeat(6, 1fr);
     gap: 2rem;
     padding-top: 1rem;
+  }
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+    .submit-button {
+      width: fit-content;
+      min-width: 25%;
+      font-size: 4vw;
+      margin-left: 1.5rem;
+    }
+
+    .crew-page-subheader {
+      font-size: 4vw;
+      padding: 1.75rem 3rem 1.75rem 1.75rem;
+    }
+
+    .crew-page-moments-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
+      padding-top: 1rem;
+    }
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    .submit-button {
+      width: fit-content;
+      min-width: 25%;
+      font-size: 4vw;
+      margin-left: 1.5rem;
+    }
+
+    .crew-page-subheader {
+      font-size: 4vw;
+      padding: 1.75rem 3rem 1.75rem 1.75rem;
+    }
+
+    .crew-page-moments-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      padding-top: 1rem;
+    }
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    .submit-button {
+      width: fit-content;
+      min-width: 25%;
+      font-size: 4vw;
+      margin-left: 1.5rem;
+    }
+
+    .crew-page-subheader {
+      font-size: 4vw;
+      padding: 1.75rem 3rem 1.75rem 1.75rem;
+    }
+
+    .crew-page-moments-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      padding-top: 1rem;
+    }
+  }
+
+  @media all and (max-width: 480px) {
+    .submit-button {
+      width: fit-content;
+      min-width: 25%;
+      font-size: 4vw;
+      margin-left: 1.5rem;
+    }
+
+    .crew-page-subheader {
+      font-size: 4vw;
+      padding: 1.75rem 3rem 1.75rem 1.75rem;
+    }
+
+    .crew-page-moments-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      padding-top: 1rem;
+    }
   }
 }

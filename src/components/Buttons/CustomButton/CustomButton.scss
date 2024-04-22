@@ -19,6 +19,27 @@
     border-bottom: 0.25rem solid rgba(255, 255, 255, 0.404);
   }
 
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    .custom-button-text {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    .custom-button-text {
+      font-size: 1rem;
+    }
+  }
+
+  @media all and (max-width: 480px) {
+    .custom-button-text {
+      font-size: 0.6rem;
+    }
+  }
+
   // @media all and (min-width: 1024px) and (max-width: 1280px) {
   //   font: 700 1.75vw/1vh Raleway, sans-serif;
   // }

@@ -8,9 +8,10 @@ $randomNumber: random(5);
 
   .crew-page-grid {
     display: grid;
-    grid-template: repeat(2, 1fr) / repeat(10, 10rem);
+    grid-template: repeat(2, 1fr) / repeat(9, 10%);
     row-gap: 1rem;
     justify-content: center;
+    width: 100vw;
   }
 
   .crew-card-container {
@@ -42,5 +43,31 @@ $randomNumber: random(5);
     border-radius: 10px;
     align-items: center;
     justify-content: center;
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    .crew-page-grid {
+      display: grid;
+      grid-template: unset;
+    }
+
+    .crew-page-grid-item {
+      display: flex;
+      grid-row-start: unset;
+      grid-column-start: unset;
+    }
+  }
+
+  @media all and (max-width: 480px) {
+    .crew-page-grid {
+      display: grid;
+      grid-template: unset;
+    }
+
+    .crew-page-grid-item {
+      display: flex;
+      grid-row-start: unset;
+      grid-column-start: unset;
+    }
   }
 }

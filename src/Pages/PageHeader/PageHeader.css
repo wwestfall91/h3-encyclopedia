@@ -35,13 +35,14 @@
   align-items: center;
   justify-content: space-between;
   flex-shrink: 1;
-  padding-left: 5%;
+  padding-right: 25%;
 }
 .right-header {
   display: flex;
   height: 60%;
   width: 32%;
   align-items: center;
+  justify-content: start;
   gap: 5rem;
   flex-shrink: 1;
 }
