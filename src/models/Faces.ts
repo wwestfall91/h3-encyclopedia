@@ -7,6 +7,8 @@ export { default as Sam } from "../assets/images/SamTemple.png";
 export { default as Olivia } from "../assets/images/OliviaLopez.png";
 export { default as Ian } from "../assets/images/IanSlater.png";
 export { default as TrumpSupporter } from "../assets/images/TrumpSupporter.png";
+export { default as LilMo } from "../assets/images/LilMo.png";
+export { default as SunnyV2 } from "../assets/images/SunnyV2.png";
 
 export const AB_Ayad =
   "https://pbs.twimg.com/profile_images/1527525634586554368/uQIqvfbr_400x400.jpg";

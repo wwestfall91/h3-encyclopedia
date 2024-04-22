@@ -74,7 +74,7 @@ export const AndrewCuomo_I_Do_It_With_Everyone = new Soundbite(
 );
 export const AndrewTate_Thats_The_Game = new Soundbite(
   "That's the game",
-  "",
+  SB.AndrewTate_ThatsTheGame,
   episodes.GetOffTheRails(47),
   2351
 );
@@ -135,7 +135,7 @@ export const BenShapiro_Wet_Ass_PWord = new Soundbite(
 );
 export const Bowblax_BITCH_YOU_HAVE_NOTHING = new Soundbite(
   "BITCH YOU HAVE NOTHING",
-  "",
+  SB.Bowblax_BITCHYOUHAVENOTHING,
   episodes.GetOffTheRails(46),
   11995
 );
@@ -319,7 +319,7 @@ export const DemiLovato_I_Left_That_Yogurt_Store_And_Didnt_Get_The_Yogurt_I_Want
   );
 export const DennisPrager_Whats_Your_Argument = new Soundbite(
   "What's your argument",
-  "",
+  SB.DennisPrager_WhatsYourArgument,
   episodes.GetLeftovers(28),
   1221
 );
@@ -331,7 +331,7 @@ export const DickTips_Hi_Im_Dick_Tips = new Soundbite(
 );
 export const DJAkademiks_DRAKE = new Soundbite(
   "DRAKE",
-  "",
+  SB.DJAkademics_DRAKE,
   episodes.GetH3TV(7),
   299
 );
@@ -435,7 +435,7 @@ export const EwanMcGregor_Theres_A_Hunger_For_This_Character_To_Come_Back =
   );
 export const FaZeBanks_Im_Infinitely_Smarter_Than_You = new Soundbite(
   "I'm infinitely smarter than you",
-  "",
+  SB.FazeBanks_InfinitelySmarterThanYou,
   episodes.GetAfterDark(36),
   6598
 );
@@ -453,7 +453,7 @@ export const FazeBlanks_Faze_Blanks = new Soundbite(
 );
 export const FouseyTube_CHEEEEZE = new Soundbite(
   "CHEEEEZE",
-  "",
+  SB.FouseyTube_CHEEZE,
   episodes.GetOffTheRails(43),
   8402
 );
@@ -489,7 +489,7 @@ export const GarthBrooks_I_Like_That = new Soundbite(
 );
 export const GarthBrooks_Let_The_Conversation_Begin = new Soundbite(
   "Let the conversation begin",
-  "",
+  SB.GarthBrooks_LetTheConversationBegin,
   episodes.GetPodcast(71),
   4435
 );
@@ -2703,4 +2703,72 @@ export const YilongMe_GiveToYa = new Soundbite(
   SB.YilongMe_GiveToYa,
   episodes.GetPodcast(257),
   3306
+);
+
+// Added 4/22
+export const Ethan_BFFTWHAT = new Soundbite(
+  "WHAT?!",
+  SB.Ethan_BFFTWHAT,
+  episodes.GetH3TV(82),
+  7978
+);
+export const Ethan_ILikeIt = new Soundbite(
+  "I like it!",
+  SB.Ethan_ILikeIt,
+  episodes.GetPodcast(155),
+  4990
+);
+export const Ethan_IDontLikeIt = new Soundbite(
+  "I DONT like it",
+  SB.Ethan_IDontLikeIt,
+  episodes.GetPodcast(171),
+  6997
+);
+export const ColleenBallinger_FartJoke = new Soundbite(
+  "Fart Joke!",
+  SB.ColleenBallinger_FartJoke,
+  episodes.GetH3TV(82),
+  7978
+);
+export const Dan_HeilHitler = new Soundbite(
+  "Heil Hitler",
+  SB.Dan_HeilHitler,
+  episodes.GetOffTheRails(40),
+  9118
+);
+export const DonnaKlein_DeezNuts = new Soundbite(
+  "DEEZ NUTS",
+  SB.DonnaKlein_DeezNuts,
+  episodes.GetAfterDark(99),
+  10100
+);
+export const Keemstar_CantWaitToReportYourDeath = new Soundbite(
+  "Can't wait to report your death HE-HA!",
+  SB.Keemstar_CantWaitToReportYourDeath,
+  episodes.GetH3TV(30),
+  5025
+);
+export const LilMo_ACraneFuckinSmashedHimRightInHisHead = new Soundbite(
+  "A Crane Fuckin' Smashed Him Right in his head",
+  SB.LilMo_ACraneSmashedHimRightInHisHead,
+  episodes.GetOffTheRails(87),
+  11049
+);
+export const Ninja_AmIJewish = new Soundbite(
+  "Am I Jewish?!",
+  SB.Ninja_AmIJewish,
+  episodes.GetOffTheRails(56),
+  1245
+);
+export const Obama_AndDickToo = new Soundbite(
+  "And DICK too!",
+  SB.Obama_AndDickToo,
+  episodes.GetOffTheRails(87),
+  11049
+);
+export const SunnyV2_Gay = new Soundbite(
+  "Gayy",
+  SB.SunnyV2_Gay,
+  episodes.GetOffTheRails(87),
+  11049
 );

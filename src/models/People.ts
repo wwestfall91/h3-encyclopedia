@@ -238,7 +238,7 @@ export const People: Person[] = new Array(
   new Person(
     "Colleen",
     "Ballinger",
-    [SB.ColleenBallinger_FuckMeRight],
+    [SB.ColleenBallinger_FuckMeRight, SB.ColleenBallinger_FartJoke],
     "https://media.distractify.com/brand-img/KqylDWUeV/0x0/colleen-1688001131096.jpg"
   ),
   new Person(
@@ -270,6 +270,7 @@ export const People: Person[] = new Array(
       SB.Dan_Jack_It_Off,
       SB.Dan_Stick_Your_Funger,
       SB.Dan_PutYourBallsInMyMouth,
+      SB.Dan_HeilHitler,
     ],
     Faces.default.Dan_Swerdlove
   ),
@@ -384,7 +385,11 @@ export const People: Person[] = new Array(
   new Person(
     "Donna",
     "Klein",
-    [SB.DonnaKlein_Dubrick, SB.DonnaKlein_Its_Friday_Fuck_Baby_Fuck],
+    [
+      SB.DonnaKlein_Dubrick,
+      SB.DonnaKlein_Its_Friday_Fuck_Baby_Fuck,
+      SB.DonnaKlein_DeezNuts,
+    ],
     "https://www.cameo.com/cdn-cgi/image/fit=cover,format=auto,width=500,height=500/https://cdn.cameo.com/resizer/05BMtUwGp_avatar-xQpk_bv29.jpg"
   ),
   new Person(
@@ -435,6 +440,9 @@ export const People: Person[] = new Array(
       SB.Ethan_ItsARainyDayOutHereInLosAngeles,
       SB.Ethan_XXXTassion,
       SB.Ethan_DrunkTalk,
+      SB.Ethan_BFFTWHAT,
+      SB.Ethan_ILikeIt,
+      SB.Ethan_IDontLikeIt,
     ],
     "https://pbs.twimg.com/profile_images/1663636443275857920/I9XjlEWX_400x400.jpg"
   ),
@@ -778,6 +786,7 @@ export const People: Person[] = new Array(
       SB.Keemstar_AHHHHHHHHHHHHHHHHHHHHHHHHH,
       SB.Keemstar_Keemstars_Joke_Hit,
       SB.Keemstar_That_Makes_Sense,
+      SB.Keemstar_CantWaitToReportYourDeath,
     ],
     "https://upload.wikimedia.org/wikipedia/commons/0/0c/KeemstarColdOnes2020_%28cropped%29.jpg"
   ),
@@ -817,6 +826,12 @@ export const People: Person[] = new Array(
     "",
     [SB.LilXan_Get_Out],
     "https://imagez.tmz.com/image/50/4by3/2020/07/15/5015a36fa44f4bf7b9a2e2a5ab0acdb9_md.jpg"
+  ),
+  new Person(
+    "Lil Mo",
+    "",
+    [SB.LilMo_ACraneFuckinSmashedHimRightInHisHead],
+    Faces.LilMo
   ),
   new Person(
     "Logan",
@@ -926,6 +941,7 @@ export const People: Person[] = new Array(
       SB.Ninja_Thank_You_For_The_Gifted_Crew_Pack,
       SB.Ninja_Balenciaga,
       SB.Ninja_CantControlMyGoo,
+      SB.Ninja_AmIJewish,
     ],
     "https://www.svg.com/img/gallery/streamers-confirm-what-we-all-suspected-about-ninjas-real-life-behavior/intro-1639758649.jpg"
   ),
@@ -1295,5 +1311,12 @@ export const People: Person[] = new Array(
     "Ma",
     [SB.YiLongMa_Mohney, SB.YilongMe_GiveToYa],
     "https://img-9gag-fun.9cache.com/photo/axBmXVW_460s.jpg"
+  ),
+  new Person("SunnyV2", "", [SB.SunnyV2_Gay], Faces.SunnyV2),
+  new Person(
+    "Barack",
+    "Obama",
+    [SB.Obama_AndDickToo],
+    "https://cdn.britannica.com/44/127844-050-33AB565F/Barack-Obama-2009.jpg"
   )
 );
