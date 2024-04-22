@@ -7,7 +7,9 @@
     background-color: white;
     border: black 2px solid;
     padding: 1rem 1rem 0rem 1rem;
-    box-shadow: 4px 5px 6px 1px rgba(0, 0, 0, 0.555);
+    -webkit-box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.555);
+    -moz-box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.555);
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.555);
   }
   .moment-image-container {
     width: 100%;

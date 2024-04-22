@@ -13,6 +13,15 @@
   font-family: monospace;
 }
 
+.item {
+  height: 5vh;
+  width: 7vw;
+  justify-self: center;
+  align-self: center;
+  grid-row-start: var(--row);
+  grid-column-start: var(--column);
+}
+
 @media all and (min-width: 1024px) and (max-width: 1280px) {
   .iceberg-button {
     transform: rotate(-4deg);

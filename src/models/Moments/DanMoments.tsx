@@ -2,7 +2,7 @@ import * as e from "../Episodes/AllEpisodes";
 import * as p from "../People";
 import { Tag } from "../enums/Tag";
 import { Moment } from "./Moment";
-import * as DanImages from "../../assets/Dan/DanIndex/DanIndex";
+import * as DanImages from "../../assets/Dan/Index/DanIndex";
 import { CrewPageSection } from "../CrewPageSection";
 import { Episode } from "../Episode";
 import { EpisodeType } from "../enums/EpisodeType";
@@ -97,7 +97,7 @@ export const DanMoments: CrewPageSection[] = [
       8534,
       [Tag.Lore],
       [p.Dan],
-      DanImages.WiddleWhinyDan
+      DanImages.UniformDan
     ),
     new Moment(
       "The dome gets mayo'd",

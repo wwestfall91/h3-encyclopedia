@@ -17,9 +17,6 @@
     overflow-x: hidden;
   }
 
-  .disable-scroll {
-  }
-
   .iceberg-button {
     background: linear-gradient(90deg, #ffe27d 0%, #64e3ff 20%, #9192ff 60%);
     background-size: 200% 100%;
@@ -86,15 +83,6 @@
   .layer-label {
     font-size: 3.25vh;
     font-family: monospace;
-  }
-
-  .item {
-    height: 5vh;
-    width: 7vw;
-    justify-self: center;
-    align-self: center;
-    grid-row-start: var(--row);
-    grid-column-start: var(--column);
   }
   @media all and (min-width: 1024px) and (max-width: 1280px) {
     .header-icon {

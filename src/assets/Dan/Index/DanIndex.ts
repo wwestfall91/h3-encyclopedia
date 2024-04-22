@@ -67,5 +67,5 @@ export { default as StickMyFungerDan } from "../StickMyFungerDan.png";
 export { default as TechnicalDirectorDan } from "../TechnicalDirectorDan.png";
 export { default as UglyDan } from "../UglyDan.png";
 export { default as WDan } from "../W-Dan.png";
-export { default as WiddleWhinyDan } from "../WiddleWhinyDan.png";
+export { default as UniformDan } from "../WiddleWhinyDan.png";
 export { default as YearbookDan } from "../YearbookDan.png";
