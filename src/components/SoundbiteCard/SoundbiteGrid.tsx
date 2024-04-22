@@ -27,7 +27,7 @@ function SoundbiteGrid(props: Props) {
     );
   }
 
-  return <div className="grid">{getPeople()}</div>;
+  return <div className="soundbite-grid">{getPeople()}</div>;
 }
 
 export default SoundbiteGrid;
