@@ -62,6 +62,7 @@ $randomNumber: random(5);
     .crew-page-grid {
       display: grid;
       grid-template: unset;
+      width: 75%;
     }
 
     .crew-page-grid-item {

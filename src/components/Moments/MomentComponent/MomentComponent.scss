@@ -6,7 +6,7 @@
     max-height: 20rem;
     background-color: white;
     border: black 2px solid;
-    padding: 1rem 1rem 0rem 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     -webkit-box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.555);
     -moz-box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.555);
     box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.555);
@@ -29,6 +29,7 @@
     height: 15%;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: monospace;
     text-transform: uppercase;
     font-weight: 800;
@@ -36,18 +37,28 @@
   }
 
   @media all and (min-width: 1024px) and (max-width: 1280px) {
+    .moment-container {
+      padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    }
     .moment-name {
       font-size: 1.3vw;
     }
   }
 
   @media all and (min-width: 768px) and (max-width: 1024px) {
+    .moment-container {
+      padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    }
     .moment-name {
       font-size: 2.5vw;
     }
   }
 
   @media all and (min-width: 480px) and (max-width: 768px) {
+    .moment-container {
+      padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    }
+
     .moment-name {
       font-size: 2.3vw;
     }
@@ -55,13 +66,14 @@
 
   @media all and (max-width: 480px) {
     .moment-container {
-      width: 10rem;
-      height: 10rem;
-      min-height: 5rem;
-      max-height: 20rem;
+      padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+      width: 8rem;
+      height: 8rem;
+      min-height: 0rem;
     }
 
     .moment-name {
+      padding-top: 8%;
       font-size: 2.3vw;
     }
   }
