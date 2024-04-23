@@ -1,6 +1,6 @@
 import { People } from "../../models/People";
 import SoundbiteCard from "./SoundbiteCard";
-import "./SoundbiteGrid.css";
+import "./SoundbiteGrid.scss";
 
 type Props = { searchTerm: string };
 
@@ -27,7 +27,11 @@ function SoundbiteGrid(props: Props) {
     );
   }
 
-  return <div className="soundbite-grid">{getPeople()}</div>;
+  return (
+    <div id="soundbite-grid-container">
+      <div className="soundbite-grid">{getPeople()}</div>
+    </div>
+  );
 }
 
 export default SoundbiteGrid;
