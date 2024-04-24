@@ -14,6 +14,7 @@ function MultiMomentComponent() {
                   image={moment.image}
                   text={moment.title}
                   url={moment.url}
+                  date={moment.episode.date}
                 ></MomentComponent>
               </div>
             ))}
