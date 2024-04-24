@@ -24,7 +24,8 @@ function DanComponent(props: Props) {
                 {section.moments
                   .sort(function (a, b) {
                     return (
-                      Date.parse(a.episode.date) - Date.parse(b.episode.date)
+                      Date.parse(a.episode.date.replace("-", "/")) /
+                      Date.parse(b.episode.date.replace("-", "/"))
                     );
                   })
                   .map((moment) => (
