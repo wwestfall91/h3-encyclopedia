@@ -2779,8 +2779,7 @@ export const CandaceOwens_AndHoldMyFartLikeABongRip = new Soundbite(
   "Hold my fart like a bong rip",
   SB.CandaceOwens_AndHoldMyFartLikeABongRip,
   episodes.GetOffTheRails(109),
-  420,
-  true
+  420
 );
 
 export const DJKhaled_GodDid = new Soundbite(
