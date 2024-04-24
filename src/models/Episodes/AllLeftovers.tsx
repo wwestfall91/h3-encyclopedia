@@ -3,321 +3,363 @@ import { EpisodeType } from "../enums/EpisodeType";
 
 export const AllLeftovers: Episode[] = new Array(
   new Episode(
-    "And The New Host Is... Leftovers #1",
-    "https://youtu.be/uASzNUFT5Dk",
-    "9-26-2021",
+    `Israel vs Gaza - Leftovers #61`,
+    "https://www.youtube.com/watch?v=JFznOHunD_c",
+    "2023-10-12",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Steven Crowder Freaks Out Over Black James Bond - Leftovers #2",
-    "https://youtu.be/bnjJkVcayac",
-    "10-3-2021",
+    `Bye Bye Kevin McCarthy RIPBOZO #packwatch - Leftovers #60`,
+    "https://www.youtube.com/watch?v=IiboY2manwc",
+    "2023-10-05",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "We Have Our First Heated Debate - Leftovers #3",
-    "https://youtu.be/vjluqyN7SNk",
-    "10-10-2021",
+    `Trump Org Dissolved, 2nd GOP Debate - Leftovers #59`,
+    "https://www.youtube.com/watch?v=Xz9-iiw9JXk",
+    "2023-09-28",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Is Civil War Coming To America? - Leftovers #4",
-    "https://youtu.be/EgwOxM_2CW8",
-    "10-17-2021",
+    `Hasan Is Leaving Leftovers - Leftovers #58`,
+    "https://www.youtube.com/watch?v=LJWCGazsV9k",
+    "2023-09-21",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Donald Trump Hacked & Snowflake Cops - Leftovers #5",
-    "https://youtu.be/VPoKMwsSDVI",
-    "10-24-2021",
+    `Joe Biden Is Getting Impeached - Leftovers #57`,
+    "https://www.youtube.com/watch?v=EeFuFKH-uOo",
+    "2023-09-14",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Elon Musk Won't Pay His Taxes & Joe Rogan Hates Paternity Leave - Leftovers #6",
-    "https://youtu.be/ZFlLqIk3MFU",
-    "10-31-2021",
+    `Republican Debate & Trump Mugshot - Leftovers #56`,
+    "https://www.youtube.com/watch?v=SlkAtvVbpeA",
+    "2023-08-24",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Right Wing Cringe, QAnon, Big Bird Is Commie Scum - Leftovers #7",
-    "https://youtu.be/Gzl1Px4_ndg",
-    "11-14-2021",
+    `Crowder Cheated On His Wife? Mike Lindell Spoke To God, Trumps 4th Indictment - Leftovers #55`,
+    "https://www.youtube.com/watch?v=GLOl3lPkNao",
+    "2023-08-17",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "How To Own Your MAGA Family This Thanksgiving - Leftovers #8",
-    "https://youtu.be/AUNkyV4YAoU",
-    "11-21-2021",
+    `Crowder Can't Stop Taking Massive L's - Leftovers #54`,
+    "https://www.youtube.com/watch?v=Pi6I56w96nE",
+    "2023-08-10",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Joe Rogan Posted Cringe, Jordan Peterson, Lauren Boebert - Leftovers #9",
-    "https://youtu.be/AG7iuZnNLYE",
-    "12-5-2021",
+    `Trump's 3rd Indictment - Leftovers #53`,
+    "https://www.youtube.com/watch?v=PuHpRtKf3Mw",
+    "2023-08-03",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Jordan Peterson REDEMPTION ARC?! - Leftovers #10",
-    "https://youtu.be/X_IAposyoTQ",
-    "12-12-2021",
+    `Mitch McConnell DIES On Live TV (RIP Bozo) - Leftovers #52`,
+    "https://www.youtube.com/watch?v=JeUGqefy2TQ",
+    "2023-07-27",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "WE'RE BACK! - Leftovers #12",
-    "https://youtu.be/jqgROSZVLUA",
-    "5-5-2022",
+    `Elon Musk & Tucker Carlson Are Pro Human Trafficking - Leftovers #51`,
+    "https://www.youtube.com/watch?v=2Gjhu14gPAI",
+    "2023-07-13",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "The Left Can't Meme & Keemstar Cancels Hasan - Leftovers #13",
-    "https://youtu.be/TIUUr78MS4I",
-    "5-12-2022",
+    `See You In Jail, Trump! (And You Too Rudy) - Leftovers #50`,
+    "https://www.youtube.com/watch?v=GURoXvLOmYA",
+    "2023-06-15",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "xQc Returns To Gamba, Jordan Peterson, Elon Musk - Leftovers #14",
-    "https://youtu.be/spxzJiAnzBI",
-    "5-19-2022",
+    `Target Turned Me Gay & I'm Pissed! - Leftovers #49`,
+    "https://www.youtube.com/watch?v=sDP3QUYkk98",
+    "2023-06-01",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Our Police Have Failed Us - Leftovers #15",
-    "https://youtu.be/sztFyRQ643o",
-    "5-26-2022",
+    `Elon "Klansman" Musk, Rudy "Penguin" Giuliani, Dianne "Crypt Keeper" Feinstein - Leftovers #48`,
+    "https://www.youtube.com/watch?v=OB5DjiRnbt8",
+    "2023-05-18",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Ethan Gets Black Pilled - Leftovers #16",
-    "https://youtu.be/LBCEZEni_5Q",
-    "6-9-2022",
+    `More allegations against crowder from 10 ex employees - Leftovers #47`,
+    "https://www.youtube.com/watch?v=pPfacL9shlI",
+    "2023-05-04",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Ben Shapiro & The Daily Wire Are Hateful Little Manlets - Leftovers #17",
-    "https://youtu.be/yhuHmFHgdx0",
-    "6-16-2022",
+    `Matt Walsh Hacked, Ali Alexander Outed, Fox News Folds - Leftovers #46`,
+    "https://www.youtube.com/watch?v=iT1Ws7DPxP8",
+    "2023-04-20",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "The Supreme Court Has Fallen, Jordan Peterson Has Psychotic Break - Leftovers #18",
-    "https://youtu.be/JAHz1LgVi5k",
-    "6-23-2022",
+    `Is Mario Spreading The Woke Mind Virus? The Debate Of The Century - Leftovers #45`,
+    "https://www.youtube.com/watch?v=wBrO8-PrLEk",
+    "2023-04-13",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Biden Got Covid, Jordan Peterson's Obsession, Right Wing 'Comedy' - Leftovers #19",
-    "https://youtu.be/Yb4bqqyH8_Y",
-    "7-21-2022",
+    `Donald Trump Arrested, LETS GOOO - Leftovers #44`,
+    "https://www.youtube.com/watch?v=lgwVwZm-bwE",
+    "2023-04-06",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Andrew Tate & Fresh & Fit Want To Debate Us - Leftovers #20",
-    "https://youtu.be/AXchq9Ge0jE",
-    "7-28-2022",
+    `Trump Rally Is WILD, Professor Richard Wolff Calls In - Leftovers #43`,
+    "https://www.youtube.com/watch?v=JtkHbfP7yto",
+    "2023-03-30",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "TRUMP GOT RAIDED BY THE FBI!!! - Leftovers #21",
-    "https://youtu.be/880So-Tnf90",
-    "8-11-2022",
+    `Watching Trump's Arrest LIVE!!! - Leftovers #42`,
+    "https://www.youtube.com/watch?v=pddvEbES808",
+    "2023-03-23",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Steven Crowder Banned From YouTube - Leftovers #22",
-    "https://youtu.be/3dsRmlGI25g",
-    "8-18-2022",
+    `Joe Rogan Opens Anti-Woke Comedy Club, Did Jordan Peterson Relapse? - Leftovers #41`,
+    "https://www.youtube.com/watch?v=PaLM1Teaw80",
+    "2023-03-16",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Frozen Pizza Taste Test, Joe Biden Forgives Student Debt- Leftovers #23",
-    "https://youtu.be/TgVWYKpkCSA",
-    "8-25-2022",
+    `Daily Wire Host Calls For Eradication Of Transgenderism - Leftovers #40`,
+    "https://www.youtube.com/watch?v=OFqDYq7jtCM",
+    "2023-03-09",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Trump Might Actually Go To Jail For This - Leftovers #24",
-    "https://youtu.be/ygZKfA9iYuo",
-    "9-1-2022",
+    `Conservative Comedy Is A Hellscape Of Hackery - Leftovers #39`,
+    "https://www.youtube.com/watch?v=3yTR5DUT0Jg",
+    "2023-02-16",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Hasan Got Called Out - Leftovers #25",
-    "https://youtu.be/bm_LAUxPI_U",
-    "9-22-2022",
+    `MrBeast Drama, Ron DeStinky Attacks Trump, Shocking Steven Crowder Revelation - Leftovers #38`,
+    "https://www.youtube.com/watch?v=oDKnIEgvt3Q",
+    "2023-02-02",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "LIVER KING IS HERE! - Leftovers #26",
-    "https://youtu.be/5XtLmCevyRU",
-    "9-29-2022",
+    `Steven Crowder vs Ben Shapiro, George Santos Is A Weasley Little Liar Dude - Leftovers #37`,
+    "https://www.youtube.com/watch?v=T_40N3lacuw",
+    "2023-01-26",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Elon Musk Forced To Buy Twitter, Herschel Walker Walked Her To The Clinic - Leftovers #27",
-    "https://youtu.be/wwVJoZqn7e0",
-    "10-6-2022",
+    `Andrew Tate Debate With Bradley Martyn Of NELK - Leftovers #36`,
+    "https://www.youtube.com/watch?v=uVGTNLaAPnU",
+    "2023-01-19",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Kanye West Villain Arc, Elon Musk Talks With Putin - Leftovers #28",
-    "https://youtu.be/RO6LOJj_p2g",
-    "10-13-2022",
+    `How To Own Your MAGA Family This Christmas - Leftovers #35`,
+    "https://www.youtube.com/watch?v=-ab1eSlYDuM",
+    "2022-12-15",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Andrew Callaghan Of Channel 5 - Leftovers #30",
-    "https://youtu.be/aoh2W_WiuN4",
-    "11-3-2022",
+    `Hasan Banned From Twitch, Kanye West Still Hatin - Leftovers #34`,
+    "https://www.youtube.com/watch?v=mZDKKqeA6fI",
+    "2022-12-08",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Conservative Tears & Midterm Elections Results - Leftovers #31",
-    "https://youtu.be/pOO1bTkPIc8",
-    "11-10-2022",
+    `Kanye West, Alex Jones, Tim Pool, Nick Fuentes - Leftovers #33`,
+    "https://www.youtube.com/watch?v=YuTB_yBfZ1A",
+    "2022-12-01",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Donald Trump Is Running For President 2024!- Leftovers #32",
-    "https://youtu.be/ZeUeDjX4fJk",
-    "11-17-2022",
+    `Donald Trump Is Running For President 2024!- Leftovers #32`,
+    "https://www.youtube.com/watch?v=ZeUeDjX4fJk",
+    "2022-11-17",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Kanye West, Alex Jones, Tim Pool, Nick Fuentes - Leftovers #33",
-    "https://youtu.be/YuTB_yBfZ1A",
-    "12-1-2022",
+    `Conservative Tears & Midterm Elections Results - Leftovers #31`,
+    "https://www.youtube.com/watch?v=pOO1bTkPIc8",
+    "2022-11-10",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Hasan Banned From Twitch, Kanye West Still Hatin - Leftovers #34",
-    "https://youtu.be/mZDKKqeA6fI",
-    "12-8-2022",
+    `Andrew Callaghan Of Channel 5 - Leftovers #30`,
+    "https://www.youtube.com/watch?v=aoh2W_WiuN4",
+    "2022-11-03",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "How To Own Your MAGA Family This Christmas - Leftovers #35",
-    "https://youtu.be/-ab1eSlYDuM",
-    "12-15-2022",
+    `Kanye West Villain Arc, Elon Musk Talks With Putin - Leftovers #28`,
+    "https://www.youtube.com/watch?v=RO6LOJj_p2g",
+    "2022-10-13",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Andrew Tate Debate With Bradley Martyn Of NELK - Leftovers #36",
-    "https://youtu.be/uVGTNLaAPnU",
-    "1-19-2023",
+    `Elon Musk Forced To Buy Twitter, Herschel Walker Walked Her To The Clinic - Leftovers #27`,
+    "https://www.youtube.com/watch?v=wwVJoZqn7e0",
+    "2022-10-06",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Steven Crowder vs Ben Shapiro, George Santos Is A Weasley Little Liar Dude - Leftovers #37",
-    "https://youtu.be/T_40N3lacuw",
-    "1-26-2023",
+    `LIVER KING IS HERE! - Leftovers #26`,
+    "https://www.youtube.com/watch?v=5XtLmCevyRU",
+    "2022-09-29",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "MrBeast Drama, Ron DeStinky Attacks Trump, Shocking Steven Crowder Revelation - Leftovers #38",
-    "https://youtu.be/oDKnIEgvt3Q",
-    "2-2-2023",
+    `Hasan Got Called Out - Leftovers #25`,
+    "https://www.youtube.com/watch?v=bm_LAUxPI_U",
+    "2022-09-22",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Conservative Comedy Is A Hellscape Of Hackery - Leftovers #39",
-    "https://youtu.be/3yTR5DUT0Jg",
-    "2-16-2023",
+    `Trump Might Actually Go To Jail For This - Leftovers #24`,
+    "https://www.youtube.com/watch?v=ygZKfA9iYuo",
+    "2022-09-01",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Daily Wire Host Calls For Eradication Of Transgenderism - Leftovers #40",
-    "https://youtu.be/OFqDYq7jtCM",
-    "3-9-2023",
+    `Frozen Pizza Taste Test, Joe Biden Forgives Student Debt- Leftovers #23`,
+    "https://www.youtube.com/watch?v=TgVWYKpkCSA",
+    "2022-08-25",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Joe Rogan Opens Anti-Woke Comedy Club, Did Jordan Peterson Relapse? - Leftovers #41",
-    "https://youtu.be/PaLM1Teaw80",
-    "3-16-2023",
+    `Steven Crowder Banned From YouTube - Leftovers #22`,
+    "https://www.youtube.com/watch?v=3dsRmlGI25g",
+    "2022-08-18",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Watching Trump's Arrest LIVE!!! - Leftovers #42",
-    "https://youtu.be/pddvEbES808",
-    "3-23-2023",
+    `TRUMP GOT RAIDED BY THE FBI!!! - Leftovers #21`,
+    "https://www.youtube.com/watch?v=880So-Tnf90",
+    "2022-08-11",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Trump Rally Is WILD, Professor Richard Wolff Calls In - Leftovers #43",
-    "https://youtu.be/JtkHbfP7yto",
-    "3-30-2023",
+    `Andrew Tate & Fresh & Fit Want To Debate Us - Leftovers #20`,
+    "https://www.youtube.com/watch?v=AXchq9Ge0jE",
+    "2022-07-28",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Donald Trump Arrested, LETS GOOO - Leftovers #44",
-    "https://youtu.be/lgwVwZm-bwE",
-    "4-6-2023",
+    `Biden Got Covid, Jordan Peterson's Obsession, Right Wing "Comedy" - Leftovers #19`,
+    "https://www.youtube.com/watch?v=Yb4bqqyH8_Y",
+    "2022-07-21",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Is Mario Spreading The Woke Mind Virus? The Debate Of The Century - Leftovers #45",
-    "https://youtu.be/wBrO8-PrLEk",
-    "4-13-2023",
+    `The Supreme Court Has Fallen, Jordan Peterson Has Psychotic Break - Leftovers #18`,
+    "https://www.youtube.com/watch?v=JAHz1LgVi5k",
+    "2022-06-23",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Matt Walsh Hacked, Ali Alexander Outed, Fox News Folds - Leftovers #46",
-    "https://youtu.be/iT1Ws7DPxP8",
-    "4-20-2023",
+    `Ben Shapiro & The Daily Wire Are Hateful Little Manlets - Leftovers #17`,
+    "https://www.youtube.com/watch?v=yhuHmFHgdx0",
+    "2022-06-16",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "More allegations against crowder from 10 ex employees - Leftovers #47",
-    "https://youtu.be/pPfacL9shlI",
-    "5-4-2023",
+    `Ethan Gets Black Pilled - Leftovers #16`,
+    "https://www.youtube.com/watch?v=LBCEZEni_5Q",
+    "2022-06-09",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Elon 'Klansman' Musk, Rudy 'Penguin' Giuliani, Dianne 'Crypt Keeper' Feinstein - Leftovers #48",
-    "https://youtu.be/OB5DjiRnbt8",
-    "5-18-2023",
+    `Our Police Have Failed Us - Leftovers #15`,
+    "https://www.youtube.com/watch?v=sztFyRQ643o",
+    "2022-05-26",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Target Turned Me Gay & I'm Pissed! - Leftovers #49",
-    "https://youtu.be/sDP3QUYkk98",
-    "6-1-2023",
+    `xQc Returns To Gamba, Jordan Peterson, Elon Musk - Leftovers #14`,
+    "https://www.youtube.com/watch?v=spxzJiAnzBI",
+    "2022-05-19",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "See You In Jail, Trump! (And You Too Rudy) - Leftovers #50",
-    "https://youtu.be/GURoXvLOmYA",
-    "6-15-2023",
+    `The Left Can't Meme & Keemstar Cancels Hasan - Leftovers #13`,
+    "https://www.youtube.com/watch?v=TIUUr78MS4I",
+    "2022-05-12",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Elon Musk & Tucker Carlson Are Pro Human Trafficking - Leftovers #51",
-    "https://youtu.be/2Gjhu14gPAI",
-    "7-13-2023",
+    `WE'RE BACK! - Leftovers #12`,
+    "https://www.youtube.com/watch?v=jqgROSZVLUA",
+    "2022-05-05",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Mitch McConnell DIES On Live TV (RIP Bozo) - Leftovers 1",
-    "https://youtu.be/JeUGqefy2TQ",
-    "7-27-2023",
+    `Cracker Extravaganza - Leftovers LIVE #11`,
+    "https://www.youtube.com/watch?v=Uj2UXQ0jOy4",
+    "2021-12-16",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Trump's 3rd Indictment - Leftovers #53",
-    "https://youtu.be/PuHpRtKf3Mw",
-    "8-3-2023",
+    `Jordan Peterson REDEMPTION ARC?! - Leftovers #10`,
+    "https://www.youtube.com/watch?v=X_IAposyoTQ",
+    "2021-12-12",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Crowder Can't Stop Taking Massive L's - Leftovers #54",
-    "https://youtu.be/Pi6I56w96nE",
-    "8-10-2023",
+    `Joe Rogan Posted Cringe, Jordan Peterson, Lauren Boebert - Leftovers #9`,
+    "https://www.youtube.com/watch?v=AG7iuZnNLYE",
+    "2021-12-05",
     [EpisodeType.Leftovers]
   ),
   new Episode(
-    "Joe Biden Is Getting Impeached - Leftovers #57",
-    "https://youtu.be/EeFuFKH-uOo",
-    "9-14-2023",
+    `How To Own Your MAGA Family This Thanksgiving - Leftovers #8`,
+    "https://www.youtube.com/watch?v=AUNkyV4YAoU",
+    "2021-11-21",
+    [EpisodeType.Leftovers]
+  ),
+  new Episode(
+    `Right Wing Cringe, QAnon, Big Bird Is Commie Scum - Leftovers #7`,
+    "https://www.youtube.com/watch?v=Gzl1Px4_ndg",
+    "2021-11-14",
+    [EpisodeType.Leftovers]
+  ),
+  new Episode(
+    `Elon Musk Won't Pay His Taxes & Joe Rogan Hates Paternity Leave - Leftovers #6`,
+    "https://www.youtube.com/watch?v=ZFlLqIk3MFU",
+    "2021-10-31",
+    [EpisodeType.Leftovers]
+  ),
+  new Episode(
+    `Donald Trump Hacked & Snowflake Cops - Leftovers #5`,
+    "https://www.youtube.com/watch?v=VPoKMwsSDVI",
+    "2021-10-24",
+    [EpisodeType.Leftovers]
+  ),
+  new Episode(
+    `Is Civil War Coming To America? - Leftovers #4`,
+    "https://www.youtube.com/watch?v=EgwOxM_2CW8",
+    "2021-10-17",
+    [EpisodeType.Leftovers]
+  ),
+  new Episode(
+    `We Have Our First Heated Debate - Leftovers #3`,
+    "https://www.youtube.com/watch?v=vjluqyN7SNk",
+    "2021-10-10",
+    [EpisodeType.Leftovers]
+  ),
+  new Episode(
+    `Steven Crowder Freaks Out Over Black James Bond - Leftovers #2`,
+    "https://www.youtube.com/watch?v=bnjJkVcayac",
+    "2021-10-03",
+    [EpisodeType.Leftovers]
+  ),
+  new Episode(
+    `And The New Host Is... Leftovers #1`,
+    "https://www.youtube.com/watch?v=uASzNUFT5Dk",
+    "2021-09-26",
     [EpisodeType.Leftovers]
   )
 );

@@ -5,7 +5,7 @@ export const AllSeeYouNextTuesdays: Episode[] = new Array(
   new Episode(
     "See You Next Tuesday #31",
     "https://www.youtube.com/watch?v=EebY1rsvEgE",
-    "03/16/2023",
-    [EpisodeType.SUNT]
+    "2023-03-16",
+    [EpisodeType.SYNT]
   )
 );

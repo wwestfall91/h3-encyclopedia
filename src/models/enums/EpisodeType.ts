@@ -6,7 +6,7 @@ export enum EpisodeType {
   Families,
   Leftovers,
   ContentCourt,
-  SUNT,
+  SYNT,
   AfterDark,
   H3H3Productions,
   EthanAndHila,

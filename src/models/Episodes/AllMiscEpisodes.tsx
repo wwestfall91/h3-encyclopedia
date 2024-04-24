@@ -17,7 +17,7 @@ export const AllMiscEpisodes: Episode[] = new Array(
   new Episode(
     "Ethan's Birthday Extravaganza LIVE From The Ace Theater!",
     "https://youtu.be/ShNedjrsI_E",
-    "06-23-2023",
+    "2023-06-23",
     [EpisodeType.Misc, EpisodeType.Live, EpisodeType.Guest]
   ),
   new Episode(

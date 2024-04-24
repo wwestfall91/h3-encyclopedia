@@ -275,7 +275,7 @@ export const AllPodcasts: Episode[] = new Array(
   new Episode(
     "Bobby Lee & Khalyla - H3 Podcast #148",
     "https://youtu.be/NK-_XJBYv-c",
-    "10-8-2019",
+    "2019-10-08",
     [EpisodeType.Podcast]
   ),
   new Episode(
