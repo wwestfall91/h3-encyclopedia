@@ -16,7 +16,13 @@ function CustomCard1(props: Props) {
         </div>
       )}
 
-      <div className="custom-card-container">
+      <div
+        className={
+          props.comingSoon
+            ? "custom-card-container comingsoon"
+            : "custom-card-container"
+        }
+      >
         <img
           className={
             props.comingSoon

@@ -15,6 +15,20 @@
     justify-content: end;
   }
 
+  .custom-card-container:hover {
+    transform: scale(1.25) rotate(-5deg);
+    transition: 0.2s;
+  }
+
+  .custom-card-container:not(:hover) {
+    transition: 0.2s;
+  }
+
+  .comingsoon:hover {
+    transform: scale(0.9) rotate(2deg);
+    transition: 0.5;
+  }
+
   .custom-card-image {
     width: inherit;
     height: inherit;
