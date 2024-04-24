@@ -456,3 +456,12 @@ export { default as DonaldTrump_Okaaaay } from "./DonaldTrump_Okaaaay.mp3";
 export { default as Misc_HesStealingIt } from "./Misc_HesStealingIt.mp3";
 export { default as BowBlax_StopLaughingAtSonic } from "./BowBlax_StopLaughingAtSonic.mp3";
 export { default as Misc_LadiesAndGentlemenWeAreAllDomesticTerrorists } from "./Misc_LadiesAndGentlemenWeAreAllDomesticTerrorists.mp3";
+
+// 4-22
+export { default as CandaceOwens_AndHoldMyFartLikeABongRip } from "./CandaceOwens_AndHoldMyFartLikeABongRip.mp3";
+export { default as DJKhaled_GodDid } from "./DJKhaled_GodDid.mp3";
+export { default as DrPhil_IHopeYouGetAssCancerAndDie } from "./DrPhil_IHopeYouGetAssCancerAndDie.mp3";
+export { default as Fidias_IWantToFuckThisBitch } from "./Fidias_IWantToFuckThisBitch.mp3";
+export { default as Fidias_MargotRobbie } from "./Fidias_MargotRobbie.mp3";
+export { default as JustTree_YayIGotASubscriber } from "./JustTree_YayIGotASubscriber.mp3";
+export { default as TimPool_IndividualCitizenRightToOwnWarhead } from "./TimPool_IndividualCitizenRightToOwnWarhead.mp3";

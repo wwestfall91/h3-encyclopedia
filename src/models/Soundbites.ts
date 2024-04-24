@@ -4,6 +4,8 @@ import { AllContentCourts } from "./Episodes/AllContentCourts";
 import JeffEpisode from "./Episodes/JeffDunham";
 import * as Faces from "./Faces";
 import * as SB from "../assets/sounds/soundbites/SoundbiteIndex";
+import { Episode } from "./Episode";
+import { EpisodeType } from "./enums/EpisodeType";
 
 export const WorldCup_Ohhhh_Monsieurerrrrrrr = new Soundbite(
   "OHHHH monsieurerrrrrrr",
@@ -2749,7 +2751,7 @@ export const Keemstar_CantWaitToReportYourDeath = new Soundbite(
   5025
 );
 export const LilMo_ACraneFuckinSmashedHimRightInHisHead = new Soundbite(
-  "A Crane Fuckin' Smashed Him Right in his head",
+  "A crane fuckin' smashed him right in his head",
   SB.LilMo_ACraneSmashedHimRightInHisHead,
   episodes.GetOffTheRails(87),
   11049
@@ -2771,4 +2773,56 @@ export const SunnyV2_Gay = new Soundbite(
   SB.SunnyV2_Gay,
   episodes.GetOffTheRails(87),
   11049
+);
+
+export const CandaceOwens_AndHoldMyFartLikeABongRip = new Soundbite(
+  "Hold my fart like a bong rip",
+  SB.CandaceOwens_AndHoldMyFartLikeABongRip,
+  episodes.GetOffTheRails(109),
+  420,
+  true
+);
+
+export const DJKhaled_GodDid = new Soundbite(
+  "GOD DID",
+  SB.DJKhaled_GodDid,
+  episodes.GetAfterDark(91),
+  6665
+);
+export const DrPhil_IHopeYouGetAssCancerAndDie = new Soundbite(
+  "I hope you get ass cancer and DIE",
+  SB.DrPhil_IHopeYouGetAssCancerAndDie,
+  episodes.GetH3TV(65),
+  1421
+);
+export const Fidias_IWantToFuckThisBitch = new Soundbite(
+  "I want to fuck this bitch",
+  SB.Fidias_IWantToFuckThisBitch,
+  episodes.GetAfterDark(131),
+  5349
+);
+export const Fidias_MargotRobbie = new Soundbite(
+  "Margot Robbie...",
+  SB.Fidias_MargotRobbie,
+  episodes.GetAfterDark(131),
+  5349
+);
+
+export const JustTree_YayIGotASubscriber = new Soundbite(
+  "Yay I got a subscriber!",
+  SB.JustTree_YayIGotASubscriber,
+  new Episode(
+    "H3 Show #1",
+    "https://www.youtube.com/watch?v=0lt0tTr-lj4&list=RDCMUCLtREJY21xRfCuEKvdki1Kw",
+    "4-22-2024",
+    [EpisodeType["H3 Show"]],
+    1
+  ),
+  4454
+);
+export const TimPool_IndividualCitizenRightToOwnWarhead = new Soundbite(
+  "I believe a citizen can own a nuclear warhead",
+  SB.TimPool_IndividualCitizenRightToOwnWarhead,
+  episodes.GetH3TV(38),
+  3892
 );

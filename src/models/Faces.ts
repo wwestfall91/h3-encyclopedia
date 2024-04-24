@@ -9,6 +9,7 @@ export { default as Ian } from "../assets/images/IanSlater.png";
 export { default as TrumpSupporter } from "../assets/images/TrumpSupporter.png";
 export { default as LilMo } from "../assets/images/LilMo.png";
 export { default as SunnyV2 } from "../assets/images/SunnyV2.png";
+export { default as JustTree } from "../assets/images/JustTree.png";
 
 export const AB_Ayad =
   "https://pbs.twimg.com/profile_images/1527525634586554368/uQIqvfbr_400x400.jpg";

@@ -21,6 +21,83 @@ export const Dan = new Person(
 
 export const People: Person[] = new Array(
   new Person(
+    "Just Tree 411",
+    "",
+    [SB.JustTree_YayIGotASubscriber],
+    Faces.JustTree
+  ),
+  new Person("SunnyV2", "", [SB.SunnyV2_Gay], Faces.SunnyV2),
+  new Person(
+    "Fidias",
+    "",
+    [SB.Fidias_IWantToFuckThisBitch, SB.Fidias_MargotRobbie],
+    "https://static.wikia.nocookie.net/youtube/images/3/30/Fidias_Podcast.jpg"
+  ),
+  new Person(
+    "Lil Mo",
+    "",
+    [SB.LilMo_ACraneFuckinSmashedHimRightInHisHead],
+    Faces.LilMo
+  ),
+  new Person(
+    "Candace",
+    "Owens",
+    [SB.CandaceOwens_AndHoldMyFartLikeABongRip],
+    "https://m.media-amazon.com/images/M/MV5BMDIwYjY0NDMtZWEzOC00YTE4LTg5Y2YtYjY0NTc4YWQ3YTlkXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_FMjpg_UX1000_.jpg"
+  ),
+  new Person(
+    "Dr",
+    "Phil",
+    [SB.DrPhil_And_I_Oop, SB.DrPhil_SIMP, SB.DrPhil_IHopeYouGetAssCancerAndDie],
+    "https://deadline.com/wp-content/uploads/2023/01/dr-phil-mcgraw-2.jpg?w=1000"
+  ),
+  new Person(
+    "DJ",
+    "Khaled",
+    [SB.DJKhaled_TheWholeOcean, SB.DJKhaled_GodDid],
+    "https://www.digitaldjhub.com/dj-khaled/dj-khaled.jpg"
+  ),
+  new Person(
+    "Barack",
+    "Obama",
+    [SB.Obama_AndDickToo],
+    "https://cdn.britannica.com/44/127844-050-33AB565F/Barack-Obama-2009.jpg"
+  ),
+  new Person(
+    "Rich",
+    "Lux",
+    [
+      SB.RichLux_Dan_Is_The_Queen,
+      SB.RichLux_SpaceMountain,
+      SB.RichLux_ICantStandDan,
+      SB.RichLux_DanIsJealousOfMe,
+    ],
+    "https://s3-us-west-2.amazonaws.com/api.starngage.media.profile/268190379_334535715183000_6150433005347161040_n.jpg"
+  ),
+  new Person(
+    "Tipster",
+    "",
+    [
+      SB.Tipster_Cheers_My_Dude,
+      SB.Tipster_GivingItToYourMom,
+      SB.Tipster_VaginaLooksLike,
+    ],
+    "https://external-preview.redd.it/cheers-my-dude-v0-NmNnOG51MTNxN2NiMZlAEwdAHHbCbAbPFJKkN1i_sXLAWVZmupNsLtlGapu4.png?width=640&crop=smart&format=pjpg&auto=webp&s=7a15ea9845f77d474c99c0b2c0c15ef67a7b6317"
+  ),
+  new Person(
+    "Bowblax",
+    "",
+    [
+      SB.Bowblax_BITCH_YOU_HAVE_NOTHING,
+      SB.BowBlax_TALK_ABOUT_THE_ALLEGATIONS,
+      SB.BowBlax_THIS_THIS_THIS_IS_WHY_IM_WATCHING,
+      SB.Bowblax_FIVE_HUNDRED_SUBS,
+      SB.Bowblax_LET_ME_SPEEEEAAAAK,
+      SB.Bowblax_Stop_Laughing_AT_SONIC,
+    ],
+    "https://sp.rmbl.ws/s8/1/a/z/y/w/azywk.oq1b-small-Keemstar-wants-ME-to-FIGHT-.jpg"
+  ),
+  new Person(
     "2007 World Cup Announcer",
     "",
     [SB.WorldCup_Ohhhh_Monsieurerrrrrrr],
@@ -128,19 +205,6 @@ export const People: Person[] = new Array(
     "",
     [SB.Boogie_INeverDid, SB.Boogie_UnemploymentRant],
     "https://i.pinimg.com/736x/a8/7b/8d/a87b8d959ea18b36d8b4cbbf6209e765.jpg"
-  ),
-  new Person(
-    "Bowblax",
-    "",
-    [
-      SB.Bowblax_BITCH_YOU_HAVE_NOTHING,
-      SB.BowBlax_TALK_ABOUT_THE_ALLEGATIONS,
-      SB.BowBlax_THIS_THIS_THIS_IS_WHY_IM_WATCHING,
-      SB.Bowblax_FIVE_HUNDRED_SUBS,
-      SB.Bowblax_LET_ME_SPEEEEAAAAK,
-      SB.Bowblax_Stop_Laughing_AT_SONIC,
-    ],
-    "https://sp.rmbl.ws/s8/1/a/z/y/w/azywk.oq1b-small-Keemstar-wants-ME-to-FIGHT-.jpg"
   ),
   new Person(
     "Bradley",
@@ -352,29 +416,11 @@ export const People: Person[] = new Array(
     "https://urbanislandz.com/wp-content/uploads/2023/07/Akademiks.webp"
   ),
   new Person(
-    "DJ",
-    "Khaled",
-    [SB.DJKhaled_TheWholeOcean],
-    "https://www.digitaldjhub.com/dj-khaled/dj-khaled.jpg"
-  ),
-  new Person(
     "Richard",
     "Simmons",
     [SB.RichardSimons_Screaming],
     "https://www.the-sun.com/wp-content/uploads/sites/6/2022/08/NINTCHDBPICT000754765106-2.jpg"
   ),
-  new Person(
-    "Rich",
-    "Lux",
-    [
-      SB.RichLux_Dan_Is_The_Queen,
-      SB.RichLux_SpaceMountain,
-      SB.RichLux_ICantStandDan,
-      SB.RichLux_DanIsJealousOfMe,
-    ],
-    "https://s3-us-west-2.amazonaws.com/api.starngage.media.profile/268190379_334535715183000_6150433005347161040_n.jpg"
-  ),
-
   new Person("Sam", "Temple", [SB.Sam_KIM_KHARDASHIAN], Faces.Sam),
   new Person(
     "Simon",
@@ -392,12 +438,7 @@ export const People: Person[] = new Array(
     ],
     "https://www.cameo.com/cdn-cgi/image/fit=cover,format=auto,width=500,height=500/https://cdn.cameo.com/resizer/05BMtUwGp_avatar-xQpk_bv29.jpg"
   ),
-  new Person(
-    "Dr",
-    "Phil",
-    [SB.DrPhil_And_I_Oop, SB.DrPhil_SIMP],
-    "https://deadline.com/wp-content/uploads/2023/01/dr-phil-mcgraw-2.jpg?w=1000"
-  ),
+
   new Person(
     "Dream",
     "",
@@ -828,12 +869,6 @@ export const People: Person[] = new Array(
     "https://imagez.tmz.com/image/50/4by3/2020/07/15/5015a36fa44f4bf7b9a2e2a5ab0acdb9_md.jpg"
   ),
   new Person(
-    "Lil Mo",
-    "",
-    [SB.LilMo_ACraneFuckinSmashedHimRightInHisHead],
-    Faces.LilMo
-  ),
-  new Person(
     "Logan",
     "Paul",
     [
@@ -1144,19 +1179,14 @@ export const People: Person[] = new Array(
   new Person(
     "Tim",
     "Pool",
-    [SB.TimPool_Ethan_Klein_Is_Damaging_Everything_Making_It_All_Worse],
+    [
+      SB.TimPool_Ethan_Klein_Is_Damaging_Everything_Making_It_All_Worse,
+      SB.TimPool_IndividualCitizenRightToOwnWarhead,
+      SB.TimPool_A_Bag_Of_Turd_You_Know_A_Flaming_Turd_Bag,
+    ],
     "https://m.media-amazon.com/images/M/MV5BNzQ3MzczMGYtYjY2Zi00ZGExLWE3NGItN2ZlNTA3Zjg0YWVjXkEyXkFqcGdeQXVyNzExMzc0MDg@._V1_.jpg"
   ),
-  new Person(
-    "Tipster",
-    "",
-    [
-      SB.Tipster_Cheers_My_Dude,
-      SB.Tipster_GivingItToYourMom,
-      SB.Tipster_VaginaLooksLike,
-    ],
-    "https://external-preview.redd.it/cheers-my-dude-v0-NmNnOG51MTNxN2NiMZlAEwdAHHbCbAbPFJKkN1i_sXLAWVZmupNsLtlGapu4.png?width=640&crop=smart&format=pjpg&auto=webp&s=7a15ea9845f77d474c99c0b2c0c15ef67a7b6317"
-  ),
+
   new Person(
     "Trisha",
     "Paytas",
@@ -1311,12 +1341,5 @@ export const People: Person[] = new Array(
     "Ma",
     [SB.YiLongMa_Mohney, SB.YilongMe_GiveToYa],
     "https://img-9gag-fun.9cache.com/photo/axBmXVW_460s.jpg"
-  ),
-  new Person("SunnyV2", "", [SB.SunnyV2_Gay], Faces.SunnyV2),
-  new Person(
-    "Barack",
-    "Obama",
-    [SB.Obama_AndDickToo],
-    "https://cdn.britannica.com/44/127844-050-33AB565F/Barack-Obama-2009.jpg"
   )
 );

@@ -9,7 +9,7 @@ function SubHeader(props: Props) {
   return (
     <div id="SubHeader">
       <input
-        placeholder="Search"
+        placeholder="Search By Person or Title"
         className="search-bar"
         onChange={(e) => {
           props.setSearchTerm(e.target.value ?? "");

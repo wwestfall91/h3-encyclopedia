@@ -5,6 +5,7 @@ export class Soundbite {
   sound: string;
   episode: Episode;
   time: number;
+  newlyAdded: boolean;
   image: string;
 
   constructor(
@@ -12,12 +13,14 @@ export class Soundbite {
     sound: string,
     episode: Episode,
     time: number = 0,
+    newlyAdded: boolean = false,
     image: string = ""
   ) {
     this.title = title;
     this.sound = sound;
     this.episode = episode;
     this.time = time;
+    this.newlyAdded = newlyAdded;
     this.image = image;
   }
 
