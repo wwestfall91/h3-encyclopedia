@@ -26,7 +26,7 @@ export const DanMoments: CrewPageSection[] = [
       DanImages.RichLuxDan
     ),
     new Moment(
-      "Saves Ethans Ad Read",
+      "Dan saves an ad read",
       e.GetAfterDark(75),
       3449,
       [Tag.Lore],
@@ -452,8 +452,6 @@ export const DanMoments: CrewPageSection[] = [
       [p.Dan],
       DanImages.DPIHateDan
     ),
-  ]),
-  new CrewPageSection("Dan Hates Jimmie Lee", [
     new Moment(
       "Dan Hates Jimmie Lee",
       e.GetH3TV(45),
@@ -477,6 +475,48 @@ export const DanMoments: CrewPageSection[] = [
       [Tag.Lore],
       [p.Dan],
       DanImages.JimmieLeeDan2
+    ),
+  ]),
+  new CrewPageSection("Dan and the scorpion chair", [
+    new Moment(
+      "Dan wants a new setup",
+      e.GetAfterDark(35),
+      4220,
+      [Tag.Lore],
+      [p.Dan],
+      DanImages.ScorpionChairDan1
+    ),
+    new Moment(
+      "so many chairs to choose!",
+      e.GetOffTheRails(6),
+      738,
+      [Tag.Lore],
+      [p.Dan],
+      DanImages.ScorpionChairDan2
+    ),
+    new Moment(
+      "Mad Max? Gatling Chair?",
+      e.GetAfterDark(50),
+      944,
+      [Tag.Lore],
+      [p.Dan],
+      DanImages.ScorpionChairDan3
+    ),
+    new Moment(
+      "The scorpion chair arrives",
+      e.GetAfterDark(57),
+      560,
+      [Tag.Lore],
+      [p.Dan],
+      DanImages.ScorpionChairDan4
+    ),
+    new Moment(
+      "RIP to the scorpion chair",
+      e.GetAfterDark(112),
+      7154,
+      [Tag.Lore],
+      [p.Dan],
+      DanImages.ScorpionChairDan
     ),
   ]),
   new CrewPageSection("Dan Hates The God Father", [
@@ -529,7 +569,7 @@ export const DanMoments: CrewPageSection[] = [
       DanImages.GodFatherDan6
     ),
     new Moment(
-      "zzz...",
+      "Dan gets a good nap in",
       e.GetAfterDark(59),
       7375,
       [Tag.Lore],
@@ -675,78 +715,56 @@ export const DanMoments: CrewPageSection[] = [
       DanImages.HotChipDan5
     ),
   ]),
-  // new CrewPageSection("Dan's mouse has a sexy voice", [
-  //   new Moment(
-  //     "Dan hits it by accident",
-  //     e.GetOffTheRails(32),
-  //     9187,
-  //     [Tag.Lore],
-  //     [p.Dan]
-  //   ),
-  //   new Moment(
-  //     "Realizing its the mouse",
-  //     e.GetAfterDark(90),
-  //     6480,
-  //     [Tag.Lore],
-  //     [p.Dan]
-  //   ),
-  //   new Moment(
-  //     "We do a little trolling",
-  //     e.GetH3TV(58),
-  //     605,
-  //     [Tag.Lore],
-  //     [p.Dan]
-  //   ),
-  //   new Moment(
-  //     "The fans are thirsty",
-  //     e.GetH3TV(59),
-  //     3578,
-  //     [Tag.Lore],
-  //     [p.Dan]
-  //   ),
-  //   new Moment("Dan hates it", e.GetAfterDark(92), 9045, [Tag.Lore], [p.Dan]),
-  //   new Moment(
-  //     "the fans demand DPI",
-  //     e.GetEpisodeByTitle(
-  //       "We Got Each Other The Worst Holiday Gifts (Live Audience!) - H3 Podcast #263"
-  //     ),
-  //     4119,
-  //     [Tag.Lore],
-  //     [p.Dan],
-  //     DanImages.LiveShowDPIDan
-  //   ),
-  // ]),
-  // new CrewPageSection("Dan's quest for the button", [
-  //   new Moment(
-  //     "The hunt begins",
-  //     e.GetAfterDark(33),
-  //     1315,
-  //     [Tag.Lore],
-  //     [p.Dan]
-  //   ),
-  //   new Moment(
-  //     "In talks with the vendors",
-  //     e.GetH3TV(59),
-  //     1850,
-  //     [Tag.Lore],
-  //     [p.Dan]
-  //   ),
-  //   new Moment(
-  //     "A New Years prediction",
-  //     e.GetEpisodeByTitle(
-  //       "We Got Each Other The Worst Holiday Gifts (Live Audience!) - H3 Podcast #263"
-  //     ),
-  //     9862,
-  //     [Tag.Lore],
-  //     [p.Dan]
-  //   ),
-  //   new Moment("It costs $20k", e.GetH3TV(65), 3273, [Tag.Lore], [p.Dan]),
-  //   new Moment(
-  //     "The button arrives",
-  //     e.GetOffTheRails(63),
-  //     413,
-  //     [Tag.Lore],
-  //     [p.Dan]
-  //   ),
-  // ]),
+  new CrewPageSection("Dans mouse CAN TALK?!", [
+    new Moment(
+      "Confusion sweeps the office",
+      e.GetOffTheRails(32),
+      9187,
+      [Tag.Lore],
+      [p.Dan],
+      DanImages.DPIDan1
+    ),
+    new Moment(
+      "Realizing its the mouse",
+      e.GetAfterDark(90),
+      6480,
+      [Tag.Lore],
+      [p.Dan],
+      DanImages.DPIDan2
+    ),
+    new Moment(
+      "We do a little trolling",
+      e.GetH3TV(58),
+      605,
+      [Tag.Lore],
+      [p.Dan],
+      DanImages.DPIDan3
+    ),
+    new Moment(
+      "Fans thirst for his mouse",
+      e.GetH3TV(59),
+      3578,
+      [Tag.Lore],
+      [p.Dan],
+      DanImages.DPIDan4
+    ),
+    new Moment(
+      "Dan hates it",
+      e.GetAfterDark(92),
+      9045,
+      [Tag.Lore],
+      [p.Dan],
+      DanImages.DPIDan5
+    ),
+    new Moment(
+      "the fans demand DPI",
+      e.GetEpisodeByTitle(
+        "We Got Each Other The Worst Holiday Gifts (Live Audience!) - H3 Podcast #263"
+      ),
+      4119,
+      [Tag.Lore],
+      [p.Dan],
+      DanImages.DPIDan6
+    ),
+  ]),
 ];

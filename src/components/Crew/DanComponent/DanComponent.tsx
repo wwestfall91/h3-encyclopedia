@@ -21,15 +21,22 @@ function DanComponent(props: Props) {
             <div className="crew-page-subheader">{section.title}</div>
             <div className="crew-page-content">
               <div className="crew-page-moments-grid">
-                {section.moments.map((moment) => (
-                  <>
-                    <MomentComponent
-                      image={moment.image}
-                      text={moment.title}
-                      url={moment.url}
-                    ></MomentComponent>
-                  </>
-                ))}
+                {section.moments
+                  .sort(function (a, b) {
+                    return (
+                      Date.parse(a.episode.date) - Date.parse(b.episode.date)
+                    );
+                  })
+                  .map((moment) => (
+                    <>
+                      <MomentComponent
+                        image={moment.image}
+                        text={moment.title}
+                        url={moment.url}
+                        date={moment.episode.date}
+                      ></MomentComponent>
+                    </>
+                  ))}
               </div>
             </div>
           </>
