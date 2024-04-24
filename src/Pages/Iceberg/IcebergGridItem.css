@@ -4,7 +4,6 @@
 }
 
 .iceberg-button {
-  transform: rotate(-4deg);
   background-color: #cff0ff;
   border-radius: 7px;
   box-shadow: 5px 3px 3px 2px rgba(0, 0, 0, 0.555);
@@ -13,6 +12,15 @@
   font-size: 0.75vw;
   font-weight: 600;
   font-family: monospace;
+}
+
+.iceberg-button:hover {
+  transform: scale(1.25) rotate(-4deg);
+  transition: 0.2s;
+}
+
+.iceberg-button:not(:hover) {
+  transition: 0.2s;
 }
 
 .item {
@@ -26,10 +34,8 @@
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {
   .iceberg-button {
-    transform: rotate(-4deg);
     background-color: #cff0ff;
     border-radius: 3px;
-    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.555);
     font-size: 1.5vw;
     font-weight: 600;
     font-family: monospace;
@@ -38,36 +44,19 @@
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .iceberg-button {
-    transform: rotate(-4deg);
-    background-color: #cff0ff;
-    border-radius: 3px;
-    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.555);
     font-size: 1.75vw;
-    font-weight: 600;
-    font-family: monospace;
   }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
   .iceberg-button {
-    transform: rotate(-4deg);
-    background-color: #cff0ff;
-    border-radius: 3px;
-    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.555);
     font-size: 2vw;
-    font-weight: 600;
-    font-family: monospace;
   }
 }
 
 @media all and (max-width: 480px) {
   .iceberg-button {
-    transform: rotate(-4deg);
-    background-color: #cff0ff;
     border-radius: 3px;
-    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.555);
     font-size: 3vw;
-    font-weight: 600;
-    font-family: monospace;
   }
 }

@@ -137,7 +137,7 @@ export const AllPodcasts: Episode[] = new Array(
   new Episode(
     "H3 Podcast #16 - Net Neutrality",
     "https://youtu.be/N4k1gEC0800",
-    "7-16-2017",
+    "2017-07-16",
     [EpisodeType.Podcast]
   ),
   new Episode(
@@ -203,7 +203,7 @@ export const AllPodcasts: Episode[] = new Array(
   new Episode(
     "H3 Podcast #17 - Jacksfilms & Internet Comment Etiquette",
     "https://youtu.be/W555pdLeI_I",
-    "7-23-2017",
+    "2017-07-23",
     [EpisodeType.Podcast]
   ),
   new Episode(
@@ -269,7 +269,7 @@ export const AllPodcasts: Episode[] = new Array(
   new Episode(
     "H3 Podcast #18 - Hugh Mungus",
     "https://youtu.be/qbIPL8ll3sg",
-    "7-30-2017",
+    "2017-07-30",
     [EpisodeType.Podcast]
   ),
   new Episode(
@@ -335,7 +335,7 @@ export const AllPodcasts: Episode[] = new Array(
   new Episode(
     "H3 Podcast #19 - Jesse Wellens + Phone Interview w/ Martin Shkreli",
     "https://youtu.be/AYWcC1fcMQw",
-    "8-6-2017",
+    "2017-08-06",
     [EpisodeType.Podcast]
   ),
   new Episode(
@@ -401,7 +401,7 @@ export const AllPodcasts: Episode[] = new Array(
   new Episode(
     "H3 Podcast #20 - One Fricked Up Dentist (Jimmie Lee)",
     "https://youtu.be/rq8HL3jVy-M",
-    "8-13-2017",
+    "2017-08-13",
     [EpisodeType.Podcast]
   ),
   new Episode(
@@ -461,13 +461,13 @@ export const AllPodcasts: Episode[] = new Array(
   new Episode(
     "Gigi Hadid Bodyslams Jake Paul - H3 Podcast #178",
     "https://youtu.be/BTDNJe8UiJE",
-    "2-26-2020",
+    "2020-02-26",
     [EpisodeType.Podcast]
   ),
   new Episode(
     "H3 Podcast #21 - Was Joey Salads at the Rally? & Elon vs. Zuckerberg (Top Of The Week)",
     "https://youtu.be/MBZC4FxMQ_E",
-    "8-17-2017",
+    "2017-08-17",
     [EpisodeType.Podcast]
   ),
   new Episode(
@@ -533,7 +533,7 @@ export const AllPodcasts: Episode[] = new Array(
   new Episode(
     "H3 Podcast #22 - Jake Paul & KTLA Reporter Chris Wolfe",
     "https://youtu.be/q_faWNnWhcw",
-    "8-19-2017",
+    "2017-08-19",
     [EpisodeType.Podcast]
   ),
   new Episode(
@@ -599,7 +599,7 @@ export const AllPodcasts: Episode[] = new Array(
   new Episode(
     "H3 Podcast #23 - I've Lost All Respect For You ... (Top Of The Week)",
     "https://youtu.be/t9Yrlsw6J5c",
-    "8-24-2017",
+    "2017-08-24",
     [EpisodeType.Podcast]
   ),
   new Episode(
@@ -815,7 +815,7 @@ export const AllPodcasts: Episode[] = new Array(
   new Episode(
     "Corpse Husband, Psycho Twitch Streamers, Joe Rogan Is Tiny Joker - H3 Podcast #233",
     "https://youtu.be/vSkmUdAMm9I",
-    "1-27-2021",
+    "2021-01-27",
     [EpisodeType.Podcast]
   ),
   new Episode(
@@ -881,7 +881,7 @@ export const AllPodcasts: Episode[] = new Array(
   new Episode(
     "It's Time To Stop James Charles - H3 Podcast #241",
     "https://youtu.be/ABT5w_LNtx8",
-    "4-1-2021",
+    "2021-04-01",
     [EpisodeType.Podcast]
   ),
   new Episode(
@@ -1187,7 +1187,7 @@ export const AllPodcasts: Episode[] = new Array(
   new Episode(
     "We Got Each Other The Worst Holiday Gifts (Live Audience!) - H3 Podcast #263",
     "https://youtu.be/vq8nR2LMrno",
-    "12-21-2022",
+    "2022-12-21",
     [EpisodeType.Podcast]
   ),
   new Episode(
@@ -1325,7 +1325,7 @@ export const AllPodcasts: Episode[] = new Array(
   new Episode(
     "H3 Podcast #75 - Logan Paul Humiliated & Roseanne Loses It",
     "https://youtu.be/pKENOdgWWUY",
-    "7-27-2018",
+    "2018-07-27",
     [EpisodeType.Podcast]
   ),
   new Episode(
@@ -1337,7 +1337,7 @@ export const AllPodcasts: Episode[] = new Array(
   new Episode(
     "H3 Podcast #11 - Ethan's Parents",
     "https://youtu.be/nEP_YdWei0Y",
-    "6-18-2017",
+    "2017-06-18",
     [EpisodeType.Podcast]
   ),
   new Episode(

@@ -633,43 +633,43 @@ export const AllOffTheRails: Episode[] = new Array(
     [EpisodeType.OTR]
   ),
   new Episode(
-    `im sorry hila - Off The Rails # 5`,
+    `im sorry hila - Off The Rails #5`,
     "https://www.youtube.com/watch?v=xamEkP8HLdA",
     "2021-07-15",
     [EpisodeType.OTR]
   ),
   new Episode(
-    `The Biggest Scam In YouTube History - Off The Rails # 4`,
+    `The Biggest Scam In YouTube History - Off The Rails #4`,
     "https://www.youtube.com/watch?v=iBXtS72EGcM",
     "2021-07-08",
     [EpisodeType.OTR]
   ),
   new Episode(
-    `Trisha's Apology & Ace Family Scam - Off The Rails # 3`,
+    `Trisha's Apology & Ace Family Scam - Off The Rails #3`,
     "https://www.youtube.com/watch?v=6kNZujESbNI",
     "2021-07-01",
     [EpisodeType.OTR]
   ),
   new Episode(
-    `Dream, Keemstar, All Gas No Breaks Interview with Andrew Callaghan - Off The Rails # 2`,
+    `Dream, Keemstar, All Gas No Breaks Interview with Andrew Callaghan - Off The Rails #2`,
     "https://www.youtube.com/watch?v=RSirCfZjonY",
     "2021-06-03",
     [EpisodeType.OTR]
   ),
   new Episode(
-    `Ethan Destroys The New Office - Off The Rails # 1`,
+    `Ethan Destroys The New Office - Off The Rails #1`,
     "https://www.youtube.com/watch?v=JHGs0juAZX4",
     "2021-05-27",
     [EpisodeType.OTR]
   ),
   new Episode(
-    `The Belle Delphine Mystery & Our New Studio - H3 Podcast # 246`,
+    `The Belle Delphine Mystery & Our New Studio - H3 Podcast #246`,
     "https://www.youtube.com/watch?v=f_g3mOv7s5o",
     "2021-05-20",
     [EpisodeType.OTR]
   ),
   new Episode(
-    `Humanity Is Doomed - H3 Podcast # 245`,
+    `Humanity Is Doomed - H3 Podcast #245`,
     "https://www.youtube.com/watch?v=Htq468essmM",
     "2021-04-29",
     [EpisodeType.OTR]
@@ -681,31 +681,31 @@ export const AllOffTheRails: Episode[] = new Array(
     [EpisodeType.OTR]
   ),
   new Episode(
-    `I'm Selling Vape Nation - H3 Podcast # 239`,
+    `I'm Selling Vape Nation - H3 Podcast #239`,
     "https://www.youtube.com/watch?v=zfWQpaPGW4g",
     "2021-03-11",
     [EpisodeType.OTR]
   ),
   new Episode(
-    `Jake Paul Fight Was A Disaster - H3 Podcast # 244`,
+    `Jake Paul Fight Was A Disaster - H3 Podcast #244`,
     "https://www.youtube.com/watch?v=bfKPts4BJkA",
     "2021-04-22",
     [EpisodeType.OTR]
   ),
   new Episode(
-    `Infowars Attacks Ethan - H3 Podcast # 243`,
+    `Infowars Attacks Ethan - H3 Podcast #243`,
     "https://www.youtube.com/watch?v=0Os_vIpQXg4",
     "2021-04-15",
     [EpisodeType.OTR]
   ),
   new Episode(
-    `We're Not Done With James Charles - H3 Podcast # 242`,
+    `We're Not Done With James Charles - H3 Podcast #242`,
     "https://www.youtube.com/watch?v=PcDqarjl4w0",
     "2021-04-08",
     [EpisodeType.OTR]
   ),
   new Episode(
-    `It's Time To Stop James Charles - H3 Podcast # 241`,
+    `It's Time To Stop James Charles - H3 Podcast #241`,
     "https://www.youtube.com/watch?v=ABT5w_LNtx8",
     "2021-04-01",
     [EpisodeType.OTR]

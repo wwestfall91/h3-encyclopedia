@@ -313,7 +313,7 @@ export function IcebergPage() {
                   item={AllIcebergLayers.Layer6.AndrewTateCeaseAndDesist}
                   SetModalData={SetModalData}
                   row={5}
-                  column={6}
+                  column={7}
                 ></IcebergGridItem>
                 <IcebergGridItem
                   item={AllIcebergLayers.Layer6.ArabWorldNews}
@@ -387,13 +387,13 @@ export function IcebergPage() {
                   item={AllIcebergLayers.Layer7.EthansFeet}
                   SetModalData={SetModalData}
                   row={3}
-                  column={2}
+                  column={3}
                 ></IcebergGridItem>
                 <IcebergGridItem
                   item={AllIcebergLayers.Layer7.HungerFF}
                   SetModalData={SetModalData}
                   row={2}
-                  column={6}
+                  column={7}
                 ></IcebergGridItem>
                 <IcebergGridItem
                   item={AllIcebergLayers.Layer7.NathanielKlansman}
@@ -411,7 +411,7 @@ export function IcebergPage() {
                   item={AllIcebergLayers.Layer7.TheFeedingWindow}
                   SetModalData={SetModalData}
                   row={3}
-                  column={6}
+                  column={5}
                 ></IcebergGridItem>
                 <IcebergGridItem
                   item={AllIcebergLayers.Layer7.TheMolePeople}
