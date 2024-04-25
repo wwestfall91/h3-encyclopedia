@@ -8,7 +8,7 @@ $randomNumber: random(5);
 
   .crew-page-grid {
     display: grid;
-    grid-template: repeat(2, 1fr) / repeat(9, 10%);
+    grid-template: repeat(2, 1fr) / repeat(10, 9%);
     row-gap: 1rem;
     justify-content: center;
     width: 100vw;

@@ -7,6 +7,7 @@ import * as Love from "./Love/Index/LoveIndex";
 import * as Olivia from "./Olivia/Index/OliviaIndex";
 import * as Sam from "./Sam/Index/SamIndex";
 import * as Zach from "./Zach/Index/ZachIndex";
+import * as Nate from "./Nate/Index/NateIndex";
 
 const AllCrewAssets = {
   AB,
@@ -18,6 +19,7 @@ const AllCrewAssets = {
   Olivia,
   Sam,
   Zach,
+  Nate,
 };
 
 export default AllCrewAssets;

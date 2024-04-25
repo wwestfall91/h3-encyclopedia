@@ -176,6 +176,22 @@ export function CrewPage() {
                 comingSoon={true}
               ></CustomCard1>
             </div>
+            <div
+              className="crew-page-grid-item"
+              style={
+                {
+                  "--column": 10,
+                  "--row": 2,
+                } as React.CSSProperties
+              }
+            >
+              <CustomCard1
+                title={"Nate"}
+                image={AllCrewAssets.Nate.WhoIsNate}
+                onClickCallback={() => {}}
+                comingSoon={true}
+              ></CustomCard1>
+            </div>
           </div>
         )}
         {!isSelecting && selectedContainer}

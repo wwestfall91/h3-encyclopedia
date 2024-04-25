@@ -12,7 +12,9 @@ function CustomCard1(props: Props) {
     <div id="CustomCard1" onClick={() => props.onClickCallback()}>
       {props.comingSoon && (
         <div className="coming-soon">
-          <div className="coming-soon-text">Coming Soon</div>
+          <div className="coming-soon-text">
+            {props.title == "Nate" ? "Who Is Nate?!" : "Coming Soon"}
+          </div>
         </div>
       )}
 
