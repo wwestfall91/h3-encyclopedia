@@ -2765,14 +2765,14 @@ export const Ninja_AmIJewish = new Soundbite(
 export const Obama_AndDickToo = new Soundbite(
   "And DICK too!",
   SB.Obama_AndDickToo,
-  episodes.GetOffTheRails(87),
-  11049
+  episodes.GetAfterDark(119),
+  274
 );
 export const SunnyV2_Gay = new Soundbite(
   "Gayy",
   SB.SunnyV2_Gay,
-  episodes.GetOffTheRails(87),
-  11049
+  episodes.GetAfterDark(101),
+  7826
 );
 
 export const CandaceOwens_AndHoldMyFartLikeABongRip = new Soundbite(
