@@ -2,7 +2,6 @@ import { useState } from "react";
 import { DanMoments } from "../../../models/Moments/DanMoments";
 import MomentComponent from "../../Moments/MomentComponent/MomentComponent";
 import "./DanComponent.scss";
-import SubmitModal from "../../Modals/SubmitModal/SubmitModal";
 import RequestCrewMomentModal from "../../Modals/RequestCrewMomentModal/RequestCrewMomentModal";
 
 type Props = {
