@@ -11,6 +11,9 @@ export enum CrewMembers {
 }
 
 export function CrewPage() {
+  const [isSelecting, setIsSelecting] = useState(true);
+  const [selectedContainer, setSelectedContainer] = useState<JSX.Element>();
+
   function HandleCrewClick() {
     setIsSelecting(false);
     setSelectedContainer(
@@ -22,9 +25,6 @@ export function CrewPage() {
     setIsSelecting(true);
     setSelectedContainer(<></>);
   }
-
-  const [isSelecting, setIsSelecting] = useState(true);
-  const [selectedContainer, setSelectedContainer] = useState(<></>);
 
   return (
     <>

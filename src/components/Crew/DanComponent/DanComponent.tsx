@@ -1,20 +1,38 @@
+import { useState } from "react";
 import { DanMoments } from "../../../models/Moments/DanMoments";
 import MomentComponent from "../../Moments/MomentComponent/MomentComponent";
 import "./DanComponent.scss";
+import SubmitModal from "../../Modals/SubmitModal/SubmitModal";
+import RequestCrewMomentModal from "../../Modals/RequestCrewMomentModal/RequestCrewMomentModal";
 
 type Props = {
   onReturnClickCallback: () => void;
 };
 
 function DanComponent(props: Props) {
+  const [showRequestModal, setShowRequestModel] = useState(false);
+
   return (
     <div id="DanComponent">
-      <button
-        className="submit-button"
-        onClick={() => props.onReturnClickCallback()}
-      >
-        Back
-      </button>
+      {showRequestModal && (
+        <RequestCrewMomentModal
+          toggleShown={setShowRequestModel}
+        ></RequestCrewMomentModal>
+      )}
+      <div className="dan-component-subheader">
+        <button
+          className="dan-component-button"
+          onClick={() => props.onReturnClickCallback()}
+        >
+          Back
+        </button>
+        <button
+          className="dan-component-button"
+          onClick={() => setShowRequestModel(true)}
+        >
+          Request Dan Moment
+        </button>
+      </div>
       <div className="crew-page-section">
         {DanMoments.map((section) => (
           <>
