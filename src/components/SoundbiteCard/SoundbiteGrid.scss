@@ -1,37 +1,11 @@
 #soundbite-grid-container {
   .soundbite-grid {
-    display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-columns: repeat(6, 14%);
-    grid-auto-flow: row;
+    display: flex;
+    padding-top: 1.5rem;
+    flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
-    padding-top: 1.5rem;
-  }
-
-  @media all and (min-width: 1024px) and (max-width: 1280px) {
-    .soundbite-grid {
-      grid-template-columns: repeat(5, 16%);
-    }
-  }
-
-  @media all and (min-width: 768px) and (max-width: 1024px) {
-    .soundbite-grid {
-      grid-template-columns: repeat(4, 21%);
-    }
-  }
-
-  @media all and (min-width: 480px) and (max-width: 768px) {
-    .soundbite-grid {
-      grid-template-columns: repeat(4, 20%);
-    }
-  }
-
-  @media all and (max-width: 480px) {
-    .soundbite-grid {
-      grid-template-columns: repeat(2, 45%);
-      padding: 1rem;
-    }
+    align-items: center;
+    padding: 1rem;
   }
 }
