@@ -1,0 +1,35 @@
+#ButtonPage {
+  .button-page-container {
+    display: flex;
+    width: 100vw;
+    height: 100dvh;
+    align-items: start;
+  }
+
+  .days-since-incident-container {
+    display: flex;
+    position: absolute;
+    aspect-ratio: 30/5;
+    padding: 1rem 2rem;
+    top: 0;
+    left: 0;
+    align-items: center;
+    transform: rotate(-2deg);
+  }
+
+  .button-incidents-image {
+    width: 15rem;
+    -webkit-box-shadow: 19px 19px 12px -10px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 19px 19px 12px -10px rgba(0, 0, 0, 0.38);
+    box-shadow: -0px 19px 12px -10px rgba(0, 0, 0, 0.38);
+  }
+
+  .button-page-count {
+    position: absolute;
+    font-size: 32px;
+    padding-top: 2.2rem;
+    padding-left: 3.2rem;
+    font-family: monospace;
+    font-weight: 800;
+  }
+}

@@ -16,6 +16,7 @@ function PageHeader(props: Props) {
           <CustomButton page={Page.Soundbites} />
           <CustomButton page={Page.Iceberg} />
           <CustomButton page={Page.Crew} />
+          <CustomButton page={Page.Button} />
         </div>
       </div>
     </div>
