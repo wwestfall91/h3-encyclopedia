@@ -18,13 +18,13 @@ export { default as CarlosMatos_WhatsUp } from "./CarlosMatos_WhatsUp.mp3";
 export { default as CharlieKirk_IfISeeABlackPilot } from "./CharlieKirk_IfISeeABlackPilot.mp3";
 export { default as ColleenBallinger_FuckMeRight } from "./ColleenBallinger_FuckMeRight.mp3";
 export { default as ColleenBallinger_FartJoke } from "./ColleenBallinger_FartJoke.mp3";
-export { default as DaliLama_SuckMyTongue } from "./DaliLama_SuckMyTongue.mp3";
+export { default as DalaiLama_SuckMyTongue } from "./DaliLama_SuckMyTongue.mp3";
 export { default as Dan_PutYourBallsInMyMouth } from "./Dan_PutYourBallsInMyMouth.mp3";
 export { default as Dan_HeilHitler } from "./Dan_HeilHitler.mp3";
 export { default as DennisPrager_WhatsYourArgument } from "./DennisPrager_WhatsYourArgument.mp3";
-export { default as DemiLovata_HardTimeWeekend } from "./DemiLovata_HardTimeWeekend.mp3";
+export { default as DemiLovato_HardTimeWeekend } from "./DemiLovata_HardTimeWeekend.mp3";
 export { default as DemiLovato_DidntGetTheYogurtIWanted } from "./DemiLovato_DidntGetTheYogurtIWanted.mp3";
-export { default as DJAkademics_DRAKE } from "./DJAkademics_DRAKE.mp3";
+export { default as DJAkademiks_DRAKE } from "./DJAkademics_DRAKE.mp3";
 export { default as Misc_DinkDoinkYoureMyFavoriteCoin } from "./Misc_DinkDoinkYoureMyFavoriteCoin.mp3";
 export { default as DJKhaled_TheWholeOcean } from "./DJKhaled_TheWholeOcean.mp3";
 export { default as DonnaKlein_DeezNuts } from "./DonnaKlein_DeezNuts.mp3";
@@ -145,7 +145,7 @@ export { default as Ninja_AmIJewish } from "./Ninja_AmIJewish.mp3";
 export { default as Obama_AndDickToo } from "./Obama_AndDickToo.mp3";
 export { default as Olivia_IGotMyProstateMilked } from "./Olivia_IGotMyProstateMilked.mp3";
 export { default as OwenCook_NeverBeABeta } from "./OwenCook_NeverBeABeta.mp3";
-export { default as Penguiz0_CookieRant } from "./Penguiz0_CookieRant.mp3";
+export { default as MoistCritical_CookieRant } from "./Penguiz0_CookieRant.mp3";
 export { default as PhillyD_supsupsupsup } from "./PhillyD_supsupsupsup.mp3";
 export { default as RichardSimons_Screaming } from "./RichardSimons_Screaming.mp3";
 export { default as RichLux_DanIsJealousOfMe } from "./RichLux_DanIsJealousOfMe.mp3";
@@ -165,9 +165,9 @@ export { default as SenatorJohnKennedy_SlippedACondomOn } from "./SenatorJohnKen
 export { default as SenatorJohnKennedy_SlowlyInsertedIntoMe } from "./SenatorJohnKennedy_SlowlyInsertedIntoMe.mp3";
 export { default as SenatorJohnKennedy_ThisWasMyAss } from "./SenatorJohnKennedy_ThisWasMyAss.mp3";
 export { default as SimonKaggwa_WhyAreYouGay } from "./SimonKaggwa_WhyAreYouGay.mp3";
-export { default as StephenCrowder_EthanStandUpGuy } from "./StephenCrowder_EthanStandUpGuy.mp3";
-export { default as StephenCrowder_IHadNoIdeaThisWasGoingToHappen } from "./StephenCrowder_IHadNoIdeaThisWasGoingToHappen.mp3";
-export { default as StephenCrowder_OhNoSamSeder } from "./StephenCrowder_OhNoSamSeder.mp3";
+export { default as StevenCrowder_EthanStandUpGuy } from "./StephenCrowder_EthanStandUpGuy.mp3";
+export { default as StevenCrowder_IHadNoIdeaThisWasGoingToHappen } from "./StephenCrowder_IHadNoIdeaThisWasGoingToHappen.mp3";
+export { default as StevenCrowder_OhNoSamSeder } from "./StephenCrowder_OhNoSamSeder.mp3";
 export { default as StevenCrowder_ThatDoesntWorkEither } from "./StevenCrowder_ThatDoesntWorkEither.mp3";
 export { default as SunnyV2_Gay } from "./SunnyV2_Gay.mp3";
 export { default as TheGoodDoctor_CantDoThis } from "./TheGoodDoctor_CantDoThis.mp3";
@@ -183,7 +183,7 @@ export { default as TomSelleck_ItsJustALoan } from "./TomSelleck_ItsJustALoan.mp
 export { default as Trump_BlowinOutMyVoiceTalkingToThisStupidMic } from "./Trump_BlowinOutMyVoiceTalkingToThisStupidMic.mp3";
 export { default as Trump_DontCallHimAFatPig } from "./Trump_DontCallHimAFatPig.mp3";
 export { default as Trump_ExtremelyWet } from "./Trump_ExtremelyWet.mp3";
-export { default as Trump_IDidEverythingRightAndTheyIndictedMe } from "./Trump_IDidEverythingRightAndTheyIndictedMe.mp3";
+export { default as DonaldTrump_IDidEverythingRightAndTheyIndictedMe } from "./Trump_IDidEverythingRightAndTheyIndictedMe.mp3";
 export { default as Trump_Its104Or5DegressInThisRoom } from "./Trump_Its104Or5DegressInThisRoom.mp3";
 export { default as Trump_PleaseDoNotCallHimAFatPig } from "./Trump_PleaseDoNotCallHimAFatPig.mp3";
 export { default as Trump_ThisIsTheWorstMicrophoneIveEverHad } from "./Trump_ThisIsTheWorstMicrophoneIveEverHad.mp3";
@@ -378,7 +378,7 @@ export { default as PrinceHarry_SuckingASmoko } from "./PrinceHarry_SuckingASmok
 export { default as PrinceHarry_Todger } from "./PrinceHarry_Todger.mp3";
 export { default as Ricegum_Laugh } from "./Ricegum_Laugh.mp3";
 export { default as Ricegum_MonotoneMonica } from "./Ricegum_MonotoneMonica.mp3";
-export { default as RingoStar_ImWarningYouWithPeaceAndLove } from "./RingoStar_ImWarningYouWithPeaceAndLove.mp3";
+export { default as RingoStarr_ImWarningYouWithPeaceAndLove } from "./RingoStar_ImWarningYouWithPeaceAndLove.mp3";
 export { default as RingoStarr_ThankYouThankYou } from "./RingoStarr_ThankYouThankYou.mp3";
 
 export { default as RKelly_DoYouHaveYouPassports } from "./RKelly_DoYouHaveYouPassports.mp3";
@@ -392,7 +392,7 @@ export { default as RyanKavanaugh_TooMuchWineSorry } from "./RyanKavanaugh_TooMu
 export { default as Shaq_DeleteMeFromThisConversation } from "./Shaq_DeleteMeFromThisConversation.mp3";
 export { default as SnoopDogg_FUCK } from "./SnoopDogg_FUCK.mp3";
 export { default as StevenCrowder_YouDontEvenHaveToThinkAboutIt } from "./StevenCrowder_YouDontEvenHaveToThinkAboutIt.mp3";
-export { default as StevenSegal_VladamirPutin } from "./StevenSegal_VladamirPutin.mp3";
+export { default as StevenSeagal_VladamirPutin } from "./StevenSegal_VladamirPutin.mp3";
 
 export { default as TheQuartering_IJustPeedInMyBasement } from "./TheQuartering_IJustPeedInMyBasement.mp3";
 export { default as TheQuartering_ImNotTakingAPauseToSHITALLOVERTHEFLOOR } from "./TheQuartering_ImNotTakingAPauseToSHITALLOVERTHEFLOOR.mp3";
