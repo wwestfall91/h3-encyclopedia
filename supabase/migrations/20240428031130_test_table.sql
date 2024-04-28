@@ -1,0 +1,4 @@
+CREATE TABLE public.test_table(
+    id      INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    test    INT NOT NULL
+);
