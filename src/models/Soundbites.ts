@@ -13,7 +13,8 @@ export const Soundbites: Soundbite[] = new Array(
     SB.WorldCupAnnoucer_OhhhMonseiuur,
     [P.Misc], 
     episodes.GetAfterDark(65),
-    2439
+    2439,
+    Faces.Oh_Monsieur
   ),
   new Soundbite(
     "I Like the Twilight Movies",
@@ -2428,7 +2429,7 @@ export const Soundbites: Soundbite[] = new Array(
   new Soundbite(
     "*BONK*",
     SB.Misc_BonkNoise,
-    [P.Misc], new JeffEpisode()
+    [P.Misc], new JeffEpisode(), 0, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcZ4Jcx5JW4LCjsdwMdSG0QVpubmrR-8l_h_BJBCYaoQ&s"
   ),
   new Soundbite(
     "Bruh.",
@@ -2455,7 +2456,7 @@ export const Soundbites: Soundbite[] = new Array(
     1758
   ),
   new Soundbite(
-    "$28, no matter how you spin this is A LOT for some Cookies... ...",
+    "$28 A LOT for some Cookies",
     SB.MoistCritical_CookieRant,
     [P.MoistCritical], episodes.GetH3TV(99),
     10981
@@ -2466,9 +2467,10 @@ export const Soundbites: Soundbite[] = new Array(
     [P.PhilipDefranco], new JeffEpisode()
   ),
   new Soundbite(
-    "**Screams as car runs over foot**",
+    "*Screams as car runs over foot",
     SB.RichardSimons_Screaming,
-    [P.RichardSimmons], episodes.GetH3TV(113),
+    [P.RichardSimmons], 
+    episodes.GetH3TV(113),
     7433
   ),
   new Soundbite(

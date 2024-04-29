@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Soundbites from "./Pages/SoundBitesPage/SoundBitesPage";
+import SoundbitesPage from "./Pages/SoundBitesPage/SoundBitesPage";
 import Iceberg from "./Pages/Iceberg/IcebergPage";
 import ComingSoon from "./Pages/ComingSoonPage";
 import CrewPage from "./components/Crew/CrewPage/CrewPage";
@@ -12,7 +12,7 @@ function App() {
       <Router>
         <div className="soundbite-navigation"></div>
         <Routes>
-          <Route path="/" Component={Soundbites} />
+          <Route path="/" Component={SoundbitesPage} />
           <Route path="/comingSoon" Component={ComingSoon} />
           <Route path="/iceberg" Component={Iceberg} />
           <Route path="/crew" Component={CrewPage} />

@@ -507,13 +507,13 @@ export const AllH3TVs: Episode[] = new Array(
     [EpisodeType.H3TV]
   ),
   new Episode(
-    "RespondingToTheAllegations",
+    "Responding To The Allegations - H3TV #113",
     "https://www.youtube.com/watch?v=zkoKnz5zE3o",
     "2024-04-01",
     [EpisodeType.H3TV]
   ),
   new Episode(
-    "TheBacH3lorEp#5ABeachPicnicWithVericaFtJeffWittekH3TV#112",
+    "The BacH3lor Ep5 A Beach Picnic With Verica Ft Jeff Wittek H3TV#112",
     "https://www.youtube.com/watch?v=9Lm16M0pafY",
     "2024-03-25",
     [EpisodeType.H3TV]

@@ -6,9 +6,18 @@ import SubHeader from "../SubHeader/SubHeader";
 import { useState } from "react";
 import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 
-function Soundbites() {
+export enum sortByType {
+  Default,
+  Name,
+  Date,
+  Person,
+}
+
+function SoundbitesPage() {
   const [searchTerm, setSearchTerm] = useState("");
   const [showEmailModal, setShowEmailModal] = useState<boolean>(false);
+  const [sortBy, setSortBy] = useState<sortByType>(sortByType.Default);
+
   return (
     <>
       <div id="SoundbitePage">
@@ -20,12 +29,13 @@ function Soundbites() {
           <SubHeader
             setSearchTerm={setSearchTerm}
             setShowSubmitModel={setShowEmailModal}
+            setSortBy={setSortBy}
           ></SubHeader>
-          <SoundbiteGrid searchTerm={searchTerm} />
+          <SoundbiteGrid searchTerm={searchTerm} sortBy={sortBy} />
         </div>
       </div>
     </>
   );
 }
 
-export default Soundbites;
+export default SoundbitesPage;

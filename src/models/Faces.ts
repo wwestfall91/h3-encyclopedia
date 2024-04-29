@@ -1,9 +1,9 @@
 import Money_Ethan from "./../assets/images/Money Ethan.png";
 import Dan_Swerdlove from "./../assets/images/Dan_Swerdlove.png";
-import Oh_Monsieur from "./../assets/images/oh monsierr.png";
 import Theodore_Blurred from "./../assets/images/Theodore_Blurred.png";
 
 export { default as Sam } from "../assets/images/SamTemple.png";
+export { default as Oh_Monsieur } from "./../assets/images/oh monsierr.png";
 export { default as Olivia } from "../assets/images/OliviaLopez.png";
 export { default as Ian } from "../assets/images/IanSlater.png";
 export { default as TrumpSupporter } from "../assets/images/TrumpSupporter.png";
@@ -26,4 +26,4 @@ export const Dr_Phil =
 export const Dan =
   "https://static.wikia.nocookie.net/h3podcast/images/e/e9/14324B18-B05B-4563-B034-5880A151B7C5.jpeg/revision/latest?cb=20220904181504";
 
-export default { Money_Ethan, Dan_Swerdlove, Oh_Monsieur, Theodore_Blurred };
+export default { Money_Ethan, Dan_Swerdlove, Theodore_Blurred };

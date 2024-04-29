@@ -1,13 +1,30 @@
 #SubHeader {
   display: flex;
   justify-content: space-between;
-  height: 8vh;
+
   width: 100vw;
   padding: 1rem 5rem;
   align-items: center;
 
   .search-bar {
-    max-width: 50%;
+    height: 2rem;
+  }
+
+  .subheader-left {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .sort-buttons {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .subheader-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
   }
 
   .submit-button {
@@ -41,6 +58,17 @@
   }
 
   @media all and (max-width: 480px) {
+    padding: 1rem 1.5rem;
+
+    .subheader-left {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .sort-buttons {
+      gap: 0.5rem;
+    }
+
     .submit-button {
       font-size: 3vw;
       transform: rotate(0deg);
