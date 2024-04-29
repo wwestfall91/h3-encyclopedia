@@ -45,4 +45,15 @@ export class Episode {
 
     return `${this.URL}&t=${seconds}s`;
   }
+
+  getThumbnail(){
+    if (this.URL.includes("youtu.be")) {
+      const id = this.URL.split(".be/")[1];
+      return `https://i3.ytimg.com/vi/${id}/hqdefault.jpg`
+    }
+
+    const id = this.URL.split("v=")[1];
+    return `https://i3.ytimg.com/vi/${id}/hqdefault.jpg`
+  }
+
 }

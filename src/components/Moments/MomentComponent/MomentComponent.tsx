@@ -4,7 +4,7 @@ type Props = {
   image: string;
   text: string;
   url: string;
-  date: string;
+  headerText: string;
 };
 
 function MomentComponent(props: Props) {
@@ -12,7 +12,7 @@ function MomentComponent(props: Props) {
     <div id="MomentComponent">
       <a href={props.url} target="_blank" rel="noopener noreferrer">
         <div className="moment-container">
-          <div className="moment-date">{props.date}</div>
+          <div className="moment-date">{props.headerText}</div>
           <div className="moment-image-container">
             <img className="moment-image" src={props.image}></img>
           </div>

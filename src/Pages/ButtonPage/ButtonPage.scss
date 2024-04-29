@@ -1,6 +1,7 @@
 #ButtonPage {
   .button-page-container {
     display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100dvh;
     align-items: start;
@@ -9,7 +10,6 @@
   .days-since-incident-container {
     display: flex;
     position: absolute;
-    aspect-ratio: 30/5;
     padding: 1rem 2rem;
     top: 0;
     left: 0;
@@ -31,5 +31,161 @@
     padding-left: 3.2rem;
     font-family: monospace;
     font-weight: 800;
+  }
+
+  .button-stats-subheader {
+    width: 100vw;
+    padding: 1rem 5rem 4rem 0px;
+    gap: 2rem;
+
+    align-items: center;
+    > span {
+      font-weight: 600;
+      font-size: 2rem;
+    }
+  }
+
+  .right-subheader-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-subheader {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .top-moments-container {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 3rem;
+    justify-content: space-between;
+    padding: 0rem 5rem;
+  }
+
+  .body-header {
+    display: flex;
+    width: fit-content;
+    height: 3.5rem;
+    align-items: center;
+    font-size: 1.75vw;
+    padding: 1.75rem 3rem 1.75rem 1.75rem;
+    color: Black;
+    background-color: #ffd203;
+    font-style: italic;
+    font-weight: 600;
+    font-family: monospace;
+    text-transform: uppercase;
+    box-shadow: 4px 5px 6px 1px rgba(0, 0, 0, 0.555);
+  }
+
+  .body-header-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+
+    > span {
+      font-style: italic;
+      font-weight: 600;
+      font-size: 1.75vw;
+      font-family: monospace;
+      text-transform: uppercase;
+      padding: 0rem 2rem;
+      background-color: #ffd203;
+      color: Black;
+      box-shadow: 4px 5px 6px 1px rgba(0, 0, 0, 0.555);
+    }
+  }
+
+  .button-page-body {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+  }
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+    .days-since-incident-container {
+      display: none;
+    }
+    .body-header {
+      font-size: 4vw;
+      padding: 1.75rem 3rem 1.75rem 1.75rem;
+    }
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    .button-stats-subheader {
+      padding: 1rem 0rem;
+    }
+    .body-header-center {
+      display: none;
+    }
+    .days-since-incident-container {
+      display: none;
+    }
+    .top-moments-container {
+      display: none;
+    }
+    .button-page-body {
+      justify-content: center;
+    }
+
+    .body-header {
+      font-size: 4vw;
+      padding: 1.75rem 3rem 1.75rem 1.75rem;
+    }
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    .button-stats-subheader {
+      padding: 1rem 0rem;
+    }
+    .body-header-center {
+      display: none;
+    }
+    .days-since-incident-container {
+      display: none;
+    }
+    .top-moments-container {
+      display: none;
+    }
+    .button-page-body {
+      justify-content: center;
+    }
+
+    .body-header {
+      font-size: 4vw;
+      padding: 1.75rem 3rem 1.75rem 1.75rem;
+    }
+  }
+
+  @media all and (max-width: 480px) {
+    .button-stats-subheader {
+      padding: 1rem 0rem;
+    }
+    .body-header-center {
+      display: none;
+    }
+    .days-since-incident-container {
+      display: none;
+    }
+    .top-moments-container {
+      display: none;
+    }
+    .button-page-body {
+      justify-content: center;
+    }
+
+    .body-header {
+      font-size: 4vw;
+      padding: 1.75rem 3rem 1.75rem 1.75rem;
+    }
   }
 }

@@ -50,7 +50,7 @@ function DanComponent(props: Props) {
                         image={moment.image}
                         text={moment.title}
                         url={moment.url}
-                        date={moment.episode.date}
+                        headerText={moment.episode.date}
                       ></MomentComponent>
                     </>
                   ))}

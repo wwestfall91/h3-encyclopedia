@@ -56,7 +56,7 @@
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .header {
-    justify-content: end;
+    justify-content: center;
     padding-right: unset;
   }
 
@@ -67,7 +67,7 @@
 
 @media all and (min-width: 480px) and (max-width: 768px) {
   .header {
-    justify-content: end;
+    justify-content: center;
     flex-shrink: 1;
     padding-right: unset;
   }
@@ -88,7 +88,7 @@
 
   .right-header {
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
     height: 100%;
     width: 100%;
   }
