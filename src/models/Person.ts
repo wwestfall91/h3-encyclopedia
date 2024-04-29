@@ -1,5 +1,3 @@
-import { Soundbite } from "./Soundbite";
-
 export class Person {
   firstName: string;
   lastName: string;
