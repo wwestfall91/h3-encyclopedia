@@ -33,7 +33,7 @@ export const AllOffTheRails: Episode[] = new Array(
     [EpisodeType.OTR]
   ),
   new Episode(
-    `The BacH3lor Ep. #2 w/ Jeff Wittek - The First Dates - Off The Rails #106`,
+    `The BacH3lor Ep. 2 w/ Jeff Wittek - The First Dates - Off The Rails #106`,
     "https://www.youtube.com/watch?v=HOwHh6xs4eE",
     "2024-02-28",
     [EpisodeType.OTR]

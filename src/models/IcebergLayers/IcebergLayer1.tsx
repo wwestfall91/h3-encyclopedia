@@ -17,7 +17,7 @@ export const Frenemies = new IcebergItem(
 export const FootSoldiers = new IcebergItem(
   "Foot Soldiers",
   "In the March of 2020 Ethan would host a segment on the show about wikifeet.com, a popular website that hosts feet pictures of celebrities. This would lead to fans mass-rating Ethan's feet a 5 star, leading to Ethan being #1 on the site, and the title 'Foot Soldiers' given to fans of the show. However, mods began to catch wind of these shenanigans and Ethan would be banned from the site entirely, his page, deleted. In retaliation, Ethan went undercover as Ethan Kleinschroth and sent word to his fans to boost him again. Ethan Kleinschroth would reach and all time high score of 7.42 out of 5 before once again being banned from the site. The name Foot Soldiers became a staple to name members of the fandom, and are still echoed across these dusty halls to this day.",
-  Moments.GetMomentsByTag(Tag["Foot Soldiers"])
+  Moments.GetMomentsByTag(Tag.WikiFeet)
 );
 
 export const FAMILY = new IcebergItem(

@@ -9,13 +9,13 @@ export const AllAfterDarks: Episode[] = new Array(
     [EpisodeType.AfterDark]
   ),
   new Episode(
-    `The BacH3lor Ep. #4 - Making Pottery w/ Maegan (Ft. Jeff Wittek) - After Dark #142`,
+    `The BacH3lor Ep. 4 - Making Pottery w/ Maegan (Ft. Jeff Wittek) - After Dark #142`,
     "https://www.youtube.com/watch?v=zfYk1bimFMM",
     "2024-03-22",
     [EpisodeType.AfterDark]
   ),
   new Episode(
-    `The BacH3lor Ep. #3 - A Romantic Boat Ride w/ Morgan (Ft. Jeff Wittek) - After Dark #141`,
+    `The BacH3lor Ep. 3 - A Romantic Boat Ride w/ Morgan (Ft. Jeff Wittek) - After Dark #141`,
     "https://www.youtube.com/watch?v=MBDl186rta8",
     "2024-03-15",
     [EpisodeType.AfterDark]

@@ -130,4 +130,9 @@ export const ButtonMoments: Moment[] = new Array(
         new Episode("H3 Show #2", "https://www.youtube.com/watch?v=x2cyP6KJ0Uc", "2024-04-24", [EpisodeType["H3 Show"]]), 
         1044, [], [], ButtonAssets.HouseOfDragon_H3Show2
     ),
+    new Moment(
+        "Jimmie Lee Revival",
+        new Episode("H3 Show #2", "https://www.youtube.com/watch?v=x2cyP6KJ0Uc", "2024-04-24", [EpisodeType["H3 Show"]]), 
+        10097, [], [], ButtonAssets.JimmieLeeRevival_H3Show3
+    ),
 )

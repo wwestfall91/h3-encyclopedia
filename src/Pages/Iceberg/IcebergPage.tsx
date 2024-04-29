@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Moment } from "../../models/Moments/Moment";
 import { Modal } from "../../components/Modals/Modal";
 import IcebergGridItem from "./IcebergGridItem";
@@ -51,8 +51,9 @@ export function IcebergPage() {
                   item={AllIcebergLayers.Layer1.FootSoldiers}
                   SetModalData={SetModalData}
                   row={2}
-                  column={7}
+                  column={6}
                 ></IcebergGridItem>
+
                 <IcebergGridItem
                   item={AllIcebergLayers.Layer1.Frenemies}
                   SetModalData={SetModalData}
