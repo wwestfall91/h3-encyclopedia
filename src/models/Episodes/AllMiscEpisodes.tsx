@@ -58,5 +58,12 @@ export const AllMiscEpisodes: Episode[] = new Array(
     "https://youtu.be/8CcVkyFXHyw",
     "02-10-2022",
     [EpisodeType.Misc]
+  ),
+  new Episode(
+    "H3 Show #1",
+    "https://www.youtube.com/watch?v=0lt0tTr-lj4&list=RDCMUCLtREJY21xRfCuEKvdki1Kw",
+    "4-22-2024",
+    [EpisodeType["H3 Show"]],
+    1
   )
 );

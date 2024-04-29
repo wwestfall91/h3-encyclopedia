@@ -46,15 +46,10 @@ function ButtonPage() {
           <div className="body-header-center">
             <span>Total Button Hits: 123</span>
           </div>
+          <div className="body-header-center">
+            <span>Episodes: 70 (of 172) OR 40.69%</span>
+          </div>
           <div className="top-moments-container">
-            {/* <div className="left-subheader"> */}
-            {/* <MomentComponent
-                image={ButtonAssets.JimmieLeeRevival_H3Show3}
-                text={"Most Recent Button"}
-                url={"https://youtu.be/x2cyP6KJ0Uc?t=10097"}
-                headerText={"H3 Show #2"}
-              ></MomentComponent> */}
-            {/* </div> */}
             <div className="right-subheader">
               <MomentComponent
                 image={ButtonAssets.FirstButton_OTR63}
@@ -90,7 +85,7 @@ function ButtonPage() {
             ></MomentComponent>
           ))}
           <div className="body-header-center">
-            <span>71 More to go - Coming Soon!</span>
+            <span>{123 - ButtonMoments.length} More to go - Coming Soon!</span>
           </div>
         </div>
       </div>

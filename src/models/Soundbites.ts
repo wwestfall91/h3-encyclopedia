@@ -2751,7 +2751,7 @@ export const Soundbites: Soundbite[] = new Array(
     [P.JustTree411],
     new Episode(
       "H3 Show #1",
-      "https://www.youtube.com/watch?v=0lt0tTr-lj4&list=RDCMUCLtREJY21xRfCuEKvdki1Kw",
+      "https://www.youtube.com/watch?v=0lt0tTr-lj4",
       "4-22-2024",
       [EpisodeType["H3 Show"]],
       1
