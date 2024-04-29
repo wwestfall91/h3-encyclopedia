@@ -2617,7 +2617,5 @@ export function GetMomentsByTitle(title: string) {
 }
 
 export function GetMomentsByTag(tag: Tag): Moment[] {
-  return Moments.filter(
-    (x) => x.tags.includes(tag) && !x.episode.title.includes("JEFF DUNHAM")
-  );
+  return Moments.filter((x) => x.tags.includes(tag));
 }
