@@ -1,20 +1,42 @@
 #IcebergPage {
-  height: 560vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: auto;
+  padding-top:2rem;
+  background: linear-gradient(
+    0deg,
+    rgba(113, 0, 0, 1) 0%,
+    rgba(20, 5, 5, 1) 10%,
+    rgba(0, 0, 0, 1) 21%,
+    rgba(0, 0, 0, 1) 25%,
+    rgba(0, 20, 126, 1) 50%,
+    rgb(21, 74, 158) 75%,
+    rgb(66, 138, 255) 97%,
+    rgb(241, 247, 255) 100%
+  );
 
-  body {
-    background: rgb(113, 0, 0);
-    background: linear-gradient(
-      0deg,
-      rgba(113, 0, 0, 1) 0%,
-      rgba(20, 5, 5, 1) 5%,
-      rgba(0, 0, 0, 1) 21%,
-      rgba(0, 0, 0, 1) 42%,
-      rgba(0, 20, 126, 1) 72%,
-      rgba(83, 149, 255, 1) 100%
-    );
-    height: 100%;
-    place-items: none;
-    overflow-x: hidden;
+  .section-header{
+    display: flex;
+    width: fit-content;
+    height: 3.5rem;
+    align-items: center;
+    font-size: 1.75vw;
+    padding: 1.75rem 3rem 1.75rem 1.75rem;
+    color: Black;
+    background: linear-gradient(to right, #ffffff75, #ffffff23);
+    font-style: italic;
+    font-weight: 600;
+    font-family: monospace;
+    text-transform: uppercase;
+    box-shadow: 4px 5px 6px 1px rgba(0, 0, 0, 0.555);
+  }
+
+  .section{
+    display:flex;
+    gap:1.5rem;
+    padding:1.5rem;
+    flex-wrap: wrap;
   }
 
   .iceberg-button {

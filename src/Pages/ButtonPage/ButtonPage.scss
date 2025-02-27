@@ -1,15 +1,17 @@
 #ButtonPage {
+  display: flex;
+  flex-grow: 1;
+  overflow: auto;
+  background: radial-gradient(circle,rgba(224,88,227,1) 0%,rgba(145,59,221,1) 50%,rgba(70,19,97,1) 100%);
+
   .button-page-container {
-    display: flex;
-    flex-direction: column;
     width: 100vw;
-    height: 100dvh;
-    align-items: start;
   }
 
   .days-since-incident-container {
     display: flex;
-    position: absolute;
+    position: fixed;
+    z-index: 20;
     padding: 1rem 2rem;
     top: 0;
     left: 0;
@@ -25,10 +27,14 @@
   }
 
   .button-page-count {
+    display: flex;
     position: absolute;
+    width:7.7rem;
+    justify-content: center;
+    align-items: center;
+    padding-top:2.5rem;
     font-size: 32px;
-    padding-top: 2.2rem;
-    padding-left: 3.2rem;
+
     font-family: monospace;
     font-weight: 800;
   }

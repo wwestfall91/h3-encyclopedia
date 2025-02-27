@@ -8,21 +8,22 @@
   background-color: rgba(0, 0, 0, 0.6);
   align-items: center;
   justify-content: center;
-  z-index: 1;
+  z-index: 100;
 }
-
+.no-timestamps-available{
+  font-style: italic;
+}
 .new-modal-container {
   display: flex;
   flex-direction: column;
-  background-color: white;
-  width: 45vw;
-  max-height: 70%;
+  background-color: rgb(205, 241, 255);
+  max-height:50rem;
+  border-radius: 10px;
+  width: 50vw;
   padding: 2rem;
   gap: 2rem;
-  border: 3px black solid;
-  overflow-x: hidden;
-  overflow-y: auto;
-  z-index: 2;
+  overflow: auto;
+  z-index: 101;
 }
 
 .new-modal-close-button {
@@ -59,6 +60,23 @@
 .related-links-date {
   display: flex;
   min-width: fit-content;
+  justify-content: right;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgba(160, 154, 255, 0.438);
+  padding:0 5px 0 5px;
+  font-style: italic;
+}
+
+.related-links-episode {
+  display: flex;
+  min-width: fit-content;
+  height:fit-content;
+  justify-content: right;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgba(128, 255, 128, 0.438);
+  font-size: 10px;
 }
 
 .new-modal-links-container {
@@ -67,10 +85,16 @@
   gap: 0.5rem;
 }
 
+.related-links-hyperlink{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
 .link-container {
   display: flex;
   gap: 0.5rem;
-  color: black;
 }
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {

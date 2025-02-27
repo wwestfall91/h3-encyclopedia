@@ -1,696 +1,163 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Moment } from "../../models/Moments/Moment";
+import { useDataContext } from "../../context/DataContext";
+import TopicComponent from "./TopicComponent";
+import { Tag } from "../../models/enums/Tag";
 import { Modal } from "../../components/Modals/Modal";
-import IcebergGridItem from "./IcebergGridItem";
-import AllIcebergLayers from "../../models/IcebergLayers/AllIcebergLayers";
-import PageHeader from "../PageHeader/PageHeader";
-import HeaderImage from "./../../assets/images/H3LoreIcebergHeader.png";
-import IceBergImage from "../../assets/images/iceberg-long.png";
+import { Topic } from "../../models/Topic";
+import Coffee from "../../components/Coffee";
 import "./IcebergPage.scss";
 
 export function IcebergPage() {
-  function SetModalData(
-    title: string,
-    description: string,
-    timestamps: Moment[]
-  ) {
+  const {topics, moments} = useDataContext();
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalTitle, setModalTitle] = useState("");
+  const [modalDescription, setModalDescription] = useState("");
+  const [modalTimestamps, setModalTimestamps] = useState(new Array());
+
+  function ShowModal(title: string, description: string, timestamps: Moment[]) {
     setModalTitle(title);
     setModalDescription(description);
     setModalTimestamps(timestamps);
     setModalOpen(true);
   }
 
-  const [modalOpen, setModalOpen] = useState(false);
-  const [modalTitle, setModalTitle] = useState("");
-  const [modalDescription, setModalDescription] = useState("");
-  const [modalTimestamps, setModalTimestamps] = useState(new Array());
+  function getMomentsFromTopic(topic: Topic){
+    let topicMoments : Moment[] = [];
+
+    if(topic.tags == undefined || topic.tags.length <= 0)
+      return;
+
+    moments.map((moment) => {
+      topic.tags?.map((topicTag) => {
+        if(moment.tags.includes(topicTag)){
+          topicMoments.push(moment);
+        }
+      })
+    })
+
+    return topicMoments;
+  }
 
   return (
-    <div id="IcebergPage">
-      <body className={modalOpen ? "disable-scroll" : ""}>
-        <div className="iceberg-page-container">
-          <PageHeader image={HeaderImage} class={"header-container blue"} />
-          <Modal
-            title={modalTitle}
-            description={modalDescription}
-            timeStamps={modalTimestamps}
-            isOpen={modalOpen}
-            openModal={setModalOpen}
-          />
-          <div className="iceberg-body-container">
-            <img className="iceberg-image" src={IceBergImage}></img>
-            <div className="iceberg-layers">
-              <div className="layer 1">
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer1.FAMILY}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={3}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer1.FootSoldiers}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={6}
-                ></IcebergGridItem>
+    <>      
+      <Coffee></Coffee>
+      {/* <PageHeader image={HeaderImage} class={"header-container blue"} /> */}
 
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer1.Frenemies}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={4}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer1.PeaceAndLove}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={8}
-                ></IcebergGridItem>
-              </div>
-              <div className="layer 2">
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer2.H2Point9}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={3}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer2.HairlineKing}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={6}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer2.Lovebot}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer2.PrideMinute}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={5}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer2.ProlapsedAnus}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={7}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer2.TheJerseyOutlaw}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer2.UncleGabe}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={6}
-                ></IcebergGridItem>
-              </div>
-              <div className="layer 3">
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer3.AUDIOAUDIOAUDIO}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer3.DansMouse}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={4}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer3.EthanIs42}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={7}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer3.FLOCKA}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={6}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer3.FivePercent}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={4}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer3.MajorityFemaleAudience}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={8}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer3.ScorpionChair}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={5}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer3.ShoutoutToHisFamily}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={3}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer3.SteamyAwards}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer3.TrillerLawsuits}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={6}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer3.WAN}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={7}
-                ></IcebergGridItem>
-              </div>
-              <div className="layer 4">
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer4.ABBoxingMatches}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer4.ABsBurrito}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={4}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer4.BombThreats}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={7}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer4.DrIdz}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={6}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer4.GodFatherImpression}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={4}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer4.JokerBrain}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={8}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer4.PAndP}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={5}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer4.TwentyBillionDollarCompound}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={1}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer4.WeightsInFish}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer4.ZillyZonka}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={6}
-                ></IcebergGridItem>
-              </div>
-              <div className="layer 5">
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer5.DoesRyanKavanaughLookLikeHarvey}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={1}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer5.ApologyPodium}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={4}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer5.BeautifulWorld}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={8}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer5.ChestnutGate}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={3}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer5.EthanKleinBodyDouble}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={7}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer5.Lou}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={1}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer5.RKellyPassports}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={4}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer5.SaudiBenefactor}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={5}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer5.ThatsNotFraud}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer5.TheChewZone}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={7}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer5.Throast}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={5}
-                ></IcebergGridItem>
-              </div>
-              <div className="layer 6">
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer6.AndrewTateCeaseAndDesist}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={7}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer6.ArabWorldNews}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={4}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer6.BradTheBull}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={7}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer6.ContentCourt}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={6}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer6.Craigsmas}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={4}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer6.DinkDoink}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={8}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer6.IJustPeedInMyBasement}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={3}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer6.MayoMemes}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer6.TheBanOfEthanKlein}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={2}
-                ></IcebergGridItem>
-              </div>
-              <div className="layer 7">
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer7.AIIan}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer7.BullPenisStaff}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={5}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer7.DeepfakeJayZIntro}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={8}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer7.EthansFeet}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={3}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer7.HungerFF}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={7}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer7.NathanielKlansman}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer7.OhNoSamSeder}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={7}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer7.TheFeedingWindow}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={5}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer7.TheMolePeople}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={3}
-                ></IcebergGridItem>
-              </div>
-              <div className="layer 8">
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer8.BarefootBrothersDrive}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={6}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer8.BenAffleckBackTattoo}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={4}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer8.ButtholeCandle}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={7}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer8.DDMegaDooDoo}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={6}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer8.GERDGang}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={4}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer8.Gatsby}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={8}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer8.HOTMEMEPhoneNumber}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={3}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer8.Swami}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer8.VapeGodNFT}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer8.WendyWilliamsFartgate}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={6}
-                ></IcebergGridItem>
-              </div>
-              <div className="layer 9">
-                {" "}
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer9.BelleDelphineSpitJar}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={5}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer9.Braco}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={1}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer9.DanHadHair}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={7}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer9.DrFaddelDeletedSegment}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={4}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer9.GhostStories}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer9.IGottaPeeSoBad}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={8}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer9.IanTheInternPowerpoints}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={5}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer9.InspiredByHowardStern}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer9.MobilityMary}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={1}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer9.MrBeastCeaseAndDesist}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={7}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer9.ZachsLawnShit}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={8}
-                ></IcebergGridItem>
-              </div>
-              <div className="layer 10">
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer10.AnalFissures}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={6}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer10.CCRCurse}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={4}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer10.Fatburgs}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={7}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer10.GoofGang}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={6}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer10.LeonardKatzman}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={4}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer10.LilTracyBeef}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={8}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer10.PatriceWilsonCountdown}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={3}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer10.SharkysGiftcard}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer10.Shoenice}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer10.TheBacH3lor}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={5}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer10.TheRegulaShmegula}
-                  SetModalData={SetModalData}
-                  row={5}
-                  column={7}
-                ></IcebergGridItem>
-              </div>
-              <div className="layer 11">
-                {" "}
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer11.BertKriescherLostEpisode}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={6}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer11.BillBurrEpisode1}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={2}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer11.BlockedByOJSimpson}
-                  SetModalData={SetModalData}
-                  row={1}
-                  column={6}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer11.ChetHanksThreats}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={4}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer11.TheDrunkStream}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={3}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer11.TheWildcardsIdentity}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={8}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer11.TrillerLawsuitLostEpisode}
-                  SetModalData={SetModalData}
-                  row={3}
-                  column={1}
-                ></IcebergGridItem>
-              </div>
-              <div className="layer 12">
-                {" "}
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer12.CodyPadrino}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={3}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer12.JohnWilliamKirbyKelley}
-                  SetModalData={SetModalData}
-                  row={2}
-                  column={7}
-                ></IcebergGridItem>
-                <IcebergGridItem
-                  item={AllIcebergLayers.Layer12.VoiceFlamingoR}
-                  SetModalData={SetModalData}
-                  row={4}
-                  column={5}
-                ></IcebergGridItem>
-              </div>
+      {modalOpen && 
+        <Modal title={modalTitle} description={modalDescription} timeStamps={modalTimestamps} isOpen={false} openModal={setModalOpen} ></Modal>
+      }
+      
+      <body id="IcebergPage">
+        <div className="section-header">Level 1</div>
+        <div className="section">
+          {topics.filter(x => x.tags?.includes(Tag.Iceberg) && x.tags?.includes(Tag.Layer1)).map((topic) => (
+            <div onClick={() => ShowModal(topic.name, topic.description, getMomentsFromTopic(topic)!)}>
+              <TopicComponent topic={topic}></TopicComponent>
             </div>
-          </div>
+            ))}
+        </div>
+
+        <div className="section-header">Level 2</div>
+        <div className="section">
+          {topics.filter(x => x.tags?.includes(Tag.Iceberg) && x.tags?.includes(Tag.Layer2)).map((topic) => (
+            <div onClick={() => ShowModal(topic.name, topic.description, getMomentsFromTopic(topic)!)}>
+              <TopicComponent topic={topic}></TopicComponent>
+            </div>
+            ))}
+        </div>
+
+        <div className="section-header">Level 3</div>
+        <div className="section">
+          {topics.filter(x => x.tags?.includes(Tag.Iceberg) && x.tags?.includes(Tag.Layer3)).map((topic) => (
+            <div onClick={() => ShowModal(topic.name, topic.description, getMomentsFromTopic(topic)!)}>
+              <TopicComponent topic={topic}></TopicComponent>
+            </div>
+            ))}
+        </div>
+
+        <div className="section-header">Level 4</div>
+        <div className="section">
+          {topics.filter(x => x.tags?.includes(Tag.Iceberg) && x.tags?.includes(Tag.Layer4)).map((topic) => (
+            <div onClick={() => ShowModal(topic.name, topic.description, getMomentsFromTopic(topic)!)}>
+              <TopicComponent topic={topic}></TopicComponent>
+            </div>
+            ))}
+        </div>
+
+        <div className="section-header">Level 5</div>
+        <div className="section">
+          {topics.filter(x => x.tags?.includes(Tag.Iceberg) && x.tags?.includes(Tag.Layer5)).map((topic) => (
+            <div onClick={() => ShowModal(topic.name, topic.description, getMomentsFromTopic(topic)!)}>
+              <TopicComponent topic={topic}></TopicComponent>
+            </div>
+            ))}
+        </div>
+
+        <div className="section-header">Level 6</div>
+        <div className="section">
+          {topics.filter(x => x.tags?.includes(Tag.Iceberg) && x.tags?.includes(Tag.Layer6)).map((topic) => (
+            <div onClick={() => ShowModal(topic.name, topic.description, getMomentsFromTopic(topic)!)}>
+              <TopicComponent topic={topic}></TopicComponent>
+            </div>
+            ))}
+        </div>
+
+        <div className="section-header">Level 7</div>
+        <div className="section">
+          {topics.filter(x => x.tags?.includes(Tag.Iceberg) && x.tags?.includes(Tag.Layer7)).map((topic) => (
+            <div onClick={() => ShowModal(topic.name, topic.description, getMomentsFromTopic(topic)!)}>
+              <TopicComponent topic={topic}></TopicComponent>
+            </div>
+            ))}
+        </div>
+
+        <div className="section-header">Level 8</div>
+        <div className="section">
+          {topics.filter(x => x.tags?.includes(Tag.Iceberg) && x.tags?.includes(Tag.Layer8)).map((topic) => (
+            <div onClick={() => ShowModal(topic.name, topic.description, getMomentsFromTopic(topic)!)}>
+              <TopicComponent topic={topic}></TopicComponent>
+            </div>
+            ))}
+        </div>
+
+        <div className="section-header">Level 9</div>
+        <div className="section">
+          {topics.filter(x => x.tags?.includes(Tag.Iceberg) && x.tags?.includes(Tag.Layer9)).map((topic) => (
+            <div onClick={() => ShowModal(topic.name, topic.description, getMomentsFromTopic(topic)!)}>
+              <TopicComponent topic={topic}></TopicComponent>
+            </div>
+            ))}
+        </div>
+
+        <div className="section-header">Level 10</div>
+        <div className="section">
+          {topics.filter(x => x.tags?.includes(Tag.Iceberg) && x.tags?.includes(Tag.Layer10)).map((topic) => (
+            <div onClick={() => ShowModal(topic.name, topic.description, getMomentsFromTopic(topic)!)}>
+              <TopicComponent topic={topic}></TopicComponent>
+            </div>
+            ))}
+        </div>
+
+        <div className="section-header">Level 11</div>
+        <div className="section">
+          {topics.filter(x => x.tags?.includes(Tag.Iceberg) && x.tags?.includes(Tag.Layer11)).map((topic) => (
+            <div onClick={() => ShowModal(topic.name, topic.description, getMomentsFromTopic(topic)!)}>
+              <TopicComponent topic={topic}></TopicComponent>
+            </div>
+            ))}
+        </div>
+
+        <div className="section-header">Level 12</div>
+        <div className="section">
+          {topics.filter(x => x.tags?.includes(Tag.Iceberg) && x.tags?.includes(Tag.Layer12)).map((topic) => (
+            <div onClick={() => ShowModal(topic.name, topic.description, getMomentsFromTopic(topic)!)}>
+              <TopicComponent topic={topic}></TopicComponent>
+            </div>
+            ))}
         </div>
       </body>
-    </div>
+      </>
   );
 }
 

@@ -1,9 +1,10 @@
 import SoundbiteCard from "./SoundbiteCard";
-import { Soundbites as AllSoundbites } from "./../../models/Soundbites";
 import "./SoundbiteGrid.scss";
 import { Soundbite } from "../../models/Soundbite";
 import { useEffect, useState } from "react";
 import { sortByType } from "../../Pages/SoundBitesPage/SoundBitesPage";
+
+import { useDataContext } from "../../context/DataContext";
 
 type Props = {
   searchTerm: string;
@@ -11,59 +12,81 @@ type Props = {
 };
 
 function SoundbiteGrid(props: Props) {
-  const [soundbites, setSoundbites] = useState<Soundbite[]>([]);
+  const [filteredSoundbites, setFilteredSoundbites] = useState<Soundbite[]>([]);
+  const [searchTermLength, setSearchTermLength] = useState<number>(0);
+  const { soundbites, people } = useDataContext();
 
   function sortByName(soundbites: Soundbite[]): Soundbite[] {
     return soundbites.sort((a, b) => (a.title <= b.title ? -1 : 1));
   }
 
-  function sortByPeople(soundbites: Soundbite[]): Soundbite[] {
-    return soundbites.sort((a, b) =>
-      a.people[0].firstName <= b.people[0].firstName ? -1 : 1
-    );
-  }
+  // function sortByPeople(soundbites: Soundbite[]) : Soundbite[] {
+  //   const sortedSoundbites = soundbites.sort((a, b) => {
+  //     const personA = people.find(x => x.name == a.person)
+  //     const personB = people.find(x => x.name == b.person)
 
-  function sortByDate(soundbites: Soundbite[]): Soundbite[] {
-    return soundbites.sort(
-      (a, b) => Date.parse(a.episode.date) - Date.parse(b.episode.date)
-    );
-  }
+  //     if(personA == undefined || personB == undefined)
+  //       return 0;
+
+  //     return personA.name <= personB.name ? -1 : 1;
+  //   });
+
+  //   return sortedSoundbites;
+  // }
+
+  // function sortByDate(soundbites: Soundbite[]): Soundbite[] {
+  //   return soundbites.sort(
+  //     (a, b) => Date.parse(a.episodeDate) - Date.parse(b.episodeDate)
+  //   );
+  // }
 
   useEffect(() => {
-    const soundbites = AllSoundbites.filter(
-      (include) =>
-        (include.sound != "" && props.searchTerm.length < 2) ||
-        include.title.toLowerCase().includes(props.searchTerm.toLowerCase()) ||
-        `${include.people[0].firstName.toLowerCase()} ${include.people[0].lastName.toLowerCase()}`.includes(
-          props.searchTerm.toLowerCase()
-        )
-    );
+    if(soundbites != undefined){
+      setFilteredSoundbites(soundbites);
+    }
+  }, [soundbites])
 
+  useEffect(() => {
+    if(props.searchTerm.length < searchTermLength){ //My weird way to check if the user pressed backspace, if they did then load everything back in
+      setFilteredSoundbites(soundbites)
+      setSearchTermLength(props.searchTerm.length);
+      return;
+    }
+
+    setSearchTermLength(props.searchTerm.length);
+
+    setFilteredSoundbites(soundbites.filter(
+      (include) => 
+        include.sound != "" && props.searchTerm.length < 2 || 
+        include.title.toLowerCase().includes(props.searchTerm.toLowerCase()) || 
+        `${include.personName?.toLowerCase()} ${include.personName?.toLowerCase()}`.includes(props.searchTerm.toLowerCase())
+    ));
+  }, [props.searchTerm])
+
+  useEffect(() => {
     if (props.sortBy === sortByType.Name) {
-      setSoundbites(sortByName(soundbites));
+      setFilteredSoundbites(sortByName(soundbites));
     }
 
-    if (props.sortBy === sortByType.Date) {
-      setSoundbites(sortByDate(soundbites));
-    }
+    // if (props.sortBy === sortByType.Date) {
+    //   setSoundbites(sortByDate(soundbites));
+    // }
 
-    if (props.sortBy === sortByType.Person) {
-      setSoundbites(sortByPeople(soundbites));
-    }
-    if (props.sortBy === sortByType.Default) {
-      setSoundbites(sortByPeople(soundbites));
-    }
-  }, [props.sortBy, props.searchTerm]);
+    // if (props.sortBy === sortByType.Person) {
+    //   setSoundbites(sortByPeople(soundbites));
+    // }
+    // if (props.sortBy === sortByType.Default) {
+    //   setSoundbites(sortByDate(soundbites));
+    // }
+  }, [props.sortBy])
 
   return (
     <div id="soundbite-grid-container">
       <div className="soundbite-grid">
-        {soundbites.map((soundbite) => (
+        {filteredSoundbites.map((soundbite) => (
           <SoundbiteCard
             soundbite={soundbite}
-            image={
-              soundbite.image == "" ? soundbite.people[0].face : soundbite.image
-            }
+            person={people.find(x => x.name == soundbite.personName)}
           />
         ))}
       </div>

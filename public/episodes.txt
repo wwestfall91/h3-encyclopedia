@@ -1,0 +1,894 @@
+type	number	date	title	url	misc_types
+AfterDark	1	08-21-2020	H3 After Dark - #1	https://www.youtube.com/watch?v=nseWrcLQt4A	
+AfterDark	2	08-28-2020	H3 After Dark - #2	https://www.youtube.com/watch?v=qsgyaVvDKCg	
+AfterDark	3	09-04-2020	H3 After Dark - #3	https://www.youtube.com/watch?v=2ujyWHUgcBI	
+AfterDark	4	09-11-2020	H3 After Dark - #4	https://www.youtube.com/watch?v=xkgy_19bNpY	
+AfterDark	5	09-18-2020	H3 After Dark - #5 (James Charles vs Teddy Fresh)	https://www.youtube.com/watch?v=ccLvagZRlAg	
+AfterDark	6	09-25-2020	H3 After Dark - #6	https://www.youtube.com/watch?v=xfPmKCcl_Gg	
+AfterDark	7	10-02-2020	H3 After Dark - #7	https://www.youtube.com/watch?v=_uMN_NAThww	
+AfterDark	8	10-09-2020	H3 After Dark - #8	https://www.youtube.com/watch?v=IzU26g1ds0E	
+AfterDark	9	10-23-2020	H3 After Dark - #9	https://www.youtube.com/watch?v=0VUy5lRXk80	
+AfterDark	10	10-30-2020	H3 After Dark - #10	https://www.youtube.com/watch?v=Xsda33d1UXQ	
+AfterDark	11	11-06-2020	H3 After Dark - #11	https://www.youtube.com/watch?v=C5fZYmnTd3Q	
+AfterDark	12	11-13-2020	H3 After Dark - #12	https://www.youtube.com/watch?v=g3gkFORfTZA	
+AfterDark	13	11-20-2020	H3 After Dark - #13	https://www.youtube.com/watch?v=34lUUDBPjZg	
+AfterDark	14	11-27-2020	H3 After Dark - #14	https://www.youtube.com/watch?v=eWewY6k2E3Q	
+AfterDark	15	12-04-2020	H3 After Dark - #15	https://www.youtube.com/watch?v=iAnsNKeY4Hs	
+AfterDark	16	12-11-2020	H3 After Dark (Talking About The Trisha Thing) - #16	https://www.youtube.com/watch?v=kQoAIMFaeJc	
+AfterDark	17	12-18-2020	H3 After Dark (Defending Trisha From The Wicked David Portnoy) - #17	https://www.youtube.com/watch?v=rSXkw0z2CIk	
+AfterDark	18	01-08-2021	Was James Charles Inside The Capitol Building? - H3 After Dark #18	https://www.youtube.com/watch?v=7XytOqnusfo	
+AfterDark	19	01-15-2021	Trisha Paytas, Jeffree Star, Hair By Jay, DAngelo Wallace, Cr1TiKaL - H3 After Dark #19	https://www.youtube.com/watch?v=QBmlIdXpGeU	
+AfterDark	20	01-21-2021	These Are My Enemies Now - H3 After Dark #20	https://www.youtube.com/watch?v=1G3nt39Fd0o	
+AfterDark	21	01-29-2021	Logan Paul Says Ethan Is Scum Of The Internet - H3 After Dark #21	https://www.youtube.com/watch?v=bvbyHrJtjDo	
+AfterDark	22	02-05-2021	David Dobrik Is A Bully & Gorilla Glue Gone Wrong - H3 After Dark #22	https://www.youtube.com/watch?v=pTo6FA6i6PM	
+AfterDark	23	02-12-2021	David Dobriks Assault Victim Calls In & Trisha VS AB - H3 After Dark #23	https://www.youtube.com/watch?v=v4QZhtLnWKc	
+AfterDark	24	02-19-2021	Everybody Hates Ethan’s New Diet - H3 After Dark #24	https://youtu.be/MjIl6wwLeEo	
+AfterDark	25	02-26-2021	It Keeps Getting Worse For David Dobrik - H3 After Dark #25	https://www.youtube.com/watch?v=ugF3erryCls	
+AfterDark	26	03-05-2021	The Vlog Squad Responds - H3 After Dark #26	https://www.youtube.com/watch?v=xliblinydqE	
+AfterDark	27	03-12-2021	Tom Cruise Calls In - H3 After Dark #27	https://www.youtube.com/watch?v=elrxz0w4xIY	
+AfterDark	28	03-19-2021	President Trump Calls In - H3 After Dark #28	https://www.youtube.com/watch?v=iKpd0ZTpkp8	
+AfterDark	29	03-26-2021	FaZe Banks, Jeff Wittek, James Charles, David Dobrik - H3 After Dark # 29	https://www.youtube.com/watch?v=Ze3pzXECLzY	
+AfterDark	30	04-02-2021	James Charles Apology (aka Confession) - H3 After Dark # 30	https://www.youtube.com/watch?v=JIPKIuOZm9A	
+AfterDark	31	04-09-2021	Jake Paul, Wendy Williams, Bhad Bhabie & Dr. Phil - H3 After Dark # 31	https://www.youtube.com/watch?v=BbFYG-tyk48	
+AfterDark	32	04-16-2021	Morphe & YouTube Finally Drop James Charles - H3 After Dark # 32	https://www.youtube.com/watch?v=8WbHKJenAnw	
+AfterDark	33	04-23-2021	Jake Paul Exposed By Bombshell New York Times Article - H3 After Dark # 33	https://www.youtube.com/watch?v=MjDYycK6n7M	
+AfterDark	34	04-30-2021	Twitch Hot Tubs & Bitconnect Carlos Calls In - H3 After Dark # 34	https://www.youtube.com/watch?v=ISvqL4D7SL4	
+AfterDark	35	05-07-2021	Jake Paul & Triller Are Suing Me - H3 After Dark # 35	https://www.youtube.com/watch?v=uw0c45OwQV0	
+AfterDark	36	05-13-2021	James Charles Is Being Sued & Bill Gates Calls In - H3 After Dark # 36	https://www.youtube.com/watch?v=4CP_nl037_c	
+AfterDark	37	05-21-2021	Joe Rogan Trashed Hila On His Podcast - H3 After Dark # 37	https://youtu.be/SaC97huq9Ss	
+AfterDark	38	05-28-2021	Were Pregnant! - H3 After Dark # 38	https://www.youtube.com/watch?v=BUHxXNxEUYc	
+AfterDark	39	06-04-2021	Were Having Twins Or Triplets! - H3 After Dark # 39	https://www.youtube.com/watch?v=Cn2xlYd5oCc	
+AfterDark	40	06-11-2021	And The Number Of Babies Is... - H3 After Dark # 40	https://www.youtube.com/watch?v=uvc-dX0fG3s	
+AfterDark	41	06-18-2021	The Real Reason Frenemies Broke Up - H3 After Dark # 41	https://www.youtube.com/watch?v=8aCfvBnOcnU	
+AfterDark	42	06-24-2021	The Birthday Roast Of Ethan Klein - H3 After Dark # 42	https://www.youtube.com/watch?v=-I_xmrcEAdU	
+AfterDark	43	07-02-2021	James Charles Returns & Baby Update - H3 After Dark # 43	https://www.youtube.com/watch?v=lw8E6x_tiQE	
+AfterDark	44	07-09-2021	Hilas Final Episode - H3 After Dark # 44	https://www.youtube.com/watch?v=s2FpIS2ywlE	
+AfterDark	45	07-30-2021	Hila Is Back... And Shes Being Sued - H3 After Dark # 45	https://www.youtube.com/watch?v=SXxSAyvkYH4	
+AfterDark	47	08-20-2021	Not Talking About Trisha Paytas - H3 After Dark #47	https://www.youtube.com/watch?v=Xvasys6EONM	
+AfterDark	48	08-27-2021	The Real Reason Why Families Ended, Mr Verified Winner - H3 After Dark #48	https://www.youtube.com/watch?v=Vvn4QiTRqQw	
+AfterDark	49	09-03-2021	Joe Rogan Is A Giant Hypocrite - H3 After Dark #49	https://www.youtube.com/watch?v=jgrTGlQ_IG8	
+AfterDark	50	09-10-2021	We Need To Talk... - H3 After Dark #50	https://www.youtube.com/watch?v=HnLJNxkS_AE	
+AfterDark	51	09-24-2021	And The Gender Is... - H3 After Dark #51	https://www.youtube.com/watch?v=GRJLngUhhno	
+AfterDark	52	10-01-2021	Shane Dawson, Jason Nash, Britney Freed - H3 After Dark #52	https://www.youtube.com/watch?v=76kbmmPzVwo	
+AfterDark	53	10-08-2021	Shane Dawson IS BACK - H3 After Dark #53	https://www.youtube.com/watch?v=Uef9uFE0Ifw	
+AfterDark	54	10-15-2021	Shane Dawson Is 100% Canceled After This - After Dark #54	https://www.youtube.com/watch?v=eioZLqucKU4	
+AfterDark	55	10-22-2021	James Charles Enablers & Keemstar Is Obsessed With Me - After Dark #55	https://www.youtube.com/watch?v=R63J0T2cK8w	
+AfterDark	56	10-29-2021	Im Retiring - After Dark #56	https://www.youtube.com/watch?v=lmD0bxtBGxs	
+AfterDark	57	11-05-2021	Please Take Me Back - After Dark #57	https://www.youtube.com/watch?v=Qgrev_fH9zM	
+AfterDark	58	11-12-2021	David Dobrik Busted Again & We Went To Britney Spears Conservatorship Trial & - After Dark #58	https://www.youtube.com/watch?v=ADjcxhKgfp0	
+AfterDark	59	11-19-2021	Nikocado Avocado Called Me Ugly - After Dark #59	https://www.youtube.com/watch?v=wtlYFLAEQKw	
+AfterDark	60	11-26-2021	Nikocado ATTACKS Ethan & MrBeast Sued By Netflix - After Dark #60	https://www.youtube.com/watch?v=kwDJN1CQzJY	
+AfterDark	61	12-03-2021	ACE Family, Ryan Kavanaugh, SteveWillDoIt - After Dark #61	https://www.youtube.com/watch?v=E3MQh8Z6g3I	
+AfterDark	62	12-10-2021	Pewdiepie DEFENDS me, Nikocado Update, Ace Family NEW Mansion Tour - After Dark #62	https://www.youtube.com/watch?v=3qlTtGDQTi4	
+AfterDark	63	12-17-2021	The FBI Raided My House This Morning - After Dark #63	https://www.youtube.com/watch?v=DhaAWAIHXJY	
+AfterDark	64	01-21-2022	The Real Reason Nikocado Avocado Cancelled - After Dark #64	https://www.youtube.com/watch?v=auPJ1GsFOSg	
+AfterDark	65	02-18-2022	Kanye vs Pete Davidson, Wendy Williams, Euphoria - After Dark #65	https://www.youtube.com/watch?v=_mfxcipuqq0	
+AfterDark	66	02-25-2022	David Dobrik Is About To Lose Everything - After Dark #66	https://www.youtube.com/watch?v=UzU3uMgmm-0	
+AfterDark	67	03-04-2022	My Biggest Fear Came True - After Dark #67	https://www.youtube.com/watch?v=ytxfQ8kxNAE	
+AfterDark	68	03-18-2022	Kim, Kanye, And Pete - After Dark #68	https://www.youtube.com/watch?v=_VovzI50yC4	
+AfterDark	69	03-24-2022	Why I Panicked & Deleted A Ton Of Videos - Afterdark #69	https://www.youtube.com/watch?v=EIMMcdMMufI	
+AfterDark	70	04-22-2022	We Share Crazy Family Stories & Eat Beans On Toast, Johnny Depp vs. Amber Heard - Afterdark #70	https://www.youtube.com/watch?v=Q_GoixIfwoY	
+AfterDark	71	04-29-2022	Crazy Myths We Believed As Kids, Fresh & Fit Cringe - After Dark #71	https://www.youtube.com/watch?v=cztc_OXvqJI	
+AfterDark	72	05-13-2022	TikTok Lawyer Calls In, Fresh & Fit Are Panicking, New Kendrick Lamar Album - After Dark #72	https://www.youtube.com/watch?v=E-KsoC8FDtA	
+AfterDark	73	05-20-2022	Keemstar Sued For Defamation, Elon Musk Allegations, Dogecoin Founder Calls In - After Dark #73	https://www.youtube.com/watch?v=eZYbxWxDG3I	
+AfterDark	75	06-24-2022	Womens Rights Stripped Away, David Dobrik Hires Johnny Depps Lawyer - After Dark #75	https://www.youtube.com/watch?v=ZUU3_vd1Oos	
+AfterDark	76	07-08-2022	Doja Cat vs Stranger Things Kids & Bobby Lee Hates Ethan - After Dark #76	https://www.youtube.com/watch?v=bWy_SijFG1w	
+AfterDark	77	07-15-2022	Teddy Fresh Controversy, Man vs Machine Game, Howie Mandel Meme Competition - After Dark #77	https://www.youtube.com/watch?v=VHkpIXco8Ks	
+AfterDark	78	07-22-2022	We Try A Period Pain Simulator, Hasan Owns Andrew Tate, Ace Family Friendship Over - After Dark #78	https://www.youtube.com/watch?v=M3NLg8ZTigQ	
+AfterDark	79	08-12-2022	We Went To A Crypto Convention, Trump Stole Nuclear Secrets, Addison Raes Dad - After Dark #79	https://www.youtube.com/watch?v=PeIdksdVTA4	
+AfterDark	80	08-19-2022	Andrew Tate Banned From Facebook, Instagram & Twitter - After Dark #80	https://www.youtube.com/watch?v=K-hPcI9KA_0	
+AfterDark	81	08-26-2022	Andrew Tate Cries And Begs For Forgiveness, Ethan Enters The Metaverse - After Dark #81	https://www.youtube.com/watch?v=zWfAxwGyS0U	
+AfterDark	82	09-02-2022	Pokimane - After Dark #82	https://www.youtube.com/watch?v=Mx9j5GHn21o	
+AfterDark	83	09-09-2022	RIP Queen Elizabeth, Keffals vs Kiwi Farms, Harry Styles vs Chris Pine - After Dark #83	https://www.youtube.com/watch?v=kCJyv-fbGHE	
+AfterDark	84	09-16-2022	We messed up - After Dark #84	https://www.youtube.com/watch?v=ADAzc3jrxIY	
+AfterDark	85	09-23-2022	hila, if youre watching - After Dark #85	https://www.youtube.com/watch?v=Id-zvt05B_M	
+AfterDark	86	09-30-2022	The Worst Pain Of My Life - After Dark #86	https://www.youtube.com/watch?v=xoP9afQOW3M	
+AfterDark	87	10-07-2022	Its Frenemies All Over Again - After Dark #87	https://www.youtube.com/watch?v=Cjv07aA7WFw	
+AfterDark	88	10-14-2022	We Made Wax Figures Of Ethan, Hila Responds To Haters, Overwatch 2 Is A Disaster! - After Dark #88	https://www.youtube.com/watch?v=OQOw4EDREDk	
+AfterDark	89	11-11-2022	Ethan Does Our Makeup, Nikita Dragun Arrested, David Dobrik Vandalized - After Dark #89	https://www.youtube.com/watch?v=OKvP1K2OuLk	
+AfterDark	90	11-18-2022	Hila Got Banned On Twitter - After Dark #90	https://www.youtube.com/watch?v=QvGqpAcXNqo	
+AfterDark	91	11-25-2022	You Laugh, You Eat! (Disgusting Thanksgiving Dishes) - After Dark #91	https://www.youtube.com/watch?v=lUP64bI7INk	
+AfterDark	92	12-16-2022	The 2022 Sound Bite Tournament - After Dark #92	https://www.youtube.com/watch?v=GgwXXGtUCgE	
+AfterDark	93	01-27-2023	Big big huge announcement massive announcement - After Dark #93	https://www.youtube.com/watch?v=_-TUf6tyhPI	
+AfterDark	94	02-03-2023	Ethan Banned On TikTok & Jeffree Starr Is Dating Tom Brady Power Point - After Dark #94	https://www.youtube.com/watch?v=gBqepGXLnos	
+AfterDark	95	02-17-2023	Were Having A Third Baby & Greenscreen Tournament - After Dark #95	https://www.youtube.com/watch?v=O8cVG4I7yjA	
+AfterDark	96	03-03-2023	Green Screen Tournament - After Dark #96	https://www.youtube.com/watch?v=Nc92nXVNDLg	
+AfterDark	97	03-10-2023	We Act Out Fanfictions - After Dark #97	https://www.youtube.com/watch?v=gaxp3_rnmWU	
+AfterDark	98	03-17-2023	We Get Trashed For St. Paddys Day - After Dark #98	https://www.youtube.com/watch?v=dZyrcG7auic	
+AfterDark	99	03-24-2023	Ethan Is TikToks New Alpha God, Guessing What Womens Beauty Products Do - After Dark #99	https://www.youtube.com/watch?v=FkTrjT_PDDc	
+AfterDark	100	03-31-2023	Andrew Tate Released, Donald Trump Arrested , Gwyneth Paltrow Acquitted - After Dark #100	https://www.youtube.com/watch?v=MgwMZS-9MBg	
+AfterDark	101	04-14-2023	Chris, MrBeast, and H3 are SunnyV2s Worst Nightmare - After Dark #101	https://www.youtube.com/watch?v=r6vG1VKGnOo	
+AfterDark	102	04-21-2023	Guess Whos High & How To Spend The $620,000 - After Dark #102	https://www.youtube.com/watch?v=hjYJe_p6s8o	
+AfterDark	103	04-28-2023	Ok wait Crowder is an actual demon - After Dark #103	https://www.youtube.com/watch?v=LWRDQIrF8tc	
+AfterDark	104	05-05-2023	Ethan Trains With An Accent Coach - After Dark #104	https://www.youtube.com/watch?v=ypoelVAlsdI	
+AfterDark	105	05-12-2023	Hila Starts An OnlyFans - After Dark #105	https://www.youtube.com/watch?v=4ZCWXie24iY	
+AfterDark	106	05-19-2023	iDubbbz Apology To Tana & Alyx Weiss Cult PowerPoint - After Dark #106	https://www.youtube.com/watch?v=BOoi8xtLnsk	
+AfterDark	107	05-26-2023	Martin The Water Sommelier & Dr. Idz (Tasting Watertok & Debating Diet Drinks) - After Dark #107	https://www.youtube.com/watch?v=GK810rAPpK4	
+AfterDark	108	06-02-2023	Olivia Explains Faze Rain vs Grace Van Dien Drama via PowerPoint - After Dark #108	https://www.youtube.com/watch?v=5tqh5bW7o7U	
+AfterDark	109	06-09-2023	New Alien Footage Turns Ethan Into A Believer, Donald Trump Is Going To Jail - After Dark #109	https://www.youtube.com/watch?v=tWAE8v_tuRk	
+AfterDark	110	06-16-2023	Pearl Coping Hard, The Crew Styles Hila - After Dark #110	https://www.youtube.com/watch?v=7oD8nY2Zssk	
+AfterDark	111	07-14-2023	Colleen Ballingers Lawyer Sent Me A Cease & Desist - After Dark #111	https://www.youtube.com/watch?v=zqZW2EYb9YE	
+AfterDark	112	07-21-2023	Colleen Ballinger Finally Responded & Fousey Got Banned - After Dark #112	https://www.youtube.com/watch?v=xTsLjVLC__U	
+AfterDark	113	07-28-2023	Ariana Grande Divorce Scandal PowerPoint - After Dark #113	https://www.youtube.com/watch?v=chdgzCcpsUs	
+AfterDark	114	08-04-2023	Sour Candy Tier List, Kai Cenat Starts A Riot In NYC - After Dark #114	https://www.youtube.com/watch?v=eJDEB-EeV0E	
+AfterDark	115	08-11-2023	xQc Is Still A Loser, Ethans First Thirst Trap, Logan Paul Indicted - After Dark #115	https://www.youtube.com/watch?v=JKiAcq2q4Vg	
+AfterDark	116	08-18-2023	Trying Weird Pregnancy Craving Combos, Love Makes An Ethan Sculpture - After Dark #116	https://www.youtube.com/watch?v=DWY8krPi_Sc	
+AfterDark	117	08-25-2023	We Play The Baby Photo Guessing Game - After Dark #117	https://www.youtube.com/watch?v=HbATtwgldBw	
+AfterDark	118	09-01-2023	Family Vlogger 8 Passengers Arrested & War With Streamys & Jay Shetty Continues - After Dark #118	https://www.youtube.com/watch?v=ObXKADhOoxU	
+AfterDark	119	09-08-2023	Joe Jonas & Sophie Turner Divorce PP, Gay Obama Scandal, Dillon Danis & Logan Paul - After Dark #119	https://www.youtube.com/watch?v=uJVzxi2WNGw	
+AfterDark	120	09-15-2023	The Crew Paints Ethan, We Take A Red Flag Dating Test, We Ruin Howie Mandels Life - After Dark #120	https://www.youtube.com/watch?v=-pPIPXwK1wQ	
+AfterDark	121	09-22-2023	Russell Brand Is A Weird Freak Loser & We Never Liked Him Anyway - After Dark #121	https://www.youtube.com/watch?v=591_hT-rWjc	
+AfterDark	122	09-29-2023	Oliver Tree Back In The Studio For A Serious Interview - After Dark #122	https://www.youtube.com/watch?v=COwUauc8cY4	
+AfterDark	123	10-06-2023	The 2023 Sub-a-thon Bonanza! - After Dark #123	https://www.youtube.com/watch?v=omM-bRIBEng	
+AfterDark	124	10-20-2023	SSSniperwolf Cancelled & Demonetized, Crew Writes Ethan Poems, Dishwasher Debate - After Dark #124	https://www.youtube.com/watch?v=9tcQINAY-Ic	
+AfterDark	125	10-27-2023	MrBeast Called Out For Faking Video, New David Dobrik Clip Is Horrifying (Ft. Pokimane) - AD #125	https://www.youtube.com/watch?v=lNfOxmaiFJ0	
+AfterDark	126	11-03-2023	Dream Confronts Us For Stealing His Song, New Evidence In The MrBeast Scandal - After Dark #126	https://www.youtube.com/watch?v=3SwwKqSeF6c	
+AfterDark	127	11-10-2023	Dream Song Remix Tournament - After Dark #127	https://www.youtube.com/watch?v=lMKbp80Uhyw	
+AfterDark	128	11-17-2023	New Boogie2988 Drama Is So Good, Roman Atwood Deep Dive ft. Whitney Cummings - After Dark #128	https://www.youtube.com/watch?v=zXshaFr2szY	
+AfterDark	129	12-01-2023	Revealing Our Embarrassing Spotify Wrapped - After Dark #129	https://www.youtube.com/watch?v=5izWSo355J8	
+AfterDark	130	12-08-2023	Selena Gomezs Fans Are Turning On Her & Everyone Is MAD - After Dark #130	https://www.youtube.com/watch?v=2WZn429v00U	
+AfterDark	131	12-15-2023	Matt Rife Drama Power Point, Meet Our New Puppy - After Dark #131	https://www.youtube.com/watch?v=evmZ3TGPbbk	
+AfterDark	132	01-12-2024	Ace Family Divorce - After Dark #132	https://www.youtube.com/watch?v=z9IPrpq6wVs	
+AfterDark	133	01-19-2024	MASSIVE LAWSUIT UPDATE - After Dark #133	https://www.youtube.com/watch?v=VsG_aWgJkHk	
+AfterDark	134	01-26-2024	David Dobrik Calls Out Jason Nash, Ben Shaprio Drops Rap Song - After Dark #134	https://www.youtube.com/watch?v=-kKCjzHAJtQ	
+AfterDark	135	02-02-2024	Austin McBroom Has Jumped The Shark - After Dark #135	https://www.youtube.com/watch?v=5VZIfAv63i8	
+AfterDark	136	02-09-2024	Earthquake Hits The Studio LIVE, The Most Shocking Leak Weve Seen In Years - After Dark #136	https://www.youtube.com/watch?v=H61pA1ZPTs8	
+AfterDark	137	02-16-2024	Ethans Righteous Crusade Against The Wicked Lolipops - After Dark #137	https://www.youtube.com/watch?v=gjKye-weNxw	
+AfterDark	138	02-23-2024	Content Court: Adin Ross - After Dark #138	https://www.youtube.com/watch?v=tYxHTHIXg7s	
+AfterDark	139	03-01-2024	Jay Shetty Exposed By Ex-Girlfriend & He Lied About Being A Monk - After Dark #139	https://www.youtube.com/watch?v=5XrPXgcKwVc	
+AfterDark	140	03-08-2024	Compliment Battle 2 - After Dark #140	https://www.youtube.com/watch?v=TjYCBzI_Cwk	
+AfterDark	141	03-15-2024	The BacH3lor Ep. 3 - A Romantic Boat Ride w/ Morgan (Ft. Jeff Wittek) - After Dark #141	https://www.youtube.com/watch?v=MBDl186rta8	
+AfterDark	142	03-22-2024	The BacH3lor Ep. 4 - Making Pottery w/ Maegan (Ft. Jeff Wittek) - After Dark #142	https://www.youtube.com/watch?v=zfYk1bimFMM	
+AfterDark	143	03-29-2024	Cameron Is Leaving The Show - After Dark #143	https://www.youtube.com/watch?v=HiGxuc1bSvo	
+BTS	13	12-17-2021	(Members) H3 Podcast BTS #13	https://youtu.be/F95h2-qNov0	
+ContentCourt	1	09-17-2020	Content Court #1: Prince Family	https://youtu.be/XsI2yDSZjOY	
+ContentCourt	2	09-24-2020	Content Court #2: JayStation	https://youtu.be/VQ6bqvWmHoo	
+ContentCourt	3	10-01-2020	Content Court #3: TikTok Pranksters	https://youtu.be/6oJt2x4MuV4	
+ContentCourt	4	10-21-2020	Content Court #4: TheQuartering	https://youtu.be/pMW3hfX7Z_s	
+ContentCourt	5	11-05-2020	Content Court #5: The ACE Family	https://youtu.be/RdC75IoAQoo	
+ContentCourt	6	12-10-2020	Content Court #6: Jared Leto	https://youtu.be/3FICW6WUBtQ	
+ContentCourt	7	10-14-2021	NELK Is A Menace To Society - Content Court #7	https://youtu.be/ZPt1p_KeTEE	
+ContentCourt	8	02-23-2024	Content Court #8: Adin Ross	https://youtu.be/tYxHTHIXg7s	
+ContentCourt	9	02-23-2024	Content Court #9: Jack Doherty	https://youtu.be/DCw4csgcEsk	
+ContentCourt	10	08-29-2024	Content Court #10 - Ethan Klein	https://youtu.be/nXB74iEuaX8	
+EthanAndHila	1	01-20-2016	ONE FRICKED UP DENTIST	https://www.youtube.com/watch?v=uSlx0s5dtPM	
+EthanAndHila	2	05-15-2016	The Gaze of Miracles	https://www.youtube.com/watch?v=LoYFNS3aMqg	
+EthanAndHila	3	03-07-2016	Social Experiments with Joey Salads	https://youtu.be/nHHzQ8VPtAs	
+EthanKlein	38	02-10-2022	MoistCritikal Is Destroying YouTube	https://youtu.be/8CcVkyFXHyw	
+Families	2	06-30-2021	Trisha Paytas vs Gabbie Hanna Explained By My Mom - Families #2	https://youtu.be/_SdeGi-8rZ8	
+Families	3	07-07-2021	The Biggest Cancellation In YouTube History - Families #3	https://youtu.be/L3XK1hC8KsM	
+Families	4	07-14-2021	Moms Embarrassing Story Destroyed My Soul - Families #4	https://youtu.be/OJo0Z90eWDE	
+Families	5	07-21-2021	James Charles IS GOING TO JAIL! says my mom - Families #5	https://youtu.be/h-sbveUVSUc	
+Families	6	07-28-2021	Omegle With My Mom - Families #6	https://youtu.be/sBknX8jMuGw	
+Families	7	08-04-2021	My Family Is Being Torn Apart - Families #7	https://youtu.be/IcHJNW2zxkM	
+Families	8	08-11-2021	Addressing The Controversy - Families #8	https://youtu.be/SoZSaJHD8RM	
+Families	9	08-22-2021	What Did My Mom Text Trisha? - Families #9	https://youtu.be/wRKR0BPlIZ8	
+Families	10	08-25-2021	The Final Families Episode - Families #10	https://youtu.be/WOAWl_s0Kjs	
+Families	11	12-09-2021	Families Reunion Holiday Special	https://youtu.be/6eKA1zsLvSM	
+Frenemies	1	09-15-2020	Trishas New Boyfriend Is Hilas Brother - Frenemies #1	https://www.youtube.com/watch?v=Mtblz3KPYT0	
+Frenemies	1	05-08-2021	Trisha & Ethan Go To Disneyland For Her Birthday - Frenemies Vlog #1	https://www.youtube.com/watch?v=5dMuBxUX38o	
+Frenemies	2	09-22-2020	Trishas Obsession With Jewish People - Frenemies #2	https://www.youtube.com/watch?v=FwLnl2T5z4A	
+Frenemies	2	05-30-2021	Trisha & Ethan Hijack A Hollywood Tour Bus - Frenemies Vlog #2	https://www.youtube.com/watch?v=-zBQ8bUB0Lw	
+Frenemies	3	09-29-2020	Possibly Our Last Episode - Frenemies #3	https://www.youtube.com/watch?v=b35iUxkPazY	
+Frenemies	4	10-06-2020	Is Trisha Smarter Than A 5th Grader? - Frenemies #4	https://www.youtube.com/watch?v=B6hF6w_sMlw	
+Frenemies	5	10-13-2020	Trisha & Ethan Have a Huge Fight & She Storms Out - Frenemies #5	https://www.youtube.com/watch?v=9xVGBL0_crc	
+Frenemies	6	10-20-2020	Trisha & Ethan Reconcile...Kind of - Frenemies #6	https://www.youtube.com/watch?v=7E6SuDyDUos	
+Frenemies	7	10-27-2020	Couples Therapy With Dr. Drew - Frenemies #7	https://www.youtube.com/watch?v=JnLGwc4wivw	
+Frenemies	8	11-03-2020	Trisha & Ethan Fight About The Election - Frenemies #8	https://www.youtube.com/watch?v=Cms9D7om3gk	
+Frenemies	9	11-17-2020	Cheese Mukbang Disaster - Frenemies #9	https://www.youtube.com/watch?v=Jc4IqcoNN60	
+Frenemies	10	11-24-2020	Trisha vs Charli & Dixie DAmelio (Dramageddon 2.0) - Frenemies #10	https://www.youtube.com/watch?v=bGXN5_YkiEE	
+Frenemies	11	12-01-2020	Trisha & Ethan Do Goat Yoga & Carpool Karaoke - Frenemies #11	https://www.youtube.com/watch?v=6rLUkQDU-wY	
+Frenemies	12	12-08-2020	Trisha Was Kidnapped At Gunpoint - Frenemies #12	https://www.youtube.com/watch?v=hBOsrbiA1XM	
+Frenemies	13	12-10-2020	Trisha Quits the Podcast & Storms Out - Frenemies #13	https://www.youtube.com/watch?v=9XLd81tC-uQ	
+Frenemies	14	12-16-2020	The Fate Of Frenemies With Dr. Drew - Frenemies #14	https://www.youtube.com/watch?v=jByWaMDVF1w	
+Frenemies	15	01-05-2021	We Made The Only Honest Award Show - Introducing The Steamies - Frenemies #15	https://www.youtube.com/watch?v=1gzsFgZ6_ds	
+Frenemies	16	01-12-2021	Frenemies Is Under Attack - Frenemies #16	https://www.youtube.com/watch?v=eE-eJVJNYKQ	
+Frenemies	18	01-26-2021	Pop Culture Trivia War & Friendship With Shane Is Over - Frenemies #18	https://www.youtube.com/watch?v=ieFw_2kCdLY	
+Frenemies	19	02-02-2021	The David Dobrik & Jason Nash Episode - Frenemies #19	https://www.youtube.com/watch?v=wTZVPoHp_Jk	
+Frenemies	20	02-09-2021	Newlywed Game (Trish & Moses vs Ethan & Hila) - Frenemies #20	https://www.youtube.com/watch?v=dbeuZGzg5_E	
+Frenemies	21	02-16-2021	Erased David Dobrik Footage Proves Trisha Was Right All Along - Frenemies #21	https://www.youtube.com/watch?v=-XDwa_Uym1I	
+Frenemies	22	02-23-2021	Ethan & Trisha Do An Athletics Competition - Frenemies #22	https://www.youtube.com/watch?v=gAYjmSVKWd8	
+Frenemies	23	03-02-2021	David Dobrik & James Charles Drama Apocalypse - Frenemies #23	https://www.youtube.com/watch?v=tvFlQW3vmrk	
+Frenemies	24	03-09-2021	Jewish Trivia Contest, David Dobrik & Scotty Sire - Frenemies #24	https://www.youtube.com/watch?v=jReGxvVvb5o	
+Frenemies	25	03-16-2021	David Dobriks Lawyers Go After Trisha & Cooking Competition - Frenemies # 25	https://www.youtube.com/watch?v=elFvrO4Y8yY	
+Frenemies	26	03-21-2021	Responding To Jeff Wittek & New David Dobrik Footage - Frenemies # 26	https://www.youtube.com/watch?v=0XCZ-t5e-fI	
+Frenemies	27	03-23-2021	Jeff Wittek Interview Fallout - Frenemies # 27	https://www.youtube.com/watch?v=JHUfQXheOrs	
+Frenemies	28	03-23-2021	Responding To David Dobriks Apology - Frenemies # 28	https://www.youtube.com/watch?v=-QLJROolYas	
+Frenemies	29	03-30-2021	Trishas Epic Passover Dinner At Ethans - Frenemies # 29	https://www.youtube.com/watch?v=46oesaefwP4	
+Frenemies	30	04-06-2021	Trisha & Ethan Do Oddly Satisfying Trends - Frenemies # 30	https://www.youtube.com/watch?v=DZp6yuHZTzo	
+Frenemies	31	04-13-2021	Khloe Kardashian Photo Drama & Pizza Eating Contest - Frenemies # 31	https://www.youtube.com/watch?v=R3XpjB3P9WU	
+Frenemies	32	04-20-2021	James Charles Entire Channel Demonetized by YouTube - Frenemies # 32	https://www.youtube.com/watch?v=EjkLRX7m5TY	
+Frenemies	33	04-27-2021	Jeff Wittek, David Dobrik, & TRIVIA! - Frenemies # 33	https://www.youtube.com/watch?v=gkbn7Zv0MsU	
+Frenemies	34	05-04-2021	Trishas Birthday Celebration - Frenemies # 34	https://www.youtube.com/watch?v=2-sRFyE2Dcw	
+Frenemies	35	05-11-2021	Ethan Embarrassed Himself In Front Of Trishas Family - Frenemies # 35	https://www.youtube.com/watch?v=Ru5D83BKNbE	
+Frenemies	36	05-18-2021	Trisha & Ethan Got Bullied & Are Fighting Back - Frenemies # 36	https://www.youtube.com/watch?v=IUGvnECknlI	
+Frenemies	37	05-25-2021	Taking Trisha To Meme School - Frenemies # 37	https://www.youtube.com/watch?v=eMV9_HIAQGI	
+Frenemies	38	06-01-2021	PREGNANCY ANNOUNCEMENT! - Frenemies # 38	https://www.youtube.com/watch?v=_d5QneG6oF8	
+Frenemies	39	06-08-2021	Talking About Gabbie Hanna - Frenemies # 39	https://www.youtube.com/watch?v=poqMtuBVHU4	
+Frenemies	40	06-09-2021	Regarding Trisha Quitting Frenemies - Frenemies #40	https://www.youtube.com/watch?v=v8YqLShLJiI	
+H3H3Productions	1	01-06-2019	This YouTuber is Lying To You (H3H3)	https://www.youtube.com/watch?v=HNdoEy1gdR8	
+H3H3Productions	2	01-23-2018	How To Lose Your Life's Savings w Cryptocurrency	https://youtu.be/EhL2OWXZ26s	
+H3H3Productions	3	12-09-2016	THESE GLASSES CURED OUR COLOR BLINDNESS! FT. iDubbbzTV	https://youtu.be/q7Gh_-KDXAk	
+H3H3Productions	4	08-05-2020	Becoming THE ZUCC (ft idubbbz)	https://youtu.be/OCjN_yBkyDk	
+H3H3Productions	5	01-16-2018	The Logan Paul Odyssey	https://www.youtube.com/watch?v=N3Dlpky9ey8	
+H3H3Productions	6	04-28-2016	Joey Salads -- h3h3 reaction video	https://www.youtube.com/watch?v=H2ganadAS-4	
+H3H3Productions	7	05-08-2019	Instagram vs. Reality	https://youtu.be/OX_Bini29kU	
+H3Show	1	04-22-2024	Fresh Got His GF Pregnant & Demands She Gets Rid Of It (She’s Calling In)  - H3 Show #1	https://youtu.be/0lt0tTr-lj4	
+H3Show	2	04-24-2024	Catching Up On All The Tea We Missed - H3 Show #2	https://youtu.be/x2cyP6KJ0Uc	
+H3Show	3	04-26-2024	Green Screen Tournament 2024 - H3 Show #3	https://youtu.be/Xel3UegLOLQ	
+H3Show	4	04-29-2024	Catching Up On More Tea That We Missed During The Break & James Charles New Song - H3 Show #4	https://youtu.be/XPR4gCC10jc	
+H3Show	5	05-01-2024	Ethan Talks About Bringing Back Frenemies - H3 Show #5	https://youtu.be/ZOYPpF0Lhhc	
+H3Show	6	05-03-2024	Holding Ourselves Accountable - H3 Show #6	https://youtu.be/dQO5biMTtsY	
+H3Show	7	05-06-2024	Kendrick Lamar vs Drake Full Beef Explanation - H3 Show #7	https://youtu.be/o91-Yi73E2M	
+H3Show	8	05-08-2024	Kendrick vs Drake Beef UPDATES, Kim Kardashian Is Losing Followers & being booed - H3 Show #8	https://youtu.be/mexSokkrTXw	
+H3Show	9	05-10-2024	Rating Met Gala Looks, Dan Schneider Shocking Update - H3 Show #9	https://youtu.be/-69bFbVEwhU	
+H3Show	10	05-13-2024	Logan Paul Accused Of Not Paying Ex-Cohost, Drake 3AM Hotel Leaks Are Creepy - H3 Show #10	https://youtu.be/quLsRrCkP7M	
+H3Show	11	05-15-2024	Is Ethan Out Of Touch? Guessing Grocery Prices, The Game - H3 Show #11	https://youtu.be/quLsRrCkP7M	
+H3Show	12	05-17-2024	We Went To A Lil Jon Meditation Retreat (Ft. Tom Ward) - H3 Show #12	https://youtu.be/iJsDndyIKKM	
+H3Show	13	05-20-2024	Diddy Apology Review, Jojo Wasted At Disneyland - H3 Show #13	https://youtu.be/_0wT8yg4k3I	
+H3Show	14	05-22-2024	The Try Guys Just Lost Another Guy - H3 Show #14	https://youtu.be/dTNUv14yoKI	
+H3Show	15	05-24-2024	The Crew Pitches Business Ideas - H3 Show #15	https://youtu.be/iiz9Gispe5I	
+H3Show	16	05-29-2024	AND THE RESULT OF MY COLONOSCOPY IS… - H3 Show #16	https://youtu.be/jvGC35qMLMw	
+H3Show	17	05-31-2024	Guess Who's High While Playing Among Us IRL - H3 Show #17	https://youtu.be/0yLw_IpyB20	
+H3Show	18	06-03-2024	Issuing A Retraction & Apology - H3 Show #18	https://youtu.be/1ZT28Th8HV8	
+H3Show	19	06-05-2024	Tana Mongeau Exposed Cody Ko - H3 Show #19	https://youtu.be/dAIDkR4xb7U	
+H3Show	20	06-07-2024	Our Viewers Are Turning Against Us - H3 Show #20	https://youtu.be/NQgEowTrCRA	
+H3Show	21	06-10-2024	The Try Guys Are Bullying Me - H3 Show #21	https://youtu.be/Pj4kFC52oBM	
+H3Show	22	06-12-2024	The Crew Switches Jobs And Feelings Get Hurt - H3 Show #22	https://youtu.be/bnLi7oii98g	
+H3Show	23	06-14-2024	Ariana Grande Speaks Out About Dan Schneider, Logan Paul Has Trump On Impaulsive - H3 Show #23	https://youtu.be/LMOswKoe-Nc	
+H3Show	24	06-17-2024	It Took Me 20 Years To Say This... - H3 Show #24	https://youtu.be/-5DSOs6assM	
+H3Show	25	06-19-2024	Boogie2988 Tried To Expose Me, ImAllexx Controversy - H3 Show #25	https://youtu.be/alTfbx7vFxo	
+H3Show	27	06-24-2024	OkBaby, Ok Drama! - H3 Show #27	https://youtu.be/4pr97y3aopw	
+H3Show	28	06-26-2024	Meeting The Queen Of Melrose - H3 Show #28	https://youtu.be/-YJSijE7AZM	
+H3Show	29	07-15-2024	Cody Ko Exposed By D'Angelo Wallace, Boogie Lied About Having Cancer lol - H3 Show #29	https://youtu.be/gyIlayEQN3E	
+H3Show	30	07-17-2024	The Craziest Ex-Boyfriend Story ft Brooke Schofield - H3 Show #30	https://youtu.be/Ef6lhNTDUbU	
+H3Show	31	07-19-2024	Boogie Meltdown After Faking Cancer, Tana Is Coming For Jason Nash - H3 Show #31	https://youtu.be/t7YKFG2TbGc	
+H3Show	32	07-22-2024	Cody Ko Caught With ANOTHER 17 Year Old - H3 Show #32	https://youtu.be/RMnIW8Xs7uA	
+H3Show	33	07-24-2024	My Thoughts On The Ava Kris Tyson Situation - H3 Show #33	https://youtu.be/RLMMAjqWnvQ	
+H3Show	34	07-26-2024	Queen Of Melrose Returns w TEA, Olympic Fashion Tier List - H3 Show #34	https://youtu.be/uPFyV_cLylI	
+H3Show	35	07-29-2024	Cody Ko Finally Responds - H3 Show #35	https://youtu.be/8r5HosJI4bk	
+H3Show	36	07-31-2024	This Woman Faked Cancer 100x Worse Than Boogie2988: Scamanda, Ft. Kendall Rae - H3 Show #36	https://youtu.be/2Y94ZQw_0F4	
+H3Show	37	08-02-2024	Logan Paul Comes Out As The Worst Person Alive - H3 Show #37	https://youtu.be/sQ4eaIUryP0	
+H3Show	38	08-05-2024	MrBeast Exposed in New York Times Exposé, Brooke Schofield Cancelled Over Old Tweets - H3 Show #38	https://youtu.be/W7LVYdyWwFU	
+H3Show	39	08-07-2024	Brooke Schofield Is NOT Forgiven - H3 Show #39	https://youtu.be/SiFKlWCDfuY	
+H3Show	40	08-09-2024	MrBeast Hired A Pedo, QT Hired A Queen, Sam's Last Supper - H3 Show #40	https://youtu.be/WXk7sEQlyIY	
+H3Show	42	08-14-2024	I Won The Poker Tournament - H3 Show #42	https://youtu.be/oLWTNrvOd3c	
+H3Show	43	08-16-2024	Making Howie Mandel Watch The Worst Videos In Internet History - H3 Show #43	https://youtu.be/HyKgY7nwdrQ	
+H3Show	44	08-19-2024	Logan Paul Humiliates Himself In Italy à la Japan - H3 Show #44	https://youtu.be/6Skps2vLZ5I	
+H3Show	45	08-21-2024	ProJared Is A Danger To His Community And Must Be Stopped - H3 Show #45	https://youtu.be/R7hgK2iHF6Y	
+H3Show	46	08-23-2024	Olivia Explains The Blake Lively Drama To A Room Full Of Haters - H3 Show #46	https://youtu.be/gGIoHnFwsRc	
+H3Show	47	08-26-2024	Huge Blake Lively Drama Update & Did Logan Paul Try To Kill His Dog? - H3 Show #47	https://youtu.be/YksbJ1RB-ic	
+H3Show	48	08-28-2024	Content Court: Jack Doherty - H3 Show #48	https://youtu.be/DCw4csgcEsk	
+H3Show	51	09-06-2024	Hot Presidents Tier List, Martin The Water Sommelier Drops In, Dan Saw Hamilton - H3 Show #51	https://youtu.be/9JPShI_iglU	
+H3Show	52	09-09-2024	Nikocado Lost 250lbs, Dr. Disrespect's Apology May Be Worse Than Colleen's - H3 Show #52	https://youtu.be/dkTJF5vqZNA	
+H3Show	53	09-11-2024	Guess Who's High - Family Edition - H3 Show #53	https://youtu.be/ua5pUi11V3E	
+H3Show	55	09-16-2024	Ethan Debates Anti-Semitic Sneako Fan - H3 Show #55	https://youtu.be/Ch3WcOM4gNs	
+H3Show	56	09-18-2024	MrBeast, Logan Paul, KSI Sellout Their Child Audience ft. Reggie Watts - H3 Show #56	https://youtu.be/mvzLHYGR05M	
+H3Show	57	09-20-2024	The Crew Plays Dress To Impress, Makeup Artist Refuses To Leave Wedding PowerPoint - H3 Show #57	https://youtu.be/YfjWd_gekCo	
+H3Show	59	09-25-2024	Lunchly VS Lunchable Taste Test - H3 Show #59	https://youtu.be/T_9hll2HDO0	
+H3Show	60	09-27-2024	Ice Spice Mean Girl PowerPoint, Olive Taste Test For Haters - H3 Show #60	https://youtu.be/QwdgXFZeGFk	
+H3Show	61	09-30-2024	Boogie2988 Gets Buried Alive - H3 Show #61	https://youtu.be/xS5Jt71-b2o	
+H3Show	62	10-02-2024	Selena Gomez Cheating Controversy, Back Into The Metaverse - H3 Show #62	https://youtu.be/KaK4EsM0NDk	
+H3Show	63	10-04-2024	David Dobrik's Legal Defense Leaked vs Jeff Wittek - H3 Show #63	https://youtu.be/md3BCwFCmuM	
+H3Show	64	10-10-2024	Jimmy Lee Breaks Into Studio, Gets Confronted, Permanently Banned - H3 Show #64	https://youtu.be/vrgT8x57bDo	
+H3Show	65	10-11-2024	KSI's New Song Is So Bad He’s Blocking Criticism (& Probably This Video) - H3 Show #65	https://youtu.be/0eJx1bu4Ris	
+H3Show	66	10-14-2024	KSI Blocked Our Video & Lied About It, BOYS NIGHT! WE OUT HERE! - H3 Show #66	https://youtu.be/SAeHExAdKLk	
+H3Show	68	10-18-2024	I Watched Twilight For The First Time & I Have A Lot To Say - H3 Show #68	https://youtu.be/M9dYrhdXN88	
+H3Show	69	10-21-2024	Dan Clancy Must Resign As Twitch CEO - H3 Show #69	https://youtu.be/cjJqvaNWHEA	
+H3Show	70	10-23-2024	I Watched Twilight New Moon For The First Time & I Have A Lot To Say- H3 Show #70	https://youtu.be/RRcDcNSc7rA	
+H3Show	71	10-25-2024	Lunchly Mold Scandal Rocks The Internet - H3 Show #71	https://youtu.be/N8NGpo8N-ic	
+H3Show	72	10-28-2024	MrBeast Leaked Group Chat w/ Ava Proves He Knew, Twilight Eclipse Review - H3 Show #72	https://youtu.be/HngwtqKyYdw	
+H3Show	73	10-30-2024	Halloween Special 2024 + Twilight Breaking Dawn Review - H3 Show #73	https://youtu.be/msxOG5pz34g	
+H3Show	74	11-01-2024	Our Ukrainian Employee Debunks Hasan's Insane Takes On Russia, Fruit Tier List - H3 Show #74	https://youtu.be/H0vlj3QIFsU	
+H3Show	75	11-04-2024	MrBeast Arrested & Steps Down As CEO - H3 Show #75	https://youtu.be/d_W8GN6vRkw	
+H3Show	78	11-08-2024	We Tried To Emergency Land A Plane In A Realistic Flight Simulator - H3 Show #78	https://youtu.be/dK8wEJANcYw	
+H3Show	79	11-11-2024	David Dobrik Documentary Controversy, Twilight Saga Finale - H3 Show #79	https://youtu.be/GRsAtRPjLh0	
+H3Show	80	11-13-2024	Ethan Destroys Dan Bilzerian With Facts & Logic - H3 Show #80	https://youtu.be/DzzujKzUOKw	
+H3Show	81	11-15-2024	Brianna Chickenfry vs Zach Bryan PowerPoint - H3 Show #81	https://youtu.be/SrTmmRVK7M4	
+H3Show	82	11-18-2024	Was The Mike Tyson/Jake Paul Fight Scripted? Coffeezilla Exposed MrBeast, Gabe's Bday - H3 Show #82	https://youtu.be/6ZDZPrulJY4	
+H3Show	83	11-20-2024	We Play Poker w/ Ninja, Impractical Jokers, & More! - H3 Show #83	https://youtu.be/1kmV61p3Has	
+H3Show	84	11-22-2024	Logan Paul Posted INSANE Cringe - H3 Show #84	https://youtu.be/6Lg0AEaWplQ	
+H3Show	85	11-25-2024	I Haven't Been Well - H3 Show #85	https://youtu.be/Yg8EL-sNp68	
+H3Show	86	11-27-2024	Kai Cenat Prank Gone Horribly Wrong, Drake Sues Kendrick For Calling Him A P - H3 Show #86	https://youtu.be/P62RrxPzQR8	
+H3Show	87	12-02-2024	Did Dogpack Lie About MrBeast?, Checking In On ACE Family - H3 Show #87	https://youtu.be/eNXlHFteSNw	
+H3Show	88	12-04-2024	Olivia Is Taking A Break - H3 Show #88	https://youtu.be/67RsvQCUdS8	
+H3Show	89	12-06-2024	Hawk Tuah Crypto Scam, The Crew Puts On A Magic Show - H3 Show #89	https://youtu.be/lVdgVdVJsQQ	
+H3Show	90	12-09-2024	Trisha Was On SNL So I'm Cutting Off My Arm - H3 Show #90	https://youtu.be/4nRmUq4mHAI	
+H3Show	91	12-11-2024	Jake Doolittle Blackmails His Friends - H3 Show #91	https://youtu.be/4ALwc3oZXjM	
+H3Show	92	12-13-2024	The 2024 Soundbite Tournament! - H3 Show #92	https://youtu.be/OWBUXE42fuc	
+H3Show	93	12-16-2024	Brooke Schofield's Boyfriend Is A Creep PowerPoint - H3 Show #93	https://youtu.be/x-hY1RZf8YE	
+H3Show	94	12-18-2024	Justin Bieber Needs To Leave Selena Gomez Alone!!! Power Point/Goss Talk Emergency - H3 Show #94	https://youtu.be/N1xImKJY0kU	
+H3Show	96	01-06-2025	Responding To The Haters That Waited For Me To Go On Break - H3 Show #96	https://youtu.be/0SWIbsrw5No	
+H3Show	97	01-10-2025	Blake Lively/Justin Baldoni HUGE update PowerPoint, David Dobrik’s New Vlog is Cringe - H3 Show #97	https://youtu.be/wv76IVGoaeY	
+H3Show	98	01-13-2025	Cody Ko Is Posting Through The Pain - H3 Show #98	https://youtu.be/fV-1SveD9gQ	
+H3Show	99	01-15-2025	Dream vs. TommyInnit Minecraft Drama Innit Oi! - H3 Show #99	https://youtu.be/h1dnSmR_9C8	
+H3Show	100	01-17-2025	Free Wendy Williams!! Another Conservatorship!? & Love & Dan PowerPoint On WoW Drama - H3 Show #100	https://youtu.be/42OYpZFe5DY	
+H3Show	101	01-22-2025	Justin Baldoni Comes w/ Receipt & DEBUNKS Blake Lively Accusations? - H3 Show #101	https://youtu.be/casAOxYGjPc	
+H3Show	102	01-24-2025	My Life Is Falling Apart- Addressing The Controversy- I Shouldn’t Say This But I Must - H3 Show #102	https://youtu.be/3FKZxfBljlw	
+H3Show	103	01-29-2024	Content Nuke: Markiplier - H3 Show #103	https://youtu.be/oDdnL6Pd9qU	
+H3Show	104	01-31-2025	Countdown To Doomsday - H3 Show #104	https://youtu.be/vOZc89r3pJA	
+H3Show	105	02-03-2025	Nuclear Fallout - H3 Show #105	https://youtu.be/TETOdFWf99M	
+H3Show	106	02-05-2025	Dear Hasan Piker... - H3 Show #106	https://youtu.be/6KV16LWcnTY	
+H3Show	107	02-07-2025	Hasan Piker Is A Cowardly Liar - H3 Show #107	https://youtu.be/IG6GG1x0M9o	
+H3Show	108	02-10-2025	I'm Being Sued By An Ex-Employee - H3 Show #108	https://youtu.be/I0zmBdGEvwU	
+H3Show	109	02-12-2025	Reading Insane Redditor Confessions - H3 Show #109	https://youtu.be/A8MzE_Pr9XI	
+H3Show	110	02-14-2025	Am I The A-hole? Giving advice to crazy redditors - H3 Show #110	https://youtu.be/6YkwAdAmyBI	
+H3Show	111	02-17-2025	I Can't Handle This Anymore - H3 Show #111	https://youtu.be/N2W4RJ2tEnY	
+H3Show	112	02-19-2025	Crew Intervention - H3 Show #112	https://youtu.be/s7ZloL0x4G4	
+H3Show	113	02-22-2025	Unmasking The Harassment Campaign Against Us - H3 Show #113	https://youtu.be/UK47xzasVxA	
+H3Show	114	02-24-2025	Tana Vs Joey Graceffa, Justin Baldoni Vs Blake Lively - H3 Show #114	https://youtu.be/smSkN-I2weE	
+H3Show	115	02-26-2025	I'm Going To War With The Entire Internet - H3 Show #115	https://youtu.be/bq4Bq0KXlGE	
+H3TV	1	07-17-2021	I Waited 16 YEARS To Play Half Life Alyx... & The Crew Ruined It - H3TV #1	https://youtu.be/3XCb0GrMix4	
+H3TV	2	07-24-2021	YouTuber House Tours, Make Ethan Laugh, Twitch Gambling Finale | H3TV Full Episode #2	https://www.youtube.com/watch?v=b9BRDiQPD-U	
+H3TV	3	07-31-2021	QAnon Lunatics & Unusual Memes - H3TV #3	https://youtu.be/GArWVPo-86s	
+H3TV	4	08-02-2021	David Dobrik Kicked Out Of Lollapalooza Party - H3TV #4	https://youtu.be/QhA1sdISvME	
+H3TV	5	08-09-2021	Taking The Channel In A New Direction - H3TV #5	https://youtu.be/pcblUbd-YIU	
+H3TV	6	08-30-2021	Addison Rae Is NOT All That, James Corden Is Ruining LA - H3TV #6	https://www.youtube.com/watch?v=jkdccC2G4pA	
+H3TV	7	09-07-2021	Guess Who the DAmelios Are Suing... - H3TV #7	https://youtu.be/d9Y0O-FtKvA	
+H3TV	8	09-20-2021	Why We Disappeared For A Week - H3TV #8	https://youtu.be/DvKzxrX3MMg	
+H3TV	9	09-27-2021	R. Kelly, Keemstar, My Mom Exposed - H3TV #9	https://youtu.be/bVwGr98HYqQ	
+H3TV	10	10-04-2021	Keemstars Channel Is Tanking & Couch Guy Controversy - H3TV #10	https://youtu.be/Rs9bSkstX9s	
+H3TV	11	10-12-2021	Kim Kardashian Screamed At Me In Streets Of NYC - H3TV #11	https://youtu.be/CONlQOBiHq8	
+H3TV	12	10-18-2021	Jordan Peterson, Kanye West, Island Boys - H3TV #12	https://youtu.be/_QK5EmPCd9g	
+H3TV	13	10-25-2021	Im Cancelled - H3TV #13	https://youtu.be/VUSyVSyRkPM	
+H3TV	14	11-01-2021	Pete Davidson & Kim Kardashian Must Be Stopped - H3TV #14	https://youtu.be/TcS05DPojIU	
+H3TV	15	11-08-2021	Travis Scott & Astroworld - H3TV #15	https://youtu.be/IUzPQS-S9jg	
+H3TV	16	11-15-2021	Mr. Beast Cancelled - H3TV #16	https://youtu.be/1HnEBlU5UJY	
+H3TV	17	11-22-2021	Keemstar vs The Quartering - H3TV #17	https://youtu.be/OY934DPbmrc	
+H3TV	18	11-29-2021	Ace Family's House Story Full Analysis - H3TV #18	https://youtu.be/KXQNGLzhep4	
+H3TV	19	12-06-2021	We Need To Talk (VERY Urgent and VERY IMPORTANT!!!) - H3TV #19	https://youtu.be/Ev37IedFjMU	
+H3TV	20	12-13-2021	The Wedding... - H3TV #20	https://youtu.be/3LF3F8Cl-Q4	
+H3TV	21	01-17-2022	Were Back! - H3TV #21	https://youtu.be/sHrEyuHHM9U	
+H3TV	22	01-24-2022	Fresh & Fit Cringe, M&M Controversy, Metaverse Fail - H3TV #22	https://youtu.be/Rni5vczZCjQ	
+H3TV	23	02-14-2022	Our Son Is Born!! & Valentines Day Couples Game - H3TV #23	https://youtu.be/JZP7g-9ANRc	
+H3TV	24	02-21-2022	Jeff Wittek Cancels David Dobrik - H3TV #24	https://youtu.be/WmcJ_kZGVvE	
+H3TV	25	02-28-2022	Everyone Hates Me Again - H3TV #25	https://youtu.be/pPEswfxt40o	
+H3TV	26	03-07-2022	Jeff Wittek, Mr. Beast, ACE Family - H3TV #26	https://youtu.be/J19qOeSWn6A	
+H3TV	27	03-14-2022	David Dobrik Exposed By Casey Neistat Documentary - H3TV #27	https://youtu.be/LB2vHBIFc1o	
+H3TV	28	03-21-2022	Ace Family Is Going Bye Bye - H3TV #28	https://youtu.be/2Pbu55cclU4	
+H3TV	29	03-28-2022	Will Smith, Chris Rock & Academy Awards - H3TV #29	https://youtu.be/yH6GnXkHZOA	
+H3TV	30	04-04-2022	Ethan Was In The Hospital (Not Clickbait This Time) - H3TV #30	https://youtu.be/ulmY5h0M4co	
+H3TV	31	04-11-2022	James Charles Wears Diapers & The LaBrant Family - H3TV #31	https://youtu.be/VWgVZRN7xLQ	
+H3TV	32	04-18-2022	Oliver Tree Calls In, Ethans Parents Call In, & ACE Family Scam Fest - H3TV #32	https://youtu.be/yd6_HqM4wy0	
+H3TV	33	04-25-2022	Elon Musk Buys Twitter, Dad & Matt Watson Call In, Beans On Toast - H3TV #33	https://youtu.be/kSHwZvMmhww	
+H3TV	34	05-02-2022	Elon Musk Cringe, Pete Davidson Cringe, Cobra Tate Cringe - H3TV #34	https://youtu.be/T5uYYBnwdH0	
+H3TV	35	05-09-2022	Birds Arent Real Founder Calls In, Amber Heard vs Johnny Depp, Avatar 2 - H3TV #35	https://youtu.be/wzc8f4B--AU	
+H3TV	36	05-16-2022	ABs Creator Clash Fight Debrief, Johnny Depp & Amber Heard Trial - H3TV #36	https://youtu.be/9uyYuJ7vKaE	
+H3TV	37	05-23-2022	This Episode Will Be Erased In 24 Hours - H3TV #37	https://youtu.be/GtITnfBQ2Ck	
+H3TV	38	06-06-2022	We Were Banned From YouTube - H3TV #38	https://youtu.be/CGOWQwC1Amo	
+H3TV	39	06-13-2022	The Debate Game, Interview With Water Sommelier - H3TV #39	https://youtu.be/wJl5O7XCkOc	
+H3TV	40	06-20-2022	A New Low For Family Channels, Cart Narcs Calls In, The LaBrant Family - H3TV #40	https://youtu.be/PbuUz7yw9SA	
+H3TV	41	06-27-2022	The Worst Thing We Did As Kids, Ethans Mom Plays Trivia - H3TV #41	https://youtu.be/I5Gop05e3ps	
+H3TV	42	07-11-2022	We Went To ACE Fest... WOW - H3TV #42	https://youtu.be/QpElkT_nkgY	
+H3TV	43	07-18-2022	Ive Got Terrible News - H3TV #43	https://youtu.be/MrMIZ4QUSOE	
+H3TV	44	07-25-2022	Well, it happened. Hes finally banned. - H3TV #44	https://youtu.be/3tiiER1zHfE	
+H3TV	45	08-01-2022	Andrew Tate Nelk Podcast Disaster, Ethans Dad Meets Jimmie Lee - H3TV #45	https://youtu.be/C6jBBUEx6fQ	
+H3TV	46	08-08-2022	Sound The Warhorns - BFFs Is Over - H3TV #46	https://youtu.be/XTU2hHPXVos	
+H3TV	47	08-15-2022	Its Time For War... Ive Never Been So Offended - H3TV #47	https://youtu.be/IFfxLKkYh8Q	
+H3TV	48	08-22-2022	Andrew Tate Banned On YouTube & TikTok - H3TV #48	https://youtu.be/FnZ2MLYKacc	
+H3TV	49	08-29-2022	Our Channel May Be Deleted - H3TV #49	https://youtu.be/rCMQxhWYEEo	
+H3TV	50	09-07-2022	Diss Track Competition - H3TV #50	https://youtu.be/5lfbwSHBOho	
+H3TV	51	09-12-2022	Spicy Food Competition - H3TV #51	https://youtu.be/1Z4LTCCodeg	
+H3TV	52	09-19-2022	Ethan Becomes An Alpha - H3TV #52	https://youtu.be/qd6fwV2KnuM	
+H3TV	53	09-26-2022	We Were Wrong About David Dobrik - H3TV #53	https://youtu.be/FF7NpY8cuWA	
+H3TV	55	10-31-2022	WERE BACK!! Banned For A Week & Candy Tier List - H3TV #55	https://youtu.be/AlcD8_dyVvQ	
+H3TV	56	11-07-2022	Ethan Permanently Banned From Twitter - H3TV #56	https://youtu.be/mUSioSGBigU	
+H3TV	57	11-14-2022	Ethans Car Was Stolen - H3TV #57	https://youtu.be/Y0idXvAgs6Q	
+H3TV	58	11-21-2022	Ethan Buries His Biggest Hater, World Cup in Qatar, Elon Unbans Trump - H3TV #58	https://youtu.be/oWro0ianAgI	
+H3TV	59	11-28-2022	I Need To Step Away For A Bit - H3TV #59	https://youtu.be/LY0H8sBnbZY	
+H3TV	60	12-05-2022	I Sent An Impersonator To The Streamys - H3TV #60	https://youtu.be/YaiCPHTOnsc	
+H3TV	61	12-13-2022	Nikocado Calls Out Ethan, Elon Gets Booed At Chapelle Show - H3TV #61	https://youtu.be/Jw8hmuc39kM	
+H3TV	62	01-16-2023	Andrew Tate, Adin Ross, Logan Paul - H3TV #62	https://youtu.be/lJNBlXTGSWk	
+H3TV	63	01-23-2023	MILF Manor & Adopting Adin Ross - H3TV #63	https://youtu.be/PeeWhjhvC7I	
+H3TV	64	02-06-2023	Solving Your Problems With Therapy Gecko - H3TV #64	https://youtu.be/Kh08ByUfO9c	
+H3TV	65	02-13-2023	Ethans Plan To Never Get Cancelled Again, Super Bowl, Joe Rogan Scam, MGK & Megan Fox - H3TV #65	https://youtu.be/JUgwnVF_zuA	
+H3TV	66	02-20-2023	Ethan Debates a NXIVM Cult Member - H3TV #66	https://youtu.be/Ro8kiM7Dg1Y	
+H3TV	67	02-27-2023	My Mom Calls In To Explain Selena Gomez vs. Hailey Bieber Drama - H3TV #67	https://youtu.be/gxRUEWE2_D4	
+H3TV	68	03-06-2023	Protecting MrBeast Chocolate Display Live At Walmart - H3TV #68	https://youtu.be/UZGTxYFG6NM	
+H3TV	69	03-20-2023	Ethan Got A Wet And Reckless - H3TV #69	https://youtu.be/j00WFejWTqQ	
+H3TV	70	03-27-2023	Huge Announcement Massive Changes Coming To The Podcast - H3TV #70	https://youtu.be/c3DrrRpa-Kg	
+H3TV	71	04-03-2023	The Podcast Is Moving To Spotify - H3TV #71	https://youtu.be/bVCmTR9UumY	
+H3TV	72	04-10-2023	BBTV Stole $620,000 & Refuses To Return It... (in my opinion) CEO Shahrzad Rafati - H3TV #72	https://youtu.be/pHHVpvLqYCE	
+H3TV	73	04-17-2023	About ABs Fight At Creator Clash... - H3TV #73	https://youtu.be/SasopDoAz14	
+H3TV	74	04-24-2023	Addressing The Vacation Drama - H3TV #74	https://youtu.be/f0mJ0Jx4gFI	
+H3TV	75	05-01-2023	Hasan Is Suing Adin Ross - H3TV #75	https://youtu.be/Fmk4w4fwhU8	
+H3TV	76	05-08-2023	Olivia Explains Taylor Swifts BF Drama, King Charles Sausage Fingers, MrBeast - H3TV #76	https://youtu.be/GIKvJqf7AJ0	
+H3TV	77	05-15-2023	Update About My Marriage - H3TV #77	https://youtu.be/gTbcIW2L2PA	
+H3TV	78	05-22-2023	Alyx Weiss (ayydubs) Calls In Regarding Her Joining A Cult - H3TV #78	https://youtu.be/5C0VjNTsjk8	
+H3TV	79	06-05-2023	Im Meeting Ryan Kavanaugh Tomorrow, FaZe Rain Declares War On The H3 Podcast - H3TV #79	https://youtu.be/uXzJ_7REzKs	
+H3TV	80	06-12-2023	Were Deleting Our Subreddit - H3TV #80	https://youtu.be/E5R9_dmrthI	
+H3TV	81	06-19-2023	Pearls Unearthed Music Career Explains Everything - H3TV #81	https://youtu.be/bD3yMLPhozo	
+H3TV	82	07-10-2023	Colleen Ballinger Apology PowerPoint - H3TV #82	https://youtu.be/eb8z8kaekfw	
+H3TV	83	07-17-2023	Colleen Ballinger Unearthed Video Is SO Bad, James Charles Trying To Get Uncancelled - H3TV #83	https://youtu.be/S-1-fV9jl2A	
+H3TV	84	07-24-2023	The Crew Does The Sour Challenge - H3TV #84	https://youtu.be/aB1TOfXEFWs	
+H3TV	85	07-31-2023	Hilas Pregnant Again - H3TV #85	https://youtu.be/ETvW-4y6gMw	
+H3TV	86	08-07-2023	Debating xQc On Copyright - H3TV #86	https://youtu.be/8UizTBc6FP8	
+H3TV	87	08-14-2023	Drake & Bobbi Althoffs Bizarre Falling Out, Dylan Page Is A Demon For This - H3TV #87	https://youtu.be/i_gylTJdgeY	
+H3TV	88	08-21-2023	The Colleen Ballinger Saga Took A Weird New Turn - H3TV #88	https://www.youtube.com/watch?v=iU67JsRQRkc	
+H3TV	89	08-28-2023	We Went To The Streamys and Lost During A Commercial Break - H3TV #89	https://www.youtube.com/watch?v=Mifmb_p4ec0	
+H3TV	90	09-11-2023	8 Passengers Mom Blames Kids The Crew Took DNA Tests - H3TV#90	https://www.youtube.com/watch?v=Xz4-cgBboe0	
+H3TV	91	09-25-2023	Russell Brand Sent Us a Legal Notice Ethans Tattoo Went Horribly Wrong - H3TV #91	https://www.youtube.com/watch?v=qbDqgYZBEeY	
+H3TV	92	10-02-2023	Ethan Ruined His New Tattoo - H3TV #92	https://www.youtube.com/watch?v=pK6dg-BRiqU	
+H3TV	93	10-09-2023	i made a mistake im sorry - H3TV#93	https://www.youtube.com/watch?v=ZNFeRPMOu8g	
+H3TV	94	10-16-2023	Sssniper wolf Doxxed Jacksfilms - H3TV #94	https://www.youtube.com/watch?v=VBM5JQx3eSU	
+H3TV	95	10-23-2023	Adin Ross Kicked From TwitchCon Mr. Beast Roasted On Twitter - H3TV #95	https://www.youtube.com/watch?v=vGqJWGZTpcI	
+H3TV	96	10-30-2023	Are You Faster Than Michael Myers Halloween Special - H3TV #96	https://www.youtube.com/watch?v=tRJYcVslWg8	
+H3TV	97	11-06-2023	Was Jordan Peterson Right About Me Bad News About Jimmy Lee - H3TV #97	https://www.youtube.com/watch?v=GtRc3HPYFdQ	
+H3TV	98	11-13-2023	David Dobrik Has Hurt Another Person - H3TV #98	https://www.youtube.com/watch?v=v97xGpOpzuM	
+H3TV	99	11-20-2023	Colleen Returns To YouTube Pokimane Cookie Controversy - H3TV #99	https://www.youtube.com/watch?v=npYrseihU8E	
+H3TV	100	11-27-2023	Ethans Insane Thanksgiving Drama - H3TV #100	https://www.youtube.com/watch?v=mjVWGr4v-6w	
+H3TV	101	12-04-2023	Ethan Does Acupuncture With Steve-O - H3TV #101	https://www.youtube.com/watch?v=uvV6dwI6auI	
+H3TV	102	12-11-2023	David Dobrik Sued By StateFarm Over Jeff Wittek Injury Crew Designs New Uniforms - H3TV #102	https://www.youtube.com/watch?v=_uO9aEEOUa8	
+H3TV	103	01-08-2024	Ethan Admits To Faking Illness For Money - H3TV #103	https://www.youtube.com/watch?v=WuaEyOStUds	
+H3TV	104	01-22-2024	Jay Shetty Threatened Me In Instagram DMs - H3TV #104	https://www.youtube.com/watch?v=65BnjSw3EEQ	
+H3TV	105	01-29-2024	Austin McBroom Lives In A Van Outside His Ex Wifes House - H3TV #105	https://www.youtube.com/watch?v=k1VrTaTohWA	
+H3TV	106	02-05-2024	Adin Ross Scammed For 2 Million Live Beavo Cheats On His Girlfriend Ft Marc Rebillet - H3TV #106	https://www.youtube.com/watch?v=euwdGWvS4Q4	
+H3TV	107	02-12-2024	Vaush No More Horsing Around - H3TV #107	https://www.youtube.com/watch?v=Uf6JFPY0g2Y	
+H3TV	108	02-20-2024	Massive Beavo Updates Vaush Responds 8 Passengers Ruby Franke Sentenced - H3TV #108	https://www.youtube.com/watch?v=B3FlUe8izyI	
+H3TV	109	03-04-2024	Beavo In The Studio - H3TV #109	https://www.youtube.com/watch?v=qTHgq8Snxxw	
+H3TV	110	03-11-2024	Im Taking An Indefinite Break - H3TV #110	https://www.youtube.com/watch?v=X4WWPKqleZs	
+H3TV	111	03-18-2024	We Get Sloshed For St Paddys Day - H3TV #111	https://www.youtube.com/watch?v=qIcAvk1z4iM	
+H3TV	112	03-25-2024	The BacH3lor Ep5 A Beach Picnic With Verica Ft Jeff Wittek H3TV#112	https://www.youtube.com/watch?v=9Lm16M0pafY	
+H3TV	113	04-01-2024	Responding To The Allegations - H3TV #113	https://www.youtube.com/watch?v=zkoKnz5zE3o	
+Leftovers	1	09-26-2021	And The New Host Is... Leftovers #1	https://www.youtube.com/watch?v=uASzNUFT5Dk	
+Leftovers	2	10-03-2021	Steven Crowder Freaks Out Over Black James Bond - Leftovers #2	https://www.youtube.com/watch?v=bnjJkVcayac	
+Leftovers	3	10-10-2021	We Have Our First Heated Debate - Leftovers #3	https://www.youtube.com/watch?v=vjluqyN7SNk	
+Leftovers	4	10-17-2021	Is Civil War Coming To America? - Leftovers #4	https://www.youtube.com/watch?v=EgwOxM_2CW8	
+Leftovers	5	10-24-2021	Donald Trump Hacked & Snowflake Cops - Leftovers #5	https://www.youtube.com/watch?v=VPoKMwsSDVI	
+Leftovers	6	10-31-2021	Elon Musk Wont Pay His Taxes & Joe Rogan Hates Paternity Leave - Leftovers #6	https://www.youtube.com/watch?v=ZFlLqIk3MFU	
+Leftovers	7	11-14-2021	Right Wing Cringe, QAnon, Big Bird Is Commie Scum - Leftovers #7	https://www.youtube.com/watch?v=Gzl1Px4_ndg	
+Leftovers	8	11-21-2021	How To Own Your MAGA Family This Thanksgiving - Leftovers #8	https://www.youtube.com/watch?v=AUNkyV4YAoU	
+Leftovers	9	12-05-2021	Joe Rogan Posted Cringe, Jordan Peterson, Lauren Boebert - Leftovers #9	https://www.youtube.com/watch?v=AG7iuZnNLYE	
+Leftovers	10	12-12-2021	Jordan Peterson REDEMPTION ARC?! - Leftovers #10	https://www.youtube.com/watch?v=X_IAposyoTQ	
+Leftovers	11	12-16-2021	Cracker Extravaganza - Leftovers LIVE #11	https://www.youtube.com/watch?v=Uj2UXQ0jOy4	
+Leftovers	12	05-05-2022	WERE BACK! - Leftovers #12	https://www.youtube.com/watch?v=jqgROSZVLUA	
+Leftovers	13	05-12-2022	The Left Cant Meme & Keemstar Cancels Hasan - Leftovers #13	https://www.youtube.com/watch?v=TIUUr78MS4I	
+Leftovers	14	05-19-2022	xQc Returns To Gamba, Jordan Peterson, Elon Musk - Leftovers #14	https://www.youtube.com/watch?v=spxzJiAnzBI	
+Leftovers	15	05-26-2022	Our Police Have Failed Us - Leftovers #15	https://www.youtube.com/watch?v=sztFyRQ643o	
+Leftovers	16	06-09-2022	Ethan Gets Black Pilled - Leftovers #16	https://www.youtube.com/watch?v=LBCEZEni_5Q	
+Leftovers	17	06-16-2022	Ben Shapiro & The Daily Wire Are Hateful Little Manlets - Leftovers #17	https://www.youtube.com/watch?v=yhuHmFHgdx0	
+Leftovers	18	06-23-2022	The Supreme Court Has Fallen, Jordan Peterson Has Psychotic Break - Leftovers #18	https://www.youtube.com/watch?v=JAHz1LgVi5k	
+Leftovers	19	07-21-2022	Biden Got Covid, Jordan Petersons Obsession, Right Wing Comedy - Leftovers #19	https://www.youtube.com/watch?v=Yb4bqqyH8_Y	
+Leftovers	20	07-28-2022	Andrew Tate & Fresh & Fit Want To Debate Us - Leftovers #20	https://www.youtube.com/watch?v=AXchq9Ge0jE	
+Leftovers	21	08-11-2022	TRUMP GOT RAIDED BY THE FBI!!! - Leftovers #21	https://www.youtube.com/watch?v=880So-Tnf90	
+Leftovers	22	08-18-2022	Steven Crowder Banned From YouTube - Leftovers #22	https://www.youtube.com/watch?v=3dsRmlGI25g	
+Leftovers	23	08-25-2022	Frozen Pizza Taste Test, Joe Biden Forgives Student Debt- Leftovers #23	https://www.youtube.com/watch?v=TgVWYKpkCSA	
+Leftovers	24	09-01-2022	Trump Might Actually Go To Jail For This - Leftovers #24	https://www.youtube.com/watch?v=ygZKfA9iYuo	
+Leftovers	25	09-22-2022	Hasan Got Called Out - Leftovers #25	https://www.youtube.com/watch?v=bm_LAUxPI_U	
+Leftovers	26	09-29-2022	LIVER KING IS HERE! - Leftovers #26	https://www.youtube.com/watch?v=5XtLmCevyRU	
+Leftovers	27	10-06-2022	Elon Musk Forced To Buy Twitter, Herschel Walker Walked Her To The Clinic - Leftovers #27	https://www.youtube.com/watch?v=wwVJoZqn7e0	
+Leftovers	28	10-13-2022	Kanye West Villain Arc, Elon Musk Talks With Putin - Leftovers #28	https://www.youtube.com/watch?v=RO6LOJj_p2g	
+Leftovers	30	11-03-2022	Andrew Callaghan Of Channel 5 - Leftovers #30	https://www.youtube.com/watch?v=aoh2W_WiuN4	
+Leftovers	31	11-10-2022	Conservative Tears & Midterm Elections Results - Leftovers #31	https://www.youtube.com/watch?v=pOO1bTkPIc8	
+Leftovers	32	11-17-2022	Donald Trump Is Running For President 2024!- Leftovers #32	https://www.youtube.com/watch?v=ZeUeDjX4fJk	
+Leftovers	33	12-01-2022	Kanye West, Alex Jones, Tim Pool, Nick Fuentes - Leftovers #33	https://www.youtube.com/watch?v=YuTB_yBfZ1A	
+Leftovers	34	12-08-2022	Hasan Banned From Twitch, Kanye West Still Hatin - Leftovers #34	https://www.youtube.com/watch?v=mZDKKqeA6fI	
+Leftovers	35	12-15-2022	How To Own Your MAGA Family This Christmas - Leftovers #35	https://www.youtube.com/watch?v=-ab1eSlYDuM	
+Leftovers	36	01-19-2023	Andrew Tate Debate With Bradley Martyn Of NELK - Leftovers #36	https://www.youtube.com/watch?v=uVGTNLaAPnU	
+Leftovers	37	01-26-2023	Steven Crowder vs Ben Shapiro, George Santos Is A Weasley Little Liar Dude - Leftovers #37	https://www.youtube.com/watch?v=T_40N3lacuw	
+Leftovers	38	02-02-2023	MrBeast Drama, Ron DeStinky Attacks Trump, Shocking Steven Crowder Revelation - Leftovers #38	https://www.youtube.com/watch?v=oDKnIEgvt3Q	
+Leftovers	39	02-16-2023	Conservative Comedy Is A Hellscape Of Hackery - Leftovers #39	https://www.youtube.com/watch?v=3yTR5DUT0Jg	
+Leftovers	40	03-09-2023	Daily Wire Host Calls For Eradication Of Transgenderism - Leftovers #40	https://www.youtube.com/watch?v=OFqDYq7jtCM	
+Leftovers	41	03-16-2023	Joe Rogan Opens Anti-Woke Comedy Club, Did Jordan Peterson Relapse? - Leftovers #41	https://www.youtube.com/watch?v=PaLM1Teaw80	
+Leftovers	42	03-23-2023	Watching Trumps Arrest LIVE!!! - Leftovers #42	https://www.youtube.com/watch?v=pddvEbES808	
+Leftovers	43	03-30-2023	Trump Rally Is WILD, Professor Richard Wolff Calls In - Leftovers #43	https://www.youtube.com/watch?v=JtkHbfP7yto	
+Leftovers	44	04-06-2023	Donald Trump Arrested, LETS GOOO - Leftovers #44	https://www.youtube.com/watch?v=lgwVwZm-bwE	
+Leftovers	45	04-13-2023	Is Mario Spreading The Woke Mind Virus? The Debate Of The Century - Leftovers #45	https://www.youtube.com/watch?v=wBrO8-PrLEk	
+Leftovers	46	04-20-2023	Matt Walsh Hacked, Ali Alexander Outed, Fox News Folds - Leftovers #46	https://www.youtube.com/watch?v=iT1Ws7DPxP8	
+Leftovers	47	05-04-2023	More allegations against crowder from 10 ex employees - Leftovers #47	https://www.youtube.com/watch?v=pPfacL9shlI	
+Leftovers	48	05-18-2023	Elon Klansman Musk, Rudy Penguin Giuliani, Dianne Crypt Keeper Feinstein - Leftovers #48	https://www.youtube.com/watch?v=OB5DjiRnbt8	
+Leftovers	49	06-01-2023	Target Turned Me Gay & Im Pissed! - Leftovers #49	https://www.youtube.com/watch?v=sDP3QUYkk98	
+Leftovers	50	06-15-2023	See You In Jail, Trump! (And You Too Rudy) - Leftovers #50	https://www.youtube.com/watch?v=GURoXvLOmYA	
+Leftovers	51	07-13-2023	Elon Musk & Tucker Carlson Are Pro Human Trafficking - Leftovers #51	https://www.youtube.com/watch?v=2Gjhu14gPAI	
+Leftovers	52	07-27-2023	Mitch McConnell DIES On Live TV (RIP Bozo) - Leftovers #52	https://www.youtube.com/watch?v=JeUGqefy2TQ	
+Leftovers	53	08-03-2023	Trumps 3rd Indictment - Leftovers #53	https://www.youtube.com/watch?v=PuHpRtKf3Mw	
+Leftovers	54	08-10-2023	Crowder Cant Stop Taking Massive Ls - Leftovers #54	https://www.youtube.com/watch?v=Pi6I56w96nE	
+Leftovers	55	08-17-2023	Crowder Cheated On His Wife? Mike Lindell Spoke To God, Trumps 4th Indictment - Leftovers #55	https://www.youtube.com/watch?v=GLOl3lPkNao	
+Leftovers	56	08-24-2023	Republican Debate & Trump Mugshot - Leftovers #56	https://www.youtube.com/watch?v=SlkAtvVbpeA	
+Leftovers	57	09-14-2023	Joe Biden Is Getting Impeached - Leftovers #57	https://www.youtube.com/watch?v=EeFuFKH-uOo	
+Leftovers	58	09-21-2023	Hasan Is Leaving Leftovers - Leftovers #58	https://www.youtube.com/watch?v=LJWCGazsV9k	
+Leftovers	59	09-28-2023	Trump Org Dissolved, 2nd GOP Debate - Leftovers #59	https://www.youtube.com/watch?v=Xz9-iiw9JXk	
+Leftovers	60	10-05-2023	Bye Bye Kevin McCarthy RIPBOZO #packwatch - Leftovers #60	https://www.youtube.com/watch?v=IiboY2manwc	
+Leftovers	61	10-12-2023	Israel vs Gaza - Leftovers #61	https://www.youtube.com/watch?v=JFznOHunD_c	
+Live	1	06-23-2023	Ethans Birthday Extravaganza LIVE From The Ace Theater!	https://youtu.be/ShNedjrsI_E	
+Live	2	12-17-2023	The Steamies 2023 - Live From the Dolby Theater	https://youtu.be/PkKXPWh6xlE	
+Live	3	06-28-2024	The H3 Show LIVE From The Greek Theater!	https://youtu.be/sBpB7feVjd4	
+Misc	2	06-11-2021	Im so angry	https://youtu.be/CmkFNIjcNFw	
+Misc	3	01-28-2022	Surprise Reunion For 2nd Annual Steamies	https://www.youtube.com/watch?v=daxr0SkHQm0	
+Misc	4	02-10-2022	MoistCritikal Is Destroying YouTube	https://youtu.be/8CcVkyFXHyw	
+Misc	5	05-14-2022	CREATOR CLASH H3 MEMBERS WATCH PARTY`,	https://www.youtube.com/watch?v=bnf3_KCOlwg	
+Misc	6	07-23-2022	FAILING TO WATCH GARY OLDMAN IN THE ROLE OF A LIFETIME - MEMBERS STREAM	https://www.youtube.com/watch?v=k3kEsa0cd5o	
+Misc	7	12-07-2022	We Play Silent Library 2 And Regret It	https://youtu.be/yuFRPrkB5lU	
+Misc	8	01-31-2023	Ethan Klein shows Sean his prolapse video - See You Next Tuesday #13	https://youtu.be/orZXWH6QFVk	
+Misc	9	02-01-2023	The Steamy Awards (Ft. Jeff Wittek & Tana Mongeau)	https://youtu.be/tMg0kf-Q0A8	
+Misc	10	02-06-2023	Ethan finds his new calling as the DPI guy !!! | H3 Members Livestream	https://www.youtube.com/watch?v=f-O3Tv7XWH8	
+Misc	11	05-30-2014	Catalyst Trailer	https://youtu.be/sGhT2CcQF3k	
+Misc	12	01-01-2015	H3 Podcast - We Won The Lawsuit / Skippy and Ryan Jaunzemis	https://www.twitch.tv/videos/169526220?collection=tCXPvh_s1RSQOA&t=02h47m05s	
+Misc	13	01-31-2023	Ethan Klein shows Sean his prolapse video - See You Next Tuesday #13	https://www.youtube.com/watch?v=orZXWH6QFVk	
+Misc	14	05-16-2022	H3 Crew Reacts to AB vs Hundar | Full Fight	https://youtu.be/ymmY3A0MhxI	
+Misc	15	04-16-2023	The H3 crew reacts to DAD vs AB members live (AB rib injury)	https://youtu.be/Dsn4eyLJVi8	
+Misc	16	08-07-2021	Zach's Infamous DooDoo Story - He Found The Pictures	https://youtu.be/WUxdbg-c8oA	
+Misc	17	12-26-2016	Berts Instagram Post (2016)	https://www.instagram.com/p/BOfrMYvBks3/	
+Misc	18	07-24-2021	Tom Hank's Son Threatens Ethan In DMs	https://youtu.be/nby5q0aKXqs	
+Misc	19	10-29-2022	Angering Ghosts At The Most Haunted Place In America - Halloween Special	https://youtu.be/2ddZ71IAjE4	
+Misc	20	06-21-2021	Ethan Klein Debates Steven Crowder (Ft. Sam Seder) - H3 Podcast #248	https://youtu.be/Fvg5RTrFLfI	
+Misc	21	06-17-2022	Frenemies Is Back & Short Lived	https://youtu.be/t29lvnxG0L4	
+OTR	1	05-27-2021	Ethan Destroys The New Office - Off The Rails #1	https://www.youtube.com/watch?v=JHGs0juAZX4	
+OTR	2	06-03-2021	Dream, Keemstar, All Gas No Breaks Interview with Andrew Callaghan - Off The Rails #2	https://www.youtube.com/watch?v=RSirCfZjonY	
+OTR	3	07-01-2021	Trishas Apology & Ace Family Scam - Off The Rails #3	https://www.youtube.com/watch?v=6kNZujESbNI	
+OTR	4	07-08-2021	The Biggest Scam In YouTube History - Off The Rails #4	https://www.youtube.com/watch?v=iBXtS72EGcM	
+OTR	5	07-15-2021	im sorry hila - Off The Rails #5	https://www.youtube.com/watch?v=xamEkP8HLdA	
+OTR	6	07-29-2021	Saying Goodbye To YouTube - Off The Rails #6	https://www.youtube.com/watch?v=sm39YIin0FU	
+OTR	7	08-05-2021	Im Ashamed To Admit This - Off The Rails #7	https://www.youtube.com/watch?v=sNSuS4heiso	
+OTR	8	08-19-2021	Im Done With Trisha Paytas - Off The Rails #8	https://www.youtube.com/watch?v=jFG57UkVvx8	
+OTR	9	08-26-2021	Mr. Verified Contest - Off The Rails #9	https://www.youtube.com/watch?v=btR1WbNWzKc	
+OTR	11	09-09-2021	Finally Releasing The DMs - Off The Rails #11	https://www.youtube.com/watch?v=AFkY41u0LGA	
+OTR	12	09-23-2021	The Hardest Episode Ive Ever Had To Make - Off The Rails #12	https://www.youtube.com/watch?v=14GDTiQ-_pE	
+OTR	13	09-30-2021	We Play Silent Library - Off The Rails #13	https://www.youtube.com/watch?v=r3TZwHQMND8	
+OTR	14	10-07-2021	Kim Kardashian Threatened Me - Off The Rails #14	https://www.youtube.com/watch?v=wtOzt-oLZ3Q	
+OTR	15	10-21-2021	Ethan Guesses Whos High - Off The Rails #15	https://www.youtube.com/watch?v=A2sQZ8G_h3U	
+OTR	16	10-28-2021	We Go Ghost Hunting - Halloween Special - OTR #16	https://youtu.be/xH_z6O6l9SM	
+OTR	17	11-04-2021	We Broke Up - Off The Rails #17	https://www.youtube.com/watch?v=oHU006rCb2c	
+OTR	18	11-11-2021	I Had To Get Emergency Surgery - Off The Rails #18	https://www.youtube.com/watch?v=EkXUAzDP7kk	
+OTR	19	11-18-2021	I Got Hand Enlargement Surgery - Off The Rails #19	https://www.youtube.com/watch?v=hY0x8d3QWDA	
+OTR	20	11-25-2021	YOU LAUGH, YOU LOSE! (Thanksgiving Special) - Off The Rails #20	https://www.youtube.com/watch?v=lD1Z7NYUXjc	
+OTR	21	12-01-2021	Ryan Kavanaugh Just Filed His Third Lawsuit Against Me - Off The Rails #21	https://www.youtube.com/watch?v=QobESzsbh6M	
+OTR	22	12-15-2021	Soundbite Of The Year Tournament 2021 - Off The Rails LIVE #22	https://www.youtube.com/watch?v=tI_5oCeF_g4	
+OTR	23	01-20-2022	How We Scammed Logan Paul - Off The Rails #23	https://www.youtube.com/watch?v=xnCJkzvMEy0	
+OTR	24	02-16-2022	Kanye, MGK Cringe, Jordan Petersons Family Comes For Me - Off The Rails #24	https://www.youtube.com/watch?v=lXyGJVWafH8	
+OTR	25	02-23-2022	Keemstar Cringe, Wendy Williams Show Ends, FouseyTube - Off The Rails #25	https://www.youtube.com/watch?v=Gfy-5-inZWA	
+OTR	26	03-02-2022	Shane Dawson, Jeffree Star, Emma Chamberlain - Off The Rails #26	https://www.youtube.com/watch?v=AoBAiEK2Hug	
+OTR	27	03-09-2022	David Dobrik Blames Jeff Wittek For The Accident - Off The Rails #27	https://www.youtube.com/watch?v=9oj17cM1UPQ	
+OTR	28	03-16-2022	The Podcast Is Ending - Off The Rails #28	https://www.youtube.com/watch?v=3g9YwEd2mRw	
+OTR	29	03-30-2022	David Dobrik Caught In A Crypto Scam - Off The Rails #29	https://www.youtube.com/watch?v=kWqTHAD8C0k	
+OTR	30	04-06-2022	James Charles, Elon Musk, Jared Leto - Off The Rails #30	https://www.youtube.com/watch?v=DUID0Y2VwPw	
+OTR	31	04-13-2022	I Got Cancelled Again AGAIN - Off The Rails #31	https://www.youtube.com/watch?v=Hkf7qPCSvLE	
+OTR	32	04-20-2022	Guess Who Is High Or Drunk 4/20 Special - Off The Rails #32	https://www.youtube.com/watch?v=PUQPGI9fNok	
+OTR	33	04-27-2022	ABs Coach Luckyboy In Studio, Gross Food Challenge, Keemstar & Tim Pool - Off The Rails #33	https://www.youtube.com/watch?v=nnKBeuxk_bg	
+OTR	34	05-04-2022	Chappelle Attacked, Oliver Tree Ripped Off, Joe Rogan Community In Turmoil - Off The Rails #34	https://www.youtube.com/watch?v=MlmBHFH_CEg	
+OTR	35	05-11-2022	Brendan Schaub Responds, Fresh & Fit Guest Calls In To Expose Them - Off The Rails #35	https://www.youtube.com/watch?v=cNiIRTDfch0	
+OTR	36	05-18-2022	Amber Heard v Johnny Depp FINAL VERDICT, Jimmie Lee In Studio - Off The Rails #36	https://www.youtube.com/watch?v=wMQHxxO7ets	
+OTR	37	05-25-2022	Shocked, saddened, angry - Off The Rails #37	https://www.youtube.com/watch?v=DHLaFRO1lNQ	
+OTR	38	06-08-2022	We Finally Landed Our Dream Guest... - Off The Rails #38	https://www.youtube.com/watch?v=Xo3-r7mhb1c	
+OTR	39	06-15-2022	The Crew Is Splitting Up - Off The Rails #39	https://www.youtube.com/watch?v=6TsZE8Cu0-Q	
+OTR	40	06-22-2022	David Dobrik Sued By Jeff Wittek & James Charles Hasnt Changed At All - Off The Rails #40	https://www.youtube.com/watch?v=ue2zpTPkthg	
+OTR	41	07-06-2022	Ethan Got Covid, Jordan Peterson Publicly Humiliated - Off The Rails #41	https://www.youtube.com/watch?v=Hu_V2NwLnYk	
+OTR	42	07-13-2022	Ace Fest Fallout, Jeff Wittek & Mike Majlak Fight For Ethans Love - Off The Rails #42	https://www.youtube.com/watch?v=Hg5SSg4A74g	
+OTR	43	07-20-2022	Smell My Funger Game, James Charles Loses It, MrBeast Protege Gets Cancelled - Off The Rails #43	https://www.youtube.com/watch?v=sJw_z60GrCM	
+OTR	44	07-27-2022	We Got Another Strike - Off The Rails #44	https://www.youtube.com/watch?v=ADeQ9CPU8SA	
+OTR	45	08-10-2022	Love Was Arrested, Alex Jones Loses Big, Kitboga Calls In - Off The Rails #45	https://www.youtube.com/watch?v=pUAWStsw8jY	
+OTR	46	08-17-2022	David Dobrik Lights His Friend On Fire & Ethan Squashes Another Beef - Off The Rails #46	https://www.youtube.com/watch?v=JEJi68zv1EQ	
+OTR	47	08-31-2022	We Won The Lawsuit - Off The Rails #47	https://www.youtube.com/watch?v=mRMb2YKOOrs	
+OTR	48	09-14-2022	Office Drama: We Had To Call HR, Austin McBroom KOd, Durte Dom Called Me Out - Off The Rails #48	https://www.youtube.com/watch?v=bRu6UR5lzeE	
+OTR	49	09-21-2022	Yung Gravy - Off The Rails #49	https://www.youtube.com/watch?v=vroig7CeMuw	
+OTR	50	09-28-2022	The Try Guys Try Infidelity - Off The Rails #50	https://www.youtube.com/watch?v=L65RJqFZrfk	
+OTR	51	10-05-2022	Cheaters Tier List & Dream Face Reveal - Off The Rails #51	https://www.youtube.com/watch?v=NI1UG6QGdr8	
+OTR	52	10-12-2022	NELK Attacked Hila & Were Going To War, TwitchCon Cringe - Off The Rails #52	https://www.youtube.com/watch?v=PyYWRkS7ZmA	
+OTR	53	10-19-2022	Dan Quit The Show - Off The Rails #53	https://www.youtube.com/watch?v=Hj7Tx9D8G-s	
+OTR	54	11-09-2022	Dan Eats The Worlds Hottest Chip, Elon Musk Is Ruining Twitter, Defending Andrew Tate - OTR #54	https://www.youtube.com/watch?v=BraYUdc3YRo	
+OTR	55	11-23-2022	MoistCr1TiKaL, I didnt want to go to war, but... - Off The Rails #55	https://www.youtube.com/watch?v=wLZaQAqSdNI	
+OTR	56	11-30-2022	Reviewing Influencer Products, Liver King Exposed For Juicing - Off The Rails #56	https://www.youtube.com/watch?v=0TyXVP4OYNM	
+OTR	57	01-18-2023	Logan Paul Aint Coming Back From This - Off The Rails #57	https://www.youtube.com/watch?v=txuivldLEzo	
+OTR	58	01-25-2023	We Break 9 Different Guinness World Records & Creator Clash Announced RIP AB - Off The Rails #58	https://www.youtube.com/watch?v=y19qnDm2tDs	
+OTR	59	02-08-2023	I Lost My Lawsuit - Off The Rails #59	https://www.youtube.com/watch?v=wj-SQVepazg	
+OTR	60	02-15-2023	We Play Cursed Beer Pong, Cardi B McDonalds Meal Taste Test - Off The Rails #60	https://www.youtube.com/watch?v=2aC1bqe9oVk	
+OTR	61	02-22-2023	Curing 1,000 People of Their Tourettes - Off The Rails #61	https://www.youtube.com/watch?v=vRkstheL1DE	
+OTR	62	03-01-2023	The Crew Gives Ethan A Makeover - Off The Rails #62	https://www.youtube.com/watch?v=XH6XCtQe4NI	
+OTR	63	03-08-2023	Andrew Tate Says Trans Rights, Nick Cannons Disturbing New Show, Elon Musk - Off The Rails #63	https://www.youtube.com/watch?v=XhxNbAgQf6E	
+OTR	64	03-15-2023	We Snuck Into The Oscars, Cr1tikal vs Sneako, NELK Goes To Israel - Off The Rails #64	https://www.youtube.com/watch?v=Ax2LvM4I3d8	
+OTR	65	03-22-2023	Ethan Debates A TikTok Alpha Male - Off The Rails #65	https://www.youtube.com/watch?v=_7pONVxRvDQ	
+OTR	66	04-05-2023	Olivia Explains Selena Gomez Drama To A Room Full Of Haters - Off The Rails #66	https://www.youtube.com/watch?v=Hqsy1PmeO1o	
+OTR	67	04-12-2023	BBTV Is Paying Us Back - Off The Rails #67	https://www.youtube.com/watch?v=hLMJZkI9Afc	
+OTR	68	04-19-2023	iDubbbz & Anisa Call re Creator Clash, Howie Mandel On Joe Rogan, Coachella Fail- Off The Rails #68	https://www.youtube.com/watch?v=QsIeIEJcS30	
+OTR	69	04-26-2023	Crowders wife left him lol - Off The Rails #69	https://www.youtube.com/watch?v=TzRTvKPOqgI	
+OTR	70	05-03-2023	Ethan Debates Oli London - Off The Rails #70	https://www.youtube.com/watch?v=nH972Ccee0E	
+OTR	71	05-10-2023	The Crew All Switch Jobs - Off The Rails #71	https://www.youtube.com/watch?v=WNCTjh7s0Z0	
+OTR	72	05-17-2023	Making The Most Disgusting Fish In The World Delicious - Off The Rails #72	https://www.youtube.com/watch?v=j_lLeMIwlmE	
+OTR	73	05-24-2023	Aba & Preach Need To Be Addressed - Off The Rails #73	https://www.youtube.com/watch?v=DHAD1hBBGZ0	
+OTR	74	05-31-2023	Zach Got Banned From The Lego Store - Off The Rails #74	https://www.youtube.com/watch?v=0ERGVU8l6Es	
+OTR	75	06-07-2023	Which Office Character Are We? PowerPoint & Debate - Off The Rails #75	https://www.youtube.com/watch?v=9cLhRsNIZn4	
+OTR	76	06-14-2023	Ethan Debates Pearl Davis of JustPearlyThings - Off The Rails #76	https://www.youtube.com/watch?v=euuma5CoFis	
+OTR	77	06-21-2023	Colleen Ballinger PowerPoint - Off The Rails #77	https://www.youtube.com/watch?v=9Kwq6HfbrbU	
+OTR	78	07-12-2023	Colleen Ballinger Published Her Song & Claimed Us (Allegedly) - Off The Rails #78	https://www.youtube.com/watch?v=4P48HKv33zA	
+OTR	79	07-26-2023	Talking to Jonah Hill Accuser Alexa Nikolas - Off The Rails #79	https://www.youtube.com/watch?v=JJ4HuGmgzlo	
+OTR	80	08-02-2023	The Lovato Crime Family Comes For Ethan & True Crime PowerPoint - Off The Rails #80	https://www.youtube.com/watch?v=MDG-CAU6sk8	
+OTR	81	08-09-2023	xQc Fallout, Howie Live Disaster, MrBeast Is Being Sued For $100 Million - Off The Rails #81	https://www.youtube.com/watch?v=-heIMOy6qDs	
+OTR	82	08-16-2023	Trying DIY Tiktok Bathroom Recipes - Off The Rails #82	https://www.youtube.com/watch?v=oj8MPSogvvE	
+OTR	83	08-23-2023	Fresh & Fit Got Banned On YouTube RIP Bozos - Off The Rails #83	https://www.youtube.com/watch?v=Tzjt_KVK58w	
+OTR	84	09-06-2023	8 Passengers Update, EDP Caught Again, Burning Man Disaster - Off The Rails #84	https://www.youtube.com/watch?v=-kXDNhjOtpA	
+OTR	85	09-13-2023	Jojo Siwa Defends Colleen Ballinger - Off The Rails #85	https://www.youtube.com/watch?v=2MsD5d7Nakg	
+OTR	86	09-20-2023	Colleen Cheating Scandal Ft. SWOOP, 8 Passengers Update - Off The Rails #86	https://www.youtube.com/watch?v=OHEugdCtZdk	
+OTR	87	09-27-2023	Korean Food Taste Test, Taylor Swifts New Boyfriend PowerPoint - Off The Rails #87	https://www.youtube.com/watch?v=R8Y-ih8DLlc	
+OTR	88	10-04-2023	Shocking New David Dobrik Allegations, Barstool vs Taylor Swift - Off The Rails #88	https://www.youtube.com/watch?v=2bgjMRQJ6wI	
+OTR	89	10-11-2023	How Well Does Ethan Know The Crew? The Game Show - Off The Rails #89	https://www.youtube.com/watch?v=YmbtrKQIgd8	
+OTR	90	10-18-2023	22 Year Old Man Tries Vegetables For The First Time - Off The Rails #90	https://www.youtube.com/watch?v=vI6gooWrtX8	
+OTR	91	10-25-2023	Dishwasher Vs Filthy Dishes Experiment, Prankster Arrested In Japan - Off The Rails #91	https://www.youtube.com/watch?v=WVwlc6pIBVs	
+OTR	92	11-01-2023	We Do Jade Gambling LIVE, Rich Lux vs Dan, Huge Boba Scandal - Off The Rails #92	https://www.youtube.com/watch?v=HbhH3KAN75I	
+OTR	93	11-08-2023	Boogie2988 Documentary, Jeff Wittek Harassed By Dobrik Fan, Ryan Kavanaugh Failure Podcast - OTR #93	https://www.youtube.com/watch?v=FCzT_C9CJew	
+OTR	94	11-15-2023	Mike Lindell Calls In, New James Charles Accusation, Will Smith Humiliated - Off The Rails #94	https://www.youtube.com/watch?v=R8IClKasNBU	
+OTR	95	11-22-2023	Colleen Ballinger Apology Analysis, Experts Weigh In - Off The Rails #95	https://www.youtube.com/watch?v=slwIBihA6HI	
+OTR	96	11-29-2023	Potato Cooking Competition - Off The Rails #96	https://www.youtube.com/watch?v=Z17qb2ybiuI	
+OTR	97	12-06-2023	Stavros Halkias - Off The Rails #97	https://www.youtube.com/watch?v=QUmPPu8nQlE	
+OTR	98	12-13-2023	The 2023 Soundbite Tournament - Off The Rails #98	https://www.youtube.com/watch?v=vL8FTN9O4ms	
+OTR	99	01-10-2024	Gypsy Rose Comprehensive Deep Dive - Off The Rails #99	https://www.youtube.com/watch?v=GBj19zjrWzQ	
+OTR	100	01-17-2024	Sean Stephens Kidnapped Exclusive Interview, Ace Family Updates - Off The Rails #100	https://www.youtube.com/watch?v=cfZM73q7NOc	
+OTR	101	01-24-2024	Ethan Gets A Low Taper Fade From Jeff Wittek & Bach3lor Announcement - Off The Rails #101	https://www.youtube.com/watch?v=hshRIiyFSu0	
+OTR	102	01-31-2024	Austins RV Broke Down & Hes Sleeping On An Air Mattress - Off The Rails #102	https://www.youtube.com/watch?v=eU2bgjBjUKQ	
+OTR	103	02-07-2024	Jeff Wittek Bach3lor Applications Are OPEN - Off The Rails #103	https://www.youtube.com/watch?v=a2aX3RGRWSg	
+OTR	104	02-14-2024	Jeff Wittek Is Your Bach3lor - Episode #1 - OTR #104	https://www.youtube.com/watch?v=ZPdgcyuob2g	
+OTR	105	02-21-2024	Ethan Debates Jesse Lee Peterson - Off The Rails #105	https://www.youtube.com/watch?v=8ZkY_nHj3vY	
+OTR	106	02-28-2024	The BacH3lor Ep. 2 w/ Jeff Wittek - The First Dates - Off The Rails #106	https://www.youtube.com/watch?v=HOwHh6xs4eE	
+OTR	107	03-06-2024	Adin Ross Testifies Against Andrew Tate - Off The Rails #107	https://www.youtube.com/watch?v=7H2vgnSz0tg	
+OTR	108	03-13-2024	Debating Fresh & Fit - Off The Rails #108	https://www.youtube.com/watch?v=lPl1XTHQsHA	
+OTR	109	03-20-2024	Dan Schneider & Nickelodeon, Ethan Puked In His Uber - Off The Rails #109	https://www.youtube.com/watch?v=VN3bWz5HfBI	
+OTR	110	03-27-2024	Massive Steven Crowder Lawsuit, Diddys Mansions Raided - Off The Rails #110	https://www.youtube.com/watch?v=Oi-YzJ_3x8E	
+OTR	111	04-03-2024	This Beauty TikToker Is Coming After Me - Off The Rails #111	https://www.youtube.com/watch?v=xIl2dEZnvYQ	
+Podcast	4	04-10-2017	H3 Podcast #4 - iDubbbzTV	https://youtu.be/7khgBDQR-WQ	
+Podcast	5	04-10-2017	H3 Podcast #5 - Keemstar	https://youtu.be/8CYAwhTI5vs	
+Podcast	7	05-22-2017	H3 Podcast #7 - Post Malone & Joji	https://youtu.be/l65hR94nfqY	
+Podcast	8	05-29-2017	H3 Podcast #8 - Markiplier & Ian Hecox (Smosh)	https://youtu.be/hrEFpGiETu8	
+Podcast	9	06-05-2017	H3 Podcast #9 - Joey Salads	https://youtu.be/IHL6HazIfQ0	
+Podcast	10	06-13-2017	H3 Podcast #10 - Talking About Jake Paul, Lance Stewart, Jerry Seinfeld (Top Of The Month)	https://youtu.be/Z9U9TJ4W26k	
+Podcast	11	06-18-2017	H3 Podcast #11 - Ethans Parents	https://youtu.be/nEP_YdWei0Y	
+Podcast	12	06-24-2017	H3 Podcast #12 - Steve-O	https://youtu.be/mtDOr9UY-yk	
+Podcast	13	06-27-2017	H3 Podcast #13 - Boogie 2988 (Steven Williams)	https://youtu.be/eX1vs8Zt8Ss	
+Podcast	14	07-02-2017	H3 Podcast #14 - Soflo Antonio	https://youtu.be/7PZSOFsjJRo	
+Podcast	15	07-09-2017	H3 Podcast #15 - CNN Blackmails Redditor & SoFlo repays Joey Salads (Top Of The Month)	https://youtu.be/GSZYeL84t90	
+Podcast	16	07-16-2017	H3 Podcast #16 - Net Neutrality	https://youtu.be/N4k1gEC0800	
+Podcast	17	07-23-2017	H3 Podcast #17 - Jacksfilms & Internet Comment Etiquette	https://youtu.be/W555pdLeI_I	
+Podcast	18	07-30-2017	H3 Podcast #18 - Hugh Mungus	https://youtu.be/qbIPL8ll3sg	
+Podcast	19	08-06-2017	H3 Podcast #19 - Jesse Wellens + Phone Interview w/ Martin Shkreli	https://youtu.be/AYWcC1fcMQw	
+Podcast	20	08-13-2017	H3 Podcast #20 - One Fricked Up Dentist (Jimmie Lee)	https://youtu.be/rq8HL3jVy-M	
+Podcast	21	08-17-2017	H3 Podcast #21 - Was Joey Salads at the Rally? & Elon vs. Zuckerberg (Top Of The Week)	https://youtu.be/MBZC4FxMQ_E	
+Podcast	22	08-19-2017	H3 Podcast #22 - Jake Paul & KTLA Reporter Chris Wolfe	https://youtu.be/q_faWNnWhcw	
+Podcast	23	08-24-2017	H3 Podcast #23 - Ive Lost All Respect For You ... (Top Of The Week)	https://youtu.be/t9Yrlsw6J5c	
+Podcast	24	08-27-2017	H3 Podcast #24 - We Won The Lawsuit! & Skippy Gets Dating Advice From a Pro	https://youtu.be/Ek5crC9HvQY	
+Podcast	25	09-03-2017	H3 Podcast #25 - Jenna Marbles & Julien Solomita	https://youtu.be/4Ol18tycCU8	
+Podcast	26	09-07-2017	H3 Podcast #26 - Justin Roiland & Alex Hirsch Charity Special	https://youtu.be/jnwzb6DkCLM	
+Podcast	27	09-09-2017	H3 Podcast #27 - We Raised $170,000! + Shoenice Hates Us	https://youtu.be/st9FW7BaEV8	
+Podcast	28	09-13-2017	H3 Podcast #28 - PewDiePie Drops the N Bomb (Top Of The Week)	https://youtu.be/_UZbgH3pOBA	
+Podcast	29	09-17-2017	H3 Podcast #29 - Jacksfilms & Erik of Internet Comment Etiquette	https://youtu.be/ey7zaPv00fo	
+Podcast	30	09-23-2017	H3 Podcast #30 - Responding To The Drama + Hila Calls In & More! (Top of the Week)	https://youtu.be/CBBX14zotuI	
+Podcast	31	09-28-2017	H3 Podcast #31 - Streamer finds my parents in Spain, Who is Wendy Williams? Payday 2 DLC	https://youtu.be/HE_NhKiCZpI	
+Podcast	32	09-30-2017	H3 Podcast #32 - Moe & Ethan Bradberry	https://youtu.be/GUdGWhfpuoY	
+Podcast	33	10-04-2017	H3 Podcast #33 - Tai Lopez	https://youtu.be/xdrWU77ugqg	
+Podcast	34	10-11-2017	H3 Podcast #34 - VideoGameDunkey & Leah	https://youtu.be/ph5FR-RFhbg	
+Podcast	35	10-21-2017	H3 Podcast #35 - TotalBiscuit	https://youtu.be/ZhhXku2Pj5E	
+Podcast	36	10-28-2017	H3 Podcast #36 - Dr Disrespect	https://youtu.be/I9hL4zQy0UI	
+Podcast	37	01-21-2022	H3 Podcast #37 - Jordan Peterson (re-upload)	https://youtu.be/0rIFbVxzBo4	
+Podcast	38	11-11-2017	H3 Podcast #38 - Hila Klein	https://youtu.be/cTBnDJ77kr0	
+Podcast	39	11-18-2017	H3 Podcast #39 - Post Malone	https://youtu.be/tr1Loa7r7sY	
+Podcast	40	11-25-2017	H3 Podcast #40 - The Madness of Black Friday & Hiding from Patrice (Top of the Week)	https://youtu.be/0c0878tn4aw	
+Podcast	41	11-30-2017	H3 Podcast #41 - JonTron	https://youtu.be/irVe0wQkMXg	
+Podcast	42	12-09-2017	H3 Podcast #42 - Philip DeFranco	https://youtu.be/ex_sBZXU6iU	
+Podcast	43	12-16-2017	H3 Podcast #43 - Vsauce	https://youtu.be/hS4XXstzocY	
+Podcast	44	12-21-2017	H3 Podcast #44 - PUBG Creator Brendan Greene	https://youtu.be/5pnni35Rmag	
+Podcast	45	12-30-2017	H3 Podcast #45 - Jake & Logan Pauls Predatory Merch Machine	https://youtu.be/hOLCEvGO-SU	
+Podcast	46	01-20-2018	H3 Podcast #46 - Jacksfilms & Erik of Comment Etiquette	https://youtu.be/3wV4TxJ8dA8	
+Podcast	47	01-25-2018	H3 Podcast #47 - MKBHD (Marques Brownlee)	https://youtu.be/fj-KlZIyZ_k	
+Podcast	49	02-10-2018	H3 Podcast #49 - Captain Disillusion	https://youtu.be/S5Q-s-C-q6I	
+Podcast	50	02-14-2018	H3 Podcast #50 - Logan Paul Demonetized & Idiot YouTubers Channel Erased	https://youtu.be/yVeGBT7X-pY	
+Podcast	51	02-16-2018	H3 Podcast #51 - Rhett & Link (Good Mythical Morning)	https://youtu.be/ZxLex9d5Rek	
+Podcast	52	02-24-2018	H3 Podcast #52 - Shane Dawson	https://youtu.be/VXvblzAs6vM	
+Podcast	53	03-03-2018	H3 Podcast #53 - Female Teacher Sleeps w Student & Papa John Fired	https://youtu.be/sUyR_nz-JsA	
+Podcast	54	03-10-2018	H3 Podcast #54 - Vsauce3 (Jake Roper)	https://youtu.be/tgeZfmSeqXk	
+Podcast	55	03-13-2018	H3 Podcast #55 - How To Save a Life (Ft. Philip DeFranco)	https://youtu.be/RUQ-ePEqeTs	
+Podcast	56	03-15-2018	H3 Podcast #56 - Post Malone Live From The Hollywood Improv	https://youtu.be/CU8q0rX0Y-Y	
+Podcast	57	03-17-2018	H3 Podcast #57 - Bob Saget	https://youtu.be/D4JrLoUhHPA	
+Podcast	58	03-25-2018	H3 Podcast #58 - Sean Evans of Hot Ones	https://youtu.be/ecrM2MqNlAM	
+Podcast	59	03-30-2018	H3 Podcast #59 - Deadmau5	https://youtu.be/WEMAvnkHA9U	
+Podcast	60	04-07-2018	H3 Podcast #60 - Bobby Lee	https://youtu.be/gTV5B1lBG_M	
+Podcast	61	04-14-2018	H3 Podcast #61 - Harley Morenstein (Epic Meal Time)	https://youtu.be/pY6NGsmzIUg	
+Podcast	62	04-21-2018	H3 Podcast #62 - Another YouTuber Goes to Prison & Amazon Slavelike Conditions	https://youtu.be/RkKajp0H1Fc	
+Podcast	63	04-23-2018	H3 Podcast #63 - Ninja	https://youtu.be/s12qaVEyW14	
+Podcast	64	05-05-2018	H3 Podcast #64 - Jacksfilms & Erik (& Call-in from Cougar Champ)	https://youtu.be/OcQl2ra57ME	
+Podcast	65	05-18-2018	H3 Podcast #65 - Logan Paul Slammed On Twitter & Ethan Quits Social Media	https://youtu.be/YCYSWUeA8W8	
+Podcast	66	05-25-2018	H3 Podcast #66 - YouTube Is Doomed, 30 Year Old Mall Ninja Evicted & Kendrick Lamar	https://youtu.be/kDI8dD4vReE	
+Podcast	67	06-01-2018	H3 Podcast #67 - Drake vs Pusha T & Skippy vs Kyle	https://youtu.be/Vx85Bx5tpVw	
+Podcast	68	06-08-2018	H3 Podcast #68 - Booty Doctor Sued For Filming During Surgery & William Osman	https://youtu.be/m04abAVI3Vk	
+Podcast	69	06-15-2018	H3 Podcast #69 - Tom Segura	https://youtu.be/O2P5WuxppOA	
+Podcast	70	06-19-2018	H3 Podcast #70 - Boogie2988 (Steven Williams)	https://youtu.be/C00igZTktfc	
+Podcast	71	06-29-2018	H3 Podcast #71 - Chris DElia	https://youtu.be/ecLCI0JhyW4	
+Podcast	72	07-06-2018	H3 Podcast #72 - The TanaCon Con & Logan Paul vs KSI	https://youtu.be/bk3dD0hECOk	
+Podcast	73	07-13-2018	H3 Podcast #73 - Bo Burnham	https://youtu.be/NV7IN4HzvCI	
+Podcast	74	07-20-2018	H3 Podcast #74 - FouseyTube Meltdown & RIP DaddyOFive	https://youtu.be/2MJLPgGbyY0	
+Podcast	75	07-27-2018	H3 Podcast #75 - Logan Paul Humiliated & Roseanne Loses It	https://youtu.be/pKENOdgWWUY	
+Podcast	76	08-03-2018	H3 Podcast #76 - VideoGameDunkey & Leah	https://youtu.be/VQQ1hb8ABzM	
+Podcast	77	08-11-2018	H3 Podcast #77 - Alex Jones Stream Shut Down	https://youtu.be/fA8eOB91-fY	
+Podcast	78	08-17-2018	H3 Podcast #78 - Jacksepticeye	https://youtu.be/ywo26KHMYwQ	
+Podcast	79	08-21-2018	H3 Podcast #79 - Post Malone & Grandma Taken Out	https://youtu.be/mSmhbFr9zO8	
+Podcast	80	08-24-2018	H3 Podcast #80 - Bert Kreischer	https://youtu.be/SrpzwHCsNIA	
+Podcast	81	08-28-2018	H3 Podcast #81 - Logan Paul vs KSI	https://youtu.be/-k4NQJx2b24	
+Podcast	82	08-31-2018	H3 Podcast #82 - Tim Heidecker	https://youtu.be/dpxirs9L8Cw	
+Podcast	83	09-04-2018	H3 Podcast #83 - Meme Royale & PewDiePie vs T-Series	https://youtu.be/HJAIRO53zOs	
+Podcast	84	09-11-2018	H3 Podcast #84 - Bill Burr	https://youtu.be/4NyRkDfORlc	
+Podcast	85	09-21-2018	H3 Podcast #85 - Greg Paul Allegations & Post Malone Cursed	https://youtu.be/1t4h0XWRnC4	
+Podcast	86	09-28-2018	H3 Podcast #86 - Shane Dawson vs Jake Paul & Drake + Millie Bobby Brown	https://youtu.be/ExiLfQ_RyAA	
+Podcast	87	10-05-2018	H3 Podcast #87 - Shane & Logan + Kanye vs The World	https://youtu.be/LqtzYKm9k7I	
+Podcast	88	10-12-2018	H3 Podcast #88 - Is La Croix Poison? BetterHelp & Kanye Meets Trump	https://youtu.be/a2DrjY_YdZI	
+Podcast	89	10-19-2018	H3 Podcast #89 - Enter The Gazebo Zone	https://youtu.be/xGO-1E0LwhA	
+Podcast	90	10-26-2018	H3 Podcast #90 - Celebrity ASMR & Elon Musk Suspended From Twitter	https://youtu.be/El-AR39Wwr8	
+Podcast	91	11-02-2018	H3 Podcast #91 - Media Slams Post Malone & Teacher Sues Over YouTube Comment	https://youtu.be/NRxciudxGOI	
+Podcast	92	11-07-2018	H3 Podcast #92 - Tom Segura and Christina P	https://youtu.be/M6NpaiiHiaQ	
+Podcast	93	11-16-2018	H3 Podcast #93 - Why Does Everyone Hate H3H3?	https://youtu.be/oO95NQb-DcU	
+Podcast	94	11-20-2018	H3 Podcast #94 - No Meme Left Behind	https://youtu.be/EQpmkVZQhqg	
+Podcast	95	11-23-2018	H3 Podcast #95 - Man Wants To Legally Change Age & Black Friday Deals No One Wants	https://youtu.be/MI6nQh7rwYo	
+Podcast	96	11-30-2018	H3 Podcast #96 - bill wurtz	https://youtu.be/e_fMuWm5vVA	
+Podcast	97	12-07-2018	H3 Podcast #97 - Jack Black & Kyle Gass (Tenacious D)	https://youtu.be/oVxQdMh5FEw	
+Podcast	98	12-14-2018	H3 Podcast #98 - Jacksfilms & Erik of Comment Etiquette	https://youtu.be/0oLt5qfxtxQ	
+Podcast	100	12-21-2018	H3 Podcast #100 - The End of an Era	https://youtu.be/s0Wrup6Hxak	
+Podcast	101	01-25-2019	Vsauce (Michael Stevens) - H3 Podcast #101	https://youtu.be/HU1_KTNSj7k	
+Podcast	102	02-01-2019	A Lot Happened While We Were Gone... - H3 Podcast #102	https://youtu.be/B29sPyBo3_I	
+Podcast	103	02-10-2019	Chris DElia - H3 Podcast #103	https://youtu.be/hWauSy4epQM	
+Podcast	104	02-15-2019	Shane Dawson vs Chuck E. Cheese Pizza Lies - H3 Podcast #104	https://youtu.be/utjYy8pabQU	
+Podcast	105	02-21-2019	Logic - H3 Podcast #105	https://youtu.be/FStiNMo4-Jk	
+Podcast	106	03-01-2019	Filthy Frank Hysteria & Adpocalypse 2.0 - H3 Podcast #106	https://youtu.be/-WGeIEK1yY4	
+Podcast	107	03-08-2019	Leaving Neverland & R. Kelly Breakdown - H3 Podcast #107	https://youtu.be/q73TtQLC-W4	
+Podcast	108	03-15-2019	Logan Paul Rips Off Shane Dawson & New Jake Paul Song Is Awful - H3 Podcast #108	https://youtu.be/qejmBpzCXOE	
+Podcast	109	03-20-2019	Theo Von - H3 Podcast #109	https://youtu.be/PafIrG4WJHU	
+Podcast	110	03-29-2019	Surviving Cardi B & Jussie Smollett Explained - H3 Podcast #110	https://youtu.be/X89jKnxlqwU	
+Podcast	111	04-05-2019	MrBeast - H3 Podcast #111	https://youtu.be/t3pI3JLsdpA	
+Podcast	112	04-10-2019	Gus Johnson - H3 Podcast #112	https://youtu.be/T72kZUx18Yo	
+Podcast	113	04-20-2019	Prank Invasion Gets DUNKED On & DJ Khaled Returns - H3 Podcast #113	https://youtu.be/PdRHWOp-aq4	
+Podcast	114	04-26-2019	Endgame Review, KFC Ruins H3 Podcast, Fast Food Power Rankings - H3 Podcast #114	https://youtu.be/DsWSC9Sa3PI	
+Podcast	115	05-03-2019	Boogie2988 - H3 Podcast #115	https://youtu.be/_w6cw_OlUmM	
+Podcast	116	05-10-2019	ProJared & Trisha Paytas - H3 Podcast #116	https://youtu.be/hCeaYuEzbvs	
+Podcast	117	05-17-2019	James Charles & Tati Westbrook - H3 Podcast #117	https://youtu.be/iT-d2t3ptqE	
+Podcast	118	05-24-2019	James Charles ENDS Tati & Jeffree Star - H3 Podcast #118	https://youtu.be/mPxQxw-gZEk	
+Podcast	119	06-01-2019	No Meme Left Behind - H3 Podcast #119	https://youtu.be/J4JJ8RUpRhk	
+Podcast	120	06-07-2019	The Birth Of Our Son Theodore - H3 Podcast #120	https://youtu.be/kP8ho4WL0mU	
+Podcast	121	06-14-2019	Beauty Gurus Caught Selling Poison - H3 Podcast #121	https://youtu.be/D0WcBOTLVPA	
+Podcast	122	06-21-2019	We Must Stop UMG - H3 Podcast #122	https://youtu.be/m5_ye2jGKdk	
+Podcast	123	06-28-2019	Belle Delphine Farts In A Jar And Sends It To Me & JayStation - H3 Podcast #123	https://youtu.be/gzFnlFgrE2E	
+Podcast	124	07-09-2019	Belle Delphine Responds & Free A$AP Rocky - H3 Podcast #124	https://youtu.be/UA34AS9XtbU	
+Podcast	125	07-12-2019	Oliver Tree - H3 Podcast #125	https://youtu.be/LWRqCA1ir9k	
+Podcast	126	07-16-2019	Chris DElia - H3 Podcast #126	https://youtu.be/tWBLVHqEHxM	
+Podcast	127	07-19-2019	Belle Delphine Mailed Us A Shocking Package - H3 Podcast #127	https://youtu.be/WJ2ymkDOjEE	
+Podcast	128	07-23-2019	Ethan ANNIHILATES Manspreading With Facts & Logic - H3 Podcast #128	https://youtu.be/4DK_6yMgUfc	
+Podcast	129	07-26-2019	Twitch Double Standard & Analyzing Belle Delphines Spit - H3 Podcast #129	https://youtu.be/1owweBRXABQ	
+Podcast	130	07-30-2019	Did Lil Nas X Steal Old Town Road? - H3 Podcast #130	https://youtu.be/VgsrRXDlq94	
+Podcast	131	08-02-2019	Ninja Leaves Twitch & TikTok Gives Me Nightmares - H3 Podcast #131	https://youtu.be/AH4m_aTgsFQ	
+Podcast	132	08-07-2019	Andrew Yang - H3 Podcast #132	https://youtu.be/otEbT0l_Hbg	
+Podcast	133	08-09-2019	The Biggest Fail In YouTube History - H3 Podcast #133	https://youtu.be/pKt615DRnV4	
+Podcast	134	08-13-2019	Twitch Backstabs Ninja & Jeffrey Epstein - H3 Podcast #134	https://youtu.be/ZhnYngYCipc	
+Podcast	135	08-16-2019	YouTube Ends Copyright Abuse - H3 Podcast #135	https://youtu.be/lYeKevWNU0g	
+Podcast	136	08-20-2019	PewDiePies Wedding & YouTube Sues Copyright Troll - H3 Podcast #136	https://youtu.be/ulfHGdz6KB8	
+Podcast	137	08-23-2019	Arbys Taste Test Nightmare & Spider-Man Fired From MCU - H3 Podcast #137	https://youtu.be/Fjh5elcj0hA	
+Podcast	138	08-27-2019	PewDiePie Hits 100M & James Charles Gets Hacked - H3 Podcast #138	https://youtu.be/WZQ16RjoFIU	
+Podcast	139	08-30-2019	ProJared Finally Responds & Dave Chappelle Is Cancelled - H3 Podcast #139	https://youtu.be/-03ge_8Uf9Y	
+Podcast	140	09-03-2019	Mick West - H3 Podcast #140	https://youtu.be/9LmxvrxDjvA	
+Podcast	141	09-06-2019	YouTube Demonetizes Every Kids Video - H3 Podcast #141	https://youtu.be/mz-PQIfakGM	
+Podcast	142	09-10-2019	Our $3500 Scooter Has Arrived & Pizza Taste Test Catastrophe - H3 Podcast #142	https://youtu.be/_IS3dVekCXw	
+Podcast	143	09-13-2019	Bill Burr Returns - H3 Podcast #143	https://youtu.be/ljhMGEITegw	
+Podcast	144	09-17-2019	Hila Becomes An American Citizen - H3 Podcast #144	https://youtu.be/rYY8X9Un0CM	
+Podcast	145	09-25-2019	We Actually Went To Area 51 - H3 Podcast #145	https://youtu.be/cX7gNjaveBs	
+Podcast	146	09-27-2019	Casey Neistat - H3 Podcast #146	https://youtu.be/N_79rnT_Etc	
+Podcast	147	10-04-2019	Belle Delphine Arrested By British Authorities & Fousey vs Slim - H3 Podcast #147	https://youtu.be/m11ipFCl8EE	
+Podcast	148	10-08-2019	Bobby Lee & Khalyla - H3 Podcast #148	https://youtu.be/NK-_XJBYv-c	
+Podcast	149	10-12-2019	Belle Delphine Mugshot & Trisha Paytas Is A Mess - H3 Podcast #149	https://youtu.be/IEgddxjVqzA	
+Podcast	150	10-16-2019	Trisha Paytas Insults Hila & We Met Belle Delphine - H3 Podcast #150	https://youtu.be/021de75ZxPs	
+Podcast	151	10-23-2019	Ninja Texting Scam & PewDiePie Banned In China - H3 Podcast #151	https://youtu.be/rrA1Wz5o_Hg	
+Podcast	152	10-26-2019	Trisha Paytas - H3 Podcast #152	https://youtu.be/_Ud00nah_n4	
+Podcast	153	10-30-2019	MrBeast Saves The Planet & Twitch Is Collapsing - H3 Podcast #153	https://youtu.be/fNCRxWmL5qw	
+Podcast	154	11-02-2019	Halloween Extravaganza & Candy Tier List - H3 Podcast #154	https://youtu.be/OwlPtCDGluI	
+Podcast	155	11-06-2019	Belle Delphine Shocks Us & Trisha Paytas Fake Wedding- H3 Podcast #155	https://youtu.be/AkJZcJhh7qQ	
+Podcast	156	11-09-2019	Old People Angry About OK Boomer & FaZe Jarvis - H3 Podcast #156	https://youtu.be/CVMcy9eggdM	
+Podcast	157	11-13-2019	KSI Destroys Logan Paul & Mandalorian Review - H3 Podcast #157	https://youtu.be/1GUgvMRNoTc	
+Podcast	158	11-16-2019	Whitney Cummings - H3 Podcast #158	https://youtu.be/qEscYSTCk68	
+Podcast	159	11-20-2019	Shoenice - H3 Podcast #159	https://youtu.be/EZojNTrG2Xc	
+Podcast	160	11-23-2019	Shoenice Turns On Ethan & Elon Trolls The World - H3 Podcast #160	https://youtu.be/ImNdgJf4tsA	
+Podcast	161	11-27-2019	Papa John Ate 40 Pizzas In 30 Days & Is Going Insane - H3 Podcast #161	https://youtu.be/sjxi7xE8EsU	
+Podcast	162	11-29-2019	Try Not To Laugh Challenge With Dire Consequences - H3 Podcast #162	https://youtu.be/b9hTaV8Y1Ho	
+Podcast	163	12-04-2019	Olivia Jade, PewDiePie & Trisha Paytas - H3 Podcast #163	https://youtu.be/kWGaJlTjGBQ	
+Podcast	164	12-07-2019	Were In YouTube Rewind - H3 Podcast #164	https://youtu.be/q_q99sLLKm8	
+Podcast	166	12-14-2019	YouTube Removes iDubbbz Content Cop - H3 Podcast #166	https://youtu.be/UE-6zvdRapY	
+Podcast	167	12-20-2019	Andrew Yang - H3 Podcast #167	https://youtu.be/2HXVws8ZQRc	
+Podcast	168	01-18-2020	Jack & Erik - H3 Podcast #168	https://youtu.be/rwhVqYVZHqI	
+Podcast	169	01-22-2020	The End Of An Era - H3 Podcast #169	https://youtu.be/DzjVGrSyPP0	
+Podcast	170	01-25-2020	Jaystation Must Be Stopped At All Costs - H3 Podcast #170	https://youtu.be/RtQPOAHFrK0	
+Podcast	171	01-29-2020	Coronavirus Is Worse Than You Think - H3 Podcast #171	https://youtu.be/XbeULz7ekV8	
+Podcast	172	02-05-2020	Sean Evans - H3 Podcast #172	https://youtu.be/MPeas866vs8	
+Podcast	173	02-08-2020	Gus Johnson & Eddy Burback - H3 Podcast #173	https://youtu.be/r0fIsgWs_as	
+Podcast	174	02-10-2020	Papa John - H3 Podcast #174	https://youtu.be/XGtMMYWhdUU	
+Podcast	175	02-15-2020	H3 Podcast Makes The News & Bloomberg Tries To Buy Memes - H3 Podcast #175	https://youtu.be/foGb5VTxyrQ	
+Podcast	176	02-19-2020	Jake Pauls New Scam - H3 Podcast #176	https://youtu.be/X9bdbCGiSJ8	
+Podcast	177	02-22-2020	Trisha Paytas Returns With An Exciting Announcement - H3 Podcast #177	https://youtu.be/QDgsVCz4bV4	
+Podcast	178	02-26-2020	Gigi Hadid Bodyslams Jake Paul - H3 Podcast #178	https://youtu.be/BTDNJe8UiJE	
+Podcast	179	02-28-2020	Ethan Ruins the H3 Podcast - H3 Podcast #179	https://youtu.be/39jND-GYG34	
+Podcast	180	03-07-2020	Big Ed Puts Mayo In Zachs Hair - H3 Podcast #180	https://youtu.be/dn0c1-TaHSQ	
+Podcast	181	03-11-2020	OJ Simpson Blocked Ethan After Getting Burned On Twitter - H3 Podcast #181	https://youtu.be/_fiKPLXYttw	
+Podcast	182	03-14-2020	Trisha Paytas (The BacH3lorette Round 2) - H3 Podcast #182	https://youtu.be/7OYtxY6d4MU	
+Podcast	183	03-19-2020	The Show Must Go On - H3 Podcast #183	https://youtu.be/XHFycLW1ngs	
+Podcast	184	03-28-2020	Trisha Paytas Ruins The H3 Podcast - H3 Podcast #184	https://youtu.be/1M738YCJpfQ	
+Podcast	185	04-03-2020	Is iDubbbz A Simp? - H3 Podcast #185	https://youtu.be/7W2bnrdiJzo	
+Podcast	186	04-10-2020	We Speak With An Epidemiologist About Coronavirus - H3 Podcast #186	https://youtu.be/iyYucZkfIkA	
+Podcast	187	04-25-2020	Im Over Trisha Paytas & Papa John Calls In - H3 Podcast #187	https://youtu.be/s4sPpzSWtEw	
+Podcast	188	05-02-2020	When Thotting Goes Wrong - H3 Podcast #188	https://youtu.be/tVe5E05gCqc	
+Podcast	189	05-09-2020	Big Ed Is Taking HEAT & Adele & PewDiePie - H3 Podcast #189	https://youtu.be/ysfYhhM1c0U	
+Podcast	190	05-16-2020	6ix9ine Released Early, Joji Cancelled, Doja Cat Lies To The World - H3 Podcast #190	https://youtu.be/6BhJNuIN6rM	
+Podcast	191	05-24-2020	Marc Rebillet Live! - H3 Podcast #191	https://youtu.be/gj3fFhs8dAw	
+Podcast	192	05-30-2020	The Death Of H3H3 by Gokanaru - H3 Podcast #192	https://youtu.be/zH7MMY3Nvw8	
+Podcast	193	06-13-2020	Jake Paul Arrested For Looting & The Karen Invasion - H3 Podcast #193	https://youtu.be/MJVM5bWcbgk	
+Podcast	194	06-20-2020	William & Chelsea Osman - H3 Podcast #194	https://youtu.be/Gk6_697FGec	
+Podcast	195	06-27-2020	Eric Andre - H3 Podcast #195	https://youtu.be/H28q3GpraK8	
+Podcast	196	07-04-2020	Shane Dawson, Dr DisRespect, Tati Westbrook, Chris DElia - H3 Podcast #196	https://youtu.be/O57888ccAls	
+Podcast	197	07-11-2020	Keemstar Has No Boundaries - H3 Podcast #197	https://youtu.be/ZPv4j8xntZY	
+Podcast	198	07-18-2020	Oliver Tree - H3 Podcast #198	https://youtu.be/tnCV_5QVp4s	
+Podcast	199	07-22-2020	iDubbbz & Dax Flame - H3 Podcast #199	https://youtu.be/5BuBRV1Mw5A	
+Podcast	200	07-25-2020	Belle Delphine Has A Surprise For Us, Dr. DisRespect Update, Jake Paul Fail - H3 Podcast #200	https://youtu.be/gCt816XqnQ4	
+Podcast	201	07-29-2020	YouTubers Are Knowingly Spreading Covid - H3 Podcast #201	https://youtu.be/wj0-sRbmln4	
+Podcast	202	07-31-2020	All Gas No Brakes (Andrew Callaghan) - H3 Podcast #202	https://youtu.be/lxt6virxkio	
+Podcast	203	08-05-2020	TikTok Ban & Ethan Bodyslams Mike - H3 Podcast #203	https://youtu.be/GSw5YvHhGUg	
+Podcast	204	08-06-2020	Chad Goes Deep (The Party Bros) - H3 Podcast #204	https://youtu.be/WeeOkvkEYUU	
+Podcast	205	09-08-2020	We Open Belle Delphines Mystery Box And... WOW - H3 Podcast #205	https://youtu.be/sVlTKQueUSE	
+Podcast	206	08-12-2020	Ellen DeGeneres, Cardi B, Ben Shapiro, Smash Mouth - H3 Podcast #206	https://youtu.be/IgTdy9DElWU	
+Podcast	207	08-17-2020	Hasan Piker - H3 Podcast #207	https://youtu.be/TpimNx4PJoY	
+Podcast	208	08-20-2020	Logic - H3 Podcast #208	https://youtu.be/eaPzLbMWzgY	
+Podcast	209	08-24-2020	Andrew Yang - H3 Podcast #209	https://youtu.be/VMFUMRv9DaU	
+Podcast	210	08-27-2020	Leafy Banned, Keemstar Is Suing Us, Karen Tier List - H3 Podcast #210	https://youtu.be/OhWlHJ6BSEU	
+Podcast	211	08-31-2020	Cody Ko - H3 Podcast #211	https://youtu.be/WOw64ZqbXIc	
+Podcast	212	09-03-2020	Bella Thorne, Elon Musk, Ian PowerPoint - H3 Podcast #212	https://youtu.be/gtf8Z9RH3O8	
+Podcast	213	09-07-2020	Danny Gonzalez - H3 Podcast #213	https://youtu.be/62WncEO0z4g	
+Podcast	214	09-10-2020	Bobby Lee & Khalyla - H3 Podcast #214	https://youtu.be/c8MLEkjLrPM	
+Podcast	215	09-14-2020	Travis Scott, Old People TikTok, The End Of The Kardashians - H3 Podcast #215	https://youtu.be/H_S7N1J0Fm0	
+Podcast	217	09-21-2020	Steve-O - H3 Podcast #217	https://youtu.be/45JT5drL2wU	
+Podcast	219	09-30-2020	Andrew Santino - H3 Podcast #219	https://youtu.be/6IuS5Wm93Eg	
+Podcast	221	10-05-2020	Tom Segura & Christina P - H3 Podcast #221	https://youtu.be/1B8Ce6pR3sw	
+Podcast	223	10-12-2020	Whitney Cummings - H3 Podcast #223	https://youtu.be/QfPoQGlsNwU	
+Podcast	225	10-29-2020	Belle Delphine - H3 Podcast #225	https://youtu.be/uutn8Lob_ek	
+Podcast	227	12-03-2020	2 GIRLS ONE...MONOLITH?!?! - H3 Podcast #227	https://youtu.be/pvGrqiHky5k	
+Podcast	228	12-07-2020	ContraPoints - H3 Podcast #228	https://youtu.be/kdIPAsPzFRQ	
+Podcast	229	12-17-2020	Someone On The Crew Is A Psychopath & Papa John Calls In - H3 Podcast #229	https://youtu.be/4IyqvZzmH3U	
+Podcast	230	01-06-2021	The American Meltdown - H3 Podcast #230	https://youtu.be/MiJFpEbHRpc	
+Podcast	231	01-16-2021	Does YouTube Have a Predator Problem? - H3 Podcast #231	https://youtu.be/PUMB9LNlEhM	
+Podcast	232	01-20-2021	A Closer Look: Kenneth Copeland - H3 Podcast #232	https://youtu.be/MHYpRIt7o_k	
+Podcast	233	01-27-2021	Corpse Husband, Psycho Twitch Streamers, Joe Rogan Is Tiny Joker - H3 Podcast #233	https://youtu.be/vSkmUdAMm9I	
+Podcast	234	02-04-2021	Logan Paul Ends His Career & CodeMiko Calls In - H3 Podcast #234	https://youtu.be/4LbemPA5lEo	
+Podcast	235	02-11-2021	David Dobrik Debate, FREE BRITNEY, Ben Shapiro Calls In - H3 Podcast #235	https://youtu.be/3tqvNI1HIcI	
+Podcast	236	02-18-2021	We Got Scammed Out of $500K Buying Pokemon Cards - H3 Podcast #236	https://youtu.be/6rXRoIA4EEc	
+Podcast	237	02-25-2021	We Made A High Fashion Runway Collection - H3 Podcast #237	https://youtu.be/C8aNuscqVig	
+Podcast	238	03-04-2021	David Dobriks New App & Wendy Williams Continues To Be The Worst - H3 Podcast #238	https://www.youtube.com/watch?v=6woMi_8VjJw	
+Podcast	238	03-04-2021	David Dobriks New App & Wendy Williams Continues To Be The Worst - H3 Podcast #238	https://youtu.be/6woMi_8VjJw	
+Podcast	239	03-11-2021	Im Selling Vape Nation - H3 Podcast #239	https://www.youtube.com/watch?v=zfWQpaPGW4g	
+Podcast	239	03-11-2021	Im Selling Vape Nation - H3 Podcast #239	https://youtu.be/zfWQpaPGW4g	
+Podcast	240	03-17-2021	Insider Article Could End David Dobriks Career - H3 Podcast #240	https://youtu.be/jrDi9gDSVu4	
+Podcast	241	04-01-2021	Its Time To Stop James Charles - H3 Podcast #241	https://www.youtube.com/watch?v=ABT5w_LNtx8	
+Podcast	241	04-01-2021	Its Time To Stop James Charles - H3 Podcast #241	https://youtu.be/ABT5w_LNtx8	
+Podcast	242	04-08-2021	Were Not Done With James Charles - H3 Podcast #242	https://www.youtube.com/watch?v=PcDqarjl4w0	
+Podcast	242	04-08-2021	Were Not Done With James Charles - H3 Podcast #242	https://youtu.be/PcDqarjl4w0	
+Podcast	243	04-15-2021	Infowars Attacks Ethan - H3 Podcast #243	https://www.youtube.com/watch?v=0Os_vIpQXg4	
+Podcast	243	04-15-2021	Infowars Attacks Ethan - H3 Podcast #243	https://youtu.be/0Os_vIpQXg4	
+Podcast	244	04-22-2021	Jake Paul Fight Was A Disaster - H3 Podcast #244	https://www.youtube.com/watch?v=bfKPts4BJkA	
+Podcast	244	04-22-2021	Jake Paul Fight Was A Disaster - H3 Podcast #244	https://youtu.be/bfKPts4BJkA	
+Podcast	245	04-29-2021	Humanity Is Doomed - H3 Podcast #245	https://www.youtube.com/watch?v=Htq468essmM	
+Podcast	245	04-29-2021	Humanity Is Doomed - H3 Podcast #245	https://youtu.be/Htq468essmM	
+Podcast	246	05-20-2021	The Belle Delphine Mystery & Our New Studio - H3 Podcast #246	https://www.youtube.com/watch?v=f_g3mOv7s5o	
+Podcast	246	05-20-2021	The Belle Delphine Mystery & Our New Studio - H3 Podcast #246	https://youtu.be/f_g3mOv7s5o	
+Podcast	247	06-17-2021	Bella Poarch - H3 Podcast #247	https://youtu.be/2jFIQr_cVz4	
+Podcast	248	01-27-2022	Oliver Tree - H3 Podcast #248	https://youtu.be/ez_bTUjWG5Y	
+Podcast	249	04-08-2022	Brittany Broski - H3 Podcast #249	https://youtu.be/ppyW70czRqU	
+Podcast	250	04-15-2022	iDubbbz & Anisa - H3 Podcast #250	https://youtu.be/68UMkX4Z08c	
+Podcast	251	05-06-2022	Bobby Lee & Khalyla Kuhn - H3 Podcast #251	https://youtu.be/NlPCUpYrMis	
+Podcast	252	06-10-2022	Chelsea Manning - H3 Podcast #252	https://youtu.be/SI9jHA2pDMQ	
+Podcast	253	07-29-2022	Whitney Cummings - H3 Podcast #253	https://youtu.be/4SsTW0Bzj2M	
+Podcast	254	08-04-2022	Jeff Wittek, Tana Mongeau, Mike Majlak - H3 Podcast #254	https://youtu.be/580pXApZj-U	
+Podcast	255	08-05-2022	Did Google Create Sentient AI? Ft Whistleblower Blake Lemoine - H3 Podcast #255	https://youtu.be/xsR4GezN3j8	
+Podcast	256	08-24-2022	Tim Dillon - H3 Podcast #256	https://youtu.be/ZemA9Yi0tQQ	
+Podcast	257	11-02-2022	Kurtis Conner - H3 Podcast #257	https://youtu.be/WwSmgbQR9PA	
+Podcast	258	11-04-2022	Avi Loeb - Aliens, Black Holes & The End of the Universe - H3 Podcast #258	https://youtu.be/gyBnTFJo7PM	
+Podcast	259	11-16-2022	Howie Mandel - H3 Podcast #259	https://youtu.be/LW2r-Ta5vVk	
+Podcast	260	12-02-2022	Bradley Martyn - H3 Podcast #260	https://youtu.be/c-mX7u5UKm8	
+Podcast	261	12-09-2022	Brittany Broski Is BACK! - H3 Podcast #261	https://youtu.be/32_0ehY5QH8	
+Podcast	262	12-14-2022	Stavros Halkias - H3 Podcast #262	https://youtu.be/5J1FoJhOkwg	
+Podcast	263	12-21-2022	We Got Each Other The Worst Holiday Gifts (Live Audience!) - H3 Podcast #263	https://youtu.be/vq8nR2LMrno	
+Podcast	264	01-20-2023	Anthony Fantano - H3 Podcast #264	https://youtu.be/2PqE7QhzyXM	
+Podcast	265	01-30-2023	Rebecca Black - H3 Podcast #265	https://youtu.be/Yz7snltT1ek	
+Podcast	266	02-10-2023	iDubbbz & Anisa, Creator Clash 2 - H3 Podcast #266	https://youtu.be/VNzCkCq2f4E	
+Podcast	267	02-24-2023	Tana Mongeau - H3 Podcast #267	https://youtu.be/TsHmmkK8mQA	
+Podcast	268	03-29-2023	Bryce Hall - H3 Podcast #268	https://youtu.be/VtLBHtdcMm8	
+Podcast	269	04-07-2023	Terri Joe (Psyiconic) - H3 Podcast #269	https://youtu.be/iq9a-cP0T2g	
+Podcast	270	07-19-2023	Fousey Talks Addiction, Manic Episodes, and Overcoming His Dark Past - H3 Podcast #270	https://youtu.be/OAPG4oxtAH8	
+SYNT	11	12-27-2022	See You Next Tuesday #11	https://youtu.be/Yrof_UwWYCI	
+SYNT	31	05-16-2023	See You Next Tuesday #31	https://youtu.be/zOYZ3XMGjUM	
+SYNT	97	02-20-2025	The Jay Shetty & Avocado Episode - SYNT #97	https://youtu.be/vVaHCn3smdE	
+Unknown	1	05-05-2015	Unknown	https://youtu.be/zOYZ3XMGjUM	

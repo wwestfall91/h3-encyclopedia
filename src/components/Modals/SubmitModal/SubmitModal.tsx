@@ -4,6 +4,7 @@ import { useState } from "react";
 
 type Props = {
   toggleShown: (show: boolean) => void;
+  soundbite: boolean
 };
 
 function SubmitModal(props: Props) {
@@ -11,12 +12,24 @@ function SubmitModal(props: Props) {
 
   const sendEmail = async (e: any) => {
     e.preventDefault();
-    emailjs.sendForm(
-      "service_6erwyck",
-      "template_mxje4di",
-      e.target,
-      "2ZvCJk-Hb_M8fC5a8"
-    );
+
+    if(props.soundbite){
+      emailjs.sendForm(
+        "service_6erwyck",
+        "template_mxje4di",
+        e.target,
+        "2ZvCJk-Hb_M8fC5a8"
+      );
+    }
+    else{
+      emailjs.sendForm(
+        "service_6erwyck",
+        "template_50gsfg9",
+        e.target,
+        "2ZvCJk-Hb_M8fC5a8"
+      );
+    }
+
     props.toggleShown(false);
   };
 
@@ -29,32 +42,35 @@ function SubmitModal(props: Props) {
         }}
       >
         <div className="submit-modal-title">
-          REQUEST A SOUNDBITE TO BE ADDED
+          {props.soundbite ? "REQUEST A SOUNDBITE TO BE ADDED" : "REQUEST A PERSON TO BE ADDED OR UPDATED"}
         </div>
         <form className="submit-modal-form" onSubmit={sendEmail}>
           <div className="submit-modal-form-input">
-            <label htmlFor="soundbite">Soundbite Name*</label>
+            <label htmlFor="soundbite">{props.soundbite ? "Soundbite Name*" : "Name*"}</label>
             <input
               name="soundbite"
+              placeholder="Required"
               onChange={(e) => setSoundbiteName(e.target.value)}
             ></input>
           </div>
+          { props.soundbite &&
           <div className="submit-modal-form-input">
             <label htmlFor="soundbite">Who said it?</label>
-            <input name="person"></input>
+            <input name="person" placeholder="Leave blank if unsure"></input>
           </div>
+          }
           <div className="submit-modal-form-input">
-            <label htmlFor="message">Additional Details</label>
+            <label htmlFor="message">{props.soundbite ? "Additional Details" : "Request Details"}</label>
             <textarea
               name="message"
-              placeholder="Anything additional I should know to help me find it?"
+              placeholder="Add any additional information you feel I should know"
             ></textarea>
           </div>
           <div className="submit-modal-form-input">
             <label htmlFor="soundbite">Reddit Username</label>
             <input
               name="user"
-              placeholder="I'll inform you if the soundbite gets added!"
+              placeholder="I'll inform you when it gets added!"
             ></input>
           </div>
           <button

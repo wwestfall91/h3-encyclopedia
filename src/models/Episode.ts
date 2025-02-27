@@ -1,59 +1,60 @@
 import { EpisodeType } from "./enums/EpisodeType";
+import { Moment } from "./Moments/Moment";
 
 export class Episode {
-  title: string;
-  shortTitle: string;
-  URL: string;
-  date: string;
-  types: EpisodeType[];
-  episodeNumber: number;
+  type: EpisodeType
+  number: Number
+  date: string
+  title: string
+  url: string
+  miscTypes:EpisodeType[]
 
   constructor(
-    title: string,
-    URL: string,
+    type: string,
+    number: Number,
     date: string,
-    types: EpisodeType[],
-    episodeNumber: number = Number(title.match(/(?<=#)\d+/g))
+    title: string,
+    url: string,
+    miscTypes: string[]
   ) {
+    this.type = this.convertStringToEpisodeType(type);
+    this.number = number;
+    this.date = date;
     this.title = title;
-    this.URL = URL;
-    this.date =
-      ("0" + (new Date(date).getMonth() + 1)).slice(-2) +
-      "-" +
-      ("0" + new Date(date).getDate()).slice(-2) +
-      "-" +
-      new Date(date).getFullYear();
-    this.types = types;
-    this.episodeNumber = episodeNumber;
+    this.url = url;
+    this.miscTypes = miscTypes.length == 0 ? [] : this.convertStringToEpisodeType(miscTypes[0]);
+  }
 
-    if (types.includes(EpisodeType.H3H3Productions)) {
-      this.shortTitle = "H3H3Productions";
-    } else {
-      this.shortTitle =
-        Number.isNaN(episodeNumber) || episodeNumber == 0
-          ? this.title.includes("JEFF DUNHAM")
-            ? ""
-            : this.title
-          : `${EpisodeType[types[0]]} #${episodeNumber}`;
+  convertStringToEpisodeType(episodeTypeString : string){
+    for (var k in EpisodeType) {
+      if (EpisodeType[k] == episodeTypeString)
+        return (EpisodeType as any)[k]
     }
   }
 
-  getTimestampURL(seconds: number) {
-    if (this.URL.includes("youtu.be")) {
-      return `${this.URL}?t=${seconds}`;
-    }
+  getShortTitle(){
+    return `${this.type} #${this.number}`
+  }
 
-    return `${this.URL}&t=${seconds}s`;
+  getTimestampURL(seconds: number){
+    return `${this.url}&t=${seconds}s`;
   }
 
   getThumbnail(){
-    if (this.URL.includes("youtu.be")) {
-      const id = this.URL.split(".be/")[1];
+    try {
+      if (this.url.includes("youtu.be")) {
+        const id = this.url.split(".be/")[1];
+        return `https://i3.ytimg.com/vi/${id}/hqdefault.jpg`
+      }
+  
+      const id = this.url.split("v=")[1];
       return `https://i3.ytimg.com/vi/${id}/hqdefault.jpg`
+    } catch (error) {
+      return `https://static.wikia.nocookie.net/h3h3/images/a/a5/Ross-AirCleaner2.jpg`
     }
-
-    const id = this.URL.split("v=")[1];
-    return `https://i3.ytimg.com/vi/${id}/hqdefault.jpg`
   }
 
+  getMoments(moments: Moment[]){
+    return moments.filter(m => m.episodeType == this.type && m.episodeNumber == this.number)
+  }
 }

@@ -1,35 +1,54 @@
-import PageHeader from "../PageHeader/PageHeader";
 import ButtonIncidents from "../../assets/images/ButtonIncidents.png";
-import "./ButtonPage.scss";
-import { useEffect, useState } from "react";
-import { getLastButtonDate } from "../../database/LastButtonData";
 import MomentComponent from "../../components/Moments/MomentComponent/MomentComponent";
-import * as ButtonAssets from "../../assets/Buttons/Index/ButtonAssetsIndex";
-import { ButtonMoments } from "../../containers/ButtonMomentsContainer";
+import { Episode } from "../../models/Episode";
+import { useDataContext } from '../../context/DataContext';
+import { Tag } from "../../models/enums/Tag";
+import { useEffect, useState } from "react";
+import { Moment } from "../../models/Moments/Moment";
+import Coffee from "../../components/Coffee";
+import "./ButtonPage.scss";
 
 function ButtonPage() {
-  const [daysSinceLastButton, setDaysSinceLastButton] = useState<number>();
-
-  useEffect(() => {
-    calculateDays();
-  }, []);
+  const [daysSinceLastButton, setDaysSinceLastButton] = useState<number>(-1);
+  const {moments, episodes} = useDataContext();
+  const [buttonMoments, setButtonMoments] = useState<Moment[]>();
 
   const calculateDays = async () => {
-    const lastButtonDateString = await getLastButtonDate();
-    const lastButtonDate = new Date(lastButtonDateString as string);
+    if(buttonMoments == undefined || buttonMoments.length == 0)
+      return;
+
+    const latestButton = buttonMoments![buttonMoments!.length - 1]
+    
+    const latestEpisode = episodes.filter((x : Episode) => x.type == latestButton.episodeType && x.number == latestButton.episodeNumber);
+    const lastButtonDate = new Date(latestEpisode[0].date as string);
+    
     const today = new Date(Date.now());
     let diff = Math.abs(lastButtonDate.getTime() - today.getTime());
     let diffDays = Math.ceil(diff / (1000 * 60 * 60 * 24));
-    setDaysSinceLastButton(diffDays);
+    setDaysSinceLastButton(diffDays - 1);
   };
+
+  useEffect(() => {    
+    if(buttonMoments == undefined || buttonMoments.length == 0){
+      setButtonMoments(moments.filter(x => x.tags?.includes(Tag.Button)).sort((a, b) => {
+        let dateA = new Date(episodes.filter((x : Episode) => x.type == a.episodeType && x.number == a.episodeNumber)[0].date);
+        let dateB = new Date(episodes.filter((x : Episode) => x.type == b.episodeType && x.number == b.episodeNumber)[0].date);
+        return dateA.getTime() - dateB.getTime();
+      }));
+    }
+
+    calculateDays();
+      
+  }, [moments, episodes, buttonMoments])
 
   return (
     <div id="ButtonPage">
-      <PageHeader image={""} class={"header-container purple"} />
+      <Coffee></Coffee>
       <div className="button-page-container">
+        {buttonMoments && daysSinceLastButton != -1 &&
         <div className="days-since-incident-container">
           <a
-            href="https://youtu.be/x2cyP6KJ0Uc?t=10097"
+            href={buttonMoments[buttonMoments.length - 1].url}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -41,52 +60,43 @@ function ButtonPage() {
           </a>
           <div className="button-page-count">{daysSinceLastButton}</div>
         </div>
+        }
 
         <div className="button-stats-subheader">
           <div className="body-header-center">
-            <span>Total Button Hits: 123</span>
+            {buttonMoments &&
+              <span>Total Button Hits: {buttonMoments.length}</span>
+            }
           </div>
-          <div className="body-header-center">
+          {/* <div className="body-header-center">
             <span>Episodes: 70 (of 172) OR 40.69%</span>
-          </div>
+          </div> */}
           <div className="top-moments-container">
+            {moments &&
             <div className="right-subheader">
               <MomentComponent
-                image={ButtonAssets.FirstButton_OTR63}
-                text={"First Button"}
-                url={"https://youtu.be/XhxNbAgQf6E?t=758"}
-                headerText={"OTR #63"}
+                moment={moments.filter(x => x.title == "First Button")[0]}
               ></MomentComponent>
               <MomentComponent
-                image={ButtonAssets.EarliestButton}
-                text={"Earliest Button"}
-                url={"https://www.youtube.com/watch?v=Tzjt_KVK58w&t=1s"}
-                headerText={"OTR #83"}
+                moment={moments.filter(x => x.title == "Earliest Button")[0]}
               ></MomentComponent>
               <MomentComponent
-                image={ButtonAssets.DJKhaled1_H3TV85}
-                text={"Most Buttoned Segment"}
-                url={"https://www.youtube.com/watch?v=ETvW-4y6gMw&t=5929s"}
-                headerText={"H3TV #85"}
+                moment={moments.filter(x => x.title == "Most Buttoned Segment")[0]}
               ></MomentComponent>
             </div>
+            }
           </div>
         </div>
         <div className="body-header">All Button Moments</div>
         <div className="button-page-body">
-          {ButtonMoments.map((moment) => (
+          {moments.filter(x => x.tags?.includes(Tag.Button)).map((moment) => (
             <MomentComponent
-              image={
-                moment.image ? moment.image : moment.episode.getThumbnail()
-              }
-              text={moment.title}
-              url={moment.url}
-              headerText={moment.episode.shortTitle}
+              moment={moment}
             ></MomentComponent>
           ))}
-          <div className="body-header-center">
-            <span>{123 - ButtonMoments.length} More to go - Coming Soon!</span>
-          </div>
+          {/* <div className="body-header-center">
+            <span>Missing any? Let me know! </span>
+          </div> */}
         </div>
       </div>
     </div>

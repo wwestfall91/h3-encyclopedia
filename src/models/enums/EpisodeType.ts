@@ -18,5 +18,5 @@ export enum EpisodeType {
   Misc,
   FanChannel,
   LostEpisode,
-  "H3 Show",
+  H3Show,
 }

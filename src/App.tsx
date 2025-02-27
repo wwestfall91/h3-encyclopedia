@@ -1,25 +1,26 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import "./App.scss";
 import SoundbitesPage from "./Pages/SoundBitesPage/SoundBitesPage";
 import Iceberg from "./Pages/Iceberg/IcebergPage";
-import ComingSoon from "./Pages/ComingSoonPage";
 import CrewPage from "./components/Crew/CrewPage/CrewPage";
 import ButtonPage from "./Pages/ButtonPage/ButtonPage";
+import PeoplePage from "./Pages/PeoplePage/PeoplePage";
+import Homepage from "./Pages/Homepage/Homepage";
+import PageHeader from "./Pages/PageHeader/PageHeader";
 
 function App() {
   return (
-    <>
-      <Router>
-        <div className="soundbite-navigation"></div>
-        <Routes>
-          <Route path="/" Component={SoundbitesPage} />
-          <Route path="/comingSoon" Component={ComingSoon} />
-          <Route path="/iceberg" Component={Iceberg} />
-          <Route path="/crew" Component={CrewPage} />
-          <Route path="/button" Component={ButtonPage} />
-        </Routes>
-      </Router>
-    </>
+    <div id="App">
+      <PageHeader />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/soundbites" element={<SoundbitesPage />} />
+        <Route path="/iceberg" element={<Iceberg />} />
+        <Route path="/crew" element={<CrewPage />} />
+        <Route path="/button" element={<ButtonPage />} />
+        <Route path="/people" element={<PeoplePage />} />
+      </Routes>
+    </div>
   );
 }
 

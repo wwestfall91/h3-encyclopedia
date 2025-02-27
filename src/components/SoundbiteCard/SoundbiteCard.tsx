@@ -1,20 +1,28 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Soundbite } from "../../models/Soundbite";
 import "./SoundbiteCard.css";
-import download_icon from "../../assets/icons/download_icon.png";
+import download_icon from "../../assets/icons/download_icon.png"
+import { useDataContext } from "../../context/DataContext";
+import { Person } from "../../models/Person";
 
 interface Props {
   soundbite: Soundbite;
-  image: string;
+  person?: Person;
 }
 
 function SoundbiteCard(props: Props) {
   const [isPlaying, setIsPlaying] = useState(false);
+  const { people } = useDataContext();
+  const [person, setPerson] = useState<Person>();
 
-  async function PlayAudio(directory: string) {
+  useEffect(() => {
+    setPerson(people.filter(x => x.name == props.soundbite.personName)[0])
+  }, [people.length]);
+
+  async function PlayAudio(fileName: string) {
     if (isPlaying) return;
 
-    let audio = new Audio(directory);
+    let audio = new Audio(`../../../soundbites/${fileName}`);
     audio.load();
 
     setIsPlaying(true);
@@ -29,30 +37,34 @@ function SoundbiteCard(props: Props) {
 
   return (
     <>
-      <div className="card" key={props.soundbite.title}>
-        <div className="soundbite-award"></div>
+    {props.soundbite &&
+      <div className="card" key={props.soundbite.title}>  
+        <div className="person-container">
+          <div className="person-name">
+            {props.soundbite.personName}
+          </div>
+        </div>
         <img
           className={props.soundbite ? "card-image" : "card-image grayscale"}
-          src={props.image}
-          onClick={() => PlayAudio(props.soundbite.sound)}
+          src={props.soundbite.image ? props.soundbite.image : props.person ? props.person.image : person?.image }
+          onClick={() => {PlayAudio(props.soundbite.sound);}}
         />
-
         <div className="soundbite-card-footer">
-          <div className="soundbite-card-title">{props.soundbite.title}</div>
+          <div className="soundbite-card-title">{props.soundbite.title}</div> 
           <div className="soundbite-footer-bottom">
             <a
               className="soundbite-link"
-              href={props.soundbite.episode.getTimestampURL(
-                props.soundbite.time
-              )}
+              href={props.soundbite.timestampurl}
               target="_blank"
               rel="noopener noreferrer"
             >
-              {props.soundbite.episode.shortTitle}
+              {props.soundbite.episodetype && props.soundbite.episodenumber &&
+                `${props.soundbite.episodetype} #${props.soundbite.episodenumber}`
+              }
             </a>
             <a
               className="soundbite-download-button-container"
-              href={props.soundbite.sound}
+              href={`../../../soundbites/${props.soundbite.sound}`}
               download={props.soundbite.title}
               type="audio/wav"
             >
@@ -64,6 +76,7 @@ function SoundbiteCard(props: Props) {
           </div>
         </div>
       </div>
+    }
     </>
   );
 }

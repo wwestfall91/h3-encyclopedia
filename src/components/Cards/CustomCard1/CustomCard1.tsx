@@ -13,7 +13,7 @@ function CustomCard1(props: Props) {
       {props.comingSoon && (
         <div className="coming-soon">
           <div className="coming-soon-text">
-            {props.title == "Nate" ? "Who Is Nate?!" : "Coming Soon"}
+            Coming Soon
           </div>
         </div>
       )}

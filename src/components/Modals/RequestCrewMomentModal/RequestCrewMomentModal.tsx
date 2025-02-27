@@ -4,6 +4,7 @@ import { useState } from "react";
 
 type Props = {
   toggleShown: (show: boolean) => void;
+  crewMember: string;
 };
 
 function RequestCrewMomentModal(props: Props) {
@@ -35,7 +36,10 @@ function RequestCrewMomentModal(props: Props) {
           <div className="submit-modal-form-input">
             <label htmlFor="soundbite">Crew Member*</label>
             <select name="crewMember">
-              <option value="Dan">Dan</option>
+              <option selected={props.crewMember == "Dan"} value="Dan">Dan</option>
+              <option selected={props.crewMember == "Zach"} value="Zach">Zach</option>
+              <option selected={props.crewMember == "Love"} value="Love">Love</option>
+              <option selected={props.crewMember == "Ian"} value="Ian">Ian</option>
             </select>
           </div>
           <div className="submit-modal-form-input">

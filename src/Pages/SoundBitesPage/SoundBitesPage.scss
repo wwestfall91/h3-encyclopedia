@@ -1,12 +1,23 @@
 #SoundbitePage {
-  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex-grow:1;
+  overflow:auto;
+  overflow-x: hidden;
+  background-color: transparent !important;
+  background: rgb(111, 95, 172);
+  
+
+  background: linear-gradient(250deg,
+    rgba(168, 97, 116) 0%,
+    rgba(121,103,185, 1) 20%,
+    rgba(168, 97, 116) 100%,
+    rgba(121,103,185, 1) 150%,
+    rgba(168, 97, 116) 200%
+  );
 
   .soundbite-page-container {
     display: flex;
     flex-direction: column;
-  }
-
-  header {
-    height: 10vh;
   }
 }

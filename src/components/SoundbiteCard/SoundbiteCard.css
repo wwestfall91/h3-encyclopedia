@@ -1,5 +1,6 @@
 .card-container {
   display: flex;
+  background-color: black;
 }
 .soundbite-award {
   display: flex;
@@ -12,16 +13,36 @@
   z-index: 1;
 }
 
+.person-name{
+  display:flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width:fit-content;
+  padding: 2px 20px 2px 20px;
+  font-style: italic;
+  right:0;
+  margin-top:10px;
+  border-radius:5px 0px 0px 5px;
+  background-color: rgba(0, 0, 0, 0.452);
+  color:white;
+  backdrop-filter: blur(0.5vw);
+  z-index: 1;
+}
+
 .card {
   display: flex;
   width: 15rem;
   height: 15rem;
   aspect-ratio: 2 / 3;
   overflow: hidden;
-  -webkit-box-shadow: 19px 19px 12px -10px rgba(0, 0, 0, 0.38);
-  -moz-box-shadow: 19px 19px 12px -10px rgba(0, 0, 0, 0.38);
-  box-shadow: 19px 19px 12px -10px rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: 17px 17px 19px -8px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 17px 17px 19px -8px rgba(0, 0, 0, 0.8);
+  box-shadow: 17px 17px 19px -8px rgba(0, 0, 0, 0.8);
   cursor: pointer;
+  border: unset!important;
+  background-color: unset!important;
+  z-index: 0;
 }
 
 .card-image:hover {
@@ -52,8 +73,8 @@
   position: absolute;
   justify-content: space-between;
   bottom: 0;
-  width: 101%;
-  height: 25%;
+  min-width: 100%;
+  min-height: 25%;
   background-color: rgba(0, 0, 0, 0.452);
   backdrop-filter: blur(0.5vw);
 }
@@ -68,9 +89,12 @@
 }
 
 .soundbite-card-title {
-  color: white;
   display: flex;
-  font-size: 0.9vw;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  align-items:center;
 }
 .soundbite-download-button-container {
   width: 10%;

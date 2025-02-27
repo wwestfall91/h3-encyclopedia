@@ -1,15 +1,11 @@
 export class Person {
-  firstName: string;
-  lastName: string;
-  face: string;
+  name: string;
+  image: string;
+  allegiance: string;
 
-  constructor(
-    firstName: string,
-    lastName: string,
-    face: string = "https://i.pinimg.com/1200x/47/77/ae/4777ae0906dd0113ad0bb00d61125d1b.jpg"
-  ) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.face = face;
+  constructor(name: string, image: string = "https://i.pinimg.com/1200x/47/77/ae/4777ae0906dd0113ad0bb00d61125d1b.jpg", allegiance: string = "Neutral") {
+    this.name = name;
+    this.image = image;
+    this.allegiance = allegiance
   }
 }

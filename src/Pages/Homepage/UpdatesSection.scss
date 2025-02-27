@@ -1,0 +1,89 @@
+.video-overlay{
+  display: flex;
+  position: fixed;
+  width:100vw;
+  height:90vh; 
+  margin-top: -7rem;
+  z-index: 1001;
+}
+.updates-container{
+  display: flex;
+  flex-direction: column;
+  flex-grow:1;
+  overflow: auto;
+  height:10px;
+  padding-left:.5rem;
+}
+
+.update-page-section{
+  display: flex;
+  flex-direction: column;
+  padding-bottom:1rem;
+}
+
+.section-data{
+  display: flex;
+  gap:2rem;
+  padding: 0rem 1rem 2rem 1rem;
+}
+
+.section-text{
+  padding-left: 1rem;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.note-topic{
+  display: flex;
+  width:fit-content;
+  max-width: 5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(255, 255, 116);
+  padding: .25rem;
+  margin-bottom: -2rem;
+  margin-left: 10.5rem;
+  transform: rotate(-5deg);
+  font-size: 12px;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+}
+
+.note-misc{
+  display: flex;
+  width:fit-content;
+  height:2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(255, 255, 116);
+  padding: .25rem;
+  margin-top:-10rem;
+  margin-bottom:7rem;
+  margin-left: 14rem;
+  margin-right:-1rem;
+  transform: rotate(-5deg);
+  font-size: 12px;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+}
+
+.note{
+  display: flex;
+  min-width:5rem;
+  min-height:2.5rem;
+  max-width: 7rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(255, 255, 116);
+  padding: .25rem;
+  margin-top: -2rem;
+  margin-bottom: -2rem;
+  margin-left: 10.5rem;
+  transform: rotate(-5deg);
+  font-size: 12px;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+}

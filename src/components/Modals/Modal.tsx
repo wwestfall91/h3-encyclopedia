@@ -1,3 +1,5 @@
+import { useDataContext } from "../../context/DataContext";
+import { Episode } from "../../models/Episode";
 import { Moment } from "../../models/Moments/Moment";
 import "./modal.css";
 
@@ -10,9 +12,10 @@ export interface Props {
 }
 
 export function Modal(props: Props) {
+  const {episodes} = useDataContext();
+
   return (
     <>
-      {props.isOpen && (
         <div
           className="transparent-background"
           onClick={() => props.openModal(false)}
@@ -38,36 +41,36 @@ export function Modal(props: Props) {
             <div className="new-modal-footer">
               <div className="related-links">Related Links</div>
               <div className="new-modal-links-container">
-                {sortMomentsByDate(props.timeStamps).map((moment) => (
+                {sortMomentsByDate(props.timeStamps, episodes).map((moment) => (
                   <div className="link-container">
                     <div className="related-links-date">
-                      {moment.episode.date}
+                      {episodes.filter((x : Episode) => x.type == moment.episodeType && x.number == moment.episodeNumber)[0].date}
                     </div>
-                    <div> | </div>
-                    <a
-                      href={moment.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <div className="related-links-title">
-                        {moment.episode.title}
-                      </div>
+                    <a href={moment.url} target="_blank" rel="noopener noreferrer" className="related-links-hyperlink">
+                      {moment.title}
                     </a>
+                    <div className="related-links-episode">
+                      {moment.getShortEpisodeTitle()}
+                    </div>                
                   </div>
                 ))}
+                {props.timeStamps.length === 0 &&
+                    <div className="no-timestamps-available">
+                      No episodes available
+                    </div>
+                }
               </div>
             </div>
           </div>
         </div>
-      )}
     </>
   );
 }
 
-function sortMomentsByDate(list: Moment[]) {
-  return list.sort((a, b) => {
-    let dateA = new Date(a.episode.date);
-    let dateB = new Date(b.episode.date);
+function sortMomentsByDate(moments: Moment[], episodes: Episode[]) {
+  return moments.sort((a, b) => {
+    let dateA = new Date(episodes.filter((x : Episode) => x.type == a.episodeType && x.number == a.episodeNumber)[0].date);
+    let dateB = new Date(episodes.filter((x : Episode) => x.type == b.episodeType && x.number == b.episodeNumber)[0].date);
     return dateA.getTime() - dateB.getTime();
   });
 }

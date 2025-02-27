@@ -16,6 +16,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@supabase/supabase-js": "^2.42.7",
+    "@types/react-youtube": "^7.6.2",
     "bootstrap": "^5.3.1",
     "class-transformer": "^0.5.1",
     "flexbox": "^0.0.3",
@@ -24,6 +25,8 @@
     "react-dom": "^18.2.0",
     "react-router": "^6.15.0",
     "react-router-dom": "^6.15.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-youtube": "^10.1.0",
     "reflect-metadata": "^0.1.13",
     "sass": "^1.74.1"
   },

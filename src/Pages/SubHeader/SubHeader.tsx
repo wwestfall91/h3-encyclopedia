@@ -5,6 +5,7 @@ type Props = {
   setSearchTerm: (value: string) => void;
   setShowSubmitModel: (show: boolean) => void;
   setSortBy: (value: sortByType) => void;
+  requestString: string;
 };
 
 function SubHeader(props: Props) {
@@ -19,9 +20,9 @@ function SubHeader(props: Props) {
           }}
         ></input>
         <div className="sort-buttons">
-          <button
+          {/* <button
             className="submit-button"
-            onClick={() => props.setSortBy(sortByType.Person)}
+            onClick={() => {props.setSortBy(sortByType.Person)}}
           >
             Sort By People
           </button>
@@ -36,7 +37,7 @@ function SubHeader(props: Props) {
             onClick={() => props.setSortBy(sortByType.Name)}
           >
             Sort By Name
-          </button>
+          </button> */}
         </div>
       </div>
       <div className="subheader-right">
@@ -44,7 +45,7 @@ function SubHeader(props: Props) {
           className="submit-button"
           onClick={() => props.setShowSubmitModel(true)}
         >
-          Request a Soundbite!
+          {props.requestString}
         </button>
       </div>
     </div>
