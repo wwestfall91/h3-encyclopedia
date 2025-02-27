@@ -1,14 +1,13 @@
 #SubmitModal {
   display: flex;
   position: absolute;
-  justify-content: center;
-  align-items: start;
-  padding-top: 10rem;
-  height: 100vh;
-  left: 0;
-  top: 0;
+  flex-direction: column;
+  align-items: center;
+  width:100vw;
+  height:100vh;
+  z-index:100;
   background-color: rgba(0, 0, 0, 0.6);
-  z-index:2;
+  flex-grow:1;
 
   .submit-modal-container {
     display: flex;
@@ -18,19 +17,33 @@
     background-color: white;
     padding: 1rem 2rem;
     gap: 1.25rem;
+    border-radius: 10px;
   }
 
   .submit-modal-form {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
+    gap:1rem;
+    flex-grow:1;
+    overflow:auto;
   }
 
-  .submit-modal-form-input {
+  .input-container{
     display: flex;
     flex-direction: column;
+  }
+
+  .request-details-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    overflow:auto;
+  }
+
+  .details-input{
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
   }
 
   .submit-modal-title {
@@ -47,8 +60,8 @@
     font-family: monospace;
     color: white;
     background-color: #4294ff;
-    width: 90%;
-    height: 20%;
+    width: 100%;
+    height:4rem;
     align-self: center;
     text-transform: uppercase;
     font-size: 24px;
@@ -56,19 +69,6 @@
     &:disabled {
       background-color: rgb(173, 173, 173);
     }
-  }
-
-  .submit-modal-submit-button {
-    border: 1px black solid;
-    border-radius: 10px;
-    font-weight: 600;
-    font-family: monospace;
-    color: white;
-    width: 90%;
-    height: 20%;
-    align-self: center;
-    text-transform: uppercase;
-    font-size: 24px;
   }
 
   @media all and (min-width: 480px) and (max-width: 1280px) {

@@ -5,11 +5,14 @@ import { useEffect, useState } from "react";
 import YouTube from 'react-youtube';
 import UpdatesSection from "./UpdatesSection";
 import HomepagePersonCard from "./HomepagePersonCard";
+import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
+import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/GeneralFeedbackModal";
 
 function Homepage() {
     const { people } = useDataContext();
     const [player, setPlayer] = useState<any>(null);
     const [updatesSelected, setUpdatesSelected] = useState<boolean>(false);
+    const [showEmailModal, setShowEmailModal] = useState<boolean>(false);
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
@@ -62,7 +65,16 @@ function Homepage() {
                     <button className={!updatesSelected ? "subheader-button" : "subheader-button selected"} onClick={() => setUpdatesSelected(true)}>SITE UPDATES</button>
                 </div>
             }
+
             {!updatesSelected && 
+            <>
+                {!isMobile && 
+                    <div className="submit-button-container">
+                        <button className="submit-button" onClick={() => setShowEmailModal(true)}>
+                            Submit Feedback
+                        </button>
+                    </div>
+                }
                 <div className="page-container">
                     <div className="video-container">
                         <div className="video">
@@ -70,7 +82,8 @@ function Homepage() {
                         </div>
                     </div>
                     <div className="topics-container">
-                        <div className="topics-title">TOPICS FROM H3 SHOW #114</div>
+
+                        <div className="topics-title">TOPICS FROM H3 SHOW #115</div>
                         <div className="topics">
                             <TopicCard image={"https://pbs.twimg.com/media/FV4YwAxXEAIWlSV.jpg"}
                                 headerText={"4 Years Ago"} description={"Ethan has Tiny Hands"} url={"https://youtu.be/3LF3F8Cl-Q4?t=747"} 
@@ -95,12 +108,16 @@ function Homepage() {
                         </div>
                     </div>
                 </div>     
+            </>
             }
             {updatesSelected &&
                 <UpdatesSection />
             }
             
         </div>
+        {showEmailModal && (
+            <SubmitModal toggleShown={setShowEmailModal} soundbite={true} modal={<GeneralFeedbackModal />} />
+        )}
         </>
     );
 }

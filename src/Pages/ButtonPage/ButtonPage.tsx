@@ -76,12 +76,15 @@ function ButtonPage() {
             <div className="right-subheader">
               <MomentComponent
                 moment={moments.filter(x => x.title == "First Button")[0]}
+                showEpisodeTitle={true}
               ></MomentComponent>
               <MomentComponent
                 moment={moments.filter(x => x.title == "Earliest Button")[0]}
+                showEpisodeTitle={true}
               ></MomentComponent>
               <MomentComponent
                 moment={moments.filter(x => x.title == "Most Buttoned Segment")[0]}
+                showEpisodeTitle={true}
               ></MomentComponent>
             </div>
             }
@@ -92,11 +95,9 @@ function ButtonPage() {
           {moments.filter(x => x.tags?.includes(Tag.Button)).map((moment) => (
             <MomentComponent
               moment={moment}
+              showEpisodeTitle={true}
             ></MomentComponent>
           ))}
-          {/* <div className="body-header-center">
-            <span>Missing any? Let me know! </span>
-          </div> */}
         </div>
       </div>
     </div>

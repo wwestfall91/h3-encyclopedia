@@ -10,7 +10,6 @@ function PageHeader() {
   const location = useLocation();
   const [image, setImage] = useState("Images/NewHomepageLogo.png");
   const [colorStyle, setColorStyle] = useState("purple");
-  // const [updatesSelected, setUpdatesSelected] = useState<boolean>(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -89,10 +88,6 @@ function PageHeader() {
           </div>
         </div>
         }
-        {/* <div className="subheader">
-          <button className={updatesSelected ? "subheader-button" : "subheader-button selected"} onClick={() => setUpdatesSelected(false)}>EPISODE DEBRIEF</button>
-          <button className={!updatesSelected ? "subheader-button" : "subheader-button selected"} onClick={() => setUpdatesSelected(true)}>SITE UPDATES</button>
-        </div> */}
       </div>
       <>
         { isOpen &&

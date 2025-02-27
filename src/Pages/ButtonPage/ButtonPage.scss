@@ -2,6 +2,7 @@
   display: flex;
   flex-grow: 1;
   overflow: auto;
+  overflow-x: hidden;
   background: radial-gradient(circle,rgba(224,88,227,1) 0%,rgba(145,59,221,1) 50%,rgba(70,19,97,1) 100%);
 
   .button-page-container {

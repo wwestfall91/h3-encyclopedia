@@ -110,9 +110,12 @@ function UpdatesSection() {
                         <PersonCard person={people.find(x => x.name == "Morgpie")!} />
                         <div className="note">{"New Arrival!"}</div>
                     </div>
+                    <div className="topic">
+                        <PersonCard person={people.find(x => x.name == "Tom Ward")!} />
+                        <div className="note">{"New Arrival!"}</div>
+                    </div>
                 </div>
             </div>
-
         </div>
     );
 }
