@@ -24,7 +24,7 @@ function Homepage() {
         window.addEventListener('resize', handleResize);
 
         return () => window.removeEventListener('resize', handleResize); // Clean up
-    }, []);
+    }, [people.length]);
 
     const onReady = (event : any) => {
         setPlayer(event.target);

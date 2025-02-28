@@ -14,31 +14,65 @@ function SoundbiteCard(props: Props) {
   const [isPlaying, setIsPlaying] = useState(false);
   const { people } = useDataContext();
   const [person, setPerson] = useState<Person>();
+  const [soundbiteAudio, setSoundbiteAudio] = useState<HTMLAudioElement>();
+
+  useEffect(() => {
+
+  }, []);
 
   useEffect(() => {
     setPerson(people.filter(x => x.name == props.soundbite.personName)[0])
   }, [people.length]);
 
-  async function PlayAudio(fileName: string) {
-    if (isPlaying) return;
+  async function PlayAudio() {
+    if(!soundbiteAudio){  // On the first pass, we need to setup a local audio variable. If we remove this, pausing functionality will break.
+      let audio = new Audio(`../../../soundbites/${props.soundbite.sound}`);
+      setSoundbiteAudio(audio)
 
-    let audio = new Audio(`../../../soundbites/${fileName}`);
-    audio.load();
+      audio.load()
 
-    setIsPlaying(true);
+      setIsPlaying(true);
+  
+      if (isPlaying){
+        audio.pause()
+        audio.currentTime=0
+        setIsPlaying(false);
+        return;
+      }
+  
+      audio.addEventListener("ended", function () {
+        audio.currentTime = 0;
+        setIsPlaying(false);
+      });
+  
+      await audio.play();
+    }
 
-    audio.addEventListener("ended", function () {
-      audio.currentTime = 0;
-      setIsPlaying(false);
-    });
+    if(soundbiteAudio){ // For every subsequent click, we want to use our state
+      soundbiteAudio.load()
 
-    await audio.play();
+      setIsPlaying(true);
+  
+      if (isPlaying){
+        soundbiteAudio.pause()
+        soundbiteAudio.currentTime=0
+        setIsPlaying(false);
+        return;
+      }
+  
+      soundbiteAudio.addEventListener("ended", function () {
+        soundbiteAudio.currentTime = 0;
+        setIsPlaying(false);
+      });
+  
+      await soundbiteAudio.play();
+    }
   }
 
   return (
     <>
     {props.soundbite &&
-      <div className="card" key={props.soundbite.title}>  
+      <div className={isPlaying ? "card playing" : "card"} key={props.soundbite.title}>  
         <div className="person-container">
           <div className="person-name">
             {props.soundbite.personName}
@@ -47,7 +81,7 @@ function SoundbiteCard(props: Props) {
         <img
           className={props.soundbite ? "card-image" : "card-image grayscale"}
           src={props.soundbite.image ? props.soundbite.image : props.person ? props.person.image : person?.image }
-          onClick={() => {PlayAudio(props.soundbite.sound);}}
+          onClick={() => {PlayAudio()}}
         />
         <div className="soundbite-card-footer">
           <div className="soundbite-card-title">{props.soundbite.title}</div> 

@@ -60,22 +60,79 @@ function UpdatesSection() {
                 </div>
             </div>
             <div className="update-page-section">
-                <h1>NEW SOUNDBITES</h1>
+                <h1>NEW SOUNDBITES (61)</h1>
                 <div className="section-data">
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "Uhh... BASED!")!} />
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "Oh God...")!} />
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "That's so scary!")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "50 GIFTED SUBS!!!!")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "I didn't think you could break a penis")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "I think so, don't you think so?")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "You're coming off a little special needs")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "I like a pretty penis")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Shaun #1")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Shaun #2")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "You didn't tell me you got some tea today!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "I only take it right on my chest")!} />
+                    
                 </div>
                 <div className="section-data">
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "Anywho I'm gonna go to bed")!} />
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "ANYWHO I'M GONNA GO TO BED NOW")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "You're coming off a little special needs")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "I think so, don't you think so?")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "50 GIFTED SUBS!!!!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "BOOM BOOM BOOM BOOM BOOM!!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Your brother who passed away gets 5 big booms")!} />
                 </div>
-                <h3>The Fart Collection</h3>
+                <div className="section-data">
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "USA USA USA!!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "DAN YOU FUCK!! You coward!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Gay Trilogy")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Laugh #1")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Laugh #2")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Mhm")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "I didn't think you could break a penis")!} />
+                </div>
+                <div className="section-data">
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Shh! Shh! (Kettlebell workout)")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "The Pufferfish, right?")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "There's a clip, go look for the clip!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "I've fallen, and I can't get up!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Cookie Rant")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "It's cool to be a soundbite I suppose")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "I want you to give me rimjob")!} />
+
+                </div>
+                <div className="section-data">
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Shark Tank Stinger #1")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Shark Tank Stinger #2")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "PUSSY!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Hi everyone!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "I TIED UP AN FBI AGENT (Different Languages)")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Hello Twitter World!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "It's the first time for me in the Marvel Universe")!} />
+                </div>
+                <div className="section-data">
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Can you guys BACK UP?!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "I wanna do a soundtrack to your feet!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Money? No Money! NO MONEY!!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "The ideal stocking stuffer")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Safe Moon going to the moon baby!!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Hello Twitter World!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "I TIED UP AN FBI AGENT (Different Languages)")!} />
+                </div>
+                <div className="section-data">
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Here's my thing, I like a pretty penis")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "No!!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "CORONA VIRUS!!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "So no cookies for you?")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Speared to DEATH!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "God Bless America!! (Voice Crack)")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Same Key of E")!} />
+                </div>
+                <div className="section-data">
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "THE N WORD!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Obamna (Obama)")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Mom I'm sorry!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Apple!")!} />
+                </div>
+                <h3>The Fart Collection is here!</h3>
                 <div className="section-data">
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "Fart #1 (Just a fart)")!} />
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "Fart #2 (Dry and Deep)")!} />
@@ -113,6 +170,12 @@ function UpdatesSection() {
                     <div className="topic">
                         <PersonCard person={people.find(x => x.name == "Tom Ward")!} />
                         <div className="note">{"New Arrival!"}</div>
+                    </div>
+                </div>
+                <div className="section-data">
+                    <div className="topic">
+                        <PersonCard person={people.find(x => x.name == "Kenneth Copeland")!} />
+                        <div className="note">{"21 New Moments"}</div>
                     </div>
                 </div>
             </div>

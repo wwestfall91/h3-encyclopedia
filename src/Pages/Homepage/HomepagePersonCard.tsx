@@ -8,7 +8,7 @@ import { MomentAndSoundbites_Modal } from "../../components/Modals/MomentAndSoun
 import "./HomepagePersonCard.scss"
 
 interface Props {
-  person: Person;
+  person: Person | undefined;
   jumpToTime?: () => void;
 }
 
@@ -24,58 +24,63 @@ function HomepagePersonCard(props: Props) {
     }, []);
 
     useEffect(() => {
-      const relatedSoundbites = soundbites.filter(x => x.personName?.toLowerCase() == props.person.name.toLowerCase())
-      const relatedMoments = moments.filter(x => x.people.includes(props.person.name))      
-
-      setRelatedSoundbites(relatedSoundbites);
-      setRelatedMoments(relatedMoments);
+      if(!props.person){
+        return
+      }
+        const relatedSoundbites = soundbites.filter(x => x.personName?.toLowerCase() == props.person!.name.toLowerCase())
+        const relatedMoments = moments.filter(x => x.people.includes(props.person!.name))
+  
+        setRelatedSoundbites(relatedSoundbites);
+        setRelatedMoments(relatedMoments);
     }, [props.person, soundbites.length, moments.length])
-
-
 
     function OpenModal() {
         setModalOpen(true);
     }
 
     return (
-      <div className="card-container">
-        <div id="PersonCard">
-        { (relatedSoundbites.length > 0 || relatedMoments.length > 0) &&
-          <div>
-          {modalOpen && 
-            <MomentAndSoundbites_Modal title={props.person.name} description={""} moments={relatedMoments} soundbites={relatedSoundbites} isOpen={false} openModal={setModalOpen} ></MomentAndSoundbites_Modal>
-          }
-          {props.person &&
-            <div className="card" key={props.person.image}>  
-                <div className="person-container">
-                  <div className="person-name">
-                      {props.person.name}
+      <>
+      {props.person && 
+        <div className="card-container">
+          <div id="PersonCard">
+          { (relatedSoundbites.length > 0 || relatedMoments.length > 0) &&
+            <div>
+            {modalOpen && 
+              <MomentAndSoundbites_Modal title={props.person.name} description={""} moments={relatedMoments} soundbites={relatedSoundbites} isOpen={false} openModal={setModalOpen} ></MomentAndSoundbites_Modal>
+            }
+            {props.person &&
+              <div className="card" key={props.person.image}>  
+                  <div className="person-container">
+                    <div className="person-name">
+                        {props.person.name}
+                    </div>
+                    <div className="moment-counter">
+                      {relatedMoments.length + relatedSoundbites.length}
+                    </div>
+                    <div className={`allegiance-${props.person.allegiance.toLowerCase()}`}>
+                      {props.person.allegiance.includes("Neutral") ? "" : props.person.allegiance}
+                    </div>
                   </div>
-                  <div className="moment-counter">
-                    {relatedMoments.length + relatedSoundbites.length}
-                  </div>
-                  <div className={`allegiance-${props.person.allegiance.toLowerCase()}`}>
-                    {props.person.allegiance.includes("Neutral") ? "" : props.person.allegiance}
-                  </div>
-                </div>
-                <img
-                className="card-image"
-                src={props.person.image }
-                onClick={() => OpenModal()}
-                />
+                  <img
+                  className="card-image"
+                  src={props.person.image }
+                  onClick={() => OpenModal()}
+                  />
+              </div>
+            }
+
             </div>
           }
 
           </div>
-        }
-
+          <>
+              {!isMobile && props.jumpToTime &&
+                <div className="time" onClick={props.jumpToTime}>{"< Jump to Mention"}</div> 
+              }
+          </>
         </div>
-        <>
-            {!isMobile && props.jumpToTime &&
-              <div className="time" onClick={props.jumpToTime}>{"< Jump to Mention"}</div> 
-            }
-        </>
-      </div>
+      }
+      </>
     );
 }
 
