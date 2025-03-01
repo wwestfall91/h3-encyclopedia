@@ -57,6 +57,7 @@ Bryce Hall	https://nationaltoday.com/wp-content/uploads/2022/07/lkjhgfhjkl-5-min
 Bubb Rubb & Lil Sis	https://www.kron4.com/wp-content/uploads/sites/11/2017/02/bubb-rubb_32853264_ver1.0.jpg	Neutral
 C-Man	https://i.ytimg.com/vi/QKMjPrRJSho/maxres2.jpg	Enemy
 Candace Owens	https://m.media-amazon.com/images/M/MV5BMDIwYjY0NDMtZWEzOC00YTE4LTg5Y2YtYjY0NTc4YWQ3YTlkXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_FMjpg_UX1000_.jpg	Neutral
+Cardi B	https://ntvb.tmsimg.com/assets/assets/953916_v9_bd.jpg	Neutral
 Carlos Matos	https://pbs.twimg.com/profile_images/1537474398210383872/RQcHNLyp_400x400.jpg	Neutral
 Casey Neistat	https://i1.sndcdn.com/artworks-000180589655-iv7rau-t500x500.jpg	Friend
 Catherine Paiz-McBroom	https://www.dexerto.com/cdn-image/wp-content/uploads/2021/08/13/CatherineMcBroom.jpg	Neutral
@@ -65,13 +66,14 @@ Charlie Kirk	https://sa1s3optim.patientpop.com/assets/images/provider/photos/231
 Chet Hanks	https://pyxis.nymag.com/v1/imgs/fd6/1b0/0c88bea85de59317b804ad289737883a5d-12-Chet-Hanks.rsquare.w600.png	Enemy
 Chiropractor	https://i.ytimg.com/vi/-EtvQ7_hqF4/hq720.jpg	Neutral
 Chris D'Elia	https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/304253_v9_bb.jpg	Neutral
-Chris Hansen	https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500wf_autoq_auto:best/msnbc/Components/Photos/051107/051107_chris_hanson_vsml_9a.jpg	Neutral
+Chris Hansen	https://static.wikia.nocookie.net/takedown-with-chris-hansen/images/3/32/HansenMeme.jpg	Neutral
 Cody Ko	https://i.ytimg.com/vi/xj08x8GBsXk/hq720.jpg	Enemy
 Cody Padrino	https://www.famousbirthdays.com/faces/padrino-cody-image.jpg	Friend
 CoffeeZilla	https://i.ytimg.com/vi/CzbBi0agLNg/maxresdefault.jpg	Friend
 Colleen Ballinger	https://media.distractify.com/brand-img/KqylDWUeV/0x0/colleen-1688001131096.jpg	Enemy
 Comrade Casey	https://pbs.twimg.com/profile_images/1877584959751274496/aupDQnXo_400x400.jpg	Enemy
 Corpse Husband	https://upload.wikimedia.org/wikipedia/en/a/a2/Corpse_Husband.jpg	Neutral
+Costco Guys	https://www.tubefilter.com/wp-content/uploads/2024/08/costco-guys.jpg	Neutral
 Curly Howard	https://npr.brightspotcdn.com/dims4/default/731bb89/2147483647/strip/true/crop/900x900+0+0/resize/880x880!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwmky%2Ffiles%2F201810%2Fcurly.jpg	Neutral
 Curtis Atwood	https://www.lifeandstylemag.com/wp-content/uploads/2019/05/curtis-atwood.png	Neutral
 Dad	https://static.wikia.nocookie.net/dad-feels/images/e/ef/Unnamed_1_7.jpg	Enemy
@@ -133,11 +135,11 @@ George Janko	https://img.ctykit.com/cdn/az-phoenix/images/tr:w-1800/george-lanko
 Greg Paul	https://www.famousbirthdays.com/headshots/greg-paul-1.jpg	Enemy
 Grimes	https://eastsidevibess.com/wp-content/uploads/2019/06/img_2524.jpg	Neutral
 Hailey Bieber	https://upload.wikimedia.org/wikipedia/commons/8/8f/Hailey_Bieber_for_Vogue_2024_02.jpg	Neutral
+Hailey Welch (Hawk Tuah)	https://www.tennessean.com/gcdn/authoring/authoring-images/2024/07/03/PNAS/74290172007-0-u-9-a-2440.jpg	Neutral
 Hannibal B	https://image.tmdb.org/t/p/w500/mcw3Orbg4vbALXTVG4hriZjH1sj.jpg	Neutral
 Harley Morenstein	https://bleedingcool.com/wp-content/uploads/2020/11/Screen-Shot-2020-11-22-at-12.28.08-AM-1200x628.jpg	Friend
 Harvey Weinstein	https://upload.wikimedia.org/wikipedia/commons/f/f6/Ryan_Kavanaugh2.PNG	Neutral
 Hasan Piker	https://hips.hearstapps.com/hmg-prod/images/cosmo-hasanpiker-211-1518731685.jpg	Enemy
-Hailey Welch (Hawk Tuah)	https://www.tennessean.com/gcdn/authoring/authoring-images/2024/07/03/PNAS/74290172007-0-u-9-a-2440.jpg	Neutral
 Hila	https://fashionista.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk4NTIxNDczMTYwMjU5MDEx/hila-klein-tati-bruening-ceo-editorial.jpg	Friend
 Hillary Clinton	https://cdn.britannica.com/59/84959-050-F3C6D631/Hillary-Rodham-Clinton-2003.jpg	Neutral
 Howie Mandel	https://ntvb.tmsimg.com/assets/assets/1082_v9_bb.jpg?w=270&h=360	Friend
@@ -248,6 +250,7 @@ Nicholas Cage	https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/as
 Nick Fuentes	https://upload.wikimedia.org/wikipedia/commons/9/95/Nick_Fuentes_screencap_from_July_2022_virtual_debate.png	Enemy
 Ninja	https://www.svg.com/img/gallery/streamers-confirm-what-we-all-suspected-about-ninjas-real-life-behavior/intro-1639758649.jpg	Neutral
 Noah Beck	https://deadline.com/wp-content/uploads/2021/08/Noah-Beck-Tries-Things.jpg	Neutral
+OJ Simpson	https://s.abcnews.com/images/US/GTY_OJ_Simpson_MEM_150921.jpg	Enemy
 Oliver Tree	https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Oliver_Tree_%2850118164757%29_%28cropped%29.jpg/1200px-Oliver_Tree_%2850118164757%29_%28cropped%29.jpg	Enemy
 Olivia	https://static.wikia.nocookie.net/h3podcast/images/8/84/Olivia-lopes-5.webp	Friend
 Owen Cook	https://beastpreneur.com/wp-content/uploads/2021/12/Real-Social-Dynamics-Owen-Cook-RSD-Tyler-Durden.jpg	Neutral
@@ -270,6 +273,7 @@ Prince Harry	https://images.hellomagazine.com/horizon/43/5889fe557d16-prince-har
 QTCinderella	https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/03/QTCinderella-Stream.jpeg	Neutral
 Queen of Melrose	https://cdn.cameo.com/thumbnails/660b540039dd7c2d4a5745cf-wm-thumbnail.jpg	Friend
 R Kelly	https://cdn.britannica.com/49/235949-050-CE98A115/R-Kelly-leaves-criminal-courts-building-chicago-june-26-2019.jpg	Neutral
+RFK Jr	https://www.statnews.com/wp-content/uploads/2025/02/GettyImages-2196804795-645x645.jpg	Neutral
 Rhett & Link	https://wp-media.patheos.com/blogs/sites/450/2020/02/Rhett-and-link_narrow.jpg	Friend
 Ricegum	https://nationaltoday.com/wp-content/uploads/2022/10/456840804-min-1200x834.jpg	Neutral
 Rich Lux	https://pbs.twimg.com/media/Fq9dUICXwAI_X_L.jpg	Friend
@@ -307,6 +311,7 @@ SunnyV2	https://yt3.googleusercontent.com/Hp09v_bD_EnSL3Y49DygS0R9-MKsBh1xkrlWtS
 Tana Mongeau	https://i2.wp.com/hollywoodlife.com/wp-content/uploads/2019/06/tana-mongeau-1.jpg	Friend
 Tati Westbrook	https://akns-images.eonline.com/eol_images/Entire_Site/2019421/rs_600x600-190521110753-600-Tati-Westbrook-LT-052119-Youtube.jpg	Neutral
 Ted Cruz	https://static.texastribune.org/media/files/600d28682a2731e6cfa9649926acbc5a/Ted-Cruz.jpg	Neutral
+Terrence Howard	https://static.wikia.nocookie.net/empiretvshow/images/0/02/Terrence-howard.jpg	Neutral
 The Good Doctor	https://static1.srcdn.com/wordpress/wp-content/uploads/2023/05/the-good-doctor-freddie-highmore.jpeg	Neutral
 The LeBrant Family	https://new-cdn.mamamia.com.au/mamamia-pwa.appspot.com/cms_images/variations/1200x800-939632092479.jpg	Neutral
 The Prince Family	https://static.wikia.nocookie.net/youtube/images/6/6e/THE_PRINCE_FAMILY.jpg	Enemy
@@ -336,6 +341,7 @@ Walter Weekes	https://www.famousbirthdays.com/headshots/walter-weekes-9.jpg	Enem
 Wendy Williams	https://pagesix.com/wp-content/uploads/sites/3/2020/01/wendy-williams-2.jpg?quality=75&strip=all&w=1200	Neutral
 Whitney Cummings	https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/487709_v9_bc.jpg	Friend
 Will Smith	https://parade.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cq_auto:good%2Cw_1200/MTkwNTgwODMyOTMzNzE3ODg0/will-smith-net-worth.png	Neutral
+Will.I.Am	https://upload.wikimedia.org/wikipedia/commons/0/0e/Will.i.am_in_2018.jpg	Neutral
 William Knight	https://pbs.twimg.com/profile_images/1584666206337892354/Lu-ITI2y_400x400.jpg	Friend
 William Shatner	https://variety.com/wp-content/uploads/2018/10/william-shatner.jpg	Neutral
 Wings of Redemption	https://static.wikia.nocookie.net/youtube/images/1/1e/Jordie_Jordan_Apperance.jpg	Enemy

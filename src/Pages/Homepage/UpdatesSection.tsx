@@ -19,44 +19,39 @@ function UpdatesSection() {
                 </video>
             }
             <div className="update-page-section">
-                <h1>CREW UPDATES</h1>
-                
+                <h1>PEOPLE UPDATES</h1>
                 <div className="section-data">
                     <div className="topic">
-                        <div className="note-topic">{"New Zach Topic!"}</div>
-                        <MomentComponent moment={moments.find(x => x.title == "CCR Curse Origin")!} 
-                                         image="https://cdn-images.dzcdn.net/images/cover/048eb8abc5c8cdb920d1fb550e5d34f9/1900x1900-000000-80-0-0.jpg" 
-                                         showEpisodeTitle={false} customTitle="The CCR Curse" />
-                        <div className="note-misc">{"< Also, Dan?!"}</div>
+                        <PersonCard person={people.find(x => x.name == "Tana Mongeau")!} />
+                        <div className="note">{"21 New Moments"}</div>
                     </div>
                     <div className="topic">
-                        <div className="note-topic">{"New Zach Moment!"}</div>
-                        <MomentComponent moment={moments.find(x => x.title == "SHUT UP BITCH!")!} 
-                                         image="https://static.wikia.nocookie.net/h3h3/images/b/b0/Trisha_Paytas.png" 
-                                         showEpisodeTitle={false} />
+                        <PersonCard person={people.find(x => x.name == "Blake Lively")!} />
+                        <div className="note">{"1 New Moment"}</div>
+                    </div>
+                    <div className="topic">
+                        <PersonCard person={people.find(x => x.name == "Will Smith")!} />
+                        <div className="note">{"5 New Moments"}</div>
+                    </div>
+                    <div className="topic">
+                        <PersonCard person={people.find(x => x.name == "Jason.Reborn")!} />
+                        <div className="note">{"2 New Moments"}</div>
+                    </div>
+                    <div className="topic">
+                        <PersonCard person={people.find(x => x.name == "Morgpie")!} />
+                        <div className="note">{"New Arrival!"}</div>
+                    </div>
+                    <div className="topic">
+                        <PersonCard person={people.find(x => x.name == "Tom Ward")!} />
+                        <div className="note">{"New Arrival!"}</div>
+                    </div>
+                    <div className="topic">
+                        <PersonCard person={people.find(x => x.name == "Kenneth Copeland")!} />
+                        <div className="note">{"New Arrival!"}</div>
                     </div>
                 </div>
-            </div>
-            <div className="update-page-section">
-                <h1>ICEBERG UPDATES</h1>
                 <div className="section-data">
-                    <div className="topic">
-                        <div className="note-topic">{"Updated Picture"}</div>
-                        <TopicComponent topic={topics.find(x => x.name == "The Hairline King")!}></TopicComponent>
-                    </div>
-                    <div className="topic">
-                        <div className="note-topic">{"Updated Picture"}</div>
-                        <TopicComponent topic={topics.find(x => x.name == "AB Boxing Matches")!}></TopicComponent>
-                    </div>
-                </div>
-            </div>
-            <div className="update-page-section">
-                <h1>NEW BUTTON MOMENTS</h1>
-                <div className="section-data">
-                    <MomentComponent moment={moments.find(x => x.url == "https://youtu.be/bq4Bq0KXlGE&t=8780")!} 
-                        showEpisodeTitle={false} />
-                    <MomentComponent moment={moments.find(x => x.url == "https://youtu.be/bq4Bq0KXlGE&t=10093")!}
-                        showEpisodeTitle={false} />
+  
                 </div>
             </div>
             <div className="update-page-section">
@@ -145,38 +140,44 @@ function UpdatesSection() {
                 </div>
             </div>
             <div className="update-page-section">
-                <h1>PEOPLE UPDATES</h1>
+                <h1>CREW UPDATES</h1>
+                
                 <div className="section-data">
                     <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Tana Mongeau")!} />
-                        <div className="note">{"21 New Moments"}</div>
+                        <div className="note-topic">{"New Zach Topic!"}</div>
+                        <MomentComponent moment={moments.find(x => x.title == "CCR Curse Origin")!} 
+                                         image="https://cdn-images.dzcdn.net/images/cover/048eb8abc5c8cdb920d1fb550e5d34f9/1900x1900-000000-80-0-0.jpg" 
+                                         showEpisodeTitle={false} customTitle="The CCR Curse" />
+                        <div className="note-misc">{"< Also, Dan?!"}</div>
                     </div>
                     <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Blake Lively")!} />
-                        <div className="note">{"1 New Moment"}</div>
-                    </div>
-                    <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Will Smith")!} />
-                        <div className="note">{"5 New Moments"}</div>
-                    </div>
-                    <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Jason.Reborn")!} />
-                        <div className="note">{"2 New Moments"}</div>
-                    </div>
-                    <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Morgpie")!} />
-                        <div className="note">{"New Arrival!"}</div>
-                    </div>
-                    <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Tom Ward")!} />
-                        <div className="note">{"New Arrival!"}</div>
+                        <div className="note-topic">{"New Zach Moment!"}</div>
+                        <MomentComponent moment={moments.find(x => x.title == "SHUT UP BITCH!")!} 
+                                         image="https://static.wikia.nocookie.net/h3h3/images/b/b0/Trisha_Paytas.png" 
+                                         showEpisodeTitle={false} />
                     </div>
                 </div>
+            </div>
+            <div className="update-page-section">
+                <h1>ICEBERG UPDATES</h1>
                 <div className="section-data">
                     <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Kenneth Copeland")!} />
-                        <div className="note">{"21 New Moments"}</div>
+                        <div className="note-topic">{"Updated Picture"}</div>
+                        <TopicComponent topic={topics.find(x => x.name == "The Hairline King")!}></TopicComponent>
                     </div>
+                    <div className="topic">
+                        <div className="note-topic">{"Updated Picture"}</div>
+                        <TopicComponent topic={topics.find(x => x.name == "AB Boxing Matches")!}></TopicComponent>
+                    </div>
+                </div>
+            </div>
+            <div className="update-page-section">
+                <h1>NEW BUTTON MOMENTS</h1>
+                <div className="section-data">
+                    <MomentComponent moment={moments.find(x => x.url == "https://youtu.be/bq4Bq0KXlGE&t=8780")!} 
+                        showEpisodeTitle={false} />
+                    <MomentComponent moment={moments.find(x => x.url == "https://youtu.be/bq4Bq0KXlGE&t=10093")!}
+                        showEpisodeTitle={false} />
                 </div>
             </div>
         </div>
