@@ -1,10 +1,8 @@
-import YouTube from "react-youtube";
 import { useDataContext } from "../../context/DataContext";
 import { Episode } from "../../models/Episode";
 import { Moment } from "../../models/Moments/Moment";
 import { Soundbite } from "../../models/Soundbite";
 import "./modal.scss";
-import { useEffect, useState } from "react";
 
 export interface Props {
   title: string;
@@ -17,82 +15,50 @@ export interface Props {
 
 export function MomentAndSoundbites_Modal(props: Props) {
   const {episodes} = useDataContext();
-  const [player, setPlayer] = useState<any>(null);
-  const [selectedMoment, setSelectedMoment] = useState<Soundbite | Moment>();
-  // const [videoId, setVideoId] = useState<string>();
-
-  useEffect(() => {
-    if(props.moments.length <= 0 || !player)
-      return;
-    
-    setSelectedMoment(props.moments[0]);
-    // setVideoId(props.moments[0].getVideoId());
-    player.loadVideoById(props.moments[0].getVideoId(), props.moments[0].getTime())
-  }, [props.moments.length]);
-
-  useEffect(() => {
-    if(!player || !selectedMoment)
-      return;
-
-    player.loadVideoById(selectedMoment.getVideoId(), selectedMoment.getTime())
-  }, [selectedMoment]);
-
-  const onReady = (event : any) => {
-    setPlayer(event.target);
-  }
-
-  const divStyle = {
-    display:'flex',
-    width:'750px',
-    height:'402px',
-    border: '1px solid black',
-    borderRadius: '5px',
-    margin:'15px',
-    boxShadow: '10px 10px 20px 10px rgba(0, 0, 0, 0.555)'
-  }
-
-  const opts = {
-    width:'750px',
-    height:'400px',
-    borderRadius: '10px',
-    playerVars: {
-      autoplay: 0,
-    },
-  };  
 
   return (
-    <div id="Modal" onClick={() => props.openModal(false)}>
-      <div className="modal-background">
-        <div className="modal-container" onClick={(e) => {e.stopPropagation();}}>
-        <div className="modal-close-button" onClick={() => {props.openModal(false);}}>X</div>
-          <div className="modal-video-container">
-              <YouTube opts={opts} onReady={onReady} style={divStyle}></YouTube>
-          </div>
-          <div className="content-container">
-            <div className="modal-header">
-              <div className="modal-title">{props.title}</div>
+    <>
+        <div
+          className="transparent-background"
+          onClick={() => props.openModal(false)}
+        >
+          <div
+            className="new-modal-container"
+            onClick={(e) => {
+              e.stopPropagation();
+            }}
+          >
+            <div className="new-modal-header">
+              <div className="new-modal-title">{props.title}</div>
+              <div
+                className="new-modal-close-button"
+                onClick={() => {
+                  props.openModal(false);
+                }}
+              >
+                X
+              </div>
             </div>
-            <div className="modal-description">{props.description}</div>
+            <div className="new-modal-content">{props.description}</div>
 
-            <div className="modal-content">
+            <div className="new-modal-footer">
               <div className="related-links">Related Soundbites</div>
-              <div className="modal-links-container">
+              <div className="new-modal-links-container">
                 {sortSoundbitesByDate(props.soundbites).map((soundbite) => (
-                  <>
+                  <div className="link-container">
                     {soundbite.episodetype &&
-                    <div className="link-row">
+                    <>
                       <div className="related-links-date">
                         {episodes.filter((x : Episode) => x.type == soundbite.episodetype && x.number == soundbite.episodenumber)[0].date}
                       </div>
-                      <div className="related-links-hyperlink" onClick={() => setSelectedMoment(soundbite)}>
+                      <a href={soundbite.url} target="_blank" rel="noopener noreferrer" className="related-links-hyperlink">
                         {soundbite.title}
-                      </div>
+                      </a>
                       <div className="related-links-episode">
                         {soundbite.getShortEpisodeTitle()}
                       </div>
-                    </div>
+                    </>
                     }
-
                     {!soundbite.episodetype &&
                     <>
                       <div className="related-links-date">
@@ -106,7 +72,7 @@ export function MomentAndSoundbites_Modal(props: Props) {
                       </div>
                     </>
                     }
-                  </>
+                  </div>
                 ))}
                 {props.soundbites.length === 0 &&
                     <div className="no-timestamps-available">
@@ -115,18 +81,18 @@ export function MomentAndSoundbites_Modal(props: Props) {
                 }
               </div>
             </div>
-
-            <div className="modal-content">
+            
+            <div className="new-modal-footer">
               <div className="related-links">Referenced in Episode</div>
-              <div className="modal-links-container">
+              <div className="new-modal-links-container">
                 {sortMomentsByDate(props.moments, episodes).map((moment) => (
-                  <div className={`link-row ${selectedMoment?.title == moment.title ? "selected" : "" }`}>
+                  <div className="link-container">
                     <div className="related-links-date">
                       {episodes.filter((x : Episode) => x.type == moment.episodeType && x.number == moment.episodeNumber)[0].date}
                     </div>
-                    <div onClick={() => {setSelectedMoment(moment)}} className={`related-links-hyperlink`}>
-                        {moment.title}
-                      </div>
+                    <a href={moment.url} target="_blank" rel="noopener noreferrer" className="related-links-hyperlink">
+                      {moment.title}
+                    </a>
                     <div className="related-links-episode">
                       {moment.getShortEpisodeTitle()}
                     </div>                
@@ -141,8 +107,7 @@ export function MomentAndSoundbites_Modal(props: Props) {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+    </>
   );
 }
 
