@@ -75,70 +75,71 @@ export function MomentAndSoundbites_Modal(props: Props) {
               <div className="modal-title">{props.title}</div>
             </div>
             <div className="modal-description">{props.description}</div>
-
-            <div className="modal-content">
-              <div className="related-links">Related Soundbites</div>
-              <div className="modal-links-container">
-                {sortSoundbitesByDate(props.soundbites).map((soundbite) => (
-                  <>
-                    {soundbite.episodetype &&
-                    <div className="link-row">
-                      <div className="related-links-date">
-                        {episodes.filter((x : Episode) => x.type == soundbite.episodetype && x.number == soundbite.episodenumber)[0].date}
-                      </div>
-                      <div className="related-links-hyperlink" onClick={() => setSelectedMoment(soundbite)}>
-                        {soundbite.title}
-                      </div>
-                      <div className="related-links-episode">
-                        {soundbite.getShortEpisodeTitle()}
-                      </div>
-                    </div>
-                    }
-
-                    {!soundbite.episodetype &&
+            <div className="modal-data">
+              <div className="data-section">
+                <div className="related-links">Related Soundbites</div>
+                <div className="modal-links-container">
+                  {sortSoundbitesByDate(props.soundbites).map((soundbite) => (
                     <>
-                      <div className="related-links-date">
-                        -Unknown-
+                      {soundbite.episodetype &&
+                      <div className={`link-row ${selectedMoment?.title == soundbite.title ? "selected" : "" }`} onClick={() => {setSelectedMoment(soundbite)}}>
+                        <div className="related-links-date">
+                          {episodes.filter((x : Episode) => x.type == soundbite.episodetype && x.number == soundbite.episodenumber)[0].date}
+                        </div>
+                        <div className="related-links-hyperlink">
+                          {soundbite.title}
+                        </div>
+                        <div className="related-links-episode">
+                          {soundbite.getShortEpisodeTitle()}
+                        </div>
                       </div>
-                      <div>
-                        {soundbite.title}
+                      }
+
+                      {!soundbite.episodetype &&
+                      <>
+                        <div className="related-links-date">
+                          -Unknown-
+                        </div>
+                        <div>
+                          {soundbite.title}
+                        </div>
+                        <div className="related-links-episode">
+                          ???
+                        </div>
+                      </>
+                      }
+                    </>
+                  ))}
+                  {props.soundbites.length === 0 &&
+                      <div className="no-timestamps-available">
+                        None available
+                      </div>
+                  }
+                </div>
+              </div>
+
+              <div className="data-section">
+                <div className="related-links">Referenced in Episode</div>
+                <div className="modal-links-container">
+                  {sortMomentsByDate(props.moments, episodes).map((moment) => (
+                    <div className={`link-row ${selectedMoment?.title == moment.title ? "selected" : "" }`} onClick={() => {setSelectedMoment(moment)}}>
+                      <div className="related-links-date">
+                        {episodes.filter((x : Episode) => x.type == moment.episodeType && x.number == moment.episodeNumber)[0].date}
+                      </div>
+                      <div className="related-links-hyperlink">
+                        {moment.title}
                       </div>
                       <div className="related-links-episode">
-                        ???
+                        {moment.getShortEpisodeTitle()}
+                      </div>                
+                    </div>
+                  ))}
+                  {props.moments.length === 0 &&
+                      <div className="no-timestamps-available">
+                        No episodes available
                       </div>
-                    </>
-                    }
-                  </>
-                ))}
-                {props.soundbites.length === 0 &&
-                    <div className="no-timestamps-available">
-                      None available
-                    </div>
-                }
-              </div>
-            </div>
-
-            <div className="modal-content">
-              <div className="related-links">Referenced in Episode</div>
-              <div className="modal-links-container">
-                {sortMomentsByDate(props.moments, episodes).map((moment) => (
-                  <div className={`link-row ${selectedMoment?.title == moment.title ? "selected" : "" }`} onClick={() => {setSelectedMoment(moment)}}>
-                    <div className="related-links-date">
-                      {episodes.filter((x : Episode) => x.type == moment.episodeType && x.number == moment.episodeNumber)[0].date}
-                    </div>
-                    <div className="related-links-hyperlink">
-                      {moment.title}
-                    </div>
-                    <div className="related-links-episode">
-                      {moment.getShortEpisodeTitle()}
-                    </div>                
-                  </div>
-                ))}
-                {props.moments.length === 0 &&
-                    <div className="no-timestamps-available">
-                      No episodes available
-                    </div>
-                }
+                  }
+                </div>
               </div>
             </div>
           </div>

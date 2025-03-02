@@ -42,7 +42,6 @@ export function IcebergPage() {
   return (
     <>      
       <Coffee></Coffee>
-      {/* <PageHeader image={HeaderImage} class={"header-container blue"} /> */}
 
       {modalOpen && 
         <Modal title={modalTitle} description={modalDescription} timeStamps={modalTimestamps} isOpen={false} openModal={setModalOpen} ></Modal>

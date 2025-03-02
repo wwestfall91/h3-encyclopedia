@@ -5,7 +5,7 @@
   background-color: rgba(0, 0, 0, 0.6);
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   top:0;
   left:0;
   z-index: 1000;
@@ -55,6 +55,15 @@
     flex-direction: column;
     width:50%;
     gap: .5rem;
+  }
+
+  .modal-data{
+    display: flex;
+    flex-direction: column;
+    overflow:auto;
+    gap:1rem;
+    padding:0 1rem 1rem .5rem;
+    height:85%;
   }
   
   .modal-title {
