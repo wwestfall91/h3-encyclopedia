@@ -1,5 +1,8 @@
+import { useState } from "react";
+import { MomentsModal } from "../../components/Modals/Modal";
 import { Topic } from "../../models/Topic";
 import "./TopicComponent.scss";
+import { useDataContext } from "../../context/DataContext";
 
 type Props = {
   topic:Topic;
@@ -7,9 +10,18 @@ type Props = {
 };
 
 function TopicComponent(props: Props) {
+  const [modalOpen, setModalOpen] = useState(false);
+  const { moments } = useDataContext();
+  function OpenModal() {
+    setModalOpen(true);
+  }
+
   return (
     <>
-      <div id="TopicComponent">
+      {modalOpen && 
+        <MomentsModal title={props.topic.name} description={props.topic.description} timeStamps={props.topic.getMoments(moments)!} isOpen={false} openModal={setModalOpen} ></MomentsModal>
+      }
+      <div id="TopicComponent" onClick={() => OpenModal()}>
           <div className="topic-container">
             <div className="topic-image-container">
               <img className="topic-image" src={props.image ? props.image : props.topic.image}></img>

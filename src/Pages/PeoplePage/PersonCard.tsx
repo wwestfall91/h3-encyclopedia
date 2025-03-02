@@ -57,11 +57,7 @@ function PersonCard(props: Props) {
                         {props.person.allegiance.includes("Neutral") ? "" : props.person.allegiance}
                       </div>
                     </div>
-                    <img
-                    className="card-image"
-                    src={props.person.image }
-                    onClick={() => OpenModal()}
-                    />
+                    <img className="card-image" src={props.person.image } onClick={() => OpenModal()}/>
                 </div>
               }
 
