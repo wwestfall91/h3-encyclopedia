@@ -19,14 +19,16 @@ export function MomentAndSoundbites_Modal(props: Props) {
   const {episodes} = useDataContext();
   const [player, setPlayer] = useState<any>(null);
   const [selectedMoment, setSelectedMoment] = useState<Soundbite | Moment>();
-  // const [videoId, setVideoId] = useState<string>();
+
+  useEffect(() => {
+    setPlayer(null)
+  }, []);
 
   useEffect(() => {
     if(props.moments.length <= 0 || !player)
       return;
     
     setSelectedMoment(props.moments[0]);
-    // setVideoId(props.moments[0].getVideoId());
     player.loadVideoById(props.moments[0].getVideoId(), props.moments[0].getTime())
   }, [props.moments.length]);
 
@@ -120,13 +122,13 @@ export function MomentAndSoundbites_Modal(props: Props) {
               <div className="related-links">Referenced in Episode</div>
               <div className="modal-links-container">
                 {sortMomentsByDate(props.moments, episodes).map((moment) => (
-                  <div className={`link-row ${selectedMoment?.title == moment.title ? "selected" : "" }`}>
+                  <div className={`link-row ${selectedMoment?.title == moment.title ? "selected" : "" }`} onClick={() => {setSelectedMoment(moment)}}>
                     <div className="related-links-date">
                       {episodes.filter((x : Episode) => x.type == moment.episodeType && x.number == moment.episodeNumber)[0].date}
                     </div>
-                    <div onClick={() => {setSelectedMoment(moment)}} className={`related-links-hyperlink`}>
-                        {moment.title}
-                      </div>
+                    <div className="related-links-hyperlink">
+                      {moment.title}
+                    </div>
                     <div className="related-links-episode">
                       {moment.getShortEpisodeTitle()}
                     </div>                
