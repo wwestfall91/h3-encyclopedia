@@ -78,7 +78,7 @@ function Homepage() {
                 <div className="page-container">
                     <div className="video-container">
                         <div className="video">
-                            <YouTube videoId="VQiExvFz8h8" opts={opts} onReady={onReady} style={divStyle}></YouTube>
+                            <YouTube videoId="VQiExvFz8h8" opts={opts} onReady={onReady} style={divStyle} />
                         </div>
                     </div>
                     <div className="topics-container">
@@ -89,7 +89,7 @@ function Homepage() {
                                 headerText={"2 Years Ago"} description={"Beans on Toast"} url={"https://youtu.be/Q_GoixIfwoY?t=2782"} 
                                 jumpToTime={() => jumpToTime(186)} />
                             <TopicCard image={"https://upload.wikimedia.org/wikipedia/en/8/83/Hamilton-poster.jpg"}
-                                headerText={"2 Years Ago"} description={"Dan Loves Hamilton"} url={"https://youtu.be/9JPShI_iglU?t=1292"} 
+                                headerText={"5 Months Ago"} description={"Dan Loves Hamilton"} url={"https://youtu.be/9JPShI_iglU?t=1292"} 
                                 jumpToTime={() => jumpToTime(430)} />
                             <TopicCard image={"https://www.boredpanda.com/blog/wp-content/uploads/2023/04/eel-pit-guy-tiktok-642bdaba93071__700.jpg"}
                                 headerText={"7 Months Ago"} description={"The Eel Pit"} url={"https://www.youtube.com/watch?v=vI6gooWrtX8&t=12323s"} 
