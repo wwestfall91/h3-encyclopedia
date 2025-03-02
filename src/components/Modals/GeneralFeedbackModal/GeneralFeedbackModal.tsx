@@ -28,9 +28,10 @@ function GeneralFeedbackModal(props:Props) {
                     <div className="input-selection">
                         <label>Type of Feedback</label>
                         <select name="type">
-                            <option>New Feature Idea</option>
-                            <option>Missing Content</option>
-                            <option>Other</option>
+                            <option value="New Feature">New Feature Idea</option>
+                            <option value="Missing Content">Missing Content</option>
+                            <option value="Bug">Bug</option>
+                            <option value="Other">Other</option>
                         </select>
                     </div>
                     <textarea className="feedback-area" name="feedback" placeholder="What is your feedback?" onChange={(e) => setFeedback(e.target.value)}/>
