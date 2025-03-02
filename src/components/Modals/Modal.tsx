@@ -1,7 +1,7 @@
 import { useDataContext } from "../../context/DataContext";
 import { Episode } from "../../models/Episode";
 import { Moment } from "../../models/Moments/Moment";
-import "./modal.css";
+import "./modal.scss";
 
 export interface Props {
   title: string;

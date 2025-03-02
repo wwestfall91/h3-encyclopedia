@@ -36,9 +36,9 @@
   height: 15rem;
   aspect-ratio: 2 / 3;
   overflow: hidden;
+  box-shadow: 17px 17px 19px -8px rgba(0, 0, 0, 0.8);
   -webkit-box-shadow: 17px 17px 19px -8px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 17px 17px 19px -8px rgba(0, 0, 0, 0.8);
-  box-shadow: 17px 17px 19px -8px rgba(0, 0, 0, 0.8);
   cursor: pointer;
   border: unset!important;
   background-color: unset!important;

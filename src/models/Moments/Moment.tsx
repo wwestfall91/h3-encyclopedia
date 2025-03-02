@@ -60,8 +60,19 @@ export class Moment {
     return tags;
   }
 
-  getEpisode(episodes: Episode[]){
+  getEpisode(episodes: Episode[]) {
     return episodes.find(e => e.type == this.episodeType && e.number == this.episodeNumber)
+  }
+
+  getTime(): number {
+    const time = +this.url.split("t=")[1]!
+    console.log("TIME: ", time)
+    return time;
+  }
+
+  getVideoId(): string {
+    const id = this.url.includes("v=") ? this.url.split("&t=")[0].split("v=")[1] : this.url.split("&t=")[0].split("be/")[1]
+    return id;
   }
 }
 

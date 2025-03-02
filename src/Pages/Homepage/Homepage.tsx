@@ -49,12 +49,12 @@ function Homepage() {
 
     const opts = {
         width:'750px',
-        height:'400px',
+        height:'397.5px',
         borderRadius: '10px',
         playerVars: {
           autoplay: 0,
         },
-      };
+    };
 
     return (
         <>
@@ -78,33 +78,29 @@ function Homepage() {
                 <div className="page-container">
                     <div className="video-container">
                         <div className="video">
-                            <YouTube videoId="bq4Bq0KXlGE" opts={opts} onReady={onReady} style={divStyle}></YouTube>
+                            <YouTube videoId="VQiExvFz8h8" opts={opts} onReady={onReady} style={divStyle}></YouTube>
                         </div>
                     </div>
                     <div className="topics-container">
 
-                        <div className="topics-title">TOPICS FROM H3 SHOW #115</div>
+                        <div className="topics-title">TOPICS FROM H3 SHOW #116</div>
                         <div className="topics">
-                            <TopicCard image={"https://pbs.twimg.com/media/FV4YwAxXEAIWlSV.jpg"}
-                                headerText={"4 Years Ago"} description={"Ethan has Tiny Hands"} url={"https://youtu.be/3LF3F8Cl-Q4?t=747"} 
-                                jumpToTime={() => jumpToTime(671)} />
-                            <TopicCard image={"https://cdn.cameo.com/thumbnails/6476d74ab077c0dd916a7fcb-processed.jpg"}
-                                headerText={"2 Years Ago"} description={"AB Almost Broke his Dick"} url={"https://youtu.be/LY0H8sBnbZY&t=264"} 
-                                jumpToTime={() => jumpToTime(911)} />
-                            <TopicCard image={"Images/ASLInterpretter.jpeg"}
-                                headerText={"7 Months Ago"} description={"ASL Interpretter at Live Show"} url={"https://youtu.be/e2SUGfXVy4A?t=835"} 
-                                jumpToTime={() => jumpToTime(4162)} />
-                            <TopicCard image={"https://www.mashed.com/img/gallery/popular-dennys-menu-items-ranked-worst-to-best/intro-1623239743.jpg"} 
-                                headerText={"4 Years Ago"} description={"The Denny's Incident"} url={"https://youtu.be/bVwGr98HYqQ&t=3043"} 
-                                jumpToTime={() => jumpToTime(5292)} />
-                            <TopicCard image={"https://illinoisrecoverycenter.com/wp-content/uploads/2024/06/crack-cocaine.jpg"} 
-                                headerText={"7 Years Ago"} description={"Ethan Smoked Crack Once"} url={"https://www.youtube.com/watch?v=yVeGBT7X-pY&t=4907s"} 
-                                jumpToTime={() => jumpToTime(7460)} />
-                            <TopicCard image={"https://media.tenor.com/UzY35_ZiEdsAAAAe/gazebo-h3gazebo.png"}
-                                headerText={"6 Years Ago"} description={"Hila is Divorcing Ethan"} url={"https://youtu.be/e2SUGfXVy4A?t=835"} 
-                                jumpToTime={() => jumpToTime(8586)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Will Smith")!} jumpToTime={() => jumpToTime(1860)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Jason.Reborn")!} jumpToTime={() => jumpToTime(8039)} />
+                            <TopicCard image={"https://www.christinascucina.com/wp-content/uploads/2021/06/fullsizeoutput_f3d8.jpeg"}
+                                headerText={"2 Years Ago"} description={"Beans on Toast"} url={"https://youtu.be/Q_GoixIfwoY?t=2782"} 
+                                jumpToTime={() => jumpToTime(186)} />
+                            <TopicCard image={"https://upload.wikimedia.org/wikipedia/en/8/83/Hamilton-poster.jpg"}
+                                headerText={"2 Years Ago"} description={"Dan Loves Hamilton"} url={"https://youtu.be/9JPShI_iglU?t=1292"} 
+                                jumpToTime={() => jumpToTime(430)} />
+                            <TopicCard image={"https://www.boredpanda.com/blog/wp-content/uploads/2023/04/eel-pit-guy-tiktok-642bdaba93071__700.jpg"}
+                                headerText={"7 Months Ago"} description={"The Eel Pit"} url={"https://www.youtube.com/watch?v=vI6gooWrtX8&t=12323s"} 
+                                jumpToTime={() => jumpToTime(523)} />
+                            <TopicCard image={"https://media.gq-magazine.co.uk/photos/5e442958995fbc00086126ad/master/pass/20191219-BTS-04.jpg"} 
+                                headerText={"4 Years Ago"} description={"BTS Stans Cancel Ethan (Lost Episode)"} url={"https://youtu.be/ilvnun60EsY"} 
+                                jumpToTime={() => jumpToTime(8405)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Rae")!} jumpToTime={() => jumpToTime(37)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Phil Painter")!} jumpToTime={() => jumpToTime(3702)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Selena Gomez")!} jumpToTime={() => jumpToTime(8449)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Emilia Pérez")!} jumpToTime={() => jumpToTime(7260)} />
                         </div>
                     </div>
                 </div>     

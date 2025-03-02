@@ -88,7 +88,7 @@ function SoundbiteCard(props: Props) {
           <div className="soundbite-footer-bottom">
             <a
               className="soundbite-link"
-              href={props.soundbite.timestampurl}
+              href={props.soundbite.url}
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -1,14 +1,18 @@
 title	sound	episodetype	episodenumber	episodedate	time	person	timestampurl	image
+Ethan, WAKE UP!!!	Dan_EthanWAKEUP.mp3	H3Show	115	02-26-2025	4108	Dan	https://youtu.be/bq4Bq0KXlGE&t=4108	
 Uhh... BASED!	Frogan_UhBased.mp3	H3Show	113	02-22-2025	10445	Frogan	https://youtu.be/UK47xzasVxA&t=10445	
 Oh God...	JayShetty_OhGod.mp3	SYNT	97	02-20-2025	5249	Jay Shetty	https://youtu.be/vVaHCn3smdE&t=5249	
 That's so scary!	JayShetty_ThatsSoScary.mp3	SYNT	97	02-20-2025	7334	Jay Shetty	https://youtu.be/vVaHCn3smdE&t=7334	
 50 GIFTED SUBS!!!!	Keemstar_50GIFTED.mp3	H3Show	111	02-17-2025	767	Keemstar	https://youtu.be/N2W4RJ2tEnY&t=767	
+Mhm	Hasan_mmhmm.mp3	H3Show	109	02-12-2025	5276	Hasan Piker	https://youtu.be/A8MzE_Pr9XI&t=5276	
 ANYWHO I'M GONNA GO TO BED NOW	WholeCrew_AnywhoImGonnaGoToBedNow.mp3	H3Show	108	02-10-2025	10247	Misc	https://youtu.be/I0zmBdGEvwU&t=10247	https://www.redbrick.me/wp-content/uploads/2021/11/255880196_279179057470482_8982295856559572115_n1.jpg
 Anywho I'm gonna go to bed	HaileyWelch_AnywhoImGonnaGoToBed.mp3	H3Show	108	02-10-2025	2123	Hailey Welch (Hawk Tuah)	https://youtu.be/I0zmBdGEvwU&t=2123	
 The Rizzler Scream	TheRizzle_Ahhhh.mp3	H3Show	106	02-05-2025	5693	The Rizzler	https://youtu.be/6KV16LWcnTY&t=5693	
 Destiny is a great guy	Hasan_DestinyIsAGreatGuy.mp3	H3Show	106	02-05-2025	6320	Hasan Piker	https://youtu.be/6KV16LWcnTY&t=6320	
 I think so, don't you think so?	Howie_IThinkSo.mp3	H3Show	101	01-22-2025	4857	Howie Mandel	https://youtu.be/casAOxYGjPc&t=4857	
 You're coming off a little special needs	Howie_SpecialNeeds.mp3	H3Show	101	01-22-2025	4857	Howie Mandel	https://youtu.be/casAOxYGjPc&t=4857	
+Laugh #1	Hasan_Laugh1.mp3	H3Show	99	01-15-2025	3507	Hasan Piker	https://youtu.be/h1dnSmR_9C8&t=3507	
+Laugh #2	Hasan_Laugh2.mp3	H3Show	99	01-15-2025	3507	Hasan Piker	https://youtu.be/h1dnSmR_9C8&t=3507	
 Come into my mouth in the name of jesus!	Misc_ComeIntoMyMouthInTheNameOfJesus.mp3	H3Show	98	01-13-2025	5540	Misc	https://youtu.be/fV-1SveD9gQ&t=5540	https://i.ytimg.com/vi/9uG31s9U__c/mqdefault.jpg
 Come into my mouth	Misc_ComeIntoMyMouth.mp3	H3Show	98	01-13-2025	5540	Misc	https://youtu.be/fV-1SveD9gQ&t=5540	https://i.ytimg.com/vi/9uG31s9U__c/mqdefault.jpg
 Why don't they just BOMB the outer line?!	XQC_WhyDontTheyJustBomb.mp3	H3Show	98	01-13-2025	1370	XQC	https://youtu.be/fV-1SveD9gQ&t=1370	
@@ -31,6 +35,7 @@ USA USA USA!!	ElonMusk_USA.mp3	H3Show	72	10-28-2024	1871	Elon Musk	https://youtu
 Why is there mold in the Lunchly?!	Misc_WhyIsThereMoldInTheLunchly.mp3	H3Show	71	10-25-2024	5787	Misc	https://youtu.be/N8NGpo8N-ic&t=5787	https://i.dailymail.co.uk/1s/2024/10/22/16/91140581-13987187-TikTokkers_have_been_posting_on_the_social_media_platform_images-a-11_1729609399394.jpg
 They're eating the dogs	Trump_EatingTheDogs.mp3	H3Show	55	09-16-2024	705	Donald Trump	https://youtu.be/Ch3WcOM4gNs&t=705	
 When are we going to dance love?	DatingAndMoney101_WhenAreWeGonnaDanceLove.mp3	H3Show	55	09-16-2024	97	Dating&Money101	https://youtu.be/Ch3WcOM4gNs&t=97	
+America Deserved 9/11	Hasan_AmericaDeserved911.mp3	H3Show	55	09-16-2024	10091	Hasan Piker	https://youtu.be/Ch3WcOM4gNs&t=10091	
 I didn't think you could break a penis	Donna_BreakAPenis.mp3	H3Show	53	09-11-2024	9252	Donna Klein	https://youtu.be/ua5pUi11V3E&t=9252	
 He said 'no way' and I said 'way'	Trump_AndHeSaidNoWayAndISaidWay.mp3	H3Show	42	08-14-2024	7745	Donald Trump	https://youtu.be/oLWTNrvOd3c&t=7745	
 Here's my thing, I like a pretty penis	WingsofRedemption_HeresMyThingILikeAPrettyPenis.mp3	H3Show	40	08-09-2024	6945	Wings of Redemption	https://youtu.be/WXk7sEQlyIY&t=6945	
@@ -38,6 +43,7 @@ The Carnivore diet will fix that	JordanPeterson_TheCarnivoreDietWillFixThat.mp3	
 GET IT GET IT GET IT GET IT!!	JasonNash_GetItGetItGetIt.mp3	H3Show	32	07-22-2024	4275	Jason Nash	https://youtu.be/RMnIW8Xs7uA&t=4275	
 GO! GO!!!	JasonNash_GoGO.mp3	H3Show	32	07-22-2024	4275	Jason Nash	https://youtu.be/RMnIW8Xs7uA&t=4275	
 I only take it right on my chest	Love_RightOnMyChest.mp3	H3Show	31	07-19-2024	2993	Love	https://youtu.be/t7YKFG2TbGc&t=2993	
+Sieg Heil	Ethan_SeigHeil.mp3	H3Show	29	07-15-2024	7525	Ethan	https://youtu.be/gyIlayEQN3E&t=7525	
 WAHHHHH I GOT CALLED A CUCK ONLINE	BowBlax_WahhhIGotCalledACuckOnline.mp3	H3Show	23	06-14-2024	2398	Bowblax	https://youtu.be/LMOswKoe-Nc&t=2398	
 How am I supposed to do the show when I'm covered in slime?!	Dan_HowAmISupposeToDoTheShowWhenImCoveredInSlime.mp3	H3Show	22	06-12-2024	7263	Dan	https://youtu.be/bnLi7oii98g&t=7263	
 *WoW Raid Warning*	Misc_RaidWarningSound.mp3	H3Show	16	05-29-2024	5720	Misc	https://youtu.be/jvGC35qMLMw&t=5720	https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/07/world-of-warcraft-the-war-within-raid-schedule-changes.jpg
@@ -63,6 +69,7 @@ Oh My God, thank you for the gifted sub!	JustTree411_OhMyGodThankYouForTheGifted
 Yay I got a subscriber!	JustTree411_YayIGotASubscriber.mp3	H3Show	1	04-22-2024	4451	Just Tree 411	https://youtu.be/0lt0tTr-lj4&t=4451	
 *Screams as car runs over foot	RichardSimons_Screaming.mp3	H3TV	113	04-01-2024	7433	Richard Simmons	https://www.youtube.com/watch?v=zkoKnz5zE3o&t=7433	
 Hold my fart like a bong rip	CandaceOwens_AndHoldMyFartLikeABongRip.mp3	OTR	109	03-20-2024	420	Candace Owens	https://www.youtube.com/watch?v=VN3bWz5HfBI&t=420	
+I want you to give me rimjob	CandiceOwens_Rimjob.mp3	OTR	109	03-20-2024	420	Candace Owens	https://www.youtube.com/watch?v=VN3bWz5HfBI&t=420	
 You can take the ULTIMATE load	JordanPeterson_TakeTheUltimateLoad.mp3	OTR	107	03-06-2024	5281	Jordan Peterson	https://www.youtube.com/watch?v=7H2vgnSz0tg&t=5281	
 Saudia Arabia and Russia will re-be-doog awhhh	Trump_SaudiArabiaAndRussiaWillReBeDoop.mp3	OTR	107	03-06-2024	5467	Donald Trump	https://www.youtube.com/watch?v=7H2vgnSz0tg&t=5467	
 UhHHhp	JimmieLee_UHHHP.mp3	OTR	105	02-21-2024	1096	Jimmie Lee	https://www.youtube.com/watch?v=8ZkY_nHj3vY&t=1096	
@@ -256,6 +263,7 @@ When my friend Neal bent over this happened	HowieMandel_WhenMyFriendNeilBentOver
 Up yours woke moralists	JordanPeterson_UpYoursWokeMoralists.mp3	OTR	41	07-06-2022	10311	Jordan Peterson	https://www.youtube.com/watch?v=Hu_V2NwLnYk&t=10311	
 What rules you sons a bitches	JordanPeterson_WhatRulesYouSonsABitches.mp3	OTR	41	07-06-2022	6938	Jordan Peterson	https://www.youtube.com/watch?v=Hu_V2NwLnYk&t=6938	
 Heil Hitler	Dan_HeilHitler.mp3	OTR	40	06-22-2022	9118	Dan	https://www.youtube.com/watch?v=ue2zpTPkthg&t=9118	
+Stay in the kitchen and suck me off	Ethan_StayInTheKitchenAndSuckMeOff.mp3	H3TV	40	06-20-2022	8453	Ethan	https://youtu.be/PbuUz7yw9SA&t=8453	
 Why did you unmatch me? It's me...	BenAffleck_WhyDidYouUnmatchMe.mp3	OTR	39	06-15-2022	5958	Ben Affleck	https://www.youtube.com/watch?v=6TsZE8Cu0-Q&t=5958	
 Sorry not beautiful	JordanPeterson_SorryNotBeautiful.mp3	Leftovers	16	06-09-2022	2750	Jordan Peterson	https://www.youtube.com/watch?v=LBCEZEni_5Q&t=2750	
 I believe a citizen can own a nuclear warhead	TimPool_IndividualCitizenRightToOwnWarhead.mp3	H3TV	38	06-06-2022	3892	Tim Pool	https://youtu.be/CGOWQwC1Amo&t=3892	
@@ -585,7 +593,3 @@ Mom I'm sorry!	Trump_MomImSorry.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://
 Obamna (Obama)	Trump_Obamna.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
 THE N WORD!	Trump_TheNWord.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
 Apple!	XQC_Apple.mp3	Unknown	1	05-05-2015	0	XQC	https://youtu.be/zOYZ3XMGjUM&t=0	
-I want you to give me rimjob	CandiceOwens_Rimjob.mp3	OTR	109	03-20-2024	420	Candace Owens	https://www.youtube.com/watch?v=VN3bWz5HfBI&t=420	
-Mhm	Hasan_mmhmm.mp3	H3Show	109	02-12-2025	5276	Hasan Piker	https://youtu.be/A8MzE_Pr9XI&t=5276	
-Laugh #1	Hasan_Laugh1.mp3	H3Show	99	01-15-2025	3507	Hasan Piker	https://youtu.be/h1dnSmR_9C8&t=3507	
-Laugh #2	Hasan_Laugh2.mp3	H3Show	99	01-15-2025	3507	Hasan Piker	https://youtu.be/h1dnSmR_9C8&t=3507	

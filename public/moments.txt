@@ -157,6 +157,7 @@ Denims is a...	H3Show	107	3589	https://youtu.be/IG6GG1x0M9o&t=3589		Button		Hasa
 	H3Show	110	4945	https://youtu.be/6YkwAdAmyBI&t=4945		Button		Am I The A-hole? Giving advice to crazy redditors - H3 Show #110		02-14-2025
 Bad Empanada's Threats	H3Show	115	8780	https://youtu.be/bq4Bq0KXlGE&t=8780		Button		I'm Going To War With The Entire Internet - H3 Show #115		02-26-2025
 	H3Show	115	10093	https://youtu.be/bq4Bq0KXlGE&t=10093		Button		I'm Going To War With The Entire Internet - H3 Show #115		02-26-2025
+	H3Show	116	2729	https://youtu.be/VQiExvFz8h8&t=2729		Button				
 Bobby Lee Interruption	Podcast	148	2062	https://youtu.be/NK-_XJBYv-c&t=2062	Dan	Lore		Bobby Lee & Khalyla - H3 Podcast #148	Top Dan Moments	10-08-2019
 Dan Bans Rich Lux	H3TV	42	4956	https://youtu.be/QpElkT_nkgY&t=4956	Dan	Lore		We Went To ACE Fest... WOW - H3TV #42	Top Dan Moments	07-11-2022
 Dan Saves the Ad Read	AfterDark	75	3449	https://www.youtube.com/watch?v=ZUU3_vd1Oos&t=3449	Dan	Lore		Womens Rights Stripped Away, David Dobrik Hires Johnny Depps Lawyer - After Dark #75	Top Dan Moments	06-24-2022
@@ -245,8 +246,8 @@ Confusion sweeps the crew	OTR	32	9187	https://www.youtube.com/watch?v=PUQPGI9fNo
 Realizing its the mouse	AfterDark	90	6480	https://www.youtube.com/watch?v=QvGqpAcXNqo&t=6480	Dan	Lore		Hila Got Banned On Twitter - After Dark #90	Dans mouse CAN TALK?!	11-18-2022
 We do a little trolling	H3TV	58	605	https://youtu.be/oWro0ianAgI&t=605	Dan	Lore		Ethan Buries His Biggest Hater, World Cup in Qatar, Elon Unbans Trump - H3TV #58	Dans mouse CAN TALK?!	11-21-2022
 Fans thirst for his mouse	H3TV	59	3578	https://youtu.be/LY0H8sBnbZY&t=3578	Dan	Lore		I Need To Step Away For A Bit - H3TV #59	Dans mouse CAN TALK?!	11-28-2022
-Dan hates it	AfterDark	92	9045	https://www.youtube.com/watch?v=GgwXXGtUCgE&t=9045	Dan	Lore		The 2022 Sound Bite Tournament - After Dark #92	Dans mouse CAN TALK?!	12-16-2022
-The fans demand DPI	Podcast	263	4119	https://youtu.be/vq8nR2LMrno&t=4119	Dan	Lore		We Got Each Other The Worst Holiday Gifts (Live Audience!) - H3 Podcast #263	Dans mouse CAN TALK?!	12-21-2022
+Dan KILLS his mouse	AfterDark	92	9177	https://www.youtube.com/watch?v=GgwXXGtUCgE&t=9177	Dan	Lore		The 2022 Sound Bite Tournament - After Dark #92	Dans mouse CAN TALK?!	12-16-2022
+But the fans demand more!	Podcast	263	4119	https://youtu.be/vq8nR2LMrno&t=4119	Dan	Lore		We Got Each Other The Worst Holiday Gifts (Live Audience!) - H3 Podcast #263	Dans mouse CAN TALK?!	12-21-2022
 Ethan re-enacting Ringos Peace and Love video	AfterDark	26	5586	https://www.youtube.com/watch?v=xliblinydqE&t=5586	Ringo Starr	PeaceAndLove		The Vlog Squad Responds - H3 After Dark #26		03-05-2021
 First Episode of Frenemies	Frenemies	1	0	https://www.youtube.com/watch?v=Mtblz3KPYT0&t=0	Trisha Paytas	Frenemies		Trishas New Boyfriend Is Hilas Brother - Frenemies #1		09-15-2020
 First Wikifeet Segment	Podcast	181	4455	https://youtu.be/_fiKPLXYttw&t=4455		FootSoldiers		OJ Simpson Blocked Ethan After Getting Burned On Twitter - H3 Podcast #181		03-11-2020
@@ -267,7 +268,8 @@ Jimmie Lee on Gokanaru	Podcast	192	5049	https://youtu.be/zH7MMY3Nvw8&t=5049	Jimm
 Jimmie Lee Call-In #2	Podcast	200	6181	https://youtu.be/gCt816XqnQ4&t=6181	Jimmie Lee	TheJerseyOutlaw		Belle Delphine Has A Surprise For Us, Dr. DisRespect Update, Jake Paul Fail - H3 Podcast #200		07-25-2020
 Zach & Jimmie on the street	OTR	29	2442	https://www.youtube.com/watch?v=kWqTHAD8C0k&t=2442	Jimmie Lee	TheJerseyOutlaw		David Dobrik Caught In A Crypto Scam - Off The Rails #29		03-30-2022
 Jimmie Lee Redemption	OTR	36	5013	https://www.youtube.com/watch?v=wMQHxxO7ets&t=5013	Jimmie Lee	TheJerseyOutlaw		Amber Heard v Johnny Depp FINAL VERDICT, Jimmie Lee In Studio - Off The Rails #36		05-18-2022
-Rewatching Jimmie Street Vid	OTR	38	7863	https://www.youtube.com/watch?v=Xo3-r7mhb1c&t=7863	Jimmie Lee	TheJerseyOutlaw		We Finally Landed Our Dream Guest... - Off The Rails #38		06-08-2022
+Rewatching Jimmie Street Vid	OTR	38	1910	https://www.youtube.com/watch?v=Xo3-r7mhb1c&t=1910	Jimmie Lee	TheJerseyOutlaw		We Finally Landed Our Dream Guest... - Off The Rails #38		06-08-2022
+Jimmie calls-in from a Diner	OTR	38	8169	https://www.youtube.com/watch?v=Xo3-r7mhb1c&t=8169	Jimmie Lee	TheJerseyOutlaw		We Finally Landed Our Dream Guest... - Off The Rails #38		06-08-2022
 Testing Jimmie's Loyalty	AfterDark	75	4801	https://www.youtube.com/watch?v=ZUU3_vd1Oos&t=4801	Jimmie Lee	TheJerseyOutlaw		Womens Rights Stripped Away, David Dobrik Hires Johnny Depps Lawyer - After Dark #75		06-24-2022
 The notorious diner call	OTR	43	3503	https://www.youtube.com/watch?v=sJw_z60GrCM&t=3503	Jimmie Lee	TheJerseyOutlaw		Smell My Funger Game, James Charles Loses It, MrBeast Protege Gets Cancelled - Off The Rails #43		07-20-2022
 The Elderlies	H3TV	45	1970	https://youtu.be/C6jBBUEx6fQ&t=1970	Jimmie Lee	TheJerseyOutlaw		Andrew Tate Nelk Podcast Disaster, Ethans Dad Meets Jimmie Lee - H3TV #45		08-01-2022
@@ -1627,6 +1629,7 @@ Olivia's Puke Phobia	H3TV	51	5412	https://youtu.be/1Z4LTCCodeg&t=5412	Olivia	Lor
 Olivia was attacked by a dog	H3TV	57	242	https://youtu.be/Y0idXvAgs6Q&t=242	Olivia	Lore		Ethans Car Was Stolen - H3TV #57	Top Olivia Moments	11-14-2022
 Olivia's Grandma	Misc	20	280	https://youtu.be/Fvg5RTrFLfI&t=280	Olivia	Lore		Ethan Klein Debates Steven Crowder (Ft. Sam Seder) - H3 Podcast #248	Top Olivia Moments	06-21-2021
 OIivia wants soup!	OTR	88	3475	https://www.youtube.com/watch?v=2bgjMRQJ6wI&t=3475	Olivia	Lore		Shocking New David Dobrik Allegations, Barstool vs Taylor Swift - Off The Rails #88	Top Olivia Moments	10-04-2023
+Olivia is Candace Owens??	OTR	109	420	https://www.youtube.com/watch?v=VN3bWz5HfBI&t=420	Olivia	Lore		Dan Schneider & Nickelodeon, Ethan Puked In His Uber - Off The Rails #109	Top Olivia Moments	03-20-2024
 OLIVIA	OTR	19	2430	https://www.youtube.com/watch?v=hY0x8d3QWDA&t=2430	Olivia	Lore		I Got Hand Enlargement Surgery - Off The Rails #19	Soundbites	11-18-2021
 I've been listening to Olivia the entire time	OTR	19	2430	https://www.youtube.com/watch?v=hY0x8d3QWDA&t=2430	Olivia	Lore		I Got Hand Enlargement Surgery - Off The Rails #19	Soundbites	11-18-2021
 Thank you for the gifted	H3TV	51	5781	https://youtu.be/1Z4LTCCodeg&t=5781	Olivia	Lore		Spicy Food Competition - H3TV #51	Soundbites	09-12-2022
@@ -1880,3 +1883,10 @@ Kenneth Copeland gets possessed by demon	H3Show	2	1310	https://youtu.be/x2cyP6KJ
 Kenneth Copeland on Trump getting elected	H3Show	80	12230	https://youtu.be/DzzujKzUOKw&t=12230	Kenneth Copeland			Ethan Destroys Dan Bilzerian With Facts & Logic - H3 Show #80		11-13-2024
 Terrence Howard strange red carpet appearance	Podcast	147	3272	https://youtu.be/m11ipFCl8EE&t=3272	Terrence Howard			Belle Delphine Arrested By British Authorities & Fousey vs Slim - H3 Podcast #147		10-04-2019
 Same Key of E (Soundbite Tournament 2024)	H3Show	92	9636	https://youtu.be/OWBUXE42fuc&t=9636	Terrence Howard			The 2024 Soundbite Tournament! - H3 Show #92		12-13-2024
+The Pope confronts Ethan	OTR	75	22	https://www.youtube.com/watch?v=9cLhRsNIZn4&t=22	Phil Painter	Call		Which Office Character Are We? PowerPoint & Debate - Off The Rails #75		06-07-2023
+Burning Yeezy's with Rabbi Phil	H3Show	116	3702	https://youtu.be/VQiExvFz8h8&t=3702	Phil Painter	Guest		I Hired A Rabbi To Destroy My Yeezys, Fastest Man Alive Crew Contest - H3 Show #116		02-28-2025
+Talking to Phil!	H3Show	116	4860	https://youtu.be/VQiExvFz8h8&t=4860	Phil Painter	Guest		I Hired A Rabbi To Destroy My Yeezys, Fastest Man Alive Crew Contest - H3 Show #116		02-28-2025
+Gabe has been watching the Yeezy's burning the whole time	H3Show	116	4708	https://youtu.be/VQiExvFz8h8&t=4708	Uncle Gabe	Call		I Hired A Rabbi To Destroy My Yeezys, Fastest Man Alive Crew Contest - H3 Show #116		02-28-2025
+Rae in the studio for Mod Appreciation Day!	AfterDark	80	116	https://www.youtube.com/watch?v=K-hPcI9KA_0&t=116	Rae	Guest		Andrew Tate Banned From Facebook, Instagram & Twitter - After Dark #80		08-19-2022
+Rae is back in the studio	H3Show	116	37	https://youtu.be/VQiExvFz8h8&t=37	Rae	Guest		I Hired A Rabbi To Destroy My Yeezys, Fastest Man Alive Crew Contest - H3 Show #116		02-28-2025
+The Emilia Pérez situation	H3Show	116	7260	https://youtu.be/VQiExvFz8h8&t=7260	Emilia Pérez			I Hired A Rabbi To Destroy My Yeezys, Fastest Man Alive Crew Contest - H3 Show #116		02-28-2025

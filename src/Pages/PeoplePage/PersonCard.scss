@@ -17,6 +17,28 @@
     font-size: 20px;
 }
 
+
+.allegiance-family{
+    display:flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:10%;
+    margin-left:-100px;
+    font-style: italic;
+    padding: 1px 10px 0px 10px;
+    background-color: rgba(173, 101, 255, 0.589);
+    color:rgb(255, 255, 255);
+    backdrop-filter: blur(0.7vw);
+    border-radius:0px 5px 5px 0px;
+    right:1;
+    z-index: 1;
+    transform: rotate(-45deg);
+    font-size:12px
+}
+
+
 .allegiance-friend{
     display:flex;
     position: absolute;
