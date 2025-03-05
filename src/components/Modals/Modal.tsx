@@ -1,4 +1,4 @@
-import YouTube from "react-youtube";
+import YouTube, { YouTubePlayer } from "react-youtube";
 import { useDataContext } from "../../context/DataContext";
 import { Episode } from "../../models/Episode";
 import { Moment } from "../../models/Moments/Moment";
@@ -15,12 +15,8 @@ export interface Props {
 
 export function MomentsModal(props: Props) {
   const {episodes} = useDataContext();
-  const [player, setPlayer] = useState<any>(null);
+  const [player, setPlayer] = useState<YouTubePlayer>();
   const [selectedMoment, setSelectedMoment] = useState<Moment>();
-
-  useEffect(() => {
-    setPlayer(null)
-  }, []);
 
   useEffect(() => {
     if(props.timeStamps.length <= 0 || !player)
