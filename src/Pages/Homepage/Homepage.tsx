@@ -54,7 +54,7 @@ function Homepage() {
         playerVars: {
           autoplay: 0,
         },
-    };
+    } as any;
 
     return (
         <>
@@ -78,7 +78,7 @@ function Homepage() {
                 <div className="page-container">
                     <div className="video-container">
                         <div className="video">
-                            <YouTube videoId="VQiExvFz8h8" opts={opts} onReady={onReady} style={divStyle}></YouTube>
+                            <YouTube videoId="RVwsloCHjCU" opts={opts} onReady={onReady} style={divStyle}></YouTube>
                         </div>
                     </div>
                     <div className="topics-container">
