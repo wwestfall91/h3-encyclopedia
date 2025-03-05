@@ -34,12 +34,11 @@ function PersonCard(props: Props) {
     }
 
     return (
-      // <div className="card-container">
-        // <div id="PersonCard">
         <>
         {props.person && 
           <>
-            { (relatedSoundbites.length > 0 || relatedMoments.length > 0) &&
+            { 
+            (relatedSoundbites.length > 0 || relatedMoments.length > 0) &&
               <div>
               {modalOpen && 
                 <MomentAndSoundbites_Modal title={props.person.name} description={""} moments={relatedMoments} soundbites={relatedSoundbites} isOpen={false} openModal={setModalOpen} ></MomentAndSoundbites_Modal>
@@ -59,12 +58,11 @@ function PersonCard(props: Props) {
                     </div>
                     <img
                     className="card-image"
-                    src={props.person.image }
+                    src={props.person.image}
                     onClick={() => OpenModal()}
                     />
                 </div>
               }
-
               </div>
             }
           </>

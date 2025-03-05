@@ -83,24 +83,24 @@ function Homepage() {
                     </div>
                     <div className="topics-container">
 
-                        <div className="topics-title">TOPICS FROM H3 SHOW #116</div>
+                        <div className="topics-title">TOPICS FROM H3 SHOW #117</div>
                         <div className="topics">
-                            <TopicCard image={"https://www.christinascucina.com/wp-content/uploads/2021/06/fullsizeoutput_f3d8.jpeg"}
-                                headerText={"2 Years Ago"} description={"Beans on Toast"} url={"https://youtu.be/Q_GoixIfwoY?t=2782"} 
-                                jumpToTime={() => jumpToTime(186)} />
-                            <TopicCard image={"https://upload.wikimedia.org/wikipedia/en/8/83/Hamilton-poster.jpg"}
-                                headerText={"2 Years Ago"} description={"Dan Loves Hamilton"} url={"https://youtu.be/9JPShI_iglU?t=1292"} 
-                                jumpToTime={() => jumpToTime(430)} />
-                            <TopicCard image={"https://www.boredpanda.com/blog/wp-content/uploads/2023/04/eel-pit-guy-tiktok-642bdaba93071__700.jpg"}
-                                headerText={"7 Months Ago"} description={"The Eel Pit"} url={"https://www.youtube.com/watch?v=vI6gooWrtX8&t=12323s"} 
-                                jumpToTime={() => jumpToTime(523)} />
-                            <TopicCard image={"https://media.gq-magazine.co.uk/photos/5e442958995fbc00086126ad/master/pass/20191219-BTS-04.jpg"} 
-                                headerText={"4 Years Ago"} description={"BTS Stans Cancel Ethan (Lost Episode)"} url={"https://youtu.be/ilvnun60EsY"} 
-                                jumpToTime={() => jumpToTime(8405)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Rae")!} jumpToTime={() => jumpToTime(37)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Phil Painter")!} jumpToTime={() => jumpToTime(3702)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Selena Gomez")!} jumpToTime={() => jumpToTime(8449)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Emilia Pérez")!} jumpToTime={() => jumpToTime(7260)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Galya")!} jumpToTime={() => jumpToTime(685)} />
+                            <TopicCard image={"https://assets-prd.ignimgs.com/2022/06/29/gaming-mouse-1656479071918.jpg"}
+                                headerText={"3 Years Ago"} description={"The DPI Guy"} url={"https://www.youtube.com/watch?v=QvGqpAcXNqo&t=6480"} 
+                                jumpToTime={() => jumpToTime(1345)} />
+                            <TopicCard image={"https://www.qsrmagazine.com/wp-content/uploads/2022/03/Atomic.jpg"}
+                                headerText={"2 weeks ago"} description={"Did Gabe actually challenge Ethan to atomic wings? 🤔"} url={"https://youtu.be/IG6GG1x0M9o&t=959"} 
+                                jumpToTime={() => jumpToTime(2191)} />
+                            <TopicCard image={"https://familydoctor.org/wp-content/uploads/2018/02/41808433_l.jpg"}
+                                headerText={"9 Months Ago"} description={"Ethan's last colonoscopy didn't go well..."} url={"https://www.youtube.com/watch?v=jvGC35qMLMw&t=1243s"} 
+                                jumpToTime={() => jumpToTime(158)} />
+                            <TopicCard image={"https://hips.hearstapps.com/hmg-prod/images/yoko-ono-1.jpg"}
+                                headerText={"6 Years Ago"} description={"Listening to Yoko Ono's Warzone (but it got claimed 😞)"} url={"https://youtu.be/fA8eOB91-fY?t=713"} 
+                                jumpToTime={() => jumpToTime(9531)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Machine Gun Kelly")!} jumpToTime={() => jumpToTime(37)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "The Foodie Boys")!} jumpToTime={() => jumpToTime(37)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Andrew Tate")!} jumpToTime={() => jumpToTime(37)} />
                         </div>
                     </div>
                 </div>     

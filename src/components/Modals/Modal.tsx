@@ -37,7 +37,13 @@ export function Modal(props: Props) {
                 X
               </div>
             </div>
-            <div className="new-modal-content">{props.description}</div>
+            <div className="new-modal-content">
+              <>
+                {props.description.split('/n').map((line) => (
+                    <p>{line}</p>
+                ))}
+              </>
+            </div>
             <div className="new-modal-footer">
               <div className="related-links">Related Links</div>
               <div className="new-modal-links-container">

@@ -401,7 +401,7 @@ Gifting $2500	OTR	45	9324	https://www.youtube.com/watch?v=pUAWStsw8jY&t=9324		Sa
 Sending an image to the crew	OTR	45	9384	https://www.youtube.com/watch?v=pUAWStsw8jY&t=9384		SaudiBenefactor		Love Was Arrested, Alex Jones Loses Big, Kitboga Calls In - Off The Rails #45		08-10-2022
 Returns after long hiadus!	AfterDark	92	1920	https://www.youtube.com/watch?v=GgwXXGtUCgE&t=1920		SaudiBenefactor		The 2022 Sound Bite Tournament - After Dark #92		12-16-2022
 Chestnuts soundbite origin	OTR	58	6446	https://www.youtube.com/watch?v=y19qnDm2tDs&t=6446	Anuc	ChestnutGate		We Break 9 Different Guinness World Records & Creator Clash Announced RIP AB - Off The Rails #58		01-25-2023
-The notorious moment	Podcast	264	10698	https://youtu.be/2PqE7QhzyXM&t=10698	QTCinderella	ChestnutGate		Anthony Fantano - H3 Podcast #264		01-20-2023
+The notorious moment (Since been removed)	Podcast	265	10698	https://youtu.be/Yz7snltT1ek&t=10698	QTCinderella	ChestnutGate		Rebecca Black - H3 Podcast #265		01-30-2023
 R Kelly Passports Origin	Podcast	107	3550	https://youtu.be/q73TtQLC-W4&t=3550	R Kelly	RKellyPassportSong		Leaving Neverland & R. Kelly Breakdown - H3 Podcast #107		03-08-2019
 Ethan sings Passports Song	Podcast	164	6123	https://youtu.be/q_q99sLLKm8&t=6123	R Kelly	RKellyPassportSong		Were In YouTube Rewind - H3 Podcast #164		12-07-2019
 Marc Rebillet Remix	Podcast	191	3037	https://youtu.be/gj3fFhs8dAw&t=3037	R Kelly, Marc Rebillet	RKellyPassportSong		Marc Rebillet Live! - H3 Podcast #191		05-24-2020
@@ -831,6 +831,8 @@ Piratesoftware is faking his voice?	H3Show	102	4471	https://youtu.be/3FKZxfBljlw
 XQC Responds to Ludwig on Gambling	H3TV	37	8224	https://youtu.be/GtITnfBQ2Ck&t=8224	Ludwig, XQC			This Episode Will Be Erased In 24 Hours - H3TV #37		05-23-2022
 Ludwig and Ethan vs. Lie Detector Guy	H3TV	71	2720	https://youtu.be/bVCmTR9UumY&t=2720	Ludwig	Chapter		The Podcast Is Moving To Spotify - H3TV #71		04-03-2023
 Critical & Ludwig are OVER drama	H3Show	38	2380	https://youtu.be/W7LVYdyWwFU&t=2380	Ludwig	Chapter		MrBeast Exposed in New York Times Exposé, Brooke Schofield Cancelled Over Old Tweets - H3 Show #38		08-05-2024
+Dream vs Ludwig Drama	H3Show	100	2570	https://youtu.be/42OYpZFe5DY&t=2570	Ludwig, Dream			Free Wendy Williams!! Another Conservatorship!? & Love & Dan PowerPoint On WoW Drama - H3 Show #100		01-17-2025
+Ludwig vs Ethan - Hasan's Content Nuke	H3Show	106	12290	https://youtu.be/6KV16LWcnTY&t=12290	Ludwig			Dear Hasan Piker... - H3 Show #106		02-05-2025
 Blake Lively Drama PowerPoint	H3Show	46	6500	https://youtu.be/gGIoHnFwsRc&t=6500	Blake Lively, Justin Baldoni	Chapter		Olivia Explains The Blake Lively Drama To A Room Full Of Haters - H3 Show #46		08-23-2024
 Breaking Update About the Blake Lively Situation	H3Show	47	1200	https://youtu.be/YksbJ1RB-ic&t=1200	Blake Lively, Justin Baldoni	Chapter		Huge Blake Lively Drama Update & Did Logan Paul Try To Kill His Dog? - H3 Show #47		08-26-2024
 Ethan was right about Justin Baldoni...	H3Show	96	3517	https://youtu.be/0SWIbsrw5No&t=3517	Blake Lively, Justin Baldoni	Chapter		Responding To The Haters That Waited For Me To Go On Break - H3 Show #96		01-06-2025
@@ -938,7 +940,7 @@ Anuc's Cooking	OTR	87	11095	https://www.youtube.com/watch?v=R8Y-ih8DLlc&t=11095	
 Anuc's Competition	AfterDark	130	7495	https://www.youtube.com/watch?v=2WZn429v00U&t=7495	Anuc			Selena Gomezs Fans Are Turning On Her & Everyone Is MAD - After Dark #130		12-08-2023
 Anuc Shows Off	H3Show	30	5155	https://youtu.be/Ef6lhNTDUbU&t=5155	Anuc			The Craziest Ex-Boyfriend Story ft Brooke Schofield - H3 Show #30		07-17-2024
 Anuc has competition	H3Show	94	1100	https://youtu.be/N1xImKJY0kU&t=1100	Anuc			Justin Bieber Needs To Leave Selena Gomez Alone!!! Power Point/Goss Talk Emergency - H3 Show #94		12-18-2024
-Donna explains the Hailey vs Selena drama	H3TV	67	7830	https://youtu.be/gxRUEWE2_D4&t=7830	Selena Gomez, Hailey Bieber			My Mom Calls In To Explain Selena Gomez vs. Hailey Bieber Drama - H3TV #67		02-27-2023
+Donna explains the Hailey vs Selena drama	H3TV	67	7843	https://youtu.be/gxRUEWE2_D4&t=7843	Selena Gomez, Hailey Bieber			My Mom Calls In To Explain Selena Gomez vs. Hailey Bieber Drama - H3TV #67		02-27-2023
 Olivia PowerPoint on Hailey vs Selena	OTR	66	5880	https://www.youtube.com/watch?v=Hqsy1PmeO1o&t=5880	Selena Gomez, Hailey Bieber			Olivia Explains Selena Gomez Drama To A Room Full Of Haters - Off The Rails #66		04-05-2023
 Selena Gomez Lawsuit?	H3TV	82	1860	https://youtu.be/eb8z8kaekfw&t=1860	Selena Gomez			Colleen Ballinger Apology PowerPoint - H3TV #82		07-10-2023
 Selena goes MASK OFF after fan backlash	AfterDark	130	8500	https://www.youtube.com/watch?v=2WZn429v00U&t=8500	Selena Gomez			Selena Gomezs Fans Are Turning On Her & Everyone Is MAD - After Dark #130		12-08-2023
@@ -1883,10 +1885,23 @@ Kenneth Copeland gets possessed by demon	H3Show	2	1310	https://youtu.be/x2cyP6KJ
 Kenneth Copeland on Trump getting elected	H3Show	80	12230	https://youtu.be/DzzujKzUOKw&t=12230	Kenneth Copeland			Ethan Destroys Dan Bilzerian With Facts & Logic - H3 Show #80		11-13-2024
 Terrence Howard strange red carpet appearance	Podcast	147	3272	https://youtu.be/m11ipFCl8EE&t=3272	Terrence Howard			Belle Delphine Arrested By British Authorities & Fousey vs Slim - H3 Podcast #147		10-04-2019
 Same Key of E (Soundbite Tournament 2024)	H3Show	92	9636	https://youtu.be/OWBUXE42fuc&t=9636	Terrence Howard			The 2024 Soundbite Tournament! - H3 Show #92		12-13-2024
-The Pope confronts Ethan	OTR	75	22	https://www.youtube.com/watch?v=9cLhRsNIZn4&t=22	Phil Painter	Call		Which Office Character Are We? PowerPoint & Debate - Off The Rails #75		06-07-2023
+The Pope confronts Ethan	H3Show	75	30	https://youtu.be/d_W8GN6vRkw&t=30	Phil Painter	Call		MrBeast Arrested & Steps Down As CEO - H3 Show #75		11-04-2024
 Burning Yeezy's with Rabbi Phil	H3Show	116	3702	https://youtu.be/VQiExvFz8h8&t=3702	Phil Painter	Guest		I Hired A Rabbi To Destroy My Yeezys, Fastest Man Alive Crew Contest - H3 Show #116		02-28-2025
 Talking to Phil!	H3Show	116	4860	https://youtu.be/VQiExvFz8h8&t=4860	Phil Painter	Guest		I Hired A Rabbi To Destroy My Yeezys, Fastest Man Alive Crew Contest - H3 Show #116		02-28-2025
 Gabe has been watching the Yeezy's burning the whole time	H3Show	116	4708	https://youtu.be/VQiExvFz8h8&t=4708	Uncle Gabe	Call		I Hired A Rabbi To Destroy My Yeezys, Fastest Man Alive Crew Contest - H3 Show #116		02-28-2025
 Rae in the studio for Mod Appreciation Day!	AfterDark	80	116	https://www.youtube.com/watch?v=K-hPcI9KA_0&t=116	Rae	Guest		Andrew Tate Banned From Facebook, Instagram & Twitter - After Dark #80		08-19-2022
 Rae is back in the studio	H3Show	116	37	https://youtu.be/VQiExvFz8h8&t=37	Rae	Guest		I Hired A Rabbi To Destroy My Yeezys, Fastest Man Alive Crew Contest - H3 Show #116		02-28-2025
 The Emilia Pérez situation	H3Show	116	7260	https://youtu.be/VQiExvFz8h8&t=7260	Emilia Pérez			I Hired A Rabbi To Destroy My Yeezys, Fastest Man Alive Crew Contest - H3 Show #116		02-28-2025
+The Fans Demand the Eel Pit!	OTR	90	12323	https://www.youtube.com/watch?v=vI6gooWrtX8&t=12323				22 Year Old Man Tries Vegetables For The First Time - Off The Rails #90		10-18-2023
+Galya Shares her story as a Ukrainian Refugee	H3Show	74	10140	https://youtu.be/H0vlj3QIFsU&t=10140	Galya	Guest		Our Ukrainian Employee Debunks Hasan's Insane Takes On Russia, Fruit Tier List - H3 Show #74		11-01-2024
+Galya is visiting for 2 weeks!	H3Show	117	685	https://youtu.be/RVwsloCHjCU&t=685	Galya	Guest		Hasan Got Banned, Atomic Hot Wings Challenge (Ethan vs Gabe) - H3 Show #117		03-04-2025
+Ethan's New Favorite Podcast	H3Show	111	4183	https://youtu.be/N2W4RJ2tEnY&t=4183	The Foodie Boys					
+The Foodie Boys take on Celery	H3Show	113	3255	https://youtu.be/UK47xzasVxA&t=3255	The Foodie Boys			Unmasking The Harassment Campaign Against Us - H3 Show #113		02-22-2025
+The Foodie Boys weigh in on the Drake controvery	H3Show	117	3967	https://youtu.be/RVwsloCHjCU&t=3967	The Foodie Boys			Hasan Got Banned, Atomic Hot Wings Challenge (Ethan vs Gabe) - H3 Show #117		03-04-2025
+Machine Gun Kelly Cringe	H3TV	25	6804	https://youtu.be/pPEswfxt40o&t=6804	Machine Gun Kelly			Everyone Hates Me Again - H3TV #25		02-28-2022
+More MGK Cringe	AfterDark	68	5130	https://www.youtube.com/watch?v=_VovzI50yC4&t=5130	Machine Gun Kelly			Kim, Kanye, And Pete - After Dark #68		03-18-2022
+Megan Fox and MGK	OTR	33	3600	https://www.youtube.com/watch?v=nnKBeuxk_bg&t=3600	Machine Gun Kelly			ABs Coach Luckyboy In Studio, Gross Food Challenge, Keemstar & Tim Pool - Off The Rails #33		04-27-2022
+More Megan Fox and MGK Drama	H3TV	65	8400	https://youtu.be/JUgwnVF_zuA&t=8400	Machine Gun Kelly			Ethans Plan To Never Get Cancelled Again, Super Bowl, Joe Rogan Scam, MGK & Megan Fox - H3TV #65		02-13-2023
+MGK Exposed for not playing guitar on stage	OTR	27	1811	https://www.youtube.com/watch?v=9oj17cM1UPQ&t=1811	Machine Gun Kelly			David Dobrik Blames Jeff Wittek For The Accident - Off The Rails #27		03-09-2022
+OOPS - Turns out MGK was actually playing guitar...	H3TV	42	1263	https://youtu.be/QpElkT_nkgY&t=1263	Machine Gun Kelly			We Went To ACE Fest... WOW - H3TV #42		07-11-2022
+Bob Dylan's strange MGK Post	H3Show	117	1111	https://youtu.be/RVwsloCHjCU&t=1111	Machine Gun Kelly			Hasan Got Banned, Atomic Hot Wings Challenge (Ethan vs Gabe) - H3 Show #117		03-04-2025
