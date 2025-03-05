@@ -31,6 +31,7 @@ export function MomentsModal(props: Props) {
       return;
 
     player.loadVideoById(selectedMoment.getVideoId(), selectedMoment.getTime())
+    player.cueVideoById(props.timeStamps[1].getVideoId(), selectedMoment.getTime())
   }, [selectedMoment]);
 
   const onReady = (event : any) => {
