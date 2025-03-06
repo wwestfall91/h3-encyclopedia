@@ -30,12 +30,17 @@ export function MomentsModal(props: Props) {
     if(!player || !selectedMoment)
       return;
 
-    player.loadVideoById(selectedMoment.getVideoId(), selectedMoment.getTime())
-    player.cueVideoById(props.timeStamps[1].getVideoId(), selectedMoment.getTime())
+    player.loadVideoById({'videoId': selectedMoment.getVideoId(), 'startSeconds': 50, 'endSeconds':60})
   }, [selectedMoment]);
 
   const onReady = (event : any) => {
     setPlayer(event.target);
+  }
+
+  const onStateChange = async (event: any) => {
+    if(await player?.getPlayerState() == YouTube.PlayerState.ENDED){
+      player?.loadVideoById({'videoId': props.timeStamps[1].getVideoId(), 'startSeconds': 50, 'endSeconds':60})
+    }
   }
 
   const divStyle = {
@@ -63,7 +68,7 @@ export function MomentsModal(props: Props) {
         <div className="modal-close-button" onClick={() => {props.openModal(false);}}>X</div>
         <div className="modal-video-container">
             <h3 className="video-title">{selectedMoment?.episodeName ?? "Select a Moment to start video"}</h3>
-            <YouTube opts={opts} onReady={onReady} style={divStyle}></YouTube>
+            <YouTube opts={opts} onReady={onReady} onStateChange={onStateChange} style={divStyle}></YouTube>
         </div>
         <div className="content-container">
           <div className="modal-header">
