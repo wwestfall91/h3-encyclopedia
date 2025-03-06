@@ -3,9 +3,10 @@
     flex-direction: column;
     flex-grow:1;
     overflow:auto;
-    background: radial-gradient(circle,
-      rgba(168, 97, 116) 0%,
-      rgba(121,103,185, 1) 100%,
+    background: linear-gradient(
+      rgb(37, 24, 85) 20%,  
+      rgb(87, 46, 155) 60%,
+      rgb(0, 0, 0)100%,
     );
 
     .subheader{
@@ -17,6 +18,22 @@
         padding: 0px 40px 0px 25px;
         background-color: transparent;
         z-index:11;
+    }
+
+    /* The animation code */
+    @keyframes example {
+        0%   {background-color:red; left:0%; bottom:0%; transform: rotate(-33deg);}
+        100%   {background-color:red; left:0%; bottom:50%; transform: rotate(0deg);}
+
+    }
+
+    /* The element to apply the animation to */
+    .Zach {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        animation-name: example;
+        animation-duration: 10s;
     }
     
     .subheader-button{
@@ -109,6 +126,40 @@
         padding: 1rem;
         height:10px;
     }
+
+    /* ---- reset ---- */
+    .github {
+        z-index: 10000;
+        bottom: 10px;
+        right: 10px;
+        position: fixed;
+        border-radius: 10px;
+        background: #fff;
+        padding: 0 12px 6px 12px;
+        border: 1px solid #000;
+    }
+
+    .github a:hover,
+    .github a:link,
+    .github a:visited,
+    .github a:active {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .github img {
+        height: 30px;
+    }
+
+    .github #gh-project {
+        font-size: 20px;
+        padding-left: 5px;
+        font-weight: bold;
+        vertical-align: bottom;
+    }
+
+
+
 
     @media all and (min-width: 0px) and (max-width: 1280px) {
         .video-container{

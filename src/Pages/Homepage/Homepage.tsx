@@ -56,8 +56,56 @@ function Homepage() {
         },
     } as any;
 
+    const duration = 60 * 60 * 1000,
+	animationEnd = Date.now() + duration,
+	defaults = { startVelocity: 30, spread: 360, ticks: 20, zIndex: 0 };
+
+    function randomInRange(min:number, max:number) {
+        return Math.random() * (max - min) + min;
+    }
+
+    const interval = setInterval(function () {
+	const timeLeft = animationEnd - Date.now();
+
+	if (timeLeft <= 0) {
+		return clearInterval(interval);
+	}
+
+	const particleCount = 20 * (timeLeft / duration);
+
+	// since particles fall down, start a bit higher than random
+	confetti(
+		Object.assign({}, defaults, {
+			particleCount,
+			origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 }
+		})
+	);
+	confetti(
+		Object.assign({}, defaults, {
+			particleCount,
+			origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 }
+		})
+	);
+    }, 250);
+
+
+
+
     return (
         <>
+        <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+        <div className="github">
+	        <a className="btn btn-link" href="https://github.com/matteobruni/tsparticles" title="Find more info on GitHub">
+		        <img className="img-fluid" id="gh-mark" src="https://particles.js.org/images/GitHub-Mark-120px-plus.png" alt="" />
+		        <span id="gh-project">tsParticles</span>
+	        </a>
+	    <div>
+		<a className="github-button" href="https://github.com/matteobruni/tsparticles" data-icon="octicon-star" aria-label="Star matteobruni/tsparticles on GitHub">Star</a>
+		<a className="github-button" href="https://github.com/matteobruni/tsparticles/fork" data-icon="octicon-repo-forked" aria-label="Fork matteobruni/tsparticles on GitHub">Fork</a>
+	    </div>
+    </div>
+    <script src="https://buttons.github.io/buttons.js"></script>
+
         <div id="Homepage">
             {!isMobile && 
                 <div className="subheader">
@@ -77,30 +125,19 @@ function Homepage() {
                 }
                 <div className="page-container">
                     <div className="video-container">
-                        <div className="video">
-                            <YouTube videoId="RVwsloCHjCU" opts={opts} onReady={onReady} style={divStyle}></YouTube>
-                        </div>
-                    </div>
-                    <div className="topics-container">
 
+                    </div>
+                    <div className="Zach">
+                        <img src="/Images/ZachPlayingGuitar.png" alt="zach" />
+                    </div>
+                        
+                    <div className="topics-container">
                         <div className="topics-title">TOPICS FROM H3 SHOW #117</div>
                         <div className="topics">
                             <HomepagePersonCard person={people.find(x => x.name == "Galya")!} jumpToTime={() => jumpToTime(685)} />
                             <TopicCard image={"https://assets-prd.ignimgs.com/2022/06/29/gaming-mouse-1656479071918.jpg"}
                                 headerText={"3 Years Ago"} description={"The DPI Guy"} url={"https://www.youtube.com/watch?v=QvGqpAcXNqo&t=6480"} 
                                 jumpToTime={() => jumpToTime(1345)} />
-                            <TopicCard image={"https://www.qsrmagazine.com/wp-content/uploads/2022/03/Atomic.jpg"}
-                                headerText={"2 weeks ago"} description={"Did Gabe actually challenge Ethan to atomic wings? 🤔"} url={"https://youtu.be/IG6GG1x0M9o&t=959"} 
-                                jumpToTime={() => jumpToTime(2191)} />
-                            <TopicCard image={"https://familydoctor.org/wp-content/uploads/2018/02/41808433_l.jpg"}
-                                headerText={"9 Months Ago"} description={"Ethan's last colonoscopy didn't go well..."} url={"https://www.youtube.com/watch?v=jvGC35qMLMw&t=1243s"} 
-                                jumpToTime={() => jumpToTime(158)} />
-                            <TopicCard image={"https://hips.hearstapps.com/hmg-prod/images/yoko-ono-1.jpg"}
-                                headerText={"6 Years Ago"} description={"Listening to Yoko Ono's Warzone (but it got claimed 😞)"} url={"https://youtu.be/fA8eOB91-fY?t=713"} 
-                                jumpToTime={() => jumpToTime(9531)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Machine Gun Kelly")!} jumpToTime={() => jumpToTime(37)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "The Foodie Boys")!} jumpToTime={() => jumpToTime(37)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Andrew Tate")!} jumpToTime={() => jumpToTime(37)} />
                         </div>
                     </div>
                 </div>     
