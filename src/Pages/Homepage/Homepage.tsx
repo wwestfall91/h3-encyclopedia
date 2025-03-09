@@ -78,29 +78,24 @@ function Homepage() {
                 <div className="page-container">
                     <div className="video-container">
                         <div className="video">
-                            <YouTube videoId="RVwsloCHjCU" opts={opts} onReady={onReady} style={divStyle}></YouTube>
+                            <YouTube videoId="yrWs1e_vw0U" opts={opts} onReady={onReady} style={divStyle} />
                         </div>
                     </div>
                     <div className="topics-container">
 
-                        <div className="topics-title">TOPICS FROM H3 SHOW #117</div>
+                        <div className="topics-title">TOPICS FROM H3 SHOW #118</div>
                         <div className="topics">
-                            <HomepagePersonCard person={people.find(x => x.name == "Galya")!} jumpToTime={() => jumpToTime(685)} />
-                            <TopicCard image={"https://assets-prd.ignimgs.com/2022/06/29/gaming-mouse-1656479071918.jpg"}
-                                headerText={"3 Years Ago"} description={"The DPI Guy"} url={"https://www.youtube.com/watch?v=QvGqpAcXNqo&t=6480"} 
-                                jumpToTime={() => jumpToTime(1345)} />
-                            <TopicCard image={"https://www.qsrmagazine.com/wp-content/uploads/2022/03/Atomic.jpg"}
-                                headerText={"2 weeks ago"} description={"Did Gabe actually challenge Ethan to atomic wings? 🤔"} url={"https://youtu.be/IG6GG1x0M9o&t=959"} 
-                                jumpToTime={() => jumpToTime(2191)} />
-                            <TopicCard image={"https://familydoctor.org/wp-content/uploads/2018/02/41808433_l.jpg"}
-                                headerText={"9 Months Ago"} description={"Ethan's last colonoscopy didn't go well..."} url={"https://www.youtube.com/watch?v=jvGC35qMLMw&t=1243s"} 
-                                jumpToTime={() => jumpToTime(158)} />
-                            <TopicCard image={"https://hips.hearstapps.com/hmg-prod/images/yoko-ono-1.jpg"}
-                                headerText={"6 Years Ago"} description={"Listening to Yoko Ono's Warzone (but it got claimed 😞)"} url={"https://youtu.be/fA8eOB91-fY?t=713"} 
-                                jumpToTime={() => jumpToTime(9531)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Machine Gun Kelly")!} jumpToTime={() => jumpToTime(37)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "The Foodie Boys")!} jumpToTime={() => jumpToTime(37)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Andrew Tate")!} jumpToTime={() => jumpToTime(37)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Avery")!} jumpToTime={() => jumpToTime(6725)} />
+                            <TopicCard image={"https://www.tradeinn.com/f/13776/137761880_2/roccat-kone-pure-ultra-gaming-mouse.webp"}
+                                headerText={"2 Years Ago"} description={"The Death of Dan's Mouse"} url={"https://www.youtube.com/watch?v=GgwXXGtUCgE&t=9177"} 
+                                jumpToTime={() => jumpToTime(666)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Matt Hoss")!} jumpToTime={() => jumpToTime(3077)} />
+                            <TopicCard image={"https://staticg.sportskeeda.com/editor/2025/01/019a9-17363187395886-1920.jpg"}
+                                headerText={"7 Months Ago"} description={"Seig Heil in Seattle?"} url={"https://youtu.be/gyIlayEQN3E&t=7525"} 
+                                jumpToTime={() => jumpToTime(6860)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Fancy Chef")!} jumpToTime={() => jumpToTime(7980)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Jake Paul")!} jumpToTime={() => jumpToTime(8220)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Logan Paul")!} jumpToTime={() => jumpToTime(8220)} />
                         </div>
                     </div>
                 </div>     

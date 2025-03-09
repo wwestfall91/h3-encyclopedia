@@ -214,6 +214,10 @@ H3H3Productions	5	01-16-2018	The Logan Paul Odyssey	https://www.youtube.com/watc
 H3H3Productions	6	04-28-2016	Joey Salads -- h3h3 reaction video	https://www.youtube.com/watch?v=H2ganadAS-4	
 H3H3Productions	7	05-08-2019	Instagram vs. Reality	https://youtu.be/OX_Bini29kU	
 H3H3Productions	8	10-05-2015	Feeding the Homeless -- h3h3 reaction video	https://youtu.be/W_qePqppbdQ	
+H3H3Productions	9	01-01-2016	The Big, the BOLD, the Beautiful (Re-Upload)	https://youtu.be/CXUs5FOo-JE	
+H3H3Productions	10	05-24-2016	We're Being Sued	https://youtu.be/fEGVOysbC8w	
+H3H3Productions	11	02-27-2017	We're Still Being Sued	https://youtu.be/m40bWgWH8Ro	
+H3H3Productions	12	08-23-2017	WE WON THE LAWSUIT!	https://youtu.be/9eN0CIyF2ok	
 H3Show	1	04-22-2024	Fresh Got His GF Pregnant & Demands She Gets Rid Of It (She’s Calling In)  - H3 Show #1	https://youtu.be/0lt0tTr-lj4	
 H3Show	2	04-24-2024	Catching Up On All The Tea We Missed - H3 Show #2	https://youtu.be/x2cyP6KJ0Uc	
 H3Show	3	04-26-2024	Green Screen Tournament 2024 - H3 Show #3	https://youtu.be/Xel3UegLOLQ	
@@ -253,6 +257,7 @@ H3Show	37	08-02-2024	Logan Paul Comes Out As The Worst Person Alive - H3 Show #3
 H3Show	38	08-05-2024	MrBeast Exposed in New York Times Exposé, Brooke Schofield Cancelled Over Old Tweets - H3 Show #38	https://youtu.be/W7LVYdyWwFU	
 H3Show	39	08-07-2024	Brooke Schofield Is NOT Forgiven - H3 Show #39	https://youtu.be/SiFKlWCDfuY	
 H3Show	40	08-09-2024	MrBeast Hired A Pedo, QT Hired A Queen, Sam's Last Supper - H3 Show #40	https://youtu.be/WXk7sEQlyIY	
+H3Show	41	08-12-2024	Ethan Plays In The Celebrity Poker Tour LIVE - H3 Show #41	https://youtu.be/rOWa-1JR6hI	
 H3Show	42	08-14-2024	I Won The Poker Tournament - H3 Show #42	https://youtu.be/oLWTNrvOd3c	
 H3Show	43	08-16-2024	Making Howie Mandel Watch The Worst Videos In Internet History - H3 Show #43	https://youtu.be/HyKgY7nwdrQ	
 H3Show	44	08-19-2024	Logan Paul Humiliates Himself In Italy à la Japan - H3 Show #44	https://youtu.be/6Skps2vLZ5I	
@@ -321,7 +326,8 @@ H3Show	113	02-22-2025	Unmasking The Harassment Campaign Against Us - H3 Show #11
 H3Show	114	02-24-2025	Tana Vs Joey Graceffa, Justin Baldoni Vs Blake Lively - H3 Show #114	https://youtu.be/smSkN-I2weE	
 H3Show	115	02-26-2025	I'm Going To War With The Entire Internet - H3 Show #115	https://youtu.be/bq4Bq0KXlGE	
 H3Show	116	02-28-2025	I Hired A Rabbi To Destroy My Yeezys, Fastest Man Alive Crew Contest - H3 Show #116	https://youtu.be/VQiExvFz8h8	
-H3Show	117	03-04-2025	Hasan Got Banned, Atomic Hot Wings Challenge (Ethan vs Gabe) - H3 Show #117	https://youtu.be/RVwsloCHjCU	
+H3Show	117	03-03-2025	Hasan Got Banned, Atomic Hot Wings Challenge (Ethan vs Gabe) - H3 Show #117	https://youtu.be/RVwsloCHjCU	
+H3Show	118	03-05-2025	Is Justin Bieber Ok? & Alabama Barker vs Bhad Bhabie Drama Explained - H3 Show #118	https://youtu.be/yrWs1e_vw0U	
 H3TV	1	07-17-2021	I Waited 16 YEARS To Play Half Life Alyx... & The Crew Ruined It - H3TV #1	https://youtu.be/3XCb0GrMix4	
 H3TV	2	07-24-2021	YouTuber House Tours, Make Ethan Laugh, Twitch Gambling Finale | H3TV Full Episode #2	https://www.youtube.com/watch?v=b9BRDiQPD-U	
 H3TV	3	07-31-2021	QAnon Lunatics & Unusual Memes - H3TV #3	https://youtu.be/GArWVPo-86s	
@@ -517,6 +523,7 @@ Misc	18	07-24-2021	Tom Hank's Son Threatens Ethan In DMs	https://youtu.be/nby5q0
 Misc	19	10-29-2022	Angering Ghosts At The Most Haunted Place In America - Halloween Special	https://youtu.be/2ddZ71IAjE4	
 Misc	20	06-21-2021	Ethan Klein Debates Steven Crowder (Ft. Sam Seder) - H3 Podcast #248	https://youtu.be/Fvg5RTrFLfI	
 Misc	21	06-17-2022	Frenemies Is Back & Short Lived	https://youtu.be/t29lvnxG0L4	
+MakeEthanLaugh	1	11-18-2020	Make Ethan Laugh - Episode 1	https://youtu.be/5xIfQkrbgdM	
 OTR	1	05-27-2021	Ethan Destroys The New Office - Off The Rails #1	https://www.youtube.com/watch?v=JHGs0juAZX4	
 OTR	2	06-03-2021	Dream, Keemstar, All Gas No Breaks Interview with Andrew Callaghan - Off The Rails #2	https://www.youtube.com/watch?v=RSirCfZjonY	
 OTR	3	07-01-2021	Trishas Apology & Ace Family Scam - Off The Rails #3	https://www.youtube.com/watch?v=6kNZujESbNI	
@@ -629,6 +636,7 @@ OTR	110	03-27-2024	Massive Steven Crowder Lawsuit, Diddys Mansions Raided - Off 
 OTR	111	04-03-2024	This Beauty TikToker Is Coming After Me - Off The Rails #111	https://www.youtube.com/watch?v=xIl2dEZnvYQ	
 Podcast	4	04-10-2017	H3 Podcast #4 - iDubbbzTV	https://youtu.be/7khgBDQR-WQ	
 Podcast	5	04-10-2017	H3 Podcast #5 - Keemstar	https://youtu.be/8CYAwhTI5vs	
+Podcast	6	04-10-2017	H3 Podcast #6 - Philip DeFranco	https://youtu.be/sImnKoiMEiI	
 Podcast	7	05-22-2017	H3 Podcast #7 - Post Malone & Joji	https://youtu.be/l65hR94nfqY	
 Podcast	8	05-29-2017	H3 Podcast #8 - Markiplier & Ian Hecox (Smosh)	https://youtu.be/hrEFpGiETu8	
 Podcast	9	06-05-2017	H3 Podcast #9 - Joey Salads	https://youtu.be/IHL6HazIfQ0	

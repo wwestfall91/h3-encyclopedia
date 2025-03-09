@@ -24,6 +24,7 @@ Ariana Grande	https://cdn.britannica.com/92/211792-050-E764F875/American-singer-
 Aubrey Smalls	https://s.abcnews.com/images/Entertainment/230713_abcnl_prime_tiktalk_hpMain_16x9_1600.jpg	Enemy
 Austin McBroom	https://www.the-sun.com/wp-content/uploads/sites/6/2020/07/NINTCHDBPICT000597015821.jpg	Enemy
 Ava Kris Tyson	https://static.wikia.nocookie.net/misterbeast/images/8/88/Kris_Tyson_2023.png	Neutral
+Avery	https://pbs.twimg.com/profile_images/1396297782806278146/Uz0vjK3t_400x400.jpg	Family
 Awkwafina	https://hips.hearstapps.com/hmg-prod/images/nora-lum-known-by-her-rapper-stage-name-awkwafina-arrives-news-photo-1127183835-1551053830.jpg	Neutral
 Badhasbara	https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/53/1b/ac/531bac57-dc76-6872-d185-505e7e9e12ad/mza_18237388881385300407.jpg/1200x1200bf.webp	Enemy
 Barrack Obama	https://cdn.britannica.com/44/127844-050-33AB565F/Barack-Obama-2009.jpg	Neutral
@@ -225,6 +226,7 @@ Markiplier	https://cdn.mos.cms.futurecdn.net/HQPvxpY7JYfgyRhuY6tXNJ-1200-80.jpg	
 Marques Brownlee	https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2024-11/241113-Marques-Brownlee-al-1409-6a7509.jpg	Friend
 Martin Riese	https://images.squarespace-cdn.com/content/v1/6139d6d7fefec3776e8c802c/1631181173932-8WT12PHMPWDEZ15GDYXJ/SD_M_Riese_R6A3275.jpg	Friend
 Martin Ssempa	https://76crimes.com/wp-content/uploads/2018/06/Martin-Ssempa-June-2018.jpg	Neutral
+Matt Hoss	https://i.ytimg.com/vi/ME2E3TgLkFw/maxresdefault.jpg	Enemy
 Matt Rife	https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Matt_Rife%2C_2021.jpg/640px-Matt_Rife%2C_2021.jpg	Enemy
 Matt Shea	https://www.thesun.co.uk/wp-content/uploads/2023/02/bc9aac8c-1a07-42c5-bc2a-e5af4dad7029.jpg	Friend
 Matt Turner	https://static.wikia.nocookie.net/bigbrother/images/8/83/US24_Turner_Large.jpg	Friend
@@ -263,6 +265,7 @@ Pastor Manning	https://www.advocate.com/media-library/pastor-james-david-manning
 Patrice Wilson	https://thumb.spokesman.com/CXUhTQSDFvVSXO9-qdMVo9VD11g=/2500x1875/smart/media.spokesman.com/photos/2011/04/22/srx_Patrice_Wilson.jpg	Enemy
 Paula White	https://c.files.bbci.co.uk/2390/production/_115240190_prayers.jpg	Neutral
 PaymoneyWubby	https://static.wikia.nocookie.net/paymoneywubby/images/b/be/Paymoneywubby.png	Neutral
+Peanut Butter Craig	https://pbs.twimg.com/profile_images/685221852780728320/aDegjBbS_400x400.jpg	Neutral
 Pearl Davis	https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Pearl_Davis_on_James_English.jpg/640px-Pearl_Davis_on_James_English.jpg	Enemy
 Pete Davidson	https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/774711_v9_bb.jpg	Neutral
 Phil Hellmuth	https://upload.wikimedia.org/wikipedia/commons/1/1d/Phil_Hellmuth_2021.jpg	Neutral
@@ -316,6 +319,7 @@ Tana Mongeau	https://i2.wp.com/hollywoodlife.com/wp-content/uploads/2019/06/tana
 Tati Westbrook	https://akns-images.eonline.com/eol_images/Entire_Site/2019421/rs_600x600-190521110753-600-Tati-Westbrook-LT-052119-Youtube.jpg	Neutral
 Ted Cruz	https://static.texastribune.org/media/files/600d28682a2731e6cfa9649926acbc5a/Ted-Cruz.jpg	Neutral
 Terrence Howard	https://static.wikia.nocookie.net/empiretvshow/images/0/02/Terrence-howard.jpg	Neutral
+The Foodie Boys	https://i.ytimg.com/vi/7MKG6ylRc1A/hq720.jpg	Neutral
 The Good Doctor	https://static1.srcdn.com/wordpress/wp-content/uploads/2023/05/the-good-doctor-freddie-highmore.jpeg	Neutral
 The LeBrant Family	https://new-cdn.mamamia.com.au/mamamia-pwa.appspot.com/cms_images/variations/1200x800-939632092479.jpg	Neutral
 The Prince Family	https://static.wikia.nocookie.net/youtube/images/6/6e/THE_PRINCE_FAMILY.jpg	Enemy
@@ -353,4 +357,3 @@ XQC	https://image-cdn.essentiallysports.com/wp-content/uploads/Debating-xQc-On-C
 Yi Long Ma	https://img-9gag-fun.9cache.com/photo/axBmXVW_460s.jpg	Neutral
 Yung Gravy	https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Yung_Gravy_2023_%28cropped%29.jpg/800px-Yung_Gravy_2023_%28cropped%29.jpg	Friend
 Zach	https://static.wikia.nocookie.net/h3h3productions/images/9/90/GVL6evk8_400x400.jpg	Family
-The Foodie Boys	https://i.ytimg.com/vi/7MKG6ylRc1A/hq720.jpg	Neutral

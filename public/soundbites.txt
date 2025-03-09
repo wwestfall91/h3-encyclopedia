@@ -1,4 +1,5 @@
-title	sound	episodetype	episodenumber	episodedate	time	person	timestampurl	image
+title	sound	episodetype	episodenumber	episodedate	time	Dan	timestampurl	image
+WHAT?!	Dan_WHAT.mp3	H3Show	118	03-05-2025	9177	Dan	https://youtu.be/yrWs1e_vw0U&t=9177	
 Ethan, WAKE UP!!!	Dan_EthanWAKEUP.mp3	H3Show	115	02-26-2025	4108	Dan	https://youtu.be/bq4Bq0KXlGE&t=4108	
 Uhh... BASED!	Frogan_UhBased.mp3	H3Show	113	02-22-2025	10445	Frogan	https://youtu.be/UK47xzasVxA&t=10445	
 Oh God...	JayShetty_OhGod.mp3	SYNT	97	02-20-2025	5249	Jay Shetty	https://youtu.be/vVaHCn3smdE&t=5249	
