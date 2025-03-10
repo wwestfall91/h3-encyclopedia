@@ -5,6 +5,8 @@ import { Moment } from "../../models/Moments/Moment";
 import "./modal.scss";
 import { useEffect, useState } from "react";
 
+// React-YouTube Documentation: https://developers.google.com/youtube/iframe_api_reference#Events
+// React-YouTube Documentation: https://www.npmjs.com/package/react-youtube
 export interface Props {
   title: string;
   description: string;
@@ -17,29 +19,104 @@ export function MomentsModal(props: Props) {
   const {episodes} = useDataContext();
   const [player, setPlayer] = useState<YouTubePlayer>();
   const [selectedMoment, setSelectedMoment] = useState<Moment>();
+  const [isAutoPlaying, setIsAutoPlaying] = useState<boolean>(false);
+  const [autoPlayIndex, setAutoPlayIndex] = useState<number>(0);
+
+  // useEffect(() => {
+  //   if(!player || !selectedMoment)
+  //     return;
+
+  //   console.log("Player: ", player)
+  //   console.log(`LOADING ${selectedMoment.title}`)
+  //   // player.cueVideoById({'videoId': selectedMoment.getVideoId(), 'startSeconds': 50, 'endSeconds': 60})
+
+  // }, [selectedMoment]);
+  const beginAutoPlay = () => {
+    if(!player)
+      return
+
+    setAutoPlayIndex(0);
+    setIsAutoPlaying(true)
+    setSelectedMoment(props.timeStamps[0])
+    player.cueVideoById({'videoId': props.timeStamps[0].getVideoId(), 'startSeconds': 50, 'endSeconds': 60});  
+    player.playVideo();
+  }
 
   useEffect(() => {
-    if(props.timeStamps.length <= 0 || !player)
-      return;
-    
-    setSelectedMoment(props.timeStamps[0]);
-    player.loadVideoById(props.timeStamps[0].getVideoId(), props.timeStamps[0].getTime())
-  }, [props.timeStamps.length]);
+    onStateChange(undefined)
+  }, [isAutoPlaying]);
 
-  useEffect(() => {
-    if(!player || !selectedMoment)
-      return;
+  // const onAutoPlay = async () => {
+  //   if(!isAutoPlaying)
+  //     return;
 
-    player.loadVideoById({'videoId': selectedMoment.getVideoId(), 'startSeconds': 50, 'endSeconds':60})
-  }, [selectedMoment]);
+  //   if(!player)
+  //     return;
+
+  //   let currentIndex = 0; // Assume the index is 0, unless there is a selectedMoment
+  //   let nextMoment = props.timeStamps[0];
+
+  //   if(selectedMoment){
+  //     currentIndex = props.timeStamps.indexOf(selectedMoment!); // Otherwise, find the current index
+  //     nextMoment = props.timeStamps[currentIndex + 1];
+  //   }
+
+  //   if(await player.getPlayerState() == YouTube.PlayerState.UNSTARTED){
+  //     player.playVideo();
+  //   }
+
+  //   if(await player.getPlayerState() == YouTube.PlayerState.ENDED){
+  //     player.cueVideoById({'videoId': nextMoment.getVideoId(), 'startSeconds': 50, 'endSeconds': 60})
+  //   }
+
+  //   if(await player.getPlayerState() == YouTube.PlayerState.CUED){
+  //     player.playVideo();
+  //     setSelectedMoment(nextMoment)
+  //   }
+  // }
+
+  // const onClick = (moment: Moment) => {
+  //   console.log("ON CLICK")
+  //   if(!player)
+  //     return;
+
+  //   player.cueVideoById({'videoId': moment.getVideoId(), 'startSeconds': 50, 'endSeconds': 60});  
+  // }
 
   const onReady = (event : any) => {
     setPlayer(event.target);
+
+    // if(!selectedMoment)
+    //   return
+
+    // const currentIndex = props.timeStamps.indexOf(selectedMoment);
+    // const nextMoment = props.timeStamps[currentIndex + 1];
+
+    // setSelectedMoment(nextMoment)
   }
 
   const onStateChange = async (event: any) => {
-    if(await player?.getPlayerState() == YouTube.PlayerState.ENDED){
-      player?.loadVideoById({'videoId': props.timeStamps[1].getVideoId(), 'startSeconds': 50, 'endSeconds':60})
+    if(!isAutoPlaying)
+      return;
+
+    if(!player)
+      return;
+
+    let currentIndex = 0; // Assume the index is 0, unless there is a selectedMoment
+    let nextMoment = props.timeStamps[0];
+
+    if(selectedMoment){
+      currentIndex = props.timeStamps.indexOf(selectedMoment!); // Otherwise, find the current index
+      nextMoment = props.timeStamps[currentIndex + 1];
+    }
+
+    if(await player.getPlayerState() == YouTube.PlayerState.ENDED){
+      player.cueVideoById({'videoId': nextMoment.getVideoId(), 'startSeconds': 50, 'endSeconds': 60})
+    }
+
+    if(await player.getPlayerState() == YouTube.PlayerState.UNSTARTED){
+      player.playVideo();
+      setSelectedMoment(nextMoment)
     }
   }
 
@@ -77,10 +154,10 @@ export function MomentsModal(props: Props) {
           </div>
           <div className="modal-data">
             <div className="data-section">
-              <div className="related-links">Moments</div>
+              <div className="related-links" onClick={() => beginAutoPlay()}>Moments</div>
               <div className="modal-links-container">
                 {sortMomentsByDate(props.timeStamps, episodes).map((moment) => (
-                  <div className={`link-row ${selectedMoment?.title == moment.title ? "selected" : "" }`} onClick={() => {setSelectedMoment(moment)}}>
+                  <div className={`link-row ${selectedMoment?.title == moment.title ? "selected" : "" }`} onClick={() => {onClick(moment)}}>
                     <div className="related-links-date">
                       {episodes.filter((x : Episode) => x.type == moment.episodeType && x.number == moment.episodeNumber)[0].date}
                     </div>

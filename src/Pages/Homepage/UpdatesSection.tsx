@@ -163,10 +163,6 @@ function UpdatesSection() {
                 <div className="section-data">
                     <div className="topic">
                         <div className="note-topic">{"Updated Picture"}</div>
-                        <TopicComponent topic={topics.find(x => x.name == "The Hairline King")!}></TopicComponent>
-                    </div>
-                    <div className="topic">
-                        <div className="note-topic">{"Updated Picture"}</div>
                         <TopicComponent topic={topics.find(x => x.name == "AB Boxing Matches")!}></TopicComponent>
                     </div>
                 </div>
