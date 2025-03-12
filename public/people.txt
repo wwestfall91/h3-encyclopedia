@@ -75,6 +75,7 @@ Colleen Ballinger	https://media.distractify.com/brand-img/KqylDWUeV/0x0/colleen-
 Comrade Casey	https://pbs.twimg.com/profile_images/1877584959751274496/aupDQnXo_400x400.jpg	Enemy
 Corpse Husband	https://upload.wikimedia.org/wikipedia/en/a/a2/Corpse_Husband.jpg	Neutral
 Costco Guys	https://www.tubefilter.com/wp-content/uploads/2024/08/costco-guys.jpg	Neutral
+Cousin Tim	Images\Cousin_Tim.png	
 Curly Howard	https://npr.brightspotcdn.com/dims4/default/731bb89/2147483647/strip/true/crop/900x900+0+0/resize/880x880!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwmky%2Ffiles%2F201810%2Fcurly.jpg	Neutral
 Curtis Atwood	https://www.lifeandstylemag.com/wp-content/uploads/2019/05/curtis-atwood.png	Neutral
 Dad	https://static.wikia.nocookie.net/dad-feels/images/e/ef/Unnamed_1_7.jpg	Enemy

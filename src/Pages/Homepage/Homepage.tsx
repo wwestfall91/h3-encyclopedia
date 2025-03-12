@@ -78,24 +78,28 @@ function Homepage() {
                 <div className="page-container">
                     <div className="video-container">
                         <div className="video">
-                            <YouTube videoId="yrWs1e_vw0U" opts={opts} onReady={onReady} style={divStyle} />
+                            <YouTube videoId="ZDnseOSdk_8" opts={opts} onReady={onReady} style={divStyle} />
                         </div>
                     </div>
                     <div className="topics-container">
 
-                        <div className="topics-title">TOPICS FROM H3 SHOW #118</div>
+                        <div className="topics-title">TOPICS FROM H3 SHOW #119</div>
                         <div className="topics">
-                            <HomepagePersonCard person={people.find(x => x.name == "Avery")!} jumpToTime={() => jumpToTime(6725)} />
-                            <TopicCard image={"https://www.tradeinn.com/f/13776/137761880_2/roccat-kone-pure-ultra-gaming-mouse.webp"}
-                                headerText={"2 Years Ago"} description={"The Death of Dan's Mouse"} url={"https://www.youtube.com/watch?v=GgwXXGtUCgE&t=9177"} 
-                                jumpToTime={() => jumpToTime(666)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Matt Hoss")!} jumpToTime={() => jumpToTime(3077)} />
-                            <TopicCard image={"https://staticg.sportskeeda.com/editor/2025/01/019a9-17363187395886-1920.jpg"}
-                                headerText={"7 Months Ago"} description={"Seig Heil in Seattle?"} url={"https://youtu.be/gyIlayEQN3E&t=7525"} 
-                                jumpToTime={() => jumpToTime(6860)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Fancy Chef")!} jumpToTime={() => jumpToTime(7980)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Jake Paul")!} jumpToTime={() => jumpToTime(8220)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Logan Paul")!} jumpToTime={() => jumpToTime(8220)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Cousin Tim")!} jumpToTime={() => jumpToTime(6148)} />
+                            <TopicCard image={"https://static.wikia.nocookie.net/megaman/images/4/42/Kotobukiya%27s_X_Model_Kit.jpg"}
+                                headerText={"1 Year Ago"} description={"Dan Grew Up With Megaman"} url={"https://www.youtube.com/watch?v=cfZM73q7NOc&t=1808"} 
+                                jumpToTime={() => jumpToTime(3616)} />
+                            <TopicCard image={"Images/Ethan_SHOCKED.png"}
+                                headerText={"4 Years Ago"} description={"Ethan Googles 'Gang Green Penis'..."} url={"https://www.youtube.com/watch?v=E3MQh8Z6g3I&t=3959"} 
+                                jumpToTime={() => jumpToTime(5032)} />
+                            <TopicCard image={"Images/Ethan_Disgusted.png"}
+                                headerText={"1 Month Ago"} description={"Ethan 'accidentally' Googles mangled dick"} url={"https://youtu.be/smSkN-I2weE&t=8447"} 
+                                jumpToTime={() => jumpToTime(5032)} />
+                            <TopicCard image={"Images/Nates_Dog.png"}
+                                headerText={"1 Month Ago"} description={"Nate thinks his dog looks like Olive - Origin"} url={"https://youtu.be/A8MzE_Pr9XI&t=11196"} 
+                                jumpToTime={() => jumpToTime(3724)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "The Rizzler")!} jumpToTime={() => jumpToTime(9360)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Costco Guys")!} jumpToTime={() => jumpToTime(9435)} />
                         </div>
                     </div>
                 </div>     
