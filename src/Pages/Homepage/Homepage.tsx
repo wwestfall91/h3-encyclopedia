@@ -78,28 +78,50 @@ function Homepage() {
                 <div className="page-container">
                     <div className="video-container">
                         <div className="video">
-                            <YouTube videoId="ZDnseOSdk_8" opts={opts} onReady={onReady} style={divStyle} />
+                            <YouTube videoId="wWG9Msgmnh4" opts={opts} onReady={onReady} style={divStyle} />
                         </div>
                     </div>
                     <div className="topics-container">
 
-                        <div className="topics-title">TOPICS FROM H3 SHOW #119</div>
+                        <div className="topics-title">TOPICS FROM H3 SHOW #120</div>
                         <div className="topics">
-                            <HomepagePersonCard person={people.find(x => x.name == "Cousin Tim")!} jumpToTime={() => jumpToTime(6148)} />
-                            <TopicCard image={"https://static.wikia.nocookie.net/megaman/images/4/42/Kotobukiya%27s_X_Model_Kit.jpg"}
-                                headerText={"1 Year Ago"} description={"Dan Grew Up With Megaman"} url={"https://www.youtube.com/watch?v=cfZM73q7NOc&t=1808"} 
-                                jumpToTime={() => jumpToTime(3616)} />
-                            <TopicCard image={"Images/Ethan_SHOCKED.png"}
-                                headerText={"4 Years Ago"} description={"Ethan Googles 'Gang Green Penis'..."} url={"https://www.youtube.com/watch?v=E3MQh8Z6g3I&t=3959"} 
-                                jumpToTime={() => jumpToTime(5032)} />
-                            <TopicCard image={"Images/Ethan_Disgusted.png"}
-                                headerText={"1 Month Ago"} description={"Ethan 'accidentally' Googles mangled dick"} url={"https://youtu.be/smSkN-I2weE&t=8447"} 
-                                jumpToTime={() => jumpToTime(5032)} />
-                            <TopicCard image={"Images/Nates_Dog.png"}
-                                headerText={"1 Month Ago"} description={"Nate thinks his dog looks like Olive - Origin"} url={"https://youtu.be/A8MzE_Pr9XI&t=11196"} 
-                                jumpToTime={() => jumpToTime(3724)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "The Rizzler")!} jumpToTime={() => jumpToTime(9360)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Costco Guys")!} jumpToTime={() => jumpToTime(9435)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Philip Defranco")!} jumpToTime={() => jumpToTime(9225)} />
+                            <TopicCard 
+                                image={"https://pbs.twimg.com/tweet_video_thumb/GdHCwU8aUAA0Fjh.jpg"}
+                                headerText={"1 Months Ago"} 
+                                description={"Ethan Poops while The Crew watches The Rizzler Scream"} 
+                                url={"https://youtu.be/6KV16LWcnTY&t=5693"} 
+                                jumpToTime={() => jumpToTime(2212)} />
+                            <TopicCard 
+                                image={"https://i.kym-cdn.com/photos/images/original/001/051/806/03c.jpg"}
+                                headerText={"6 Years Ago"} 
+                                description={"The FIRST Godfather"} 
+                                url={"https://www.youtube.com/watch?v=ExiLfQ_RyAA&t=452s"} 
+                                jumpToTime={() => jumpToTime(1406)} />
+                            <TopicCard 
+                                image={"/Images/Zach_Brother_Feet.png"}
+                                headerText={"3 Years Ago"} 
+                                description={"C-Man Rates Zach's Brother's Feet"} 
+                                url={"https://www.youtube.com/watch?v=wtlYFLAEQKw&t=3725s"} 
+                                jumpToTime={() => jumpToTime(3114)} />
+                            <TopicCard 
+                                image={"https://cdn-2.cinemaparadiso.co.uk/2108060450304_l.jpg"}
+                                headerText={"7 Months Ago"} 
+                                description={"Ethan LOVES The Fifth Element"} 
+                                url={"https://youtu.be/uPFyV_cLylI?t=5962"} 
+                                jumpToTime={() => jumpToTime(308)} />
+                            <TopicCard 
+                                image={"https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Hamilton-poster.jpg/220px-Hamilton-poster.jpg"}
+                                headerText={"6 Months Ago"} 
+                                description={"Dan LOVES Hamilton"} 
+                                url={"https://www.youtube.com/watch?v=9JPShI_iglU&t=656s"} 
+                                jumpToTime={() => jumpToTime(1686)} />
+                            <TopicCard 
+                                image={"https://i0.wp.com/musically.com/wp-content/uploads/2018/07/triller.png"}
+                                headerText={"4 Months Ago"} 
+                                description={"Dan puts his life savings into Triller IPO"} 
+                                url={"https://www.youtube.com/watch?v=M9dYrhdXN88&t=10400s"} 
+                                jumpToTime={() => jumpToTime(550)} />
                         </div>
                     </div>
                 </div>     

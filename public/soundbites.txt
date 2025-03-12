@@ -1,4 +1,7 @@
-title	sound	episodetype	episodenumber	episodedate	time	Dan	timestampurl	image
+title	sound	episodetype	episodenumber	episodedate	time	person	timestampurl	image
+Gorgeous	Love_Gorgeous.mp3	H3Show	120	03-11-2025	9326	Love	https://youtu.be/wWG9Msgmnh4&t=9326	
+Weird Goat Noise	Misc_WeirdGoatNoise.mp3	H3Show	120	03-11-2025	2058	Misc	https://youtu.be/wWG9Msgmnh4&t=2058	/Images/BlueHairedGirl.png
+They're Investigating You Homie!	Misc_TheyreInvestigatingYouHomie.mp3	H3Show	120	03-11-2025	2058	Misc	https://youtu.be/wWG9Msgmnh4&t=2058	/Images/BlueHairedGirl.png
 WHAT?!	Dan_WHAT.mp3	H3Show	118	03-05-2025	9177	Dan	https://youtu.be/yrWs1e_vw0U&t=9177	
 Ethan, WAKE UP!!!	Dan_EthanWAKEUP.mp3	H3Show	115	02-26-2025	4108	Dan	https://youtu.be/bq4Bq0KXlGE&t=4108	
 Uhh... BASED!	Frogan_UhBased.mp3	H3Show	113	02-22-2025	10445	Frogan	https://youtu.be/UK47xzasVxA&t=10445	
@@ -50,7 +53,7 @@ How am I supposed to do the show when I'm covered in slime?!	Dan_HowAmISupposeTo
 *WoW Raid Warning*	Misc_RaidWarningSound.mp3	H3Show	16	05-29-2024	5720	Misc	https://youtu.be/jvGC35qMLMw&t=5720	https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/07/world-of-warcraft-the-war-within-raid-schedule-changes.jpg
 Look what they're doing to the cow bro	BigNik_LookWhatTheyreDoingToTheCow.mp3	H3Show	15	05-24-2024	1663	Big Nik	https://youtu.be/iiz9Gispe5I&t=1663	
 I know Ethan hates me now	MoistCritical_EthanHatesMeNow.mp3	H3Show	15	05-24-2024	6226	Moist Critical	https://youtu.be/iiz9Gispe5I&t=6226	
-Shark Tank Stinger #1	Misc_SharkTank1.mp3	H3Show	15	05-24-2024	6900	Misc	https://youtu.be/iiz9Gispe5I&t=6900	https://static.wikia.nocookie.net/sharktank/images/e/ec/Sharkss.jpg
+Shark Tank Stinger #1	Misc_SharkTank1.mp3	H3Show	15	05-24-2024	6900	Misc	https://youtu.be/iiz9Gispe5I&t=6900	https://m.media-amazon.com/images/S/pv-target-images/2e3ca20bf1d157d4c6373828a91077fc037a704f6641712b6fe795587f10010f.jpg
 Shark Tank Stinger #2	Misc_SharkTank2.mp3	H3Show	15	05-24-2024	6900	Misc	https://youtu.be/iiz9Gispe5I&t=6900	https://m.media-amazon.com/images/S/pv-target-images/2e3ca20bf1d157d4c6373828a91077fc037a704f6641712b6fe795587f10010f.jpg
 It's cool to be a soundbite I suppose	MoistCritical_CoolToBeASoundbite.mp3	H3Show	15	05-24-2024	6226	Moist Critical	https://youtu.be/iiz9Gispe5I&t=6226	
 RUDY COFFEE!	RudyGiuliani_RUDYCOFFEE.mp3	H3Show	14	05-22-2024	3206	Rudy Giuliani	https://youtu.be/dTNUv14yoKI&t=3206	
@@ -380,19 +383,19 @@ Hurts nobody	JoeBiden_HurtsNobody.mp3	AfterDark	36	05-13-2021	4806	Joe Biden	htt
 Safe Moon going to the moon baby!!	Misc_SafeMoonGoingToTheMoon.mp3	AfterDark	36	05-13-2021	11090	Misc	https://www.youtube.com/watch?v=4CP_nl037_c&t=11090	https://web-assets.esetstatic.com/wls/2021/09/falsa-app-criptomoneda-safemoon-1.jpg
 Theres no such thing as a coincidence	WilliamKnight_TheresNoSuchThingAsACoincidence.mp3	AfterDark	35	05-07-2021	7214	William Knight	https://www.youtube.com/watch?v=uw0c45OwQV0&t=7214	
 Chet Hanks Joker Laugh	ChetHanks_Laugh.mp3	AfterDark	34	04-30-2021	8328	Chet Hanks	https://www.youtube.com/watch?v=ISvqL4D7SL4&t=8328	
-Trying to think but nothing happens	Curly_ImTryingToThinkButNothingHappens.mp3	Podcast	245	04-29-2021	2851	Curly Howard	https://www.youtube.com/watch?v=Htq468essmM&t=2851	
-I Left that Yogurt Store and Didnt Get the Yogurt I Wanted	DemiLovato_DidntGetTheYogurtIWanted.mp3	Podcast	245	04-29-2021	4810	Demi Lovato	https://www.youtube.com/watch?v=Htq468essmM&t=4810	
-And then I had a hard time the rest of the weekend	DemiLovato_HardTimeWeekend.mp3	Podcast	245	04-29-2021	4817	Demi Lovato	https://www.youtube.com/watch?v=Htq468essmM&t=4817	
+Trying to think but nothing happens	Curly_ImTryingToThinkButNothingHappens.mp3	Podcast	245	04-29-2021	2851	Curly Howard	https://youtu.be/Htq468essmM&t=2851	
+I Left that Yogurt Store and Didnt Get the Yogurt I Wanted	DemiLovato_DidntGetTheYogurtIWanted.mp3	Podcast	245	04-29-2021	4810	Demi Lovato	https://youtu.be/Htq468essmM&t=4810	
+And then I had a hard time the rest of the weekend	DemiLovato_HardTimeWeekend.mp3	Podcast	245	04-29-2021	4817	Demi Lovato	https://youtu.be/Htq468essmM&t=4817	
 Im a fucking savage you gotta do it	GregPaul_ImAFuckingSavage.mp3	AfterDark	33	04-23-2021	1870	Greg Paul	https://www.youtube.com/watch?v=MjDYycK6n7M&t=1870	
 Money Ethan	Misc_MoneyEthan.mp3	AfterDark	33	04-23-2021	241	Misc	https://www.youtube.com/watch?v=MjDYycK6n7M&t=241	
-Shut up Bitch	TheRock_ShutUpBitch.mp3	Podcast	244	04-22-2021	4730	The Rock	https://www.youtube.com/watch?v=bfKPts4BJkA&t=4730	
-Turned the Friggin Frogs Gay	AlexJones_TheyTurnTheFreakingFrogsGay.mp3	Podcast	243	04-15-2021	398	Alex Jones	https://www.youtube.com/watch?v=0Os_vIpQXg4&t=398	
-Hi Im Dick Tips	DickTips_HiImDickTips.mp3	Podcast	242	04-08-2021	82	Dick Tips	https://www.youtube.com/watch?v=PcDqarjl4w0&t=82	
-WOMP WOMP WOMP	JamesCharles_WompWompWomp.mp3	Podcast	242	04-08-2021	389	James Charles	https://www.youtube.com/watch?v=PcDqarjl4w0&t=389	
-YeaaAaaeEeeaaAaaeeEeEAaaH	JamesCharles_YeaaAaaeeeEeeaaAaaeeeEeeeEAaaaaH.mp3	Podcast	242	04-08-2021	389	James Charles	https://www.youtube.com/watch?v=PcDqarjl4w0&t=389	
-Anal sex	RudyGuiliani_AnalSex.mp3	Podcast	242	04-08-2021	4119	Rudy Giuliani	https://www.youtube.com/watch?v=PcDqarjl4w0&t=4119	
-Its a sexual dance	RudyGuiliani_ItsASexualDance.mp3	Podcast	242	04-08-2021	4105	Rudy Giuliani	https://www.youtube.com/watch?v=PcDqarjl4w0&t=4105	
-Time to take a short break	RudyGuiliani_TimeToTakeAShortBreak.mp3	Podcast	242	04-08-2021	4671	Rudy Giuliani	https://www.youtube.com/watch?v=PcDqarjl4w0&t=4671	
+Shut up Bitch	TheRock_ShutUpBitch.mp3	Podcast	244	04-22-2021	4730	The Rock	https://youtu.be/bfKPts4BJkA&t=4730	
+Turned the Friggin Frogs Gay	AlexJones_TheyTurnTheFreakingFrogsGay.mp3	Podcast	243	04-15-2021	398	Alex Jones	https://youtu.be/0Os_vIpQXg4&t=398	
+Hi Im Dick Tips	DickTips_HiImDickTips.mp3	Podcast	242	04-08-2021	82	Dick Tips	https://youtu.be/PcDqarjl4w0&t=82	
+WOMP WOMP WOMP	JamesCharles_WompWompWomp.mp3	Podcast	242	04-08-2021	389	James Charles	https://youtu.be/PcDqarjl4w0&t=389	
+YeaaAaaeEeeaaAaaeeEeEAaaH	JamesCharles_YeaaAaaeeeEeeaaAaaeeeEeeeEAaaaaH.mp3	Podcast	242	04-08-2021	389	James Charles	https://youtu.be/PcDqarjl4w0&t=389	
+Anal sex	RudyGuiliani_AnalSex.mp3	Podcast	242	04-08-2021	4119	Rudy Giuliani	https://youtu.be/PcDqarjl4w0&t=4119	
+Its a sexual dance	RudyGuiliani_ItsASexualDance.mp3	Podcast	242	04-08-2021	4105	Rudy Giuliani	https://youtu.be/PcDqarjl4w0&t=4105	
+Time to take a short break	RudyGuiliani_TimeToTakeAShortBreak.mp3	Podcast	242	04-08-2021	4671	Rudy Giuliani	https://youtu.be/PcDqarjl4w0&t=4671	
 Isolated Fart	WendyWilliams_Fart.mp3	AfterDark	29	03-26-2021	4819	Wendy Williams	https://www.youtube.com/watch?v=Ze3pzXECLzY&t=4819	
 Okay Ethan	JeffWittek_OkayEthan.mp3	Frenemies	26	03-21-2021	7844	Jeff Wittek	https://www.youtube.com/watch?v=0XCZ-t5e-fI&t=7844	
 Dans a good man	JoeBiden_DansAGoodMan.mp3	AfterDark	28	03-19-2021	435	Joe Biden	https://www.youtube.com/watch?v=iKpd0ZTpkp8&t=435	
@@ -522,7 +525,7 @@ Someone save me	VinDiesel_SomeoneSaveMe.mp3	Podcast	21	08-17-2017	1317	Vin Diese
 Talk to me Baby	VinDiesel_TalkToMeBaby.mp3	Podcast	21	08-17-2017	1164	Vin Diesel	https://youtu.be/MBZC4FxMQ_E&t=1164	
 When did this turn into beautiful world	VinDiesel_WhenDidThisTurnIntoBeautifulWorld.mp3	Podcast	21	08-17-2017	1318	Vin Diesel	https://youtu.be/MBZC4FxMQ_E&t=1318	
 Wow man	VinDiesel_WowMan.mp3	Podcast	21	08-17-2017	1192	Vin Diesel	https://youtu.be/MBZC4FxMQ_E&t=1192	
-All different flavors 1	JimmieLee_AllDifferentFlavors1.mp3	Podcast	20	08-13-2017	1631	Jidion	https://youtu.be/rq8HL3jVy-M&t=1631	
+All different flavors #1	JimmieLee_AllDifferentFlavors1.mp3	Podcast	20	08-13-2017	1631	Jimmie Lee	https://youtu.be/rq8HL3jVy-M&t=1631	
 Im a motha freakin blueberry	LoganPaul_ImAMotherFreakingBlueberry.mp3	H3H3Productions	3	12-09-2016	684	Logan Paul	https://youtu.be/q7Gh_-KDXAk&t=684	
 Let me tell you bout banana	LoganPaul_LetMeTellYouAboutBanana.mp3	H3H3Productions	3	12-09-2016	684	Logan Paul	https://youtu.be/q7Gh_-KDXAk&t=684	
 Ohoho Now Im a strawberry	LoganPaul_NowImAStrawberry.mp3	H3H3Productions	3	12-09-2016	684	Logan Paul	https://youtu.be/q7Gh_-KDXAk&t=684	

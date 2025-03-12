@@ -1,14 +1,13 @@
 import MomentComponent from "../../components/Moments/MomentComponent/MomentComponent";
 import SoundbiteCard from "../../components/SoundbiteCard/SoundbiteCard";
 import { useDataContext } from "../../context/DataContext";
-import TopicComponent from "../Iceberg/TopicComponent";
 import PersonCard from "../PeoplePage/PersonCard";
 import "./UpdatesSection.scss"
 import trafficReport from "../../../public/TrafficReport.mp4"
 import { useState } from "react";
 
 function UpdatesSection() {
-    const { soundbites, topics, people, moments } = useDataContext();
+    const { soundbites, people, moments } = useDataContext();
     const [trafficReportEnded, setTrafficReportEnded] = useState(true);
 
     return (
@@ -21,6 +20,10 @@ function UpdatesSection() {
             <div className="update-page-section">
                 <h1>PEOPLE UPDATES</h1>
                 <div className="section-data">
+                <div className="topic">
+                        <PersonCard person={people.find(x => x.name == "C-Man")!} />
+                        <div className="note">{"6 New Moments!"}</div>
+                    </div>
                     <div className="topic">
                         <PersonCard person={people.find(x => x.name == "Avery")!} />
                         <div className="note">{"New Arrival!"}</div>
@@ -45,12 +48,12 @@ function UpdatesSection() {
             <div className="update-page-section">
                 <h1>NEW SOUNDBITES</h1>
                 <div className="section-data">
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Gorgeous")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Weird Goat Noise")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "They're Investigating You Homie!")!} />
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "WHAT?!")!} />
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "Ethan, WAKE UP!!!")!} />
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "America Deserved 9/11")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Shaun #1")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Shaun #2")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "You didn't tell me you got some tea today!")!} />
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "I only take it right on my chest")!} />
                 </div>
                 <h3>The Fart Collection is here!</h3>
@@ -86,25 +89,7 @@ function UpdatesSection() {
             </div>
             <div className="update-page-section">
                 <h1>ICEBERG UPDATES</h1>
-                <div className="section-data">
-                    <div className="topic">
-                        <div className="note-topic">{"Updated Picture"}</div>
-                        <TopicComponent topic={topics.find(x => x.name == "The Hairline King")!}></TopicComponent>
-                    </div>
-                    <div className="topic">
-                        <div className="note-topic">{"Updated Picture"}</div>
-                        <TopicComponent topic={topics.find(x => x.name == "AB Boxing Matches")!}></TopicComponent>
-                    </div>
-                </div>
-            </div>
-            <div className="update-page-section">
-                <h1>NEW BUTTON MOMENTS</h1>
-                <div className="section-data">
-                    <MomentComponent moment={moments.find(x => x.url == "https://youtu.be/bq4Bq0KXlGE&t=8780")!} 
-                        showEpisodeTitle={false} />
-                    <MomentComponent moment={moments.find(x => x.url == "https://youtu.be/bq4Bq0KXlGE&t=10093")!}
-                        showEpisodeTitle={false} />
-                </div>
+                    Nothing to report
             </div>
         </div>
     );
