@@ -78,50 +78,41 @@ function Homepage() {
                 <div className="page-container">
                     <div className="video-container">
                         <div className="video">
-                            <YouTube videoId="wWG9Msgmnh4" opts={opts} onReady={onReady} style={divStyle} />
+                            <YouTube videoId="Hc-F93YUWag" opts={opts} onReady={onReady} style={divStyle} />
                         </div>
                     </div>
                     <div className="topics-container">
 
-                        <div className="topics-title">TOPICS FROM H3 SHOW #120</div>
+                        <div className="topics-title">TOPICS FROM H3 SHOW #121</div>
                         <div className="topics">
-                            <HomepagePersonCard person={people.find(x => x.name == "Philip Defranco")!} jumpToTime={() => jumpToTime(9225)} />
                             <TopicCard 
-                                image={"https://pbs.twimg.com/tweet_video_thumb/GdHCwU8aUAA0Fjh.jpg"}
-                                headerText={"1 Months Ago"} 
-                                description={"Ethan Poops while The Crew watches The Rizzler Scream"} 
-                                url={"https://youtu.be/6KV16LWcnTY&t=5693"} 
-                                jumpToTime={() => jumpToTime(2212)} />
+                                image={"Images/Ians_Dead.png"}
+                                headerText={"2 Years Ago"} 
+                                description={"Ian's best switcher moment"} 
+                                url={"https://www.youtube.com/watch?v=1Z4LTCCodeg&t=9045s"} 
+                                jumpToTime={() => jumpToTime(12779)} />
                             <TopicCard 
-                                image={"https://i.kym-cdn.com/photos/images/original/001/051/806/03c.jpg"}
-                                headerText={"6 Years Ago"} 
-                                description={"The FIRST Godfather"} 
-                                url={"https://www.youtube.com/watch?v=ExiLfQ_RyAA&t=452s"} 
-                                jumpToTime={() => jumpToTime(1406)} />
+                                image={"/Images/Olivia_SharkTank.png"}
+                                headerText={"9 Months Ago"} 
+                                description={"Olivia's Sloppy Soupy's"} 
+                                url={"https://youtu.be/iiz9Gispe5I?t=8462"} 
+                                jumpToTime={() => jumpToTime(2209)} />
                             <TopicCard 
-                                image={"/Images/Zach_Brother_Feet.png"}
+                                image={"https://pbs.twimg.com/media/FhJcACxXwAAAT-V.jpg"}
+                                headerText={"2 Weeks Ago"} 
+                                description={"Dan HATES how-to-pronounce videos"} 
+                                url={"https://www.youtube.com/watch?v=UK47xzasVxA&t=1873s"} 
+                                jumpToTime={() => jumpToTime(2407)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "The Foodie Boys")!} jumpToTime={() => jumpToTime(2500)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Dave Portnoy")!} jumpToTime={() => jumpToTime(2500)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Justin Bieber")!} jumpToTime={() => jumpToTime(1515)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "C-Man")!} jumpToTime={() => jumpToTime(1515)} />
+                            <TopicCard 
+                                image={"https://www.24-7pressrelease.com/assets/attachments/050/press_release_distribution_0500031_190169.jpg"}
                                 headerText={"3 Years Ago"} 
-                                description={"C-Man Rates Zach's Brother's Feet"} 
-                                url={"https://www.youtube.com/watch?v=wtlYFLAEQKw&t=3725s"} 
-                                jumpToTime={() => jumpToTime(3114)} />
-                            <TopicCard 
-                                image={"https://cdn-2.cinemaparadiso.co.uk/2108060450304_l.jpg"}
-                                headerText={"7 Months Ago"} 
-                                description={"Ethan LOVES The Fifth Element"} 
-                                url={"https://youtu.be/uPFyV_cLylI?t=5962"} 
-                                jumpToTime={() => jumpToTime(308)} />
-                            <TopicCard 
-                                image={"https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Hamilton-poster.jpg/220px-Hamilton-poster.jpg"}
-                                headerText={"6 Months Ago"} 
-                                description={"Dan LOVES Hamilton"} 
-                                url={"https://www.youtube.com/watch?v=9JPShI_iglU&t=656s"} 
-                                jumpToTime={() => jumpToTime(1686)} />
-                            <TopicCard 
-                                image={"https://i0.wp.com/musically.com/wp-content/uploads/2018/07/triller.png"}
-                                headerText={"4 Months Ago"} 
-                                description={"Dan puts his life savings into Triller IPO"} 
-                                url={"https://www.youtube.com/watch?v=M9dYrhdXN88&t=10400s"} 
-                                jumpToTime={() => jumpToTime(550)} />
+                                description={"Jimmie Lee Goes on Newsmax"} 
+                                url={"https://youtu.be/AlcD8_dyVvQ&t=2662"} 
+                                jumpToTime={() => jumpToTime(1548)} />
                         </div>
                     </div>
                 </div>     
