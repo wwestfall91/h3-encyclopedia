@@ -88,7 +88,7 @@ function Homepage() {
                             <TopicCard 
                                 image={"Images/Ians_Dead.png"}
                                 headerText={"2 Years Ago"} 
-                                description={"Ian's best switcher moment"} 
+                                description={"Ians best switcher moment"} 
                                 url={"https://www.youtube.com/watch?v=1Z4LTCCodeg&t=9045s"} 
                                 jumpToTime={() => jumpToTime(12779)} />
                             <TopicCard 
