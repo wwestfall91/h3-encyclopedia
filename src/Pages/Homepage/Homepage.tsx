@@ -78,41 +78,34 @@ function Homepage() {
                 <div className="page-container">
                     <div className="video-container">
                         <div className="video">
-                            <YouTube videoId="Hc-F93YUWag" opts={opts} onReady={onReady} style={divStyle} />
+                            <YouTube videoId="EeX_a0csMco" opts={opts} onReady={onReady} style={divStyle} />
                         </div>
                     </div>
                     <div className="topics-container">
 
-                        <div className="topics-title">TOPICS FROM H3 SHOW #121</div>
+                        <div className="topics-title">TOPICS FROM H3 SHOW #122</div>
                         <div className="topics">
+                            <HomepagePersonCard person={people.find(x => x.name == "Galya")!} jumpToTime={() => jumpToTime(8870)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Bhad Bhabie")!} jumpToTime={() => jumpToTime(3050)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Rae")!} jumpToTime={() => jumpToTime(5677)} />
                             <TopicCard 
-                                image={"Images/Ians_Dead.png"}
+                                image={"https://i0.wp.com/www.thewrap.com/wp-content/uploads/2016/06/jay-leno-car-crash.jpg"}
                                 headerText={"2 Years Ago"} 
-                                description={"Ians best switcher moment"} 
-                                url={"https://www.youtube.com/watch?v=1Z4LTCCodeg&t=9045s"} 
-                                jumpToTime={() => jumpToTime(12779)} />
+                                description={"Jay Leno flips his car (Ethan's Edit)"} 
+                                url={"https://youtu.be/lUP64bI7INk?t=1622"} 
+                                jumpToTime={() => jumpToTime(935)} />
                             <TopicCard 
-                                image={"/Images/Olivia_SharkTank.png"}
-                                headerText={"9 Months Ago"} 
-                                description={"Olivia's Sloppy Soupy's"} 
-                                url={"https://youtu.be/iiz9Gispe5I?t=8462"} 
-                                jumpToTime={() => jumpToTime(2209)} />
-                            <TopicCard 
-                                image={"https://pbs.twimg.com/media/FhJcACxXwAAAT-V.jpg"}
-                                headerText={"2 Weeks Ago"} 
-                                description={"Dan HATES how-to-pronounce videos"} 
-                                url={"https://www.youtube.com/watch?v=UK47xzasVxA&t=1873s"} 
-                                jumpToTime={() => jumpToTime(2407)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "The Foodie Boys")!} jumpToTime={() => jumpToTime(2500)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Dave Portnoy")!} jumpToTime={() => jumpToTime(2500)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Justin Bieber")!} jumpToTime={() => jumpToTime(1515)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "C-Man")!} jumpToTime={() => jumpToTime(1515)} />
-                            <TopicCard 
-                                image={"https://www.24-7pressrelease.com/assets/attachments/050/press_release_distribution_0500031_190169.jpg"}
+                                image={"/Images/Ethan_Dennys.png"}
                                 headerText={"3 Years Ago"} 
-                                description={"Jimmie Lee Goes on Newsmax"} 
-                                url={"https://youtu.be/AlcD8_dyVvQ&t=2662"} 
-                                jumpToTime={() => jumpToTime(1548)} />
+                                description={"The Denny's Incident"} 
+                                url={"https://youtu.be/bVwGr98HYqQ&t=3043"} 
+                                jumpToTime={() => jumpToTime(1184)} />
+                            <TopicCard 
+                                image={"https://images.1851franchise.com/filters:format(webp)/story1/2727932/968244c640f23177a029a4a77f7202886616.jpg"}
+                                headerText={"1 Year Ago"} 
+                                description={"Dan worked at California Pizza Kitchen"} 
+                                url={"https://www.youtube.com/watch?v=DWY8krPi_Sc&t=6909"} 
+                                jumpToTime={() => jumpToTime(3477)} />
                         </div>
                     </div>
                 </div>     

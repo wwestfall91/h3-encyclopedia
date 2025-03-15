@@ -35,6 +35,7 @@ Ben Affleck	https://m.media-amazon.com/images/M/MV5BNTFjZDU5NmYtYzZlMy00YThmLTg5
 Ben Shapiro	https://media1.dallasobserver.com/dal/imager/u/slideshow/13981415/ben-shapiro-credit-jason-kempin-getty.jpg	Enemy
 Bert Kreischer	https://i.ticketweb.com/i/00/07/86/73/11/Original.jpg	Friend
 Beyonce	https://factmag-images.s3.amazonaws.com/wp-content/uploads/2013/12/beyonce-121313.jpg	Neutral
+Bhad Bhabie	https://townsquare.media/site/812/files/2020/01/bhad-bhabie-social-media.jpg	Neutral
 Big Ed	https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2024-05/big-ed-3-te-240521-8400fc.jpg	Friend
 Big Nik	https://i.ytimg.com/vi/TMtIvt8XLeE/hq720.jpg	Enemy
 Bill Burr	https://static.wikia.nocookie.net/breakingbad/images/f/f2/Bill_Burr.jpg	Friend
@@ -130,7 +131,7 @@ Fidias	https://static.wikia.nocookie.net/youtube/images/3/30/Fidias_Podcast.jpg	
 FouseyTube	https://api.time.com/wp-content/uploads/2015/10/yousef-saleh-erakat.jpg?quality=85&w=1757	Neutral
 Fresh and Fit	https://s.yimg.com/ny/api/res/1.2/Qt8eqYR_wWDwtXD7.T.KTg--/YXBwaWQ9aGlnaGxhbmRlcjtoPTY2Ng--/https://media.zenfs.com/en/accesswire.ca/0d7f86e966db44e23d167f9bf9dd0d23	Enemy
 Frogan	https://www.tubefilter.com/wp-content/uploads/2024/05/frogan-1400x825.jpg	Enemy
-Galya	Images\Galya.png	
+Galya	Images\Galya.png	Family
 Garth Brooks	https://hips.hearstapps.com/hmg-prod/images/2018_20180809-gb2105_3_10_rgb.jpg	Neutral
 Gary Klein	https://www.cameo.com/cdn-cgi/image/fit=cover,format=auto,width=210,height=278/https://cdn.cameo.com/thumbnails/62917f5b6a8e53d205c8a9e1-processed-thumbnail.jpg	Friend
 Gary V	https://www.executivespeakers.com/images/speakerimages/20183010190739VaynerchukG-Headshot.jpg	Neutral
