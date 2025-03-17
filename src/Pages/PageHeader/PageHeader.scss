@@ -2,6 +2,8 @@
   display: flex;
   position: sticky;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   top:0;
   height: 7.5rem;
   overflow: hidden;
@@ -19,7 +21,7 @@
 
   .hamburger-list{
     display: flex;
-    position: absolute;
+    position: fixed;
     flex-direction: column;
     background-color: white;
     padding: 10px;

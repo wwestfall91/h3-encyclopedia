@@ -91,7 +91,7 @@ function PageHeader() {
       </div>
       <>
         { isOpen &&
-          <ul style={{ ...menuStyle, height: isOpen ? "300px" : "0", width: isOpen ? "200px" : "0", display: "flex", justifyContent: "center", alignItems: "center" }}>
+          <ul style={{ ...menuStyle, height: isOpen ? "300px" : "0", width: isOpen ? "200px" : "0" }}>
             <CustomButton page={Page.Homepage} onClick={() => setIsOpen(false)} />
             <CustomButton page={Page.Soundbites} onClick={() => setIsOpen(false)} />
             <CustomButton page={Page.Iceberg} onClick={() => setIsOpen(false)} />
@@ -129,13 +129,14 @@ const lineStyle: React.CSSProperties = {
 };
 
 const menuStyle: React.CSSProperties = {
-  position: "absolute",
   display:"flex",
+  position: "fixed",
   flexDirection:"column",
   backgroundColor: "white",
+  justifyContent: "center",
+  alignItems: "center",
   padding: "10px",
   borderRadius: "5px",
-  width: "50%",
   marginLeft:"50px",
   marginTop:"25px",
   boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
