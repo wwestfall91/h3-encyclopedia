@@ -89,10 +89,10 @@ Daniel Tosh	https://deadline.com/wp-content/uploads/2020/01/daniel-tosh.jpg	Neut
 Dark Viper	https://staticg.sportskeeda.com/editor/2021/09/77784-16313846950044-800.jpg	Enemy
 Dash Dobrofsky	https://pbs.twimg.com/ext_tw_video_thumb/1523441411579731968/pu/img/yGJZBFvYVwxwC3w5.jpg:large	Neutral
 Dating&Money101	https://pbs.twimg.com/profile_images/1776683091786133504/n2TyljWy_400x400.jpg	Enemy
+Dave Portnoy	https://static.foxbusiness.com/foxbusiness.com/content/uploads/2020/06/Dave-Portnoy-Getty.jpg	Neutral
 Dave Rubin	https://nationalconservatism.org/natcon-2-2021/wp-content/uploads/sites/5/2021/08/Rubin-Dave.jpeg	Enemy
 David Dobrik	https://yhstars.com/wp-content/uploads/2020/09/David-Dobrik.jpg	Enemy
 David Guetta	https://www.billboard.com/wp-content/uploads/2021/06/David-Guetta-press-2021-cr-Dan-Reid-billboard-1548-1623936979.jpg	Neutral
-Dave Portnoy	https://static.foxbusiness.com/foxbusiness.com/content/uploads/2020/06/Dave-Portnoy-Getty.jpg	Neutral
 Deadmau5	https://i.cbc.ca/1.7230539.1718049048!/fileImage/httpImage/deadmau5.jpg	Friend
 Def Noodles	https://centennialworld.com/wp-content/uploads/2022/02/Def-Noodle-Comedian-Header.png	Neutral
 Demi Lovato	https://m.media-amazon.com/images/M/MV5BOTk1YTg1N2YtMmY0NS00MTZmLWFlMWYtOGJhZTk4OWJlYTYxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg	Enemy
@@ -145,6 +145,7 @@ Hannibal B	https://image.tmdb.org/t/p/w500/mcw3Orbg4vbALXTVG4hriZjH1sj.jpg	Neutr
 Harley Morenstein	https://bleedingcool.com/wp-content/uploads/2020/11/Screen-Shot-2020-11-22-at-12.28.08-AM-1200x628.jpg	Friend
 Harvey Weinstein	https://upload.wikimedia.org/wikipedia/commons/f/f6/Ryan_Kavanaugh2.PNG	Neutral
 Hasan Piker	https://hips.hearstapps.com/hmg-prod/images/cosmo-hasanpiker-211-1518731685.jpg	Enemy
+Helen Keller	Images\HelenKeller.png	Enemy
 Hila	https://fashionista.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk4NTIxNDczMTYwMjU5MDEx/hila-klein-tati-bruening-ceo-editorial.jpg	Family
 Hillary Clinton	https://cdn.britannica.com/59/84959-050-F3C6D631/Hillary-Rodham-Clinton-2003.jpg	Neutral
 Howie Mandel	https://ntvb.tmsimg.com/assets/assets/1082_v9_bb.jpg?w=270&h=360	Friend
@@ -259,6 +260,7 @@ Noah Beck	https://deadline.com/wp-content/uploads/2021/08/Noah-Beck-Tries-Things
 OJ Simpson	https://s.abcnews.com/images/US/GTY_OJ_Simpson_MEM_150921.jpg	Enemy
 Oliver Tree	https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Oliver_Tree_%2850118164757%29_%28cropped%29.jpg/1200px-Oliver_Tree_%2850118164757%29_%28cropped%29.jpg	Enemy
 Olivia	https://static.wikia.nocookie.net/h3podcast/images/8/84/Olivia-lopes-5.webp	Family
+Olivia's Dad	Images\OliviasDad.png	Family
 Owen Cook	https://beastpreneur.com/wp-content/uploads/2021/12/Real-Social-Dynamics-Owen-Cook-RSD-Tyler-Durden.jpg	Neutral
 Owen Wilson	https://media.npr.org/assets/img/2021/02/04/gettyimages-169645608_custom-6b030457319cfb3cdac5182e2baf01f7b30ca652.jpg	Neutral
 P and P	https://justatic.com/profile-images/1527786-1601928357-s.jpg	Friend
@@ -317,6 +319,7 @@ Steve-O	https://www.columbusmonthly.com/gcdn/presto/2022/01/10/NCOA/ea7c0f00-a1c
 Steven Crowder	https://pbs.twimg.com/media/FuuziqwaQAIWPrr.jpg	Enemy
 Steven Seagal	https://upload.wikimedia.org/wikipedia/commons/d/d9/Steven_Seagal_November_2016.jpg	Neutral
 SunnyV2	https://yt3.googleusercontent.com/Hp09v_bD_EnSL3Y49DygS0R9-MKsBh1xkrlWtSAA5f8SQoPh3SYqhGwPiOhBj4iwxd_x7hzC=s900-c-k-c0x00ffffff-no-rj	Enemy
+Swami	https://static.wikia.nocookie.net/h3podcast/images/2/20/Swami.jpg	Friend
 Tana Mongeau	https://i2.wp.com/hollywoodlife.com/wp-content/uploads/2019/06/tana-mongeau-1.jpg	Friend
 Tati Westbrook	https://akns-images.eonline.com/eol_images/Entire_Site/2019421/rs_600x600-190521110753-600-Tati-Westbrook-LT-052119-Youtube.jpg	Neutral
 Ted Cruz	https://static.texastribune.org/media/files/600d28682a2731e6cfa9649926acbc5a/Ted-Cruz.jpg	Neutral

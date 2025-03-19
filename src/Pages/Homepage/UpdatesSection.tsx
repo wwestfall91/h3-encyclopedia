@@ -18,14 +18,29 @@ function UpdatesSection() {
                 </video>
             }
             <div className="update-page-section">
+                <h1>GENERAL UPDATES</h1>
+                <ul>
+                    <li>Fixed Mobile navigation bar not closing</li>
+                    <li>Fixed header cutting off screen on certain resolutions</li>
+                    <li>Small fixes to make the pages more mobile friendly</li>
+                </ul>
+
                 <h1>PEOPLE UPDATES</h1>
                 <div className="section-data">
-                <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "C-Man")!} />
-                        <div className="note">{"6 New Moments!"}</div>
+                    <div className="topic">
+                        <PersonCard person={people.find(x => x.name == "Donna Klein")!} />
+                        <div className="note">{"15 New Moments!"}</div>
                     </div>
                     <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Avery")!} />
+                        <PersonCard person={people.find(x => x.name == "Olivia's Dad")!} />
+                        <div className="note">{"New Arrival!"}</div>
+                    </div>
+                    <div className="topic">
+                        <PersonCard person={people.find(x => x.name == "Helen Keller")!} />
+                        <div className="note">{"New Arrival!"}</div>
+                    </div>
+                    <div className="topic">
+                        <PersonCard person={people.find(x => x.name == "Swami")!} />
                         <div className="note">{"New Arrival!"}</div>
                     </div>
                     <div className="topic">
@@ -34,10 +49,6 @@ function UpdatesSection() {
                     </div>
                     <div className="topic">
                         <PersonCard person={people.find(x => x.name == "Tom Ward")!} />
-                        <div className="note">{"New Arrival!"}</div>
-                    </div>
-                    <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Peanut Butter Craig")!} />
                         <div className="note">{"New Arrival!"}</div>
                     </div>
                 </div>
@@ -73,17 +84,16 @@ function UpdatesSection() {
                 
                 <div className="section-data">
                     <div className="topic">
-                        <div className="note-topic">{"New Zach Topic!"}</div>
-                        <MomentComponent moment={moments.find(x => x.title == "CCR Curse Origin")!} 
-                                         image="https://cdn-images.dzcdn.net/images/cover/048eb8abc5c8cdb920d1fb550e5d34f9/1900x1900-000000-80-0-0.jpg" 
-                                         showEpisodeTitle={false} customTitle="The CCR Curse" />
-                        <div className="note-misc">{"< Also, Dan?!"}</div>
+                        <div className="note-topic">{"New Ian Moment!"}</div>
+                        <MomentComponent moment={moments.find(x => x.title == "Ian & Dan Break into The Oscars")!} 
+                                         image="Images\MrOscar.png" 
+                                         showEpisodeTitle={false} customTitle="Ian Breaks into The Oscars" />
                     </div>
                     <div className="topic">
-                        <div className="note-topic">{"New Zach Moment!"}</div>
-                        <MomentComponent moment={moments.find(x => x.title == "SHUT UP BITCH!")!} 
-                                         image="https://static.wikia.nocookie.net/h3h3/images/b/b0/Trisha_Paytas.png" 
-                                         showEpisodeTitle={false} />
+                        <div className="note-topic">{"New Ian Moment!"}</div>
+                        <MomentComponent moment={moments.find(x => x.title == "Ian gets fired")!} 
+                                         image="Images\SugarRay.png" 
+                                         showEpisodeTitle={false} customTitle="Ian Gets Fired..." />
                     </div>
                 </div>
             </div>

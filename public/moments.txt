@@ -157,7 +157,10 @@ Denims is a...	H3Show	107	3589	https://youtu.be/IG6GG1x0M9o&t=3589		Button		Hasa
 	H3Show	110	4945	https://youtu.be/6YkwAdAmyBI&t=4945		Button		Am I The A-hole? Giving advice to crazy redditors - H3 Show #110		02-14-2025
 Bad Empanada's Threats	H3Show	115	8780	https://youtu.be/bq4Bq0KXlGE&t=8780		Button		I'm Going To War With The Entire Internet - H3 Show #115		02-26-2025
 	H3Show	115	10093	https://youtu.be/bq4Bq0KXlGE&t=10093		Button		I'm Going To War With The Entire Internet - H3 Show #115		02-26-2025
-	H3Show	116	2729	https://youtu.be/VQiExvFz8h8&t=2729		Button				
+	H3Show	116	2729	https://youtu.be/VQiExvFz8h8&t=2729		Button		I Hired A Rabbi To Destroy My Yeezys, Fastest Man Alive Crew Contest - H3 Show #116		02-28-2025
+	H3Show	122	10505	https://youtu.be/EeX_a0csMco&t=10505		Button		Bhad Bhabie vs Alabama Barker Is Very Funny - H3 Show #122		03-14-2025
+	H3Show	123	1108	https://youtu.be/0Z4TGbApoIo&t=1108		Button		2025 Members Drive! Will Ethan Survive? - H3 Show #123		03-17-2025
+	H3Show	123	4590	https://youtu.be/0Z4TGbApoIo&t=4590		Button		2025 Members Drive! Will Ethan Survive? - H3 Show #123		03-17-2025
 Bobby Lee Interruption	Podcast	148	2062	https://youtu.be/NK-_XJBYv-c&t=2062	Dan	Lore		Bobby Lee & Khalyla - H3 Podcast #148	Top Dan Moments	10-08-2019
 Dan Bans Rich Lux	H3TV	42	4956	https://youtu.be/QpElkT_nkgY&t=4956	Dan	Lore		We Went To ACE Fest... WOW - H3TV #42	Top Dan Moments	07-11-2022
 Dan Saves the Ad Read	AfterDark	75	3449	https://www.youtube.com/watch?v=ZUU3_vd1Oos&t=3449	Dan	Lore		Womens Rights Stripped Away, David Dobrik Hires Johnny Depps Lawyer - After Dark #75	Top Dan Moments	06-24-2022
@@ -538,10 +541,10 @@ The old call in number	Podcast	41	1986	https://youtu.be/irVe0wQkMXg&t=1986		808-
 808-HOT-MEME re-opens	Podcast	157	761	https://youtu.be/1GUgvMRNoTc&t=761		808-HOT-MEME		KSI Destroys Logan Paul & Mandalorian Review - H3 Podcast #157		11-13-2019
 808-HOT-MEME re-opens AGAIN	H3TV	7	435	https://youtu.be/d9Y0O-FtKvA&t=435		808-HOT-MEME		Guess Who the DAmelios Are Suing... - H3TV #7		09-07-2021
 Last appearance	H3TV	31	835	https://youtu.be/VWgVZRN7xLQ&t=835		808-HOT-MEME		James Charles Wears Diapers & The LaBrant Family - H3TV #31		04-11-2022
-Swami's first appearance	H3TV	13	5282	https://youtu.be/VUSyVSyRkPM&t=5282		Swami		Im Cancelled - H3TV #13		10-25-2021
-Swami on Families	Families	11	4205	https://youtu.be/6eKA1zsLvSM&t=4205		Swami		Families Reunion Holiday Special		12-09-2021
-Swami vs. Oliver Tree	Podcast	248	984	https://youtu.be/ez_bTUjWG5Y&t=984	Oliver Tree	Swami		Oliver Tree - H3 Podcast #248		01-27-2022
-Swami in BTS	BTS	13	1036	https://youtu.be/F95h2-qNov0&t=1036		Swami		(Members) H3 Podcast BTS #13		12-17-2021
+Swami's first appearance	H3TV	13	5282	https://youtu.be/VUSyVSyRkPM&t=5282	Swami	Swami		Im Cancelled - H3TV #13		10-25-2021
+Swami on Families	Families	11	4205	https://youtu.be/6eKA1zsLvSM&t=4205	Swami	Swami		Families Reunion Holiday Special		12-09-2021
+Swami vs. Oliver Tree	Podcast	248	984	https://youtu.be/ez_bTUjWG5Y&t=984	Swami	Swami		Oliver Tree - H3 Podcast #248		01-27-2022
+Swami in BTS	BTS	13	1036	https://youtu.be/F95h2-qNov0&t=1036	Swami	Swami		(Members) H3 Podcast BTS #13		12-17-2021
 Token is created	Podcast	239	4121	https://www.youtube.com/watch?v=zfWQpaPGW4g&t=4121		VapeGodNFT		Im Selling Vape Nation - H3 Podcast #239		03-11-2021
 Token sells for 60k	AfterDark	28	11353	https://www.youtube.com/watch?v=iKpd0ZTpkp8&t=11353		VapeGodNFT		President Trump Calls In - H3 After Dark #28		03-19-2021
 Early discussions	Podcast	135	931	https://youtu.be/lYeKevWNU0g&t=931		Gatsby		YouTube Ends Copyright Abuse - H3 Podcast #135		08-16-2019
@@ -579,6 +582,19 @@ Ghost Stories #1	Podcast	7	0	https://youtu.be/l65hR94nfqY&t=0	Post Malone, Joji	
 Ghost Stories #2	Podcast	8	5916	https://youtu.be/hrEFpGiETu8&t=5916	Markiplier, Ian Hecox	GhostStories		H3 Podcast #8 - Markiplier & Ian Hecox (Smosh)		05-29-2017
 The Markiplier Drama	H3Show	103	5030	https://youtu.be/oDdnL6Pd9qU&t=5030	Markiplier			Content Nuke: Markiplier - H3 Show #103		01-29-2024
 Ghost Stories #3	Podcast	11	3845	https://youtu.be/nEP_YdWei0Y&t=3845	Donna Klein	GhostStories		H3 Podcast #11 - Ethans Parents		06-18-2017
+Gary & Donna Call In	H3TV	32	3560	https://youtu.be/yd6_HqM4wy0&t=3560	Donna Klein			Oliver Tree Calls In, Ethans Parents Call In, & ACE Family Scam Fest - H3TV #32		04-18-2022
+Donna Butterfly Quiz	H3TV	41	4350	https://youtu.be/I5Gop05e3ps&t=4350	Donna Klein			The Worst Thing We Did As Kids, Ethans Mom Plays Trivia - H3TV #41		06-27-2022
+Donna Calls In to talk about butterflies	AfterDark	78	3710	https://www.youtube.com/watch?v=M3NLg8ZTigQ&t=3710	Donna Klein			We Try A Period Pain Simulator, Hasan Owns Andrew Tate, Ace Family Friendship Over - After Dark #78		07-22-2022
+Donna vs. Twitter Troll	H3TV	92	1428	https://www.youtube.com/watch?v=pK6dg-BRiqU&t=1428	Donna Klein			Ethan Ruined His New Tattoo - H3TV #92		10-02-2023
+Donna's Cameo - Deez Nuts Origin	AfterDark	99	10090	https://www.youtube.com/watch?v=FkTrjT_PDDc&t=10090	Donna Klein			Ethan Is TikToks New Alpha God, Guessing What Womens Beauty Products Do - After Dark #99		03-24-2023
+Donna Talks to Liver King	Leftovers	26	4230	https://www.youtube.com/watch?v=5XtLmCevyRU&t=4230	Donna Klein			LIVER KING IS HERE! - Leftovers #26		09-29-2022
+Donna & Shirtless Eddie	H3TV	67	4920	https://youtu.be/gxRUEWE2_D4&t=4920	Donna Klein			My Mom Calls In To Explain Selena Gomez vs. Hailey Bieber Drama - H3TV #67		02-27-2023
+Donna Calls In to check on Ethan's health	OTR	79	1110	https://www.youtube.com/watch?v=JJ4HuGmgzlo&t=1110	Donna Klein			Talking to Jonah Hill Accuser Alexa Nikolas - Off The Rails #79		07-26-2023
+Donna's Mahjong Drama	OTR	83	1230	https://www.youtube.com/watch?v=Tzjt_KVK58w&t=1230	Donna Klein			Fresh & Fit Got Banned On YouTube RIP Bozos - Off The Rails #83		08-23-2023
+Donna Posts Butterfly Porn	OTR	84	770	https://www.youtube.com/watch?v=-kXDNhjOtpA&t=770	Donna Klein			8 Passengers Update, EDP Caught Again, Burning Man Disaster - Off The Rails #84		09-06-2023
+Donna Calls-In to talk about the Shredder Tattoo	OTR	87	1740	https://www.youtube.com/watch?v=R8Y-ih8DLlc&t=1740	Donna Klein			Korean Food Taste Test, Taylor Swifts New Boyfriend PowerPoint - Off The Rails #87		09-27-2023
+Donna's Birthday Call-In	AfterDark	125	8460	https://www.youtube.com/watch?v=lNfOxmaiFJ0&t=8460	Donna Klein			MrBeast Called Out For Faking Video, New David Dobrik Clip Is Horrifying (Ft. Pokimane) - AD #125		10-27-2023
+Calling Donna about Adam McIntyre	H3Show	50	9875	https://youtu.be/PhaQM3bbBoY&t=9875	Donna Klein			Why Frenemies Is NEVER Coming Back - H3 Show #50		09-04-2024
 Ghost Stories #4	Podcast	12	9579	https://youtu.be/mtDOr9UY-yk&t=9579	Steve-O	GhostStories		H3 Podcast #12 - Steve-O		06-24-2017
 Ghost Stories #5	Podcast	17	7560	https://youtu.be/W555pdLeI_I&t=7560	Jacksfilms, Erik of Internet Comment Ettiquette	GhostStories		H3 Podcast #17 - Jacksfilms & Internet Comment Etiquette		07-23-2017
 Ghost Stories #6	Podcast	18	4754	https://youtu.be/qbIPL8ll3sg&t=4754	Hugh Mungus	GhostStories		H3 Podcast #18 - Hugh Mungus		07-30-2017
@@ -1747,6 +1763,8 @@ Ian saw Ethan naked?!	Podcast	185	776	https://youtu.be/7W2bnrdiJzo&t=776	Ian	Lor
 Ian DIES. Continues Switching.	H3TV	51	9045	https://youtu.be/1Z4LTCCodeg&t=9045	Ian	Lore		Spicy Food Competition - H3TV #51	Top Ian Moments	09-12-2022
 High at the Sonic Movie	AfterDark	40	4597	https://www.youtube.com/watch?v=uvc-dX0fG3s&t=4597	Ian	Lore		And The Number Of Babies Is... - H3 After Dark # 40	Top Ian Moments	06-11-2021
 Ian's Middle School Talent Show	AfterDark	15	1341	https://www.youtube.com/watch?v=iAnsNKeY4Hs&t=1341	Ian	Lore		H3 After Dark - #15	Top Ian Moments	12-04-2020
+Ian & Dan Break into The Oscars	OTR	64	973	https://www.youtube.com/watch?v=Ax2LvM4I3d8&t=973	Ian	Lore	Images\MrOscar.png	We Snuck Into The Oscars, Cr1tikal vs Sneako, NELK Goes To Israel - Off The Rails #64	Top Ian Moments	03-15-2023
+Ian gets fired	Podcast	169	3077	https://youtu.be/DzjVGrSyPP0&t=3077	Ian	Lore	Images\SugarRay.png	The End Of An Era - H3 Podcast #169	Top Ian Moments	01-22-2020
 I gotta pee so bad	Podcast	106	5667	https://youtu.be/-WGeIEK1yY4&t=5667	Ian	Lore		Filthy Frank Hysteria & Adpocalypse 2.0 - H3 Podcast #106	Soundbites	03-01-2019
 I've been chuggin' the waaater	Podcast	169	4987	https://youtu.be/DzjVGrSyPP0&t=4987	Ian	Lore		The End Of An Era - H3 Podcast #169	Soundbites	01-22-2020
 I'm strokin' pussy down here	Podcast	236	71	https://youtu.be/6rXRoIA4EEc&t=71	Ian	Lore		We Got Scammed Out of $500K Buying Pokemon Cards - H3 Podcast #236	Soundbites	02-18-2021
@@ -1981,3 +1999,14 @@ Crackling audio issue returns	OTR	66	2272	https://www.youtube.com/watch?v=Hqsy1P
 Dan's biggest pet peeve	H3Show	113	1880	https://youtu.be/UK47xzasVxA&t=1880	Dan			Unmasking The Harassment Campaign Against Us - H3 Show #113		02-22-2025
 Bhad Bhabie OnlyFans	OTR	33	6600	https://www.youtube.com/watch?v=nnKBeuxk_bg&t=6600	Bhad Bhabie			ABs Coach Luckyboy In Studio, Gross Food Challenge, Keemstar & Tim Pool - Off The Rails #33		04-27-2022
 Bhad Bhabie vs Alabama Barker	H3Show	122	3050	https://youtu.be/EeX_a0csMco&t=3050	Bhad Bhabie			Bhad Bhabie vs Alabama Barker Is Very Funny - H3 Show #122		03-14-2025
+Dan's camera freezes	H3Show	122	9824	https://youtu.be/EeX_a0csMco&t=9824	Dan			Bhad Bhabie vs Alabama Barker Is Very Funny - H3 Show #122		03-14-2025
+AB see's Zelda's Lullaby in the noses	H3Show	21	10345	https://youtu.be/Pj4kFC52oBM&t=10345				The Try Guys Are Bullying Me - H3 Show #21		06-10-2024
+Ethan on Shrek's FAT hog	OTR	87	1712	https://www.youtube.com/watch?v=R8Y-ih8DLlc&t=1712	Ethan			Korean Food Taste Test, Taylor Swifts New Boyfriend PowerPoint - Off The Rails #87		09-27-2023
+Olivia's Dad Reveal	OTR	109	5090	https://www.youtube.com/watch?v=VN3bWz5HfBI&t=5090	Olivia's Dad			Dan Schneider & Nickelodeon, Ethan Puked In His Uber - Off The Rails #109		03-20-2024
+Olivia's Dad Calls In	H3Show	123	10185	https://youtu.be/0Z4TGbApoIo&t=10185	Olivia's Dad			2025 Members Drive! Will Ethan Survive? - H3 Show #123		03-17-2025
+Olivia's Dad Protein Powder?!	H3Show	123	11932	https://youtu.be/0Z4TGbApoIo&t=11932	Olivia's Dad			2025 Members Drive! Will Ethan Survive? - H3 Show #123		03-17-2025
+Ethan's not buying it	H3TV	44	9630	https://youtu.be/3tiiER1zHfE&t=9630	Helen Keller			Well, it happened. Hes finally banned. - H3TV #44		07-25-2022
+The one thing Rudy Giuliani and Ethan agree on	Leftovers	31	522	https://www.youtube.com/watch?v=pOO1bTkPIc8&t=522	Helen Keller			Conservative Tears & Midterm Elections Results - Leftovers #31		11-10-2022
+Stavros take on Helen Keller	Podcast	262	890	https://youtu.be/5J1FoJhOkwg&t=890	Helen Keller			Stavros Halkias - H3 Podcast #262		12-14-2022
+The Helen Keller Colada	AfterDark	98	5373	https://www.youtube.com/watch?v=dZyrcG7auic&t=5373	Helen Keller			We Get Trashed For St. Paddys Day - After Dark #98		03-17-2023
+Is Helen Keller even real?	H3Show	123	25010	https://youtu.be/0Z4TGbApoIo&t=25010	Helen Keller			2025 Members Drive! Will Ethan Survive? - H3 Show #123		03-17-2025

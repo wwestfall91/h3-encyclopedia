@@ -78,34 +78,32 @@ function Homepage() {
                 <div className="page-container">
                     <div className="video-container">
                         <div className="video">
-                            <YouTube videoId="EeX_a0csMco" opts={opts} onReady={onReady} style={divStyle} />
+                            <YouTube videoId="0Z4TGbApoIo" opts={opts} onReady={onReady} style={divStyle} />
                         </div>
                     </div>
                     <div className="topics-container">
 
-                        <div className="topics-title">TOPICS FROM H3 SHOW #122</div>
+                        <div className="topics-title">GOODBYE IAN - WE'LL MISS YOU!!</div>
                         <div className="topics">
-                            <HomepagePersonCard person={people.find(x => x.name == "Galya")!} jumpToTime={() => jumpToTime(8870)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Bhad Bhabie")!} jumpToTime={() => jumpToTime(3050)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Rae")!} jumpToTime={() => jumpToTime(5677)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Ian")!} jumpToTime={() => jumpToTime(29810)} />
                             <TopicCard 
-                                image={"https://i0.wp.com/www.thewrap.com/wp-content/uploads/2016/06/jay-leno-car-crash.jpg"}
+                                image={"/Images/IanSong.png"}
+                                headerText={"5 Years Ago"} 
+                                description={"♪ Ian has to pee pee ♪"} 
+                                url={"https://www.youtube.com/watch?v=g3gkFORfTZA&t=8967s"} 
+                                jumpToTime={() => jumpToTime(32001)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Donna Klein")!} jumpToTime={() => jumpToTime(8072)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Tom Ward")!} jumpToTime={() => jumpToTime(6084)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Swami")!} jumpToTime={() => jumpToTime(15584)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Olivia's Dad")!} jumpToTime={() => jumpToTime(10185)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Helen Keller")!} jumpToTime={() => jumpToTime(25010)} />
+                            <TopicCard 
+                                image={"https://media.gannett-cdn.com/springfield/41823000001/201404/1700/41823000001_3427152740001_video-still-for-video-3427114725001.jpg"}
                                 headerText={"2 Years Ago"} 
-                                description={"Jay Leno flips his car (Ethan's Edit)"} 
-                                url={"https://youtu.be/lUP64bI7INk?t=1622"} 
-                                jumpToTime={() => jumpToTime(935)} />
-                            <TopicCard 
-                                image={"/Images/Ethan_Dennys.png"}
-                                headerText={"3 Years Ago"} 
-                                description={"The Denny's Incident"} 
-                                url={"https://youtu.be/bVwGr98HYqQ&t=3043"} 
-                                jumpToTime={() => jumpToTime(1184)} />
-                            <TopicCard 
-                                image={"https://images.1851franchise.com/filters:format(webp)/story1/2727932/968244c640f23177a029a4a77f7202886616.jpg"}
-                                headerText={"1 Year Ago"} 
-                                description={"Dan worked at California Pizza Kitchen"} 
-                                url={"https://www.youtube.com/watch?v=DWY8krPi_Sc&t=6909"} 
-                                jumpToTime={() => jumpToTime(3477)} />
+                                description={"Ethan talks about Shrek's FAT hog more than you think"} 
+                                url={"https://youtu.be/R8Y-ih8DLlc?t=1712"} 
+                                jumpToTime={() => jumpToTime(0)}
+                                hideTime={true} />
                         </div>
                     </div>
                 </div>     
