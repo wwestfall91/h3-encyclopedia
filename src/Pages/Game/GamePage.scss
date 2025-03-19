@@ -1,0 +1,41 @@
+#GamePage{
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    overflow:auto;
+    background: radial-gradient(circle,
+      rgba(168, 97, 116) 0%,
+      rgba(121,103,185, 1) 100%,
+    );
+    align-items: center;
+
+    .blockbar{
+        display: flex;
+        position: absolute;
+        margin-top:2rem;
+        width:50rem;
+        height:2rem;
+        background-color: white;
+        z-index: 1000;
+    }
+
+    .episode-input{
+        display: flex;
+        width:50%;
+    }
+
+    .options{        
+        display: flex;
+        width:50%;
+        background-color: white;
+        color:black;
+        cursor: pointer;
+        &:hover{
+            background-color: yellow;
+        }
+    }
+
+    .video-container{
+        display: flex;
+    }
+}

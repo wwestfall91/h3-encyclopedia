@@ -7,7 +7,8 @@ export const Page = Object.freeze({
   Iceberg: new PageRoute("Iceberg", "/Iceberg"),
   Crew: new PageRoute("Crew", "/Crew"),
   Button: new PageRoute("Button", "/Button"),
-  People: new PageRoute("People", "/People")
+  People: new PageRoute("People", "/People"),
+  Game: new PageRoute("Game", "/Game")
 });
 
 export default Page;

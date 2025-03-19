@@ -52,7 +52,7 @@ function Homepage() {
         height:'397.5px',
         borderRadius: '10px',
         playerVars: {
-          autoplay: 0,
+          autoplay: 0
         },
     } as any;
 

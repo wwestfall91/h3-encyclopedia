@@ -7,6 +7,7 @@ import ButtonPage from "./Pages/ButtonPage/ButtonPage";
 import PeoplePage from "./Pages/PeoplePage/PeoplePage";
 import Homepage from "./Pages/Homepage/Homepage";
 import PageHeader from "./Pages/PageHeader/PageHeader";
+import GamePage from "./Pages/Game/GamePage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/crew" element={<CrewPage />} />
         <Route path="/button" element={<ButtonPage />} />
         <Route path="/people" element={<PeoplePage />} />
+        <Route path="/game" element={<GamePage />} />
       </Routes>
     </div>
   );
