@@ -9,19 +9,30 @@
     );
     align-items: center;
 
+    .helper-text{
+        color:red;
+        font-size: 20px;
+    }
+
     .blockbar{
         display: flex;
         position: absolute;
         margin-top:2rem;
         width:50rem;
         height:2rem;
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         z-index: 1000;
+        align-items: center;
+        outline: 2px solid black;
+        border-radius: 5px;
+        padding:.25rem;
     }
 
     .episode-input{
-        display: flex;
+        display: block;
         width:50%;
+        margin-bottom:1rem;
+        background-color: white;
     }
 
     .options{        
@@ -37,5 +48,25 @@
 
     .video-container{
         display: flex;
+        padding-bottom:1rem;
+    }
+
+    .start-game{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: fit-content;
+        font-size: 24px;
+        width:10rem;
+        height: 4rem;
+    }
+
+    .wrong-answer{
+        animation: 2s ease 1 anim;
+    }
+
+    @keyframes anim{
+        from {background-color: red;}
+        to {background-color: white;}
     }
 }

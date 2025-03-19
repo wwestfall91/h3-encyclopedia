@@ -3,7 +3,7 @@ import { Moment } from "./Moments/Moment";
 
 export class Episode {
   type: EpisodeType
-  number: Number
+  number: number
   date: string
   title: string
   url: string
@@ -11,7 +11,7 @@ export class Episode {
 
   constructor(
     type: string,
-    number: Number,
+    number: number,
     date: string,
     title: string,
     url: string,
