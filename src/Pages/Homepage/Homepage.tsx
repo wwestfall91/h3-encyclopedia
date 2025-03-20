@@ -78,32 +78,30 @@ function Homepage() {
                 <div className="page-container">
                     <div className="video-container">
                         <div className="video">
-                            <YouTube videoId="0Z4TGbApoIo" opts={opts} onReady={onReady} style={divStyle} />
+                            <YouTube videoId="BT7H1IwjuOE" opts={opts} onReady={onReady} style={divStyle} />
                         </div>
                     </div>
                     <div className="topics-container">
 
-                        <div className="topics-title">GOODBYE IAN - WE'LL MISS YOU!!</div>
+                        <div className="topics-title">TOPICS FROM H3 SHOW #124</div>
                         <div className="topics">
-                            <HomepagePersonCard person={people.find(x => x.name == "Ian")!} jumpToTime={() => jumpToTime(29810)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Ian")!} jumpToTime={() => jumpToTime(5015)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "AB")!} jumpToTime={() => jumpToTime(565)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Tyjule")!} jumpToTime={() => jumpToTime(7357)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Yung Gravy")!} jumpToTime={() => jumpToTime(720)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Lewis Saunderson")!} jumpToTime={() => jumpToTime(5640)} />
+                            <TopicCard
+                                image={"https://www.disneylists.com/wp-content/uploads/2019/12/Featured-Rise-of-the-Resistance.jpg"}
+                                headerText={"1 Year Ago"}
+                                description={"Ashes Scattered on Rise of the Resistance"}
+                                url={"https://youtu.be/zkoKnz5zE3o?t=3534"}
+                                jumpToTime={() => jumpToTime(5061)} />
                             <TopicCard 
-                                image={"/Images/IanSong.png"}
-                                headerText={"5 Years Ago"} 
-                                description={"♪ Ian has to pee pee ♪"} 
-                                url={"https://www.youtube.com/watch?v=g3gkFORfTZA&t=8967s"} 
-                                jumpToTime={() => jumpToTime(32001)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Donna Klein")!} jumpToTime={() => jumpToTime(8072)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Tom Ward")!} jumpToTime={() => jumpToTime(6084)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Swami")!} jumpToTime={() => jumpToTime(15584)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Olivia's Dad")!} jumpToTime={() => jumpToTime(10185)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Helen Keller")!} jumpToTime={() => jumpToTime(25010)} />
-                            <TopicCard 
-                                image={"https://media.gannett-cdn.com/springfield/41823000001/201404/1700/41823000001_3427152740001_video-still-for-video-3427114725001.jpg"}
-                                headerText={"2 Years Ago"} 
-                                description={"Ethan talks about Shrek's FAT hog more than you think"} 
-                                url={"https://youtu.be/R8Y-ih8DLlc?t=1712"} 
-                                jumpToTime={() => jumpToTime(0)}
-                                hideTime={true} />
+                                image={"Images/Zach_Suitcase.png"}
+                                headerText={"3 Years Ago"}
+                                description={"Zach Opens the Cursed Suitcase"}
+                                url={"https://www.youtube.com/watch?v=auPJ1GsFOSg&t=7065s"}
+                                jumpToTime={() => jumpToTime(7698)} />
                         </div>
                     </div>
                 </div>     

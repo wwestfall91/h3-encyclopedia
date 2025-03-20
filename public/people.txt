@@ -1,6 +1,6 @@
 name	image	Allegiance
 6ix9ine	https://www.rollingstone.com/wp-content/uploads/2020/04/9887699hW.jpg	Neutral
-AB	https://static.wikia.nocookie.net/h3h3/images/1/1e/AB_Ayad.jpeg	Family
+AB	Images/AB_Vomit.png	Family
 Aba and Preach	https://i.ytimg.com/vi/BPYEOFRlHx4/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGGUgVihKMA8=&rs=AOn4CLDsOxaRXOV6AOty3xBpDAH2bq5kdg	Neutral
 Adam Grant	https://upload.wikimedia.org/wikipedia/commons/e/e7/Adam_Grant_-_Picture_by_Jamey_Stillings.jpg	Neutral
 Adam Levine	https://m.media-amazon.com/images/M/MV5BMjI4NjU4MDEwN15BMl5BanBnXkFtZTcwNTQzNDMwNw@@.jpg	Neutral
@@ -362,3 +362,4 @@ XQC	https://image-cdn.essentiallysports.com/wp-content/uploads/Debating-xQc-On-C
 Yi Long Ma	https://img-9gag-fun.9cache.com/photo/axBmXVW_460s.jpg	Neutral
 Yung Gravy	https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Yung_Gravy_2023_%28cropped%29.jpg/800px-Yung_Gravy_2023_%28cropped%29.jpg	Friend
 Zach	https://static.wikia.nocookie.net/h3h3productions/images/9/90/GVL6evk8_400x400.jpg	Family
+Tyjule	https://i.ytimg.com/vi/t-EIAUxwkDc/hq720.jpg	Friend

@@ -10,6 +10,7 @@ import "./HomepagePersonCard.scss"
 interface Props {
   person: Person | undefined;
   jumpToTime?: () => void;
+  hideTime?: boolean;
 }
 
 function HomepagePersonCard(props: Props) {

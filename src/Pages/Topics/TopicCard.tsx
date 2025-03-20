@@ -8,7 +8,6 @@ interface Props {
     description: string;
     url: string;
     jumpToTime: () => void;
-    hideTime?: boolean;
 }
 
 function TopicCard(props: Props) {
@@ -35,7 +34,7 @@ function TopicCard(props: Props) {
                 </div>
             </div>
             <>
-            {!isMobile && !props.hideTime &&
+            {!isMobile && props.jumpToTime &&
                 <div className="time" onClick={props.jumpToTime}>{"< Jump to Mention"}</div> 
             }
             </>
