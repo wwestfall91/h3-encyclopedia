@@ -1,4 +1,10 @@
 title	sound	episodetype	episodenumber	episodedate	time	person	timestampurl	image
+In the Discord!	Keemstar_InTheDiscord.mp3	H3Show	119	03-07-2025	6839	Keemstar	https://youtu.be/ZDnseOSdk_8&t=6839	
+Okay I Like That	Ethan_OkayILikeThat.mp3	H3Show	123	03-17-2025	21979	Ethan	https://youtu.be/0Z4TGbApoIo&t=21979	/Images/Ethan_Drunk2025.png
+I Like it, I Fuck With That	Ethan_ILikeThatIFuckWithThat.mp3	H3Show	123	03-17-2025	21979	Ethan	https://youtu.be/0Z4TGbApoIo&t=21979	/Images/Ethan_Drunk2025.png
+Warzone!	YokoOno_Warzone.mp3	H3Show	117	03-03-2025	1083	Yoko Ono	https://youtu.be/RVwsloCHjCU&t=1083	/Images/Warzone.png
+Your Birthday Doesn't Matter That Much...	WingsOfRedemption_BirthdayNotImportant.mp3	Unknown	1	05-05-2015	0	Wings of Redemption	https://youtu.be/zOYZ3XMGjUM&t=0	
+I love Tesler!	Trump_IloveTeslur.mp3	H3Show	121	03-13-2025	9400	Donald Trump	https://youtu.be/Hc-F93YUWag&t=9400	
 Gorgeous	Love_Gorgeous.mp3	H3Show	120	03-11-2025	9326	Love	https://youtu.be/wWG9Msgmnh4&t=9326	
 Weird Goat Noise	Misc_WeirdGoatNoise.mp3	H3Show	120	03-11-2025	2058	Misc	https://youtu.be/wWG9Msgmnh4&t=2058	/Images/BlueHairedGirl.png
 They're Investigating You Homie!	Misc_TheyreInvestigatingYouHomie.mp3	H3Show	120	03-11-2025	2058	Misc	https://youtu.be/wWG9Msgmnh4&t=2058	/Images/BlueHairedGirl.png

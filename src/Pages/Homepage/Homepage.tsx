@@ -78,30 +78,35 @@ function Homepage() {
                 <div className="page-container">
                     <div className="video-container">
                         <div className="video">
-                            <YouTube videoId="BT7H1IwjuOE" opts={opts} onReady={onReady} style={divStyle} />
+                            <YouTube videoId="bTXSqLY3SpM" opts={opts} onReady={onReady} style={divStyle} />
                         </div>
                     </div>
                     <div className="topics-container">
 
-                        <div className="topics-title">TOPICS FROM H3 SHOW #124</div>
+                        <div className="topics-title">TOPICS FROM H3 SHOW #125</div>
                         <div className="topics">
-                            <HomepagePersonCard person={people.find(x => x.name == "Ian")!} jumpToTime={() => jumpToTime(5015)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "AB")!} jumpToTime={() => jumpToTime(565)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Tyjule")!} jumpToTime={() => jumpToTime(7357)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Yung Gravy")!} jumpToTime={() => jumpToTime(720)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Lewis Saunderson")!} jumpToTime={() => jumpToTime(5640)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Ian")!} jumpToTime={() => jumpToTime(1080)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Tyjule")!} jumpToTime={() => jumpToTime(2260)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Ja Rule")!} jumpToTime={() => jumpToTime(2416)} />
                             <TopicCard
-                                image={"https://www.disneylists.com/wp-content/uploads/2019/12/Featured-Rise-of-the-Resistance.jpg"}
-                                headerText={"1 Year Ago"}
-                                description={"Ashes Scattered on Rise of the Resistance"}
-                                url={"https://youtu.be/zkoKnz5zE3o?t=3534"}
-                                jumpToTime={() => jumpToTime(5061)} />
+                                image={"Images/ProJared_MajorasMask.png"}
+                                headerText={"7 Months Ago"}
+                                description={"ProJared looks like Majoras Mask"}
+                                url={"https://youtu.be/R7hgK2iHF6Y?t=1321"}
+                                jumpToTime={() => jumpToTime(4779)} />
                             <TopicCard 
-                                image={"Images/Zach_Suitcase.png"}
+                                image={"https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2023/10/water-polo-pic-jpg_0.jpg"}
                                 headerText={"3 Years Ago"}
-                                description={"Zach Opens the Cursed Suitcase"}
-                                url={"https://www.youtube.com/watch?v=auPJ1GsFOSg&t=7065s"}
-                                jumpToTime={() => jumpToTime(7698)} />
+                                description={"Ethans Water Polo Shit Story"}
+                                url={"https://youtu.be/cztc_OXvqJI?t=10980"}
+                                jumpToTime={() => jumpToTime(7301)} />
+                            <TopicCard 
+                                image={"https://pbs.twimg.com/media/FV4YwAxXEAIWlSV.jpg"}
+                                headerText={"3 Years Ago"}
+                                description={"Ethans Little Hands Fan Art"}
+                                url={"https://www.youtube.com/watch?v=6kNZujESbNI&t=502"}
+                                jumpToTime={() => jumpToTime(7328)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Blake Lively")!} jumpToTime={() => jumpToTime(8950)} />
                         </div>
                     </div>
                 </div>     

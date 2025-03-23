@@ -5,9 +5,10 @@ import PersonCard from "../PeoplePage/PersonCard";
 import "./UpdatesSection.scss"
 import trafficReport from "../../../public/TrafficReport.mp4"
 import { useState } from "react";
+import TopicComponent from "../Iceberg/TopicComponent";
 
 function UpdatesSection() {
-    const { soundbites, people, moments } = useDataContext();
+    const { soundbites, people, moments, topics } = useDataContext();
     const [trafficReportEnded, setTrafficReportEnded] = useState(true);
 
     return (
@@ -59,24 +60,21 @@ function UpdatesSection() {
             <div className="update-page-section">
                 <h1>NEW SOUNDBITES</h1>
                 <div className="section-data">
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "In the Discord!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Okay I Like That")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "I Like it, I Fuck With That")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Warzone!")!} />
+                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Your Birthday Doesn't Matter That Much...")!} />
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "Gorgeous")!} />
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "Weird Goat Noise")!} />
+
+                </div>
+                <div className="section-data">
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "They're Investigating You Homie!")!} />
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "WHAT?!")!} />
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "Ethan, WAKE UP!!!")!} />
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "America Deserved 9/11")!} />
                     <SoundbiteCard soundbite={soundbites.find(x => x.title == "I only take it right on my chest")!} />
-                </div>
-                <h3>The Fart Collection is here!</h3>
-                <div className="section-data">
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Fart #1 (Just a fart)")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Fart #2 (Dry and Deep)")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Fart #3 (Long And Quiet)")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Fart #4 (Squeak)")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Fart #5 (Toot)")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Fart #6 (Weird)")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Fart #7 (Wet and Disgusting)")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Fart #8 (Shitting into a metal pot)")!} />
                 </div>
             </div>
             <div className="update-page-section">
@@ -99,7 +97,19 @@ function UpdatesSection() {
             </div>
             <div className="update-page-section">
                 <h1>ICEBERG UPDATES</h1>
-                    Nothing to report
+                <div className="section-data">
+                    <div className="topic">
+                        <div className="note-topic">{"2 New Moments!"}</div>
+                        <TopicComponent topic={topics.find(x => x.name == "Bill Burr Episode 1")!}></TopicComponent>
+                    </div>
+                    <div className="topic">
+                        <div className="note-topic">{"3 New Moments!"}</div>
+                        <TopicComponent topic={topics.find(x => x.name == "AUDIO AUDIO AUDIO")!}></TopicComponent>
+                    </div>
+                </div>
+                <ul>
+                    <li>I also updated a fair amount of descriptions to be more accurate</li>
+                </ul>
             </div>
         </div>
     );
