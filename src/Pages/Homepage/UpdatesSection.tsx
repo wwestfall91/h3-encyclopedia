@@ -21,6 +21,7 @@ function UpdatesSection() {
             <div className="update-page-section">
                 <h1>GENERAL UPDATES</h1>
                 <ul>
+                    <li>BUG FIX: Filtering while a soundbite was playing would cause the cards to play the wrong soundbites</li>
                     <li>Fixed Mobile navigation bar not closing</li>
                     <li>Fixed header cutting off screen on certain resolutions</li>
                     <li>Small fixes to make the pages more mobile friendly</li>

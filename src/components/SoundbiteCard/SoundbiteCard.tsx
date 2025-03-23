@@ -72,7 +72,7 @@ function SoundbiteCard(props: Props) {
   return (
     <>
     {props.soundbite &&
-      <div className={isPlaying ? "card playing" : "card"} key={props.soundbite.title}>  
+      <div className={isPlaying ? "card playing" : "card"}>  
         <div className="person-container">
           <div className="person-name">
             {props.soundbite.personName}

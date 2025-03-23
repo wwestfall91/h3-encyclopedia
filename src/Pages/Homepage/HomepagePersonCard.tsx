@@ -69,7 +69,6 @@ function HomepagePersonCard(props: Props) {
                   />
               </div>
             }
-
             </div>
           }
 
