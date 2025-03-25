@@ -161,6 +161,8 @@ Bad Empanada's Threats	H3Show	115	8780	https://youtu.be/bq4Bq0KXlGE&t=8780		Butt
 	H3Show	122	10505	https://youtu.be/EeX_a0csMco&t=10505		Button		Bhad Bhabie vs Alabama Barker Is Very Funny - H3 Show #122		03-14-2025
 	H3Show	123	1108	https://youtu.be/0Z4TGbApoIo&t=1108		Button		2025 Members Drive! Will Ethan Survive? - H3 Show #123		03-17-2025
 	H3Show	123	4590	https://youtu.be/0Z4TGbApoIo&t=4590		Button		2025 Members Drive! Will Ethan Survive? - H3 Show #123		03-17-2025
+	H3Show	126	3661	https://youtu.be/1X6PGsxZKs0&t=3661		Button		Lolcow Turns Violent (The Craziest Thing I've Ever Seen!) - H3 Show #126		03-24-2025
+No good on that?	H3Show	126	4804	https://youtu.be/1X6PGsxZKs0&t=4804		Button		Lolcow Turns Violent (The Craziest Thing I've Ever Seen!) - H3 Show #126		03-24-2025
 Bobby Lee Interruption	Podcast	148	2062	https://youtu.be/NK-_XJBYv-c&t=2062	Dan	Lore		Bobby Lee & Khalyla - H3 Podcast #148	Top Dan Moments	10-08-2019
 Dan Bans Rich Lux	H3TV	42	4956	https://youtu.be/QpElkT_nkgY&t=4956	Dan	Lore		We Went To ACE Fest... WOW - H3TV #42	Top Dan Moments	07-11-2022
 Dan Saves the Ad Read	AfterDark	75	3449	https://www.youtube.com/watch?v=ZUU3_vd1Oos&t=3449	Dan	Lore		Womens Rights Stripped Away, David Dobrik Hires Johnny Depps Lawyer - After Dark #75	Top Dan Moments	06-24-2022
@@ -322,7 +324,7 @@ Prolapse Talk ft Pokimane	AfterDark	82	3434	https://www.youtube.com/watch?v=Mx9j
 Prolapse Talk ft Yung Gravy	OTR	49	5666	https://www.youtube.com/watch?v=vroig7CeMuw&t=5666	Yung Gravy, Howie Mandel	Prolapse		Yung Gravy - Off The Rails #49		09-21-2022
 Prolapse Talk ft Kurtis Conner	Podcast	257	3344	https://youtu.be/WwSmgbQR9PA&t=3344	Kurtis Conner, Howie Mandel	Prolapse		Kurtis Conner - H3 Podcast #257		11-02-2022
 Prolapse Talk ft Bradley Martyn	Podcast	260	8483	https://youtu.be/c-mX7u5UKm8&t=8483	Bradley Martyn, Howie Mandel	Prolapse		Bradley Martyn - H3 Podcast #260		12-02-2022
-The notorious Prolapse video	Podcast	259	3350	https://youtu.be/LW2r-Ta5vVk&t=3350	HungerFF, Howie Mandel	Prolapse		Howie Mandel - H3 Podcast #259		11-16-2022
+The notorious Prolapse video	Podcast	259	3350	https://youtu.be/LW2r-Ta5vVk&t=3350	HungerFF	Prolapse		Howie Mandel - H3 Podcast #259		11-16-2022
 Zach watches the Prolapse	Misc	7	4444	https://youtu.be/yuFRPrkB5lU&t=4444	Zach, Howie Mandel	Prolapse		We Play Silent Library 2 And Regret It		12-07-2022
 Brittany Broski & Hila watch the Prolapse	Podcast	261	2617	https://youtu.be/32_0ehY5QH8&t=2617	Brittany Broski, Hila, Howie Mandel	Prolapse		Brittany Broski Is BACK! - H3 Podcast #261		12-09-2022
 Stavros watches the Prolapse	Podcast	262	3604	https://youtu.be/5J1FoJhOkwg&t=3604	Stavros Helkias, Howie Mandel	Prolapse		Stavros Halkias - H3 Podcast #262		12-14-2022
@@ -510,8 +512,8 @@ They fight for Martin!	H3TV	49	5505	https://youtu.be/rCMQxhWYEEo&t=5505	Martin R
 They fight for Dan!	OTR	53	9697	https://www.youtube.com/watch?v=Hj7Tx9D8G-s&t=9697		TheMolePeople		Dan Quit The Show - Off The Rails #53		10-19-2022
 They fight with drill lances	AfterDark	90	9113	https://www.youtube.com/watch?v=QvGqpAcXNqo&t=9113		TheMolePeople		Hila Got Banned On Twitter - After Dark #90		11-18-2022
 Howie and the Prolapse	Podcast	259	3254	https://youtu.be/LW2r-Ta5vVk&t=3254	Howie Mandel	HungerFF		Howie Mandel - H3 Podcast #259		11-16-2022
-Telling Stavros about HungerFF	Podcast	262	3269	https://youtu.be/5J1FoJhOkwg&t=3269	Stavros Helkias	HungerFF		Stavros Halkias - H3 Podcast #262		12-14-2022
-HungerFF Calls In #1	OTR	72	3090	https://www.youtube.com/watch?v=j_lLeMIwlmE&t=3090		HungerFF		Making The Most Disgusting Fish In The World Delicious - Off The Rails #72		05-17-2023
+Telling Stavros about HungerFF	Podcast	262	3269	https://youtu.be/5J1FoJhOkwg&t=3269	HungerFF	HungerFF		Stavros Halkias - H3 Podcast #262		12-14-2022
+HungerFF Calls In	OTR	72	3090	https://www.youtube.com/watch?v=j_lLeMIwlmE&t=3090	HungerFF	HungerFF		Making The Most Disgusting Fish In The World Delicious - Off The Rails #72		05-17-2023
 Ian JayZ PowerPoint	Podcast	212	2091	https://youtu.be/gtf8Z9RH3O8&t=2091		DeepfakeJayZIntro		Bella Thorne, Elon Musk, Ian PowerPoint - H3 Podcast #212		09-03-2020
 JayZ Rap for the Crew	Podcast	212	4060	https://youtu.be/gtf8Z9RH3O8&t=4060		DeepfakeJayZIntro		Bella Thorne, Elon Musk, Ian PowerPoint - H3 Podcast #212		09-03-2020
 Barefoot YouTube Ad	AfterDark	55	6502	https://www.youtube.com/watch?v=R63J0T2cK8w&t=6502	C-Man	BarefootBrothersDrive		James Charles Enablers & Keemstar Is Obsessed With Me - After Dark #55		10-22-2021
@@ -2045,3 +2047,8 @@ Ethan is obsessed with Jade Gambling TikToks	H3TV	94	5955	https://www.youtube.co
 Measuring the Crews REAL Heights	H3Show	125	2260	https://youtu.be/bTXSqLY3SpM&t=2260	Tyjule			Blake Lively BUSTED Again, Hasan Piker BUSTED Again - H3 Show #125		03-21-2025
 ProJared Looks Like Majora's Mask	H3Show	45	1321	https://youtu.be/R7hgK2iHF6Y&t=1321				ProJared Is A Danger To His Community And Must Be Stopped - H3 Show #45		08-21-2024
 Ethan's Little Hands Fan Art	OTR	3	502	https://www.youtube.com/watch?v=6kNZujESbNI&t=502				Trishas Apology & Ace Family Scam - Off The Rails #3		07-01-2021
+AB went to Neverland Ranch	AfterDark	132	6531	https://www.youtube.com/watch?v=z9IPrpq6wVs&t=6531	AB			Ace Family Divorce - After Dark #132		01-12-2024
+Philip DeFranco wears a tank top WHILE DOING THE NEWS?!	H3Show	126	840	https://youtu.be/1X6PGsxZKs0&t=840	Philip Defranco			Lolcow Turns Violent (The Craziest Thing I've Ever Seen!) - H3 Show #126		03-24-2025
+The Crew Discusses Peeing in the Pool	AfterDark	71	10510	https://www.youtube.com/watch?v=cztc_OXvqJI&t=10510				Crazy Myths We Believed As Kids, Fresh & Fit Cringe - After Dark #71		04-29-2022
+The First Traffic Report	H3Show	19	73	https://youtu.be/dAIDkR4xb7U&t=73	Dan			Tana Mongeau Exposed Cody Ko - H3 Show #19		06-05-2024
+HungerFF had a Bad Accident	H3Show	126	1325	https://youtu.be/1X6PGsxZKs0&t=1325	HungerFF			Lolcow Turns Violent (The Craziest Thing I've Ever Seen!) - H3 Show #126		03-24-2025

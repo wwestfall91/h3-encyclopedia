@@ -30,6 +30,10 @@ function UpdatesSection() {
                 <h1>PEOPLE UPDATES</h1>
                 <div className="section-data">
                     <div className="topic">
+                        <PersonCard person={people.find(x => x.name == "HungerFF")!} />
+                        <div className="note">{"3 New Moments!"}</div>
+                    </div>
+                    <div className="topic">
                         <PersonCard person={people.find(x => x.name == "Tyjule")!} />
                         <div className="note">{"New Arrival!"}</div>
                     </div>
@@ -49,13 +53,6 @@ function UpdatesSection() {
                         <PersonCard person={people.find(x => x.name == "Helen Keller")!} />
                         <div className="note">{"New Arrival!"}</div>
                     </div>
-                    <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Tom Ward")!} />
-                        <div className="note">{"New Arrival!"}</div>
-                    </div>
-                </div>
-                <div className="section-data">
-  
                 </div>
             </div>
             <div className="update-page-section">
@@ -109,7 +106,7 @@ function UpdatesSection() {
                     </div>
                 </div>
                 <ul>
-                    <li>I also updated a fair amount of descriptions to be more accurate</li>
+                    <li>Updated a fair amount of descriptions to be more accurate</li>
                 </ul>
             </div>
         </div>

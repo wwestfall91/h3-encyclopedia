@@ -78,35 +78,39 @@ function Homepage() {
                 <div className="page-container">
                     <div className="video-container">
                         <div className="video">
-                            <YouTube videoId="bTXSqLY3SpM" opts={opts} onReady={onReady} style={divStyle} />
+                            <YouTube videoId="1X6PGsxZKs0" opts={opts} onReady={onReady} style={divStyle} />
                         </div>
                     </div>
                     <div className="topics-container">
-
-                        <div className="topics-title">TOPICS FROM H3 SHOW #125</div>
+                        <div className="topics-title">TOPICS FROM H3 SHOW #126</div>
                         <div className="topics">
-                            <HomepagePersonCard person={people.find(x => x.name == "Ian")!} jumpToTime={() => jumpToTime(1080)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Tyjule")!} jumpToTime={() => jumpToTime(2260)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Ja Rule")!} jumpToTime={() => jumpToTime(2416)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Zach")!} jumpToTime={() => jumpToTime(120)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Philip Defranco")!} jumpToTime={() => jumpToTime(840)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "HungerFF")!} jumpToTime={() => jumpToTime(1335)} />
+                            <TopicCard 
+                                image={"https://h3out.com/wp-content/uploads/2020/05/85993e3fa366120a2f2b7ed718375dd5-1024x458.jpg"}
+                                headerText={"5 Years Ago"}
+                                description={"Wikifeet"}
+                                url={"https://youtu.be/_fiKPLXYttw&t=4455"}
+                                jumpToTime={() => jumpToTime(1781)} />
+                            <TopicCard 
+                                image={"https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/IV6EZMWBJBHGVD4TO56YFKXPR4.jpg"}
+                                headerText={"9 Months Ago"}
+                                description={"The First Traffic Report"}
+                                url={"https://youtu.be/dAIDkR4xb7U&t=73"}
+                                jumpToTime={() => jumpToTime(2018)} />
                             <TopicCard
-                                image={"Images/ProJared_MajorasMask.png"}
-                                headerText={"7 Months Ago"}
-                                description={"ProJared looks like Majoras Mask"}
-                                url={"https://youtu.be/R7hgK2iHF6Y?t=1321"}
-                                jumpToTime={() => jumpToTime(4779)} />
+                                image={"https://giadinh.mediacdn.vn/zoom/740_463/Images/Uploaded/Share/2009/06/26/3e5mcheo.jpg"}
+                                headerText={"1 Year Ago"}
+                                description={"AB went to Neverland Ranch?!"}
+                                url={"https://www.youtube.com/watch?v=z9IPrpq6wVs&t=6531"}
+                                jumpToTime={() => jumpToTime(2683)} />
                             <TopicCard 
-                                image={"https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2023/10/water-polo-pic-jpg_0.jpg"}
+                                image={"Images/TallSkeleton_PeeInPool.png"}
                                 headerText={"3 Years Ago"}
-                                description={"Ethans Water Polo Shit Story"}
-                                url={"https://youtu.be/cztc_OXvqJI?t=10980"}
-                                jumpToTime={() => jumpToTime(7301)} />
-                            <TopicCard 
-                                image={"https://pbs.twimg.com/media/FV4YwAxXEAIWlSV.jpg"}
-                                headerText={"3 Years Ago"}
-                                description={"Ethans Little Hands Fan Art"}
-                                url={"https://www.youtube.com/watch?v=6kNZujESbNI&t=502"}
-                                jumpToTime={() => jumpToTime(7328)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Blake Lively")!} jumpToTime={() => jumpToTime(8950)} />
+                                description={"The Crew on Peeing in the Pool"}
+                                url={"https://www.youtube.com/watch?v=cztc_OXvqJI&t=10510"}
+                                jumpToTime={() => jumpToTime(3965)} />
                         </div>
                     </div>
                 </div>     
