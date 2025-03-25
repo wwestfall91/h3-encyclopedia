@@ -19,7 +19,7 @@ function TopicComponent(props: Props) {
   return (
     <>
       {modalOpen && 
-        <MomentsModal title={props.topic.name} description={props.topic.description} timeStamps={props.topic.getMoments(moments)!} isOpen={false} openModal={setModalOpen} ></MomentsModal>
+        <MomentsModal title={props.topic.name} description={props.topic.description} timestamps={props.topic.getMoments(moments)!} isOpen={false} openModal={setModalOpen} ></MomentsModal>
       }
       <div id="TopicComponent" onClick={() => OpenModal()}>
           <div className="topic-container">

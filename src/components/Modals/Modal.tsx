@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
 export interface Props {
   title: string;
   description: string;
-  timeStamps: Moment[];
+  timestamps: Moment[];
   isOpen: boolean;
   openModal: (setOpen: boolean) => void;
 }
@@ -19,104 +19,45 @@ export function MomentsModal(props: Props) {
   const {episodes} = useDataContext();
   const [player, setPlayer] = useState<YouTubePlayer>();
   const [selectedMoment, setSelectedMoment] = useState<Moment>();
+  const [previousPlayerState, setPreviousPlayerState] = useState();
   const [isAutoPlaying, setIsAutoPlaying] = useState<boolean>(false);
-  const [autoPlayIndex, setAutoPlayIndex] = useState<number>(0);
-
-  // useEffect(() => {
-  //   if(!player || !selectedMoment)
-  //     return;
-
-  //   console.log("Player: ", player)
-  //   console.log(`LOADING ${selectedMoment.title}`)
-  //   // player.cueVideoById({'videoId': selectedMoment.getVideoId(), 'startSeconds': 50, 'endSeconds': 60})
-
-  // }, [selectedMoment]);
-  const beginAutoPlay = () => {
-    if(!player)
-      return
-
-    setAutoPlayIndex(0);
-    setIsAutoPlaying(true)
-    setSelectedMoment(props.timeStamps[0])
-    player.cueVideoById({'videoId': props.timeStamps[0].getVideoId(), 'startSeconds': 50, 'endSeconds': 60});  
-    player.playVideo();
-  }
 
   useEffect(() => {
-    onStateChange(undefined)
+    if(isAutoPlaying && !selectedMoment){
+      setSelectedMoment(props.timestamps[0])
+      onStateChange({data: 0})
+    }
   }, [isAutoPlaying]);
 
-  // const onAutoPlay = async () => {
-  //   if(!isAutoPlaying)
-  //     return;
+  const beginAutoPlay = () => {
+    setIsAutoPlaying(!isAutoPlaying)
+  }
 
-  //   if(!player)
-  //     return;
+  const onClick = (moment: Moment) => {
+    if(!player)
+      return;
 
-  //   let currentIndex = 0; // Assume the index is 0, unless there is a selectedMoment
-  //   let nextMoment = props.timeStamps[0];
-
-  //   if(selectedMoment){
-  //     currentIndex = props.timeStamps.indexOf(selectedMoment!); // Otherwise, find the current index
-  //     nextMoment = props.timeStamps[currentIndex + 1];
-  //   }
-
-  //   if(await player.getPlayerState() == YouTube.PlayerState.UNSTARTED){
-  //     player.playVideo();
-  //   }
-
-  //   if(await player.getPlayerState() == YouTube.PlayerState.ENDED){
-  //     player.cueVideoById({'videoId': nextMoment.getVideoId(), 'startSeconds': 50, 'endSeconds': 60})
-  //   }
-
-  //   if(await player.getPlayerState() == YouTube.PlayerState.CUED){
-  //     player.playVideo();
-  //     setSelectedMoment(nextMoment)
-  //   }
-  // }
-
-  // const onClick = (moment: Moment) => {
-  //   console.log("ON CLICK")
-  //   if(!player)
-  //     return;
-
-  //   player.cueVideoById({'videoId': moment.getVideoId(), 'startSeconds': 50, 'endSeconds': 60});  
-  // }
+    player.loadVideoById({'videoId': moment.getVideoId(), 'startSeconds': moment.getTime(), endSeconds: (moment.getTime() + 5)}); // 'endSeconds': 60};  
+    setSelectedMoment(moment);
+  }
 
   const onReady = (event : any) => {
     setPlayer(event.target);
-
-    // if(!selectedMoment)
-    //   return
-
-    // const currentIndex = props.timeStamps.indexOf(selectedMoment);
-    // const nextMoment = props.timeStamps[currentIndex + 1];
-
-    // setSelectedMoment(nextMoment)
   }
 
   const onStateChange = async (event: any) => {
-    if(!isAutoPlaying)
+    console.log("Previous State: ", previousPlayerState)
+    console.log("Current State:", event.data)
+    if(previousPlayerState == event.data) // If the previousState was ENDED(0) and the current event state is also ENDED(0), do nothing.
       return;
 
-    if(!player)
-      return;
-
-    let currentIndex = 0; // Assume the index is 0, unless there is a selectedMoment
-    let nextMoment = props.timeStamps[0];
-
-    if(selectedMoment){
-      currentIndex = props.timeStamps.indexOf(selectedMoment!); // Otherwise, find the current index
-      nextMoment = props.timeStamps[currentIndex + 1];
-    }
-
-    if(await player.getPlayerState() == YouTube.PlayerState.ENDED){
-      player.cueVideoById({'videoId': nextMoment.getVideoId(), 'startSeconds': 50, 'endSeconds': 60})
-    }
-
-    if(await player.getPlayerState() == YouTube.PlayerState.UNSTARTED){
-      player.playVideo();
-      setSelectedMoment(nextMoment)
+    const currentIndex = props.timestamps.indexOf(selectedMoment!)
+    setPreviousPlayerState(event.data);
+    
+    if(event.data == 0 && player && isAutoPlaying){
+      const upcomingMoment = props.timestamps[currentIndex + 1];
+      player.loadVideoById({'videoId': upcomingMoment.getVideoId(), 'startSeconds': upcomingMoment.getTime(), endSeconds: upcomingMoment.getTime() + 5}); // 'endSeconds': 60};  
+      setSelectedMoment(upcomingMoment)
     }
   }
 
@@ -154,10 +95,13 @@ export function MomentsModal(props: Props) {
           </div>
           <div className="modal-data">
             <div className="data-section">
-              <div className="related-links" onClick={() => beginAutoPlay()}>Moments</div>
+              <div className="title-section">
+                <div className="related-links" >Moments</div>
+                <div className={`autoplay-button ${isAutoPlaying ? "green" : "red"}`} onClick={() => beginAutoPlay()}>►► AUTOPLAY</div>
+              </div>
               <div className="modal-links-container">
-                {sortMomentsByDate(props.timeStamps, episodes).map((moment) => (
-                  <div className={`link-row ${selectedMoment?.title == moment.title ? "selected" : "" }`} onClick={() => {onClick(moment)}}>
+                {sortMomentsByDate(props.timestamps, episodes).map((moment) => (
+                  <div key={moment.title + moment.url} className={`link-row ${selectedMoment?.title == moment.title ? "selected" : "" }`} onClick={() => {onClick(moment)}}>
                     <div className="related-links-date">
                       {episodes.filter((x : Episode) => x.type == moment.episodeType && x.number == moment.episodeNumber)[0].date}
                     </div>
@@ -169,7 +113,7 @@ export function MomentsModal(props: Props) {
                     </div>                
                   </div>
                 ))}
-                {props.timeStamps.length === 0 &&
+                {props.timestamps.length === 0 &&
                     <div className="no-timestamps-available">
                       No episodes available
                     </div>

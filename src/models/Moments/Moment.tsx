@@ -66,7 +66,6 @@ export class Moment {
 
   getTime(): number {
     const time = +this.url.split("t=")[1]!
-    console.log("TIME: ", time)
     return time;
   }
 
