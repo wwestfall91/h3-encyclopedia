@@ -6,6 +6,8 @@ export class Moment {
   title: string;
   episodeType: EpisodeType;
   episodeNumber: number;
+  startTime:number;
+  endTime: number;
   url: string;
   people: string[];
   tags: Tag[];
@@ -18,6 +20,8 @@ export class Moment {
     title: string,
     episodeType: string,
     episodeNumber: number,
+    startTime: number,
+    endTime: number,
     url: string,
     people: string,
     tags: string,
@@ -28,6 +32,8 @@ export class Moment {
     this.title = title;
     this.episodeType = this.convertStringToEpisodeType(episodeType);
     this.episodeNumber = episodeNumber;
+    this.startTime = startTime;
+    this.endTime = endTime;
     this.url = url;
     this.people = people == "" || undefined ? [] : people.split(",");
     this.tags = tags == "" || undefined ? [] : this.convertStringsToTagArray(tags.split(","));

@@ -21,6 +21,12 @@ export function MomentsModal(props: Props) {
   const [selectedMoment, setSelectedMoment] = useState<Moment>();
   const [previousPlayerState, setPreviousPlayerState] = useState();
   const [isAutoPlaying, setIsAutoPlaying] = useState<boolean>(false);
+  const [totalTime, setTotalTime] = useState();
+
+  useEffect(() => {
+    let time = 0;
+    props.timestamps.map(x => {time += (x.endSeconds - x.startSeconds)})
+  }, []);
 
   useEffect(() => {
     if(isAutoPlaying && !selectedMoment){
@@ -37,7 +43,7 @@ export function MomentsModal(props: Props) {
     if(!player)
       return;
 
-    player.loadVideoById({'videoId': moment.getVideoId(), 'startSeconds': moment.getTime(), endSeconds: (moment.getTime() + 5)}); // 'endSeconds': 60};  
+    player.loadVideoById({'videoId': moment.getVideoId(), 'startSeconds': moment.getTime(), endSeconds: (moment.getTime() + 1)}); // 'endSeconds': 60};  
     setSelectedMoment(moment);
   }
 
@@ -46,8 +52,9 @@ export function MomentsModal(props: Props) {
   }
 
   const onStateChange = async (event: any) => {
-    console.log("Previous State: ", previousPlayerState)
-    console.log("Current State:", event.data)
+    if(event.data == 3 || event.data == -1) // If Buffering (3) OR Unstarted (-1), return
+      return;
+
     if(previousPlayerState == event.data) // If the previousState was ENDED(0) and the current event state is also ENDED(0), do nothing.
       return;
 
@@ -56,7 +63,7 @@ export function MomentsModal(props: Props) {
     
     if(event.data == 0 && player && isAutoPlaying){
       const upcomingMoment = props.timestamps[currentIndex + 1];
-      player.loadVideoById({'videoId': upcomingMoment.getVideoId(), 'startSeconds': upcomingMoment.getTime(), endSeconds: upcomingMoment.getTime() + 5}); // 'endSeconds': 60};  
+      player.loadVideoById({'videoId': upcomingMoment.getVideoId(), 'startSeconds': upcomingMoment.getTime(), endSeconds: upcomingMoment.getTime() + 1}); // 'endSeconds': 60};  
       setSelectedMoment(upcomingMoment)
     }
   }
@@ -96,8 +103,8 @@ export function MomentsModal(props: Props) {
           <div className="modal-data">
             <div className="data-section">
               <div className="title-section">
-                <div className="related-links" >Moments</div>
-                <div className={`autoplay-button ${isAutoPlaying ? "green" : "red"}`} onClick={() => beginAutoPlay()}>►► AUTOPLAY</div>
+                <div className="related-links">Moments</div>
+                <div className={`autoplay-button ${isAutoPlaying ? "green" : "red"}`} onClick={() => beginAutoPlay()}>►► AutoPlay</div>
               </div>
               <div className="modal-links-container">
                 {sortMomentsByDate(props.timestamps, episodes).map((moment) => (
