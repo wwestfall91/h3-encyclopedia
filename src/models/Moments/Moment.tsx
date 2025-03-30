@@ -12,7 +12,7 @@ export class Moment {
   image?: string;
   episodeName?: string;
   section?: string;
-  date?: string
+  date?: Date
 
   constructor(
     title: string,
@@ -23,7 +23,8 @@ export class Moment {
     tags: string,
     image: string,
     episodeName: string,
-    section:string
+    section:string,
+    date:string
   ) {
     this.title = title;
     this.episodeType = this.convertStringToEpisodeType(episodeType);
@@ -34,6 +35,7 @@ export class Moment {
     this.image = image == "" ? undefined : image;
     this.episodeName = episodeName == "" ? undefined : episodeName;
     this.section = section == "" ? undefined : section
+    this.date = new Date(date);
   }  
 
   getShortEpisodeTitle(){

@@ -7,9 +7,10 @@ import UpdatesSection from "./UpdatesSection";
 import HomepagePersonCard from "./HomepagePersonCard";
 import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/GeneralFeedbackModal";
+import MomentCard from "../Generic Cards/MomentCard";
 
 function Homepage() {
-    const { people } = useDataContext();
+    const { people, moments } = useDataContext();
     const [player, setPlayer] = useState<any>(null);
     const [updatesSelected, setUpdatesSelected] = useState<boolean>(false);
     const [showEmailModal, setShowEmailModal] = useState<boolean>(false);
@@ -78,39 +79,23 @@ function Homepage() {
                 <div className="page-container">
                     <div className="video-container">
                         <div className="video">
-                            <YouTube videoId="1X6PGsxZKs0" opts={opts} onReady={onReady} style={divStyle} />
+                            <YouTube videoId="d3wdoHl6l8c" opts={opts} onReady={onReady} style={divStyle} />
                         </div>
                     </div>
                     <div className="topics-container">
-                        <div className="topics-title">TOPICS FROM H3 SHOW #126</div>
+                        <div className="topics-title">TOPICS FROM H3 SHOW #127</div>
                         <div className="topics">
-                            <HomepagePersonCard person={people.find(x => x.name == "Zach")!} jumpToTime={() => jumpToTime(120)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Philip Defranco")!} jumpToTime={() => jumpToTime(840)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "HungerFF")!} jumpToTime={() => jumpToTime(1335)} />
-                            <TopicCard 
-                                image={"https://h3out.com/wp-content/uploads/2020/05/85993e3fa366120a2f2b7ed718375dd5-1024x458.jpg"}
-                                headerText={"5 Years Ago"}
-                                description={"Wikifeet"}
-                                url={"https://youtu.be/_fiKPLXYttw&t=4455"}
-                                jumpToTime={() => jumpToTime(1781)} />
-                            <TopicCard 
-                                image={"https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/IV6EZMWBJBHGVD4TO56YFKXPR4.jpg"}
-                                headerText={"9 Months Ago"}
-                                description={"The First Traffic Report"}
-                                url={"https://youtu.be/dAIDkR4xb7U&t=73"}
-                                jumpToTime={() => jumpToTime(2018)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Rae")!} jumpToTime={() => jumpToTime()} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Ashton Hall")!} jumpToTime={() => jumpToTime()} />
+                            <HomepagePersonCard person={people.find(x => x.name == "")!} jumpToTime={() => jumpToTime()} />
+                            <HomepagePersonCard person={people.find(x => x.name == "")!} jumpToTime={() => jumpToTime()} />
+                            <MomentCard moment={moments.find(x => x.title == "The Law and Ethan defend Avery")!} jumpToTime={() => jumpToTime()} />
                             <TopicCard
-                                image={"https://giadinh.mediacdn.vn/zoom/740_463/Images/Uploaded/Share/2009/06/26/3e5mcheo.jpg"}
-                                headerText={"1 Year Ago"}
-                                description={"AB went to Neverland Ranch?!"}
-                                url={"https://www.youtube.com/watch?v=z9IPrpq6wVs&t=6531"}
-                                jumpToTime={() => jumpToTime(2683)} />
-                            <TopicCard 
-                                image={"Images/TallSkeleton_PeeInPool.png"}
-                                headerText={"3 Years Ago"}
-                                description={"The Crew on Peeing in the Pool"}
-                                url={"https://www.youtube.com/watch?v=cztc_OXvqJI&t=10510"}
-                                jumpToTime={() => jumpToTime(3965)} />
+                                image={""}
+                                headerText={""}
+                                description={""}
+                                url={""}
+                                jumpToTime={() => jumpToTime()} />
                         </div>
                     </div>
                 </div>     
