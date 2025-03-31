@@ -11,7 +11,7 @@ interface Props {
 
 function MomentCard(props: Props) {
     const [isMobile, setIsMobile] = useState(false);
-    const { episodes } = useDataContext();
+    const { episodes, people } = useDataContext();
 
     useEffect(() => {
         setIsMobile(window.innerWidth < 1400);
@@ -38,7 +38,7 @@ function MomentCard(props: Props) {
     
     return (
         <>
-        {props.moment && 
+        {props.moment && people.length > 0 &&
         <div className="card-container">
             <div className="card" onClick={() => {window.open(`${props.moment.url}`, '_blank');} }>
                 <div className="person-container">
@@ -46,7 +46,7 @@ function MomentCard(props: Props) {
                         {getAgeText()}
                     </div>
                 </div>
-                <img className="card-image" src={props.moment.image ?? props.moment.getEpisode(episodes)?.getThumbnail()}/>
+                <img className="card-image" src={props.moment.image ?? people.find(x => x.name == props.moment.people[0])!.image ?? props.moment.getEpisode(episodes)?.getThumbnail()}/>
                 <div className="footer" onClick={(e) => {e.stopPropagation()}}>
                     <div className="soundbite-card-title">{props.moment.title}</div>                 
                 </div>

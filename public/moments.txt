@@ -164,6 +164,8 @@ Bad Empanada's Threats	H3Show	115	8780	https://youtu.be/bq4Bq0KXlGE&t=8780		Butt
 	H3Show	123	4590	https://youtu.be/0Z4TGbApoIo&t=4590		Button		2025 Members Drive! Will Ethan Survive? - H3 Show #123		03-17-2025
 	H3Show	126	3661	https://youtu.be/1X6PGsxZKs0&t=3661		Button		Lolcow Turns Violent (The Craziest Thing I've Ever Seen!) - H3 Show #126		03-24-2025
 No good on that?	H3Show	126	4804	https://youtu.be/1X6PGsxZKs0&t=4804		Button		Lolcow Turns Violent (The Craziest Thing I've Ever Seen!) - H3 Show #126		03-24-2025
+	H3Show	128	1521	https://youtu.be/hXVbxQPnSNs&t=1521		Button		Noah Samsen Exposed As A Massive Creep - H3 Show #128		03-28-2025
+During Ethan's Alpha Segment	H3Show	128	12055	https://youtu.be/hXVbxQPnSNs&t=12055		Button		Noah Samsen Exposed As A Massive Creep - H3 Show #128		03-28-2025
 Dan Lore										
 Bobby Lee Interruption	Podcast	148	2062	https://youtu.be/NK-_XJBYv-c&t=2062	Dan	Lore		Bobby Lee & Khalyla - H3 Podcast #148	Top Dan Moments	10-08-2019
 Dan Bans Rich Lux	H3TV	42	4956	https://youtu.be/QpElkT_nkgY&t=4956	Dan	Lore		We Went To ACE Fest... WOW - H3TV #42	Top Dan Moments	07-11-2022
@@ -608,7 +610,7 @@ Donna's Cameo - Deez Nuts Origin	AfterDark	99	10090	https://www.youtube.com/watc
 Donna Talks to Liver King	Leftovers	26	4230	https://www.youtube.com/watch?v=5XtLmCevyRU&t=4230	Donna Klein			LIVER KING IS HERE! - Leftovers #26		09-29-2022
 Donna & Shirtless Eddie	H3TV	67	4920	https://youtu.be/gxRUEWE2_D4&t=4920	Donna Klein			My Mom Calls In To Explain Selena Gomez vs. Hailey Bieber Drama - H3TV #67		02-27-2023
 Donna Calls In to check on Ethan's health	OTR	79	1110	https://www.youtube.com/watch?v=JJ4HuGmgzlo&t=1110	Donna Klein			Talking to Jonah Hill Accuser Alexa Nikolas - Off The Rails #79		07-26-2023
-Donna's Mahjong Drama	OTR	83	1230	https://www.youtube.com/watch?v=Tzjt_KVK58w&t=1230	Donna Klein			Fresh & Fit Got Banned On YouTube RIP Bozos - Off The Rails #83		08-23-2023
+Donna's Mahjong Drama	OTR	83	1230	https://www.youtube.com/watch?v=Tzjt_KVK58w&t=1230	Donna Klein		https://lessdana.com/wp-content/uploads/2021/11/img_2152.jpg	Fresh & Fit Got Banned On YouTube RIP Bozos - Off The Rails #83		08-23-2023
 Donna Posts Butterfly Porn	OTR	84	770	https://www.youtube.com/watch?v=-kXDNhjOtpA&t=770	Donna Klein			8 Passengers Update, EDP Caught Again, Burning Man Disaster - Off The Rails #84		09-06-2023
 Donna Calls-In to talk about the Shredder Tattoo	OTR	87	1740	https://www.youtube.com/watch?v=R8Y-ih8DLlc&t=1740	Donna Klein			Korean Food Taste Test, Taylor Swifts New Boyfriend PowerPoint - Off The Rails #87		09-27-2023
 Donna's Birthday Call-In	AfterDark	125	8460	https://www.youtube.com/watch?v=lNfOxmaiFJ0&t=8460	Donna Klein			MrBeast Called Out For Faking Video, New David Dobrik Clip Is Horrifying (Ft. Pokimane) - AD #125		10-27-2023
@@ -2068,4 +2070,11 @@ Ethan's 'Controversal' Cat take 	H3Show	26	8994	https://youtu.be/GkAiYALkd9Y&t=8
 The Golden Prolapse Trading Card	H3TV	57	2384	https://youtu.be/Y0idXvAgs6Q&t=2384				Ethans Car Was Stolen - H3TV #57		11-14-2022
 Tom's Kids had Ligma??	H3Show	127	672	https://youtu.be/d3wdoHl6l8c&t=672	Tom Ward			Noah Samsen Is F*cked - H3 Show #127		03-26-2025
 HungerFF Calls in to Talk About His Accident	H3Show	127	4775	https://youtu.be/d3wdoHl6l8c&t=4775	HungerFF	Call		Noah Samsen Is F*cked - H3 Show #127		03-26-2025
-The Viral Alpha Male is Back Again	H3Show	127	11270	https://youtu.be/d3wdoHl6l8c&t=11270	Ashton Hall			Noah Samsen Is F*cked - H3 Show #127		03-26-2025
+Ashton Halls Daily Routine	H3Show	126	2837	https://youtu.be/1X6PGsxZKs0&t=2837	Ashton Hall			Lolcow Turns Violent (The Craziest Thing I've Ever Seen!) - H3 Show #126		03-24-2025
+Ashton's Update on his Viral Success	H3Show	127	3930	https://youtu.be/d3wdoHl6l8c&t=3930	Ashton Hall			Noah Samsen Is F*cked - H3 Show #127		03-26-2025
+The Viral Alpha Male is Back Again	H3Show	128	11270	https://youtu.be/hXVbxQPnSNs&t=11270	Ashton Hall			Noah Samsen Exposed As A Massive Creep - H3 Show #128		03-28-2025
+Sam Cooks Calzones	AfterDark	61	2487	https://www.youtube.com/watch?v=E3MQh8Z6g3I&t=2487	Sam	Lore		ACE Family, Ryan Kavanaugh, SteveWillDoIt - After Dark #61		12-03-2021
+Ethan Prank Calls Donna	H3Show	66	7956	https://youtu.be/SAeHExAdKLk&t=7956	Donna Klein			KSI Blocked Our Video & Lied About It, BOYS NIGHT! WE OUT HERE! - H3 Show #66		10-14-2024
+Donna's Messages the Emergency Chat	H3Show	128	6300	https://youtu.be/hXVbxQPnSNs&t=6300	Donna Klein	Call		Noah Samsen Exposed As A Massive Creep - H3 Show #128		03-28-2025
+Rae Opens Up About Her Past	H3Show	128	7125	https://youtu.be/hXVbxQPnSNs&t=7125	Rae			Noah Samsen Exposed As A Massive Creep - H3 Show #128		03-28-2025
+The Vegetable Surprise Story	H3Show	128	6815	https://youtu.be/hXVbxQPnSNs&t=6815	Donna Klein			Noah Samsen Exposed As A Massive Creep - H3 Show #128		03-28-2025

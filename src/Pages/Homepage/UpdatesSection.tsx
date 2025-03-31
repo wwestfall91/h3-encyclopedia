@@ -2,10 +2,10 @@ import MomentComponent from "../../components/Moments/MomentComponent/MomentComp
 import SoundbiteCard from "../../components/SoundbiteCard/SoundbiteCard";
 import { useDataContext } from "../../context/DataContext";
 import PersonCard from "../PeoplePage/PersonCard";
-import "./UpdatesSection.scss"
 import trafficReport from "../../../public/TrafficReport.mp4"
 import { useState } from "react";
 import TopicComponent from "../Iceberg/TopicComponent";
+import "./UpdatesSection.scss"
 
 function UpdatesSection() {
     const { soundbites, people, moments, topics } = useDataContext();
@@ -18,7 +18,9 @@ function UpdatesSection() {
                     <source src={trafficReport}/>
                 </video>
             }
+            <h1 className="page-header">UPDATES FOR MARCH 2025</h1>
             <div className="update-page-section">
+                
                 <h1>GENERAL UPDATES</h1>
                 <ul>
                     <li>BUG FIX: Filtering while a soundbite was playing would cause the cards to play the wrong soundbites</li>

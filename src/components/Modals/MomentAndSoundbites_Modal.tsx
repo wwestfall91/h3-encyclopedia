@@ -45,7 +45,7 @@ export function MomentAndSoundbites_Modal(props: Props) {
               <div className="related-links">Related Soundbites</div>
               <div className="new-modal-links-container">
                 {sortSoundbitesByDate(props.soundbites).map((soundbite) => (
-                  <div className="link-container">
+                  <div key={`${soundbite.title}-${soundbite.url}`} className="link-container">
                     {soundbite.episodetype &&
                     <>
                       <div className="related-links-date">
@@ -86,7 +86,7 @@ export function MomentAndSoundbites_Modal(props: Props) {
               <div className="related-links">Referenced in Episode</div>
               <div className="new-modal-links-container">
                 {sortMomentsByDate(props.moments, episodes).map((moment) => (
-                  <div className="link-container">
+                  <div key={`${moment.title}-${moment.url}`} className="link-container">
                     <div className="related-links-date">
                       {episodes.filter((x : Episode) => x.type == moment.episodeType && x.number == moment.episodeNumber)[0].date}
                     </div>
