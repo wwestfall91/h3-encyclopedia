@@ -25,7 +25,7 @@ export function MomentsModal(props: Props) {
 
   useEffect(() => {
     let time = 0;
-    props.timestamps.map(x => {time += (x.endSeconds - x.startSeconds)})
+    props.timestamps.map(x => {time += (x.endTime - x.startTime)})
   }, []);
 
   useEffect(() => {
@@ -43,7 +43,7 @@ export function MomentsModal(props: Props) {
     if(!player)
       return;
 
-    player.loadVideoById({'videoId': moment.getVideoId(), 'startSeconds': moment.getTime(), endSeconds: (moment.getTime() + 1)}); // 'endSeconds': 60};  
+    player.loadVideoById({'videoId': moment.getVideoId(), 'startSeconds': moment.startTime, endSeconds: (moment.endTime)}); // 'endSeconds': 60};  
     setSelectedMoment(moment);
   }
 
@@ -63,7 +63,7 @@ export function MomentsModal(props: Props) {
     
     if(event.data == 0 && player && isAutoPlaying){
       const upcomingMoment = props.timestamps[currentIndex + 1];
-      player.loadVideoById({'videoId': upcomingMoment.getVideoId(), 'startSeconds': upcomingMoment.getTime(), endSeconds: upcomingMoment.getTime() + 1}); // 'endSeconds': 60};  
+      player.loadVideoById({'videoId': upcomingMoment.getVideoId(), 'startSeconds': upcomingMoment.startTime, endSeconds: upcomingMoment.endTime}); // 'endSeconds': 60};  
       setSelectedMoment(upcomingMoment)
     }
   }
@@ -84,7 +84,7 @@ export function MomentsModal(props: Props) {
     playerVars: {
       autoplay: 0,
     },
-  }; 
+  } as any; 
 
   return (
     <div id="Modal" onClick={() => props.openModal(false)}>
@@ -104,7 +104,13 @@ export function MomentsModal(props: Props) {
             <div className="data-section">
               <div className="title-section">
                 <div className="related-links">Moments</div>
-                <div className={`autoplay-button ${isAutoPlaying ? "green" : "red"}`} onClick={() => beginAutoPlay()}>►► AutoPlay</div>
+                <div className={`autoplay-slider ${isAutoPlaying ? "on" : "off"}`} onClick={() => beginAutoPlay()}>
+                  <div className={`autoplay-background ${isAutoPlaying ? "green" : "red"}`} >
+                    <b>On</b>
+                    <b>Off</b>
+                  </div>
+                  <div className={`autoplay-button ${isAutoPlaying ? "on" : "off"}`}>AUTO PLAY</div>
+                </div>
               </div>
               <div className="modal-links-container">
                 {sortMomentsByDate(props.timestamps, episodes).map((moment) => (

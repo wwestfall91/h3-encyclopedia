@@ -54,7 +54,7 @@ function Homepage() {
         playerVars: {
           autoplay: 0,
         },
-    };
+    } as any;
 
     return (
         <>

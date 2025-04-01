@@ -6,7 +6,7 @@ export class Moment {
   title: string;
   episodeType: EpisodeType;
   episodeNumber: number;
-  startTime:number;
+  startTime: number;
   endTime: number;
   url: string;
   people: string[];
