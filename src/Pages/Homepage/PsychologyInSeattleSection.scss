@@ -1,0 +1,21 @@
+#psychologyInSeattle{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+  .page-header{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.568);
+    margin-top:.5rem;
+    margin-left:-.5rem;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+  }
+
+  .data-section{
+    display: flex;
+    gap:2rem;
+    flex-wrap: wrap;
+  }
+}

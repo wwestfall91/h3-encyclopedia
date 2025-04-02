@@ -18,7 +18,7 @@ function UpdatesSection() {
                     <source src={trafficReport}/>
                 </video>
             }
-            <h1 className="page-header">UPDATES FOR MARCH 2025</h1>
+            <h1 className="page-header">UPDATES FOR APRIL 2025</h1>
             <div className="update-page-section">
                 
                 <h1>GENERAL UPDATES</h1>

@@ -42,10 +42,10 @@ function HomepagePersonCard(props: Props) {
     return (
       <>
       {props.person && 
-        <div className="card-container">
-          <div id="PersonCard">
+        <div id="PersonCard">
+          <div className="card-container">
           { (relatedSoundbites.length > 0 || relatedMoments.length > 0) &&
-            <div>
+            <>
             {modalOpen && 
               <MomentAndSoundbites_Modal title={props.person.name} description={""} moments={relatedMoments} soundbites={relatedSoundbites} isOpen={false} openModal={setModalOpen} ></MomentAndSoundbites_Modal>
             }
@@ -69,14 +69,14 @@ function HomepagePersonCard(props: Props) {
                   />
               </div>
             }
-            </div>
+            </>
           }
 
           </div>
           <>
-              {!isMobile && props.jumpToTime &&
-                <div className="time" onClick={props.jumpToTime}>{"< Jump to Mention"}</div> 
-              }
+          {!isMobile && props.jumpToTime &&
+            <div className="jump-to-mention" onClick={props.jumpToTime}>{"< Jump to Mention"}</div> 
+          }
           </>
         </div>
       }

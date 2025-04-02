@@ -7,11 +7,13 @@ import HomepagePersonCard from "./HomepagePersonCard";
 import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/GeneralFeedbackModal";
 import MomentCard from "../Generic Cards/MomentCard";
+import PsychologyInSeattleSection from "./PsychologyInSeattleSection";
 
 function Homepage() {
     const { people, moments, episodes } = useDataContext();
     const [player, setPlayer] = useState<any>(null);
     const [updatesSelected, setUpdatesSelected] = useState<boolean>(false);
+    const [psychologySelected, setPsychologySelected] = useState<boolean>(false);
     const [showEmailModal, setShowEmailModal] = useState<boolean>(false);
     const [isMobile, setIsMobile] = useState(false);
 
@@ -25,8 +27,6 @@ function Homepage() {
 
         return () => window.removeEventListener('resize', handleResize); // Clean up
     }, [people.length]);
-
-
     
     const getLatestEpisode = () => {
         if(episodes.length <= 0)
@@ -76,12 +76,13 @@ function Homepage() {
         <div id="Homepage">
             {!isMobile && 
                 <div className="subheader">
-                    <button className={updatesSelected ? "subheader-button" : "subheader-button selected"} onClick={() => setUpdatesSelected(false)}>EPISODE DEBRIEF</button>
-                    <button className={!updatesSelected ? "subheader-button" : "subheader-button selected"} onClick={() => setUpdatesSelected(true)}>MONTHLY UPDATES</button>
+                    <button className={updatesSelected || psychologySelected ? "subheader-button" : "subheader-button selected"} onClick={() => {setUpdatesSelected(false); setPsychologySelected(false);} }>EPISODE DEBRIEF</button>
+                    <button className={psychologySelected ? "subheader-button selected" : "subheader-button"} onClick={() =>{setUpdatesSelected(false); setPsychologySelected(true);} }>PSYCHOLOGY IN SEATTLE RATINGS</button>
+                    <button className={!updatesSelected ? "subheader-button" : "subheader-button selected"} onClick={() => {setUpdatesSelected(true); setPsychologySelected(false);}}>MONTHLY UPDATES</button>
                 </div>
             }
 
-            {!updatesSelected && 
+            {!updatesSelected && !psychologySelected &&
             <>
                 {!isMobile && 
                     <div className="submit-button-container">
@@ -99,13 +100,14 @@ function Homepage() {
                     <div className="topics-container">
                         <div className="topics-title">{`TOPICS FROM H3 SHOW #${getLatestEpisode()?.number}`}</div>
                         <div className="topics">
-                            <HomepagePersonCard person={people.find(x => x.name == "Rae")!} jumpToTime={() => jumpToTime(7125)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Ashton Hall")!} jumpToTime={() => jumpToTime(9955)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Logan Paul")!} jumpToTime={() => jumpToTime(5940)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Jake Paul")!} jumpToTime={() => jumpToTime(5940)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Greg Paul")!} jumpToTime={() => jumpToTime(5940)} />
-                            <MomentCard moment={moments.find(x => x.title == "Donna's Mahjong Drama")!} jumpToTime={() => jumpToTime(6513)} />
-                            <MomentCard moment={moments.find(x => x.title == "The Denny's Incident")!} jumpToTime={() => jumpToTime(1629)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Fresh and Fit")!} jumpToTime={() => jumpToTime(4100)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Big Nik")!} jumpToTime={() => jumpToTime(4680)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Swami")!} jumpToTime={() => jumpToTime(6527)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Justin Bieber")!} jumpToTime={() => jumpToTime(6950)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Selena Gomez")!} jumpToTime={() => jumpToTime(6950)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Boogie2988")!} jumpToTime={() => jumpToTime(11498)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Keemstar")!} jumpToTime={() => jumpToTime(11498)} />
+                            <MomentCard moment={moments.find(x => x.title == "Pride Minute Origin")!} jumpToTime={() => jumpToTime(12997)}></MomentCard>
                         </div>
                     </div>
                 </div>     
@@ -113,6 +115,9 @@ function Homepage() {
             }
             {updatesSelected &&
                 <UpdatesSection />
+            }
+            {psychologySelected &&
+                <PsychologyInSeattleSection />
             }
             
         </div>
