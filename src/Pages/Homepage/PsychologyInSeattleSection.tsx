@@ -1,10 +1,7 @@
-import { useDataContext } from "../../context/DataContext";
 import TopicCard from "../Topics/TopicCard";
 import "./psychologyInSeattleSection.scss"
 
 function PsychologyInSeattleSection() {
-    const { people } = useDataContext();
-
     return (
         
         <div id="psychologyInSeattle">
