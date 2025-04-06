@@ -367,3 +367,7 @@ Yoko Ono	https://ediblemanhattan.com/wp-content/uploads/2010/11/EM14-LowRes18.jp
 Yung Gravy	https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Yung_Gravy_2023_%28cropped%29.jpg/800px-Yung_Gravy_2023_%28cropped%29.jpg	Friend
 Zach	https://static.wikia.nocookie.net/h3h3productions/images/9/90/GVL6evk8_400x400.jpg	Family
 LionWithAMic	https://shoutoutla.s3.us-west-1.amazonaws.com/wp-content/uploads/2022/04/c-RadheyaReinkarnd__Radheya2_1650509651132.jpg	Neutral
+SomeOrdinaryGamers	https://i.ytimg.com/vi/9hp9zoVuSmY/sddefault.jpg	Friend
+Noah Samsen	https://www.famousbirthdays.com/headshots/noah-samsen-1.jpg	Enemy
+H3Lore	Images\WaddlesJr.png	Friend
+Dr Mike	https://nypost.com/wp-content/uploads/sites/2/2022/10/sexiest-doctor-lambo-joyride-15.jpg	Neutral

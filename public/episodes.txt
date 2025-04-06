@@ -218,6 +218,7 @@ H3H3Productions	9	01-01-2016	The Big, the BOLD, the Beautiful (Re-Upload)	https:
 H3H3Productions	10	05-24-2016	We're Being Sued	https://youtu.be/fEGVOysbC8w	
 H3H3Productions	11	02-27-2017	We're Still Being Sued	https://youtu.be/m40bWgWH8Ro	
 H3H3Productions	12	08-23-2017	WE WON THE LAWSUIT!	https://youtu.be/9eN0CIyF2ok	
+H3H3Productions	13	04-18-2020	Everybody Loves Ethan	https://youtu.be/9eN0CIyF2ok	
 H3Show	1	04-22-2024	Fresh Got His GF Pregnant & Demands She Gets Rid Of It (She’s Calling In)  - H3 Show #1	https://youtu.be/0lt0tTr-lj4	
 H3Show	2	04-24-2024	Catching Up On All The Tea We Missed - H3 Show #2	https://youtu.be/x2cyP6KJ0Uc	
 H3Show	3	04-26-2024	Green Screen Tournament 2024 - H3 Show #3	https://youtu.be/Xel3UegLOLQ	
@@ -341,6 +342,8 @@ H3Show	126	03-24-2025	Lolcow Turns Violent (The Craziest Thing I've Ever Seen!) 
 H3Show	127	03-26-2025	Noah Samsen Is F*cked - H3 Show #127	https://youtu.be/d3wdoHl6l8c	
 H3Show	128	03-28-2025	Noah Samsen Exposed As A Massive Creep - H3 Show #128	https://youtu.be/hXVbxQPnSNs	
 H3Show	129	03-31-2025	The Justin Bieber Situation Just Went Catastrophic - H3 Show #129	https://youtu.be/GzFYv_mFCNY	
+H3Show	130	04-02-2025	Noah Samsen, Retract Or Lawyer Up - H3 Show #130	https://youtu.be/H3ToWhPj4JE	
+H3Show	131	04-04-2025	Confronting The NELK Boys On Andrew Tate Affiliation - H3 Show #131	https://youtu.be/R9eaDKnSsHo	
 H3TV	1	07-17-2021	I Waited 16 YEARS To Play Half Life Alyx... & The Crew Ruined It - H3TV #1	https://youtu.be/3XCb0GrMix4	
 H3TV	2	07-24-2021	YouTuber House Tours, Make Ethan Laugh, Twitch Gambling Finale | H3TV Full Episode #2	https://www.youtube.com/watch?v=b9BRDiQPD-U	
 H3TV	3	07-31-2021	QAnon Lunatics & Unusual Memes - H3TV #3	https://youtu.be/GArWVPo-86s	

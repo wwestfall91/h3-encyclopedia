@@ -6,11 +6,10 @@ import UpdatesSection from "./UpdatesSection";
 import HomepagePersonCard from "./HomepagePersonCard";
 import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/GeneralFeedbackModal";
-import MomentCard from "../Generic Cards/MomentCard";
 import PsychologyInSeattleSection from "./PsychologyInSeattleSection";
 
 function Homepage() {
-    const { people, moments, episodes } = useDataContext();
+    const { people, episodes } = useDataContext();
     const [player, setPlayer] = useState<any>(null);
     const [updatesSelected, setUpdatesSelected] = useState<boolean>(false);
     const [psychologySelected, setPsychologySelected] = useState<boolean>(false);
@@ -100,14 +99,12 @@ function Homepage() {
                     <div className="topics-container">
                         <div className="topics-title">{`TOPICS FROM H3 SHOW #${getLatestEpisode()?.number}`}</div>
                         <div className="topics">
-                            <HomepagePersonCard person={people.find(x => x.name == "Fresh and Fit")!} jumpToTime={() => jumpToTime(4100)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Big Nik")!} jumpToTime={() => jumpToTime(4680)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Swami")!} jumpToTime={() => jumpToTime(6527)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Justin Bieber")!} jumpToTime={() => jumpToTime(6950)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Selena Gomez")!} jumpToTime={() => jumpToTime(6950)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Boogie2988")!} jumpToTime={() => jumpToTime(11498)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Keemstar")!} jumpToTime={() => jumpToTime(11498)} />
-                            <MomentCard moment={moments.find(x => x.title == "Pride Minute Origin")!} jumpToTime={() => jumpToTime(12997)}></MomentCard>
+                            <HomepagePersonCard person={people.find(x => x.name == "Steiny")!} jumpToTime={() => jumpToTime(7200)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Andrew Tate")!} jumpToTime={() => jumpToTime(8360)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Bradley Martyn")!} jumpToTime={() => jumpToTime(7595)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Russell Brand")!} jumpToTime={() => jumpToTime(4310)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Ashton Hall")!} jumpToTime={() => jumpToTime(6515)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Dr Mike")!} jumpToTime={() => jumpToTime(6305)} />
                         </div>
                     </div>
                 </div>     

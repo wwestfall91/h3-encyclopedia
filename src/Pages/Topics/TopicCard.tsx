@@ -7,8 +7,8 @@ interface Props {
     headerText: string;
     description: string;
     url: string;
-    grade: string;
-    grade2: string;
+    grade?: string;
+    grade2?: string;
     jumpToTime?: () => void;
 
 }
