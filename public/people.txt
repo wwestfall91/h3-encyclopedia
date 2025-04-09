@@ -22,6 +22,7 @@ Anthony Padilla	https://static.wikia.nocookie.net/smosh/images/0/08/Anthony_Padi
 Anuc	https://happymag.tv/wp-content/uploads/2022/12/Anuc-Atittawan.jpg	Friend
 Ariana Grande	https://cdn.britannica.com/92/211792-050-E764F875/American-singer-Ariana-Grande-2018.jpg	Neutral
 Ashton Hall	https://manofmany.com/wp-content/uploads/2025/03/Who-is-ashton-hall.jpg	Neutral
+Attorney Tom	https://attorneytom.com/wp-content/uploads/2022/09/tommy-headshot-opt.png	Friend
 Aubrey Smalls	https://s.abcnews.com/images/Entertainment/230713_abcnl_prime_tiktalk_hpMain_16x9_1600.jpg	Enemy
 Austin McBroom	https://www.the-sun.com/wp-content/uploads/sites/6/2020/07/NINTCHDBPICT000597015821.jpg	Enemy
 Ava Kris Tyson	https://static.wikia.nocookie.net/misterbeast/images/8/88/Kris_Tyson_2023.png	Neutral
@@ -77,7 +78,7 @@ Colleen Ballinger	https://media.distractify.com/brand-img/KqylDWUeV/0x0/colleen-
 Comrade Casey	https://pbs.twimg.com/profile_images/1877584959751274496/aupDQnXo_400x400.jpg	Enemy
 Corpse Husband	https://upload.wikimedia.org/wikipedia/en/a/a2/Corpse_Husband.jpg	Neutral
 Costco Guys	https://www.tubefilter.com/wp-content/uploads/2024/08/costco-guys.jpg	Neutral
-Cousin Tim	Images\Cousin_Tim.png	
+Cousin Tim	Images\Cousin_Tim.png	Friend
 Curly Howard	https://npr.brightspotcdn.com/dims4/default/731bb89/2147483647/strip/true/crop/900x900+0+0/resize/880x880!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwmky%2Ffiles%2F201810%2Fcurly.jpg	Neutral
 Curtis Atwood	https://www.lifeandstylemag.com/wp-content/uploads/2019/05/curtis-atwood.png	Neutral
 Dad	https://static.wikia.nocookie.net/dad-feels/images/e/ef/Unnamed_1_7.jpg	Enemy
@@ -111,6 +112,7 @@ Donna Klein	https://static.wikia.nocookie.net/h3podcast/images/4/4d/Donna_Klein_
 Dr Disrespect	https://c.files.bbci.co.uk/7a7c/live/d5a4b140-32e3-11ef-bdc5-41d7421c2adf.jpg	Neutral
 Dr Idz	https://hips.hearstapps.com/hmg-prod/images/dr-idz-65eedc0955ae4.png	Friend
 Dr Kenny Smiles	https://familydentistgarland.com/wp-content/uploads/2023/07/IMG_1711-1-1-300x300.jpg	Neutral
+Dr Mike	https://nypost.com/wp-content/uploads/sites/2/2022/10/sexiest-doctor-lambo-joyride-15.jpg	Neutral
 Dr Phil	https://deadline.com/wp-content/uploads/2023/01/dr-phil-mcgraw-2.jpg?w=1000	Neutral
 Drake	https://vz.cnwimg.com/thumb-900x/wp-content/uploads/2020/02/Drake.jpg	Neutral
 Dream	https://www.dexerto.com/cdn-image/wp-content/uploads/2023/12/20/Dream-header-img.jpg	Neutral
@@ -140,6 +142,7 @@ Gavin McInnes	https://media.npr.org/assets/img/2022/10/12/gettyimages-1154154864
 George Janko	https://img.ctykit.com/cdn/az-phoenix/images/tr:w-1800/george-lanko.png	Neutral
 Greg Paul	https://www.famousbirthdays.com/headshots/greg-paul-1.jpg	Enemy
 Grimes	https://eastsidevibess.com/wp-content/uploads/2019/06/img_2524.jpg	Neutral
+H3Lore	Images\WaddlesJr.png	Friend
 Hailey Bieber	https://upload.wikimedia.org/wikipedia/commons/8/8f/Hailey_Bieber_for_Vogue_2024_02.jpg	Neutral
 Hailey Welch (Hawk Tuah)	https://www.tennessean.com/gcdn/authoring/authoring-images/2024/07/03/PNAS/74290172007-0-u-9-a-2440.jpg	Neutral
 Hannibal B	https://image.tmdb.org/t/p/w500/mcw3Orbg4vbALXTVG4hriZjH1sj.jpg	Neutral
@@ -215,6 +218,7 @@ Lena	https://static.wikia.nocookie.net/h3h3/images/d/d6/Lena_pfp.png	Friend
 Lewis Saunderson	https://i.ytimg.com/vi/W4Uuu5XN2CQ/hqdefault.jpg	Friend
 Lil Tracy	https://fastly-s3.allmusic.com/artist/mn0003670382/400/sRMlAmHpLaCAH6-J0jfuRCpQg_7iAU1wjqLgK_xGXts=.jpg	Neutral
 Lil Xan	https://imagez.tmz.com/image/50/4by3/2020/07/15/5015a36fa44f4bf7b9a2e2a5ab0acdb9_md.jpg	Neutral
+LionWithAMic	https://shoutoutla.s3.us-west-1.amazonaws.com/wp-content/uploads/2022/04/c-RadheyaReinkarnd__Radheya2_1650509651132.jpg	Neutral
 Liver King	https://image-cdn.essentiallysports.com/wp-content/uploads/liver-king-1-1110x999.jpg	Neutral
 Logan Paul	https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Logan_Paul_%2848086619418%29.jpg/800px-Logan_Paul_%2848086619418%29.jpg	Enemy
 Logic	https://images.squarespace-cdn.com/content/63126ea1e247b3652b89ef28/1704170437868-CJSDMLEA56OZU1A4QJNE/Logic+Website+Art.png	Friend
@@ -258,6 +262,7 @@ Nicholas Cage	https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/as
 Nick Fuentes	https://upload.wikimedia.org/wikipedia/commons/9/95/Nick_Fuentes_screencap_from_July_2022_virtual_debate.png	Enemy
 Ninja	https://www.svg.com/img/gallery/streamers-confirm-what-we-all-suspected-about-ninjas-real-life-behavior/intro-1639758649.jpg	Neutral
 Noah Beck	https://deadline.com/wp-content/uploads/2021/08/Noah-Beck-Tries-Things.jpg	Neutral
+Noah Samsen	https://www.famousbirthdays.com/headshots/noah-samsen-1.jpg	Enemy
 OJ Simpson	https://s.abcnews.com/images/US/GTY_OJ_Simpson_MEM_150921.jpg	Enemy
 Oliver Tree	https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Oliver_Tree_%2850118164757%29_%28cropped%29.jpg/1200px-Oliver_Tree_%2850118164757%29_%28cropped%29.jpg	Enemy
 Olivia	https://static.wikia.nocookie.net/h3podcast/images/8/84/Olivia-lopes-5.webp	Family
@@ -315,6 +320,7 @@ Simon Kaggwa Njala	https://nbs.ug/wp-content/uploads/2022/06/Simon-Kaggwa-Njala-
 Sneako	https://static.wikia.nocookie.net/youtube/images/c/cc/SneakoFace.jpeg	Enemy
 Snoop Dogg	https://media.npr.org/assets/img/2022/02/09/ap22040834747746-7cb2ce678435616dd74ebc80d52d826b06a61fef-s1100-c50.jpg	Neutral
 Soflo Antonio	https://static.wikia.nocookie.net/shaqs-day-out-universe/images/4/45/SoFlo.png	Enemy
+SomeOrdinaryGamers	https://i.ytimg.com/vi/9hp9zoVuSmY/sddefault.jpg	Friend
 Stavros Helkias	https://www.baltimoremagazine.com/wp-content/uploads/2023/10/img_8482.jpg	Friend
 Steiny	https://podclips.com/public/assets/people/steiny_nelk.jpg	Friend
 Steve-O	https://www.columbusmonthly.com/gcdn/presto/2022/01/10/NCOA/ea7c0f00-a1cd-4fb3-bd18-0deee5df5880-STEVEO_8_FULLRES_JPG.jpeg	Friend
@@ -366,8 +372,3 @@ Yi Long Ma	https://img-9gag-fun.9cache.com/photo/axBmXVW_460s.jpg	Neutral
 Yoko Ono	https://ediblemanhattan.com/wp-content/uploads/2010/11/EM14-LowRes18.jpg	Neutral
 Yung Gravy	https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Yung_Gravy_2023_%28cropped%29.jpg/800px-Yung_Gravy_2023_%28cropped%29.jpg	Friend
 Zach	https://static.wikia.nocookie.net/h3h3productions/images/9/90/GVL6evk8_400x400.jpg	Family
-LionWithAMic	https://shoutoutla.s3.us-west-1.amazonaws.com/wp-content/uploads/2022/04/c-RadheyaReinkarnd__Radheya2_1650509651132.jpg	Neutral
-SomeOrdinaryGamers	https://i.ytimg.com/vi/9hp9zoVuSmY/sddefault.jpg	Friend
-Noah Samsen	https://www.famousbirthdays.com/headshots/noah-samsen-1.jpg	Enemy
-H3Lore	Images\WaddlesJr.png	Friend
-Dr Mike	https://nypost.com/wp-content/uploads/sites/2/2022/10/sexiest-doctor-lambo-joyride-15.jpg	Neutral
