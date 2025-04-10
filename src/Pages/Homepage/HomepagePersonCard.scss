@@ -2,8 +2,17 @@
     display: flex;
     flex-direction: column;
 
+    .card{
+        border-radius: 5px;
+
+        &.black-outline{
+            outline: 2px solid rgba(0, 0, 0, 0.644);        
+        }
+    }
+
     .card-container{
         border-radius: 10px;
+        
     }
 
     .moment-counter{
@@ -22,6 +31,10 @@
         backdrop-filter: blur(0.5vw);
         z-index: 1;
         font-size: 20px;
+
+        &.with-title{
+            margin-top:220px;
+        }
     }
     
     .allegiance-friend{

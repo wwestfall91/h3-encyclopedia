@@ -101,10 +101,10 @@ function Homepage() {
                         <div className="topics-title">{`GOOFS & GAFFS FROM H3 SHOW #${getLatestEpisode()?.number}`}</div>
                         <div className="topics">
                             <MomentCard moment={moments.find(x => x.title == "Attorney Tom vs Ryan Kavanaugh")!} jumpToTime={() => jumpToTime(8935)}/>
-                            <HomepagePersonCard person={people.find(x => x.name == "Jeff Wittek")!} jumpToTime={() => jumpToTime(100)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Vitaly")!} jumpToTime={() => jumpToTime(5700)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Lewis Saunderson")!} jumpToTime={() => jumpToTime(9840)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "The Foodie Boys")!} jumpToTime={() => jumpToTime(10300)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Jeff Wittek")!} title="Jeff is coming next week!" jumpToTime={() => jumpToTime(100)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Vitaly")!} title="Vitaly Gets Arrested in the Phillippines" jumpToTime={() => jumpToTime(5700)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Lewis Saunderson")!} title="Lewis vs Cave Monster & More!" jumpToTime={() => jumpToTime(9840)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "The Foodie Boys")!} title="Foodie Boys vs Costco Guys" jumpToTime={() => jumpToTime(10300)} />
                             <HomepagePersonCard person={people.find(x => x.name == "Costco Guys")!} jumpToTime={() => jumpToTime(10300)} />
                             <HomepagePersonCard person={people.find(x => x.name == "Steiny")!} jumpToTime={() => jumpToTime(1650)} />
                         </div>

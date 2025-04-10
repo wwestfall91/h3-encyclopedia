@@ -40,7 +40,7 @@ function MomentCard(props: Props) {
         <>
         {props.moment && people.length > 0 &&
         <div className="card-container">
-            <div className="card" onClick={() => {window.open(`${props.moment.url}`, '_blank');} }>
+            <div className="card white-outline" onClick={() => {window.open(`${props.moment.url}`, '_blank');} }>
                 <div className="person-container">
                     <div className="person-name">
                         {getAgeText()}

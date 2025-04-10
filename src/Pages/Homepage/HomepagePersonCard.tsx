@@ -9,8 +9,8 @@ import "./HomepagePersonCard.scss"
 
 interface Props {
   person: Person | undefined;
+  title?: string;
   jumpToTime?: () => void;
-  hideTime?: boolean;
 }
 
 function HomepagePersonCard(props: Props) {
@@ -50,23 +50,24 @@ function HomepagePersonCard(props: Props) {
               <MomentAndSoundbites_Modal title={props.person.name} description={""} moments={relatedMoments} soundbites={relatedSoundbites} isOpen={false} openModal={setModalOpen} ></MomentAndSoundbites_Modal>
             }
             {props.person &&
-              <div className="card" key={props.person.image}>  
+              <div className={`card black-outline`} key={props.person.image}>  
                   <div className="person-container">
                     <div className="person-name">
                         {props.person.name}
                     </div>
-                    <div className="moment-counter">
+                    <div className={props.title ? `moment-counter with-title` : "moment-counter"}>
                       {relatedMoments.length + relatedSoundbites.length}
                     </div>
                     <div className={`allegiance-${props.person.allegiance.toLowerCase()}`}>
                       {props.person.allegiance.includes("Neutral") ? "" : props.person.allegiance}
                     </div>
                   </div>
-                  <img
-                  className="card-image"
-                  src={props.person.image }
-                  onClick={() => OpenModal()}
-                  />
+                  {props.title &&
+                    <div className="footer" onClick={(e) => {e.stopPropagation()}}>
+                      <div className="soundbite-card-title">{props.title}</div>                 
+                    </div>
+                  }
+                  <img className="card-image" src={props.person.image } onClick={() => OpenModal()} />
               </div>
             }
             </>
