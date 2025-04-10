@@ -100,8 +100,8 @@ function Homepage() {
                         <div className="topics">
                             {/* <MomentCard moment={moments.find(x => x.title == "Olivia")!} jumpToTime={() => jumpToTime(8935)}/> */}
                             <HomepagePersonCard person={people.find(x => x.name == "Olivia")!} title="Have some OLIVIA moments for The Girlie Episode!" />
-                            <HomepagePersonCard person={people.find(x => x.name == "Noah Samsen")!} title="Noah Samsen Promotes Ethan Hate Videos" jumpToTime={() => jumpToTime(3304)} />
                             <HomepagePersonCard person={people.find(x => x.name == "Vitaly")!} title="Vitaly is FUCKED" jumpToTime={() => jumpToTime(2480)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Noah Samsen")!} title="Noah Samsen Promotes Ethan Hate Videos" jumpToTime={() => jumpToTime(3304)} />
                             <HomepagePersonCard person={people.find(x => x.name == "Cody Padrino")!} title="Cody is a well traveled man" jumpToTime={() => jumpToTime(4070)} />
                             <HomepagePersonCard person={people.find(x => x.name == "Elon Musk")!} title="Elon Gets Cyber Bullied" jumpToTime={() => jumpToTime(6630)} />
                             <HomepagePersonCard person={people.find(x => x.name == "Mr Beast")!} title="Mr Beast Suing Ex-Employee" jumpToTime={() => jumpToTime(7840)} />
