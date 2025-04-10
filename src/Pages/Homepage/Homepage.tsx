@@ -7,10 +7,8 @@ import HomepagePersonCard from "./HomepagePersonCard";
 import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/GeneralFeedbackModal";
 import PsychologyInSeattleSection from "./PsychologyInSeattleSection";
-import MomentCard from "../Generic Cards/MomentCard";
-
 function Homepage() {
-    const { people, episodes, moments } = useDataContext();
+    const { people, episodes } = useDataContext();
     const [player, setPlayer] = useState<any>(null);
     const [updatesSelected, setUpdatesSelected] = useState<boolean>(false);
     const [psychologySelected, setPsychologySelected] = useState<boolean>(false);
@@ -100,13 +98,14 @@ function Homepage() {
                     <div className="topics-container">
                         <div className="topics-title">{`GOOFS & GAFFS FROM H3 SHOW #${getLatestEpisode()?.number}`}</div>
                         <div className="topics">
-                            <MomentCard moment={moments.find(x => x.title == "Attorney Tom vs Ryan Kavanaugh")!} jumpToTime={() => jumpToTime(8935)}/>
-                            <HomepagePersonCard person={people.find(x => x.name == "Jeff Wittek")!} title="Jeff is coming next week!" jumpToTime={() => jumpToTime(100)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Vitaly")!} title="Vitaly Gets Arrested in the Phillippines" jumpToTime={() => jumpToTime(5700)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Lewis Saunderson")!} title="Lewis vs Cave Monster & More!" jumpToTime={() => jumpToTime(9840)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "The Foodie Boys")!} title="Foodie Boys vs Costco Guys" jumpToTime={() => jumpToTime(10300)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Costco Guys")!} jumpToTime={() => jumpToTime(10300)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Steiny")!} jumpToTime={() => jumpToTime(1650)} />
+                            {/* <MomentCard moment={moments.find(x => x.title == "Olivia")!} jumpToTime={() => jumpToTime(8935)}/> */}
+                            <HomepagePersonCard person={people.find(x => x.name == "Olivia")!} title="Have some OLIVIA moments for The Girlie Episode!" />
+                            <HomepagePersonCard person={people.find(x => x.name == "Noah Samsen")!} title="Noah Samsen Promotes Ethan Hate Videos" jumpToTime={() => jumpToTime(3304)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Vitaly")!} title="Vitaly is FUCKED" jumpToTime={() => jumpToTime(2480)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Cody Padrino")!} title="Cody is a well traveled man" jumpToTime={() => jumpToTime(4070)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Elon Musk")!} title="Elon Gets Cyber Bullied" jumpToTime={() => jumpToTime(6630)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Mr Beast")!} title="Mr Beast Suing Ex-Employee" jumpToTime={() => jumpToTime(7840)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "David Dobrik")!} title="David Dobrik's Assistant is Making Bizarre Videos" jumpToTime={() => jumpToTime(9975)} />
                         </div>
                     </div>
                 </div>     
