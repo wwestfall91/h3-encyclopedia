@@ -17,6 +17,7 @@ function GamePage() {
     const [isCorrectGuess, setIsCorrectGuess] = useState<boolean>(false);
     const [helperText, setHelperText] = useState("");
     const [inputClass, setInputClass] = useState<string>("episode-input");
+    const [videoClass, setVideoClass] = useState<string>("try-again");
     const [guesses, setGuesses] = useState<string[]>([]);
 
     useEffect(() => {
@@ -60,7 +61,6 @@ function GamePage() {
     }
 
     function getRandomMoment() {
-        
         console.log("MOMENTS:", EpisodeType[moments[0].episodeType]);
         console.log(EpisodeType[EpisodeType.OTR])
         const filteredMoments = moments.filter(x => 
@@ -83,6 +83,7 @@ function GamePage() {
 
     function onChange(event: React.ChangeEvent<HTMLInputElement>) {
         setInputClass("episode-input")
+        setVideoClass("try-again");
         setSelected(false);
         setEpisodeFilterText(event.target.value)
     }
@@ -117,6 +118,7 @@ function GamePage() {
         setGuesses(updatedGuesses)
         setEpisodeFilterText("");
         setInputClass("episode-input wrong-answer")
+        setVideoClass("try-again try-again-anim");
         setIsCorrectGuess(false);
     }
 
@@ -169,7 +171,11 @@ function GamePage() {
                 {gameStarted &&
                     <div className="blockbar">No Peaking 😄</div>
                 }
-                
+                <div className={videoClass}>
+                    <div className="try-again-bg">
+                        LATER
+                    </div>
+                </div>
                 <div className="video">
                     <YouTube videoId={videoId} opts={opts} onReady={onReady} style={divStyle}/>
                 </div>
@@ -177,11 +183,10 @@ function GamePage() {
             { gameStarted &&
                 <input key={"inputBox"} className={inputClass} type="text" placeholder="Search for Episodes"value={episodeFilterText} onChange={onChange}/>
             }
-            
             { getEpisodesByString(episodeFilterText).map((episode) => (
-            <div className="options" onClick={() => {setEpisodeFilterText(episode.title); setSelected(true)}}>
-                {`[${episode.getShortTitle().replace("#", "")}] ${episode.title}`}
-            </div>))
+                <div className="options" onClick={() => {setEpisodeFilterText(episode.title); setSelected(true)}}>
+                    {`${episode.date} - [${episode.getShortTitle().replace("#", "")}] - ${episode.title}`}
+                </div>))
             }
             <button className="start-game" onClick={!gameStarted ? startGame : submitGuess}>{!gameStarted ? "Start Game" : "Submit"}</button>
             <div className="helper-text">{helperText}</div>

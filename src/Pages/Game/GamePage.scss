@@ -51,6 +51,51 @@
         padding-bottom:1rem;
     }
 
+    .try-again{
+        display: flex;
+        position: absolute;
+        height:400px;
+        width: 750px;
+        justify-content: center;
+        align-items: center;
+        color: red;
+        z-index: 100;
+        animation: 2s ease-in-out 1 try-again-anim;
+        transform: scale(0) rotate(-8deg);
+
+        @keyframes try-again-anim{
+            0%{
+                color: transparent;
+                transform: scale(0) rotate(-8deg);
+            }
+
+            40%{
+                color: red;
+                transform: scale(1) rotate(8deg);
+            }
+
+            60%{
+                color: red;
+                transform: scale(1) rotate(8deg);
+            }
+
+            100%{
+                color: transparent;
+                transform: scale(0) rotate(-8deg);
+            }
+        }
+    }
+
+    .try-again-bg{
+        display: flex;
+        padding:1rem 8rem;
+        border-radius: 5rem;
+        font-size: 48px;
+        height:fit-content;
+        width: fit-content;
+        background-color: rgb(48, 48, 48);
+    }
+
     .start-game{
         display: flex;
         justify-content: center;
@@ -62,11 +107,11 @@
     }
 
     .wrong-answer{
-        animation: 2s ease 1 anim;
-    }
+        animation: 2s ease 1 wrong-answer;
 
-    @keyframes anim{
-        from {background-color: red;}
-        to {background-color: white;}
+        @keyframes wrong-answer{
+            from {background-color: red;}
+            to {background-color: white;}
+        }
     }
 }
