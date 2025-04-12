@@ -4,7 +4,7 @@ AB	Images/AB_Vomit.png	Family
 Aba and Preach	https://i.ytimg.com/vi/BPYEOFRlHx4/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGGUgVihKMA8=&rs=AOn4CLDsOxaRXOV6AOty3xBpDAH2bq5kdg	Neutral
 Adam Grant	https://upload.wikimedia.org/wikipedia/commons/e/e7/Adam_Grant_-_Picture_by_Jamey_Stillings.jpg	Neutral
 Adam Levine	https://m.media-amazon.com/images/M/MV5BMjI4NjU4MDEwN15BMl5BanBnXkFtZTcwNTQzNDMwNw@@.jpg	Neutral
-Adin Ross	https://i0.wp.com/roundindex.com/wp-content/uploads/2023/02/Snapinsta.app_1080_245059404_307599324044194_944802579902742451_n.jpg?fit=750%2C750&ssl=1	Enemy
+Adin Ross	https://www.hollywoodreporter.com/wp-content/uploads/2024/08/AdinRossGettyImages-1439617500.jpg	Enemy
 Al Roker	https://upload.wikimedia.org/wikipedia/commons/b/bf/Al_Roker_by_Gage_Skidmore.jpg	Neutral
 Alex Jones	https://ichef.bbci.co.uk/news/976/cpsprodpb/14CED/production/_126192258_alexjones.jpg.webp	Neutral
 Alinity	https://www.dexerto.com/cdn-image/wp-content/uploads/2023/04/25/Alinity-stunned-as-fans-PC-is-completely-dedicated-to-her.jpg	Neutral
@@ -142,7 +142,7 @@ Gavin McInnes	https://media.npr.org/assets/img/2022/10/12/gettyimages-1154154864
 George Janko	https://img.ctykit.com/cdn/az-phoenix/images/tr:w-1800/george-lanko.png	Neutral
 Greg Paul	https://www.famousbirthdays.com/headshots/greg-paul-1.jpg	Enemy
 Grimes	https://eastsidevibess.com/wp-content/uploads/2019/06/img_2524.jpg	Neutral
-H3Lore	Images\WaddlesJr.png	Friend
+H3Lore  Images\WaddlesJr.png	Friend
 Hailey Bieber	https://upload.wikimedia.org/wikipedia/commons/8/8f/Hailey_Bieber_for_Vogue_2024_02.jpg	Neutral
 Hailey Welch (Hawk Tuah)	https://www.tennessean.com/gcdn/authoring/authoring-images/2024/07/03/PNAS/74290172007-0-u-9-a-2440.jpg	Neutral
 Hannibal B	https://image.tmdb.org/t/p/w500/mcw3Orbg4vbALXTVG4hriZjH1sj.jpg	Neutral
@@ -334,6 +334,7 @@ Ted Cruz	https://static.texastribune.org/media/files/600d28682a2731e6cfa9649926a
 Terrence Howard	https://static.wikia.nocookie.net/empiretvshow/images/0/02/Terrence-howard.jpg	Neutral
 The Foodie Boys	https://i.ytimg.com/vi/7MKG6ylRc1A/hq720.jpg	Neutral
 The Good Doctor	https://static1.srcdn.com/wordpress/wp-content/uploads/2023/05/the-good-doctor-freddie-highmore.jpeg	Neutral
+The Hawk (Loves Dad)	https://media.tenor.com/-dmcavRgNxUAAAAe/hawk-h3-hawk-h3-podcast.png	Family
 The LeBrant Family	https://new-cdn.mamamia.com.au/mamamia-pwa.appspot.com/cms_images/variations/1200x800-939632092479.jpg	Neutral
 The Prince Family	https://static.wikia.nocookie.net/youtube/images/6/6e/THE_PRINCE_FAMILY.jpg	Enemy
 The Quartering	https://cdn.vox-cdn.com/thumbor/1DSbJRHImpS7XzZOOZWAtjDuDSg=/1400x1400/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/9767163/Screen_Shot_2017_11_28_at_12.59.38_PM.png	Enemy
