@@ -9,25 +9,26 @@ import "./PersonCard.scss"
 
 interface Props {
   person: Person | undefined;
+  moments: Moment[] | undefined;
+  soundbites: Soundbite[] | undefined;
   jumpToTime?: () => void;
 }
 
 function PersonCard(props: Props) {
-    const {soundbites, moments } = useDataContext();
     const [modalOpen, setModalOpen] = useState(false);
     const [relatedSoundbites, setRelatedSoundbites] = useState<Soundbite[]>([])
     const [relatedMoments, setRelatedMoments] = useState<Moment[]>([])
 
     useEffect(() => {
-      if(!props.person){
+      if(!props.person || !props.moments || !props.soundbites){
         return
       }
-        const relatedSoundbites = soundbites.filter(x => x.personName?.toLowerCase() == props.person!.name.toLowerCase())
-        const relatedMoments = moments.filter(x => x.people.includes(props.person!.name))
+        const relatedSoundbites = props.soundbites.filter(x => x.personName?.toLowerCase() == props.person!.name.toLowerCase())
+        const relatedMoments = props.moments.filter(x => x.people.includes(props.person!.name))
   
         setRelatedSoundbites(relatedSoundbites);
         setRelatedMoments(relatedMoments);
-    }, [props.person, soundbites.length, moments.length])
+    }, [props.person, props.soundbites, props.moments])
 
     function OpenModal() {
         setModalOpen(true);
@@ -35,7 +36,7 @@ function PersonCard(props: Props) {
 
     return (
         <>
-        {props.person && 
+        {props.person && props.soundbites && props.moments && 
           <>
             { 
             (relatedSoundbites.length > 0 || relatedMoments.length > 0) &&

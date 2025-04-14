@@ -14,6 +14,7 @@ function PeoplePage() {
     const [_, setSortBy] = useState<sortByType>(sortByType.Default);
     const { people } = useDataContext();
     const [filteredPeople, setFilteredPeople] = useState<Person[]>(people);
+    const {soundbites, moments } = useDataContext();
 
     useEffect(() => {
         setFilteredPeople(people.filter(p => p.name.toLowerCase().includes(searchTerm.toLowerCase())))
@@ -37,6 +38,8 @@ function PeoplePage() {
                         {filteredPeople.map((person) => (
                             <PersonCard
                                 person={person}
+                                moments={moments.filter(x => x.people.includes(person!.name))}
+                                soundbites={soundbites.filter(x => x.personName == person!.name)}
                             />
                         ))}
                     </div>
