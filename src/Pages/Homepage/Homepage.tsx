@@ -7,6 +7,7 @@ import HomepagePersonCard from "./HomepagePersonCard";
 import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/GeneralFeedbackModal";
 import PsychologyInSeattleSection from "./PsychologyInSeattleSection";
+import EthanClicker from "./EthanClicker";
 function Homepage() {
     const { people, episodes } = useDataContext();
     const [player, setPlayer] = useState<any>(null);
@@ -75,7 +76,7 @@ function Homepage() {
             {!isMobile && 
                 <div className="subheader">
                     <button className={updatesSelected || psychologySelected ? "subheader-button" : "subheader-button selected"} onClick={() => {setUpdatesSelected(false); setPsychologySelected(false);} }>EPISODE DEBRIEF</button>
-                    <button className={psychologySelected ? "subheader-button selected" : "subheader-button"} onClick={() =>{setUpdatesSelected(false); setPsychologySelected(true);} }>PSYCHOLOGY IN SEATTLE RATINGS</button>
+                    {/* <button className={psychologySelected ? "subheader-button selected" : "subheader-button"} onClick={() =>{setUpdatesSelected(false); setPsychologySelected(true);} }>ETHAN CLICKER</button> */}
                     <button className={!updatesSelected ? "subheader-button" : "subheader-button selected"} onClick={() => {setUpdatesSelected(true); setPsychologySelected(false);}}>MONTHLY UPDATES</button>
                 </div>
             }
@@ -99,12 +100,12 @@ function Homepage() {
                         <div className="topics-title">{`GOOFS & GAFFS FROM H3 SHOW #${getLatestEpisode()?.number}`}</div>
                         <div className="topics">
                             {/* <MomentCard moment={moments.find(x => x.title == "Olivia")!} jumpToTime={() => jumpToTime(8935)}/> */}
-                            <HomepagePersonCard person={people.find(x => x.name == "The Hawk (Loves Dad)")!} title="The Hawk Brought Gifts!" jumpToTime={() => jumpToTime(8605)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Steiny")!} title="Calling Steiny about SteveWillDoIt" jumpToTime={() => jumpToTime(3655)}/>
-                            <HomepagePersonCard person={people.find(x => x.name == "Adin Ross")!} title="Adin Ross Coming Back to Twitch?" jumpToTime={() => jumpToTime(8955)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Dan Clancy")!} title="Twitch Meeting Secretly Recorded" jumpToTime={() => jumpToTime(8955)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Jordan Peterson")!} title="Jordan Peterson Can't Stop Crying" jumpToTime={() => jumpToTime(11790)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Vitaly")!} title="A Classic Vitaly Clip" jumpToTime={() => jumpToTime(12735)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "iDubbbz")!} title="Wake up Ethan" jumpToTime={() => jumpToTime(0)}/>
+                            {/* <HomepagePersonCard person={people.find(x => x.name == "Frogan")!} title="Wake up Ethan" jumpToTime={() => jumpToTime()} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Denims")!} title="Wake up Ethan" jumpToTime={() => jumpToTime()} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Noah Samsen")!} title="Wake up Ethan" jumpToTime={() => jumpToTime()} />
+                            <HomepagePersonCard person={people.find(x => x.name == "The Hawk (Loves Dad)")!} title="The Hawk Brought Pizza!" jumpToTime={() => jumpToTime()} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Tall Skeleton")!} title="A Classic Vitaly Clip" jumpToTime={() => jumpToTime()} /> */}
                         </div>
                     </div>
                 </div>     
@@ -114,7 +115,7 @@ function Homepage() {
                 <UpdatesSection />
             }
             {psychologySelected &&
-                <PsychologyInSeattleSection />
+                <EthanClicker />
             }
             
         </div>
