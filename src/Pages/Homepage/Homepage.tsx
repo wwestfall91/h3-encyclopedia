@@ -1,5 +1,4 @@
 import { useDataContext } from "../../context/DataContext";
-import TopicCard from "../Topics/TopicCard";
 import "./Homepage.scss";
 import { useEffect, useState } from "react";
 import YouTube from 'react-youtube';
@@ -7,11 +6,13 @@ import UpdatesSection from "./UpdatesSection";
 import HomepagePersonCard from "./HomepagePersonCard";
 import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/GeneralFeedbackModal";
-
+import PsychologyInSeattleSection from "./PsychologyInSeattleSection";
+import MomentCard from "../Generic Cards/MomentCard";
 function Homepage() {
-    const { people } = useDataContext();
+    const { people, episodes, moments } = useDataContext();
     const [player, setPlayer] = useState<any>(null);
     const [updatesSelected, setUpdatesSelected] = useState<boolean>(false);
+    const [psychologySelected, setPsychologySelected] = useState<boolean>(false);
     const [showEmailModal, setShowEmailModal] = useState<boolean>(false);
     const [isMobile, setIsMobile] = useState(false);
 
@@ -25,6 +26,19 @@ function Homepage() {
 
         return () => window.removeEventListener('resize', handleResize); // Clean up
     }, [people.length]);
+    
+    const getLatestEpisode = () => {
+        if(episodes.length <= 0)
+            return;
+
+        const episodesByDate = episodes.sort((a, b) => {
+            let dateA = new Date(a.date ? a.date : new Date('1995-12-17'));
+            let dateB = new Date(b.date ? b.date : new Date('1995-12-17'));
+            return dateA.getTime() - dateB.getTime();
+        });
+
+        return episodesByDate[episodesByDate.length - 1]
+    }
 
     const onReady = (event : any) => {
         setPlayer(event.target);
@@ -61,12 +75,13 @@ function Homepage() {
         <div id="Homepage">
             {!isMobile && 
                 <div className="subheader">
-                    <button className={updatesSelected ? "subheader-button" : "subheader-button selected"} onClick={() => setUpdatesSelected(false)}>EPISODE DEBRIEF</button>
-                    <button className={!updatesSelected ? "subheader-button" : "subheader-button selected"} onClick={() => setUpdatesSelected(true)}>SITE UPDATES</button>
+                    <button className={updatesSelected || psychologySelected ? "subheader-button" : "subheader-button selected"} onClick={() => {setUpdatesSelected(false); setPsychologySelected(false);} }>EPISODE DEBRIEF</button>
+                    <button className={psychologySelected ? "subheader-button selected" : "subheader-button"} onClick={() =>{setUpdatesSelected(false); setPsychologySelected(true);} }>PSYCHOLOGY IN SEATTLE RATINGS</button>
+                    <button className={!updatesSelected ? "subheader-button" : "subheader-button selected"} onClick={() => {setUpdatesSelected(true); setPsychologySelected(false);}}>MONTHLY UPDATES</button>
                 </div>
             }
 
-            {!updatesSelected && 
+            {!updatesSelected && !psychologySelected &&
             <>
                 {!isMobile && 
                     <div className="submit-button-container">
@@ -78,32 +93,19 @@ function Homepage() {
                 <div className="page-container">
                     <div className="video-container">
                         <div className="video">
-                            <YouTube videoId="0Z4TGbApoIo" opts={opts} onReady={onReady} style={divStyle} />
+                            <YouTube videoId={getLatestEpisode()?.getVideoId()} opts={opts} onReady={onReady} style={divStyle} />
                         </div>
                     </div>
                     <div className="topics-container">
-
-                        <div className="topics-title">GOODBYE IAN - WE'LL MISS YOU!!</div>
+                        <div className="topics-title">{`GOOFS & GAFFS FROM H3 SHOW #${getLatestEpisode()?.number}`}</div>
                         <div className="topics">
-                            <HomepagePersonCard person={people.find(x => x.name == "Ian")!} jumpToTime={() => jumpToTime(29810)} />
-                            <TopicCard 
-                                image={"/Images/IanSong.png"}
-                                headerText={"5 Years Ago"} 
-                                description={"♪ Ian has to pee pee ♪"} 
-                                url={"https://www.youtube.com/watch?v=g3gkFORfTZA&t=8967s"} 
-                                jumpToTime={() => jumpToTime(32001)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Donna Klein")!} jumpToTime={() => jumpToTime(8072)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Tom Ward")!} jumpToTime={() => jumpToTime(6084)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Swami")!} jumpToTime={() => jumpToTime(15584)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Olivia's Dad")!} jumpToTime={() => jumpToTime(10185)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Helen Keller")!} jumpToTime={() => jumpToTime(25010)} />
-                            <TopicCard 
-                                image={"https://media.gannett-cdn.com/springfield/41823000001/201404/1700/41823000001_3427152740001_video-still-for-video-3427114725001.jpg"}
-                                headerText={"2 Years Ago"} 
-                                description={"Ethan talks about Shrek's FAT hog more than you think"} 
-                                url={"https://youtu.be/R8Y-ih8DLlc?t=1712"} 
-                                jumpToTime={() => jumpToTime(0)}
-                                hideTime={true} />
+                            <HomepagePersonCard person={people.find(x => x.name == "iDubbbz")!} title="Wake Up Ethan" jumpToTime={() => jumpToTime(4085)}/>
+                            <HomepagePersonCard person={people.find(x => x.name == "Noah Samsen")!} title="Wake Up Ethan" jumpToTime={() => jumpToTime(4085)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Denims")!} title="Wake Up Ethan" jumpToTime={() => jumpToTime(4085)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Frogan")!} title="Wake Up Ethan" jumpToTime={() => jumpToTime(4085)} />
+                            <MomentCard moment={moments.find(x => x.title == "The First Gatsby Entrance!")!} jumpToTime={() => jumpToTime(0)}/>
+                            <HomepagePersonCard person={people.find(x => x.name == "The Hawk (Loves Dad)")!} title="Hawk Fixed the Gatsby!" jumpToTime={() => jumpToTime(24)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Zane (Tall Skeleton)")!} title="Tall Skeleton in the Studio!" jumpToTime={() => jumpToTime(932)} />
                         </div>
                     </div>
                 </div>     
@@ -111,6 +113,9 @@ function Homepage() {
             }
             {updatesSelected &&
                 <UpdatesSection />
+            }
+            {psychologySelected &&
+                <PsychologyInSeattleSection />
             }
             
         </div>

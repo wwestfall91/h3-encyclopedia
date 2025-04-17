@@ -9,6 +9,7 @@ import "./HomepagePersonCard.scss"
 
 interface Props {
   person: Person | undefined;
+  title?: string;
   jumpToTime?: () => void;
 }
 
@@ -41,42 +42,42 @@ function HomepagePersonCard(props: Props) {
     return (
       <>
       {props.person && 
-        <div className="card-container">
-          <div id="PersonCard">
+        <div id="PersonCard">
+          <div className="card-container">
           { (relatedSoundbites.length > 0 || relatedMoments.length > 0) &&
-            <div>
+            <>
             {modalOpen && 
               <MomentAndSoundbites_Modal title={props.person.name} description={""} moments={relatedMoments} soundbites={relatedSoundbites} isOpen={false} openModal={setModalOpen} ></MomentAndSoundbites_Modal>
             }
             {props.person &&
-              <div className="card" key={props.person.image}>  
+              <div className={`card black-outline`} key={props.person.image}>  
                   <div className="person-container">
                     <div className="person-name">
                         {props.person.name}
                     </div>
-                    <div className="moment-counter">
+                    <div className={props.title ? `moment-counter with-title` : "moment-counter"}>
                       {relatedMoments.length + relatedSoundbites.length}
                     </div>
                     <div className={`allegiance-${props.person.allegiance.toLowerCase()}`}>
                       {props.person.allegiance.includes("Neutral") ? "" : props.person.allegiance}
                     </div>
                   </div>
-                  <img
-                  className="card-image"
-                  src={props.person.image }
-                  onClick={() => OpenModal()}
-                  />
+                  {props.title &&
+                    <div className="footer" onClick={(e) => {e.stopPropagation()}}>
+                      <div className="soundbite-card-title">{props.title}</div>                 
+                    </div>
+                  }
+                  <img className="card-image" src={props.person.image } onClick={() => OpenModal()} />
               </div>
             }
-
-            </div>
+            </>
           }
 
           </div>
           <>
-              {!isMobile && props.jumpToTime &&
-                <div className="time" onClick={props.jumpToTime}>{"< Jump to Mention"}</div> 
-              }
+          {!isMobile && props.jumpToTime &&
+            <div className="jump-to-mention" onClick={props.jumpToTime}>{"< Jump to Mention"}</div> 
+          }
           </>
         </div>
       }

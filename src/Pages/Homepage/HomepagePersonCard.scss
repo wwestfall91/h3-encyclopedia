@@ -1,6 +1,20 @@
 #PersonCard{
     display: flex;
     flex-direction: column;
+
+    .card{
+        border-radius: 5px;
+
+        &.black-outline{
+            outline: 2px solid rgba(0, 0, 0, 0.644);        
+        }
+    }
+
+    .card-container{
+        border-radius: 10px;
+        
+    }
+
     .moment-counter{
         display:flex;
         position: absolute;
@@ -17,6 +31,10 @@
         backdrop-filter: blur(0.5vw);
         z-index: 1;
         font-size: 20px;
+
+        &.with-title{
+            margin-top:220px;
+        }
     }
     
     .allegiance-friend{
@@ -79,7 +97,7 @@
         transform: rotate(-45deg);
     }
 
-    .time{
+    .jump-to-mention{
         display: flex;
         flex-direction: column;
         cursor: pointer;
@@ -88,9 +106,9 @@
         border-radius: 8px;
         font-family: Raleway, sans-serif;
         width: fit-content;
+        margin-top:-1rem;
+        margin-left:-.5rem;
         padding: 0px .5rem;
-        margin-top:-15px;
-        margin-left:-10px;
         font-size: 16px;
         z-index: 1;
         -webkit-box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.555);

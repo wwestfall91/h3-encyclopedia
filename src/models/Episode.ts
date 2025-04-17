@@ -57,4 +57,9 @@ export class Episode {
   getMoments(moments: Moment[]){
     return moments.filter(m => m.episodeType == this.type && m.episodeNumber == this.number)
   }
+
+  getVideoId(): string {
+    const id = this.url.includes("v=") ? this.url.split("&t=")[0].split("v=")[1] : this.url.split("&t=")[0].split("be/")[1]
+    return id;
+  }
 }
