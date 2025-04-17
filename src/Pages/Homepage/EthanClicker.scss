@@ -1,0 +1,46 @@
+#EthanClicker{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  flex-grow:1;
+  overflow: auto;
+
+  .data-section{
+    display: flex;
+    flex-direction: column;
+    height:55vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .jake{
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.425);
+    width:780px;
+    height:430px;
+    z-index: 1001;
+    //content:url("https://static.wikia.nocookie.net/h3h3/images/9/95/Jake_Doolittle.png");
+    animation-name: example;
+    animation-duration: 2s;
+
+    @keyframes example{
+      0%   {opacity: 1;}
+      75%  {opacity: 1;}
+      100% {opacity: 0;}
+    }
+  }
+
+  .blocker{
+    position: absolute;
+    background-color:rgba(255, 255, 255, 0.425);
+    width:780px;
+    height:430px;
+    z-index: 1000;
+  }
+
+  input{
+    border-radius: 5px;
+    width: 25rem;
+  }
+}

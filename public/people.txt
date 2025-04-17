@@ -98,6 +98,7 @@ David Guetta	https://www.billboard.com/wp-content/uploads/2021/06/David-Guetta-p
 Deadmau5	https://i.cbc.ca/1.7230539.1718049048!/fileImage/httpImage/deadmau5.jpg	Friend
 Def Noodles	https://centennialworld.com/wp-content/uploads/2022/02/Def-Noodle-Comedian-Header.png	Neutral
 Demi Lovato	https://m.media-amazon.com/images/M/MV5BOTk1YTg1N2YtMmY0NS00MTZmLWFlMWYtOGJhZTk4OWJlYTYxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg	Enemy
+Denims	https://wikicdn.destiny.gg/6/64/Denims.jpg	Enemy
 Dennis Prager	https://www.rollingstone.com/wp-content/uploads/2021/11/dennis-prager.jpg	Neutral
 Destiny	https://static.wikia.nocookie.net/regalgoblins/images/c/cb/Destiny-0.jpg	Neutral
 Dick Tips	https://i.imgur.com/hT3zeAx.jpeg	Neutral
@@ -142,7 +143,7 @@ Gavin McInnes	https://media.npr.org/assets/img/2022/10/12/gettyimages-1154154864
 George Janko	https://img.ctykit.com/cdn/az-phoenix/images/tr:w-1800/george-lanko.png	Neutral
 Greg Paul	https://www.famousbirthdays.com/headshots/greg-paul-1.jpg	Enemy
 Grimes	https://eastsidevibess.com/wp-content/uploads/2019/06/img_2524.jpg	Neutral
-H3Lore  Images\WaddlesJr.png	Friend
+H3Lore (WaddlesJr)	Images\WaddlesJr.png	Friend
 Hailey Bieber	https://upload.wikimedia.org/wikipedia/commons/8/8f/Hailey_Bieber_for_Vogue_2024_02.jpg	Neutral
 Hailey Welch (Hawk Tuah)	https://www.tennessean.com/gcdn/authoring/authoring-images/2024/07/03/PNAS/74290172007-0-u-9-a-2440.jpg	Neutral
 Hannibal B	https://image.tmdb.org/t/p/w500/mcw3Orbg4vbALXTVG4hriZjH1sj.jpg	Neutral
@@ -160,6 +161,7 @@ Ian	https://static.wikia.nocookie.net/h3podcast/images/8/80/Ian_slater_verified.
 Ian Boggs	https://m.media-amazon.com/images/M/MV5BMzJjY2ZkODItNTM3OC00YTkyLTg1MTEtNTkwMjkwNjY1NGU2XkEyXkFqcGc@._V1_.jpg	Neutral
 Ian Hecox	https://m.media-amazon.com/images/M/MV5BZTc5MmQzYzktN2Y3Zi00OWRkLTg1N2QtMmIzY2QxNzY2YTAxXkEyXkFqcGc@._V1_.jpg	Friend
 Ice T	https://nationaltoday.com/wp-content/uploads/2022/10/456840948-min.jpg	Neutral
+iDubbbz	https://i.ytimg.com/vi/XdigtRIP7fs/hq720.jpg	Enemy
 Infrabren	https://i.kym-cdn.com/photos/images/original/002/337/727/b1b.png	Friend
 itsreefa	https://i0.wp.com/hyperallergic-newspack.s3.amazonaws.com/uploads/2022/02/datway3.png	Neutral
 Ja Rule	https://www.udiscovermusic.com/wp-content/uploads/2021/09/Ja-Rule-GettyImages-464706701.jpg	Neutral
@@ -373,3 +375,4 @@ Yi Long Ma	https://img-9gag-fun.9cache.com/photo/axBmXVW_460s.jpg	Neutral
 Yoko Ono	https://ediblemanhattan.com/wp-content/uploads/2010/11/EM14-LowRes18.jpg	Neutral
 Yung Gravy	https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Yung_Gravy_2023_%28cropped%29.jpg/800px-Yung_Gravy_2023_%28cropped%29.jpg	Friend
 Zach	https://static.wikia.nocookie.net/h3h3productions/images/9/90/GVL6evk8_400x400.jpg	Family
+Zane (Tall Skeleton)	https://ugc.production.linktr.ee/3b0acd14-0d47-4148-8261-62066f6fd243_me-h3-greek.jpeg	Family

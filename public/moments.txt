@@ -147,7 +147,7 @@ Vitaly	H3Show	39	4784	https://youtu.be/SiFKlWCDfuY&t=4784		Button		Brooke Schofi
 	H3Show	98	9731	https://youtu.be/fV-1SveD9gQ&t=9731		Button		Cody Ko Is Posting Through The Pain - H3 Show #98		01-13-2025
 	H3Show	102	953	https://youtu.be/3FKZxfBljlw&t=953		Button		My Life Is Falling Apart- Addressing The Controversy- I Shouldn’t Say This But I Must - H3 Show #102		01-24-2025
 Pokemon Scalpers	H3Show	102	9498	https://youtu.be/3FKZxfBljlw&t=9498		Button		My Life Is Falling Apart- Addressing The Controversy- I Shouldn’t Say This But I Must - H3 Show #102		01-24-2025
-Someone is an asshole	H3Show	103	12223	https://youtu.be/oDdnL6Pd9qU&t=12223		Button		Content Nuke: Markiplier - H3 Show #103		01-29-2024
+Someone is an asshole	H3Show	103	12223	https://youtu.be/oDdnL6Pd9qU&t=12223		Button		Content Nuke: Markiplier - H3 Show #103		01-29-2025
 During Hasan Fallout	H3Show	105	9377	https://youtu.be/TETOdFWf99M&t=9377		Button		Nuclear Fallout - H3 Show #105		02-03-2025
 	H3Show	106	10022	https://youtu.be/6KV16LWcnTY&t=10022		Button		Dear Hasan Piker... - H3 Show #106		02-05-2025
 Denims & Destiny	H3Show	106	11367	https://youtu.be/6KV16LWcnTY&t=11367		Button		Dear Hasan Piker... - H3 Show #106		02-05-2025
@@ -572,7 +572,7 @@ Token sells for 60k	AfterDark	28	11353	https://www.youtube.com/watch?v=iKpd0ZTpk
 Early discussions	Podcast	135	931	https://youtu.be/lYeKevWNU0g&t=931		Gatsby		YouTube Ends Copyright Abuse - H3 Podcast #135		08-16-2019
 Ethan IMing customer support	Podcast	136	3133	https://youtu.be/ulfHGdz6KB8&t=3133		Gatsby		PewDiePies Wedding & YouTube Sues Copyright Troll - H3 Podcast #136		08-20-2019
 Fans voting on scooters	Podcast	136	3881	https://youtu.be/ulfHGdz6KB8&t=3881		Gatsby		PewDiePies Wedding & YouTube Sues Copyright Troll - H3 Podcast #136		08-20-2019
-Gatsby in the office!	Podcast	142	2	https://youtu.be/_IS3dVekCXw&t=2		Gatsby		Our $3500 Scooter Has Arrived & Pizza Taste Test Catastrophe - H3 Podcast #142		09-10-2019
+The First Gatsby Entrance!	Podcast	142	2	https://youtu.be/_IS3dVekCXw&t=2		Gatsby	https://bestpowerwheelchair.com/cdn/shop/products/Gatsby-X-mobility-scooter-front-grill-side-red.png	Our $3500 Scooter Has Arrived & Pizza Taste Test Catastrophe - H3 Podcast #142		09-10-2019
 LoveBot vs The Gatsby	OTR	1	3204	https://www.youtube.com/watch?v=JHGs0juAZX4&t=3204		Gatsby		Ethan Destroys The New Office - Off The Rails #1	Love Bot	05-27-2021
 Hila & The Gatsby	Podcast	42	42	https://youtu.be/ex_sBZXU6iU&t=42	Hila	Gatsby		H3 Podcast #42 - Philip DeFranco		12-09-2017
 Casey Neistat & The Gatsby	Podcast	181	181	https://youtu.be/_fiKPLXYttw&t=181	Casey Neistat	Gatsby		OJ Simpson Blocked Ethan After Getting Burned On Twitter - H3 Podcast #181		03-11-2020
@@ -602,7 +602,7 @@ The spit jar 6 months later	Podcast	169	3333	https://youtu.be/DzjVGrSyPP0&t=3333
 The spit is... GONE?!	Podcast	246	948	https://youtu.be/f_g3mOv7s5o&t=948	Belle Delphine	BelleDelphineSpitJar		The Belle Delphine Mystery & Our New Studio - H3 Podcast #246		05-20-2021
 Ghost Stories #1 - Post Malone & Joji	Podcast	7	0	https://youtu.be/l65hR94nfqY&t=0	Post Malone, Joji	GhostStories		H3 Podcast #7 - Post Malone & Joji		05-22-2017
 Ghost Stories #2 - Markiplier & Ian Hecox	Podcast	8	5916	https://youtu.be/hrEFpGiETu8&t=5916	Markiplier, Ian Hecox	GhostStories		H3 Podcast #8 - Markiplier & Ian Hecox (Smosh)		05-29-2017
-The Markiplier Drama	H3Show	103	5030	https://youtu.be/oDdnL6Pd9qU&t=5030	Markiplier			Content Nuke: Markiplier - H3 Show #103		01-29-2024
+The Markiplier Drama	H3Show	103	5030	https://youtu.be/oDdnL6Pd9qU&t=5030	Markiplier			Content Nuke: Markiplier - H3 Show #103		01-29-2025
 Ghost Stories #3 - Ethans Parents	Podcast	11	3845	https://youtu.be/nEP_YdWei0Y&t=3845	Donna Klein	GhostStories		H3 Podcast #11 - Ethans Parents		06-18-2017
 Gary & Donna Call In	H3TV	32	3560	https://youtu.be/yd6_HqM4wy0&t=3560	Donna Klein			Oliver Tree Calls In, Ethans Parents Call In, & ACE Family Scam Fest - H3TV #32		04-18-2022
 Donna Butterfly Quiz	H3TV	41	4350	https://youtu.be/I5Gop05e3ps&t=4350	Donna Klein			The Worst Thing We Did As Kids, Ethans Mom Plays Trivia - H3TV #41		06-27-2022
@@ -2102,18 +2102,18 @@ Ethan's Video Addressing the Mutahar Drama	H3H3Productions	13	0	https://youtu.be
 Addressing the Mutahar Drama on the Podcast	Podcast	187	518	https://youtu.be/s4sPpzSWtEw&t=518	SomeOrdinaryGamers			Im Over Trisha Paytas & Papa John Calls In - H3 Podcast #187		04-25-2020
 Watching Mutahar's Apology	Podcast	187	1491	https://youtu.be/s4sPpzSWtEw&t=1491	SomeOrdinaryGamers			Im Over Trisha Paytas & Papa John Calls In - H3 Podcast #187		04-25-2020
 Mutahar Calls In	H3Show	130	3328	https://youtu.be/H3ToWhPj4JE&t=3328	SomeOrdinaryGamers	Call		Noah Samsen, Retract Or Lawyer Up - H3 Show #130		04-02-2025
-The Noah Samsen Situation	H3Show	127	7880	https://youtu.be/d3wdoHl6l8c&t=7880	Noah Samsen					
+The Noah Samsen Situation	H3Show	127	7880	https://youtu.be/d3wdoHl6l8c&t=7880	Noah Samsen			Noah Samsen Is F*cked - H3 Show #127		03-26-2025
 Ethan's Demand for Correction (Part 1)	H3Show	130	1853	https://youtu.be/H3ToWhPj4JE&t=1853	Noah Samsen			Noah Samsen, Retract Or Lawyer Up - H3 Show #130		04-02-2025
 Ethan's Demand for Correction (Part 2)	H3Show	130	5747	https://youtu.be/H3ToWhPj4JE&t=5747	Noah Samsen			Noah Samsen, Retract Or Lawyer Up - H3 Show #130		04-02-2025
 Noah Samsen Exposed as Creep	H3Show	128	3305	https://youtu.be/hXVbxQPnSNs&t=3305	Noah Samsen			Noah Samsen Exposed As A Massive Creep - H3 Show #128		03-28-2025
 Bizarre Instagram Musician	H3Show	129	1890	https://youtu.be/GzFYv_mFCNY&t=1890	LionWithAMic			The Justin Bieber Situation Just Went Catastrophic - H3 Show #129		03-31-2025
 LionWithAMic Responded!	H3Show	130	520	https://youtu.be/H3ToWhPj4JE&t=520	LionWithAMic			Noah Samsen, Retract Or Lawyer Up - H3 Show #130		04-02-2025
-Humble Beginnings with Levato Drama	H3TV	85	6462	https://youtu.be/ETvW-4y6gMw&t=6462	H3Lore			Hilas Pregnant Again - H3TV #85		07-31-2023
-H3Lore's Big Debut!	H3Show	4	9388	https://youtu.be/XPR4gCC10jc&t=9388	H3Lore			Catching Up On More Tea That We Missed During The Break & James Charles New Song - H3 Show #4		04-29-2024
-Officially Endorsed by the Podcast!	H3Show	113	2610	https://youtu.be/UK47xzasVxA&t=2610	H3Lore			Unmasking The Harassment Campaign Against Us - H3 Show #113		02-22-2025
-Don't Forget to Visit H3Lore!	H3Show	114	130	https://youtu.be/smSkN-I2weE&t=130	H3Lore			Tana Vs Joey Graceffa, Justin Baldoni Vs Blake Lively - H3 Show #114		02-24-2025
-New Look + Features!	H3Show	118	426	https://youtu.be/yrWs1e_vw0U&t=426	H3Lore			Is Justin Bieber Ok? & Alabama Barker vs Bhad Bhabie Drama Explained - H3 Show #118		03-05-2025
-Psychology In Seattle Ratings	H3Show	130	270	https://youtu.be/H3ToWhPj4JE&t=270	H3Lore			Noah Samsen, Retract Or Lawyer Up - H3 Show #130		04-02-2025
+Humble Beginnings with Levato Drama	H3TV	85	6462	https://youtu.be/ETvW-4y6gMw&t=6462	H3Lore (WaddlesJr)			Hilas Pregnant Again - H3TV #85		07-31-2023
+H3Lore's Big Debut!	H3Show	4	9388	https://youtu.be/XPR4gCC10jc&t=9388	H3Lore (WaddlesJr)			Catching Up On More Tea That We Missed During The Break & James Charles New Song - H3 Show #4		04-29-2024
+Officially Endorsed by the Podcast!	H3Show	113	2610	https://youtu.be/UK47xzasVxA&t=2610	H3Lore (WaddlesJr)			Unmasking The Harassment Campaign Against Us - H3 Show #113		02-22-2025
+Don't Forget to Visit H3Lore!	H3Show	114	130	https://youtu.be/smSkN-I2weE&t=130	H3Lore (WaddlesJr)			Tana Vs Joey Graceffa, Justin Baldoni Vs Blake Lively - H3 Show #114		02-24-2025
+New Look + Features!	H3Show	118	426	https://youtu.be/yrWs1e_vw0U&t=426	H3Lore (WaddlesJr)			Is Justin Bieber Ok? & Alabama Barker vs Bhad Bhabie Drama Explained - H3 Show #118		03-05-2025
+Psychology In Seattle Ratings	H3Show	130	270	https://youtu.be/H3ToWhPj4JE&t=270	H3Lore (WaddlesJr)			Noah Samsen, Retract Or Lawyer Up - H3 Show #130		04-02-2025
 The Bradley Martyn Episode	Podcast	260	0	https://youtu.be/c-mX7u5UKm8&t=0	Bradley Martyn			Bradley Martyn - H3 Podcast #260		12-02-2022
 Bradley & Brendan Schaub	OTR	57	3725	https://www.youtube.com/watch?v=txuivldLEzo&t=3725	Bradley Martyn			Logan Paul Aint Coming Back From This - Off The Rails #57		01-18-2023
 Bradley Martyn on Andrew Tate	OTR	57	7950	https://www.youtube.com/watch?v=txuivldLEzo&t=7950	Bradley Martyn			Logan Paul Aint Coming Back From This - Off The Rails #57		01-18-2023
@@ -2158,10 +2158,49 @@ Mr Beast Sues Ex Employee	H3Show	133	7840	https://youtu.be/Xab8OB1UD9M&t=7840	Mr
 David Dobrik's Assistant Makes Some Bizarre Videos	H3Show	133	9975	https://youtu.be/Xab8OB1UD9M&t=9975	David Dobrik			Bye Bye Vitaly (Updates on Sentencing) - H3 Show #133		04-09-2025
 Noah Samsen's Community Posts	H3Show	133	3304	https://youtu.be/Xab8OB1UD9M&t=3304	Noah Samsen			Bye Bye Vitaly (Updates on Sentencing) - H3 Show #133		04-09-2025
 Elon Musk Gets Cyber Bullied	H3Show	133	6630	https://youtu.be/Xab8OB1UD9M&t=6630	Elon Musk			Bye Bye Vitaly (Updates on Sentencing) - H3 Show #133		04-09-2025
-The Hawk Guest Stars #1	AfterDark	127	464	https://www.youtube.com/watch?v=lMKbp80Uhyw&t=464	The Hawk (Loves Dad)			Dream Song Remix Tournament - After Dark #127	Loves Dad	11-10-2023
-The Hawk Guest Stars #2	AfterDark	142	155	https://www.youtube.com/watch?v=zfYk1bimFMM&t=155	The Hawk (Loves Dad)			The BacH3lor Ep. 4 - Making Pottery w/ Maegan (Ft. Jeff Wittek) - After Dark #142	Loves Dad	03-22-2024
-The Hawk Guest Stars #3	OTR	110	0	https://www.youtube.com/watch?v=Oi-YzJ_3x8E&t=0	The Hawk (Loves Dad)			Massive Steven Crowder Lawsuit, Diddys Mansions Raided - Off The Rails #110	Loves Dad	03-27-2024
-The Hawk Guest Stars #4	H3Show	78	262	https://youtu.be/dK8wEJANcYw&t=262	The Hawk (Loves Dad)			We Tried To Emergency Land A Plane In A Realistic Flight Simulator - H3 Show #78	Loves Dad	11-08-2024
-The Hawk Guest Stars #5	H3Show	79	0	https://youtu.be/GRsAtRPjLh0&t=0	The Hawk (Loves Dad)			David Dobrik Documentary Controversy, Twilight Saga Finale - H3 Show #79	Loves Dad	11-11-2024
-The Hawk Guest Stars #6	H3Show	80	0	https://youtu.be/DzzujKzUOKw&t=0	The Hawk (Loves Dad)			Ethan Destroys Dan Bilzerian With Facts & Logic - H3 Show #80	Loves Dad	11-13-2024
-The Hawk Guest Stars #7	H3Show	134	280	https://youtu.be/z7g8lpsRqss&t=280	The Hawk (Loves Dad)			Secret Recording Of Twitch CEO LEAKED - Is This The End For Twitch? - H3 Show #134		04-11-2025
+The Hawk Guest Stars #1	AfterDark	127	464	https://www.youtube.com/watch?v=lMKbp80Uhyw&t=464	The Hawk (Loves Dad)	Guest		Dream Song Remix Tournament - After Dark #127	Loves Dad	11-10-2023
+The Hawk Guest Stars #2	AfterDark	142	155	https://www.youtube.com/watch?v=zfYk1bimFMM&t=155	The Hawk (Loves Dad)	Guest		The BacH3lor Ep. 4 - Making Pottery w/ Maegan (Ft. Jeff Wittek) - After Dark #142	Loves Dad	03-22-2024
+The Hawk Guest Stars #3	OTR	110	0	https://www.youtube.com/watch?v=Oi-YzJ_3x8E&t=0	The Hawk (Loves Dad)	Guest		Massive Steven Crowder Lawsuit, Diddys Mansions Raided - Off The Rails #110	Loves Dad	03-27-2024
+The Hawk Guest Stars #4	H3Show	78	262	https://youtu.be/dK8wEJANcYw&t=262	The Hawk (Loves Dad)	Guest		We Tried To Emergency Land A Plane In A Realistic Flight Simulator - H3 Show #78	Loves Dad	11-08-2024
+The Hawk Guest Stars #5	H3Show	79	0	https://youtu.be/GRsAtRPjLh0&t=0	The Hawk (Loves Dad)	Guest		David Dobrik Documentary Controversy, Twilight Saga Finale - H3 Show #79	Loves Dad	11-11-2024
+The Hawk Guest Stars #6	H3Show	80	0	https://youtu.be/DzzujKzUOKw&t=0	The Hawk (Loves Dad)	Guest		Ethan Destroys Dan Bilzerian With Facts & Logic - H3 Show #80	Loves Dad	11-13-2024
+The Hawk Guest Stars #7	H3Show	134	280	https://youtu.be/z7g8lpsRqss&t=280	The Hawk (Loves Dad)	Guest		Secret Recording Of Twitch CEO LEAKED - Is This The End For Twitch? - H3 Show #134		04-11-2025
+Timing everyone's running speed from Michael Myers	OTR	92	7984	https://www.youtube.com/watch?v=HbhH3KAN75I&t=7984	Zane (Tall Skeleton)			We Do Jade Gambling LIVE, Rich Lux vs Dan, Huge Boba Scandal - Off The Rails #92		11-01-2023
+H3 Podcast: The Most Innovative Show on YouTube	H3TV	103	3766	https://www.youtube.com/watch?v=WuaEyOStUds&t=3766	Zane (Tall Skeleton)			Ethan Admits To Faking Illness For Money - H3TV #103		01-08-2024
+Tall Skeleton Green Screen Submission	H3Show	3	9294	https://youtu.be/Xel3UegLOLQ&t=9294	Zane (Tall Skeleton)			Green Screen Tournament 2024 - H3 Show #3		04-26-2024
+Who's that Pokemon?	H3Show	14	12337	https://youtu.be/dTNUv14yoKI&t=12337	Zane (Tall Skeleton)			The Try Guys Just Lost Another Guy - H3 Show #14		05-22-2024
+It's Out of my Hands	H3Show	16	8973	https://youtu.be/jvGC35qMLMw&t=8973	Zane (Tall Skeleton)			AND THE RESULT OF MY COLONOSCOPY IS… - H3 Show #16		05-29-2024
+Unedited Photo of Ryan Kavanaugh	H3Show	19	2869	https://youtu.be/dAIDkR4xb7U&t=2869	Zane (Tall Skeleton)			Tana Mongeau Exposed Cody Ko - H3 Show #19		06-05-2024
+K-Eth Stinger	H3Show	27	8169	https://youtu.be/4pr97y3aopw&t=8169	Zane (Tall Skeleton)			OkBaby, Ok Drama! - H3 Show #27		06-24-2024
+Cody Ko's New Style	H3Show	31	1518	https://youtu.be/t7YKFG2TbGc&t=1518	Zane (Tall Skeleton)			Boogie Meltdown After Faking Cancer, Tana Is Coming For Jason Nash - H3 Show #31		07-19-2024
+Ethan's New Poker Promotion	H3Show	34	3290	https://youtu.be/uPFyV_cLylI&t=3290	Zane (Tall Skeleton)			Queen Of Melrose Returns w TEA, Olympic Fashion Tier List - H3 Show #34		07-26-2024
+Widdle Wyan Kavanaugh	H3Show	35	9967	https://youtu.be/8r5HosJI4bk&t=9967	Zane (Tall Skeleton)			Cody Ko Finally Responds - H3 Show #35		07-29-2024
+Deadpool vs Wolverine	H3Show	37	12577	https://youtu.be/sQ4eaIUryP0&t=12577	Zane (Tall Skeleton)			Logan Paul Comes Out As The Worst Person Alive - H3 Show #37		08-02-2024
+Rich Lux SSN Leaked	H3Show	43	7209	https://youtu.be/HyKgY7nwdrQ&t=7209	Zane (Tall Skeleton)			Making Howie Mandel Watch The Worst Videos In Internet History - H3 Show #43		08-16-2024
+WE HaVE UR DOG	H3Show	47	12909	https://youtu.be/YksbJ1RB-ic&t=12909	Zane (Tall Skeleton)			Huge Blake Lively Drama Update & Did Logan Paul Try To Kill His Dog? - H3 Show #47		08-26-2024
+Olvsteban	H3Show	60	10632	https://youtu.be/QwdgXFZeGFk&t=10632	Zane (Tall Skeleton)			Ice Spice Mean Girl PowerPoint, Olive Taste Test For Haters - H3 Show #60		09-27-2024
+Trump on Impaulsive	H3Show	66	5953	https://youtu.be/SAeHExAdKLk&t=5953	Zane (Tall Skeleton)			KSI Blocked Our Video & Lied About It, BOYS NIGHT! WE OUT HERE! - H3 Show #66		10-14-2024
+Jimmie Lee at a Trump Rally	H3Show	72	5382	https://youtu.be/HngwtqKyYdw&t=5382	Zane (Tall Skeleton)			MrBeast Leaked Group Chat w/ Ava Proves He Knew, Twilight Eclipse Review - H3 Show #72		10-28-2024
+Ethans Passport	H3Show	79	4203	https://youtu.be/GRsAtRPjLh0&t=4203	Zane (Tall Skeleton)			David Dobrik Documentary Controversy, Twilight Saga Finale - H3 Show #79		11-11-2024
+Dan I Dont Feel So Good...	H3Show	89	1455	https://youtu.be/lVdgVdVJsQQ&t=1455	Zane (Tall Skeleton)			Hawk Tuah Crypto Scam, The Crew Puts On A Magic Show - H3 Show #89		12-06-2024
+Kaya Piker EXPOSED	H3Show	90	11053	https://youtu.be/4nRmUq4mHAI&t=11053	Zane (Tall Skeleton)			Trisha Was On SNL So I'm Cutting Off My Arm - H3 Show #90		12-09-2024
+Mika's Background	H3Show	96	8587	https://youtu.be/0SWIbsrw5No&t=8587	Zane (Tall Skeleton)			Responding To The Haters That Waited For Me To Go On Break - H3 Show #96		01-06-2025
+Dansteban	H3Show	104	1044	https://youtu.be/vOZc89r3pJA&t=1044	Zane (Tall Skeleton)			Countdown To Doomsday - H3 Show #104		01-31-2025
+Zane in the Studio!	H3Show	136	932	https://youtu.be/WZbGjnOT9Mc&t=932	Zane (Tall Skeleton)	Guest		Ethan Reacts To Idubbbz Content Cop - H3 Show #136		04-19-2025
+H3 Podcast #4 - iDubbbz	Podcast	4	0	https://youtu.be/7khgBDQR-WQ&t=0	iDubbbz	Guest		H3 Podcast #4 - iDubbbzTV		04-10-2017
+H3 Podcast #199 - iDubbbz & Dax Flame	Podcast	199	0	https://youtu.be/5BuBRV1Mw5A&t=0	iDubbbz	Guest		iDubbbz & Dax Flame - H3 Podcast #199		07-22-2020
+iDubbbz Boxing Match	H3TV	30	6626	https://youtu.be/ulmY5h0M4co&t=6626	iDubbbz			Ethan Was In The Hospital (Not Clickbait This Time) - H3TV #30		04-04-2022
+iDubbbz & Anisa	Podcast	250	0	https://youtu.be/68UMkX4Z08c&t=0	iDubbbz	Guest		iDubbbz & Anisa - H3 Podcast #250		04-15-2022
+iDubbbz Boxing	AfterDark	71	4710	https://www.youtube.com/watch?v=cztc_OXvqJI&t=4710	iDubbbz			Crazy Myths We Believed As Kids, Fresh & Fit Cringe - After Dark #71		04-29-2022
+Calling iDubbbz	H3TV	56	8780	https://youtu.be/mUSioSGBigU&t=8780	iDubbbz			Ethan Permanently Banned From Twitter - H3TV #56		11-07-2022
+iDubbbz calls in to talk about Creator Clash	OTR	68	5050	https://www.youtube.com/watch?v=QsIeIEJcS30&t=5050	iDubbbz	Call		iDubbbz & Anisa Call re Creator Clash, Howie Mandel On Joe Rogan, Coachella Fail- Off The Rails #68		04-19-2023
+Ethan on iDubbbz Apology to Tana	AfterDark	106	2480	https://www.youtube.com/watch?v=BOoi8xtLnsk&t=2480	iDubbbz			iDubbbz Apology To Tana & Alyx Weiss Cult PowerPoint - After Dark #106		05-19-2023
+Tana Responds to the iDubbbz Apology	AfterDark	108	10300	https://www.youtube.com/watch?v=5tqh5bW7o7U&t=10300	iDubbbz			Olivia Explains Faze Rain vs Grace Van Dien Drama via PowerPoint - After Dark #108		06-02-2023
+Regarding iDubbbz & Anisa	H3Show	119	1050	https://youtu.be/ZDnseOSdk_8&t=1050	iDubbbz			Snark Called Child Protective Services On Us - H3 Show #119		03-07-2025
+Reacting to the H3 Content Cop	H3Show	136	1560	https://youtu.be/WZbGjnOT9Mc&t=1560	iDubbbz			Ethan Reacts To Idubbbz Content Cop - H3 Show #136		04-19-2025
+Denims & Frogan	H3Show	105	2060	https://youtu.be/TETOdFWf99M&t=2060	Denims			Nuclear Fallout - H3 Show #105		02-03-2025
+Denims Response to the Hasan Content Nuke	H3Show	106	9950	https://youtu.be/6KV16LWcnTY&t=9950	Denims			Dear Hasan Piker... - H3 Show #106		02-05-2025
+Denims and Rape Denial	H3Show	107	8320	https://youtu.be/IG6GG1x0M9o&t=8320	Denims			Hasan Piker Is A Cowardly Liar - H3 Show #107		02-07-2025
+Denims Goes After Ethan's Children	H3Show	119	1890	https://youtu.be/ZDnseOSdk_8&t=1890	Denims			Snark Called Child Protective Services On Us - H3 Show #119		03-07-2025
+Denims Before the CPS Call	H3Show	120	4480	https://youtu.be/wWG9Msgmnh4&t=4480	Denims			My War Against Snark - H3 Show #120		03-11-2025
+Ethan is Completely Off X	H3Show	67	8291	https://youtu.be/YUlacUvCG8I&t=8291				Addressing Hasan & His Community - H3 Show #67		10-16-2024
