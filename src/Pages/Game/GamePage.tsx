@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { useDataContext } from "../../context/DataContext";
-import "./GamePage.scss"
 import { Episode } from "../../models/Episode";
 import YouTube from "react-youtube";
 import { Moment } from "../../models/Moments/Moment";
 import { EpisodeType } from "../../models/enums/EpisodeType";
+import "./GamePage.scss"
 
 function GamePage() {
-    const { episodes, moments } = useDataContext();
+    const { episodes, moments, soundbites } = useDataContext();
     const [episodeFilterText, setEpisodeFilterText] = useState<string>("");
     const [videoId, setVideoId] = useState<string>();
     const [currentMoment, setCurrentMoment] = useState<Moment>();
@@ -17,52 +17,107 @@ function GamePage() {
     const [isCorrectGuess, setIsCorrectGuess] = useState<boolean>(false);
     const [helperText, setHelperText] = useState("");
     const [inputClass, setInputClass] = useState<string>("episode-input");
-    const [videoClass, setVideoClass] = useState<string>("try-again");
-    const [guesses, setGuesses] = useState<string[]>([]);
+    const [videoClass, setVideoClass] = useState<string>();
+    const [guesses, setGuesses] = useState<Episode[]>([]);
+    const [score, setScore] = useState<number>(1000);
+    const [hint1, setHint1] = useState<string>();
+    const [hint2, setHint2] = useState<string>();
+    const [hint3, setHint3] = useState<string>();
+    const [count, setCount] = useState(0);
+    const [gameCount, setGameCount] = useState(0);
+
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+          // Place the event firing logic here
+          setCount(prevCount => prevCount + 1);
+        }, 1000);
+    
+        return () => clearInterval(intervalId); // Clean up the interval on component unmount
+      }, []);
+
+    useEffect(() => {
+        console.log("Game Count:", gameCount)
+
+        if(!gameStarted)
+            return;
+
+        if(score <= 0){
+            setGameCount(gameCount + 1);
+            if(gameCount == 5){
+                setGameStarted(false);
+                return;
+            }
+            startGame();
+        }
+
+        if(isVideoPlaying() && count > 10){
+            setScore(score - 5);
+        }
+    }, [count])
 
     useEffect(() => {
         if(!player)
             return;
 
         if(isCorrectGuess){
-            const moment = getRandomMoment();
+            let moment = getRandomMoment();
             player.loadVideoById({videoId: moment.getVideoId(), startSeconds: moment.getTime()})
+            setIsCorrectGuess(false);
         }
     }, [isCorrectGuess]);
 
+    useEffect(() => {
+        if(guesses.length == 1)
+            setHint1(getHint1());
+
+        if(guesses.length == 2)
+            setHint2(getHint2());
+
+        if(guesses.length == 3)
+            setHint3(getHint3());
+    }, [guesses.length]);
+
     function getHint1(){
-        return `Is show type: ${currentMoment?.episodeType.toString()}`
+        return `SHOW TYPE: ${currentMoment?.episodeType.toString()}`
     }
 
     function getHint2(){
-        const episodesOfType = episodes.filter(x => x.type == currentMoment?.episodeType && x.title != currentMoment.title)
-        const priorEpisodes = episodesOfType.filter(x => x.number < currentMoment?.episodeNumber!)
-        const randomIndex = getRandomInt(0, priorEpisodes.length - 1)
-        const priorEpisode = priorEpisodes[randomIndex];
+        if(!currentMoment)
+            return;
 
-        if(priorEpisodes.length <= 0){
-            return `This was the first episode of its type`    
+        const latestGuess = guesses[guesses.length - 1]
+        let momentEpisode = episodes.find(x => x.type == currentMoment.episodeType && x.number == currentMoment.episodeNumber)
+
+        if(currentMoment.title == "Steven Crowder Interview")
+            momentEpisode = episodes.find(x => x.title == "Ethan Klein Debates Steven Crowder (Ft. Sam Seder) - H3 Podcast #248")
+
+        if(new Date(latestGuess.date) < new Date(momentEpisode?.date!)){
+            return `LATER THAN: ${latestGuess.getShortTitle()} (${latestGuess.date})`
         }
-
-        return `This episode happened sometime after ${priorEpisode.getShortTitle()}`
+        else{
+            return `EARLIER THAN: ${latestGuess.getShortTitle()} (${latestGuess.date})`
+        }
     }
 
     function getHint3(){
-        const episodesOfType = episodes.filter(x => x.type == currentMoment?.episodeType && x.title != currentMoment.title)
-        const laterEpisodes = episodesOfType.filter(x => x.number > currentMoment?.episodeNumber!)
-        const randomIndex = getRandomInt(0, laterEpisodes.length - 1)
-        const laterEpisode = laterEpisodes[randomIndex];
+        if(!currentMoment)
+            return;
 
-        if(laterEpisodes.length <= 0){
-            return `This was the last episode of its type`  
+        const latestGuess = guesses[guesses.length - 1]
+        let momentEpisode = episodes.find(x => x.type == currentMoment.episodeType && x.number == currentMoment.episodeNumber)
+
+        if(currentMoment.title == "Steven Crowder Interview")
+            momentEpisode = episodes.find(x => x.title == "Ethan Klein Debates Steven Crowder (Ft. Sam Seder) - H3 Podcast #248")
+
+        if(new Date(latestGuess.date) < new Date(momentEpisode?.date!)){
+            return `LATER THAN: ${latestGuess.getShortTitle()} (${latestGuess.date})`
         }
-
-        return `This episode happened sometime before ${laterEpisode.getShortTitle()}`
+        else{
+            return `EARLIER THAN: ${latestGuess.getShortTitle()} (${latestGuess.date})`
+        }
     }
 
     function getRandomMoment() {
-        console.log("MOMENTS:", EpisodeType[moments[0].episodeType]);
-        console.log(EpisodeType[EpisodeType.OTR])
         const filteredMoments = moments.filter(x => 
             `${x.episodeType}` == EpisodeType[EpisodeType.Podcast]   || 
             `${x.episodeType}` == EpisodeType[EpisodeType.Podcast]   || 
@@ -72,7 +127,6 @@ function GamePage() {
             `${x.episodeType}` == EpisodeType[EpisodeType.H3TV]      || 
             `${x.episodeType}` == EpisodeType[EpisodeType.Families]  ||
             `${x.episodeType}` == EpisodeType[EpisodeType.ContentCourt])
-        console.log("Filtered Moments: ", filteredMoments)
         const randomIndex = getRandomInt(0, filteredMoments.length - 1);
         const moment = filteredMoments[randomIndex];
         
@@ -83,7 +137,7 @@ function GamePage() {
 
     function onChange(event: React.ChangeEvent<HTMLInputElement>) {
         setInputClass("episode-input")
-        setVideoClass("try-again");
+        // setVideoClass("try-again");
         setSelected(false);
         setEpisodeFilterText(event.target.value)
     }
@@ -99,27 +153,45 @@ function GamePage() {
     }
 
     const startGame = () => {
-        console.log("start")
-        const moment = getRandomMoment();
+        let moment = getRandomMoment();
+        setScore(1000);
+
         player.loadVideoById({videoId: moment.getVideoId(), startSeconds: moment.getTime()})
         setGameStarted(true);
     }
 
     const submitGuess = () => {
-        if(episodeFilterText == currentMoment?.title){
-            setGuesses([])
-            setHelperText("You got it!")
+        if(!currentMoment)
+            return;
+
+        const guessedEpisode = episodes.find(x => x.title == episodeFilterText);
+        let momentEpisode = episodes.find(x => x.type == currentMoment.episodeType && x.number == currentMoment.episodeNumber)
+
+        if(currentMoment.title == "Steven Crowder Interview")
+            momentEpisode = episodes.find(x => x.title == "Ethan Klein Debates Steven Crowder (Ft. Sam Seder) - H3 Podcast #248")
+
+        if(guessedEpisode == momentEpisode){
+            PlayAudio("Uhh... BASED!");
+            setGameCount(gameCount + 1);
+            setEpisodeFilterText("");
+            setGuesses([]);
+            setHelperText("You got it!");
             setIsCorrectGuess(true);
+            setInputClass("episode-input right-answer");
+            setCount(0);
             return;
         }
-        const updatedGuesses = guesses;
-        updatedGuesses.push(episodeFilterText)
 
-        setGuesses(updatedGuesses)
+        setScore(score - 100);
+        const updatedGuesses = guesses;
+        updatedGuesses.push(guessedEpisode!)
+
+        setGuesses(updatedGuesses);
         setEpisodeFilterText("");
         setInputClass("episode-input wrong-answer")
-        setVideoClass("try-again try-again-anim");
+        // setVideoClass("try-again try-again-anim");
         setIsCorrectGuess(false);
+        PlayAudio("The death bell tolls.")
     }
 
     const opts = {
@@ -153,43 +225,88 @@ function GamePage() {
         return filteredEpisodes
     }
 
+    const jumpToTime = (seconds: number) => {
+        if(player){
+            player.seekTo(seconds, true);
+            player.playVideo();
+        }
+    }
+
+    const isVideoPlaying = () => {
+        if(!player)
+            return false;
+
+        return player.getPlayerState() == 1;
+    }
+
+    const togglePlayPause = () => {
+        if(!gameStarted){
+            startGame();
+        }
+
+        if(player){
+            if(isVideoPlaying())
+                player.pauseVideo();
+            else
+                player.playVideo();
+        }
+    }
+
+    async function PlayAudio(soundbiteName: string) {
+        const soundbite = soundbites.find(x => x.title == soundbiteName)!;
+        let audio = new Audio(`../../../soundbites/${soundbite.sound}`);
+        await audio.play();
+    }
+
     return (
         <div id="GamePage">
             <h1>GUESS THE EPISODE!</h1>
-            { !gameStarted &&
+            {gameStarted &&
                 <>
-                    <div>A simple game where a random H3 moment will be chosen and you have to guess the episode it was from.</div>
-                    <div>You will have 5 guesses to get the correct answer before a new moment is picked. </div>
-                    <div>A hint will be provided after each incorrect guess.</div>
+                    <h6>{hint1}</h6>
+                    <h6>{hint2}</h6>
+                    <h6>{hint3}</h6>
                 </>
             }
-            {gameStarted &&
-                <div>GUESSES: {guesses}</div>
-            }
+            <div className="game-container">
+                <div className="scorebar-container">
+                    <div className="score-labels">
+                        <div>1,000</div>
+                        <div>0</div>
+                    </div>
 
-            <div className="video-container">
-                {gameStarted &&
-                    <div className="blockbar">No Peaking 😄</div>
-                }
-                <div className={videoClass}>
+                    <div className="scorebar">
+                        <div className="scorebar-fill" style={{height: `${score * .1}%`}}></div>
+                    </div>
+                </div>
+
+                {/* <div className={videoClass}>
                     <div className="try-again-bg">
                         LATER
                     </div>
-                </div>
+                </div> */}
                 <div className="video">
-                    <YouTube videoId={videoId} opts={opts} onReady={onReady} style={divStyle}/>
+                    {/* <div className="nav-buttons">
+                        <button onClick={() => jumpToTime(30)}>0:30</button>
+                    </div> */}
+                    <div className="video-container">
+                        <div className="block-video" onClick={() => togglePlayPause()}></div>
+                        {gameStarted &&
+                            <div className="blockbar">No Peaking 😄</div>
+                        }
+                        <YouTube videoId={videoId} opts={opts} onReady={onReady} style={divStyle}/>
+                    </div>
                 </div>
             </div>
-            { gameStarted &&
-                <input key={"inputBox"} className={inputClass} type="text" placeholder="Search for Episodes"value={episodeFilterText} onChange={onChange}/>
-            }
-            { getEpisodesByString(episodeFilterText).map((episode) => (
-                <div className="options" onClick={() => {setEpisodeFilterText(episode.title); setSelected(true)}}>
-                    {`${episode.date} - [${episode.getShortTitle().replace("#", "")}] - ${episode.title}`}
-                </div>))
-            }
+        { gameStarted &&
+            <input key={"inputBox"} className={inputClass} type="text" placeholder="Search for Episodes"value={episodeFilterText} onChange={onChange}/>
+        }
+        { getEpisodesByString(episodeFilterText).map((episode) => (
+            <div className="options" onClick={() => {setEpisodeFilterText(episode.title); setSelected(true)}}>
+                {`${episode.date} - [${episode.getShortTitle().replace("#", "")}] - ${episode.title}`}
+            </div>))
+        }
             <button className="start-game" onClick={!gameStarted ? startGame : submitGuess}>{!gameStarted ? "Start Game" : "Submit"}</button>
-            <div className="helper-text">{helperText}</div>
         </div>
     );
 }
