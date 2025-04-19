@@ -71,7 +71,9 @@ function PageHeader() {
               <CustomButton page={Page.Crew} />
               <CustomButton page={Page.Button} />
               <CustomButton page={Page.People} />
-              <CustomButton page={Page.Game} />
+              {!isMobile && 
+                <CustomButton page={Page.Game} />
+              }
             </div>
           </div>
         }

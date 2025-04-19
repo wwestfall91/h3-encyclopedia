@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import "./App.scss";
 import SoundbitesPage from "./Pages/SoundBitesPage/SoundBitesPage";
 import Iceberg from "./Pages/Iceberg/IcebergPage";
 import CrewPage from "./components/Crew/CrewPage/CrewPage";
@@ -8,6 +7,7 @@ import PeoplePage from "./Pages/PeoplePage/PeoplePage";
 import Homepage from "./Pages/Homepage/Homepage";
 import PageHeader from "./Pages/PageHeader/PageHeader";
 import GamePage from "./Pages/Game/GamePage";
+import "./App.scss";
 
 function App() {
   return (

@@ -31,7 +31,7 @@ function UpdatesSection() {
                 <h1>PEOPLE UPDATES</h1>
                 <div className="section-data">
                     <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Tall Skeleton")!} />
+                        <PersonCard person={people.find(x => x.name == "Zane (Tall Skeleton)")!} />
                         <div className="note">{"New Arrival!"}</div>
                     </div>
                     <div className="topic">

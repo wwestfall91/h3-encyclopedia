@@ -9,35 +9,34 @@ import "./GamePage.scss"
 function GamePage() {
     const { episodes, moments, soundbites } = useDataContext();
     const [episodeFilterText, setEpisodeFilterText] = useState<string>("");
-    const [videoId, setVideoId] = useState<string>();
+    const [videoId] = useState<string>();
     const [currentMoment, setCurrentMoment] = useState<Moment>();
     const [selected, setSelected] = useState<boolean>(false);
     const [player, setPlayer] = useState<any>(null);
     const [gameStarted, setGameStarted] = useState<boolean>();
     const [isCorrectGuess, setIsCorrectGuess] = useState<boolean>(false);
-    const [helperText, setHelperText] = useState("");
+    const [_, setHelperText] = useState("");
     const [inputClass, setInputClass] = useState<string>("episode-input");
-    const [videoClass, setVideoClass] = useState<string>();
     const [guesses, setGuesses] = useState<Episode[]>([]);
+    const [bestScore, setBestScore] = useState<number>(0);
     const [score, setScore] = useState<number>(1000);
     const [hint1, setHint1] = useState<string>();
     const [hint2, setHint2] = useState<string>();
     const [hint3, setHint3] = useState<string>();
     const [count, setCount] = useState(0);
     const [gameCount, setGameCount] = useState(0);
+    // const [rounds, setRounds] = useState<string[]>([]);
 
     useEffect(() => {
         const intervalId = setInterval(() => {
           // Place the event firing logic here
           setCount(prevCount => prevCount + 1);
         }, 1000);
-    
+
         return () => clearInterval(intervalId); // Clean up the interval on component unmount
       }, []);
 
     useEffect(() => {
-        console.log("Game Count:", gameCount)
-
         if(!gameStarted)
             return;
 
@@ -47,10 +46,10 @@ function GamePage() {
                 setGameStarted(false);
                 return;
             }
-            startGame();
+            resetGame();
         }
 
-        if(isVideoPlaying() && count > 10){
+        if(isVideoPlaying()){
             setScore(score - 5);
         }
     }, [count])
@@ -78,7 +77,7 @@ function GamePage() {
     }, [guesses.length]);
 
     function getHint1(){
-        return `SHOW TYPE: ${currentMoment?.episodeType.toString()}`
+        return `HINT #1 - SHOW TYPE: ${currentMoment?.episodeType.toString()}`
     }
 
     function getHint2(){
@@ -160,6 +159,19 @@ function GamePage() {
         setGameStarted(true);
     }
 
+    const resetGame = () => {
+        setGameCount(gameCount + 1);
+        setEpisodeFilterText("");
+        setGuesses([]);
+        setScore(1000);
+        setCount(0);
+        setHint1("");
+        setHint2("");
+        setHint3("");
+        let moment = getRandomMoment();
+        player.loadVideoById({videoId: moment.getVideoId(), startSeconds: moment.getTime()})
+    }
+
     const submitGuess = () => {
         if(!currentMoment)
             return;
@@ -172,17 +184,16 @@ function GamePage() {
 
         if(guessedEpisode == momentEpisode){
             PlayAudio("Uhh... BASED!");
-            setGameCount(gameCount + 1);
-            setEpisodeFilterText("");
-            setGuesses([]);
+            setInputClass("episode-input right-answer");
             setHelperText("You got it!");
             setIsCorrectGuess(true);
-            setInputClass("episode-input right-answer");
-            setCount(0);
+            if(score > bestScore)
+                setBestScore(score)
+            resetGame();
             return;
         }
 
-        setScore(score - 100);
+        setScore(score - 190);
         const updatedGuesses = guesses;
         updatedGuesses.push(guessedEpisode!)
 
@@ -203,6 +214,7 @@ function GamePage() {
           controls:0,
           showinfo:0,
           modestbranding:1,
+          rel:1
         },
     } as any;
 
@@ -225,12 +237,12 @@ function GamePage() {
         return filteredEpisodes
     }
 
-    const jumpToTime = (seconds: number) => {
-        if(player){
-            player.seekTo(seconds, true);
-            player.playVideo();
-        }
-    }
+    // const jumpToTime = (seconds: number) => {
+    //     if(player){
+    //         player.seekTo(seconds, true);
+    //         player.playVideo();
+    //     }
+    // }
 
     const isVideoPlaying = () => {
         if(!player)
@@ -258,9 +270,16 @@ function GamePage() {
         await audio.play();
     }
 
-    return (
+    return (       
         <div id="GamePage">
-            <h1>GUESS THE EPISODE!</h1>
+            {!gameStarted && 
+            <>
+                <h1>GUESS THE EPISODE!</h1>
+                <div>Come one, come all and guess the H3 episode!</div>
+                <div>The first 3 guesses will provide a hint</div>            
+            </>
+            }
+
             {gameStarted &&
                 <>
                     <h6>{hint1}</h6>
@@ -289,8 +308,19 @@ function GamePage() {
                     {/* <div className="nav-buttons">
                         <button onClick={() => jumpToTime(30)}>0:30</button>
                     </div> */}
+                    {/* <div className="game-count">
+                        <div className={`counter ${rounds[0]}`}></div>
+                        <div className="counter correct"></div>
+                        <div className="counter"></div>
+                        <div className="counter"></div>
+                        <div className="counter"></div>
+                    </div> */}
+
                     <div className="video-container">
+                        {!gameStarted &&
                         <div className="block-video" onClick={() => togglePlayPause()}></div>
+                        }
+                        
                         {gameStarted &&
                             <div className="blockbar">No Peaking 😄</div>
                         }
@@ -306,6 +336,7 @@ function GamePage() {
                 {`${episode.date} - [${episode.getShortTitle().replace("#", "")}] - ${episode.title}`}
             </div>))
         }
+            <h4>BEST SCORE: {bestScore}</h4>
             <button className="start-game" onClick={!gameStarted ? startGame : submitGuess}>{!gameStarted ? "Start Game" : "Submit"}</button>
         </div>
     );

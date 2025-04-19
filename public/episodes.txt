@@ -219,6 +219,8 @@ H3H3Productions	10	05-24-2016	We're Being Sued	https://youtu.be/fEGVOysbC8w
 H3H3Productions	11	02-27-2017	We're Still Being Sued	https://youtu.be/m40bWgWH8Ro	
 H3H3Productions	12	08-23-2017	WE WON THE LAWSUIT!	https://youtu.be/9eN0CIyF2ok	
 H3H3Productions	13	04-18-2020	Everybody Loves Ethan	https://youtu.be/9eN0CIyF2ok	
+H3H3Productions	14	12-31-2016	EXPERIMENT Glowing 1000 degree KNIFE ft iDubbbzTV	https://youtu.be/gherdHE_HDo	
+H3H3Productions	15	06-08-2018	Shootin' With iDubbbz	https://youtu.be/JfsxLhPn-oA	
 H3Show	1	04-22-2024	Fresh Got His GF Pregnant & Demands She Gets Rid Of It (She’s Calling In)  - H3 Show #1	https://youtu.be/0lt0tTr-lj4	
 H3Show	2	04-24-2024	Catching Up On All The Tea We Missed - H3 Show #2	https://youtu.be/x2cyP6KJ0Uc	
 H3Show	3	04-26-2024	Green Screen Tournament 2024 - H3 Show #3	https://youtu.be/Xel3UegLOLQ	
@@ -283,6 +285,7 @@ H3Show	63	10-04-2024	David Dobrik's Legal Defense Leaked vs Jeff Wittek - H3 Sho
 H3Show	64	10-10-2024	Jimmy Lee Breaks Into Studio, Gets Confronted, Permanently Banned - H3 Show #64	https://youtu.be/vrgT8x57bDo	
 H3Show	65	10-11-2024	KSI's New Song Is So Bad He’s Blocking Criticism (& Probably This Video) - H3 Show #65	https://youtu.be/0eJx1bu4Ris	
 H3Show	66	10-14-2024	KSI Blocked Our Video & Lied About It, BOYS NIGHT! WE OUT HERE! - H3 Show #66	https://youtu.be/SAeHExAdKLk	
+H3Show	67	10-16-2024	Addressing Hasan & His Community - H3 Show #67	https://youtu.be/YUlacUvCG8I	
 H3Show	68	10-18-2024	I Watched Twilight For The First Time & I Have A Lot To Say - H3 Show #68	https://youtu.be/M9dYrhdXN88	
 H3Show	69	10-21-2024	Dan Clancy Must Resign As Twitch CEO - H3 Show #69	https://youtu.be/cjJqvaNWHEA	
 H3Show	70	10-23-2024	I Watched Twilight New Moon For The First Time & I Have A Lot To Say- H3 Show #70	https://youtu.be/RRcDcNSc7rA	
@@ -315,7 +318,7 @@ H3Show	99	01-15-2025	Dream vs. TommyInnit Minecraft Drama Innit Oi! - H3 Show #9
 H3Show	100	01-17-2025	Free Wendy Williams!! Another Conservatorship!? & Love & Dan PowerPoint On WoW Drama - H3 Show #100	https://youtu.be/42OYpZFe5DY	
 H3Show	101	01-22-2025	Justin Baldoni Comes w/ Receipt & DEBUNKS Blake Lively Accusations? - H3 Show #101	https://youtu.be/casAOxYGjPc	
 H3Show	102	01-24-2025	My Life Is Falling Apart- Addressing The Controversy- I Shouldn’t Say This But I Must - H3 Show #102	https://youtu.be/3FKZxfBljlw	
-H3Show	103	01-29-2024	Content Nuke: Markiplier - H3 Show #103	https://youtu.be/oDdnL6Pd9qU	
+H3Show	103	01-29-2025	Content Nuke: Markiplier - H3 Show #103	https://youtu.be/oDdnL6Pd9qU	
 H3Show	104	01-31-2025	Countdown To Doomsday - H3 Show #104	https://youtu.be/vOZc89r3pJA	
 H3Show	105	02-03-2025	Nuclear Fallout - H3 Show #105	https://youtu.be/TETOdFWf99M	
 H3Show	106	02-05-2025	Dear Hasan Piker... - H3 Show #106	https://youtu.be/6KV16LWcnTY	
@@ -348,7 +351,8 @@ H3Show	132	04-07-2025	Vitaly Going To Jail In The Philippines & New Massive Twit
 H3Show	133	04-09-2025	Bye Bye Vitaly (Updates on Sentencing) - H3 Show #133	https://youtu.be/Xab8OB1UD9M	
 H3Show	134	04-11-2025	Secret Recording Of Twitch CEO LEAKED - Is This The End For Twitch? - H3 Show #134	https://youtu.be/z7g8lpsRqss	
 H3Show	135	04-14-2025	Goodbye AB - H3 Show #135	https://youtu.be/TtvqAqxkQNY	
-H3Show	136	04-19-2025	Ethan Reacts To Idubbbz Content Cop - H3 Show #136	https://youtu.be/WZbGjnOT9Mc	
+H3Show	136	04-16-2025	Ethan Reacts To Idubbbz Content Cop - H3 Show #136	https://youtu.be/WZbGjnOT9Mc	
+H3Show	137	04-18-2025	Reacting To The Entire Idubbbz Content Cop - H3 Show #137	https://youtu.be/WRyfaf8tiQ8	
 H3TV	1	07-17-2021	I Waited 16 YEARS To Play Half Life Alyx... & The Crew Ruined It - H3TV #1	https://youtu.be/3XCb0GrMix4	
 H3TV	2	07-24-2021	YouTuber House Tours, Make Ethan Laugh, Twitch Gambling Finale | H3TV Full Episode #2	https://www.youtube.com/watch?v=b9BRDiQPD-U	
 H3TV	3	07-31-2021	QAnon Lunatics & Unusual Memes - H3TV #3	https://youtu.be/GArWVPo-86s	
