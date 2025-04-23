@@ -167,6 +167,11 @@ No good on that?	H3Show	126	4804	https://youtu.be/1X6PGsxZKs0&t=4804		Button		Lo
 	H3Show	128	1521	https://youtu.be/hXVbxQPnSNs&t=1521		Button		Noah Samsen Exposed As A Massive Creep - H3 Show #128		03-28-2025
 During Ethan's Alpha Segment	H3Show	128	12055	https://youtu.be/hXVbxQPnSNs&t=12055		Button		Noah Samsen Exposed As A Massive Creep - H3 Show #128		03-28-2025
 	H3Show	129	12517	https://youtu.be/GzFYv_mFCNY&t=12517		Button		The Justin Bieber Situation Just Went Catastrophic - H3 Show #129		03-31-2025
+	H3Show	130	1601	https://youtu.be/H3ToWhPj4JE&t=1601		Button		Noah Samsen, Retract Or Lawyer Up - H3 Show #130		04-02-2025
+	H3Show	134	2387	https://youtu.be/z7g8lpsRqss&t=2387		Button		Secret Recording Of Twitch CEO LEAKED - Is This The End For Twitch? - H3 Show #134		04-11-2025
+Watching Content Cop	H3Show	136	7475	https://youtu.be/WZbGjnOT9Mc&t=7475		Button		Ethan Reacts To Idubbbz Content Cop - H3 Show #136		04-16-2025
+	H3Show	137	6258	https://youtu.be/WRyfaf8tiQ8&t=6258		Button		Reacting To The Entire Idubbbz Content Cop - H3 Show #137		04-18-2025
+Spitting out Burrito	H3Show	137	14053	https://youtu.be/WRyfaf8tiQ8&t=14053		Button		Reacting To The Entire Idubbbz Content Cop - H3 Show #137		04-18-2025
 Dan Lore										
 Bobby Lee Interruption	Podcast	148	2062	https://youtu.be/NK-_XJBYv-c&t=2062	Dan	Lore		Bobby Lee & Khalyla - H3 Podcast #148	Top Dan Moments	10-08-2019
 Dan Bans Rich Lux	H3TV	42	4956	https://youtu.be/QpElkT_nkgY&t=4956	Dan	Lore		We Went To ACE Fest... WOW - H3TV #42	Top Dan Moments	07-11-2022
@@ -745,7 +750,7 @@ CCR Curse Origin	AfterDark	20	505	https://www.youtube.com/watch?v=1G3nt39Fd0o&t=
 Confronting Zach	AfterDark	43	5108	https://www.youtube.com/watch?v=lw8E6x_tiQE&t=5108	Zach	Lore		James Charles Returns & Baby Update - H3 After Dark # 43	The CCR Curse	07-02-2021
 In the Halloween special	OTR	16	1433	https://youtu.be/xH_z6O6l9SM&t=1433	Zach	Lore		We Go Ghost Hunting - Halloween Special - OTR #16	The CCR Curse	10-28-2021
 Discussing it on Leftovers	Leftovers	27	1105	https://www.youtube.com/watch?v=wwVJoZqn7e0&t=1105	Zach	Lore		Elon Musk Forced To Buy Twitter, Herschel Walker Walked Her To The Clinic - Leftovers #27	The CCR Curse	10-06-2022
-Mr Beast gets ZONKD	H3TV	27	6500	https://youtu.be/LB2vHBIFc1o&t=6500	Zach	Lore		David Dobrik Exposed By Casey Neistat Documentary - H3TV #27	Zilly Zonka	03-14-2022
+Ethan gets ZONKD	H3TV	27	6500	https://youtu.be/LB2vHBIFc1o&t=6500	Zach	Lore		David Dobrik Exposed By Casey Neistat Documentary - H3TV #27	Zilly Zonka	03-14-2022
 PAD Coin	AfterDark	79	6286	https://www.youtube.com/watch?v=PeIdksdVTA4&t=6286	Zach	Lore		We Went To A Crypto Convention, Trump Stole Nuclear Secrets, Addison Raes Dad - After Dark #79	Zilly Zonka	08-12-2022
 Zach shits on strangers lawn	AfterDark	4	1409	https://www.youtube.com/watch?v=xkgy_19bNpY&t=1409	Zach	Lore		H3 After Dark - #4	Shitting on a strangers lawn	09-11-2020
 Zach defends his lawn shit	Podcast	246	2140	https://youtu.be/f_g3mOv7s5o&t=2140	Zach	Lore		The Belle Delphine Mystery & Our New Studio - H3 Podcast #246	Shitting on a strangers lawn	05-20-2021
@@ -2186,21 +2191,37 @@ Dan I Dont Feel So Good...	H3Show	89	1455	https://youtu.be/lVdgVdVJsQQ&t=1455	Za
 Kaya Piker EXPOSED	H3Show	90	11053	https://youtu.be/4nRmUq4mHAI&t=11053	Zane (Tall Skeleton)			Trisha Was On SNL So I'm Cutting Off My Arm - H3 Show #90		12-09-2024
 Mika's Background	H3Show	96	8587	https://youtu.be/0SWIbsrw5No&t=8587	Zane (Tall Skeleton)			Responding To The Haters That Waited For Me To Go On Break - H3 Show #96		01-06-2025
 Dansteban	H3Show	104	1044	https://youtu.be/vOZc89r3pJA&t=1044	Zane (Tall Skeleton)			Countdown To Doomsday - H3 Show #104		01-31-2025
-Zane in the Studio!	H3Show	136	932	https://youtu.be/WZbGjnOT9Mc&t=932	Zane (Tall Skeleton)	Guest		Ethan Reacts To Idubbbz Content Cop - H3 Show #136		04-19-2025
-H3 Podcast #4 - iDubbbz	Podcast	4	0	https://youtu.be/7khgBDQR-WQ&t=0	iDubbbz	Guest		H3 Podcast #4 - iDubbbzTV		04-10-2017
-H3 Podcast #199 - iDubbbz & Dax Flame	Podcast	199	0	https://youtu.be/5BuBRV1Mw5A&t=0	iDubbbz	Guest		iDubbbz & Dax Flame - H3 Podcast #199		07-22-2020
+Zane in the Studio!	H3Show	136	932	https://youtu.be/WZbGjnOT9Mc&t=932	Zane (Tall Skeleton)	Guest		Ethan Reacts To Idubbbz Content Cop - H3 Show #136		04-16-2025
+THESE GLASSES CURED OUR COLOR BLINDNESS!	H3H3Productions	3	0	https://youtu.be/q7Gh_-KDXAk&t=0	iDubbbz	Guest	https://i.ytimg.com/vi/q7Gh_-KDXAk/hq720.jpg	THESE GLASSES CURED OUR COLOR BLINDNESS! FT. iDubbbzTV		12-09-2016
+Becoming THE ZUCC	H3H3Productions	4	0	https://youtu.be/OCjN_yBkyDk&t=0	iDubbbz	Guest	https://i.ytimg.com/vi/OCjN_yBkyDk/maxresdefault.jpg	Becoming THE ZUCC (ft idubbbz)		08-05-2020
+EXPERIMENT Glowing 1000 degree KNIFE	H3H3Productions	14	0	https://youtu.be/gherdHE_HDo&t=0	iDubbbz	Guest	https://i.ytimg.com/vi/gherdHE_HDo/maxresdefault.jpg	EXPERIMENT Glowing 1000 degree KNIFE ft iDubbbzTV		12-31-2016
+Shootin' With iDubbbz	H3H3Productions	15	0	https://youtu.be/JfsxLhPn-oA&t=0	iDubbbz	Guest	https://i.ytimg.com/vi/JfsxLhPn-oA/maxresdefault.jpg	Shootin' With iDubbbz		06-08-2018
+H3 Podcast #4 - iDubbbz	Podcast	4	0	https://youtu.be/7khgBDQR-WQ&t=0	iDubbbz	Guest	https://i.ytimg.com/vi/7khgBDQR-WQ/maxresdefault.jpg	H3 Podcast #4 - iDubbbzTV		04-10-2017
+H3 Podcast #199 - iDubbbz & Dax Flame	Podcast	199	0	https://youtu.be/5BuBRV1Mw5A&t=0	iDubbbz	Guest	https://i.ytimg.com/vi/5BuBRV1Mw5A/maxresdefault.jpg	iDubbbz & Dax Flame - H3 Podcast #199		07-22-2020
 iDubbbz Boxing Match	H3TV	30	6626	https://youtu.be/ulmY5h0M4co&t=6626	iDubbbz			Ethan Was In The Hospital (Not Clickbait This Time) - H3TV #30		04-04-2022
-iDubbbz & Anisa	Podcast	250	0	https://youtu.be/68UMkX4Z08c&t=0	iDubbbz	Guest		iDubbbz & Anisa - H3 Podcast #250		04-15-2022
+iDubbbz & Anisa - H3 Podcast #250	Podcast	250	0	https://youtu.be/68UMkX4Z08c&t=0	iDubbbz	Guest	https://i.ytimg.com/vi/68UMkX4Z08c/hq720.jpg	iDubbbz & Anisa - H3 Podcast #250		04-15-2022
 iDubbbz Boxing	AfterDark	71	4710	https://www.youtube.com/watch?v=cztc_OXvqJI&t=4710	iDubbbz			Crazy Myths We Believed As Kids, Fresh & Fit Cringe - After Dark #71		04-29-2022
 Calling iDubbbz	H3TV	56	8780	https://youtu.be/mUSioSGBigU&t=8780	iDubbbz			Ethan Permanently Banned From Twitter - H3TV #56		11-07-2022
-iDubbbz calls in to talk about Creator Clash	OTR	68	5050	https://www.youtube.com/watch?v=QsIeIEJcS30&t=5050	iDubbbz	Call		iDubbbz & Anisa Call re Creator Clash, Howie Mandel On Joe Rogan, Coachella Fail- Off The Rails #68		04-19-2023
+iDubbbz calls in to talk about Creator Clash	OTR	68	5050	https://www.youtube.com/watch?v=QsIeIEJcS30&t=5050	iDubbbz	Call	https://i.ytimg.com/vi/GF2S5pf3WgY/maxresdefault.jpg	iDubbbz & Anisa Call re Creator Clash, Howie Mandel On Joe Rogan, Coachella Fail- Off The Rails #68		04-19-2023
 Ethan on iDubbbz Apology to Tana	AfterDark	106	2480	https://www.youtube.com/watch?v=BOoi8xtLnsk&t=2480	iDubbbz			iDubbbz Apology To Tana & Alyx Weiss Cult PowerPoint - After Dark #106		05-19-2023
 Tana Responds to the iDubbbz Apology	AfterDark	108	10300	https://www.youtube.com/watch?v=5tqh5bW7o7U&t=10300	iDubbbz			Olivia Explains Faze Rain vs Grace Van Dien Drama via PowerPoint - After Dark #108		06-02-2023
 Regarding iDubbbz & Anisa	H3Show	119	1050	https://youtu.be/ZDnseOSdk_8&t=1050	iDubbbz			Snark Called Child Protective Services On Us - H3 Show #119		03-07-2025
-Reacting to the H3 Content Cop	H3Show	136	1560	https://youtu.be/WZbGjnOT9Mc&t=1560	iDubbbz			Ethan Reacts To Idubbbz Content Cop - H3 Show #136		04-19-2025
+Reacting to the H3 Content Cop	H3Show	136	1560	https://youtu.be/WZbGjnOT9Mc&t=1560	iDubbbz			Ethan Reacts To Idubbbz Content Cop - H3 Show #136		04-16-2025
+Reacting to the H3 Content Cop (pt 2)	H3Show	137	1330	https://youtu.be/WRyfaf8tiQ8&t=1330	iDubbbz			Reacting To The Entire Idubbbz Content Cop - H3 Show #137		04-18-2025
 Denims & Frogan	H3Show	105	2060	https://youtu.be/TETOdFWf99M&t=2060	Denims			Nuclear Fallout - H3 Show #105		02-03-2025
 Denims Response to the Hasan Content Nuke	H3Show	106	9950	https://youtu.be/6KV16LWcnTY&t=9950	Denims			Dear Hasan Piker... - H3 Show #106		02-05-2025
 Denims and Rape Denial	H3Show	107	8320	https://youtu.be/IG6GG1x0M9o&t=8320	Denims			Hasan Piker Is A Cowardly Liar - H3 Show #107		02-07-2025
 Denims Goes After Ethan's Children	H3Show	119	1890	https://youtu.be/ZDnseOSdk_8&t=1890	Denims			Snark Called Child Protective Services On Us - H3 Show #119		03-07-2025
 Denims Before the CPS Call	H3Show	120	4480	https://youtu.be/wWG9Msgmnh4&t=4480	Denims			My War Against Snark - H3 Show #120		03-11-2025
-Ethan is Completely Off X	H3Show	67	8291	https://youtu.be/YUlacUvCG8I&t=8291				Addressing Hasan & His Community - H3 Show #67		10-16-2024
+Ethan is Completely Off X	H3Show	67	8291	https://youtu.be/YUlacUvCG8I&t=8291	Kermit the Frog			Addressing Hasan & His Community - H3 Show #67		10-16-2024
+James Charles IS Kermit the Frog	Podcast	196	690	https://youtu.be/O57888ccAls&t=690	Kermit the Frog			Shane Dawson, Dr DisRespect, Tati Westbrook, Chris DElia - H3 Podcast #196		07-04-2020
+Jordan Peterson IS Kermit the Frog	OTR	32	10327	https://www.youtube.com/watch?v=PUQPGI9fNok&t=10327	Kermit the Frog			Guess Who Is High Or Drunk 4/20 Special - Off The Rails #32		04-20-2022
+First Appearance of Kermit the Frog	OTR	66	41	https://www.youtube.com/watch?v=Hqsy1PmeO1o&t=41	Kermit the Frog			Olivia Explains Selena Gomez Drama To A Room Full Of Haters - Off The Rails #66		04-05-2023
+First Time Kermit is in Dan's Backdrop	H3Show	13	1255	https://youtu.be/_0wT8yg4k3I&t=1255	Kermit the Frog			Diddy Apology Review, Jojo Wasted At Disneyland - H3 Show #13		05-20-2024
+Kermit's Third Leg	H3Show	16	2358	https://youtu.be/jvGC35qMLMw&t=2358	Kermit the Frog			AND THE RESULT OF MY COLONOSCOPY IS… - H3 Show #16		05-29-2024
+Dan & Kermit Drama	H3Show	21	6300	https://youtu.be/Pj4kFC52oBM&t=6300	Kermit the Frog			The Try Guys Are Bullying Me - H3 Show #21		06-10-2024
+Explaining the Kermit Lore	H3Show	138	11181	https://youtu.be/doGqfGdpV_I&t=11181	Kermit the Frog			They Sent Two Human Skulls To My House - H3 Show #138		04-21-2025
+Bad Empanada's - A Meek Little Bitch	H3Show	115	8460	https://youtu.be/bq4Bq0KXlGE&t=8460	Bad Empanada's			I'm Going To War With The Entire Internet - H3 Show #115		02-26-2025
+Hasan's Weird Flip Flopping on Bad Empanada's	H3Show	115	9415	https://youtu.be/bq4Bq0KXlGE&t=9415	Bad Empanada's			I'm Going To War With The Entire Internet - H3 Show #115		02-26-2025
+Denims Carries Bad Empanada's Relevancy	H3Show	120	3951	https://youtu.be/wWG9Msgmnh4&t=3951	Bad Empanada's			My War Against Snark - H3 Show #120		03-11-2025
+Bad Empanada's Desperately Begs for Attention	H3Show	120	5370	https://youtu.be/wWG9Msgmnh4&t=5370	Bad Empanada's			My War Against Snark - H3 Show #120		03-11-2025
