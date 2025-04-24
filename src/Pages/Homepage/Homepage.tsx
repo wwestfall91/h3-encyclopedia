@@ -7,6 +7,7 @@ import HomepagePersonCard from "./HomepagePersonCard";
 import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/GeneralFeedbackModal";
 import PsychologyInSeattleSection from "./PsychologyInSeattleSection";
+import TopicCard from "../Topics/TopicCard";
 
 function Homepage() {
     const { people, episodes } = useDataContext();
@@ -99,11 +100,14 @@ function Homepage() {
                     <div className="topics-container">
                         <div className="topics-title">{`GOOFS & GAFFS FROM H3 SHOW #${getLatestEpisode()?.number}`}</div>
                         <div className="topics">
-                            <HomepagePersonCard person={people.find(x => x.name == "Kermit the Frog")!} jumpToTime={() => jumpToTime(11180)}/>
-                            <HomepagePersonCard person={people.find(x => x.name == "Bad Empanada's")!} jumpToTime={() => jumpToTime(10019)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Denims")!} jumpToTime={() => jumpToTime(7090)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Frogan")!} jumpToTime={() => jumpToTime(6537)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Pokimane")!} jumpToTime={() => jumpToTime(10740)} />
+                            <TopicCard image={"https://i.ytimg.com/vi/H7BPskwiDbE/sddefault.jpg"} headerText={"Ethan's New Video!"} description={"iDubbbz and Hasan situation keeps getting worse..."} url={"https://youtu.be/H7BPskwiDbE"}></TopicCard>
+                            <HomepagePersonCard person={people.find(x => x.name == "xQc")!} title="xQC's Marvel Rivals Tournament!" jumpToTime={() => jumpToTime(3796)}/>
+                            <HomepagePersonCard person={people.find(x => x.name == "Jeff Wittek")!} title="Jeff is Sick" jumpToTime={() => jumpToTime(1160)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Steiny")!} title="Steiny Bailed" jumpToTime={() => jumpToTime(1160)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Tim Pool")!} jumpToTime={() => jumpToTime(4020)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "iDubbbz")!} jumpToTime={() => jumpToTime(5540)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Denims")!} jumpToTime={() => jumpToTime(11624)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Bad Empanada's")!} jumpToTime={() => jumpToTime(11340)} />
                             {/* <MomentCard moment={moments.find(x => x.title == "Pokimane")!} jumpToTime={() => jumpToTime(0)}/> */}
                         </div>
                     </div>
