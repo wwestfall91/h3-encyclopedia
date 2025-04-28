@@ -85,7 +85,7 @@ function Homepage() {
 
                         <div className="topics-title">TOPICS FROM H3 SHOW #116</div>
                         <div className="topics">
-                            <TopicCard image={"https://www.christinascucina.com/wp-content/uploads/2021/06/fullsizeoutput_f3d8.jpeg"}
+                            {/* <TopicCard image={"https://www.christinascucina.com/wp-content/uploads/2021/06/fullsizeoutput_f3d8.jpeg"}
                                 headerText={"2 Years Ago"} description={"Beans on Toast"} url={"https://youtu.be/Q_GoixIfwoY?t=2782"} 
                                 jumpToTime={() => jumpToTime(186)} />
                             <TopicCard image={"https://upload.wikimedia.org/wikipedia/en/8/83/Hamilton-poster.jpg"}
@@ -100,10 +100,10 @@ function Homepage() {
                             <HomepagePersonCard person={people.find(x => x.name == "Rae")!} jumpToTime={() => jumpToTime(37)} />
                             <HomepagePersonCard person={people.find(x => x.name == "Phil Painter")!} jumpToTime={() => jumpToTime(3702)} />
                             <HomepagePersonCard person={people.find(x => x.name == "Selena Gomez")!} jumpToTime={() => jumpToTime(8449)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Emilia Pérez")!} jumpToTime={() => jumpToTime(7260)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Emilia Pérez")!} jumpToTime={() => jumpToTime(7260)} /> */}
                         </div>
                     </div>
-                </div>     
+                </div>
             </>
             }
             {updatesSelected &&
