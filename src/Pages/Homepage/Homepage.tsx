@@ -98,8 +98,8 @@ function Homepage() {
                     </div>
                     </div>
                     <div className="topics-container">
-                        {/* <div className="topics-title">{`GOOFS & GAFFS FROM H3 SHOW #${getLatestEpisode()?.number}`}</div> */}
-                        <div className="topics-title">{`OTHER MOVIE REVIEWS FROM THE GANG!`}</div>
+                        <div className="topics-title">{`GOOFS & GAFFS FROM H3 SHOW #${getLatestEpisode()?.number}`}</div>
+                        {/* <div className="topics-title">{`OTHER MOVIE REVIEWS FROM THE GANG!`}</div> */}
                         <div className="topics">
                             {/* <TopicCard image={"https://i.ytimg.com/vi/H7BPskwiDbE/sddefault.jpg"} headerText={"Ethan's New Video!"} description={"iDubbbz and Hasan situation keeps getting worse..."} url={"https://youtu.be/H7BPskwiDbE"}></TopicCard> */}
                             <MomentCard moment={moments.find(x => x.title == "The Crew as VTubers")!} jumpToTime={() => jumpToTime(1430)}/>
