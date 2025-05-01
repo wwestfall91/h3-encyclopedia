@@ -2,7 +2,7 @@ name	image	Allegiance
 6ix9ine	https://www.rollingstone.com/wp-content/uploads/2020/04/9887699hW.jpg	Neutral
 AB	Images/AB_Vomit.png	Family
 Aba and Preach	https://i.ytimg.com/vi/BPYEOFRlHx4/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGGUgVihKMA8=&rs=AOn4CLDsOxaRXOV6AOty3xBpDAH2bq5kdg	Neutral
-Adam Grant	https://upload.wikimedia.org/wikipedia/commons/e/e7/Adam_Grant_-_Picture_by_Jamey_Stillings.jpg	Neutral
+Adam Grant	https://psychology.sas.upenn.edu/sites/default/files/2025-01/Grant_Adam_-_Picture_by_Jamey_Stillings.jpg	Neutral
 Adam Levine	https://m.media-amazon.com/images/M/MV5BMjI4NjU4MDEwN15BMl5BanBnXkFtZTcwNTQzNDMwNw@@.jpg	Neutral
 Adin Ross	https://www.hollywoodreporter.com/wp-content/uploads/2024/08/AdinRossGettyImages-1439617500.jpg	Enemy
 Al Roker	https://upload.wikimedia.org/wikipedia/commons/b/bf/Al_Roker_by_Gage_Skidmore.jpg	Neutral
@@ -28,8 +28,8 @@ Austin McBroom	https://www.the-sun.com/wp-content/uploads/sites/6/2020/07/NINTCH
 Ava Kris Tyson	https://static.wikia.nocookie.net/misterbeast/images/8/88/Kris_Tyson_2023.png	Neutral
 Avery	https://pbs.twimg.com/profile_images/1396297782806278146/Uz0vjK3t_400x400.jpg	Family
 Awkwafina	https://hips.hearstapps.com/hmg-prod/images/nora-lum-known-by-her-rapper-stage-name-awkwafina-arrives-news-photo-1127183835-1551053830.jpg	Neutral
-Bad Empanada's	https://www.lchaimmagazine.com/wp-content/uploads/2015/10/lchaim-badass-1015.png	Enemy
 Badhasbara	https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/53/1b/ac/531bac57-dc76-6872-d185-505e7e9e12ad/mza_18237388881385300407.jpg/1200x1200bf.webp	Enemy
+Ban Emma Panda	https://pbs.twimg.com/profile_images/1391411330792427523/IF75Piq2_400x400.jpg	Enemy
 Barrack Obama	https://cdn.britannica.com/44/127844-050-33AB565F/Barack-Obama-2009.jpg	Neutral
 Bassam Youssef	https://i.ticketweb.com/i/00/08/00/94/31/Original.jpg	Neutral
 Beavo	https://ytboxrec.com/wp-content/uploads/2024/07/beavo-boxing-record-ytboxrec.png	Friend
@@ -72,6 +72,7 @@ Chet Hanks	https://pyxis.nymag.com/v1/imgs/fd6/1b0/0c88bea85de59317b804ad2897378
 Chiropractor	https://i.ytimg.com/vi/-EtvQ7_hqF4/hq720.jpg	Neutral
 Chris D'Elia	https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/304253_v9_bb.jpg	Neutral
 Chris Hansen	https://static.wikia.nocookie.net/takedown-with-chris-hansen/images/3/32/HansenMeme.jpg	Neutral
+Code Miko	https://cdn.oneesports.gg/cdn-data/2023/03/codemiko.jpg	Friend
 Cody Ko	https://i.ytimg.com/vi/xj08x8GBsXk/hq720.jpg	Enemy
 Cody Padrino	https://www.famousbirthdays.com/faces/padrino-cody-image.jpg	Friend
 CoffeeZilla	https://i.ytimg.com/vi/CzbBi0agLNg/maxresdefault.jpg	Friend
