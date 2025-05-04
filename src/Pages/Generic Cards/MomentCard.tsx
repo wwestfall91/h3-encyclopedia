@@ -6,7 +6,7 @@ import "./MomentCard.scss"
 
 interface Props {
     moment: Moment;
-    jumpToTime: () => void;
+    jumpToTime?: () => void;
 }
 
 function MomentCard(props: Props) {
