@@ -221,6 +221,7 @@ H3H3Productions	12	08-23-2017	WE WON THE LAWSUIT!	https://youtu.be/9eN0CIyF2ok
 H3H3Productions	13	04-18-2020	Everybody Loves Ethan	https://youtu.be/9eN0CIyF2ok	
 H3H3Productions	14	12-31-2016	EXPERIMENT Glowing 1000 degree KNIFE ft iDubbbzTV	https://youtu.be/gherdHE_HDo	
 H3H3Productions	15	06-08-2018	Shootin' With iDubbbz	https://youtu.be/JfsxLhPn-oA	
+H3H3Productions	16	01-31-2025	Content Nuke - Hasan Piker	https://youtu.be/ZSUDHx-1_ww	
 H3Show	1	04-22-2024	Fresh Got His GF Pregnant & Demands She Gets Rid Of It (She’s Calling In)  - H3 Show #1	https://youtu.be/0lt0tTr-lj4	
 H3Show	2	04-24-2024	Catching Up On All The Tea We Missed - H3 Show #2	https://youtu.be/x2cyP6KJ0Uc	
 H3Show	3	04-26-2024	Green Screen Tournament 2024 - H3 Show #3	https://youtu.be/Xel3UegLOLQ	
@@ -358,6 +359,8 @@ H3Show	139	04-24-2025	Hasan & Idubbbz Caught In 4k Ft. Historic Cope - H3 Show #
 H3Show	140	04-25-2025	LoTR Reviewed By A Room Full Of Haters - H3 Show #140	https://youtu.be/9IG3_s1h1PI	
 H3Show	141	04-28-2025	Dear Frogan, with peace and love... - H3 Show #141	https://youtu.be/_ppXS8mm6u8	
 H3Show	142	04-30-2025	Talking To Sam Seder - H3 Show #142	https://youtu.be/YON4fx_vUZU	
+H3Show	143	05-02-2025	Debating Hasan Piker - H3 Show #143	https://youtu.be/knMyMxXeoDY	
+H3Show	144	05-05-2025	Responding to Idubbbz’s Content Deputy - H3 Show #144	https://youtu.be/Ix2G5h3qSdo	
 H3TV	1	07-17-2021	I Waited 16 YEARS To Play Half Life Alyx... & The Crew Ruined It - H3TV #1	https://youtu.be/3XCb0GrMix4	
 H3TV	2	07-24-2021	YouTuber House Tours, Make Ethan Laugh, Twitch Gambling Finale | H3TV Full Episode #2	https://www.youtube.com/watch?v=b9BRDiQPD-U	
 H3TV	3	07-31-2021	QAnon Lunatics & Unusual Memes - H3TV #3	https://youtu.be/GArWVPo-86s	
@@ -553,6 +556,8 @@ Misc	18	07-24-2021	Tom Hank's Son Threatens Ethan In DMs	https://youtu.be/nby5q0
 Misc	19	10-29-2022	Angering Ghosts At The Most Haunted Place In America - Halloween Special	https://youtu.be/2ddZ71IAjE4	
 Misc	20	06-21-2021	Ethan Klein Debates Steven Crowder (Ft. Sam Seder) - H3 Podcast #248	https://youtu.be/Fvg5RTrFLfI	
 Misc	21	06-17-2022	Frenemies Is Back & Short Lived	https://youtu.be/t29lvnxG0L4	
+Misc	22	04-16-2025	Content Cop - H3	https://youtu.be/NyB85pVw-v4	
+Misc	23	05-03-2025	Content Deputy - H3	https://youtu.be/ol2H90GmeO0	
 MakeEthanLaugh	1	11-18-2020	Make Ethan Laugh - Episode 1	https://youtu.be/5xIfQkrbgdM	
 OTR	1	05-27-2021	Ethan Destroys The New Office - Off The Rails #1	https://www.youtube.com/watch?v=JHGs0juAZX4	
 OTR	2	06-03-2021	Dream, Keemstar, All Gas No Breaks Interview with Andrew Callaghan - Off The Rails #2	https://www.youtube.com/watch?v=RSirCfZjonY	

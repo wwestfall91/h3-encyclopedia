@@ -6,6 +6,7 @@ import "./MomentCard.scss"
 
 interface Props {
     moment: Moment;
+    description?: String;
     jumpToTime?: () => void;
 }
 
@@ -33,6 +34,9 @@ function MomentCard(props: Props) {
         if(daysOld > 7)    // If it happened outside of this week
             return weeksOld > 1 ? `${weeksOld} Weeks Ago` : `${weeksOld} Week Ago`;
         
+        if(daysOld == 0)
+            return "Today"
+
         return daysOld > 1 ? `${daysOld} Days Ago` : `${daysOld} Day Ago`;  // Otherwise, it MUST have happened in the last 7 days
     }
     
@@ -48,7 +52,7 @@ function MomentCard(props: Props) {
                 </div>
                 <img className="card-image" src={props.moment.image ?? people.find(x => x.name == props.moment.people[0])!.image ?? props.moment.getEpisode(episodes)?.getThumbnail()}/>
                 <div className="footer" onClick={(e) => {e.stopPropagation()}}>
-                    <div className="soundbite-card-title">{props.moment.title}</div>                 
+                    <div className="soundbite-card-title">{props.description ? props.description : props.moment.title}</div>                 
                 </div>
             </div>
             <>

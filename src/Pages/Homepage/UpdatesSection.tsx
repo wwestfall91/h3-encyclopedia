@@ -18,61 +18,34 @@ function UpdatesSection() {
                     <source src={trafficReport}/>
                 </video>
             }
-            <h1 className="page-header">UPDATES FOR APRIL 2025</h1>
+            <h1 className="page-header">UPDATES FOR MAY 2025</h1>
             <div className="update-page-section">                
-                {/* <h1>GENERAL UPDATES</h1>
+                <h1>GENERAL UPDATES</h1>
                 <ul>
-                    <li>BUG FIX: Filtering while a soundbite was playing would cause the cards to play the wrong soundbites</li>
-                    <li>Fixed Mobile navigation bar not closing</li>
-                    <li>Fixed header cutting off screen on certain resolutions</li>
-                    <li>Small fixes to make the pages more mobile friendly</li>
-                </ul> */}
+                    <li>Some big Quality of Life improvements are coming to the site soon - Stay tuned!</li>
+                </ul>
 
                 <h1>PEOPLE UPDATES</h1>
                 <div className="section-data">
                     <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Zane (Tall Skeleton)")!} />
+                        <PersonCard person={people.find(x => x.name == "Mike From PA")!} />
                         <div className="note">{"New Arrival!"}</div>
                     </div>
                     <div className="topic">
                         <PersonCard person={people.find(x => x.name == "iDubbbz")!} />
+                        <div className="note">{"New Moments!"}</div>
+                    </div>
+                    <div className="topic">
+                        <PersonCard person={people.find(x => x.name == "Hasan Piker")!} />
+                        <div className="note">{"New Moments!"}</div>
+                    </div>
+                    <div className="topic">
+                        <PersonCard person={people.find(x => x.name == "Bad Emma Panda")!} />
                         <div className="note">{"New Arrival!"}</div>
                     </div>
                     <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Denims")!} />
+                        <PersonCard person={people.find(x => x.name == "Kermit the Frog")!} />
                         <div className="note">{"New Arrival!"}</div>
-                    </div>
-                    <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "The Hawk (Loves Dad)")!} />
-                        <div className="note">{"New Arrival!"}</div>
-                    </div>
-                    <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Vitaly")!} />
-                        <div className="note">{"14 Moments Added!"}</div>
-                    </div>
-                    <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Attorney Tom")!} />
-                        <div className="note">{"New Arrival!"}</div>
-                    </div>
-                    <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Russell Brand")!} />
-                        <div className="note">{"New Arrival!"}</div>
-                    </div>
-                    <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Dr Mike")!} />
-                        <div className="note">{"New Arrival!"}</div>
-                    </div>
-                    <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Ashton Hall")!} />
-                        <div className="note">{"3 New Moments"}</div>
-                    </div>
-                    <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Steiny")!} />
-                        <div className="note">{"2 New Moments!"}</div>
-                    </div>
-                    <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Bradley Martyn")!} />
-                        <div className="note">{"1 New Moment!"}</div>
                     </div>
                 </div>
             </div>

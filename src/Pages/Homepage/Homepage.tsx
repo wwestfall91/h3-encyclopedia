@@ -3,11 +3,12 @@ import "./Homepage.scss";
 import { useEffect, useState } from "react";
 import YouTube from 'react-youtube';
 import UpdatesSection from "./UpdatesSection";
-import HomepagePersonCard from "./HomepagePersonCard";
 import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/GeneralFeedbackModal";
 import PsychologyInSeattleSection from "./PsychologyInSeattleSection";
 import MomentCard from "../Generic Cards/MomentCard";
+import TopicCard from "../Topics/TopicCard";
+import HomepagePersonCard from "./HomepagePersonCard";
 
 function Homepage() {
     const { people, episodes, moments} = useDataContext();
@@ -37,8 +38,15 @@ function Homepage() {
             let dateB = new Date(b.date ? b.date : new Date('1995-12-17'));
             return dateA.getTime() - dateB.getTime();
         });
-
         return episodesByDate[episodesByDate.length - 1]
+    }
+
+    // @ts-ignore
+    const getEpisodeByTitle = (title: string) => {
+        if(episodes.length <= 0)
+            return;
+
+        return episodes.find(x => x.title == title);
     }
 
     const onReady = (event : any) => {
@@ -98,22 +106,24 @@ function Homepage() {
                     </div>
                     </div>
                     <div className="topics-container">
-                        {/* <div className="topics-title">{`GOOFS & GAFFS FROM H3 SHOW #${getLatestEpisode()?.number}`}</div> */}
-                        <div className="topics-title">{`A BRIEF HISTORY OF HASAN & H3!`}</div>
+                        <div className="topics-title">{`GOOFS & GAFFS FROM H3 SHOW #${getLatestEpisode()?.number}`}</div>
+                        {/* <div className="topics-title">{`A BRIEF HISTORY OF HASAN & H3`}</div> */}
                         <div className="topics">
-                            {/* <TopicCard image={"https://i.ytimg.com/vi/H7BPskwiDbE/sddefault.jpg"} headerText={"Ethan's New Video!"} description={"iDubbbz and Hasan situation keeps getting worse..."} url={"https://youtu.be/H7BPskwiDbE"}></TopicCard> */}
-                            <MomentCard moment={moments.find(x => x.title == "Talking to Hasan for the First Time")!} />
-                            <MomentCard moment={moments.find(x => x.title == "The First Episode of Leftovers")!} />
-                            <MomentCard moment={moments.find(x => x.title == "Ethan's and Hasan Clash over China")!} />
-                            <MomentCard moment={moments.find(x => x.title == "The Last Episode of Leftovers")!} />
-                            <MomentCard moment={moments.find(x => x.title == "Addressing Hasan & His Community")!} />
-                            <MomentCard moment={moments.find(x => x.title == "Content Nuke - Hasan Piker")!} />
-                            <MomentCard moment={moments.find(x => x.title == "Content Cop - H3")!} />
-                            <MomentCard moment={moments.find(x => x.title == "Content Deputy - H3")!} />
-                            {/* <HomepagePersonCard person={people.find(x => x.name == "Tim Pool")!} title="Tim Pool Wears a Beanie to a Wedding" jumpToTime={() => jumpToTime(3258)} /> */}
+                            <TopicCard 
+                                image={"https://files.cdn-files-a.com/uploads/3416624/normal_6817b1154d784.jpg"} 
+                                headerText={"Fan Art"} 
+                                description={"Buy the H3 Lord of the Rings Poster here!"} 
+                                url={"https://www.rsmartdesign.com/prints-and-pins-store/th3-lotr"} 
+                                outlineColor={"Yellow"}
+                                jumpToTime={() => jumpToTime(1198)}/>
+                            <MomentCard moment={moments.find(x => x.title == "Bye Dog First Use on the Podcast")!} description={"'Bye Dog' First Use on the Podcast"} jumpToTime={() => jumpToTime(8037)}/>
+                            <HomepagePersonCard person={people.find(x => x.name == "Hasan Piker")!} jumpToTime={() => jumpToTime(285)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "iDubbbz")!} jumpToTime={() => jumpToTime(5977)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Mike From PA")!} jumpToTime={() => jumpToTime(5060)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Joe Rogan")!} jumpToTime={() => jumpToTime(1415)} />
                         </div>
                     </div>
-                </div>     
+                </div>
             </>
             }
             {updatesSelected &&
