@@ -114,13 +114,20 @@ function Homepage() {
                                 headerText={"Fan Art"} 
                                 description={"Buy the H3 Lord of the Rings Poster here!"} 
                                 url={"https://www.rsmartdesign.com/prints-and-pins-store/th3-lotr"} 
-                                outlineColor={"Yellow"}
-                                jumpToTime={() => jumpToTime(1198)}/>
-                            <MomentCard moment={moments.find(x => x.title == "Bye Dog First Use on the Podcast")!} description={"'Bye Dog' First Use on the Podcast"} jumpToTime={() => jumpToTime(8037)}/>
-                            <HomepagePersonCard person={people.find(x => x.name == "Hasan Piker")!} jumpToTime={() => jumpToTime(285)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "iDubbbz")!} jumpToTime={() => jumpToTime(5977)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Mike From PA")!} jumpToTime={() => jumpToTime(5060)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Joe Rogan")!} jumpToTime={() => jumpToTime(1415)} />
+                                outlineColor={"Yellow"} />
+                            <TopicCard 
+                                image={"/Images/NewContentCop.png"} 
+                                headerText={"CameronF305"} 
+                                description={"There's a New Content Cop in Town!"} 
+                                url={"https://youtu.be/JykMFfa2UD8"} 
+                                outlineColor={"Yellow"} 
+                                jumpToTime={() => jumpToTime(945)}/>
+                            <MomentCard moment={moments.find(x => x.title == "The Pope confronts Ethan")!} description={"The Pope Guest Stars!"} jumpToTime={() => jumpToTime(404)}/>
+                            <MomentCard moment={moments.find(x => x.title == "The First Traffic Report")!} jumpToTime={() => jumpToTime(585)}/>
+                            <HomepagePersonCard person={people.find(x => x.name == "Lonerbox")!} jumpToTime={() => jumpToTime(3045)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "iDubbbz")!} jumpToTime={() => jumpToTime(9213)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Jay Shetty")!} title={"Jay Shetty Exposed?"} jumpToTime={() => jumpToTime(1030)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Hasan Piker")!} />
                         </div>
                     </div>
                 </div>

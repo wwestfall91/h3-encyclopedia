@@ -40,7 +40,7 @@ function UpdatesSection() {
                         <div className="note">{"New Moments!"}</div>
                     </div>
                     <div className="topic">
-                        <PersonCard person={people.find(x => x.name == "Bad Emma Panda")!} />
+                        <PersonCard person={people.find(x => x.name == "Ban Emma Panda")!} />
                         <div className="note">{"New Arrival!"}</div>
                     </div>
                     <div className="topic">

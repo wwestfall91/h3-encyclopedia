@@ -180,7 +180,7 @@ Dan Saves the Ad Read	AfterDark	75	3449	https://www.youtube.com/watch?v=ZUU3_vd1
 Everyone Hates Ethan	OTR	47	6729	https://www.youtube.com/watch?v=mRMb2YKOOrs&t=6729	Dan	Lore		We Won The Lawsuit - Off The Rails #47	Top Dan Moments	08-31-2022
 Dan Quit the Show	OTR	53	107	https://www.youtube.com/watch?v=Hj7Tx9D8G-s&t=107	Dan	Lore		Dan Quit The Show - Off The Rails #53	Top Dan Moments	10-19-2022
 The Bull Penis Staff	Live	1	5111	https://youtu.be/ShNedjrsI_E&t=5111	Dan	Lore		Ethans Birthday Extravaganza LIVE From The Ace Theater!	Top Dan Moments	06-23-2023
-The Scorpion Chair	AfterDark	57	560	https://www.youtube.com/watch?v=Qgrev_fH9zM&t=560	Dan	Lore		Please Take Me Back - After Dark #57	Top Dan Moments	11-05-2021
+The Scorpion Chair	AfterDark	57	540	https://www.youtube.com/watch?v=Qgrev_fH9zM&t=540	Dan	Lore		Please Take Me Back - After Dark #57	Top Dan Moments	11-05-2021
 Dan Has Never Looked Good	H3TV	56	672	https://youtu.be/mUSioSGBigU&t=672	Dan	Lore		Ethan Permanently Banned From Twitter - H3TV #56	Top Dan Moments	11-07-2022
 More Intensity!!	H3TV	56	30	https://youtu.be/mUSioSGBigU&t=30	Dan	Lore		Ethan Permanently Banned From Twitter - H3TV #56	Top Dan Moments	11-07-2022
 Rube Goldberg Machine	OTR	105	583	https://www.youtube.com/watch?v=8ZkY_nHj3vY&t=583	Dan	Lore		Ethan Debates Jesse Lee Peterson - Off The Rails #105	Top Dan Moments	02-21-2024
@@ -243,7 +243,7 @@ Dan GOES OFF on Jimmie	H3Show	64	6989	https://youtu.be/vrgT8x57bDo&t=6989	Dan	Lo
 Dan Wants a New Setup	AfterDark	35	4220	https://www.youtube.com/watch?v=uw0c45OwQV0&t=4220	Dan	Lore		Jake Paul & Triller Are Suing Me - H3 After Dark # 35	The Scorpion Chair	05-07-2021
 So Many Chairs to Choose!	OTR	6	738	https://www.youtube.com/watch?v=sm39YIin0FU&t=738	Dan	Lore		Saying Goodbye To YouTube - Off The Rails #6	The Scorpion Chair	07-29-2021
 Mad Max? Gatling Chair?	AfterDark	50	944	https://www.youtube.com/watch?v=HnLJNxkS_AE&t=944	Dan	Lore		We Need To Talk... - H3 After Dark #50	The Scorpion Chair	09-10-2021
-The Scorpion Chair Arrives	AfterDark	57	560	https://www.youtube.com/watch?v=Qgrev_fH9zM&t=560	Dan	Lore		Please Take Me Back - After Dark #57	The Scorpion Chair	11-05-2021
+The Scorpion Chair Arrives	AfterDark	57	540	https://www.youtube.com/watch?v=Qgrev_fH9zM&t=540	Dan	Lore		Please Take Me Back - After Dark #57	The Scorpion Chair	11-05-2021
 RIP to the Scorpion Chair	AfterDark	112	7154	https://www.youtube.com/watch?v=xTsLjVLC__U&t=7154	Dan	Lore		Colleen Ballinger Finally Responded & Fousey Got Banned - After Dark #112	The Scorpion Chair	07-21-2023
 Hot Boxed in a tent	AfterDark	89	1410	https://www.youtube.com/watch?v=OKvP1K2OuLk&t=1410	Dan	Lore		Ethan Does Our Makeup, Nikita Dragun Arrested, David Dobrik Vandalized - After Dark #89	Dan the Stoner	11-11-2022
 Is Dan High #1	OTR	15	3327	https://www.youtube.com/watch?v=A2sQZ8G_h3U&t=3327	Dan	Lore		Ethan Guesses Whos High - Off The Rails #15	Dan the Stoner	10-21-2021
@@ -366,7 +366,8 @@ He takes that 5%!	AfterDark	41	2348	https://www.youtube.com/watch?v=8aCfvBnOcnU&
 Joe Rogans 5%	AfterDark	42	9070	https://www.youtube.com/watch?v=-I_xmrcEAdU&t=9070	Joe Rogan	FivePercent		The Birthday Roast Of Ethan Klein - H3 After Dark # 42		06-24-2021
 Dan wants a new chair	AfterDark	35	4216	https://www.youtube.com/watch?v=uw0c45OwQV0&t=4216		ScorpionChair		Jake Paul & Triller Are Suing Me - H3 After Dark # 35		05-07-2021
 Discussing Chair Replacements	OTR	6	924	https://www.youtube.com/watch?v=sm39YIin0FU&t=924		ScorpionChair		Saying Goodbye To YouTube - Off The Rails #6		07-29-2021
-The Scorpion Chair Arrives	AfterDark	57	218	https://www.youtube.com/watch?v=Qgrev_fH9zM&t=218		ScorpionChair		Please Take Me Back - After Dark #57		11-05-2021
+The Scorpion Chair Arrives	AfterDark	57	540	https://www.youtube.com/watch?v=Qgrev_fH9zM&t=540		ScorpionChair		Please Take Me Back - After Dark #57		11-05-2021
+RIP to the Scorpion Chair	AfterDark	112	7154	https://www.youtube.com/watch?v=xTsLjVLC__U&t=7154		ScorpionChair		Colleen Ballinger Finally Responded & Fousey Got Banned - After Dark #112		07-21-2023
 Jidions Best Buy Prank	H3TV	42	1598	https://youtu.be/QpElkT_nkgY&t=1598	Jidion	WAN		We Went To ACE Fest... WOW - H3TV #42		07-11-2022
 Jidion Responds about Prank	H3TV	47	1218	https://youtu.be/IFfxLKkYh8Q&t=1218	Jidion	WAN		Its Time For War... Ive Never Been So Offended - H3TV #47		08-15-2022
 Jidion Calls in	OTR	46	3315	https://www.youtube.com/watch?v=JEJi68zv1EQ&t=3315	Jidion	WAN		David Dobrik Lights His Friend On Fire & Ethan Squashes Another Beef - Off The Rails #46		08-17-2022
@@ -1115,6 +1116,7 @@ Jay Shetty is over?	AfterDark	141	539	https://www.youtube.com/watch?v=MBDl186rta
 Jay Shetty exposed by CoffeeZilla	H3Show	2	5815	https://youtu.be/x2cyP6KJ0Uc&t=5815	Jay Shetty			Catching Up On All The Tea We Missed - H3 Show #2		04-24-2024
 Jay Shetty is EVERYWHERE	H3Show	19	5750	https://youtu.be/dAIDkR4xb7U&t=5750	Jay Shetty			Tana Mongeau Exposed Cody Ko - H3 Show #19		06-05-2024
 Jay Shetty & Jordan Peterson Collab	H3Show	86	3590	https://youtu.be/P62RrxPzQR8&t=3590	Jay Shetty			Kai Cenat Prank Gone Horribly Wrong, Drake Sues Kendrick For Calling Him A P - H3 Show #86		11-27-2024
+Jay Shetty Exposed?	H3Show	145	1030	https://youtu.be/7kDHY26Ff5Q&t=1030	Jay Shetty			Dear Hasan, You Lied. Again - H3 Show #145		05-07-2025
 Talking to BBC Reporter about Logan Paul, Andrew Tate	H3Show	86	5580	https://youtu.be/P62RrxPzQR8&t=5580	Matt Shea, Logan Paul, Andrew Tate	Call		Kai Cenat Prank Gone Horribly Wrong, Drake Sues Kendrick For Calling Him A P - H3 Show #86		11-27-2024
 Kai Cenat Causes a riot in NYC	AfterDark	114	945	https://www.youtube.com/watch?v=eJDEB-EeV0E&t=945	Kai Cenat			Sour Candy Tier List, Kai Cenat Starts A Riot In NYC - After Dark #114		08-04-2023
 Kai Cenat arrested	H3TV	86	9148	https://youtu.be/8UizTBc6FP8&t=9148	Kai Cenat			Debating xQc On Copyright - H3TV #86		08-07-2023
@@ -1137,6 +1139,7 @@ KSI blocked our video	H3Show	66	2485	https://youtu.be/SAeHExAdKLk&t=2485	KSI			K
 KSI & Logan Paul respond to moldgate	H3Show	71	7275	https://youtu.be/N8NGpo8N-ic&t=7275	KSI, Logan Paul			Lunchly Mold Scandal Rocks The Internet - H3 Show #71		10-25-2024
 KSI and Logan Paul bully Mr Beast	H3Show	85	5630	https://youtu.be/Yg8EL-sNp68&t=5630	KSI, Logan Paul, Mr Beast			I Haven't Been Well - H3 Show #85		11-25-2024
 Having a chat with Lonerbox	H3Show	85	8520	https://youtu.be/Yg8EL-sNp68&t=8520	Lonerbox	Call		I Haven't Been Well - H3 Show #85		11-25-2024
+Lonerbox Calls In	H3Show	145	3045	https://youtu.be/7kDHY26Ff5Q&t=3045	Lonerbox	Call		Dear Hasan, You Lied. Again - H3 Show #145		05-07-2025
 The debate with Dating&Money101	H3Show	55	1632	https://youtu.be/Ch3WcOM4gNs&t=1632	Dating&Money101	Call		Ethan Debates Anti-Semitic Sneako Fan - H3 Show #55		09-16-2024
 Dating & Money banned from Beverly Hills	H3Show	85	5072	https://youtu.be/Yg8EL-sNp68&t=5072	Dating&Money101			I Haven't Been Well - H3 Show #85		11-25-2024
 Try Guys Try Infidelity	OTR	50	6900	https://www.youtube.com/watch?v=L65RJqFZrfk&t=6900	Try Guys			The Try Guys Try Infidelity - Off The Rails #50		09-28-2022
@@ -2213,6 +2216,7 @@ Regarding iDubbbz & Anisa	H3Show	119	1050	https://youtu.be/ZDnseOSdk_8&t=1050	iD
 Reacting to the H3 Content Cop	H3Show	136	1560	https://youtu.be/WZbGjnOT9Mc&t=1560	iDubbbz			Ethan Reacts To Idubbbz Content Cop - H3 Show #136		04-16-2025
 Reacting to the H3 Content Cop (pt 2)	H3Show	137	1330	https://youtu.be/WRyfaf8tiQ8&t=1330	iDubbbz			Reacting To The Entire Idubbbz Content Cop - H3 Show #137		04-18-2025
 Responding to the Content Deputy	H3Show	144	5485	https://youtu.be/Ix2G5h3qSdo&t=5485	iDubbbz			Responding to Idubbbz’s Content Deputy - H3 Show #144		05-05-2025
+iDubbbz Utterly Disrespected by Hasan	H3Show	145	1564	https://youtu.be/7kDHY26Ff5Q&t=1564	iDubbbz			Dear Hasan, You Lied. Again - H3 Show #145		05-07-2025
 Denims & Frogan	H3Show	105	2060	https://youtu.be/TETOdFWf99M&t=2060	Denims			Nuclear Fallout - H3 Show #105		02-03-2025
 Denims Response to the Hasan Content Nuke	H3Show	106	9950	https://youtu.be/6KV16LWcnTY&t=9950	Denims			Dear Hasan Piker... - H3 Show #106		02-05-2025
 Denims and Rape Denial	H3Show	107	8320	https://youtu.be/IG6GG1x0M9o&t=8320	Denims			Hasan Piker Is A Cowardly Liar - H3 Show #107		02-07-2025
