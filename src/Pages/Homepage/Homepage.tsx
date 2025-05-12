@@ -106,28 +106,38 @@ function Homepage() {
                     </div>
                     </div>
                     <div className="topics-container">
-                        <div className="topics-title">{`GOOFS & GAFFS FROM H3 SHOW #${getLatestEpisode()?.number}`}</div>
-                        {/* <div className="topics-title">{`A BRIEF HISTORY OF HASAN & H3`}</div> */}
+                        {/* <div className="topics-title">{`GOOFS & GAFFS FROM H3 SHOW #${getLatestEpisode()?.number}`}</div> */}
+                        <div className="topics-title">{`OTHER MOVIE REVIEWS FROM THE GANG!`}</div>
                         <div className="topics">
-                            <TopicCard 
-                                image={"https://files.cdn-files-a.com/uploads/3416624/normal_6817b1154d784.jpg"} 
-                                headerText={"Fan Art"} 
-                                description={"Buy the H3 Lord of the Rings Poster here!"} 
-                                url={"https://www.rsmartdesign.com/prints-and-pins-store/th3-lotr"} 
-                                outlineColor={"Yellow"} />
-                            <TopicCard 
-                                image={"/Images/NewContentCop.png"} 
-                                headerText={"CameronF305"} 
-                                description={"There's a New Content Cop in Town!"} 
-                                url={"https://youtu.be/JykMFfa2UD8"} 
-                                outlineColor={"Yellow"} 
-                                jumpToTime={() => jumpToTime(945)}/>
-                            <MomentCard moment={moments.find(x => x.title == "The Pope confronts Ethan")!} description={"The Pope Guest Stars!"} jumpToTime={() => jumpToTime(404)}/>
-                            <MomentCard moment={moments.find(x => x.title == "The First Traffic Report")!} jumpToTime={() => jumpToTime(585)}/>
-                            <HomepagePersonCard person={people.find(x => x.name == "Lonerbox")!} jumpToTime={() => jumpToTime(3045)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "iDubbbz")!} jumpToTime={() => jumpToTime(9213)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Jay Shetty")!} title={"Jay Shetty Exposed?"} jumpToTime={() => jumpToTime(1030)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Hasan Piker")!} />
+                            <TopicCard image={"https://upload.wikimedia.org/wikipedia/en/f/fb/Lord_Rings_Fellowship_Ring.jpg"} 
+                                headerText={"2 Weeks Ago"} description={"LOTR: The Fellowship of the Ring"} url={"https://youtu.be/9IG3_s1h1PI?t=5920"} />
+                            <TopicCard image={"https://imageio.forbes.com/blogs-images/markhughes/files/2019/04/AVENGERS-ENDGAME-poster-2-1200x1823.jpg"} 
+                                headerText={"6 Years Ago"} description={"Avengers: Endgame"} url={"https://youtu.be/DsWSC9Sa3PI?t=5827"} />
+                            <TopicCard image={"https://assets.scriptslug.com/live/img/x/posters/11007/joker-2019_2731b11b11.jpg"} 
+                                headerText={"5 Years Ago"} description={"Joker"} url={"https://youtu.be/rrA1Wz5o_Hg?t=4714"} />
+                            <TopicCard image={"https://assets-prd.ignimgs.com/2024/09/25/megalopolis-1727296486015.jpg"}
+                                headerText={"6 Months Ago"} description={"Dan & Ian Review Megalopolis"} url={"https://youtu.be/xS5Jt71-b2o?t=588"} />
+                            <TopicCard image={"https://m.media-amazon.com/images/M/MV5BMTQ2NzUxMTAxN15BMl5BanBnXkFtZTcwMzEyMTIwMg@@._V1_.jpg"} 
+                                headerText={"6 Months Ago"} description={"Twilight"} url={"https://youtu.be/M9dYrhdXN88?t=4185"} />
+                            <TopicCard image={"https://static.wikia.nocookie.net/twilightsaga/images/b/ba/New_Moon_book_cover_%28second%29.jpg"} 
+                                headerText={"6 Months Ago"} description={"Twilight: New Moon"} url={"https://youtu.be/RRcDcNSc7rA?t=4210"} />
+                            <TopicCard image={"https://m.media-amazon.com/images/M/MV5BNDMwNjAzNzYwOF5BMl5BanBnXkFtZTcwMDY5NzcyMw@@._V1_.jpg"} 
+                                headerText={"5 Months Ago"} description={"Twilight: Eclipse"} url={"https://youtu.be/HngwtqKyYdw?t=5640"} />
+                            <TopicCard image={"https://m.media-amazon.com/images/M/MV5BNjBlY2M2MTctMzU3Yi00MTY3LTlkMTAtMzhlMzY1YjZlYTA2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"} 
+                                headerText={"5 Months Ago"} description={"Twilight: Breaking Dawn (Pt 1)"} url={"https://youtu.be/msxOG5pz34g?t=3190"} />
+                            <TopicCard image={"https://m.media-amazon.com/images/M/MV5BMTcyMzUyMzY1OF5BMl5BanBnXkFtZTcwNDQ4ODk1OA@@._V1_.jpg"} 
+                                headerText={"5 Months Ago"} description={"Twilight: Breaking Dawn (Pt 2)"} url={"https://youtu.be/GRsAtRPjLh0?t=4610"} />
+                            <TopicCard image={"https://s3.amazonaws.com/nightjarprod/content/uploads/sites/261/2025/02/22162818/wTxYZNj3NselE9H9dST2GUn4UYE1-683x1024.jpg"} 
+                                headerText={"2 Weeks Ago"} description={"The Minecraft Movie"} url={"https://youtu.be/5OScrVkKApU?t=730"} />
+                            {/*<TopicCard image={"https://i.ytimg.com/vi/H7BPskwiDbE/sddefault.jpg"} headerText={"Ethan's New Video!"} description={"iDubbbz and Hasan situation keeps getting worse..."} url={"https://youtu.be/H7BPskwiDbE"}></TopicCard>
+                            <HomepagePersonCard person={people.find(x => x.name == "xQc")!} title="xQC's Marvel Rivals Tournament!" jumpToTime={() => jumpToTime(3796)}/>
+                            <HomepagePersonCard person={people.find(x => x.name == "Jeff Wittek")!} title="Jeff is Sick" jumpToTime={() => jumpToTime(1160)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Steiny")!} title="Steiny Bailed" jumpToTime={() => jumpToTime(1160)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Tim Pool")!} jumpToTime={() => jumpToTime(4020)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "iDubbbz")!} jumpToTime={() => jumpToTime(5540)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Denims")!} jumpToTime={() => jumpToTime(11624)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Bad Empanada's")!} jumpToTime={() => jumpToTime(11340)} />
+                             <MomentCard moment={moments.find(x => x.title == "Pokimane")!} jumpToTime={() => jumpToTime(0)}/> */}
                         </div>
                     </div>
                 </div>
