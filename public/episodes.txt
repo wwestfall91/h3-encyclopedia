@@ -141,16 +141,17 @@ AfterDark	141	03-15-2024	The BacH3lor Ep. 3 - A Romantic Boat Ride w/ Morgan (Ft
 AfterDark	142	03-22-2024	The BacH3lor Ep. 4 - Making Pottery w/ Maegan (Ft. Jeff Wittek) - After Dark #142	https://www.youtube.com/watch?v=zfYk1bimFMM	
 AfterDark	143	03-29-2024	Cameron Is Leaving The Show - After Dark #143	https://www.youtube.com/watch?v=HiGxuc1bSvo	
 BTS	13	12-17-2021	(Members) H3 Podcast BTS #13	https://youtu.be/F95h2-qNov0	
-ContentCourt	1	09-17-2020	Content Court #1: Prince Family	https://youtu.be/XsI2yDSZjOY	
-ContentCourt	2	09-24-2020	Content Court #2: JayStation	https://youtu.be/VQ6bqvWmHoo	
-ContentCourt	3	10-01-2020	Content Court #3: TikTok Pranksters	https://youtu.be/6oJt2x4MuV4	
-ContentCourt	4	10-21-2020	Content Court #4: TheQuartering	https://youtu.be/pMW3hfX7Z_s	
-ContentCourt	5	11-05-2020	Content Court #5: The ACE Family	https://youtu.be/RdC75IoAQoo	
-ContentCourt	6	12-10-2020	Content Court #6: Jared Leto	https://youtu.be/3FICW6WUBtQ	
-ContentCourt	7	10-14-2021	NELK Is A Menace To Society - Content Court #7	https://youtu.be/ZPt1p_KeTEE	
-ContentCourt	8	02-23-2024	Content Court #8: Adin Ross	https://youtu.be/tYxHTHIXg7s	
-ContentCourt	9	02-23-2024	Content Court #9: Jack Doherty	https://youtu.be/DCw4csgcEsk	
-ContentCourt	10	08-29-2024	Content Court #10 - Ethan Klein	https://youtu.be/nXB74iEuaX8	
+ContentCourt	1	09-17-2020	Content Court: Prince Family	https://youtu.be/XsI2yDSZjOY	
+ContentCourt	2	09-24-2020	Content Court: JayStation	https://youtu.be/VQ6bqvWmHoo	
+ContentCourt	3	10-01-2020	Content Court: TikTok Pranksters	https://youtu.be/6oJt2x4MuV4	
+ContentCourt	4	10-21-2020	Content Court: TheQuartering	https://youtu.be/pMW3hfX7Z_s	
+ContentCourt	5	11-05-2020	Content Court: The ACE Family	https://youtu.be/RdC75IoAQoo	
+ContentCourt	6	12-10-2020	Content Court: Jared Leto	https://youtu.be/3FICW6WUBtQ	
+ContentCourt	7	10-14-2021	Content Court: NELK	https://youtu.be/ZPt1p_KeTEE	
+ContentCourt	8	02-23-2024	Content Court: Adin Ross	https://youtu.be/tYxHTHIXg7s	
+ContentCourt	9	02-23-2024	Content Court: Jack Doherty	https://youtu.be/DCw4csgcEsk	
+ContentCourt	10	08-29-2024	Content Court: Ethan Klein	https://youtu.be/nXB74iEuaX8	
+ContentCourt	11	10-08-2020	Content Court: James Charles	https://youtu.be/_kGTf6LfuJo	
 EthanAndHila	1	01-20-2016	ONE FRICKED UP DENTIST	https://www.youtube.com/watch?v=uSlx0s5dtPM	
 EthanAndHila	2	05-15-2016	The Gaze of Miracles	https://www.youtube.com/watch?v=LoYFNS3aMqg	
 EthanAndHila	3	03-07-2016	Social Experiments with Joey Salads	https://youtu.be/nHHzQ8VPtAs	
@@ -364,6 +365,8 @@ H3Show	144	05-05-2025	Responding to Idubbbz’s Content Deputy - H3 Show #144	ht
 H3Show	145	05-07-2025	Dear Hasan, You Lied. Again - H3 Show #145	https://youtu.be/7kDHY26Ff5Q	
 H3Show	146	05-09-2025	Denims Is Suing Me... Lord Give Me Strength... - H3 Show #146	https://youtu.be/VbhkX8OlI3M	
 H3Show	147	05-12-2025	James Charles Biggest Controversy Yet (He’s So Back) - H3 Show #147	https://youtu.be/6CtSvC91u6c	
+H3Show	148	05-19-2025	Austin McBroom's SHOCKING Accusations Against Ex Wife Catherine Paiz - H3 Show #148	https://youtu.be/-qrCxCvTiAo	
+H3Show	149	05-19-2025	The Three Bozos Of The Apocalypse - H3 Show #149	https://youtu.be/Npd1eiSY1vU	
 H3TV	1	07-17-2021	I Waited 16 YEARS To Play Half Life Alyx... & The Crew Ruined It - H3TV #1	https://youtu.be/3XCb0GrMix4	
 H3TV	2	07-24-2021	YouTuber House Tours, Make Ethan Laugh, Twitch Gambling Finale | H3TV Full Episode #2	https://www.youtube.com/watch?v=b9BRDiQPD-U	
 H3TV	3	07-31-2021	QAnon Lunatics & Unusual Memes - H3TV #3	https://youtu.be/GArWVPo-86s	
