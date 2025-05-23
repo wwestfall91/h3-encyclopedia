@@ -1,16 +1,14 @@
-// import MomentComponent from "../../components/Moments/MomentComponent/MomentComponent";
-import SoundbiteCard from "../../components/SoundbiteCard/SoundbiteCard";
 import { useDataContext } from "../../context/DataContext";
 import PersonCard from "../PeoplePage/PersonCard";
 import trafficReport from "../../../public/TrafficReport.mp4"
 import { useState } from "react";
-// import TopicComponent from "../Iceberg/TopicComponent";
 import "./UpdatesSection.scss"
 
 function UpdatesSection() {
+    // @ts-ignore
     const { soundbites, people } = useDataContext();
     const [trafficReportEnded, setTrafficReportEnded] = useState(true);
-
+    
     return (
         <div className="updates-container">
             {!trafficReportEnded && 
@@ -67,15 +65,9 @@ function UpdatesSection() {
             </div>
             <div className="update-page-section">
                 <h1>NEW SOUNDBITES</h1>
-                <div className="section-data">
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "In the Discord!")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Okay I Like That")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "I Like it, I Fuck With That")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Warzone!")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Your Birthday Doesn't Matter That Much...")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Gorgeous")!} />
-                    <SoundbiteCard soundbite={soundbites.find(x => x.title == "Weird Goat Noise")!} />
-                </div>
+                <ul>
+                    <li>Focus has been on People & Upcoming Changes. MASSIVE Soundbite dump will be coming soon!</li>
+                </ul>
             </div>
             {/* <div className="update-page-section">
                 <h1>CREW UPDATES</h1>
