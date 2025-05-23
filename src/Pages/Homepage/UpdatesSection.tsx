@@ -28,8 +28,12 @@ function UpdatesSection() {
                 <h1>PEOPLE UPDATES</h1>
                 <div className="section-data">
                     <div className="topic">
+                        <PersonCard person={people.find(x => x.name == "Sam Seder")!} />
+                        <div className="note">{"Friend >>> Neutral"}</div>
+                    </div>
+                    <div className="topic">
                         <PersonCard person={people.find(x => x.name == "James Charles")!} />
-                        <div className="note">{"Work in Progress!"}</div>
+                        <div className="note">{"45 Moments Added!"}</div>
                     </div>
                     <div className="topic">
                         <PersonCard person={people.find(x => x.name == "Harley Morenstein")!} />
@@ -38,6 +42,10 @@ function UpdatesSection() {
                     <div className="topic">
                         <PersonCard person={people.find(x => x.name == "Mike From PA")!} />
                         <div className="note">{"New Arrival!"}</div>
+                    </div>
+                    <div className="topic">
+                        <PersonCard person={people.find(x => x.name == "iDubbbz")!} />
+                        <div className="note">{"Friend >>> Enemy"}</div>
                     </div>
                     <div className="topic">
                         <PersonCard person={people.find(x => x.name == "iDubbbz")!} />

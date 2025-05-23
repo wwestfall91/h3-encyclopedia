@@ -110,14 +110,14 @@ function Homepage() {
                         <div className="topics-title">{`GOOFS & GAFFS FROM H3 SHOW #${getLatestEpisode()?.number}`}</div>
                         {/* <div className="topics-title">{`OTHER MOVIE REVIEWS FROM THE GANG!`}</div> */}
                         <div className="topics">
-                            <MomentCard moment={moments.find(x => x.title == "Ethan Smoked Crack Once - First Mention")!}/>
-                            <HomepagePersonCard person={people.find(x => x.name == "Olivia's Dad")!} title="Should Ethan Hang out with Olivia's Dad?" />
-                            <HomepagePersonCard person={people.find(x => x.name == "Denims")!} jumpToTime={() => jumpToTime(8430)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Joe Rogan")!} jumpToTime={() => jumpToTime(12060)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Noah Samsen")!} jumpToTime={() => jumpToTime(12305)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Hasan Piker")!} jumpToTime={() => jumpToTime(12305)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Ban Emma Panda")!} jumpToTime={() => jumpToTime(12305)} />
-                            
+                            <MomentCard moment={moments.find(x => x.title == "Lena's Michael Myers Night Terrors")!} jumpToTime={() => jumpToTime(10039)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Blippi")!} title="Blippi's Infamous Diarrhea Video" jumpToTime={() => jumpToTime(1065)}/>
+                            <HomepagePersonCard person={people.find(x => x.name == "Joey Salads")!} title="Joey Salads Pee's in his mouth" jumpToTime={() => jumpToTime(1065)}/>
+                            <HomepagePersonCard person={people.find(x => x.name == "Fidias")!} title="Is Fidias a Russian Asset?" jumpToTime={() => jumpToTime(3300)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Hasan Piker")!} title="Hasan has little tiny baby feet" jumpToTime={() => jumpToTime(10300)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "James Charles")!} title="The James Charles Drama Continues" jumpToTime={() => jumpToTime(11255)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Shoenice")!} title="Shoenice's Top 5 Movies!" jumpToTime={() => jumpToTime(7760)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Justin Bieber")!} jumpToTime={() => jumpToTime(266)} />                            
                         </div>
                     </div>
                 </div>

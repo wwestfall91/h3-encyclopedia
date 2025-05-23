@@ -484,18 +484,19 @@ Ethan meets Brad the Bull	Podcast	268	1290	https://youtu.be/VtLBHtdcMm8&t=1290	B
 Craigsmas #1	AfterDark	17	5773	https://www.youtube.com/watch?v=rSXkw0z2CIk&t=5773		Craigsmas		H3 After Dark (Defending Trisha From The Wicked David Portnoy) - #17		12-18-2020
 Craigsmas #2	AfterDark	64	5188	https://www.youtube.com/watch?v=auPJ1GsFOSg&t=5188		Craigsmas		The Real Reason Nikocado Avocado Cancelled - After Dark #64		01-21-2022
 Craigsmas #3	Podcast	263	1625	https://youtu.be/vq8nR2LMrno&t=1625		Craigsmas		We Got Each Other The Worst Holiday Gifts (Live Audience!) - H3 Podcast #263		12-21-2022
-Content Court #1 - Prince Family	ContentCourt	1	0	https://youtu.be/XsI2yDSZjOY&t=0	The Prince Family	ContentCourt		Content Court #1: Prince Family		09-17-2020
-Content Court #2 - JayStation	ContentCourt	2	0	https://youtu.be/VQ6bqvWmHoo&t=0	JayStation	ContentCourt		Content Court #2: JayStation		09-24-2020
-Content Court #3 - TikTok Pranksters	ContentCourt	3	0	https://youtu.be/6oJt2x4MuV4&t=0		ContentCourt		Content Court #3: TikTok Pranksters		10-01-2020
-Content Court #4 - The Quartering	ContentCourt	4	0	https://youtu.be/pMW3hfX7Z_s&t=0	The Quartering	ContentCourt		Content Court #4: TheQuartering		10-21-2020
-Content Court #5 - The ACE Family	ContentCourt	5	0	https://youtu.be/RdC75IoAQoo&t=0	Austin McBroom	ContentCourt		Content Court #5: The ACE Family		11-05-2020
-Content Court #6 - Jared Leto	ContentCourt	6	0	https://youtu.be/3FICW6WUBtQ&t=0	Jared Leto	ContentCourt		Content Court #6: Jared Leto		12-10-2020
-Content Court #7 - NELK	ContentCourt	7	0	https://youtu.be/ZPt1p_KeTEE&t=0	NELK	ContentCourt		NELK Is A Menace To Society - Content Court #7		10-14-2021
-Content Court #8 - Adin Ross	ContentCourt	8	0	https://youtu.be/tYxHTHIXg7s&t=0	Adin Ross	ContentCourt		Content Court #8: Adin Ross		02-23-2024
-Content Court #9 - Jack Doherty	ContentCourt	9	0	https://youtu.be/DCw4csgcEsk&t=0	Jack Doherty	ContentCourt		Content Court #9: Jack Doherty		02-23-2024
-The Quartering - Pee in basement	ContentCourt	4	3374	https://youtu.be/pMW3hfX7Z_s&t=3374	The Quartering	IJustPeedinmyBasement		Content Court #4: TheQuartering		10-21-2020
-Wife went out for pizza w/o me	ContentCourt	4	3308	https://youtu.be/pMW3hfX7Z_s&t=3308	The Quartering	IJustPeedinmyBasement		Content Court #4: TheQuartering		10-21-2020
-The Quartering shits himself	ContentCourt	4	6638	https://youtu.be/pMW3hfX7Z_s&t=6638	The Quartering	IJustPeedinmyBasement		Content Court #4: TheQuartering		10-21-2020
+Content Court: The Prince Family	ContentCourt	1	0	https://youtu.be/XsI2yDSZjOY&t=0	The Prince Family	ContentCourt		Content Court: Prince Family		09-17-2020
+Content Court: JayStation	ContentCourt	2	0	https://youtu.be/VQ6bqvWmHoo&t=0	JayStation	ContentCourt		Content Court: JayStation		09-24-2020
+Content Court: TikTok Pranksters	ContentCourt	3	0	https://youtu.be/6oJt2x4MuV4&t=0		ContentCourt		Content Court: TikTok Pranksters		10-01-2020
+Content Court: James Charles	ContentCourt	11	0		James Charles	ContentCourt		Content Court: James Charles		10-08-2020
+Content Court: The Quartering	ContentCourt	4	0	https://youtu.be/pMW3hfX7Z_s&t=0	The Quartering	ContentCourt		Content Court: TheQuartering		10-21-2020
+Content Court: The ACE Family	ContentCourt	5	0	https://youtu.be/RdC75IoAQoo&t=0	Austin McBroom	ContentCourt		Content Court: The ACE Family		11-05-2020
+Content Court: Jared Leto	ContentCourt	6	0	https://youtu.be/3FICW6WUBtQ&t=0	Jared Leto	ContentCourt		Content Court: Jared Leto		12-10-2020
+Content Court: NELK	ContentCourt	7	0	https://youtu.be/ZPt1p_KeTEE&t=0	NELK	ContentCourt		Content Court: NELK		10-14-2021
+Content Court: Adin Ross	ContentCourt	8	0	https://youtu.be/tYxHTHIXg7s&t=0	Adin Ross	ContentCourt		Content Court: Adin Ross		02-23-2024
+Content Court: Jack Doherty	ContentCourt	9	0	https://youtu.be/DCw4csgcEsk&t=0	Jack Doherty	ContentCourt		Content Court: Jack Doherty		02-23-2024
+The Quartering - Pee in basement	ContentCourt	4	3374	https://youtu.be/pMW3hfX7Z_s&t=3374	The Quartering	IJustPeedinmyBasement		Content Court: TheQuartering		10-21-2020
+Wife went out for pizza w/o me	ContentCourt	4	3308	https://youtu.be/pMW3hfX7Z_s&t=3308	The Quartering	IJustPeedinmyBasement		Content Court: TheQuartering		10-21-2020
+The Quartering shits himself	ContentCourt	4	6638	https://youtu.be/pMW3hfX7Z_s&t=6638	The Quartering	IJustPeedinmyBasement		Content Court: TheQuartering		10-21-2020
 ♪ Dink Doink is my favorite coin ♪	OTR	5	3474	https://www.youtube.com/watch?v=xamEkP8HLdA&t=3474	Logan Paul	DinkDoink		im sorry hila - Off The Rails #5		07-15-2021
 Butterfly Facts with Donna	Families	5	6277	https://youtu.be/h-sbveUVSUc&t=6277	Donna Klein	Donnarchs		James Charles IS GOING TO JAIL! says my mom - Families #5		07-21-2021
 The Donnarchs are born	Families	8	1081	https://youtu.be/SoZSaJHD8RM&t=1081	Donna Klein	Donnarchs		Addressing The Controversy - Families #8		08-11-2021
@@ -512,7 +513,7 @@ AWN Channel Gets Demonitized	OTR	99	5773	https://www.youtube.com/watch?v=GBj19zj
 AWN Gets a New Channel!	H3Show	4	12791	https://youtu.be/XPR4gCC10jc&t=12791		ArabWorldNews		Catching Up On More Tea That We Missed During The Break & James Charles New Song - H3 Show #4		04-29-2024
 AI Ian is being built	Podcast	171	4402	https://youtu.be/XbeULz7ekV8&t=4402		AiIan		Coronavirus Is Worse Than You Think - H3 Podcast #171		01-29-2020
 First appearance of AI Ian	Podcast	212	5411	https://youtu.be/gtf8Z9RH3O8&t=5411		AiIan		Bella Thorne, Elon Musk, Ian PowerPoint - H3 Podcast #212		09-03-2020
-AI Ian on Content Court	ContentCourt	5	0	https://youtu.be/RdC75IoAQoo&t=0		AiIan		Content Court #5: The ACE Family		11-05-2020
+AI Ian on Content Court	ContentCourt	5	0	https://youtu.be/RdC75IoAQoo&t=0		AiIan		Content Court: The ACE Family		11-05-2020
 AI Ian gets a pet	AfterDark	4	3866	https://www.youtube.com/watch?v=xkgy_19bNpY&t=3866		AiIan		H3 After Dark - #4		09-11-2020
 AI Ian in the Matrix	AfterDark	6	7726	https://www.youtube.com/watch?v=xfPmKCcl_Gg&t=7726		AiIan		H3 After Dark - #6		09-25-2020
 The real Ian has been imprisoned	AfterDark	7	599	https://www.youtube.com/watch?v=_uMN_NAThww&t=599		AiIan		H3 After Dark - #7		10-02-2020
@@ -1192,7 +1193,7 @@ BigNik's new song	H3TV	100	10960	https://www.youtube.com/watch?v=mjVWGr4v-6w&t=1
 BigNik performs an exorcism	H3TV	101	8985	https://www.youtube.com/watch?v=uvV6dwI6auI&t=8985	Big Nik			Ethan Does Acupuncture With Steve-O - H3TV #101		12-04-2023
 BigNik is still seeing demons	H3TV	110	6379	https://www.youtube.com/watch?v=X4WWPKqleZs&t=6379	Big Nik			Im Taking An Indefinite Break - H3TV #110		03-11-2024
 BigNik is the worst	H3Show	52	4180	https://youtu.be/dkTJF5vqZNA&t=4180	Big Nik			Nikocado Lost 250lbs, Dr. Disrespect's Apology May Be Worse Than Colleen's - H3 Show #52		09-09-2024
-Content Court: The ACE Family	ContentCourt	5	0	https://youtu.be/RdC75IoAQoo&t=0	Catherine Paiz-McBroom, Austin McBroom			Content Court #5: The ACE Family		11-05-2020
+Content Court: The ACE Family	ContentCourt	5	0	https://youtu.be/RdC75IoAQoo&t=0	Catherine Paiz-McBroom, Austin McBroom			Content Court: The ACE Family		11-05-2020
 Ace Family house drama	H3TV	26	3750	https://youtu.be/J19qOeSWn6A&t=3750	Catherine Paiz-McBroom, Austin McBroom			Jeff Wittek, Mr. Beast, ACE Family - H3TV #26		03-07-2022
 Ace Family is "quitting" YouTube	H3TV	28	3700	https://youtu.be/2Pbu55cclU4&t=3700	Catherine Paiz-McBroom, Austin McBroom			Ace Family Is Going Bye Bye - H3TV #28		03-21-2022
 Ace Family Scam Fest	H3TV	32	5760	https://youtu.be/yd6_HqM4wy0&t=5760	Catherine Paiz-McBroom, Austin McBroom			Oliver Tree Calls In, Ethans Parents Call In, & ACE Family Scam Fest - H3TV #32		04-18-2022
@@ -1328,6 +1329,8 @@ New Austin McBroom Revolution	AfterDark	135	2880	https://www.youtube.com/watch?v
 Austin McBroom accused of SA	H3Show	87	6780	https://youtu.be/eNXlHFteSNw&t=6780	Austin McBroom			Did Dogpack Lie About MrBeast?, Checking In On ACE Family - H3 Show #87		12-02-2024
 Austin McBroom discusses his divorce	H3Show	87	7920	https://youtu.be/eNXlHFteSNw&t=7920	Austin McBroom			Did Dogpack Lie About MrBeast?, Checking In On ACE Family - H3 Show #87		12-02-2024
 Austin McBroom's lawsuit	H3Show	87	9060	https://youtu.be/eNXlHFteSNw&t=9060	Austin McBroom			Did Dogpack Lie About MrBeast?, Checking In On ACE Family - H3 Show #87		12-02-2024
+Austin Alleges his Ex-Wife Lives in a Drug Den	H3Show	148	4012	https://youtu.be/-qrCxCvTiAo&t=4012	Austin McBroom			Austin McBroom's SHOCKING Accusations Against Ex Wife Catherine Paiz - H3 Show #148		05-19-2025
+Catherine's New Book & Austin's Allegations Against Her	H3Show	148	4012	https://youtu.be/-qrCxCvTiAo&t=4012	Catherine Paiz-McBroom			Austin McBroom's SHOCKING Accusations Against Ex Wife Catherine Paiz - H3 Show #148		05-19-2025
 Sneako banned	OTR	51	1090	https://www.youtube.com/watch?v=NI1UG6QGdr8&t=1090	Sneako			Cheaters Tier List & Dream Face Reveal - Off The Rails #51		10-05-2022
 Sneako vs Moist Critical	OTR	64	6385	https://www.youtube.com/watch?v=Ax2LvM4I3d8&t=6385	Sneako, Moist Critical			We Snuck Into The Oscars, Cr1tikal vs Sneako, NELK Goes To Israel - Off The Rails #64		03-15-2023
 Watching Sneako's weird confession	OTR	64	8380	https://www.youtube.com/watch?v=Ax2LvM4I3d8&t=8380	Sneako			We Snuck Into The Oscars, Cr1tikal vs Sneako, NELK Goes To Israel - Off The Rails #64		03-15-2023
@@ -1341,7 +1344,7 @@ Bradley Martyn embarrasses Sneako	H3TV	91	5310	https://www.youtube.com/watch?v=q
 Sneako tries to avoid debate	AfterDark	140	3205	https://www.youtube.com/watch?v=TjYCBzI_Cwk&t=3205	Sneako			Compliment Battle 2 - After Dark #140		03-08-2024
 Myron & Sneako on Bradley	H3Show	13	6996	https://youtu.be/_0wT8yg4k3I&t=6996	Myron Gaines, Sneako, Bradley Martyn			Diddy Apology Review, Jojo Wasted At Disneyland - H3 Show #13		05-20-2024
 Ethan talked to Sneako Ft. Bradley & Steiny	H3Show	39	535	https://youtu.be/SiFKlWCDfuY&t=535	Sneako, Bradley Martyn, Steiny			Brooke Schofield Is NOT Forgiven - H3 Show #39		08-07-2024
-Sneako vs Ethan gets worse	ContentCourt	10	6757	https://youtu.be/nXB74iEuaX8&t=6757	Sneako			Content Court #10 - Ethan Klein		08-29-2024
+Sneako vs Ethan gets worse	ContentCourt	10	6757	https://youtu.be/nXB74iEuaX8&t=6757	Sneako			Content Court: Ethan Klein		08-29-2024
 Sneako thinks it's gay to do what?	H3Show	52	5815	https://youtu.be/dkTJF5vqZNA&t=5815	Sneako			Nikocado Lost 250lbs, Dr. Disrespect's Apology May Be Worse Than Colleen's - H3 Show #52		09-09-2024
 Resurfaced Sneako clip	H3Show	61	6510	https://youtu.be/xS5Jt71-b2o&t=6510	Sneako			Boogie2988 Gets Buried Alive - H3 Show #61		09-30-2024
 Another bizarre Sneako clip	H3Show	62	5205	https://youtu.be/KaK4EsM0NDk&t=5205	Sneako			Selena Gomez Cheating Controversy, Back Into The Metaverse - H3 Show #62		10-02-2024
@@ -1852,21 +1855,21 @@ Ian gets COVID	AfterDark	15	180	https://www.youtube.com/watch?v=iAnsNKeY4Hs&t=18
 Ian BLASTS OFF	AfterDark	15	485	https://www.youtube.com/watch?v=iAnsNKeY4Hs&t=485	Ian	Lore		H3 After Dark - #15	The COVID Saga	12-04-2020
 Ian's COVID Taste Test	AfterDark	15	1000	https://www.youtube.com/watch?v=iAnsNKeY4Hs&t=1000	Ian	Lore		H3 After Dark - #15	The COVID Saga	12-04-2020
 Ian laying in bed	AfterDark	16	89	https://www.youtube.com/watch?v=kQoAIMFaeJc&t=89	Ian	Lore		H3 After Dark (Talking About The Trisha Thing) - #16	The COVID Saga	12-11-2020
-AI Ian doesn't want COVID	ContentCourt	6	211	https://youtu.be/3FICW6WUBtQ&t=211	Ian	Lore		Content Court #6: Jared Leto	The COVID Saga	12-10-2020
+AI Ian doesn't want COVID	ContentCourt	6	211	https://youtu.be/3FICW6WUBtQ&t=211	Ian	Lore		Content Court: Jared Leto	The COVID Saga	12-10-2020
 Wearing Hazmat Suit	Frenemies	15	537	https://www.youtube.com/watch?v=1gzsFgZ6_ds&t=537	Ian	Lore		We Made The Only Honest Award Show - Introducing The Steamies - Frenemies #15	The COVID Saga	01-05-2021
 The origin of the gag	Podcast	171	4401	https://youtu.be/XbeULz7ekV8&t=4401	Ian	Lore		Coronavirus Is Worse Than You Think - H3 Podcast #171	AI Ian	01-29-2020
 AI Ian first appearance	Podcast	212	5405	https://youtu.be/gtf8Z9RH3O8&t=5405	Ian	Lore		Bella Thorne, Elon Musk, Ian PowerPoint - H3 Podcast #212	AI Ian	09-03-2020
 AI Ian Gets a Pet	AfterDark	4	3866	https://www.youtube.com/watch?v=xkgy_19bNpY&t=3866	Ian	Lore		H3 After Dark - #4	AI Ian	09-11-2020
-Content Court: Prince Family	ContentCourt	1	0	https://youtu.be/XsI2yDSZjOY&t=0	Ian	Lore		Content Court #1: Prince Family	AI Ian	09-17-2020
-Content Court: JayStation	ContentCourt	2	0	https://youtu.be/VQ6bqvWmHoo&t=0	Ian	Lore		Content Court #2: JayStation	AI Ian	09-24-2020
+Content Court: Prince Family	ContentCourt	1	0	https://youtu.be/XsI2yDSZjOY&t=0	Ian	Lore		Content Court: Prince Family	AI Ian	09-17-2020
+Content Court: JayStation	ContentCourt	2	0	https://youtu.be/VQ6bqvWmHoo&t=0	Ian	Lore		Content Court: JayStation	AI Ian	09-24-2020
 In the Matrix	AfterDark	6	7726	https://www.youtube.com/watch?v=xfPmKCcl_Gg&t=7726	Ian	Lore		H3 After Dark - #6	AI Ian	09-25-2020
-Content Court: TikTok Pranksters	ContentCourt	3	0	https://youtu.be/6oJt2x4MuV4&t=0	Ian	Lore		Content Court #3: TikTok Pranksters	AI Ian	10-01-2020
+Content Court: TikTok Pranksters	ContentCourt	3	0	https://youtu.be/6oJt2x4MuV4&t=0	Ian	Lore		Content Court: TikTok Pranksters	AI Ian	10-01-2020
 Ian trapped in the PHANTOM ZONE	AfterDark	7	599	https://www.youtube.com/watch?v=_uMN_NAThww&t=599	Ian	Lore		H3 After Dark - #7	AI Ian	10-02-2020
-Content Court: The Quartering	ContentCourt	4	0	https://youtu.be/pMW3hfX7Z_s&t=0	Ian	Lore		Content Court #4: TheQuartering	AI Ian	10-21-2020
+Content Court: The Quartering	ContentCourt	4	0	https://youtu.be/pMW3hfX7Z_s&t=0	Ian	Lore		Content Court: TheQuartering	AI Ian	10-21-2020
 AI Ian's Halloween Costume	AfterDark	10	305	https://www.youtube.com/watch?v=Xsda33d1UXQ&t=305	Ian	Lore		H3 After Dark - #10	AI Ian	10-30-2020
-Content Court: The ACE Family	ContentCourt	5	0	https://youtu.be/RdC75IoAQoo&t=0	Ian	Lore		Content Court #5: The ACE Family	AI Ian	11-05-2020
+Content Court: The ACE Family	ContentCourt	5	0	https://youtu.be/RdC75IoAQoo&t=0	Ian	Lore		Content Court: The ACE Family	AI Ian	11-05-2020
 The Real Ian Returns!	AfterDark	12	6219	https://www.youtube.com/watch?v=g3gkFORfTZA&t=6219	Ian	Lore		H3 After Dark - #12	AI Ian	11-13-2020
-Content Court: Jared Leto	ContentCourt	6	0	https://youtu.be/3FICW6WUBtQ&t=0	Ian	Lore		Content Court #6: Jared Leto	AI Ian	12-10-2020
+Content Court: Jared Leto	ContentCourt	6	0	https://youtu.be/3FICW6WUBtQ&t=0	Ian	Lore		Content Court: Jared Leto	AI Ian	12-10-2020
 AI Ian is back...	AfterDark	22	698	https://www.youtube.com/watch?v=pTo6FA6i6PM&t=698	Ian	Lore		David Dobrik Is A Bully & Gorilla Glue Gone Wrong - H3 After Dark #22	AI Ian	02-05-2021
 The Beef Begins	Podcast	65	2681	https://youtu.be/YCYSWUeA8W8&t=2681	Ian	Lore		H3 Podcast #65 - Logan Paul Slammed On Twitter & Ethan Quits Social Media	Sharkies Gift Card	05-18-2018
 The card has ruined Ethans life	Podcast	66	2747	https://youtu.be/kDI8dD4vReE&t=2747	Ian	Lore		H3 Podcast #66 - YouTube Is Doomed, 30 Year Old Mall Ninja Evicted & Kendrick Lamar	Sharkies Gift Card	05-25-2018
@@ -1951,7 +1954,7 @@ Arab World News on Will Smith narrowly avoiding death	H3TV	48	6960	https://youtu
 Will Smith exposed by former assistant	OTR	94	9758	https://www.youtube.com/watch?v=R8IClKasNBU&t=9758	Will Smith			Mike Lindell Calls In, New James Charles Accusation, Will Smith Humiliated - Off The Rails #94		11-15-2023
 Talking to employee's from the disastrous Willy Wonka event	H3TV	109	7844	https://www.youtube.com/watch?v=qTHgq8Snxxw&t=7844			https://i2-prod.dailyrecord.co.uk/incoming/article32886353.ece/ALTERNATES/s1200c/2_JS326404745.jpg	Beavo In The Studio - H3TV #109		03-04-2024
 The Denny's Incident	H3TV	9	3043	https://youtu.be/bVwGr98HYqQ&t=3043			https://www.mashed.com/img/gallery/popular-dennys-menu-items-ranked-worst-to-best/intro-1623239743.jpg	R. Kelly, Keemstar, My Mom Exposed - H3TV #9		09-27-2021
-Ethan Smoked Crack Once - First Mention	Podcast	50	4907	https://youtu.be/yVeGBT7X-pY&t=4907			https://illinoisrecoverycenter.com/wp-content/uploads/2024/06/crack-cocaine.jpg	H3 Podcast #50 - Logan Paul Demonetized & Idiot YouTubers Channel Erased		02-14-2018
+Ethan Smoked Crack Once - First Mention	Podcast	50	4905	https://youtu.be/yVeGBT7X-pY&t=4905			https://illinoisrecoverycenter.com/wp-content/uploads/2024/06/crack-cocaine.jpg	H3 Podcast #50 - Logan Paul Demonetized & Idiot YouTubers Channel Erased		02-14-2018
 AB almost broke his dick	H3TV	59	264	https://youtu.be/LY0H8sBnbZY&t=264	AB	Lore	https://cdn.cameo.com/thumbnails/6476d74ab077c0dd916a7fcb-processed.jpg	I Need To Step Away For A Bit - H3TV #59	Top AB Moments	11-28-2022
 The Glizzy Master is the new Teddy Fresh Spokesperson	AfterDark	117	3814	https://www.youtube.com/watch?v=HbATtwgldBw&t=3814	Jason.Reborn			We Play The Baby Photo Guessing Game - After Dark #117		08-25-2023
 Jason AKA Glizzy Guzzler calls in	H3TV	89	6800	https://www.youtube.com/watch?v=Mifmb_p4ec0&t=6800	Jason.Reborn	Call		We Went To The Streamys and Lost During A Commercial Break - H3TV #89		08-28-2023
@@ -2273,15 +2276,14 @@ Harley Calls in to Discuss Creator Clash Fallout	H3Show	147	4394	https://youtu.b
 The Crews Steven Crowder Button Gag	OTR	81	1840	https://www.youtube.com/watch?v=-heIMOy6qDs&t=1840	Steven Crowder			xQc Fallout, Howie Live Disaster, MrBeast Is Being Sued For $100 Million - Off The Rails #81		08-09-2023
 Steiny's WILD New Ad for Penis Pills	H3Show	147	1320	https://youtu.be/6CtSvC91u6c&t=1320	Steiny			James Charles Biggest Controversy Yet (He’s So Back) - H3 Show #147		05-12-2025
 Myron Gaines' Thoughts on Skibidi Ohio	H3Show	147	1910	https://youtu.be/6CtSvC91u6c&t=1910	Myron Gaines			James Charles Biggest Controversy Yet (He’s So Back) - H3 Show #147		05-12-2025
-										
-										
-										
-										
-										
-										
-										
-										
-										
+James Charles & Tati Westbrook - H3 Podcast #117	Podcast	117	5	https://youtu.be/iT-d2t3ptqE&t=5	James Charles			James Charles & Tati Westbrook - H3 Podcast #117		05-17-2019
+James Charles ENDS Tati & Jeffree Star	Podcast	118	101	https://youtu.be/mPxQxw-gZEk&t=101	James Charles			James Charles ENDS Tati & Jeffree Star - H3 Podcast #118		05-24-2019
+James Charles Posts his Nudes to Twitter	Podcast	138	4811	https://youtu.be/WZQ16RjoFIU&t=4811	James Charles			PewDiePie Hits 100M & James Charles Gets Hacked - H3 Podcast #138		08-27-2019
+James Charles vs Teddy Fresh	AfterDark	5	62	https://www.youtube.com/watch?v=ccLvagZRlAg&t=62	James Charles			H3 After Dark - #5 (James Charles vs Teddy Fresh)		09-18-2020
+James Charles Takes a Lie Detector Test	AfterDark	7	5224	https://www.youtube.com/watch?v=_uMN_NAThww&t=5224	James Charles			H3 After Dark - #7		10-02-2020
+It's Time to Stop James Charles	Podcast	241	3	https://youtu.be/ABT5w_LNtx8&t=3	James Charles			Its Time To Stop James Charles - H3 Podcast #241		04-01-2021
+We're Not Done with James Charles	Podcast	242	335	https://youtu.be/PcDqarjl4w0&t=335	James Charles			Were Not Done With James Charles - H3 Podcast #242		04-08-2021
+James Charles 'Apology' (aka Confession)	AfterDark	30	1060	https://www.youtube.com/watch?v=JIPKIuOZm9A&t=1060	James Charles			James Charles Apology (aka Confession) - H3 After Dark # 30		04-02-2021
 James Charles Complaining About Airlines	OTR	30	1740	https://www.youtube.com/watch?v=DUID0Y2VwPw&t=1740	James Charles			James Charles, Elon Musk, Jared Leto - Off The Rails #30		04-06-2022
 James Charles Invited to the Grammy's	OTR	30	5800	https://www.youtube.com/watch?v=DUID0Y2VwPw&t=5800	James Charles			James Charles, Elon Musk, Jared Leto - Off The Rails #30		04-06-2022
 James Charles Wears Diapers?!	H3TV	31	110	https://youtu.be/VWgVZRN7xLQ&t=110	James Charles			James Charles Wears Diapers & The LaBrant Family - H3TV #31		04-11-2022
@@ -2299,3 +2301,23 @@ James Charles' Comeback	H3TV	83	5370	https://youtu.be/S-1-fV9jl2A&t=5370	James C
 Why Does James Charles Look Like Jimmie Lee?	H3TV	84	2950	https://youtu.be/aB1TOfXEFWs&t=2950	James Charles			The Crew Does The Sour Challenge - H3TV #84		07-24-2023
 Tana Mongeau is Still Friends with James Charles?	OTR	82	9900	https://www.youtube.com/watch?v=oj8MPSogvvE&t=9900	James Charles			Trying DIY Tiktok Bathroom Recipes - Off The Rails #82		08-16-2023
 Jeffree Star vs James Charles & Trisha	AfterDark	120	4100	https://www.youtube.com/watch?v=-pPIPXwK1wQ&t=4100	James Charles			The Crew Paints Ethan, We Take A Red Flag Dating Test, We Ruin Howie Mandels Life - After Dark #120		09-15-2023
+Lena Met James Charles at a Beauty Event	OTR	87	4170	https://www.youtube.com/watch?v=R8Y-ih8DLlc&t=4170	James Charles			Korean Food Taste Test, Taylor Swifts New Boyfriend PowerPoint - Off The Rails #87		09-27-2023
+James Charles Goes to the Chiropractor	H3TV	92	2740	https://www.youtube.com/watch?v=pK6dg-BRiqU&t=2740	James Charles			Ethan Ruined His New Tattoo - H3TV #92		10-02-2023
+James Charles Screams at Children For 30 Seconds	H3TV	93	9540	https://www.youtube.com/watch?v=ZNFeRPMOu8g&t=9540	James Charles			i made a mistake im sorry - H3TV#93		10-09-2023
+James Charles Merch Line is Shutting Down	H3TV	94	8172	https://www.youtube.com/watch?v=VBM5JQx3eSU&t=8172	James Charles			Sssniper wolf Doxxed Jacksfilms - H3TV #94		10-16-2023
+New James Charles Allegations	OTR	94	8261	https://www.youtube.com/watch?v=R8IClKasNBU&t=8261	James Charles			Mike Lindell Calls In, New James Charles Accusation, Will Smith Humiliated - Off The Rails #94		11-15-2023
+James Charles is Still Doing Thirst Traps	OTR	101	3379	https://www.youtube.com/watch?v=hshRIiyFSu0&t=3379	James Charles			Ethan Gets A Low Taper Fade From Jeff Wittek & Bach3lor Announcement - Off The Rails #101		01-24-2024
+Why Does Ev eryone Keep Going to Bat for James Charles?!	H3TV	111	5247	https://www.youtube.com/watch?v=qIcAvk1z4iM&t=5247	James Charles			We Get Sloshed For St Paddys Day - H3TV #111		03-18-2024
+James Charles & Jojo Siwa Tea	H3Show	2	5576	https://youtu.be/x2cyP6KJ0Uc&t=5576	James Charles			Catching Up On All The Tea We Missed - H3 Show #2		04-24-2024
+James Charles' New Song About Seducing Straight Men	H3Show	4	9585	https://youtu.be/XPR4gCC10jc&t=9585	James Charles			Catching Up On More Tea That We Missed During The Break & James Charles New Song - H3 Show #4		04-29-2024
+JoJo Siwa and James Charles Dancing	H3Show	16	11047	https://youtu.be/jvGC35qMLMw&t=11047	James Charles			AND THE RESULT OF MY COLONOSCOPY IS… - H3 Show #16		05-29-2024
+James Charles New Mustic Video is Cursed	H3Show	24	7750	https://youtu.be/-5DSOs6assM&t=7750	James Charles			It Took Me 20 Years To Say This... - H3 Show #24		06-17-2024
+James Charles Can't Stand the Haters	H3Show	37	3073	https://youtu.be/sQ4eaIUryP0&t=3073	James Charles			Logan Paul Comes Out As The Worst Person Alive - H3 Show #37		08-02-2024
+James Isn't Into That Gay Shit Anymore	H3Show	71	1497	https://youtu.be/N8NGpo8N-ic&t=1497	James Charles			Lunchly Mold Scandal Rocks The Internet - H3 Show #71		10-25-2024
+James Charles Reacts to RFK	H3Show	115	1903	https://youtu.be/bq4Bq0KXlGE&t=1903	James Charles			I'm Going To War With The Entire Internet - H3 Show #115		02-26-2025
+James Charles & Kayla Malecc	H3Show	147	6850	https://youtu.be/6CtSvC91u6c&t=6850	James Charles			James Charles Biggest Controversy Yet (He’s So Back) - H3 Show #147		05-12-2025
+Lena's Michael Myers Night Terrors	OTR	48	9641	https://www.youtube.com/watch?v=bRu6UR5lzeE&t=9641	Lena	Lore		Office Drama: We Had To Call HR, Austin McBroom KOd, Durte Dom Called Me Out - Off The Rails #48		09-14-2022
+Hasan's Tiny Little Baby Feet	H3Show	150	10300	https://youtu.be/tnoAjmSES9k&t=10300	Hasan Piker			James Charles Is Even Worse Than We Thought, Hasan Piker’s Scandal Got Much Worse - H3 Show #150		05-22-2025
+Blippi vs Joey Salads	H3Show	150	1065	https://youtu.be/tnoAjmSES9k&t=1065	Blippi			James Charles Is Even Worse Than We Thought, Hasan Piker’s Scandal Got Much Worse - H3 Show #150		05-22-2025
+Blippi vs Joey Salads	H3Show	150	1065	https://youtu.be/tnoAjmSES9k&t=1065	Joey Salads			James Charles Is Even Worse Than We Thought, Hasan Piker’s Scandal Got Much Worse - H3 Show #150		05-22-2025
+Shoenice's Top 5 Movies!	H3Show	150	7760	https://youtu.be/tnoAjmSES9k&t=7760	Shoenice			James Charles Is Even Worse Than We Thought, Hasan Piker’s Scandal Got Much Worse - H3 Show #150		05-22-2025

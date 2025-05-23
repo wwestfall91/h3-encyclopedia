@@ -316,7 +316,7 @@ Ryan Kavanaugh	https://static01.nyt.com/images/2017/10/15/arts/15academy-2/15aca
 Ryan Reynolds	https://www.hollywoodreporter.com/wp-content/uploads/2021/11/Ryan-Reynolds-Getty-H-2021.jpeg	Neutral
 Salt Bae	https://qudahalloween.com/cdn/shop/articles/Salt-Bae-Costume_600x.png	Neutral
 Sam	https://static.wikia.nocookie.net/h3h3productions/images/a/a5/Sam_article-1024x647.jpg	Family
-Sam Seder	https://www.telegram.com/gcdn/authoring/2018/12/04/NTEG/ghows-WT-7ba95a1f-71ec-672d-e053-0100007f1458-06ccc3f2.jpeg	Friend
+Sam Seder	https://www.telegram.com/gcdn/authoring/2018/12/04/NTEG/ghows-WT-7ba95a1f-71ec-672d-e053-0100007f1458-06ccc3f2.jpeg	Neutral
 Selena Gomez	https://cdn.britannica.com/16/262416-050-7E966413/selena-gomez-attends-the-emilia-perez-photocall-at-the-77th-annual-cannes-film-festival-2024.jpg	Neutral
 Shane Dawson	https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/678822_v9_bb.jpg	Enemy
 Shaq	https://upload.wikimedia.org/wikipedia/commons/f/f6/Shaquille_O%27Neal_October_2017_%28cropped%29.jpg	Neutral
