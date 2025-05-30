@@ -11,7 +11,6 @@ interface Props {
     grade?: string;
     grade2?: string;
     jumpToTime?: () => void;
-
 }
 
 function TopicCard(props: Props) {

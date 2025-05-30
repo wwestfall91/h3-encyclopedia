@@ -7,6 +7,7 @@ import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/GeneralFeedbackModal";
 import PsychologyInSeattleSection from "./PsychologyInSeattleSection";
 import HomepagePersonCard from "./HomepagePersonCard";
+import TopicCard from "../Topics/TopicCard";
 import MomentCard from "../Generic Cards/MomentCard";
 
 function Homepage() {
@@ -110,14 +111,13 @@ function Homepage() {
                         <div className="topics-title">{`GOOFS & GAFFS FROM H3 SHOW #${getLatestEpisode()?.number}`}</div>
                         {/* <div className="topics-title">{`OTHER MOVIE REVIEWS FROM THE GANG!`}</div> */}
                         <div className="topics">
-                            <MomentCard moment={moments.find(x => x.title == "Lena's Michael Myers Night Terrors")!} jumpToTime={() => jumpToTime(10039)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Blippi")!} title="Blippi's Infamous Diarrhea Video" jumpToTime={() => jumpToTime(1065)}/>
-                            <HomepagePersonCard person={people.find(x => x.name == "Joey Salads")!} title="Joey Salads Pee's in his mouth" jumpToTime={() => jumpToTime(1065)}/>
-                            <HomepagePersonCard person={people.find(x => x.name == "Fidias")!} title="Is Fidias a Russian Asset?" jumpToTime={() => jumpToTime(3300)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Hasan Piker")!} title="Hasan has little tiny baby feet" jumpToTime={() => jumpToTime(10300)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "James Charles")!} title="The James Charles Drama Continues" jumpToTime={() => jumpToTime(11255)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Shoenice")!} title="Shoenice's Top 5 Movies!" jumpToTime={() => jumpToTime(7760)} />
-                            <HomepagePersonCard person={people.find(x => x.name == "Justin Bieber")!} jumpToTime={() => jumpToTime(266)} />                            
+                            <TopicCard outlineColor="Yellow" image={"https://i.ytimg.com/vi/Wo_xHGPd9yM/sddefault.jpg"} headerText={"Alex_The_Fiction"} description={"Check Out H3 Jeopardy!"} url={"https://www.youtube.com/watch?v=Wo_xHGPd9yM"}></TopicCard>
+                            <MomentCard moment={moments.find(x => x.title == "Ethan and Hila vs Blackhead Sucker!")!}></MomentCard>
+                            <HomepagePersonCard person={people.find(x => x.name == "Fidias")!} title="Fidias is in over his head" jumpToTime={() => jumpToTime(8070)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Tyjule")!} title="Tyjule's Apology to Ethan" jumpToTime={() => jumpToTime(6680)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Kai Cenat")!} title="Kai Cenat vs. Nazi" jumpToTime={() => jumpToTime(2580)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "Candace Owens")!} title="Candace defends Harvey Weinstein" jumpToTime={() => jumpToTime(4180)} />
+                            <HomepagePersonCard person={people.find(x => x.name == "iDubbbz")!} title="Anisa continues to humiliate Ian" jumpToTime={() => jumpToTime(11400)} />
                         </div>
                     </div>
                 </div>
