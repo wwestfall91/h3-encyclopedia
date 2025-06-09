@@ -8,6 +8,51 @@
       rgba(121,103,185, 1) 100%,
     );
 
+    .previous-episode-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:3rem;
+        width:3rem;
+        border-radius: 50px;
+        z-index: 1000;
+        background-color: rgba(0, 0, 0, 0.938);
+        color: white;
+        font-size:18px;
+        margin-right:-40px;
+        cursor: pointer;
+        &:hover{
+            background-color: rgba(41, 41, 41, 0.938);
+        }
+
+        &:active{
+            background-color: rgba(51, 51, 51, 0.938);
+        }
+    }
+
+    .next-episode-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:3rem;
+        width:3rem;
+        border-radius: 50px;
+        z-index: 1000;
+        background-color: rgba(0, 0, 0, 0.938);
+        color: white;
+        font-size:18px;
+        margin-left:-40px;
+        cursor: pointer;
+
+        &:hover{
+            background-color: rgba(41, 41, 41, 0.938);;
+        }
+
+        &:active{
+            background-color: rgba(51, 51, 51, 0.938);
+        }
+    }
+
     .subheader{
         display: flex;
         position: sticky;
@@ -67,6 +112,7 @@
         display: flex;
         flex-grow: 1;
         overflow: auto;
+        width:100vw;
     }
 
     .video-container{
@@ -79,6 +125,7 @@
     .video{
         display: flex;
         position: fixed;
+        align-items:center;
     }
 
     .topics-container{
