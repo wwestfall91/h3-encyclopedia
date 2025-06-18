@@ -23,6 +23,7 @@ Anthony Padilla	https://static.wikia.nocookie.net/smosh/images/0/08/Anthony_Padi
 Anuc	https://happymag.tv/wp-content/uploads/2022/12/Anuc-Atittawan.jpg	Friend
 Ariana Grande	https://cdn.britannica.com/92/211792-050-E764F875/American-singer-Ariana-Grande-2018.jpg	Neutral
 Ashton Hall	https://manofmany.com/wp-content/uploads/2025/03/Who-is-ashton-hall.jpg	Neutral
+Asmongold	https://pbs.twimg.com/profile_images/804591156491419649/BnUUh5KE_400x400.jpg	Neutral
 Attorney Tom	https://attorneytom.com/wp-content/uploads/2022/09/tommy-headshot-opt.png	Friend
 Aubrey Smalls	https://s.abcnews.com/images/Entertainment/230713_abcnl_prime_tiktalk_hpMain_16x9_1600.jpg	Enemy
 Austin McBroom	https://www.the-sun.com/wp-content/uploads/sites/6/2020/07/NINTCHDBPICT000597015821.jpg	Enemy
@@ -335,6 +336,7 @@ Steven Crowder	https://pbs.twimg.com/media/FuuziqwaQAIWPrr.jpg	Enemy
 Steven Seagal	https://upload.wikimedia.org/wikipedia/commons/d/d9/Steven_Seagal_November_2016.jpg	Neutral
 SunnyV2	https://yt3.googleusercontent.com/Hp09v_bD_EnSL3Y49DygS0R9-MKsBh1xkrlWtSAA5f8SQoPh3SYqhGwPiOhBj4iwxd_x7hzC=s900-c-k-c0x00ffffff-no-rj	Enemy
 Swami	https://static.wikia.nocookie.net/h3podcast/images/2/20/Swami.jpg	Friend
+Tamara (Undead Mummy)	https://static.wikia.nocookie.net/h3h3/images/c/cc/Tamara_Joseph.jpg	Family
 Tana Mongeau	https://i2.wp.com/hollywoodlife.com/wp-content/uploads/2019/06/tana-mongeau-1.jpg	Friend
 Tati Westbrook	https://akns-images.eonline.com/eol_images/Entire_Site/2019421/rs_600x600-190521110753-600-Tati-Westbrook-LT-052119-Youtube.jpg	Neutral
 Ted Cruz	https://static.texastribune.org/media/files/600d28682a2731e6cfa9649926acbc5a/Ted-Cruz.jpg	Neutral
@@ -360,7 +362,7 @@ Trisha Paytas	https://i2.wp.com/facts.net/wp-content/uploads/2023/07/33-facts-ab
 Trump Jr	https://upload.wikimedia.org/wikipedia/commons/9/97/Donald_Trump_Jr._2023_by_Gage_Skidmore.jpg	Neutral
 Try Guys	https://www.rollingstone.com/wp-content/uploads/2024/05/try-guys-members.jpg	Neutral
 Tucker Carlson	https://media.npr.org/assets/img/2021/06/30/tucker-carlson-ap-photo-d6770db43cfc2e8d998c018f4086f7f26fc46d74.jpg	Neutral
-Tyjule	https://i.ytimg.com/vi/t-EIAUxwkDc/hq720.jpg	Friend
+Tyjule	https://mir-s3-cdn-cf.behance.net/user/276/60cdb01180882195.62cf6d628f5d7.jpg	Friend
 Uncle Gabe	https://image.mux.com/HvSmr3iX3vntGhZemUwzAQvgl66TV013CvJjZheoJNog/thumbnail.jpg?height=650	Family
 Vaush	https://childrenofthedigitalage.org/wp-content/uploads/2020/11/screenshot_20201117-083227_duckduckgo840141261114635480.jpg	Enemy
 VideoGameDunkey	https://i2.wp.com/thepersonage.com/wp-content/uploads/2021/10/Video-Game-Dunkey-height.jpg	Friend
@@ -374,7 +376,7 @@ Will Smith	https://parade.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cq_auto:good%2Cw
 Will.I.Am	https://upload.wikimedia.org/wikipedia/commons/0/0e/Will.i.am_in_2018.jpg	Neutral
 William Knight	https://pbs.twimg.com/profile_images/1584666206337892354/Lu-ITI2y_400x400.jpg	Friend
 William Shatner	https://variety.com/wp-content/uploads/2018/10/william-shatner.jpg	Neutral
-Wings of Redemption	https://static.wikia.nocookie.net/youtube/images/1/1e/Jordie_Jordan_Apperance.jpg	Enemy
+Wings of Redemption	https://pbs.twimg.com/profile_images/1006390321771614208/m3yr_x1W_400x400.jpg	Enemy
 XQC	https://image-cdn.essentiallysports.com/wp-content/uploads/Debating-xQc-On-Copyright-H3TV-86-1-16-40-screenshot-2-640x640.png	Neutral
 Yi Long Ma	https://img-9gag-fun.9cache.com/photo/axBmXVW_460s.jpg	Neutral
 Yoko Ono	https://ediblemanhattan.com/wp-content/uploads/2010/11/EM14-LowRes18.jpg	Neutral

@@ -24,7 +24,7 @@ function Homepage() {
     const [currentEpisode, setCurrentEpisode] = useState<Episode>()
 
     useEffect(() => {
-        const episode = getEpisodeByNumber(155 - episodeOffset)
+        const episode = getEpisodeByNumber(159 - episodeOffset)
         setCurrentEpisode(episode)
 
         if(player && episode){
@@ -131,13 +131,59 @@ function Homepage() {
                     </div>
                     <div className="topics-container">
                         <div className="topics-title">{`GOOFS & GAFFS FROM H3 SHOW #${getLatestEpisode()?.number as number - episodeOffset}`}</div>
+                        {getLatestEpisode()?.number as number - episodeOffset == 159 && 
+                            <div className="topics">
+                                <MomentCard moment={moments.find(x => x.title == "The Crew Learn Their Hogwarts Houses")!} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Tamara (Undead Mummy)")!} jumpToTime={() => jumpToTime(1285)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Vitaly")!} jumpToTime={() => jumpToTime(7560)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Justin Baldoni")!} jumpToTime={() => jumpToTime(11890)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Tyjule")!} jumpToTime={() => jumpToTime(4980)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Jared Leto")!} jumpToTime={() => jumpToTime(11340)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Mr Beast")!} jumpToTime={() => jumpToTime(5450)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Justin Bieber")!} jumpToTime={() => jumpToTime(8080)} />
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 158 && 
+                            <div className="topics">
+                                <MomentCard moment={moments.find(x => x.title == "Is Ethan the Xbox Announcer?")!} 
+                                            description={"Asmongold says the Xbox Announcer sounds like Ethan"} 
+                                            jumpToTime={() => jumpToTime(4934)} />
+                                <MomentCard moment={moments.find(x => x.title == "Olivia Was Attacked by a Dog")!} jumpToTime={() => jumpToTime(10801)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Galya")!} jumpToTime={() => jumpToTime(1170)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Harley Morenstein")!} jumpToTime={() => jumpToTime(3115)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "iDubbbz")!} jumpToTime={() => jumpToTime(3740)} />
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 157 && 
+                           <div className="topics">
+                                <MomentCard moment={moments.find(x => x.title == "Lady Gaga's Chromatica Oreo's")!} 
+                                            jumpToTime={() => jumpToTime(7680)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Bradley Martyn")!} jumpToTime={() => jumpToTime(2004)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Steiny")!} jumpToTime={() => jumpToTime(3840)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Tyjule")!} jumpToTime={() => jumpToTime(2730)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Selena Gomez")!} jumpToTime={() => jumpToTime(7680)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Jason Nash")!} jumpToTime={() => jumpToTime(9465)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Justin Bieber")!} jumpToTime={() => jumpToTime(10020)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Garth Brooks")!} jumpToTime={() => jumpToTime(3310)} />
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 156 && 
+                            <div className="topics">
+                                <MomentCard moment={moments.find(x => x.title == "First Traffic Report")!} 
+                                            jumpToTime={() => jumpToTime(260)} />
+                                <MomentCard moment={moments.find(x => x.title == "Ethan Tries to Conduct an Orchestra")!} 
+                                            jumpToTime={() => jumpToTime(3120)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Catherine Paiz-McBroom")!} title={"Catherine on Call Her Daddy"} jumpToTime={() => jumpToTime(11015)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Justin Bieber")!} title={"Justin Bieber & SZA"} jumpToTime={() => jumpToTime(10110)} />
+                            </div>
+                        }
                         {getLatestEpisode()?.number as number - episodeOffset == 155 && 
                             <div className="topics">
                                 <MomentCard moment={moments.find(x => x.title == "The Crew Try to Fly a Plane!")!}></MomentCard>
-                                <HomepagePersonCard person={people.find(x => x.name == "iDubbbz")!} title="Debriefing the iDubbbz Boxing Coach Call-In" jumpToTime={() => jumpToTime(461)} />
-                                <HomepagePersonCard person={people.find(x => x.name == "Justin Bieber")!} title="Can Ethan conduct like Justin Bieber?" jumpToTime={() => jumpToTime(2709)} />
-                                <HomepagePersonCard person={people.find(x => x.name == "Boogie2988")!} title="Boogie Waits in Line for a Switch 2" jumpToTime={() => jumpToTime(5230)} />
-                                <HomepagePersonCard person={people.find(x => x.name == "Elon Musk")!} jumpToTime={() => jumpToTime(6920)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Harley Morenstein")!} jumpToTime={() => jumpToTime(461)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "iDubbbz")!} jumpToTime={() => jumpToTime(2709)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Uncle Gabe")!} jumpToTime={() => jumpToTime(5230)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Galya")!} jumpToTime={() => jumpToTime(6920)} />
                             </div>
                         }
                         {getLatestEpisode()?.number as number - episodeOffset == 154 && 
@@ -163,7 +209,7 @@ function Homepage() {
                         }
                         {getLatestEpisode()?.number as number - episodeOffset == 151 &&
                             <div className="topics">
-
+                                Coming Soon
                             </div>
                         }
                         {getLatestEpisode()?.number as number - episodeOffset == 150 &&
