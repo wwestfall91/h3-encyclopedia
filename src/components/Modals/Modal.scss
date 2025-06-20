@@ -11,7 +11,10 @@
   z-index: 1000;
 
   .no-timestamps-available{
+    display: flex;
+    flex-grow: 1;
     font-style: italic;
+    max-height: fit-content;
   }
   
   .title-section{
@@ -156,32 +159,59 @@
   .content-container{
     display: flex;
     flex-direction: column;
-    width:60%;
     gap: 1rem;
+    height:100%;
   }
 
   .modal-data{
     display: flex;
     flex-direction: column;
-    overflow:auto;
+    overflow:hidden;
     gap:1rem;
-    padding:0 1rem 1rem .5rem;
+    height:95%;
   }
 
   .data-section{
     display: flex;
     flex-direction: column;
     height:100%;
+    flex-grow: 1;
   }
 
   .modal-links-container {
     display: flex;
     flex-direction: column;
-    width:102.5%;
+    width:100%;
     gap: 0.5rem;
     overflow: auto;
     padding-right: 1rem;
     padding-bottom:1rem;
+    padding-top:.2rem;
+  }
+
+  .modal-links-container-soundbites{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: auto;
+    width:100%;
+    gap: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom:1rem;
+    padding-top:.2rem;
+  }
+
+  .modal-links-container-moments{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    gap: 0.5rem;
+    overflow: auto;
+    padding-right: 1rem;
+    padding-bottom:1rem;
+    padding-top:.2rem;
+    flex-grow: 1;
+    max-height: 65%;
   }
   
   .modal-title {
@@ -205,6 +235,7 @@
     font-size:14px;
     flex-grow: 1;
     overflow: auto;
+    width:100%;
   }
 
   .related-links {
@@ -249,7 +280,7 @@
   .link-row {
     display: flex;
     flex-direction: row;
-    outline:1px solid rgba(53, 53, 53, 0.397);
+    border:1px solid rgba(0, 0, 0, 0.397);
     border-radius: 5px;
     padding:.25rem;
     background-color:rgba(255, 255, 255, .7);

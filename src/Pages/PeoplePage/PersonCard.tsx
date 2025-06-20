@@ -34,15 +34,20 @@ function PersonCard(props: Props) {
     }
 
     return (
-      // <div className="card-container">
-        // <div id="PersonCard">
         <>
         {props.person && 
           <>
-            { (relatedSoundbites.length > 0 || relatedMoments.length > 0) &&
+            { 
+            (relatedSoundbites.length > 0 || relatedMoments.length > 0) &&
               <div>
               {modalOpen && 
-                <MomentAndSoundbites_Modal title={props.person.name} description={""} moments={relatedMoments} soundbites={relatedSoundbites} isOpen={false} openModal={setModalOpen} ></MomentAndSoundbites_Modal>
+                <MomentAndSoundbites_Modal 
+                  title={props.person.name} 
+                  description={""} 
+                  moments={relatedMoments} 
+                  soundbites={relatedSoundbites} 
+                  isOpen={false} 
+                  openModal={setModalOpen} />
               }
               {props.person &&
                 <div className="card" key={props.person.image}>  
@@ -57,10 +62,13 @@ function PersonCard(props: Props) {
                         {props.person.allegiance.includes("Neutral") ? "" : props.person.allegiance}
                       </div>
                     </div>
-                    <img className="card-image" src={props.person.image } onClick={() => OpenModal()}/>
+                    <img
+                    className="card-image"
+                    src={props.person.image}
+                    onClick={() => OpenModal()}
+                    />
                 </div>
               }
-
               </div>
             }
           </>

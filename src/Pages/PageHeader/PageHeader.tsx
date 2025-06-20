@@ -13,7 +13,7 @@ function PageHeader() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 1400);
+      setIsMobile(window.innerWidth < 1200);
     };
 
     handleResize(); // Check on initial render
@@ -91,13 +91,13 @@ function PageHeader() {
       </div>
       <>
         { isOpen &&
-          <ul style={{ ...menuStyle, maxHeight: isOpen ? "200px" : "0" }}>
-            <CustomButton page={Page.Homepage} />
-            <CustomButton page={Page.Soundbites} />
-            <CustomButton page={Page.Iceberg} />
-            <CustomButton page={Page.Crew} />
-            <CustomButton page={Page.Button} />
-            <CustomButton page={Page.People} />
+          <ul style={{ ...menuStyle, height: isOpen ? "300px" : "0", width: isOpen ? "200px" : "0" }}>
+            <CustomButton page={Page.Homepage} onClick={() => setIsOpen(false)} />
+            <CustomButton page={Page.Soundbites} onClick={() => setIsOpen(false)} />
+            <CustomButton page={Page.Iceberg} onClick={() => setIsOpen(false)} />
+            <CustomButton page={Page.Crew} onClick={() => setIsOpen(false)} />
+            <CustomButton page={Page.Button} onClick={() => setIsOpen(false)} />
+            <CustomButton page={Page.People} onClick={() => setIsOpen(false)} />
           </ul>
         }
       </>
@@ -129,13 +129,14 @@ const lineStyle: React.CSSProperties = {
 };
 
 const menuStyle: React.CSSProperties = {
-  position: "absolute",
   display:"flex",
+  position: "fixed",
   flexDirection:"column",
   backgroundColor: "white",
+  justifyContent: "center",
+  alignItems: "center",
   padding: "10px",
   borderRadius: "5px",
-  width: "50%",
   marginLeft:"50px",
   marginTop:"25px",
   boxShadow: "0 4px 6px rgba(0,0,0,0.1)",

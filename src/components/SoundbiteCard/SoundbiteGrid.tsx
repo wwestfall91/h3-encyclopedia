@@ -84,10 +84,9 @@ function SoundbiteGrid(props: Props) {
     <div id="soundbite-grid-container">
       <div className="soundbite-grid">
         {filteredSoundbites.map((soundbite) => (
-          <SoundbiteCard
-            soundbite={soundbite}
-            person={people.find(x => x.name == soundbite.personName)}
-          />
+          <div key={soundbite.sound}>
+            <SoundbiteCard soundbite={soundbite} person={people.find(x => x.name == soundbite.personName)} />
+          </div>
         ))}
       </div>
     </div>

@@ -87,8 +87,22 @@ export async function getAllMoments() : Promise<Moment[]>{
     
         lines?.map((line : string) => {
             const data = line.split("\t");
-            let moment = new Moment(data[0], data[1], data[2] as unknown as number, data[3] as unknown as number, data[4] as unknown as number, data[5], data[6], data[7], data[8], data[9], data[10])
-            moments.push(moment)
+            
+            const title = data[0];
+            const episodeType = data[1];
+            const episodeNumber = data[2] as unknown as number;
+            const startTime = data[3] as unknown as number;
+            const endTime = data[4] as unknown as number;
+            const url = data[5];
+            const people = data[6];
+            const tags = data[7];
+            const image = data[8];
+            const episodeName = data[9];
+            const section = data[10];
+            const date = data[11];
+
+            let moment = new Moment(title, episodeType, episodeNumber, startTime, endTime, url, people, tags, image, episodeName, section, date);
+            moments.push(moment);
         })
     }
     catch(e){

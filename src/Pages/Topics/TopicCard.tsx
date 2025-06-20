@@ -7,7 +7,10 @@ interface Props {
     headerText: string;
     description: string;
     url: string;
-    jumpToTime: () => void;
+    outlineColor?: string;
+    grade?: string;
+    grade2?: string;
+    jumpToTime?: () => void;
 }
 
 function TopicCard(props: Props) {
@@ -18,8 +21,9 @@ function TopicCard(props: Props) {
       }, []);
     
     return (
-        <div className="card-container">
-            <div className="card" onClick={() => {window.open(`${props.url}`, '_blank');} }>
+        <div className={`card-container ${props.grade} ${props.outlineColor}`}>
+            <div className={`grade ${props.grade}`}>{props.grade}{props.grade2}</div>
+            <div className={`card ${props.outlineColor}`} onClick={() => {window.open(`${props.url}`, '_blank');} }>
                 <div className="person-container">
                     <div className="person-name">
                         {props.headerText}
@@ -34,7 +38,7 @@ function TopicCard(props: Props) {
                 </div>
             </div>
             <>
-            {!isMobile && 
+            {!isMobile && props.jumpToTime &&
                 <div className="time" onClick={props.jumpToTime}>{"< Jump to Mention"}</div> 
             }
             </>

@@ -10,12 +10,12 @@ export function IcebergPage() {
   return (
     <>      
       <Coffee></Coffee>      
-      <body id="IcebergPage">
+      <div id="IcebergPage">
         <div className="section-header">Level 1</div>
         <div className="section">
           {topics.filter(x => x.tags?.includes(Tag.Iceberg) && x.tags?.includes(Tag.Layer1)).map((topic) => (
             <TopicComponent topic={topic}></TopicComponent>
-            ))}
+          ))}
         </div>
 
         <div className="section-header">Level 2</div>
@@ -94,7 +94,7 @@ export function IcebergPage() {
               <TopicComponent topic={topic}></TopicComponent>
             ))}
         </div>
-      </body>
+      </div>
       </>
   );
 }

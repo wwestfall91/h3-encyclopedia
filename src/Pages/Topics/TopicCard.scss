@@ -1,7 +1,61 @@
+.card{
+  &.Yellow{
+    outline:4px solid rgb(255, 233, 36);
+  }
+}
+
 .card-container{
   display: flex;
   flex-direction: column;
   background-color: transparent;
+  border-radius: 5px;
+
+  &.A{
+    outline: 4px solid rgb(64, 255, 64);
+  }
+  &.B{
+    outline:4px solid rgb(255, 251, 3);
+  }
+  &.C{
+    outline:4px solid rgb(255, 167, 3);
+  }
+  &.D{
+    outline:4px solid rgb(255, 95, 3);
+  }
+  &.F{
+    outline:4px solid rgb(255, 3, 3);
+  }
+}
+
+.grade{
+  display: flex;
+  position: absolute;
+  z-index: 100;
+  transform: rotate(-20deg);
+  margin-top: -22px;
+  margin-left:-5px;
+  font-size: 64px;
+  font-weight: bold;
+  &.A{
+    color:rgb(64, 255, 64);
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  &.B{
+    color:rgb(255, 251, 3);
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  &.C{
+    color:rgb(255, 167, 3);
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  &.D{
+    color:rgb(255, 95, 3);
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  &.F{
+    color:rgb(255, 3, 3);
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
 }
 
 .footer {
