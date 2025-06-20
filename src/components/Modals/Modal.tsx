@@ -21,11 +21,21 @@ export function MomentsModal(props: Props) {
   const [selectedMoment, setSelectedMoment] = useState<Moment>();
   const [previousPlayerState, setPreviousPlayerState] = useState();
   const [isAutoPlaying, setIsAutoPlaying] = useState<boolean>(false);
-  const [totalTime, setTotalTime] = useState();
+  const [hasAutoPlay, setHasAutoPlay] = useState<boolean>(true);
+
+  const [totalTime, setTotalTime] = useState<number>();
 
   useEffect(() => {
     let time = 0;
     props.timestamps.map(x => {time += (x.endTime - x.startTime)})
+    setTotalTime(time);
+    
+    props.timestamps.map(x => {
+      if(x.endTime.toString() == ""){
+        setHasAutoPlay(false);
+        return;
+      }
+    })
   }, []);
 
   useEffect(() => {
@@ -104,6 +114,7 @@ export function MomentsModal(props: Props) {
             <div className="data-section">
               <div className="title-section">
                 <div className="related-links">Moments</div>
+                {hasAutoPlay &&
                 <div className={`autoplay-slider ${isAutoPlaying ? "on" : "off"}`} onClick={() => beginAutoPlay()}>
                   <div className={`autoplay-background ${isAutoPlaying ? "green" : "red"}`} >
                     <b>On</b>
@@ -111,6 +122,7 @@ export function MomentsModal(props: Props) {
                   </div>
                   <div className={`autoplay-button ${isAutoPlaying ? "on" : "off"}`}>AUTO PLAY</div>
                 </div>
+                }
               </div>
               <div className="modal-links-container">
                 {sortMomentsByDate(props.timestamps, episodes).map((moment) => (
