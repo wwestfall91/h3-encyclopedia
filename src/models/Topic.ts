@@ -28,10 +28,9 @@ export class Topic {
 
     getMoments(moments:Moment[]){
         let topicMoments : Moment[] = [];
-    
         if(this.tags == undefined || this.tags.length <= 0)
           return;
-    
+
         moments.map((moment) => {
           this.tags?.map((tag) => {
             if(moment.tags.includes(tag)){

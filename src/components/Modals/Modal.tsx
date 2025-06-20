@@ -28,8 +28,7 @@ export function MomentsModal(props: Props) {
   useEffect(() => {
     let time = 0;
     props.timestamps.map(x => {time += (x.endTime - x.startTime)})
-    setTotalTime(time);
-    
+    setTotalTime(time);    
     props.timestamps.map(x => {
       if(x.endTime.toString() == ""){
         setHasAutoPlay(false);

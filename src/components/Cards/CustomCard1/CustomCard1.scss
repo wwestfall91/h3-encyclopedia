@@ -67,17 +67,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20%;
+    width: 10%;
     height: 5%;
     position: absolute;
-    background-color: rgba(31, 0, 0, 0.685);
-    transform: rotate(-5deg);
+    background-color: rgba(31, 0, 0, 0.959);
     z-index: 1;
+    margin-bottom:18rem;
+    border-radius: .5rem;
+    border: 2px solid rgb(0, 0, 0);
+    -webkit-box-shadow: 5px 5px 1px 1px rgb(0, 0, 0);
+    -moz-box-shadow: 5px 5px 1px 1px rgb(0, 0, 0);
+    box-shadow: 5px 5px 1px 1px rgb(0, 0, 0);
   }
 
   .coming-soon-text {
     color: white;
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-family: monospace;
     font-style: italic;
   }

@@ -3,9 +3,7 @@
   flex-direction: column;
   flex-grow: 1;
   overflow: auto;
-  gap: 2rem;
   padding-top: 2rem;
-  min-height: 87vh;
 
   background-color: transparent !important;
   background: rgb(111, 95, 172);
@@ -15,26 +13,29 @@
     rgba(121,103,185, 1) 100%,
   );
 
-
   .crew-page-grid {
-    display: grid;
+    display: flex;
     grid-template: repeat(2, 1fr) / repeat(10, 9%);
-    row-gap: 1rem;
-    justify-content: center;    
+    gap: 2rem;
+    justify-content: left;
+    padding-left:1rem;
   }
+
+  // .crew-page-grid {
+  //   display: grid;
+  //   grid-template: repeat(2, 1fr) / repeat(10, 9%);
+  //   row-gap: 1rem;
+  //   justify-content: center;    
+  // }
 
   .crew-card-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
     border-radius: inherit;
     align-items: center;
   }
 
   .crew-image {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
     border-radius: inherit;
   }
@@ -45,8 +46,6 @@
 
   .crew-page-grid-item {
     display: flex;
-    width: 100%;
-    height: 100%;
     flex-direction: column;
     grid-row-start: var(--row);
     grid-column-start: var(--column);
