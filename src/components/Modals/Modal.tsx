@@ -22,19 +22,21 @@ export function MomentsModal(props: Props) {
   const [previousPlayerState, setPreviousPlayerState] = useState();
   const [isAutoPlaying, setIsAutoPlaying] = useState<boolean>(false);
   const [hasAutoPlay, setHasAutoPlay] = useState<boolean>(true);
+  const [isMobile, setIsMobile] = useState(false);
 
-  const [totalTime, setTotalTime] = useState<number>();
+  // const [totalTime, setTotalTime] = useState<number>();
 
   useEffect(() => {
     let time = 0;
     props.timestamps.map(x => {time += (x.endTime - x.startTime)})
-    setTotalTime(time);    
+    console.log(props.timestamps);
     props.timestamps.map(x => {
       if(x.endTime.toString() == ""){
         setHasAutoPlay(false);
         return;
       }
     })
+    setIsMobile(window.innerWidth < 1200);
   }, []);
 
   useEffect(() => {
@@ -100,20 +102,26 @@ export function MomentsModal(props: Props) {
     <div className="modal-background">
       <div className="modal-container" onClick={(e) => {e.stopPropagation();}}>
         <div className="modal-close-button" onClick={() => {props.openModal(false);}}>X</div>
-        <div className="modal-video-container">
-            <h3 className="video-title">{selectedMoment?.episodeName ?? "Select a Moment to start video"}</h3>
-            <YouTube opts={opts} onReady={onReady} onStateChange={onStateChange} style={divStyle}></YouTube>
-        </div>
+        {!isMobile &&
+          <div className="modal-video-container">
+              <h3 className="video-title">{selectedMoment?.episodeName ?? "Select a Moment to start video"}</h3>
+              <YouTube opts={opts} onReady={onReady} onStateChange={onStateChange} style={divStyle}></YouTube>
+          </div>
+        }
         <div className="content-container">
           <div className="modal-header">
             <div className="modal-title">{props.title}</div>
-            <div className="modal-description">{props.description}</div>
+            <div className="modal-description">
+                {props.description.split('/n').map((line) => (
+                    <p>{line}</p>
+                ))}
+            </div>
           </div>
           <div className="modal-data">
             <div className="data-section">
               <div className="title-section">
                 <div className="related-links">Moments</div>
-                {hasAutoPlay &&
+                {hasAutoPlay && !isMobile &&
                 <div className={`autoplay-slider ${isAutoPlaying ? "on" : "off"}`} onClick={() => beginAutoPlay()}>
                   <div className={`autoplay-background ${isAutoPlaying ? "green" : "red"}`} >
                     <b>On</b>
@@ -125,7 +133,7 @@ export function MomentsModal(props: Props) {
               </div>
               <div className="modal-links-container">
                 {sortMomentsByDate(props.timestamps, episodes).map((moment) => (
-                  <div key={moment.title + moment.url} className={`link-row ${selectedMoment?.title == moment.title ? "selected" : "" }`} onClick={() => {onClick(moment)}}>
+                  <div key={moment.title + moment.url} className={`link-row ${selectedMoment?.title == moment.title ? "selected" : "" }`} onClick={() => {isMobile ? window.open(`${moment.url}`, '_blank') : onClick(moment)}}>
                     <div className="related-links-date">
                       {episodes.filter((x : Episode) => x.type == moment.episodeType && x.number == moment.episodeNumber)[0].date}
                     </div>

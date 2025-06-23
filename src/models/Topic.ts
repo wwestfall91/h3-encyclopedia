@@ -16,15 +16,17 @@ export class Topic {
 
     convertStringsToTagArray(tagStrings : string[]){      
       let tags : Tag[] = [];
-        tagStrings.map(x => {
-          for(var tag in Tag){
-            if(x == tag){
-              tags.push((Tag as any)[tag])
-            }
+
+      tagStrings.map(x => {
+        for(var tag in Tag){
+          if(x == tag){
+            tags.push((Tag as any)[tag])
           }
-        })
-        return tags;
-      }
+        }
+      })
+      
+      return tags;
+    }
 
     getMoments(moments:Moment[]){
         let topicMoments : Moment[] = [];

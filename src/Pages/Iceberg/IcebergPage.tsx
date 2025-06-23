@@ -9,7 +9,7 @@ export function IcebergPage() {
 
   return (
     <>      
-      <Coffee></Coffee>      
+      <Coffee></Coffee>
       <div id="IcebergPage">
         <div className="section-header">Level 1</div>
         <div className="section">

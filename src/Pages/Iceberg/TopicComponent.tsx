@@ -5,8 +5,11 @@ import "./TopicComponent.scss";
 import { useDataContext } from "../../context/DataContext";
 
 type Props = {
-  topic:Topic;
+  topic: Topic | undefined;
   image?: string;
+  isBlank?: boolean;
+  customText?:string;
+  overlayText?:string;
 };
 
 function TopicComponent(props: Props) {
@@ -18,17 +21,36 @@ function TopicComponent(props: Props) {
 
   return (
     <>
-      {modalOpen && 
-        <MomentsModal title={props.topic.name} description={props.topic.description} timestamps={props.topic.getMoments(moments)!} isOpen={false} openModal={setModalOpen} ></MomentsModal>
+      {modalOpen && props.topic &&
+        <MomentsModal 
+          title={props.topic.name} 
+          description={props.topic.description} 
+          timestamps={props.topic.getMoments(moments)!} 
+          isOpen={false} 
+          openModal={setModalOpen} />
       }
-      <div id="TopicComponent" onClick={() => OpenModal()}>
-          <div className="topic-container">
-            <div className="topic-image-container">
-              <img className="topic-image" src={props.image ? props.image : props.topic.image}></img>
+        <div id="TopicComponent" onClick={() => OpenModal()}>
+            <div className="topic-container">
+              { props.overlayText &&
+                <div className="overlay">{props.overlayText}</div>
+              }
+              <div className="topic-image-container">
+                {props.isBlank &&
+                  <div className="blank-image">{props.customText}</div>
+                }
+                {!props.isBlank && props.topic &&
+                  <img className="topic-image" src={props.image ? props.image : props.topic.image}></img>
+                }
+                
+              </div>
+              {props.topic &&
+                <div className="topic-name">{props.topic.name}</div>
+              }
+              {!props.topic &&
+                <div className="topic-name">???</div>
+              }
             </div>
-            <div className="topic-name">{props.topic.name}</div>
-          </div>
-      </div>
+        </div>
     </>
   );
 }

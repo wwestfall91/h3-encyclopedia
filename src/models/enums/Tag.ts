@@ -130,5 +130,6 @@ export enum Tag{
   Call,
   Guest,
   Kevin,
-  H3H3Producitons
+  H3H3Producitons,
+  ZachsFavorites
 }

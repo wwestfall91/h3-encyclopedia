@@ -2,7 +2,7 @@ import { useDataContext } from "../../context/DataContext";
 import "./Homepage.scss";
 import { useEffect, useState } from "react";
 import YouTube, { YouTubeEvent, YouTubePlayer } from 'react-youtube';
-import UpdatesSection from "./UpdatesSection";
+import SummerBreakSection from "./SummerBreak";
 import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/GeneralFeedbackModal";
 import PsychologyInSeattleSection from "./PsychologyInSeattleSection";
@@ -16,7 +16,7 @@ function Homepage() {
     // @ts-ignore
     const { people, episodes, moments} = useDataContext();
     const [player, setPlayer] = useState<YouTubePlayer | null>(null);
-    const [updatesSelected, setUpdatesSelected] = useState<boolean>(false);
+    const [breakTabSelected, setBreakTabSelected] = useState<boolean>(true);
     const [psychologySelected, setPsychologySelected] = useState<boolean>(false);
     const [showEmailModal, setShowEmailModal] = useState<boolean>(false);
     const [episodeOffset, setEpisodeOffset] = useState<number>(0)
@@ -24,7 +24,7 @@ function Homepage() {
     const [currentEpisode, setCurrentEpisode] = useState<Episode>()
 
     useEffect(() => {
-        const episode = getEpisodeByNumber(159 - episodeOffset)
+        const episode = getEpisodeByNumber(162 - episodeOffset)
         setCurrentEpisode(episode)
 
         if(player && episode){
@@ -104,13 +104,13 @@ function Homepage() {
         <div id="Homepage">
             {!isMobile && 
                 <div className="subheader">
-                    <button className={updatesSelected || psychologySelected ? "subheader-button" : "subheader-button selected"} onClick={() => {setUpdatesSelected(false); setPsychologySelected(false);} }>EPISODE DEBRIEF</button>
-                    <button className={psychologySelected ? "subheader-button selected" : "subheader-button"} onClick={() =>{setUpdatesSelected(false); setPsychologySelected(true);} }>PSYCHOLOGY IN SEATTLE RATINGS</button>
-                    {/* <button className={!updatesSelected ? "subheader-button" : "subheader-button selected"} onClick={() => {setUpdatesSelected(true); setPsychologySelected(false);}}>MONTHLY UPDATES</button> */}
+                    <button className={!breakTabSelected ? "subheader-button" : "subheader-button selected"} onClick={() => {setBreakTabSelected(true); setPsychologySelected(false);}}>SUMMER BREAK 2025</button>
+                    <button className={breakTabSelected || psychologySelected ? "subheader-button" : "subheader-button selected"} onClick={() => {setBreakTabSelected(false); setPsychologySelected(false);} }>EPISODE DEBRIEF</button>
+                    <button className={psychologySelected ? "subheader-button selected" : "subheader-button"} onClick={() =>{setBreakTabSelected(false); setPsychologySelected(true);} }>PSYCHOLOGY IN SEATTLE RATINGS</button>
                 </div>
             }
 
-            {!updatesSelected && !psychologySelected &&
+            {!breakTabSelected && !psychologySelected &&
             <>
                 {!isMobile && 
                     <div className="submit-button-container">
@@ -131,6 +131,36 @@ function Homepage() {
                     </div>
                     <div className="topics-container">
                         <div className="topics-title">{`GOOFS & GAFFS FROM H3 SHOW #${getLatestEpisode()?.number as number - episodeOffset}`}</div>
+                        {getLatestEpisode()?.number as number - episodeOffset == 162 && 
+                            <div className="topics">
+                                <HomepagePersonCard person={people.find(x => x.name == "Avery")!} jumpToTime={() => jumpToTime(80)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Denims")!} jumpToTime={() => jumpToTime(5720)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Frogan")!} jumpToTime={() => jumpToTime(6180)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "KaceyTron")!} jumpToTime={() => jumpToTime(6300)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Hasan Piker")!} jumpToTime={() => jumpToTime(10440)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "XQC")!} jumpToTime={() => jumpToTime(12550)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Keemstar")!} jumpToTime={() => jumpToTime(11630)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Boogie2988")!} jumpToTime={() => jumpToTime(11630)} />
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 161 && 
+                            <div className="topics">
+                                <TopicCard 
+                                    outlineColor="Yellow" 
+                                    image={"https://i.ytimg.com/vi/3yAiuEyJF-I/hq720.jpg"} 
+                                    headerText={"H3H3Productions"} 
+                                    description={"Check out Ethan's Latest Video!"} 
+                                    url={"https://youtu.be/3yAiuEyJF-I"} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Denims")!} jumpToTime={() => jumpToTime(7376)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Frogan")!} jumpToTime={() => jumpToTime(7056)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "KaceyTron")!} jumpToTime={() => jumpToTime(6794)} />
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 160 && 
+                            <div className="topics">
+
+                            </div>
+                        }
                         {getLatestEpisode()?.number as number - episodeOffset == 159 && 
                             <div className="topics">
                                 <MomentCard moment={moments.find(x => x.title == "The Crew Learn Their Hogwarts Houses")!} />
@@ -395,8 +425,8 @@ function Homepage() {
                 </div>
             </>
             }
-            {updatesSelected &&
-                <UpdatesSection />
+            {breakTabSelected &&
+                <SummerBreakSection />
             }
             {psychologySelected &&
                 <PsychologyInSeattleSection />

@@ -36,8 +36,8 @@ export class Moment {
     this.startTime = startTime;
     this.endTime = endTime;
     this.url = url;
-    this.people = people == "" || undefined ? [] : people.split(",");
-    this.tags = tags == "" || undefined ? [] : this.convertStringsToTagArray(tags.split(","));
+    this.people = people == "" || undefined ? [] : people.split(", ");
+    this.tags = tags == "" || undefined ? [] : this.convertStringsToTagArray(tags.split(", "));
     this.image = image == "" ? undefined : image;
     this.episodeName = episodeName == "" ? undefined : episodeName;
     this.section = section == "" ? undefined : section

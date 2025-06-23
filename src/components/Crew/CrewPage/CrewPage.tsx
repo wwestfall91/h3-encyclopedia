@@ -78,7 +78,7 @@ export function CrewPage() {
                     />
                 </div>
               </>
-              <>
+              {/* <>
                 <h1>HONORARY CREW</h1>
                 <div className="crew-page-grid">
                     <CustomCard1
@@ -100,7 +100,7 @@ export function CrewPage() {
                       comingSoon={true}
                     />
                 </div>
-              </>
+              </> */}
               <>
                 <h1>SOMETIMES I JUST MISS MY OLD FRIENDS</h1>
                 <div className="crew-page-grid">

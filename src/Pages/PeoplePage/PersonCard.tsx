@@ -67,8 +67,19 @@ function PersonCard(props: Props) {
                     src={props.person.image}
                     onClick={() => OpenModal()}
                     />
+                
                 </div>
               }
+              {props.person.name == "Avery" && 
+                <div className="badge">
+                  <img className="picture" src="Images/GoldMedal_Tall.png"/>
+                </div>
+              }
+              {props.person.name == "Steiny" && 
+                <div className="badge">
+                  <img className="picture" src="Images/GoldMedal_Smallest.png"/>
+                </div>
+              }   
               </div>
             }
           </>
