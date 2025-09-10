@@ -27,16 +27,14 @@ export function MomentsModal(props: Props) {
   // const [totalTime, setTotalTime] = useState<number>();
 
   useEffect(() => {
-    let time = 0;
-    props.timestamps.map(x => {time += (x.endTime - x.startTime)})
-    console.log(props.timestamps);
+    setIsMobile(window.innerWidth < 1400);
+    
     props.timestamps.map(x => {
       if(x.endTime.toString() == ""){
         setHasAutoPlay(false);
         return;
       }
     })
-    setIsMobile(window.innerWidth < 1200);
   }, []);
 
   useEffect(() => {
@@ -85,7 +83,7 @@ export function MomentsModal(props: Props) {
     height:'382px',
     border: '1px solid black',
     borderRadius: '5px',
-    boxShadow: '10px 10px 20px 10px rgba(0, 0, 0, 0.555)'
+    boxShadow: '5px 8px 10px 8px rgba(0, 0, 0, 0.5)'
   }
 
   const opts = {

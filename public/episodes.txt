@@ -155,7 +155,9 @@ ContentCourt	11	10-08-2020	Content Court: James Charles	https://youtu.be/_kGTf6L
 EthanAndHila	1	01-20-2016	ONE FRICKED UP DENTIST	https://www.youtube.com/watch?v=uSlx0s5dtPM	
 EthanAndHila	2	05-15-2016	The Gaze of Miracles	https://www.youtube.com/watch?v=LoYFNS3aMqg	
 EthanAndHila	3	03-07-2016	Social Experiments with Joey Salads	https://youtu.be/nHHzQ8VPtAs	
+EthanAndHila	4	03-08-2016	What Happened to H3H3Productions!?	https://youtu.be/uvK4EVTcKHs	
 EthanKlein	38	02-10-2022	MoistCritikal Is Destroying YouTube	https://youtu.be/8CcVkyFXHyw	
+Families	1	06-23-2021	The New Host Of Frenemies Is…	https://youtu.be/3CEMfve0fb8	
 Families	2	06-30-2021	Trisha Paytas vs Gabbie Hanna Explained By My Mom - Families #2	https://youtu.be/_SdeGi-8rZ8	
 Families	3	07-07-2021	The Biggest Cancellation In YouTube History - Families #3	https://youtu.be/L3XK1hC8KsM	
 Families	4	07-14-2021	Moms Embarrassing Story Destroyed My Soul - Families #4	https://youtu.be/OJo0Z90eWDE	
@@ -380,6 +382,24 @@ H3Show	159	06-16-2025	Justin Bieber's Life Is Falling Apart, Vitaly Lost 50 Poun
 H3Show	160	06-18-2025	I’m Dropping The 2nd Nuke Tomorrow - H3 Show #160	https://youtu.be/-LNmMDbxUDM	
 H3Show	161	06-19-2025	I’m Suing Denims, Kaceytron & Frogan - H3 Show #161	https://youtu.be/UhfL_X90hDY	
 H3Show	162	06-20-2025	I’m Loving The Reactions To The Lawsuits (Final Episode) - H3 Show #162	https://youtu.be/iwwSERCF_Gk	
+H3Show	163	07-07-2025	My Haters Are Trembling (Because I'm Back, Baby!) - H3 Show #163	https://youtu.be/OvO4Q5Nc8wY	
+H3Show	164	07-09-2025	Shocking Creator Clash Update, IDubbbz & Anisa Confess To Everything - H3 Show #164	https://youtu.be/UKbcqs9ll0M	
+H3Show	165	07-11-2025	Adam McIntyre's Snark Scandal Proves Ethan Was Right About Reddit - H3 Show #165	https://youtu.be/xu3obq7ssQ0	
+H3Show	166	07-14-2025	The Epstein Cover-up is Getting Insane, Fully Explained - H3 Show #166	https://youtu.be/fyhW3hRGpYY	
+H3Show	167	07-16-2025	The IDubbbz Divorce Arc Has Begun - H3 Show #167	https://youtu.be/P-FWG4xlVeg	
+H3Show	168	07-18-2025	The IDubbbz Situation Just Got Way Worse - H3 Show #168	https://youtu.be/xQaldWMBylU	
+H3Show	169	07-21-2025	I'm Buying Creator Clash - H3 Show #169	https://youtu.be/-4NQQ8wOKeA	
+H3Show	170	07-23-2025	I Had A Falling Out With Steiny & NELK - H3 Show #170	https://youtu.be/flwxloMXkQE	
+H3Show	171	07-25-2025	Vaush Exposed For Messaging A Minor (Allegedly) - H3 Show #171	https://youtu.be/VWvv5Y7JPR0	
+H3Show	172	07-28-2025	About The Frogan Lawsuit... - H3 Show #172	https://youtu.be/YiGfOEj9K0U	
+H3Show	173	07-30-2025	Olivia Explains The Messiest Influencer Breakup Ever To a Room Full Of Haters - H3 Show #173	https://youtu.be/E-nFd59XDfY	
+H3Show	174	08-01-2025	Our Subpoena was APPROVED! (For Reddit & Discord mod’s identity) - H3 Show #174	https://youtu.be/cE28l1KCDNQ	
+H3Show	175	08-04-2025	
+My entire crew just left... here's what happened. - H3 Show #175	https://youtu.be/o9e0kbC10J0	
+H3Show	176	08-06-2025	Huge Lawsuit Updates, You're Going To Love These! - H3 Show #176	https://youtu.be/tI8fGcsyfL8	
+H3Show	177	08-08-2025	I'm being blackmailed. - H3 Show #177	https://youtu.be/NCOJyNiSWDE	
+H3Show	178	08-11-2025	New David Dobrik Exposé, Todd Tells All - H3 Show #178	https://youtu.be/KG8uUK8dNiw	
+H3Show	179	08-13-2025	Hasan Piker Is A Cringe Machine - H3 Show #179	https://youtu.be/37n_A6onJBE	
 H3TV	1	07-17-2021	I Waited 16 YEARS To Play Half Life Alyx... & The Crew Ruined It - H3TV #1	https://youtu.be/3XCb0GrMix4	
 H3TV	2	07-24-2021	YouTuber House Tours, Make Ethan Laugh, Twitch Gambling Finale | H3TV Full Episode #2	https://www.youtube.com/watch?v=b9BRDiQPD-U	
 H3TV	3	07-31-2021	QAnon Lunatics & Unusual Memes - H3TV #3	https://youtu.be/GArWVPo-86s	
@@ -577,6 +597,8 @@ Misc	20	06-21-2021	Ethan Klein Debates Steven Crowder (Ft. Sam Seder) - H3 Podca
 Misc	21	06-17-2022	Frenemies Is Back & Short Lived	https://youtu.be/t29lvnxG0L4	
 Misc	22	04-16-2025	Content Cop - H3	https://youtu.be/NyB85pVw-v4	
 Misc	23	05-03-2025	Content Deputy - H3	https://youtu.be/ol2H90GmeO0	
+Misc	24	09-21-2022	Ethan Gets Banned From the Metaverse	https://youtu.be/FmHEAFQT5u8	
+Misc	25	06-28-2021	Marc Ribellet, Reggie Watts, Flying Lotus LIVE	https://youtu.be/u3ninsiw5f4	
 MakeEthanLaugh	1	11-18-2020	Make Ethan Laugh - Episode 1	https://youtu.be/5xIfQkrbgdM	
 OTR	1	05-27-2021	Ethan Destroys The New Office - Off The Rails #1	https://www.youtube.com/watch?v=JHGs0juAZX4	
 OTR	2	06-03-2021	Dream, Keemstar, All Gas No Breaks Interview with Andrew Callaghan - Off The Rails #2	https://www.youtube.com/watch?v=RSirCfZjonY	
@@ -954,3 +976,4 @@ SYNT	11	12-27-2022	See You Next Tuesday #11	https://youtu.be/Yrof_UwWYCI
 SYNT	31	05-16-2023	See You Next Tuesday #31	https://youtu.be/zOYZ3XMGjUM	
 SYNT	97	02-20-2025	The Jay Shetty & Avocado Episode - SYNT #97	https://youtu.be/vVaHCn3smdE	
 Unknown	1	05-05-2015	Unknown	https://youtu.be/zOYZ3XMGjUM	
+Highlight	1	11-05-2021	Carlos is Launching an NFT - Interview	https://youtu.be/NObrnl_cyvI	

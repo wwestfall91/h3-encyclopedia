@@ -16,7 +16,7 @@ function Homepage() {
     // @ts-ignore
     const { people, episodes, moments} = useDataContext();
     const [player, setPlayer] = useState<YouTubePlayer | null>(null);
-    const [breakTabSelected, setBreakTabSelected] = useState<boolean>(true);
+    const [breakTabSelected, setBreakTabSelected] = useState<boolean>(false);
     const [psychologySelected, setPsychologySelected] = useState<boolean>(false);
     const [showEmailModal, setShowEmailModal] = useState<boolean>(false);
     const [episodeOffset, setEpisodeOffset] = useState<number>(0)
@@ -24,14 +24,24 @@ function Homepage() {
     const [currentEpisode, setCurrentEpisode] = useState<Episode>()
 
     useEffect(() => {
-        const episode = getEpisodeByNumber(162 - episodeOffset)
+        const episode = getEpisodeByNumber(179 - episodeOffset)
         setCurrentEpisode(episode)
-
-        if(player && episode){
-            player.cueVideoById(episode.getVideoId()) 
-        }
-        
     }, [episodeOffset, episodes]);
+
+    useEffect(() => {
+        if(player && currentEpisode){
+            player.cueVideoById(currentEpisode.getVideoId()) 
+        }
+
+        // setCurrentEpisode(undefined);
+        // const episode = getEpisodeByNumber(179 - episodeOffset)
+        // setCurrentEpisode(episode)
+
+        // if(player && episode){
+        //     player.cueVideoById(episode.getVideoId()) 
+        // }
+        
+    }, [currentEpisode]);
 
     useEffect(() => {
         const handleResize = () => {
@@ -69,6 +79,7 @@ function Homepage() {
     }
 
     const onReady = (event : YouTubeEvent<number>) => {
+        console.log("READY")
         setPlayer(event.target);
     }
 
@@ -131,6 +142,97 @@ function Homepage() {
                     </div>
                     <div className="topics-container">
                         <div className="topics-title">{`GOOFS & GAFFS FROM H3 SHOW #${getLatestEpisode()?.number as number - episodeOffset}`}</div>
+                        {getLatestEpisode()?.number as number - episodeOffset == 179 && 
+                            <div className="topics">
+                                <HomepagePersonCard person={people.find(x => x.name == "Tom Ward")!} jumpToTime={() => jumpToTime(20)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "The Rizzler")!} jumpToTime={() => jumpToTime(2395)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Dan Clancy")!} jumpToTime={() => jumpToTime(340)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Keemstar")!} jumpToTime={() => jumpToTime(2160)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Boogie2988")!} jumpToTime={() => jumpToTime(2160)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Fresh and Fit")!} jumpToTime={() => jumpToTime(2520)} />
+                                <HomepagePersonCard person={people.find(x => x.name == "Hasan Piker")!} jumpToTime={() => jumpToTime(6140)} />
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 178 && 
+                            <div className="topics">
+                                Nothing Yet
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 177 && 
+                            <div className="topics">
+                                Nothing Yet
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 176 && 
+                            <div className="topics">
+                                Nothing Yet
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 175 && 
+                            <div className="topics">
+                                Nothing Yet
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 174 && 
+                            <div className="topics">
+                                Nothing Yet
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 173 && 
+                            <div className="topics">
+                                Nothing Yet
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 172 && 
+                            <div className="topics">
+                                Nothing Yet
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 171 && 
+                            <div className="topics">
+                                Nothing Yet
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 170 && 
+                            <div className="topics">
+                                Nothing Yet
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 169 && 
+                            <div className="topics">
+                                Nothing Yet
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 168 && 
+                            <div className="topics">
+                                Nothing Yet
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 167 && 
+                            <div className="topics">
+                                Nothing Yet
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 166 && 
+                            <div className="topics">
+                                Nothing Yet
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 165 && 
+                            <div className="topics">
+                                Nothing Yet
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 164 && 
+                            <div className="topics">
+                                Nothing Yet
+                            </div>
+                        }
+                        {getLatestEpisode()?.number as number - episodeOffset == 163 && 
+                            <div className="topics">
+                                Nothing Yet
+                            </div>
+                        }
                         {getLatestEpisode()?.number as number - episodeOffset == 162 && 
                             <div className="topics">
                                 <HomepagePersonCard person={people.find(x => x.name == "Avery")!} jumpToTime={() => jumpToTime(80)} />
@@ -158,7 +260,7 @@ function Homepage() {
                         }
                         {getLatestEpisode()?.number as number - episodeOffset == 160 && 
                             <div className="topics">
-
+                                Nothing Yet
                             </div>
                         }
                         {getLatestEpisode()?.number as number - episodeOffset == 159 && 
@@ -218,12 +320,12 @@ function Homepage() {
                         }
                         {getLatestEpisode()?.number as number - episodeOffset == 154 && 
                             <div className="topics">
-                                Coming Soon
+                                Nothing Yet
                             </div>
                         }
                         {getLatestEpisode()?.number as number - episodeOffset == 153 && 
                             <div className="topics">
-                                Coming Soon
+                                Nothing Yet
                             </div>
                         }
                         {getLatestEpisode()?.number as number - episodeOffset == 152 && 
@@ -239,7 +341,7 @@ function Homepage() {
                         }
                         {getLatestEpisode()?.number as number - episodeOffset == 151 &&
                             <div className="topics">
-                                Coming Soon
+                                Nothing Yet
                             </div>
                         }
                         {getLatestEpisode()?.number as number - episodeOffset == 150 &&
@@ -266,7 +368,7 @@ function Homepage() {
                         }
                         {getLatestEpisode()?.number as number - episodeOffset == 148 &&
                             <div className="topics">
-                                Coming Soon
+                                Nothing Yet
                             </div>
                         }
                         {getLatestEpisode()?.number as number - episodeOffset == 147 &&

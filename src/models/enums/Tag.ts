@@ -131,5 +131,20 @@ export enum Tag{
   Guest,
   Kevin,
   H3H3Producitons,
-  ZachsFavorites
+  ZachsFavorites,
+  LovesFavorites,
+  OliviasFavorites,
+  Dennys,
+  HikingWithPhillyD,
+  ABsFavorites,
+  DansFavorites,
+  EelPit,
+  AverysFavorites,
+  KaraokeWithTheKleins,
+  HilasFavorites,
+  DooTheDew,
+  MeatMountain,
+  MiscCrewFavorites,
+  RaesFavorites,
+  ZanesFavorites
 }

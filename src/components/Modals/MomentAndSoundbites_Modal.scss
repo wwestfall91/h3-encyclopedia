@@ -1,4 +1,4 @@
-#Modal{
+#MomentAndSoundbites_Modal{
   display: flex;
   height:100vh;
   width:100vw;
@@ -175,7 +175,6 @@
     display: flex;
     flex-direction: column;
     height:fit-content;
-    overflow:hidden;
   }
 
   .modal-links-container {
@@ -183,7 +182,30 @@
     flex-direction: column;
     width:100%;
     gap: 0.5rem;
-    overflow: auto;
+    overflow: hidden;
+    padding-right: 1rem;
+    padding-bottom:1rem;
+    padding-top:.2rem;
+  }
+
+  .modal-links-container-soundbites{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden;
+    width:100%;
+    gap: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom:1rem;
+    padding-top:.2rem;
+  }
+
+  .modal-links-container-moments{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    gap: 0.5rem;
+    overflow: hidden;
     padding-right: 1rem;
     padding-bottom:1rem;
     padding-top:.2rem;

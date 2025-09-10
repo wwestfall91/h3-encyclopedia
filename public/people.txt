@@ -28,7 +28,7 @@ Attorney Tom	https://attorneytom.com/wp-content/uploads/2022/09/tommy-headshot-o
 Aubrey Smalls	https://s.abcnews.com/images/Entertainment/230713_abcnl_prime_tiktalk_hpMain_16x9_1600.jpg	Enemy
 Austin McBroom	https://www.the-sun.com/wp-content/uploads/sites/6/2020/07/NINTCHDBPICT000597015821.jpg	Enemy
 Ava Kris Tyson	https://static.wikia.nocookie.net/misterbeast/images/8/88/Kris_Tyson_2023.png	Neutral
-Avery	https://pbs.twimg.com/profile_images/1396297782806278146/Uz0vjK3t_400x400.jpg	Family
+Avery	Images\Avery.png	Family
 Awkwafina	https://hips.hearstapps.com/hmg-prod/images/nora-lum-known-by-her-rapper-stage-name-awkwafina-arrives-news-photo-1127183835-1551053830.jpg	Neutral
 Badhasbara	https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/53/1b/ac/531bac57-dc76-6872-d185-505e7e9e12ad/mza_18237388881385300407.jpg/1200x1200bf.webp	Enemy
 Ban Emma Panda	https://pbs.twimg.com/profile_images/1391411330792427523/IF75Piq2_400x400.jpg	Enemy
