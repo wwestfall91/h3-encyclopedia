@@ -17,7 +17,7 @@ Andrew Cuomo	https://upload.wikimedia.org/wikipedia/commons/5/51/Andrew_Cuomo_20
 Andrew Santino	https://ntvb.tmsimg.com/assets/assets/684764_v9_bc.jpg	Friend
 Andrew Schulz	https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Andrew_Schulz_FixBy_James_Tamim.jpeg/640px-Andrew_Schulz_FixBy_James_Tamim.jpeg	Enemy
 Andrew Tate	https://i.kym-cdn.com/entries/icons/original/000/043/388/andrewtateshocked.jpg	Enemy
-Anisa	https://i2.wp.com/hollywoodzam.com/wp-content/uploads/2021/07/Anisa-Jomha-1.jpg	Friend
+Anisa	https://i2.wp.com/hollywoodzam.com/wp-content/uploads/2021/07/Anisa-Jomha-1.jpg	Enemy
 Anthony Fantano	https://the1a.org/wp-content/uploads/sites/4/2020/12/20.12.23-Fantano.jpeg	Friend
 Anthony Padilla	https://static.wikia.nocookie.net/smosh/images/0/08/Anthony_Padilla_2023.png	Neutral
 Anuc	https://happymag.tv/wp-content/uploads/2022/12/Anuc-Atittawan.jpg	Friend
@@ -313,7 +313,7 @@ Roman Atwood	https://upload.wikimedia.org/wikipedia/commons/3/3a/Roman_Atwood_20
 Rosanna Pansino	https://rosannapansino.com/cdn/shop/articles/HFWF_2023_1.png	Friend
 Roseanne Barr	https://tvline.com/wp-content/uploads/2018/07/roseanne-barr-breakdown-video.jpg	Neutral
 RsGloryAndGold	https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/10/twitch-rsgloryandgold.jpg	Friend
-Rudy Giuliani	https://media.newyorker.com/photos/63234a19f3c36e56980f8269/4:3/w_2007h_1505c_limit/220926_r41057.jpg	Enemy
+Rudy Giuliani	https://i.abcnewsfe.com/a/eb91ec5c-b936-4bca-ba5a-920949b7f44e/Rudy-Giuliani-1-ap-gmh-250116_1737037139940_hpMain.jpg	Neutral
 Russell Brand	https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/510934_v9_bc.jpg	Enemy
 Ryan Kavanaugh	https://static01.nyt.com/images/2017/10/15/arts/15academy-2/15academy-articleLarge.jpg?quality=75&auto=webp&disable=upscale	Enemy
 Ryan Reynolds	https://www.hollywoodreporter.com/wp-content/uploads/2021/11/Ryan-Reynolds-Getty-H-2021.jpeg	Neutral
