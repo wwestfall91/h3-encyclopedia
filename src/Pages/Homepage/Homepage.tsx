@@ -193,6 +193,23 @@ function Homepage() {
                   }`}
                 </div>
                 {(getLatestEpisode()?.number as number) - episodeOffset ==
+                  195 && 
+                  <div className="topics">
+                    <HomepagePersonCard person={people.find((x) => x.name == "Boogie2988")!} /* jumpToTime={() => jumpToTime()}*/ />
+                    <HomepagePersonCard person={people.find((x) => x.name == "Keemstar")!} /* jumpToTime={() => jumpToTime()}*/ />
+                    <HomepagePersonCard person={people.find((x) => x.name == "David Dobrik")!} /* jumpToTime={() => jumpToTime()}*/ />
+                    <HomepagePersonCard person={people.find((x) => x.name == "Dating&Money101")!} /* jumpToTime={() => jumpToTime()}*/ />
+                  </div>}
+                {(getLatestEpisode()?.number as number) - episodeOffset ==
+                  194 && <div className="topics">
+                    <HomepagePersonCard person={people.find((x) => x.name == "Adin Ross")!} /* jumpToTime={() => jumpToTime()}*/ />
+                    <HomepagePersonCard person={people.find((x) => x.name == "Boogie2988")!} /* jumpToTime={() => jumpToTime()}*/ />
+                    <HomepagePersonCard person={people.find((x) => x.name == "Keemstar")!} /* jumpToTime={() => jumpToTime()}*/ />
+                    <HomepagePersonCard person={people.find((x) => x.name == "Tai Lopez")!} /* jumpToTime={() => jumpToTime()}*/ />
+                    <HomepagePersonCard person={people.find((x) => x.name == "Machine Gun Kelly")!} /* jumpToTime={() => jumpToTime()}*/ />
+                  </div>}
+
+                {(getLatestEpisode()?.number as number) - episodeOffset ==
                   193 && (
                   <div className="topics">
                     <HomepagePersonCard
