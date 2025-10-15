@@ -44,28 +44,27 @@ export async function getAllSoundbites() {
   return soundbites;
 }
 
-export function getAllPeople() {
+export async function getAllPeople(): Promise<Person[]> {
   let people: Person[] = [];
   try {
-    readFile("../../people.txt").then((x) => {
-      const lines = x.split("\n");
-      lines.shift();
+    const data = await readFile("../../people.txt");
+    const lines = data.split("\n");
+    lines.shift();
 
-      lines?.map((line: string) => {
-        const data = line.split("\t");
-        // people.txt now has columns: Name, Image, Allegiance, Nicknames
-        const name = data[0] || "";
-        const image = data[1] || "";
-        const allegiance = data[2] || "";
-        const nicknamesRaw = data[3] || "";
-        // Nicknames are comma-separated, trim whitespace and ignore empties
-        const nicknames = nicknamesRaw
-          .split(",")
-          .map((n) => n.trim())
-          .filter((n) => n.length > 0);
+    lines?.forEach((line: string) => {
+      const data = line.split("\t");
+      // people.txt now has columns: Name, Image, Allegiance, Nicknames
+      const name = data[0] || "";
+      const image = data[1] || "";
+      const allegiance = data[2] || "";
+      const nicknamesRaw = data[3] || "";
+      // Nicknames are comma-separated, trim whitespace and ignore empties
+      const nicknames = nicknamesRaw
+        .split(",")
+        .map((n) => n.trim())
+        .filter((n) => n.length > 0);
 
-        people.push(new Person(name, image, allegiance, nicknames));
-      });
+      people.push(new Person(name, image, allegiance, nicknames));
     });
   } catch (e) {
     console.log(e);
