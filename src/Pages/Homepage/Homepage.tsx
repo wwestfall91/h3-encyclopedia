@@ -544,8 +544,8 @@ function Homepage() {
         `https://www.youtube.com/watch?v=${target.videoId}`,
         []
       );
-  setPlaylistIndex(targetIndex);
-  setCurrentEpisode(newEpisode);
+      setPlaylistIndex(targetIndex);
+      setCurrentEpisode(newEpisode);
     } catch (e: any) {
       setFetchNextError(e?.message || String(e));
     } finally {
@@ -752,10 +752,14 @@ function Homepage() {
                 <div className="video">
                   {playlistIndex != null && playlistIndex > 0 && (
                     <div
-                      className={`previous-episode-button ${isFetchingNextEpisode ? "disabled" : ""}`}
+                      className={`previous-episode-button ${
+                        isFetchingNextEpisode ? "disabled" : ""
+                      }`}
                       onClick={() => moveInPlaylist("prev")}
                       aria-disabled={isFetchingNextEpisode}
-                      style={{ cursor: isFetchingNextEpisode ? "wait" : "pointer" }}
+                      style={{
+                        cursor: isFetchingNextEpisode ? "wait" : "pointer",
+                      }}
                     >
                       {isFetchingNextEpisode && <span className="spinner" />}
                       {"<"}
@@ -770,7 +774,9 @@ function Homepage() {
                   {playlistIndex != null &&
                     playlistIndex < parsedLength() - 1 && (
                       <div
-                        className={`next-episode-button ${isFetchingNextEpisode ? "disabled" : ""}`}
+                        className={`next-episode-button ${
+                          isFetchingNextEpisode ? "disabled" : ""
+                        }`}
                         onClick={() => moveInPlaylist("next")}
                         style={{
                           cursor: isFetchingNextEpisode ? "wait" : "pointer",
