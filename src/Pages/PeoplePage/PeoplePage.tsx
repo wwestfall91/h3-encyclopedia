@@ -26,13 +26,6 @@ function PeoplePage() {
   const itemsPerPage = 20;
   const observer = useRef<IntersectionObserver>();
 
-  // Debug logging
-  useEffect(() => {
-    console.log("People data loaded:", people?.length);
-    console.log("Current page:", page);
-    console.log("Visible people count:", visiblePeople?.length);
-  }, [people, page, visiblePeople]);
-
   // Reset pagination when search changes
   useEffect(() => {
     setPage(1);
@@ -46,7 +39,6 @@ function PeoplePage() {
       return;
     }
 
-    console.log("Initializing with people:", people.length);
     const filtered = people.filter((p) =>
       p.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
@@ -55,7 +47,6 @@ function PeoplePage() {
     // Load items up to current page
     const itemsToLoad = page * itemsPerPage;
     const currentItems = filtered.slice(0, itemsToLoad);
-    console.log(`Loading ${currentItems.length} items for page ${page}`);
     setVisiblePeople(currentItems);
     setHasMore(filtered.length > itemsToLoad);
   }, [people, searchTerm, page, itemsPerPage]);
