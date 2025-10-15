@@ -16,7 +16,10 @@ export function CrewPage() {
   function HandleCrewClick(crewName: string) {
     setIsSelecting(false);
     setSelectedContainer(
-      <CrewMemberComponent crewName={crewName} onReturnClickCallback={HandleReturnClick} />
+      <CrewMemberComponent
+        crewName={crewName}
+        onReturnClickCallback={HandleReturnClick}
+      />
     );
   }
 
@@ -29,56 +32,56 @@ export function CrewPage() {
     <>
       <Coffee></Coffee>
       <div id="CrewPage">
-          {isSelecting && (
-            <div className="crew-page">
-              <>
-                <h1>CREW</h1>
-                <div className="crew-page-grid">
-                    <CustomCard1
-                      title={"Dan"}
-                      image={AllCrewAssets.Dan.UniformDan}
-                      onClickCallback={() => HandleCrewClick("Dan")}
-                      comingSoon={false}
-                    />
-                    <CustomCard1
-                      title={"Love"}
-                      image={AllCrewAssets.Love.UniformLove}
-                      onClickCallback={() => HandleCrewClick("Love")}
-                      comingSoon={false}
-                    />
-                    <CustomCard1
-                      title={"Zach"}
-                      image={AllCrewAssets.Zach.UniformZach}
-                      onClickCallback={() => HandleCrewClick("Zach")}
-                      comingSoon={false}
-                    />
-                    <CustomCard1
-                      title={"Olivia"}
-                      image={AllCrewAssets.Olivia.UniformOlivia}
-                      onClickCallback={() => HandleCrewClick("Olivia")}
-                      comingSoon={false}
-                    />
-                    <CustomCard1
-                      title={"AB"}
-                      image={AllCrewAssets.AB.UniformAB}
-                      onClickCallback={() => {}}
-                      comingSoon={true}
-                    />
-                    <CustomCard1
-                      title={"Lena"}
-                      image={AllCrewAssets.Lena.UniformLena}
-                      onClickCallback={() => {}}
-                      comingSoon={true}
-                    />
-                    <CustomCard1
-                      title={"Nate"}
-                      image="https://static.wikia.nocookie.net/h3podcast/images/6/65/Download.jpg"
-                      onClickCallback={() => {}}
-                      comingSoon={true}
-                    />
-                </div>
-              </>
-              {/* <>
+        {isSelecting && (
+          <div className="crew-page">
+            <>
+              <h1>CREW</h1>
+              <div className="crew-page-grid">
+                <CustomCard1
+                  title={"Dan"}
+                  image={AllCrewAssets.Dan.UniformDan}
+                  onClickCallback={() => HandleCrewClick("Dan")}
+                  comingSoon={false}
+                />
+                <CustomCard1
+                  title={"Love"}
+                  image={AllCrewAssets.Love.UniformLove}
+                  onClickCallback={() => HandleCrewClick("Love")}
+                  comingSoon={false}
+                />
+                <CustomCard1
+                  title={"Zach"}
+                  image={AllCrewAssets.Zach.UniformZach}
+                  onClickCallback={() => HandleCrewClick("Zach")}
+                  comingSoon={false}
+                />
+                <CustomCard1
+                  title={"Olivia"}
+                  image={AllCrewAssets.Olivia.UniformOlivia}
+                  onClickCallback={() => HandleCrewClick("Olivia")}
+                  comingSoon={false}
+                />
+                <CustomCard1
+                  title={"AB"}
+                  image={AllCrewAssets.AB.UniformAB}
+                  onClickCallback={() => {}}
+                  comingSoon={true}
+                />
+                <CustomCard1
+                  title={"Lena"}
+                  image={AllCrewAssets.Lena.UniformLena}
+                  onClickCallback={() => {}}
+                  comingSoon={true}
+                />
+                <CustomCard1
+                  title={"Nate"}
+                  image="https://static.wikia.nocookie.net/h3podcast/images/6/65/Download.jpg"
+                  onClickCallback={() => {}}
+                  comingSoon={true}
+                />
+              </div>
+            </>
+            {/* <>
                 <h1>HONORARY CREW</h1>
                 <div className="crew-page-grid">
                     <CustomCard1
@@ -101,7 +104,7 @@ export function CrewPage() {
                     />
                 </div>
               </> */}
-              <>
+            {/* <>
                 <h1>SOMETIMES I JUST MISS MY OLD FRIENDS</h1>
                 <div className="crew-page-grid">
                   <CustomCard1
@@ -123,9 +126,9 @@ export function CrewPage() {
                     comingSoon={true}
                   />
                 </div>
-              </>
-            </div>
-          )}
+              </> */}
+          </div>
+        )}
         {!isSelecting && selectedContainer}
       </div>
     </>

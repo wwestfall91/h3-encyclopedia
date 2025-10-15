@@ -1,15 +1,12 @@
 import { useDataContext } from "../../context/DataContext";
 import "./Homepage.scss";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import YouTube, { YouTubeEvent, YouTubePlayer } from "react-youtube";
 import SummerBreakSection from "./SummerBreak";
 import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/GeneralFeedbackModal";
 import PsychologyInSeattleSection from "./PsychologyInSeattleSection";
 import HomepagePersonCard from "./HomepagePersonCard";
-import TopicCard from "../Topics/TopicCard";
-import MomentCard from "../Generic Cards/MomentCard";
-import { EpisodeType } from "../../models/enums/EpisodeType";
 import { Episode } from "../../models/Episode";
 
 function Homepage() {
@@ -19,20 +16,37 @@ function Homepage() {
   const [breakTabSelected, setBreakTabSelected] = useState<boolean>(false);
   const [psychologySelected, setPsychologySelected] = useState<boolean>(false);
   const [showEmailModal, setShowEmailModal] = useState<boolean>(false);
-  const [episodeOffset, setEpisodeOffset] = useState<number>(0);
+  // static offset currently unused as a stateful setter; keep as const to avoid unused state warning
+  const episodeOffset = 0;
   const [isMobile, setIsMobile] = useState(false);
   const [currentEpisode, setCurrentEpisode] = useState<Episode>();
 
-  useEffect(() => {
-    const episode = getEpisodeByNumber(193 - episodeOffset);
-    setCurrentEpisode(episode);
-  }, [episodeOffset, episodes]);
+  // useEffect(() => {
+  //   const episode = getEpisodeByNumber(198 - episodeOffset);
+  //   setCurrentEpisode(episode);
+  // }, [episodeOffset, episodes]);
 
-  useEffect(() => {
-    if (player && currentEpisode) {
-      player.cueVideoById(currentEpisode.getVideoId());
-    }
-  }, [currentEpisode]);
+  // useEffect(() => {
+  //   if (!player || !currentEpisode) return;
+  //   try {
+  //     // Ensure the underlying iframe is present and has a src before posting messages to it.
+  //     const getIframe = (player as any).getIframe;
+  //     const iframe =
+  //       typeof getIframe === "function" ? getIframe.call(player) : null;
+  //     const src = iframe?.src;
+  //     if (!src) {
+  //       // iframe not ready yet; skip cue for now. It will be safe to cue later when the player emits onReady.
+  //       return;
+  //     }
+  //     player.cueVideoById(currentEpisode.getVideoId());
+  //   } catch (e) {
+  //     // Swallow errors to avoid crashing the whole app; surface to console for debugging.
+  //     // The YouTube widget can throw if the internal iframe isn't fully initialised yet.
+  //     // We'll avoid disrupting the UI and allow onReady to set the player when it's available.
+  //     // eslint-disable-next-line no-console
+  //     console.error("Failed to cue video:", e);
+  //   }
+  // }, [currentEpisode, player]);
 
   useEffect(() => {
     const handleResize = () => {
@@ -45,7 +59,7 @@ function Homepage() {
     return () => window.removeEventListener("resize", handleResize); // Clean up
   }, [people.length]);
 
-  const getLatestEpisode = () => {
+  function getLatestEpisode() {
     if (episodes.length <= 0) return;
 
     const episodesByDate = episodes.sort((a, b) => {
@@ -54,15 +68,15 @@ function Homepage() {
       return dateA.getTime() - dateB.getTime();
     });
     return episodesByDate[episodesByDate.length - 1];
-  };
+  }
 
-  const getEpisodeByNumber = (episodeNumber: number) => {
-    return episodes.find(
-      (x) =>
-        x.number == episodeNumber &&
-        x.type.toString() == EpisodeType[EpisodeType.H3Show]
-    );
-  };
+  // const getEpisodeByNumber = (episodeNumber: number) => {
+  //   return episodes.find(
+  //     (x) =>
+  //       x.number == episodeNumber &&
+  //       x.type.toString() == EpisodeType[EpisodeType.H3Show]
+  //   );
+  // };
 
   // @ts-ignore
   const getEpisodeByTitle = (title: string) => {
@@ -72,16 +86,584 @@ function Homepage() {
   };
 
   const onReady = (event: YouTubeEvent<number>) => {
-    setPlayer(event.target);
+    const target = event.target;
+    setPlayer(target);
+    // Try to cue the current episode now that the player is ready.
+    try {
+      const getIframe = (target as any).getIframe;
+      const iframe =
+        typeof getIframe === "function" ? getIframe.call(target) : null;
+      const src = iframe?.src;
+      if (src && currentEpisode) {
+        try {
+          target.cueVideoById(currentEpisode.getVideoId());
+        } catch (e) {
+          // eslint-disable-next-line no-console
+          console.error("onReady: failed to cue currentEpisode:", e);
+        }
+      }
+    } catch (e) {
+      // eslint-disable-next-line no-console
+      console.error("onReady: iframe check failed:", e);
+    }
   };
 
   // @ts-ignore
   const jumpToTime = (seconds: number) => {
-    if (player) {
+    if (!player) return;
+    try {
+      const getIframe = (player as any).getIframe;
+      const iframe =
+        typeof getIframe === "function" ? getIframe.call(player) : null;
+      const src = iframe?.src;
+      if (!src) return;
       player.seekTo(seconds, true);
       player.playVideo();
+    } catch (e) {
+      // eslint-disable-next-line no-console
+      console.error("Failed to jumpToTime:", e);
     }
   };
+
+  // --- Video description timestamps ---
+  const [videoTimestamps, setVideoTimestamps] = useState<
+    { label: string; seconds: number }[]
+  >([]);
+  // We still store parsed timestamps for matching people and render them in the UI
+  // timestamp UI removed; keep parsed timestamps for matching but no loading/error state
+
+  const parseTimeStringToSeconds = (timeStr: string) => {
+    const parts = timeStr.split(":").map((p) => Number(p));
+    if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+    if (parts.length === 2) return parts[0] * 60 + parts[1];
+    return NaN;
+  };
+
+  const parseTimestampsFromDescription = (desc: string) => {
+    const results: { label: string; seconds: number }[] = [];
+    if (!desc) return results;
+    const lineRegex =
+      /(^|\n)\s*(?:-\s*)?(\d{1,2}:\d{2}(?::\d{2})?)\s*(?:[-–—:\t]{1,3})?\s*(.*?)(?=\n|$)/g;
+    let m: RegExpExecArray | null;
+    while ((m = lineRegex.exec(desc)) !== null) {
+      const timeStr = m[2];
+      const rest = (m[3] || "").trim();
+      const seconds = parseTimeStringToSeconds(timeStr);
+      if (!isNaN(seconds)) {
+        results.push({ label: rest || timeStr, seconds });
+      }
+    }
+
+    if (results.length === 0) {
+      const inlineRegex = /(\d{1,2}:\d{2}(?::\d{2})?)/g;
+      const matches = Array.from(desc.matchAll(inlineRegex)).map((x) => x[0]);
+      for (const t of matches) {
+        const seconds = parseTimeStringToSeconds(t);
+        if (!isNaN(seconds)) results.push({ label: t, seconds });
+      }
+    }
+
+    return results;
+  };
+
+  useEffect(() => {
+    const loadTimestamps = async () => {
+      setVideoTimestamps([]);
+      if (!currentEpisode) return;
+      const videoId = currentEpisode.getVideoId();
+      if (!videoId) return;
+      const YOUTUBE_API_KEY = (import.meta as any).env?.VITE_YOUTUBE_API_KEY;
+      if (!YOUTUBE_API_KEY) {
+        // API key missing, leave timestamps empty
+        return;
+      }
+      try {
+        const url = `https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${videoId}&key=${YOUTUBE_API_KEY}`;
+        const res = await fetch(url);
+        const txt = await res.text();
+        if (!res.ok)
+          throw new Error(`YouTube videos API returned ${res.status} - ${txt}`);
+        const data = JSON.parse(txt || "{}");
+        const items = data.items || [];
+        const desc = items[0]?.snippet?.description || "";
+        const parsed = parseTimestampsFromDescription(desc);
+        setVideoTimestamps(parsed);
+      } catch (err: any) {
+        // keep timestamps empty on error; log for debugging
+        // eslint-disable-next-line no-console
+        console.error("loadTimestamps error:", err);
+      } finally {
+        // no-op
+      }
+    };
+
+    loadTimestamps();
+  }, [currentEpisode]);
+
+  const [isFetchingNextEpisode, setIsFetchingNextEpisode] = useState(false);
+  const [fetchNextError, setFetchNextError] = useState<string | null>(null);
+  // Strict navigation lock: only allow one navigation at a time
+  const navigatingRef = useRef(false);
+  type PlaylistItem = {
+    videoId: string;
+    title: string;
+    publishAt: string;
+    position: number;
+    isPublic?: boolean;
+  };
+  const [playlistItems, setPlaylistItems] = useState<PlaylistItem[]>([]);
+  const [playlistIndex, setPlaylistIndex] = useState<number | null>(null);
+
+  // const parseEpisodeNumberFromTitle = (title: string): number | null => {
+  //   if (!title) return null;
+  //   // Try common patterns like "H3 Podcast #123" or "#123" or "Episode 123"
+  //   const regexes = [
+  //     /H3 Podcast\s*#\s*(\d+)/i,
+  //     /#\s*(\d{1,4})/,
+  //     /Episode\s*(\d{1,4})/i,
+  //   ];
+  //   for (const r of regexes) {
+  //     const m = title.match(r);
+  //     if (m && m[1]) return Number(m[1]);
+  //   }
+  //   return null;
+  // };
+
+  const loadPlaylistFromYouTube = async (): Promise<{
+    parsed: PlaylistItem[];
+    idx: number;
+  } | null> => {
+    const YOUTUBE_API_KEY = (import.meta as any).env?.VITE_YOUTUBE_API_KEY;
+    const H3_PLAYLIST_ID =
+      (import.meta as any).env?.VITE_H3_PLAYLIST_ID ||
+      "PLvcSNZqNYJCn_rVbHeJ0SrxQ4oDrlUlbr"; // fallback to requested playlist
+
+    const TEST_VIDEO_ID = (import.meta as any).env?.VITE_TEST_VIDEO_ID;
+
+    try {
+      setIsFetchingNextEpisode(true);
+      setFetchNextError(null);
+
+      // Quick local fallback for testing a specific video id (avoid API usage)
+      if (TEST_VIDEO_ID) {
+        const newEpisode = new Episode(
+          "H3Show",
+          0,
+          new Date().toISOString(),
+          "Test video",
+          `https://www.youtube.com/watch?v=${TEST_VIDEO_ID}`,
+          []
+        );
+        const parsed = [
+          {
+            videoId: TEST_VIDEO_ID,
+            title: "Test video",
+            publishAt: new Date().toISOString(),
+            position: 0,
+          },
+        ];
+        setPlaylistItems(parsed);
+        setPlaylistIndex(0);
+        setCurrentEpisode(newEpisode);
+        return { parsed, idx: 0 };
+      }
+
+      if (!YOUTUBE_API_KEY) {
+        throw new Error("Missing VITE_YOUTUBE_API_KEY");
+      }
+
+      // Paginate through playlistItems (50 per page)
+      let allItems: any[] = [];
+      let pageToken: string | undefined = undefined;
+      do {
+        const tokenPart = pageToken ? `&pageToken=${pageToken}` : "";
+        const playlistUrl = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&playlistId=${H3_PLAYLIST_ID}&maxResults=50${tokenPart}&key=${YOUTUBE_API_KEY}`;
+        const res = await fetch(playlistUrl);
+        const txt = await res.text();
+        if (!res.ok)
+          throw new Error(
+            `YouTube playlist API returned ${res.status} - ${txt}`
+          );
+        const data = JSON.parse(txt || "{}");
+        const items = data.items || [];
+        allItems.push(...items);
+        pageToken = data.nextPageToken;
+      } while (pageToken);
+
+      if (allItems.length === 0) throw new Error("Playlist returned no videos");
+
+      let parsed: PlaylistItem[] = allItems
+        .map((it: any) => {
+          const videoId = it.snippet?.resourceId?.videoId;
+          const title = it.snippet?.title || "";
+          const publishAt =
+            it.contentDetails?.videoPublishedAt ||
+            it.snippet?.publishedAt ||
+            new Date().toISOString();
+          const position =
+            typeof it.snippet?.position === "number" ? it.snippet.position : 0;
+          return { videoId, title, publishAt, position };
+        })
+        .filter((p: any) => p.videoId)
+        .sort((a: any, b: any) => a.position - b.position);
+
+      // Batch Videos API calls (50 ids per request)
+      const ids = parsed.map((p) => p.videoId);
+      const chunkSize = 50;
+      const publicIds = new Set<string>();
+      const blockedPatterns = [
+        "private video",
+        "deleted video",
+        "video unavailable",
+        "unavailable",
+        "synw",
+        "synt",
+      ];
+
+      try {
+        for (let i = 0; i < ids.length; i += chunkSize) {
+          const chunk = ids.slice(i, i + chunkSize);
+          const idList = chunk.join(",");
+          const videosUrl = `https://www.googleapis.com/youtube/v3/videos?part=status&id=${idList}&key=${YOUTUBE_API_KEY}`;
+          const vidsRes = await fetch(videosUrl);
+          const vidsTxt = await vidsRes.text();
+          if (!vidsRes.ok)
+            throw new Error(
+              `YouTube videos API returned ${vidsRes.status} - ${vidsTxt}`
+            );
+          const vidsData = JSON.parse(vidsTxt || "{}");
+          const vidsItems = vidsData.items || [];
+          vidsItems.forEach((v: any) => {
+            const id = v.id;
+            const privacy = v.status?.privacyStatus;
+            if (privacy === "public") publicIds.add(id);
+          });
+        }
+
+        // Keep only public ids and mark them
+        parsed = parsed
+          .map((p) => ({ ...p, isPublic: publicIds.has(p.videoId) }))
+          .filter((p) => p.isPublic);
+
+        // Also apply title heuristics as a safety net
+        parsed = parsed.filter((p) => {
+          const t = (p.title || "").toLowerCase();
+          for (const pat of blockedPatterns) if (t.includes(pat)) return false;
+          return true;
+        });
+
+        // If everything got filtered out unexpectedly, fall back to heuristic filtering on allItems
+        if (parsed.length === 0 && allItems.length > 0) {
+          parsed = allItems
+            .map((it: any) => ({
+              videoId: it.snippet?.resourceId?.videoId,
+              title: it.snippet?.title || "",
+              publishAt:
+                it.contentDetails?.videoPublishedAt ||
+                it.snippet?.publishedAt ||
+                new Date().toISOString(),
+              position:
+                typeof it.snippet?.position === "number"
+                  ? it.snippet.position
+                  : 0,
+              isPublic: true, // heuristically allowed
+            }))
+            .filter((p: any) => p.videoId)
+            .filter((p: PlaylistItem) => {
+              const t = (p.title || "").toLowerCase();
+              for (const pat of blockedPatterns)
+                if (t.includes(pat)) return false;
+              return true;
+            })
+            .sort((a: any, b: any) => a.position - b.position);
+        }
+      } catch (vidErr: any) {
+        // If videos API fails, fall back to the simpler heuristic filtering
+        parsed = parsed.filter((p: PlaylistItem) => {
+          const t = (p.title || "").toLowerCase();
+          for (const pat of blockedPatterns) if (t.includes(pat)) return false;
+          return true;
+        });
+        setFetchNextError(
+          `Videos API check failed: ${vidErr?.message || String(vidErr)}`
+        );
+      }
+
+      if (parsed.length === 0)
+        throw new Error("Playlist contained no public videos after filtering");
+
+      setPlaylistItems(parsed);
+
+      // Determine current index by matching currentEpisode videoId
+      const currentVideoId = currentEpisode?.getVideoId();
+      let idx = -1;
+      if (currentVideoId)
+        idx = parsed.findIndex((p) => p.videoId === currentVideoId);
+      if (idx === -1) idx = 0;
+
+      const target = parsed[idx];
+      const newEpisode = new Episode(
+        "H3Show",
+        0,
+        target.publishAt,
+        target.title,
+        `https://www.youtube.com/watch?v=${target.videoId}`,
+        []
+      );
+
+      setPlaylistIndex(idx);
+      setCurrentEpisode(newEpisode);
+      return { parsed, idx };
+    } catch (err: any) {
+      setFetchNextError(err?.message || String(err));
+    } finally {
+      setIsFetchingNextEpisode(false);
+    }
+    return null;
+  };
+
+  // Load playlist once on mount so the player starts at the latest playlist episode
+  useEffect(() => {
+    loadPlaylistFromYouTube();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  // Only allow one navigation at a time; wait for API and UI to update before allowing another
+  const moveInPlaylist = async (direction: "next" | "prev") => {
+    if (navigatingRef.current) return;
+    navigatingRef.current = true;
+    setIsFetchingNextEpisode(true);
+    let timeoutId: any = null;
+    // Failsafe: release lock after 10 seconds no matter what
+    timeoutId = setTimeout(() => {
+      navigatingRef.current = false;
+      setIsFetchingNextEpisode(false);
+      setFetchNextError("Navigation timed out. Please try again.");
+    }, 10000);
+    try {
+      setFetchNextError(null);
+
+      // If playlist not loaded yet, load it and then compute the navigation target
+      if (playlistItems.length === 0) {
+        const res = await loadPlaylistFromYouTube();
+        if (!res) return;
+        const parsed = res.parsed as PlaylistItem[];
+        const loadedIdx = res.idx ?? 0;
+        const len = parsed.length;
+        // Skip any non-playable items (members-only/private) when moving
+        const blockedPatterns = [
+          "members only",
+          "members-only",
+          "membersonly",
+          "private video",
+          "deleted video",
+          "video unavailable",
+          "unavailable",
+        ];
+
+        const isPlayable = (p: PlaylistItem | undefined) => {
+          if (!p) return false;
+          if (p.isPublic === false) return false;
+          const t = (p.title || "").toLowerCase();
+          for (const pat of blockedPatterns) if (t.includes(pat)) return false;
+          return true;
+        };
+
+        let finalIndex = loadedIdx;
+        if (direction === "next") {
+          let j = Math.min(len - 1, loadedIdx + 1);
+          while (j <= len - 1 && !isPlayable(parsed[j])) j++;
+          if (j > len - 1) return; // no playable next
+          finalIndex = j;
+        } else {
+          let j = Math.max(0, loadedIdx - 1);
+          while (j >= 0 && !isPlayable(parsed[j])) j--;
+          if (j < 0) return; // no playable prev
+          finalIndex = j;
+        }
+
+        const target = parsed[finalIndex];
+        if (target) {
+          const newEpisode = new Episode(
+            "H3Show",
+            0,
+            target.publishAt,
+            target.title,
+            `https://www.youtube.com/watch?v=${target.videoId}`,
+            []
+          );
+          setPlaylistIndex(finalIndex);
+          setCurrentEpisode(newEpisode);
+        }
+        return;
+      }
+
+      if (playlistIndex == null) return;
+      const last = parsedLength() - 1;
+      let targetIndex = playlistIndex;
+
+      const blockedPatterns = [
+        "members only",
+        "members-only",
+        "membersonly",
+        "private video",
+        "deleted video",
+        "video unavailable",
+        "unavailable",
+        "synw",
+        "synt",
+      ];
+
+      const isPlayable = (p: PlaylistItem | undefined) => {
+        if (!p) return false;
+        if (p.isPublic === false) return false;
+        const t = (p.title || "").toLowerCase();
+        for (const pat of blockedPatterns) if (t.includes(pat)) return false;
+        return true;
+      };
+
+      if (direction === "next") {
+        let j = Math.min(last, (playlistIndex ?? 0) + 1);
+        while (j <= last && !isPlayable(playlistItems[j])) j++;
+        if (j > last) return; // nothing playable ahead
+        targetIndex = j;
+      } else {
+        let j = Math.max(0, (playlistIndex ?? 0) - 1);
+        while (j >= 0 && !isPlayable(playlistItems[j])) j--;
+        if (j < 0) return; // nothing playable behind
+        targetIndex = j;
+      }
+
+      if (targetIndex === playlistIndex) return; // nothing to do
+      const target = playlistItems[targetIndex];
+      if (!target) return;
+      const newEpisode = new Episode(
+        "H3Show",
+        0,
+        target.publishAt,
+        target.title,
+        `https://www.youtube.com/watch?v=${target.videoId}`,
+        []
+      );
+  setPlaylistIndex(targetIndex);
+  setCurrentEpisode(newEpisode);
+    } catch (e: any) {
+      setFetchNextError(e?.message || String(e));
+    } finally {
+      if (timeoutId) clearTimeout(timeoutId);
+      navigatingRef.current = false;
+      setIsFetchingNextEpisode(false);
+    }
+  };
+
+  const parsedLength = () => playlistItems.length;
+
+  // Build matched person cards from parsed timestamps (memoized)
+  const escapeRegExp = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+  const normalizeForMatch = (s: string) =>
+    String(s)
+      .normalize("NFKD")
+      .replace(/[\p{Diacritic}]/gu, "")
+      .replace(/[^\p{L}\p{N}]+/gu, " ") // replace non letters/numbers with space
+      .replace(/\s+/g, " ")
+      .trim()
+      .toLowerCase();
+
+  const matchedPersonCards = useMemo(() => {
+    const cards: JSX.Element[] = [];
+    if (!people || people.length === 0) return cards;
+
+    // If there are no parsed timestamps, fall back to searching the episode title
+    const labelsToSearch =
+      videoTimestamps && videoTimestamps.length > 0
+        ? videoTimestamps
+        : currentEpisode && currentEpisode.title
+        ? [{ label: currentEpisode.title, seconds: 0 }]
+        : [];
+
+    if (labelsToSearch.length === 0) return cards;
+
+    const map = new Map<string, { person: any; seconds: number }>();
+    const ppl = people || [];
+
+    // Exclude these common keywords from generating person cards
+    const excludedRaw = [
+      "Ethan",
+      "Hila",
+      "Dan",
+      "Love",
+      "Zach",
+      "Olivia",
+      "Sam",
+    ];
+    const excluded = new Set(excludedRaw.map((s) => normalizeForMatch(s)));
+    for (const t of labelsToSearch) {
+      const rawLabel = t.label || "";
+      const normLabel = normalizeForMatch(rawLabel);
+      for (const p of ppl) {
+        if (!p || !p.name) continue;
+        const pname = String(p.name);
+        // Extract parenthetical parts as separate keyword variants
+        const parenMatches = Array.from(pname.matchAll(/\(([^)]+)\)/g)).map(
+          (m) => m[1]
+        );
+        // Main name is the portion outside parentheses
+        const mainName = pname.replace(/\s*\([^)]*\)\s*/g, " ").trim();
+        // Collect nicknames from person object if present
+        const rawNicknames: string[] =
+          p.nicknames && Array.isArray(p.nicknames) ? p.nicknames : [];
+        // Use the full main name, full parenthetical variants, and any nicknames (no first-token fallbacks)
+        const variants = [mainName, ...parenMatches, ...rawNicknames].filter(
+          Boolean
+        );
+        for (const variant of variants) {
+          const normVariant = normalizeForMatch(variant);
+          if (!normVariant) continue;
+          if (excluded.has(normVariant)) continue; // skip excluded keywords
+          try {
+            // Allow optional trailing 's (possessive/plural) unless the variant already ends with s
+            const tail = normVariant.endsWith("s") ? "" : "(?:s)?";
+            const re = new RegExp(
+              "\\b" + escapeRegExp(normVariant) + tail + "\\b",
+              "i"
+            );
+            if (re.test(normLabel)) {
+              const existing = map.get(p.name);
+              if (!existing || t.seconds < existing.seconds) {
+                map.set(p.name, { person: p, seconds: t.seconds });
+              }
+              break; // variant matched; no need to test other variants for this person
+            }
+          } catch (e) {
+            // eslint-disable-next-line no-console
+            console.error(
+              "Regex error for normalized person variant:",
+              variant,
+              e
+            );
+          }
+        }
+      }
+    }
+
+    const arr = Array.from(map.values());
+    for (const m of arr) {
+      cards.push(
+        <HomepagePersonCard
+          key={m.person.name}
+          person={m.person}
+          jumpToTime={() => jumpToTime(m.seconds)}
+        />
+      );
+    }
+    return cards;
+    // include jumpToTime and currentEpisode in deps so function references are fresh when they change
+  }, [videoTimestamps, people, jumpToTime, currentEpisode]);
+
+  // Quiet unused-variable warnings in some build configurations by referencing these values
+  // (they are intentionally used in JSX; this ensures TypeScript doesn't tree-shake them)
+  void episodeOffset;
+  void getLatestEpisode;
 
   const divStyle = {
     display: "flex",
@@ -163,12 +745,19 @@ function Homepage() {
             )}
             <div className="page-container">
               <div className="video-container">
+                {/* Current video title header */}
+                <div className="current-video-title">
+                  <h5>{currentEpisode?.title ?? "Loading video..."}</h5>
+                </div>
                 <div className="video">
-                  {episodeOffset != 0 && (
+                  {playlistIndex != null && playlistIndex > 0 && (
                     <div
-                      className="previous-episode-button"
-                      onClick={() => setEpisodeOffset(episodeOffset - 1)}
+                      className={`previous-episode-button ${isFetchingNextEpisode ? "disabled" : ""}`}
+                      onClick={() => moveInPlaylist("prev")}
+                      aria-disabled={isFetchingNextEpisode}
+                      style={{ cursor: isFetchingNextEpisode ? "wait" : "pointer" }}
                     >
+                      {isFetchingNextEpisode && <span className="spinner" />}
                       {"<"}
                     </div>
                   )}
@@ -178,1222 +767,30 @@ function Homepage() {
                     onReady={onReady}
                     style={divStyle}
                   />
-                  <div
-                    className="next-episode-button"
-                    onClick={() => setEpisodeOffset(episodeOffset + 1)}
-                  >
-                    {">"}
-                  </div>
+                  {playlistIndex != null &&
+                    playlistIndex < parsedLength() - 1 && (
+                      <div
+                        className={`next-episode-button ${isFetchingNextEpisode ? "disabled" : ""}`}
+                        onClick={() => moveInPlaylist("next")}
+                        style={{
+                          cursor: isFetchingNextEpisode ? "wait" : "pointer",
+                        }}
+                        aria-disabled={isFetchingNextEpisode}
+                      >
+                        {isFetchingNextEpisode && <span className="spinner" />}
+                        {isFetchingNextEpisode ? "Searching..." : ">"}
+                      </div>
+                    )}
                 </div>
               </div>
+              {fetchNextError && (
+                <div className="next-episode-error">{fetchNextError}</div>
+              )}
+              {/* Timestamps removed from UI per user request */}
               <div className="topics-container">
-                <div className="topics-title">
-                  {`GOOFS & GAFFS FROM H3 SHOW #${
-                    (getLatestEpisode()?.number as number) - episodeOffset
-                  }`}
-                </div>
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  195 && 
-                  <div className="topics">
-                    <HomepagePersonCard person={people.find((x) => x.name == "Boogie2988")!} /* jumpToTime={() => jumpToTime()}*/ />
-                    <HomepagePersonCard person={people.find((x) => x.name == "Keemstar")!} /* jumpToTime={() => jumpToTime()}*/ />
-                    <HomepagePersonCard person={people.find((x) => x.name == "David Dobrik")!} /* jumpToTime={() => jumpToTime()}*/ />
-                    <HomepagePersonCard person={people.find((x) => x.name == "Dating&Money101")!} /* jumpToTime={() => jumpToTime()}*/ />
-                  </div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  194 && <div className="topics">
-                    <HomepagePersonCard person={people.find((x) => x.name == "Adin Ross")!} /* jumpToTime={() => jumpToTime()}*/ />
-                    <HomepagePersonCard person={people.find((x) => x.name == "Boogie2988")!} /* jumpToTime={() => jumpToTime()}*/ />
-                    <HomepagePersonCard person={people.find((x) => x.name == "Keemstar")!} /* jumpToTime={() => jumpToTime()}*/ />
-                    <HomepagePersonCard person={people.find((x) => x.name == "Tai Lopez")!} /* jumpToTime={() => jumpToTime()}*/ />
-                    <HomepagePersonCard person={people.find((x) => x.name == "Machine Gun Kelly")!} /* jumpToTime={() => jumpToTime()}*/ />
-                  </div>}
-
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  193 && (
-                  <div className="topics">
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "iDubbbz")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={
-                        people.find((x) => x.name == "Harley Morenstein")!
-                      }
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <MomentCard
-                      moment={
-                        moments.find((x) => x.title == "The Denny's Incident")!
-                      }
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  192 && (
-                  <div className="topics">
-                    {/* <HomepagePersonCard
-                      person={people.find((x) => x.name == "Dad")!}
-                      // jumpToTime={() => jumpToTime()}
-                    /> */}
-                    {/* <HomepagePersonCard
-                      person={people.find((x) => x.name == "Uncle Gabe")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "XQC")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Try Guys")!}
-                      // jumpToTime={() => jumpToTime()}
-                    /> */}
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  191 && (
-                  <div className="topics">
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "XQC")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "KaceyTron")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Denims")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Try Guys")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  190 && (
-                  <div className="topics">
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Uncle Gabe")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Noah Samsen")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "iDubbbz")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Anisa")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  189 && (
-                  <div className="topics">
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Charlie Kirk")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Galya")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Tom Ward")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "iDubbbz")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  188 && (
-                  <div className="topics">
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Big Nik")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Logan Paul")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Donald Trump")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Dating&Money101")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  187 && (
-                  <div className="topics">
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Uncle Gabe")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Kai Cenat")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "ProJared")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Austin McBroom")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Gary Vee")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Keemstar")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Rudy Giuliani")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "RFK Jr")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  186 && (
-                  <div className="topics">
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Donald Trump")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "The Rock")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={
-                        people.find((x) => x.name == "Catherine Paiz-McBroom")!
-                      }
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Dating&Money101")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "iDubbbz")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  185 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  184 && (
-                  <div className="topics">
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Drake")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Dan Clancy")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Owen Cook")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Boogie2988")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Keemstar")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Pokimane")!}
-                      // jumpToTime={() => jumpToTime()}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  183 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  182 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  181 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  180 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  179 && (
-                  <div className="topics">
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Tom Ward")!}
-                      jumpToTime={() => jumpToTime(20)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "The Rizzler")!}
-                      jumpToTime={() => jumpToTime(2395)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Dan Clancy")!}
-                      jumpToTime={() => jumpToTime(340)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Keemstar")!}
-                      jumpToTime={() => jumpToTime(2160)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Boogie2988")!}
-                      jumpToTime={() => jumpToTime(2160)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Fresh and Fit")!}
-                      jumpToTime={() => jumpToTime(2520)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Hasan Piker")!}
-                      jumpToTime={() => jumpToTime(6140)}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  178 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  177 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  176 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  175 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  174 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  173 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  172 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  171 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  170 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  169 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  168 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  167 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  166 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  165 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  164 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  163 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  162 && (
-                  <div className="topics">
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Avery")!}
-                      jumpToTime={() => jumpToTime(80)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Denims")!}
-                      jumpToTime={() => jumpToTime(5720)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Frogan")!}
-                      jumpToTime={() => jumpToTime(6180)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "KaceyTron")!}
-                      jumpToTime={() => jumpToTime(6300)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Hasan Piker")!}
-                      jumpToTime={() => jumpToTime(10440)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "XQC")!}
-                      jumpToTime={() => jumpToTime(12550)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Keemstar")!}
-                      jumpToTime={() => jumpToTime(11630)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Boogie2988")!}
-                      jumpToTime={() => jumpToTime(11630)}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  161 && (
-                  <div className="topics">
-                    <TopicCard
-                      outlineColor="Yellow"
-                      image={"https://i.ytimg.com/vi/3yAiuEyJF-I/hq720.jpg"}
-                      headerText={"H3H3Productions"}
-                      description={"Check out Ethan's Latest Video!"}
-                      url={"https://youtu.be/3yAiuEyJF-I"}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Denims")!}
-                      jumpToTime={() => jumpToTime(7376)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Frogan")!}
-                      jumpToTime={() => jumpToTime(7056)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "KaceyTron")!}
-                      jumpToTime={() => jumpToTime(6794)}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  160 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  159 && (
-                  <div className="topics">
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) =>
-                            x.title == "The Crew Learn Their Hogwarts Houses"
-                        )!
-                      }
-                    />
-                    <HomepagePersonCard
-                      person={
-                        people.find((x) => x.name == "Tamara (Undead Mummy)")!
-                      }
-                      jumpToTime={() => jumpToTime(1285)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Vitaly")!}
-                      jumpToTime={() => jumpToTime(7560)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Justin Baldoni")!}
-                      jumpToTime={() => jumpToTime(11890)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Tyjule")!}
-                      jumpToTime={() => jumpToTime(4980)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Jared Leto")!}
-                      jumpToTime={() => jumpToTime(11340)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Mr Beast")!}
-                      jumpToTime={() => jumpToTime(5450)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Justin Bieber")!}
-                      jumpToTime={() => jumpToTime(8080)}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  158 && (
-                  <div className="topics">
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) => x.title == "Is Ethan the Xbox Announcer?"
-                        )!
-                      }
-                      description={
-                        "Asmongold says the Xbox Announcer sounds like Ethan"
-                      }
-                      jumpToTime={() => jumpToTime(4934)}
-                    />
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) => x.title == "Olivia Was Attacked by a Dog"
-                        )!
-                      }
-                      jumpToTime={() => jumpToTime(10801)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Galya")!}
-                      jumpToTime={() => jumpToTime(1170)}
-                    />
-                    <HomepagePersonCard
-                      person={
-                        people.find((x) => x.name == "Harley Morenstein")!
-                      }
-                      jumpToTime={() => jumpToTime(3115)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "iDubbbz")!}
-                      jumpToTime={() => jumpToTime(3740)}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  157 && (
-                  <div className="topics">
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) => x.title == "Lady Gaga's Chromatica Oreo's"
-                        )!
-                      }
-                      jumpToTime={() => jumpToTime(7680)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Bradley Martyn")!}
-                      jumpToTime={() => jumpToTime(2004)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Steiny")!}
-                      jumpToTime={() => jumpToTime(3840)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Tyjule")!}
-                      jumpToTime={() => jumpToTime(2730)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Selena Gomez")!}
-                      jumpToTime={() => jumpToTime(7680)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Jason Nash")!}
-                      jumpToTime={() => jumpToTime(9465)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Justin Bieber")!}
-                      jumpToTime={() => jumpToTime(10020)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Garth Brooks")!}
-                      jumpToTime={() => jumpToTime(3310)}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  156 && (
-                  <div className="topics">
-                    <MomentCard
-                      moment={
-                        moments.find((x) => x.title == "First Traffic Report")!
-                      }
-                      jumpToTime={() => jumpToTime(260)}
-                    />
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) =>
-                            x.title == "Ethan Tries to Conduct an Orchestra"
-                        )!
-                      }
-                      jumpToTime={() => jumpToTime(3120)}
-                    />
-                    <HomepagePersonCard
-                      person={
-                        people.find((x) => x.name == "Catherine Paiz-McBroom")!
-                      }
-                      title={"Catherine on Call Her Daddy"}
-                      jumpToTime={() => jumpToTime(11015)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Justin Bieber")!}
-                      title={"Justin Bieber & SZA"}
-                      jumpToTime={() => jumpToTime(10110)}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  155 && (
-                  <div className="topics">
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) => x.title == "The Crew Try to Fly a Plane!"
-                        )!
-                      }
-                    ></MomentCard>
-                    <HomepagePersonCard
-                      person={
-                        people.find((x) => x.name == "Harley Morenstein")!
-                      }
-                      jumpToTime={() => jumpToTime(461)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "iDubbbz")!}
-                      jumpToTime={() => jumpToTime(2709)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Uncle Gabe")!}
-                      jumpToTime={() => jumpToTime(5230)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Galya")!}
-                      jumpToTime={() => jumpToTime(6920)}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  154 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  153 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  152 && (
-                  <div className="topics">
-                    <TopicCard
-                      outlineColor="Yellow"
-                      image={"https://i.ytimg.com/vi/Wo_xHGPd9yM/sddefault.jpg"}
-                      headerText={"Alex_The_Fiction"}
-                      description={"Check Out H3 Jeopardy!"}
-                      url={"https://www.youtube.com/watch?v=Wo_xHGPd9yM"}
-                    ></TopicCard>
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) =>
-                            x.title == "Ethan and Hila vs Blackhead Sucker!"
-                        )!
-                      }
-                    ></MomentCard>
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Fidias")!}
-                      title="Fidias is in over his head"
-                      jumpToTime={() => jumpToTime(8070)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Tyjule")!}
-                      title="Tyjule's Apology to Ethan"
-                      jumpToTime={() => jumpToTime(6680)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Kai Cenat")!}
-                      title="Kai Cenat vs. Nazi"
-                      jumpToTime={() => jumpToTime(2580)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Candace Owens")!}
-                      title="Candace defends Harvey Weinstein"
-                      jumpToTime={() => jumpToTime(4180)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "iDubbbz")!}
-                      title="Anisa continues to humiliate Ian"
-                      jumpToTime={() => jumpToTime(11400)}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  151 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  150 && (
-                  <div className="topics">
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) =>
-                            x.title == "Ethan Smoked Crack Once - First Mention"
-                        )!
-                      }
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Olivia's Dad")!}
-                      title="Should Ethan Hang out with Olivia's Dad?"
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Denims")!}
-                      jumpToTime={() => jumpToTime(8430)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Joe Rogan")!}
-                      jumpToTime={() => jumpToTime(12060)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Noah Samsen")!}
-                      jumpToTime={() => jumpToTime(12305)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Hasan Piker")!}
-                      jumpToTime={() => jumpToTime(12305)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Ban Emma Panda")!}
-                      jumpToTime={() => jumpToTime(12305)}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  149 && (
-                  <div className="topics">
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) =>
-                            x.title == "The Crews Steven Crowder Button Gag"
-                        )!
-                      }
-                      jumpToTime={() => jumpToTime(970)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Braco")!}
-                      title="Braco and the Gaze of Miracles"
-                      jumpToTime={() => jumpToTime(0)}
-                    />
-                    <HomepagePersonCard
-                      person={
-                        people.find((x) => x.name == "Harley Morenstein")!
-                      }
-                      title="Harley Calls In to Discuss Creator Clash!"
-                      jumpToTime={() => jumpToTime(4394)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "James Charles")!}
-                      jumpToTime={() => jumpToTime(6850)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Steiny")!}
-                      title="Steiny's WILD new Ad"
-                      jumpToTime={() => jumpToTime(1320)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Myron Gaines")!}
-                      title="Myron Gaines on Skibidy Ohio"
-                      jumpToTime={() => jumpToTime(1910)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Hasan Piker")!}
-                      jumpToTime={() => jumpToTime(3660)}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  148 && <div className="topics">Nothing Yet</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  147 && (
-                  <div className="topics">
-                    <TopicCard
-                      image={
-                        "https://upload.wikimedia.org/wikipedia/en/f/fb/Lord_Rings_Fellowship_Ring.jpg"
-                      }
-                      headerText={"2 Weeks Ago"}
-                      description={"LOTR: The Fellowship of the Ring"}
-                      url={"https://youtu.be/9IG3_s1h1PI?t=5920"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://imageio.forbes.com/blogs-images/markhughes/files/2019/04/AVENGERS-ENDGAME-poster-2-1200x1823.jpg"
-                      }
-                      headerText={"6 Years Ago"}
-                      description={"Avengers: Endgame"}
-                      url={"https://youtu.be/DsWSC9Sa3PI?t=5827"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://assets.scriptslug.com/live/img/x/posters/11007/joker-2019_2731b11b11.jpg"
-                      }
-                      headerText={"5 Years Ago"}
-                      description={"Joker"}
-                      url={"https://youtu.be/rrA1Wz5o_Hg?t=4714"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://assets-prd.ignimgs.com/2024/09/25/megalopolis-1727296486015.jpg"
-                      }
-                      headerText={"6 Months Ago"}
-                      description={"Dan & Ian Review Megalopolis"}
-                      url={"https://youtu.be/xS5Jt71-b2o?t=588"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://m.media-amazon.com/images/M/MV5BMTQ2NzUxMTAxN15BMl5BanBnXkFtZTcwMzEyMTIwMg@@._V1_.jpg"
-                      }
-                      headerText={"6 Months Ago"}
-                      description={"Twilight"}
-                      url={"https://youtu.be/M9dYrhdXN88?t=4185"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://static.wikia.nocookie.net/twilightsaga/images/b/ba/New_Moon_book_cover_%28second%29.jpg"
-                      }
-                      headerText={"6 Months Ago"}
-                      description={"Twilight: New Moon"}
-                      url={"https://youtu.be/RRcDcNSc7rA?t=4210"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://m.media-amazon.com/images/M/MV5BNDMwNjAzNzYwOF5BMl5BanBnXkFtZTcwMDY5NzcyMw@@._V1_.jpg"
-                      }
-                      headerText={"5 Months Ago"}
-                      description={"Twilight: Eclipse"}
-                      url={"https://youtu.be/HngwtqKyYdw?t=5640"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://m.media-amazon.com/images/M/MV5BNjBlY2M2MTctMzU3Yi00MTY3LTlkMTAtMzhlMzY1YjZlYTA2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
-                      }
-                      headerText={"5 Months Ago"}
-                      description={"Twilight: Breaking Dawn (Pt 1)"}
-                      url={"https://youtu.be/msxOG5pz34g?t=3190"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://m.media-amazon.com/images/M/MV5BMTcyMzUyMzY1OF5BMl5BanBnXkFtZTcwNDQ4ODk1OA@@._V1_.jpg"
-                      }
-                      headerText={"5 Months Ago"}
-                      description={"Twilight: Breaking Dawn (Pt 2)"}
-                      url={"https://youtu.be/GRsAtRPjLh0?t=4610"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/261/2025/02/22162818/wTxYZNj3NselE9H9dST2GUn4UYE1-683x1024.jpg"
-                      }
-                      headerText={"2 Weeks Ago"}
-                      description={"The Minecraft Movie"}
-                      url={"https://youtu.be/5OScrVkKApU?t=730"}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  146 && (
-                  <div className="topics">
-                    <TopicCard
-                      image={
-                        "https://upload.wikimedia.org/wikipedia/en/f/fb/Lord_Rings_Fellowship_Ring.jpg"
-                      }
-                      headerText={"2 Weeks Ago"}
-                      description={"LOTR: The Fellowship of the Ring"}
-                      url={"https://youtu.be/9IG3_s1h1PI?t=5920"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://imageio.forbes.com/blogs-images/markhughes/files/2019/04/AVENGERS-ENDGAME-poster-2-1200x1823.jpg"
-                      }
-                      headerText={"6 Years Ago"}
-                      description={"Avengers: Endgame"}
-                      url={"https://youtu.be/DsWSC9Sa3PI?t=5827"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://assets.scriptslug.com/live/img/x/posters/11007/joker-2019_2731b11b11.jpg"
-                      }
-                      headerText={"5 Years Ago"}
-                      description={"Joker"}
-                      url={"https://youtu.be/rrA1Wz5o_Hg?t=4714"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://assets-prd.ignimgs.com/2024/09/25/megalopolis-1727296486015.jpg"
-                      }
-                      headerText={"6 Months Ago"}
-                      description={"Dan & Ian Review Megalopolis"}
-                      url={"https://youtu.be/xS5Jt71-b2o?t=588"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://m.media-amazon.com/images/M/MV5BMTQ2NzUxMTAxN15BMl5BanBnXkFtZTcwMzEyMTIwMg@@._V1_.jpg"
-                      }
-                      headerText={"6 Months Ago"}
-                      description={"Twilight"}
-                      url={"https://youtu.be/M9dYrhdXN88?t=4185"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://static.wikia.nocookie.net/twilightsaga/images/b/ba/New_Moon_book_cover_%28second%29.jpg"
-                      }
-                      headerText={"6 Months Ago"}
-                      description={"Twilight: New Moon"}
-                      url={"https://youtu.be/RRcDcNSc7rA?t=4210"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://m.media-amazon.com/images/M/MV5BNDMwNjAzNzYwOF5BMl5BanBnXkFtZTcwMDY5NzcyMw@@._V1_.jpg"
-                      }
-                      headerText={"5 Months Ago"}
-                      description={"Twilight: Eclipse"}
-                      url={"https://youtu.be/HngwtqKyYdw?t=5640"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://m.media-amazon.com/images/M/MV5BNjBlY2M2MTctMzU3Yi00MTY3LTlkMTAtMzhlMzY1YjZlYTA2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
-                      }
-                      headerText={"5 Months Ago"}
-                      description={"Twilight: Breaking Dawn (Pt 1)"}
-                      url={"https://youtu.be/msxOG5pz34g?t=3190"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://m.media-amazon.com/images/M/MV5BMTcyMzUyMzY1OF5BMl5BanBnXkFtZTcwNDQ4ODk1OA@@._V1_.jpg"
-                      }
-                      headerText={"5 Months Ago"}
-                      description={"Twilight: Breaking Dawn (Pt 2)"}
-                      url={"https://youtu.be/GRsAtRPjLh0?t=4610"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/261/2025/02/22162818/wTxYZNj3NselE9H9dST2GUn4UYE1-683x1024.jpg"
-                      }
-                      headerText={"2 Weeks Ago"}
-                      description={"The Minecraft Movie"}
-                      url={"https://youtu.be/5OScrVkKApU?t=730"}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  145 && (
-                  <div className="topics">
-                    <TopicCard
-                      image={"/Images/NewContentCop.png"}
-                      headerText={"CameronF305"}
-                      description={"There's a New Content Cop in Town!"}
-                      url={"https://youtu.be/JykMFfa2UD8"}
-                      outlineColor={"Yellow"}
-                      jumpToTime={() => jumpToTime(945)}
-                    />
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) => x.title == "The Pope confronts Ethan"
-                        )!
-                      }
-                      description={"The Pope Guest Stars!"}
-                      jumpToTime={() => jumpToTime(404)}
-                    />
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) => x.title == "The First Traffic Report"
-                        )!
-                      }
-                      jumpToTime={() => jumpToTime(585)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Lonerbox")!}
-                      jumpToTime={() => jumpToTime(3045)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "iDubbbz")!}
-                      jumpToTime={() => jumpToTime(9213)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Jay Shetty")!}
-                      title={"Jay Shetty Exposed?"}
-                      jumpToTime={() => jumpToTime(1030)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Hasan Piker")!}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  144 && (
-                  <div className="topics">
-                    <TopicCard
-                      image={
-                        "https://files.cdn-files-a.com/uploads/3416624/normal_6817b1154d784.jpg"
-                      }
-                      headerText={"Fan Art"}
-                      description={"Buy the H3 Lord of the Rings Poster here!"}
-                      url={
-                        "https://www.rsmartdesign.com/prints-and-pins-store/th3-lotr"
-                      }
-                      outlineColor={"Yellow"}
-                      jumpToTime={() => jumpToTime(1198)}
-                    />
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) => x.title == "Bye Dog First Use on the Podcast"
-                        )!
-                      }
-                      description={"'Bye Dog' First Use on the Podcast"}
-                      jumpToTime={() => jumpToTime(8037)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Hasan Piker")!}
-                      jumpToTime={() => jumpToTime(285)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "iDubbbz")!}
-                      jumpToTime={() => jumpToTime(5977)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Mike From PA")!}
-                      jumpToTime={() => jumpToTime(5060)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Joe Rogan")!}
-                      jumpToTime={() => jumpToTime(1415)}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  143 && (
-                  <div className="topics">
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) =>
-                            x.title == "Talking to Hasan for the First Time"
-                        )!
-                      }
-                    />
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) => x.title == "The First Episode of Leftovers"
-                        )!
-                      }
-                    />
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) => x.title == "Ethan's and Hasan Clash over China"
-                        )!
-                      }
-                    />
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) => x.title == "The Last Episode of Leftovers"
-                        )!
-                      }
-                    />
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) => x.title == "Addressing Hasan & His Community"
-                        )!
-                      }
-                    />
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) => x.title == "Content Nuke - Hasan Piker"
-                        )!
-                      }
-                    />
-                    <MomentCard
-                      moment={
-                        moments.find((x) => x.title == "Content Cop - H3")!
-                      }
-                    />
-                    <MomentCard
-                      moment={
-                        moments.find((x) => x.title == "Content Deputy - H3")!
-                      }
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  142 && (
-                  <div className="topics">
-                    <MomentCard
-                      moment={
-                        moments.find((x) => x.title == "The Crew as VTubers")!
-                      }
-                      jumpToTime={() => jumpToTime(1430)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Sam Seder")!}
-                      jumpToTime={() => jumpToTime(2857)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Tim Pool")!}
-                      title="Tim Pool Wears a Beanie to a Wedding"
-                      jumpToTime={() => jumpToTime(3258)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Keemstar")!}
-                      title="Bad Empanada is now..."
-                      jumpToTime={() => jumpToTime(9480)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Ban Emma Panda")!}
-                      jumpToTime={() => jumpToTime(9480)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Justin Bieber")!}
-                      title="Is Justin Bieber Okay?"
-                      jumpToTime={() => jumpToTime(12455)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Ariana Grande")!}
-                      title="Did Ariana and Spongebob Break Up?"
-                      jumpToTime={() => jumpToTime(11580)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Mr Beast")!}
-                      title="Mr Beast Re-Awakens Veterans PTSD"
-                      jumpToTime={() => jumpToTime(1548)}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  141 && <div className="topics">Coming Soon</div>}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  140 && (
-                  <div className="topics">
-                    <TopicCard
-                      image={
-                        "https://imageio.forbes.com/blogs-images/markhughes/files/2019/04/AVENGERS-ENDGAME-poster-2-1200x1823.jpg"
-                      }
-                      headerText={"6 Years Ago"}
-                      description={"Avengers: Endgame"}
-                      url={"https://youtu.be/DsWSC9Sa3PI?t=5827"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://assets.scriptslug.com/live/img/x/posters/11007/joker-2019_2731b11b11.jpg"
-                      }
-                      headerText={"5 Years Ago"}
-                      description={"Joker"}
-                      url={"https://youtu.be/rrA1Wz5o_Hg?t=4714"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://assets-prd.ignimgs.com/2024/09/25/megalopolis-1727296486015.jpg"
-                      }
-                      headerText={"6 Months Ago"}
-                      description={"Dan & Ian Review Megalopolis"}
-                      url={"https://youtu.be/xS5Jt71-b2o?t=588"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://m.media-amazon.com/images/M/MV5BMTQ2NzUxMTAxN15BMl5BanBnXkFtZTcwMzEyMTIwMg@@._V1_.jpg"
-                      }
-                      headerText={"6 Months Ago"}
-                      description={"Twilight"}
-                      url={"https://youtu.be/M9dYrhdXN88?t=4185"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://static.wikia.nocookie.net/twilightsaga/images/b/ba/New_Moon_book_cover_%28second%29.jpg"
-                      }
-                      headerText={"6 Months Ago"}
-                      description={"Twilight: New Moon"}
-                      url={"https://youtu.be/RRcDcNSc7rA?t=4210"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://m.media-amazon.com/images/M/MV5BNDMwNjAzNzYwOF5BMl5BanBnXkFtZTcwMDY5NzcyMw@@._V1_.jpg"
-                      }
-                      headerText={"5 Months Ago"}
-                      description={"Twilight: Eclipse"}
-                      url={"https://youtu.be/HngwtqKyYdw?t=5640"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://m.media-amazon.com/images/M/MV5BNjBlY2M2MTctMzU3Yi00MTY3LTlkMTAtMzhlMzY1YjZlYTA2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
-                      }
-                      headerText={"5 Months Ago"}
-                      description={"Twilight: Breaking Dawn (Pt 1)"}
-                      url={"https://youtu.be/msxOG5pz34g?t=3190"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://m.media-amazon.com/images/M/MV5BMTcyMzUyMzY1OF5BMl5BanBnXkFtZTcwNDQ4ODk1OA@@._V1_.jpg"
-                      }
-                      headerText={"5 Months Ago"}
-                      description={"Twilight: Breaking Dawn (Pt 2)"}
-                      url={"https://youtu.be/GRsAtRPjLh0?t=4610"}
-                    />
-                    <TopicCard
-                      image={
-                        "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/261/2025/02/22162818/wTxYZNj3NselE9H9dST2GUn4UYE1-683x1024.jpg"
-                      }
-                      headerText={"2 Weeks Ago"}
-                      description={"The Minecraft Movie"}
-                      url={"https://youtu.be/5OScrVkKApU?t=730"}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  139 && (
-                  <div className="topics">
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Kermit the Frog")!}
-                      jumpToTime={() => jumpToTime(11180)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Bad Empanada's")!}
-                      jumpToTime={() => jumpToTime(10019)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Denims")!}
-                      jumpToTime={() => jumpToTime(7090)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Frogan")!}
-                      jumpToTime={() => jumpToTime(6537)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Pokimane")!}
-                      jumpToTime={() => jumpToTime(10740)}
-                    />
-                  </div>
-                )}
-                {(getLatestEpisode()?.number as number) - episodeOffset ==
-                  138 && (
-                  <div className="topics">
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "iDubbbz")!}
-                      title="Wake Up Ethan"
-                      jumpToTime={() => jumpToTime(4085)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Noah Samsen")!}
-                      title="Wake Up Ethan"
-                      jumpToTime={() => jumpToTime(4085)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Denims")!}
-                      title="Wake Up Ethan"
-                      jumpToTime={() => jumpToTime(4085)}
-                    />
-                    <HomepagePersonCard
-                      person={people.find((x) => x.name == "Frogan")!}
-                      title="Wake Up Ethan"
-                      jumpToTime={() => jumpToTime(4085)}
-                    />
-                    <MomentCard
-                      moment={
-                        moments.find(
-                          (x) => x.title == "The First Gatsby Entrance!"
-                        )!
-                      }
-                      jumpToTime={() => jumpToTime(0)}
-                    />
-                    <HomepagePersonCard
-                      person={
-                        people.find((x) => x.name == "The Hawk (Loves Dad)")!
-                      }
-                      title="Hawk Fixed the Gatsby!"
-                      jumpToTime={() => jumpToTime(24)}
-                    />
-                    <HomepagePersonCard
-                      person={
-                        people.find((x) => x.name == "Zane (Tall Skeleton)")!
-                      }
-                      title="Tall Skeleton in the Studio!"
-                      jumpToTime={() => jumpToTime(932)}
-                    />
-                  </div>
+                {/* Dynamically generated person cards from timestamps */}
+                {matchedPersonCards && matchedPersonCards.length > 0 && (
+                  <div className="topics">{matchedPersonCards}</div>
                 )}
               </div>
             </div>
