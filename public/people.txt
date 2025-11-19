@@ -4,8 +4,10 @@ AB	Images/AB_Vomit.png	Family
 Aba and Preach	https://i.ytimg.com/vi/BPYEOFRlHx4/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGGUgVihKMA8=&rs=AOn4CLDsOxaRXOV6AOty3xBpDAH2bq5kdg	Neutral	Aba & Preach
 Adam Grant	https://psychology.sas.upenn.edu/sites/default/files/2025-01/Grant_Adam_-_Picture_by_Jamey_Stillings.jpg	Neutral	
 Adam Levine	https://m.media-amazon.com/images/M/MV5BMjI4NjU4MDEwN15BMl5BanBnXkFtZTcwNTQzNDMwNw@@.jpg	Neutral	
+Adam McIntyre	https://www.rollingstone.com/wp-content/uploads/2025/07/adam-mcintyre-1.jpg	Enemy	
 Adin Ross	https://www.hollywoodreporter.com/wp-content/uploads/2024/08/AdinRossGettyImages-1439617500.jpg	Enemy	
 Ahmed Fouad Alkhatib	https://www.atlanticcouncil.org/wp-content/uploads/2024/04/Ahmed-Fouad-Alkhatib-4x3-1.jpg	Friend	
+Al Pacino	https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1483410863.jpg	Neutral	
 Al Roker	https://upload.wikimedia.org/wikipedia/commons/b/bf/Al_Roker_by_Gage_Skidmore.jpg	Neutral	
 Alex Jones	https://ichef.bbci.co.uk/news/976/cpsprodpb/14CED/production/_126192258_alexjones.jpg.webp	Neutral	
 Alinity	https://www.dexerto.com/cdn-image/wp-content/uploads/2023/04/25/Alinity-stunned-as-fans-PC-is-completely-dedicated-to-her.jpg	Neutral	
@@ -16,11 +18,12 @@ Andrew Caldwell	https://compote.slate.com/images/d2552f5a-b6ef-488f-ae36-4760156
 Andrew Cuomo	https://upload.wikimedia.org/wikipedia/commons/5/51/Andrew_Cuomo_2017.jpg	Neutral	
 Andrew Santino	https://ntvb.tmsimg.com/assets/assets/684764_v9_bc.jpg	Friend	
 Andrew Schulz	https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Andrew_Schulz_FixBy_James_Tamim.jpeg/640px-Andrew_Schulz_FixBy_James_Tamim.jpeg	Enemy	
-Andrew Tate	https://i.kym-cdn.com/entries/icons/original/000/043/388/andrewtateshocked.jpg	Enemy	
-Anisa	https://i2.wp.com/hollywoodzam.com/wp-content/uploads/2021/07/Anisa-Jomha-1.jpg	Enemy	
+Andrew Tate	https://pbs.twimg.com/media/FmJp2iLWIAA0TVs.jpg	Enemy	
+Anisa	https://www.thefamouspeople.com/profiles/images/anisa-jomha-143855-1.jpg	Enemy	
 Anthony Fantano	https://the1a.org/wp-content/uploads/sites/4/2020/12/20.12.23-Fantano.jpeg	Friend	
 Anthony Padilla	https://static.wikia.nocookie.net/smosh/images/0/08/Anthony_Padilla_2023.png	Neutral	
 Anuc	https://happymag.tv/wp-content/uploads/2022/12/Anuc-Atittawan.jpg	Friend	
+Ariana DeBose	https://hips.hearstapps.com/hmg-prod/images/gettyimages-1357818515.jpg	Neutral	
 Ariana Grande	https://cdn.britannica.com/92/211792-050-E764F875/American-singer-Ariana-Grande-2018.jpg	Neutral	
 Ashton Hall	https://manofmany.com/wp-content/uploads/2025/03/Who-is-ashton-hall.jpg	Neutral	
 Asmongold	https://pbs.twimg.com/profile_images/804591156491419649/BnUUh5KE_400x400.jpg	Neutral	
@@ -41,6 +44,7 @@ Ben Shapiro	https://media1.dallasobserver.com/dal/imager/u/slideshow/13981415/be
 Bert Kreischer	https://i.ticketweb.com/i/00/07/86/73/11/Original.jpg	Friend	
 Beyonce	https://factmag-images.s3.amazonaws.com/wp-content/uploads/2013/12/beyonce-121313.jpg	Neutral	
 Bhad Bhabie	https://townsquare.media/site/812/files/2020/01/bhad-bhabie-social-media.jpg	Neutral	
+Biannca Prince	https://nationaltoday.com/wp-content/uploads/2022/10/456840976-min.jpg	Neutral	
 Big Ed	https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2024-05/big-ed-3-te-240521-8400fc.jpg	Friend	
 Big Nik	https://i.ytimg.com/vi/TMtIvt8XLeE/hq720.jpg	Enemy	
 Bill Burr	https://static.wikia.nocookie.net/breakingbad/images/f/f2/Bill_Burr.jpg	Friend	
@@ -85,7 +89,7 @@ Costco Guys	https://www.tubefilter.com/wp-content/uploads/2024/08/costco-guys.jp
 Cousin Tim	Images\Cousin_Tim.png	Friend	
 Curly Howard	https://npr.brightspotcdn.com/dims4/default/731bb89/2147483647/strip/true/crop/900x900+0+0/resize/880x880!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwmky%2Ffiles%2F201810%2Fcurly.jpg	Neutral	
 Curtis Atwood	https://www.lifeandstylemag.com/wp-content/uploads/2019/05/curtis-atwood.png	Neutral	
-Dad	https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Nathan_Barnatt.jpg/960px-Nathan_Barnatt.jpg	Friend	
+Dad (Nathan Barnatt)	https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Nathan_Barnatt.jpg/960px-Nathan_Barnatt.jpg	Friend	
 Dalai Lama	https://cdn.britannica.com/81/136281-050-491F2E24/Dalai-Lama-2008.jpg	Neutral	
 Dan	https://static.wikia.nocookie.net/h3podcast/images/e/e9/14324B18-B05B-4563-B034-5880A151B7C5.jpeg	Family	
 Dan Bilzerian	https://ichef.bbci.co.uk/images/ic/640x360/p07h17xl.jpg	Enemy	
@@ -95,6 +99,7 @@ Daniel Tosh	https://deadline.com/wp-content/uploads/2020/01/daniel-tosh.jpg	Neut
 Dark Viper	https://staticg.sportskeeda.com/editor/2021/09/77784-16313846950044-800.jpg	Enemy	DarkViperAU
 Dash Dobrofsky	https://pbs.twimg.com/ext_tw_video_thumb/1523441411579731968/pu/img/yGJZBFvYVwxwC3w5.jpg:large	Neutral	
 Dating&Money101	https://pbs.twimg.com/profile_images/1776683091786133504/n2TyljWy_400x400.jpg	Enemy	
+Dave Chappelle	https://hips.hearstapps.com/hmg-prod/images/dave-chapelle-attends-the-uk-premiere-of-dave-chappelle-news-photo-1707096741.jpg	Neutral	
 Dave Portnoy	https://static.foxbusiness.com/foxbusiness.com/content/uploads/2020/06/Dave-Portnoy-Getty.jpg	Neutral	
 Dave Rubin	https://nationalconservatism.org/natcon-2-2021/wp-content/uploads/sites/5/2021/08/Rubin-Dave.jpeg	Enemy	
 David Dobrik	https://brand-innovators.com/wp-content/uploads/2024/01/62d9a4139a886871cf17d8e5_Dobrik-David-scaled.jpg	Enemy	
@@ -109,7 +114,7 @@ Dick Tips	https://i.imgur.com/hT3zeAx.jpeg	Neutral
 Dillon Danis	https://ytboxrec.com/wp-content/uploads/2022/12/Dillon-Danis-boxing-record-ytboxrec.png	Neutral	
 Disco Debbie	https://media.tenor.com/vFgRQUF-A5wAAAAe/disco-debbie-debbie.png	Friend	
 DJ Akademiks	https://urbanislandz.com/wp-content/uploads/2023/07/Akademiks.webp	Neutral	
-DJ Khaled	https://www.digitaldjhub.com/dj-khaled/dj-khaled.jpg	Friend	
+DJ Khaled	https://hips.hearstapps.com/hmg-prod/images/dj-khaled_gettyimages-695753686.jpg	Friend	
 Dogpack	https://static.wikia.nocookie.net/youtube/images/2/23/DogPack404Face.jpg	Neutral	
 Doja Cat	https://www.rollingstone.com/wp-content/uploads/2023/05/doja-cat-2022-RS-1800.jpg	Neutral	
 Donald Trump	https://static.independent.co.uk/2023/05/10/05/Election_2024_Trump_88156.jpg?width=1200&height=1200&fit=crop	Neutral	Trump
@@ -121,6 +126,7 @@ Dr Mike	https://nypost.com/wp-content/uploads/sites/2/2022/10/sexiest-doctor-lam
 Dr Phil	https://deadline.com/wp-content/uploads/2023/01/dr-phil-mcgraw-2.jpg?w=1000	Neutral	Dr. Phil
 Drake	https://vz.cnwimg.com/thumb-900x/wp-content/uploads/2020/02/Drake.jpg	Neutral	
 Dream	https://www.dexerto.com/cdn-image/wp-content/uploads/2023/12/20/Dream-header-img.jpg	Neutral	
+E-40	https://townsquare.media/site/812/files/2016/10/e-402.jpg	Neutral	
 Ed Sheeran	https://hips.hearstapps.com/hmg-prod/images/ed-sheeran-GettyImages-494227430_1600.jpg	Neutral	
 Elon Musk	https://d.newsweek.com/en/full/2556432/elon-musk.jpg	Neutral	Elon
 Emilia Pérez	https://www.estrelando.com.br/uploads/2025/02/01/karla-sofia-nota-1738440244.jpg	Neutral	
@@ -179,6 +185,7 @@ Jake Widdle	https://static.wixstatic.com/media/df036f_9db388fe2f9347b4919960c55e
 James Charles	https://www.usmagazine.com/wp-content/uploads/2020/04/James-Charles-On-Instant-Influencer-And-Dealing-With-Haters-Promo.jpg	Enemy	
 Jared Leto	https://i.guim.co.uk/img/media/a4eea3f7b5f6df1b96099e5e923ad1c8ae784aa0/128_0_1922_1153/master/1922.jpg?width=465&dpr=1&s=none	Enemy	
 Jason Nash	https://www.nickiswift.com/img/gallery/youtuber-jason-nashs-favorite-prank-might-surprise-you/intro-1576692062.jpg	Enemy	
+Jason Yang		Neutral	
 Jason.Reborn	https://imgb.ifunny.co/images/ab010209bd5c950cab0606357c781c5892494e5e3c30f51e8c39bb881ae35104_3.jpg	Friend	
 Jay Shetty	https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Jay_Shetty_Headshot_2021.jpg/1200px-Jay_Shetty_Headshot_2021.jpg	Enemy	
 Jay Z	https://cdn.britannica.com/65/136165-050-6394F09F/Jay-Z.jpg	Neutral	
@@ -216,14 +223,16 @@ Kenneth Copeland	https://static.independent.co.uk/s3fs-public/thumbnails/image/2
 Kermit the Frog	https://lumiere-a.akamaihd.net/v1/images/character_themuppets_kermit_b77a431b.jpeg	Friend	Kermit
 Kevin Hart	https://assets.fxnetworks.com/cms-next/production/950c40a9-c758-426a-a2f9-be192d3fc395.jpg	Neutral	
 Kid Rock	https://i.dailymail.co.uk/i/pix/2016/04/26/05/338A99F300000578-3558812-Kid_Rock_s_pictured_assistant_was_killed_in_a_car_accident_overn-m-28_1461645088617.jpg	Enemy	
-Kim Kardashian	https://images.radio.com/aiu-media/sipa29046339-2bbbec35-813b-4b76-b82b-3652a5b79cc0.jpg	Neutral	
+Kim Kardashian	https://cdn.britannica.com/42/184142-050-5B50BDC2/Kim-Kardashian-2008.jpg	Neutral	
 Kornbread	https://cdn.mos.cms.futurecdn.net/V3JvVMeP8HxayAwF2RfhKM.jpg	Neutral	
 Kris Jenner	https://images.hellomagazine.com/horizon/square/5d98182f7d94-krs-jenner-glow.jpg	Neutral	
 KSI	https://upload.wikimedia.org/wikipedia/commons/8/8b/KSI_in_2024.png	Neutral	
 Kurtis Conner	https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Kurtis_Conner.png/640px-Kurtis_Conner.png	Friend	
 Kylie Jenner	https://cdn.britannica.com/41/251041-050-C9BB1597/Kylie-Jenner-Met-Gala-2023.jpg	Neutral	
+Lance Stewart	https://www.tubefilter.com/wp-content/uploads/2016/10/lance-stewart-1400x825.jpg	Neutral	
 Lena	https://static.wikia.nocookie.net/h3h3/images/d/d6/Lena_pfp.png	Family	
 Lewis Saunderson	https://i.ytimg.com/vi/W4Uuu5XN2CQ/hqdefault.jpg	Friend	
+Life & Scars	https://static.wikia.nocookie.net/youtube/images/7/79/LifeAndScars.png	Neutral	Life and Scars
 Lil Tracy	https://fastly-s3.allmusic.com/artist/mn0003670382/400/sRMlAmHpLaCAH6-J0jfuRCpQg_7iAU1wjqLgK_xGXts=.jpg	Neutral	
 Lil Xan	https://imagez.tmz.com/image/50/4by3/2020/07/15/5015a36fa44f4bf7b9a2e2a5ab0acdb9_md.jpg	Neutral	
 LionWithAMic	https://shoutoutla.s3.us-west-1.amazonaws.com/wp-content/uploads/2022/04/c-RadheyaReinkarnd__Radheya2_1650509651132.jpg	Neutral	
@@ -253,14 +262,16 @@ Michael Rapaport	https://ntvb.tmsimg.com/assets/assets/45692_v9_bc.jpg	Neutral
 Mika's Rhetoric	https://c.superprof.com/i/a/14547502/7399826/600/20220804135546/masters-teaching-graduate-from-mcgill-help-improve-english-skills-reading-and-essay-writing-for-elementary-high-school-and.jpg	Enemy	
 Mikayla Nogueira	https://akns-images.eonline.com/eol_images/Entire_Site/2022722/rs_634x1024-220822073128-634-TikTok_Mikayla_Nogueira-dime_Optics-gj_copy.jpg	Neutral	
 Mike From PA	https://staticg.sportskeeda.com/editor/2025/05/e8db5-17464217590270-1920.jpg?w=640	Enemy	
+Mike Hunt	https://i.ytimg.com/vi/n6UsDPG3w6U/hq720.jpg	Neutral	
 Mike Majlak	https://www.dexerto.com/cdn-image/wp-content/uploads/2021/05/29/MikeMajlak.jpg	Friend	
 Mike Servin	https://media.tenor.com/w7YxD-lnsBQAAAAe/servinmike-jesuschroist.png	Neutral	
 Mike Tyson	https://hips.hearstapps.com/hmg-prod/images/mike-tyson-looks-on-prior-to-the-heavyweight-fight-between-news-photo-1716476934.jpg	Neutral	
 Misc	Images/Misc.png	Neutral	
 Miss Brantley	Images/Brantley.png	Neutral	
+Mizkif	https://mythictalent.b-cdn.net/creators/mizkif.jpg	Neutral	
 Mobility Mary	https://www.telegraph.co.uk/content/dam/news/2017/01/25/JS118815012_disabled-jean-sleath_trans_NvBQzQNjv4Bq7NRAbDAGXwM9Qe5v6KfA9pJ8PoikZkEUWI82ov0YXxE.jpg	Neutral	
 Mohammad Rajab Wali	https://media.tenor.com/BllOf3uqsToAAAAe/mohammad-rajab-wali.png	Friend	
-Moist Critical	https://i.ytimg.com/vi/YEC6SjxFzs4/maxresdefault.jpg	Neutral	
+Moist Critical	https://i.ytimg.com/vi/YEC6SjxFzs4/maxresdefault.jpg	Neutral	Charlie
 Morgpie	https://static-cdn.jtvnw.net/jtv_user_pictures/ade21f51-8837-47bb-93f5-66971cedf64f-profile_image-300x300.png	Friend	
 Mr Beast	https://cdn.prod.website-files.com/63b9c43cf803b0331540fa68/66bf7f0ebfa3fe2764910428_MrBeast.png	Neutral	
 Myron Gaines	https://i0.wp.com/thesportsgrail.com/wp-content/uploads/2023/01/Myron-Gaines-biography-age-height-real-name-ethnicity-1.jpg	Enemy	
@@ -311,7 +322,7 @@ Robin Williams	https://flxt.tmsimg.com/assets/55875_v9_ba.jpg	Neutral
 Rolo Tony	https://m.media-amazon.com/images/S/amzn-author-media-prod/qful2gq3s0mt47r1a7phkvt7pm.jpg	Enemy	
 Roman Atwood	https://upload.wikimedia.org/wikipedia/commons/3/3a/Roman_Atwood_2019.jpg	Neutral	
 Rosanna Pansino	https://rosannapansino.com/cdn/shop/articles/HFWF_2023_1.png	Friend	
-Roseanne Barr	https://tvline.com/wp-content/uploads/2018/07/roseanne-barr-breakdown-video.jpg	Neutral	
+Roseanne Barr	https://s.abcnews.com/images/US/roseanne-explains-tweets-2-ht-thg-180720_hpMain_16x9_992.jpg	Neutral	
 RsGloryAndGold	https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/10/twitch-rsgloryandgold.jpg	Friend	
 Rudy Giuliani	https://i.abcnewsfe.com/a/eb91ec5c-b936-4bca-ba5a-920949b7f44e/Rudy-Giuliani-1-ap-gmh-250116_1737037139940_hpMain.jpg	Neutral	
 Russell Brand	https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/510934_v9_bc.jpg	Enemy	
@@ -320,6 +331,8 @@ Ryan Reynolds	https://www.hollywoodreporter.com/wp-content/uploads/2021/11/Ryan-
 Salt Bae	https://qudahalloween.com/cdn/shop/articles/Salt-Bae-Costume_600x.png	Neutral	
 Sam	https://static.wikia.nocookie.net/h3h3productions/images/a/a5/Sam_article-1024x647.jpg	Family	
 Sam Seder	https://www.telegram.com/gcdn/authoring/2018/12/04/NTEG/ghows-WT-7ba95a1f-71ec-672d-e053-0100007f1458-06ccc3f2.jpeg	Neutral	
+Scott Disick	https://static.wikia.nocookie.net/voice-actors-from-the-world/images/4/4f/Scott_Disick.png	Neutral	
+Sean Stephens	https://images.genius.com/63b08476318a3ec2281e5aabe2e15779.864x864x1.jpg	Friend	
 Selena Gomez	https://cdn.britannica.com/16/262416-050-7E966413/selena-gomez-attends-the-emilia-perez-photocall-at-the-77th-annual-cannes-film-festival-2024.jpg	Neutral	
 Shane Dawson	https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/678822_v9_bb.jpg	Enemy	
 Shaq	https://upload.wikimedia.org/wikipedia/commons/f/f6/Shaquille_O%27Neal_October_2017_%28cropped%29.jpg	Neutral	
@@ -330,16 +343,18 @@ Sneako	https://static.wikia.nocookie.net/youtube/images/c/cc/SneakoFace.jpeg	Ene
 Snoop Dogg	https://media.npr.org/assets/img/2022/02/09/ap22040834747746-7cb2ce678435616dd74ebc80d52d826b06a61fef-s1100-c50.jpg	Neutral	
 Soflo Antonio	https://static.wikia.nocookie.net/shaqs-day-out-universe/images/4/45/SoFlo.png	Enemy	
 SomeOrdinaryGamers	https://i.ytimg.com/vi/9hp9zoVuSmY/sddefault.jpg	Friend	
-Stavros Helkias	https://www.baltimoremagazine.com/wp-content/uploads/2023/10/img_8482.jpg	Friend	
-Steiny	https://podclips.com/public/assets/people/steiny_nelk.jpg	Friend	
+Stavros Helkias	https://www.baltimoremagazine.com/wp-content/uploads/2023/10/img_8482.jpg	Neutral	
+Steiny	https://podclips.com/public/assets/people/steiny_nelk.jpg	Enemy	
 Steve-O	https://www.columbusmonthly.com/gcdn/presto/2022/01/10/NCOA/ea7c0f00-a1cd-4fb3-bd18-0deee5df5880-STEVEO_8_FULLRES_JPG.jpeg	Friend	
 Steven Crowder	https://pbs.twimg.com/media/FuuziqwaQAIWPrr.jpg	Enemy	
 Steven Seagal	https://upload.wikimedia.org/wikipedia/commons/d/d9/Steven_Seagal_November_2016.jpg	Neutral	
+SteveWillDoIt	https://sureshot.com/cdn/shop/articles/SteveWillDoIt.png	Enemy	
 SunnyV2	https://yt3.googleusercontent.com/Hp09v_bD_EnSL3Y49DygS0R9-MKsBh1xkrlWtSAA5f8SQoPh3SYqhGwPiOhBj4iwxd_x7hzC=s900-c-k-c0x00ffffff-no-rj	Enemy	
 Swami	https://static.wikia.nocookie.net/h3podcast/images/2/20/Swami.jpg	Friend	
 Tamara (Undead Mummy)	https://static.wikia.nocookie.net/h3h3/images/c/cc/Tamara_Joseph.jpg	Family	
 Tana Mongeau	https://i2.wp.com/hollywoodlife.com/wp-content/uploads/2019/06/tana-mongeau-1.jpg	Friend	
 Tati Westbrook	https://akns-images.eonline.com/eol_images/Entire_Site/2019421/rs_600x600-190521110753-600-Tati-Westbrook-LT-052119-Youtube.jpg	Neutral	
+Taylor Lorenz	https://digiday.com/wp-content/uploads/sites/3/2020/03/taylor_lorenz.png	Enemy	
 Ted Cruz	https://static.texastribune.org/media/files/600d28682a2731e6cfa9649926acbc5a/Ted-Cruz.jpg	Neutral	
 Terrence Howard	https://static.wikia.nocookie.net/empiretvshow/images/0/02/Terrence-howard.jpg	Neutral	
 The Foodie Boys	https://i.ytimg.com/vi/7MKG6ylRc1A/hq720.jpg	Neutral	Foodie Boys, Foodie Boyz, MDFoodieBoyz
@@ -356,6 +371,7 @@ Tim Dillon	https://deadline.com/wp-content/uploads/2018/07/tim-dillon-3.jpg	Frie
 Tim Pool	https://m.media-amazon.com/images/M/MV5BNzZhMmRmZjctZjIyNS00N2FjLTk2YTYtNDI1NDZiMWIwMGRlXkEyXkFqcGc@._V1_.jpg	Enemy	
 Tipster	https://external-preview.redd.it/cheers-my-dude-v0-NmNnOG51MTNxN2NiMZlAEwdAHHbCbAbPFJKkN1i_sXLAWVZmupNsLtlGapu4.png?width=640&crop=smart&format=pjpg&auto=webp&s=7a15ea9845f77d474c99c0b2c0c15ef67a7b6317	Neutral	
 Tom Brady	https://akns-images.eonline.com/eol_images/Entire_Site/2023024/rs_1024x759-230124122000-tom-1.jpg	Neutral	
+Tom Hanks	https://m.media-amazon.com/images/M/MV5BMTQ2MjMwNDA3Nl5BMl5BanBnXkFtZTcwMTA2NDY3NQ@@._V1_FMjpg_UX1000_.jpg	Neutral	
 Tom Selleck	https://m.media-amazon.com/images/M/MV5BMTQyMjQzODMzNF5BMl5BanBnXkFtZTcwMjE0NTM1Mw@@._V1_.jpg	Neutral	
 Tom Ward	https://i.ytimg.com/vi/fxEOp3kpDes/oar2.jpg	Family	
 TommyInnit	https://static.wikia.nocookie.net/shipping/images/1/13/TommyInnit.jpg	Neutral	
@@ -373,7 +389,7 @@ Vladimir Putin	https://cdn.britannica.com/65/194465-050-50F2A305/Vladimir-Putin-
 Walter Weekes	https://www.famousbirthdays.com/headshots/walter-weekes-9.jpg	Enemy	
 Wendy Williams	https://pagesix.com/wp-content/uploads/sites/3/2020/01/wendy-williams-2.jpg?quality=75&strip=all&w=1200	Neutral	
 Whitney Cummings	https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/487709_v9_bc.jpg	Friend	
-Will Smith	https://parade.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cq_auto:good%2Cw_1200/MTkwNTgwODMyOTMzNzE3ODg0/will-smith-net-worth.png	Neutral	
+Will Smith	https://cdn.britannica.com/66/103066-050-B89D5EAF/Will-Smith-actor-musician-2006.jpg	Neutral	
 Will.I.Am	https://upload.wikimedia.org/wikipedia/commons/0/0e/Will.i.am_in_2018.jpg	Neutral	
 William Knight	https://pbs.twimg.com/profile_images/1584666206337892354/Lu-ITI2y_400x400.jpg	Friend	
 William Shatner	https://variety.com/wp-content/uploads/2018/10/william-shatner.jpg	Neutral	
