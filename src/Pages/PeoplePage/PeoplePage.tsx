@@ -45,6 +45,19 @@ function PeoplePage() {
     setSearchParams({ page: page.toString() }, { replace: true });
   }, [page, setSearchParams]);
 
+  // Preload next batch of images
+  useEffect(() => {
+    const nextBatchStart = page * itemsPerPage;
+    const nextBatchEnd = nextBatchStart + itemsPerPage;
+    const nextBatch = filteredPeople.slice(nextBatchStart, nextBatchEnd);
+    
+    // Preload images for the next batch
+    nextBatch.forEach((person) => {
+      const img = new Image();
+      img.src = person.image;
+    });
+  }, [page, filteredPeople, itemsPerPage]);
+
   // Setup intersection observer for infinite scroll
   const lastPersonRef = useCallback(
     (node: HTMLDivElement) => {
