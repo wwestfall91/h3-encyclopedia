@@ -62,6 +62,8 @@ function PersonCard(props: Props) {
                     className="card-image"
                     src={props.person.image}
                     onClick={() => OpenModal()}
+                    loading="lazy"
+                    decoding="async"
                     />
                 
                 </div>

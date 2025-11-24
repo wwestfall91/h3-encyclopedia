@@ -19,7 +19,7 @@ function PeoplePage() {
     return pageParam ? parseInt(pageParam, 10) : 1;
   });
   const [loading, setLoading] = useState(false);
-  const itemsPerPage = 20;
+  const itemsPerPage = 30;
   const observer = useRef<IntersectionObserver>();
 
   // Memoize filtered people to avoid recalculating on every render
@@ -54,13 +54,18 @@ function PeoplePage() {
       const canLoadMore = filteredPeople.length > page * itemsPerPage;
       if (!canLoadMore) return;
 
-      observer.current = new IntersectionObserver((entries) => {
-        if (entries[0].isIntersecting) {
-          setLoading(true);
-          setPage((prev) => prev + 1);
-          setLoading(false);
+      observer.current = new IntersectionObserver(
+        (entries) => {
+          if (entries[0].isIntersecting) {
+            setLoading(true);
+            setPage((prev) => prev + 1);
+            setLoading(false);
+          }
+        },
+        {
+          rootMargin: '500px', // Trigger 500px before reaching the end
         }
-      });
+      );
 
       if (node) observer.current.observe(node);
     },
