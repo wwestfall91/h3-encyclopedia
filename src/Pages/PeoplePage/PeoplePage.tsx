@@ -1,11 +1,10 @@
-import { useEffect, useState, useRef, useCallback } from "react";
+import { useEffect, useState, useRef, useCallback, useMemo } from "react";
 import Coffee from "../../components/Coffee";
 import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import PersonCard from "./PersonCard";
 import { useDataContext } from "../../context/DataContext";
 import SubHeader from "../SubHeader/SubHeader";
 import { sortByType } from "../SoundBitesPage/SoundBitesPage";
-import { Person } from "../../models/Person";
 import "./PeoplePage.scss";
 import { useSearchParams } from "react-router-dom";
 
@@ -15,41 +14,31 @@ function PeoplePage() {
   const [showEmailModal, setShowEmailModal] = useState<boolean>(false);
   const [_, setSortBy] = useState<sortByType>(sortByType.Default);
   const { people } = useDataContext();
-  const [filteredPeople, setFilteredPeople] = useState<Person[]>([]);
-  const [visiblePeople, setVisiblePeople] = useState<Person[]>([]);
   const [page, setPage] = useState(() => {
     const pageParam = searchParams.get("page");
     return pageParam ? parseInt(pageParam, 10) : 1;
   });
   const [loading, setLoading] = useState(false);
-  const [hasMore, setHasMore] = useState(true);
   const itemsPerPage = 20;
   const observer = useRef<IntersectionObserver>();
+
+  // Memoize filtered people to avoid recalculating on every render
+  const filteredPeople = useMemo(() => {
+    if (!people || people.length === 0) return [];
+    const searchLower = searchTerm.toLowerCase();
+    return people.filter((p) => p.name.toLowerCase().includes(searchLower));
+  }, [people, searchTerm]);
+
+  // Memoize visible people based on pagination
+  const visiblePeople = useMemo(() => {
+    const itemsToLoad = page * itemsPerPage;
+    return filteredPeople.slice(0, itemsToLoad);
+  }, [filteredPeople, page, itemsPerPage]);
 
   // Reset pagination when search changes
   useEffect(() => {
     setPage(1);
-    setHasMore(true);
   }, [searchTerm]);
-
-  // Update URL when page changes
-  // Initialize filtered and visible people when data is available
-  useEffect(() => {
-    if (!people || people.length === 0) {
-      return;
-    }
-
-    const filtered = people.filter((p) =>
-      p.name.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    setFilteredPeople(filtered);
-
-    // Load items up to current page
-    const itemsToLoad = page * itemsPerPage;
-    const currentItems = filtered.slice(0, itemsToLoad);
-    setVisiblePeople(currentItems);
-    setHasMore(filtered.length > itemsToLoad);
-  }, [people, searchTerm, page, itemsPerPage]);
 
   // Update URL when page changes
   useEffect(() => {
@@ -62,28 +51,20 @@ function PeoplePage() {
       if (loading) return;
       if (observer.current) observer.current.disconnect();
 
-      observer.current = new IntersectionObserver((entries) => {
-        if (entries[0].isIntersecting && hasMore) {
-          setLoading(true);
-          const nextPage = page + 1;
-          const start = (nextPage - 1) * itemsPerPage;
-          const end = start + itemsPerPage;
-          const nextBatch = filteredPeople.slice(start, end);
+      const canLoadMore = filteredPeople.length > page * itemsPerPage;
+      if (!canLoadMore) return;
 
-          if (nextBatch.length > 0) {
-            setVisiblePeople((prev) => [...prev, ...nextBatch]);
-            setPage(nextPage);
-            setHasMore(end < filteredPeople.length);
-          } else {
-            setHasMore(false);
-          }
+      observer.current = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting) {
+          setLoading(true);
+          setPage((prev) => prev + 1);
           setLoading(false);
         }
       });
 
       if (node) observer.current.observe(node);
     },
-    [loading, hasMore, page, filteredPeople]
+    [loading, page, filteredPeople.length, itemsPerPage]
   );
 
   return (

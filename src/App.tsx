@@ -1,4 +1,5 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import "./App.scss";
 import SoundbitesPage from "./Pages/SoundBitesPage/SoundBitesPage";
 import Iceberg from "./Pages/Iceberg/IcebergPage";
@@ -8,10 +9,21 @@ import PeoplePage from "./Pages/PeoplePage/PeoplePage";
 import Homepage from "./Pages/Homepage/Homepage";
 import PageHeader from "./Pages/PageHeader/PageHeader";
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
     <div id="App">
       <PageHeader />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/soundbites" element={<SoundbitesPage />} />
