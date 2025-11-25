@@ -62,12 +62,12 @@ Brett Kavanaugh	https://media.newyorker.com/photos/5bad691d59f95b2ce7bed0f6/mast
 Brianna Chickenfry	https://www.rollingstone.com/wp-content/uploads/2024/10/Bri-LaPaglia-speaks-on-breakup.jpg	Neutral	
 Brianna Clark	https://i1.sndcdn.com/artworks-000466122927-hmkw9h-t500x500.jpg	Neutral	
 Britney Spears	https://www.rollingstone.com/wp-content/uploads/2011/03/britneyspears.jpg	Neutral	
-Brittany Broski	https://www.j-14.com/wp-content/uploads/2023/08/brittany-broski-5.jpg	Friend	
+Brittany Broski	https://images.ctfassets.net/q5l7sv7fkjc7/1QZetMPLBufrFXOGWXaGoh/88d53c3db01f03cf0ee3c653b8f7599f/Brittany_Broski_Headshot_PLEASE_USE__1_.jpg	Friend	
 Brooke Schofield	https://stylecaster.com/wp-content/uploads/2024/08/brooke-schofield-3.png	Neutral	
 Bryce Hall	https://nationaltoday.com/wp-content/uploads/2022/07/lkjhgfhjkl-5-min-12.jpg	Friend	
 Bubb Rubb & Lil Sis	https://www.kron4.com/wp-content/uploads/sites/11/2017/02/bubb-rubb_32853264_ver1.0.jpg	Neutral	
 C-Man	https://i.ytimg.com/vi/QKMjPrRJSho/maxres2.jpg	Enemy	
-Candace Owens	https://m.media-amazon.com/images/M/MV5BMDIwYjY0NDMtZWEzOC00YTE4LTg5Y2YtYjY0NTc4YWQ3YTlkXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_FMjpg_UX1000_.jpg	Neutral	
+Candace Owens	https://i.ytimg.com/vi/fsU09KJoCFc/sddefault.jpg	Neutral	
 Cardi B	https://ntvb.tmsimg.com/assets/assets/953916_v9_bd.jpg	Neutral	
 Carlos Matos	https://pbs.twimg.com/profile_images/1537474398210383872/RQcHNLyp_400x400.jpg	Neutral	
 Casey Neistat	https://i1.sndcdn.com/artworks-000180589655-iv7rau-t500x500.jpg	Friend	
@@ -105,7 +105,7 @@ Dave Rubin	https://nationalconservatism.org/natcon-2-2021/wp-content/uploads/sit
 David Dobrik	https://brand-innovators.com/wp-content/uploads/2024/01/62d9a4139a886871cf17d8e5_Dobrik-David-scaled.jpg	Enemy	
 David Guetta	https://www.billboard.com/wp-content/uploads/2021/06/David-Guetta-press-2021-cr-Dan-Reid-billboard-1548-1623936979.jpg	Neutral	
 Deadmau5	https://i.cbc.ca/1.7230539.1718049048!/fileImage/httpImage/deadmau5.jpg	Friend	
-Def Noodles	https://centennialworld.com/wp-content/uploads/2022/02/Def-Noodle-Comedian-Header.png	Neutral	
+Def Noodles	https://www.dexerto.com/cdn-image/wp-content/uploads/2022/09/28/def-noodles-banned-twitch.jpg	Neutral	
 Demi Lovato	https://m.media-amazon.com/images/M/MV5BOTk1YTg1N2YtMmY0NS00MTZmLWFlMWYtOGJhZTk4OWJlYTYxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg	Enemy	
 Denims	https://wikicdn.destiny.gg/6/64/Denims.jpg	Enemy	
 Dennis Prager	https://www.rollingstone.com/wp-content/uploads/2021/11/dennis-prager.jpg	Neutral	
@@ -185,7 +185,7 @@ Jake Widdle	https://static.wixstatic.com/media/df036f_9db388fe2f9347b4919960c55e
 James Charles	https://www.usmagazine.com/wp-content/uploads/2020/04/James-Charles-On-Instant-Influencer-And-Dealing-With-Haters-Promo.jpg	Enemy	
 Jared Leto	https://i.guim.co.uk/img/media/a4eea3f7b5f6df1b96099e5e923ad1c8ae784aa0/128_0_1922_1153/master/1922.jpg?width=465&dpr=1&s=none	Enemy	
 Jason Nash	https://www.nickiswift.com/img/gallery/youtuber-jason-nashs-favorite-prank-might-surprise-you/intro-1576692062.jpg	Enemy	
-Jason Yang		Neutral	
+Jason Yang	https://app-spoke-sites-au.s3.amazonaws.com/uploads/sites/246/2019/10/2024_Rebrand_Web_Headshot_Jason-Yang-1.jpg	Neutral	
 Jason.Reborn	https://imgb.ifunny.co/images/ab010209bd5c950cab0606357c781c5892494e5e3c30f51e8c39bb881ae35104_3.jpg	Friend	
 Jay Shetty	https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Jay_Shetty_Headshot_2021.jpg/1200px-Jay_Shetty_Headshot_2021.jpg	Enemy	
 Jay Z	https://cdn.britannica.com/65/136165-050-6394F09F/Jay-Z.jpg	Neutral	
@@ -216,7 +216,7 @@ Kalli Metz	https://tvovermind.com/wp-content/uploads/2021/06/Kalli-Metz.jpg	Enem
 Kamala Harris	https://cdn.britannica.com/09/193109-050-51B44FEE/Kamala-Harris.jpg	Neutral	Kamala, Harris
 Kanye West	https://cdn.britannica.com/00/236500-050-06E93F4F/Kanye-West-2018.jpg	Neutral	Kanye
 Keemstar	https://upload.wikimedia.org/wikipedia/commons/0/0c/KeemstarColdOnes2020_%28cropped%29.jpg	Enemy	
-Keffals	https://static.wikia.nocookie.net/breadtube/images/9/90/Keffals.jpg	Enemy	
+Keffals	https://static.wikia.nocookie.net/youtube/images/0/07/KeffalsAppearance.jpg	Enemy	
 Kendall Rae	https://pbs.twimg.com/profile_images/1637201533938040832/kw0jdI0S.jpg	Friend	
 Kendrick Lamar	https://hips.hearstapps.com/hmg-prod/images/kendrick-lamar-at-the-67th-grammy-awards-held-at-the-crypto-news-photo-1738959019.pjpeg	Neutral	Kendrick
 Kenneth Copeland	https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/04/05/16/kenneth-copeland-blow-coronavirus.png?width=1200&height=900&fit=crop	Enemy	
