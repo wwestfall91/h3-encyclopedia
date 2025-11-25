@@ -16,15 +16,16 @@ export interface Props {
 }
 
 export function MomentAndSoundbites_Modal(props: Props) {
+  const [isPlaying, setIsPlaying] = useState(false);
   const {episodes} = useDataContext();
   const [player, setPlayer] = useState<any>(null);
   const [selectedMoment, setSelectedMoment] = useState<Soundbite | Moment>();
   const [isMobile, setIsMobile] = useState(false);
+  const [soundbiteAudio, setSoundbiteAudio] = useState<HTMLAudioElement>();
 
   useEffect(() => {
     setPlayer(null)
     setIsMobile(window.innerWidth < 1400);
-
   }, []);
 
   useEffect(() => {
@@ -45,6 +46,52 @@ export function MomentAndSoundbites_Modal(props: Props) {
   const onReady = (event : any) => {
     setPlayer(event.target);
   }
+
+  async function PlayAudio(soundbite : Soundbite) {
+    if(!soundbiteAudio){  // On the first pass, we need to setup a local audio variable. If we remove this, pausing functionality will break.
+      let audio = new Audio(`../../../soundbites/${soundbite.sound}`);
+      setSoundbiteAudio(audio)
+
+      audio.load()
+
+      setIsPlaying(true);
+  
+      if (isPlaying){
+        audio.pause()
+        audio.currentTime=0
+        setIsPlaying(false);
+        return;
+      }
+  
+      audio.addEventListener("ended", function () {
+        audio.currentTime = 0;
+        setIsPlaying(false);
+      });
+  
+      await audio.play();
+    }
+
+    if(soundbiteAudio){ // For every subsequent click, we want to use our state
+      soundbiteAudio.load()
+
+      setIsPlaying(true);
+  
+      if (isPlaying){
+        soundbiteAudio.pause()
+        soundbiteAudio.currentTime=0
+        setIsPlaying(false);
+        return;
+      }
+  
+      soundbiteAudio.addEventListener("ended", function () {
+        soundbiteAudio.currentTime = 0;
+        setIsPlaying(false);
+      });
+  
+      await soundbiteAudio.play();
+    }
+  }
+
 
   const divStyle = {
     display:'flex',
@@ -81,52 +128,53 @@ export function MomentAndSoundbites_Modal(props: Props) {
             </div>
             <div className="modal-description">{props.description}</div>
             <div className="modal-data">
+            <div className="data-section">
+              <div className="timestamp-notice">Due to pieces sometimes getting cut after airing, accuracy of timestamps may vary</div>
+              <div className="timestamp-notice">However, the episode is likely the correct one!</div>
               {props.soundbites.length > 0 &&
-              <div className="data-section">
-                <div className="related-links">Related Soundbites</div>
-                <div className="modal-links-container-soundbites">
-                  {sortSoundbitesByDate(props.soundbites).map((soundbite) => (
-                    <>
-                      {soundbite.episodetype &&
-                      <div className={`link-row ${selectedMoment?.title == soundbite.title ? "selected" : "" }`} onClick={() => {{isMobile ? window.open(`${soundbite.url}`, '_blank') : setSelectedMoment(soundbite)}}}>
-                        <div className="related-links-date">
-                          {episodes.filter((x : Episode) => x.type == soundbite.episodetype && x.number == soundbite.episodenumber)[0].date}
+              <>
+                  <div className="related-links">Related Soundbites</div>
+                  <div className="modal-links-container-soundbites">
+                    {sortSoundbitesByDate(props.soundbites).map((soundbite) => (
+                      <>
+                        {soundbite.episodetype &&
+                        <div className={`link-row ${selectedMoment?.title == soundbite.title ? "selected" : "" }`} onClick={() => {{isMobile ? window.open(`${soundbite.url}`, '_blank') : setSelectedMoment(soundbite)}}}>
+                          <div className="related-links-date">
+                            {episodes.filter((x : Episode) => x.type == soundbite.episodetype && x.number == soundbite.episodenumber)[0].date}
+                          </div>
+                          <div className="related-links-hyperlink">
+                            {soundbite.title}
+                          </div>
+                          <div className="related-links-episode">
+                            {soundbite.getShortEpisodeTitle()}
+                          </div>
                         </div>
-                        <div className="related-links-hyperlink">
-                          {soundbite.title}
-                        </div>
-                        <div className="related-links-episode">
-                          {soundbite.getShortEpisodeTitle()}
-                        </div>
-                      </div>
-                      }
+                        }
 
-                      
-                      {/* If we ever want to show unknown soundbites in this modal, this is the place
-                      {!soundbite.episodetype &&
-                      <div className={`link-row ${selectedMoment?.title == soundbite.title ? "selected" : "" }`} onClick={() => {setSelectedMoment(soundbite)}}>
-                        <div className="related-links-date">
-                          -Unknown-
+                        {/*Soundbites with unknown origins function differently*/}
+                        {!soundbite.episodetype &&
+                        <div className={`link-row ${isPlaying ? "selected" : "" }`} onClick={() => {PlayAudio(soundbite)}}>
+                          <div className="related-links-date">
+                            -Unknown-
+                          </div>
+                          <div>
+                            {soundbite.title}
+                          </div>
+                          <div className="related-links-episode">
+                            ???
+                          </div>
                         </div>
-                        <div>
-                          {soundbite.title}
+                        }
+                      </>
+                    ))}
+                    {props.soundbites.length === 0 &&
+                        <div className="no-timestamps-available">
+                          None available
                         </div>
-                        <div className="related-links-episode">
-                          ???
-                        </div>
-                      </div>
-                      } */}
-                    </>
-                  ))}
-                  {props.soundbites.length === 0 &&
-                      <div className="no-timestamps-available">
-                        None available
-                      </div>
-                  }
-                </div>
-              </div>
-            }
-
+                    }
+                  </div>
+                  </>
+                }
               <div className="data-section">
                 <div className="related-links">Referenced in Episode</div>
                 <div className="modal-links-container-moments">
@@ -155,6 +203,7 @@ export function MomentAndSoundbites_Modal(props: Props) {
         </div>
       </div>
     </div>
+    </div>
   );
 }
 
@@ -167,6 +216,8 @@ function sortMomentsByDate(moments: Moment[], episodes: Episode[]) {
 }
 
 function sortSoundbitesByDate(soundbites: Soundbite[]) {
+
+
   return soundbites.sort((a, b) => {
     let dateA = new Date(a.episodedate ? a.episodedate : new Date('1995-12-17'));
     let dateB = new Date(b.episodedate ? b.episodedate : new Date('1995-12-17'));
