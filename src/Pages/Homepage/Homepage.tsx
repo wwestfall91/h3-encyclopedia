@@ -15,6 +15,7 @@ function Homepage() {
   const [player, setPlayer] = useState<YouTubePlayer | null>(null);
   const [breakTabSelected, setBreakTabSelected] = useState<boolean>(false);
   const [psychologySelected, setPsychologySelected] = useState<boolean>(false);
+  const [vodsOnDemandSelected, setVodsOnDemandSelected] = useState<boolean>(false);
   const [showEmailModal, setShowEmailModal] = useState<boolean>(false);
   // static offset currently unused as a stateful setter; keep as const to avoid unused state warning
   const episodeOffset = 0;
@@ -229,11 +230,12 @@ function Homepage() {
   //   return null;
   // };
 
-  const loadPlaylistFromYouTube = async (): Promise<{
+  const loadPlaylistFromYouTube = async (playlistType: 'live' | 'vods' = 'live'): Promise<{
     parsed: PlaylistItem[];
     idx: number;
   } | null> => {
     const YOUTUBE_API_KEY = (import.meta as any).env?.VITE_YOUTUBE_API_KEY;
+    const H3_CHANNEL_ID = (import.meta as any).env?.VITE_H3_CHANNEL_ID;
     const H3_PLAYLIST_ID =
       (import.meta as any).env?.VITE_H3_PLAYLIST_ID ||
       "PLvcSNZqNYJCn_rVbHeJ0SrxQ4oDrlUlbr"; // fallback to requested playlist
@@ -272,12 +274,44 @@ function Homepage() {
         throw new Error("Missing VITE_YOUTUBE_API_KEY");
       }
 
+      // Determine which playlist to use based on mode
+      let targetPlaylistId = H3_PLAYLIST_ID;
+      
+      if (playlistType === 'vods') {
+        // For VODs, fetch the channel's uploads playlist
+        if (!H3_CHANNEL_ID) {
+          throw new Error("Missing VITE_H3_CHANNEL_ID - required for VODs mode");
+        }
+        
+        // Get channel details to find the uploads playlist ID
+        // Support both channel IDs (UC...) and handles (@username)
+        const isHandle = H3_CHANNEL_ID.startsWith('@');
+        const channelParam = isHandle ? `forHandle=${H3_CHANNEL_ID.slice(1)}` : `id=${H3_CHANNEL_ID}`;
+        const channelUrl = `https://www.googleapis.com/youtube/v3/channels?part=contentDetails&${channelParam}&key=${YOUTUBE_API_KEY}`;
+        const channelRes = await fetch(channelUrl);
+        const channelTxt = await channelRes.text();
+        if (!channelRes.ok)
+          throw new Error(
+            `YouTube channel API returned ${channelRes.status} - ${channelTxt}`
+          );
+        const channelData = JSON.parse(channelTxt || "{}");
+        const uploadsPlaylistId = channelData.items?.[0]?.contentDetails?.relatedPlaylists?.uploads;
+        
+        if (!uploadsPlaylistId) {
+          throw new Error("Could not find uploads playlist for channel");
+        }
+        
+        targetPlaylistId = uploadsPlaylistId;
+      }
+
       // Paginate through playlistItems (50 per page)
+      // For VODs mode, limit to most recent 150 videos to speed up loading
+      const maxVideos = playlistType === 'vods' ? 150 : undefined;
       let allItems: any[] = [];
       let pageToken: string | undefined = undefined;
       do {
         const tokenPart = pageToken ? `&pageToken=${pageToken}` : "";
-        const playlistUrl = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&playlistId=${H3_PLAYLIST_ID}&maxResults=50${tokenPart}&key=${YOUTUBE_API_KEY}`;
+        const playlistUrl = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&playlistId=${targetPlaylistId}&maxResults=50${tokenPart}&key=${YOUTUBE_API_KEY}`;
         const res = await fetch(playlistUrl);
         const txt = await res.text();
         if (!res.ok)
@@ -288,6 +322,11 @@ function Homepage() {
         const items = data.items || [];
         allItems.push(...items);
         pageToken = data.nextPageToken;
+        
+        // Break early if we've reached the limit for VODs
+        if (maxVideos && allItems.length >= maxVideos) {
+          break;
+        }
       } while (pageToken);
 
       if (allItems.length === 0) throw new Error("Playlist returned no videos");
@@ -311,6 +350,7 @@ function Homepage() {
       const ids = parsed.map((p) => p.videoId);
       const chunkSize = 50;
       const publicIds = new Set<string>();
+      const videoDetailsMap = new Map<string, { duration: string; liveBroadcastContent: string }>();
       const blockedPatterns = [
         "private video",
         "deleted video",
@@ -324,7 +364,7 @@ function Homepage() {
         for (let i = 0; i < ids.length; i += chunkSize) {
           const chunk = ids.slice(i, i + chunkSize);
           const idList = chunk.join(",");
-          const videosUrl = `https://www.googleapis.com/youtube/v3/videos?part=status&id=${idList}&key=${YOUTUBE_API_KEY}`;
+          const videosUrl = `https://www.googleapis.com/youtube/v3/videos?part=status,contentDetails,snippet&id=${idList}&key=${YOUTUBE_API_KEY}`;
           const vidsRes = await fetch(videosUrl);
           const vidsTxt = await vidsRes.text();
           if (!vidsRes.ok)
@@ -336,7 +376,13 @@ function Homepage() {
           vidsItems.forEach((v: any) => {
             const id = v.id;
             const privacy = v.status?.privacyStatus;
-            if (privacy === "public") publicIds.add(id);
+            const duration = v.contentDetails?.duration || '';
+            const liveBroadcastContent = v.snippet?.liveBroadcastContent || 'none';
+            
+            if (privacy === "public") {
+              publicIds.add(id);
+              videoDetailsMap.set(id, { duration, liveBroadcastContent });
+            }
           });
         }
 
@@ -344,6 +390,69 @@ function Homepage() {
         parsed = parsed
           .map((p) => ({ ...p, isPublic: publicIds.has(p.videoId) }))
           .filter((p) => p.isPublic);
+
+        // For VODs mode, filter out Shorts and Live content
+        if (playlistType === 'vods') {
+          const beforeFilter = parsed.length;
+          
+          // Patterns that indicate live content in titles
+          const livePatterns = [
+            /\blive\b/i,
+            /livestream/i,
+            /live stream/i,
+            /h3\s+show/i,              // "H3 Show" or "H3 SHOW"
+            /^h3\s+podcast\s+#\d+$/i,  // Format like "H3 Podcast #123"
+            /^leftovers\s+#\d+$/i,     // Format like "Leftovers #45"
+            /^off the rails\s+#\d+$/i, // Format like "Off The Rails #67"
+            /^h3tv\s+#\d+$/i,          // Format like "H3TV #89"
+            /after\s+dark/i,           // "After Dark"
+          ];
+          
+          parsed = parsed.filter((p) => {
+            const details = videoDetailsMap.get(p.videoId);
+            if (!details) return false;
+            
+            // Filter out live broadcasts (past, current, or upcoming)
+            // liveBroadcastContent can be: 'none', 'upcoming', 'live', or 'completed'
+            if (details.liveBroadcastContent !== 'none') {
+              return false;
+            }
+            
+            // Filter out videos with live-related keywords in title
+            const title = (p.title || '').trim();
+            for (const pattern of livePatterns) {
+              if (pattern.test(title)) {
+                return false;
+              }
+            }
+            
+            // Filter out Shorts and very long videos (likely live streams)
+            // Duration format: PT#H#M#S (e.g., PT1H23M45S, PT5M30S, PT45S)
+            const duration = details.duration;
+            if (duration) {
+              const match = duration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+              if (match) {
+                const hours = parseInt(match[1] || '0', 10);
+                const minutes = parseInt(match[2] || '0', 10);
+                const seconds = parseInt(match[3] || '0', 10);
+                const totalSeconds = hours * 3600 + minutes * 60 + seconds;
+                
+                // Filter out videos 3 minutes (180 seconds) or less (YouTube Shorts)
+                if (totalSeconds <= 180) {
+                  return false;
+                }
+                
+                // Filter out videos longer than 4 hours (14400 seconds) - likely live streams
+                if (totalSeconds > 14400) {
+                  return false;
+                }
+              }
+            }
+            
+            return true;
+          });
+          console.log(`VODs filter: ${beforeFilter} videos -> ${parsed.length} videos after filtering`);
+        }
 
         // Also apply title heuristics as a safety net
         parsed = parsed.filter((p) => {
@@ -422,11 +531,12 @@ function Homepage() {
     return null;
   };
 
-  // Load playlist once on mount so the player starts at the latest playlist episode
+  // Load playlist based on selected mode (Live or VODs)
   useEffect(() => {
-    loadPlaylistFromYouTube();
+    const playlistType = vodsOnDemandSelected ? 'vods' : 'live';
+    loadPlaylistFromYouTube(playlistType);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [vodsOnDemandSelected]);
   // Only allow one navigation at a time; wait for API and UI to update before allowing another
   const moveInPlaylist = async (direction: "next" | "prev") => {
     if (navigatingRef.current) return;
@@ -444,7 +554,8 @@ function Homepage() {
 
       // If playlist not loaded yet, load it and then compute the navigation target
       if (playlistItems.length === 0) {
-        const res = await loadPlaylistFromYouTube();
+        const playlistType = vodsOnDemandSelected ? 'vods' : 'live';
+        const res = await loadPlaylistFromYouTube(playlistType);
         if (!res) return;
         const parsed = res.parsed as PlaylistItem[];
         const loadedIdx = res.idx ?? 0;
@@ -668,11 +779,11 @@ function Homepage() {
   const divStyle = {
     display: "flex",
     width: "700px",
-    height: "380px",
-    border: "1px solid black",
+    height: "396px",
+    outline: "3px solid black",
     borderRadius: "5px",
     margin: "15px",
-    boxShadow: "30px 30px 20px 1px rgba(0, 0, 0, 0.555)",
+    boxShadow: "30px 20px 20px 1px rgba(0, 0, 0, 0.555)",
   };
 
   const opts = {
@@ -788,7 +899,20 @@ function Homepage() {
                       </div>
                     )}
                 </div>
+                <div className="youtube-section-container">  
+                  <div 
+                    className={vodsOnDemandSelected ? "youtube-section-button" : "youtube-section-button selected"}
+                    onClick={() => setVodsOnDemandSelected(false)}>
+                      Live
+                  </div>
+                  <div 
+                    className={vodsOnDemandSelected ? "youtube-section-button selected" : "youtube-section-button"}
+                    onClick={() => setVodsOnDemandSelected(true)}>
+                      Vods ON DEMAND
+                    </div>
+                </div>
               </div>
+              
               {fetchNextError && (
                 <div className="next-episode-error">{fetchNextError}</div>
               )}

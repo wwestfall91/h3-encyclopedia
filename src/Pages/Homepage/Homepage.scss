@@ -9,6 +9,32 @@
     rgba(121, 103, 185, 1) 100%
   );
 
+  .youtube-section-container{
+    display: flex;
+    flex-direction: row;
+    width:80%;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .youtube-section-button{
+    display: flex;
+    width:100%;
+    height:1.8rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 224, 255, 0.856);
+    margin-top:-1.75rem;
+    border-radius: 5px;
+    outline: 2px solid black;
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.555);
+    font-weight: 600;
+    cursor: pointer;
+  }
+
   .previous-episode-button {
     display: flex;
     justify-content: center;

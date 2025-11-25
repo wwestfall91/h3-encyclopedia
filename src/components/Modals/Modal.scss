@@ -192,6 +192,7 @@
   .modal-title {
     display: flex;
     font-size: 32px;
+    min-width:30rem;
     border-bottom: black solid 3px;
     width: 100%;
   }
@@ -259,6 +260,7 @@
     border:1px solid rgba(0, 0, 0, 0.397);
     border-radius: 5px;
     padding:.25rem;
+    min-width: 30rem;
     background-color:rgba(255, 255, 255, .7);
     gap: 0.5rem;
     box-shadow: 3px 3px 3px -1px rgba(0, 0, 0, 0.6);
