@@ -89,6 +89,7 @@ function Homepage() {
   const onReady = (event: YouTubeEvent<number>) => {
     const target = event.target;
     setPlayer(target);
+    setIsVideoLoading(false); // Video player is ready
     // Try to cue the current episode now that the player is ready.
     try {
       const getIframe = (target as any).getIframe;
@@ -202,6 +203,7 @@ function Homepage() {
   }, [currentEpisode]);
 
   const [isFetchingNextEpisode, setIsFetchingNextEpisode] = useState(false);
+  const [isVideoLoading, setIsVideoLoading] = useState(true);
   const [fetchNextError, setFetchNextError] = useState<string | null>(null);
   // Strict navigation lock: only allow one navigation at a time
   const navigatingRef = useRef(false);
@@ -522,6 +524,7 @@ function Homepage() {
 
       setPlaylistIndex(idx);
       setCurrentEpisode(newEpisode);
+      setIsVideoLoading(true); // Mark video as loading when changing episodes
       return { parsed, idx };
     } catch (err: any) {
       setFetchNextError(err?.message || String(err));
@@ -604,6 +607,7 @@ function Homepage() {
           );
           setPlaylistIndex(finalIndex);
           setCurrentEpisode(newEpisode);
+          setIsVideoLoading(true); // Mark video as loading
         }
         return;
       }
@@ -657,6 +661,7 @@ function Homepage() {
       );
       setPlaylistIndex(targetIndex);
       setCurrentEpisode(newEpisode);
+      setIsVideoLoading(true); // Mark video as loading
     } catch (e: any) {
       setFetchNextError(e?.message || String(e));
     } finally {
@@ -869,15 +874,18 @@ function Homepage() {
                   {playlistIndex != null && playlistIndex > 0 && (
                     <div
                       className={`previous-episode-button ${
-                        isFetchingNextEpisode ? "disabled" : ""
+                        isFetchingNextEpisode || isVideoLoading ? "disabled" : ""
                       }`}
-                      onClick={() => moveInPlaylist("prev")}
-                      aria-disabled={isFetchingNextEpisode}
+                      onClick={() => {
+                        if (!isFetchingNextEpisode && !isVideoLoading) {
+                          moveInPlaylist("prev");
+                        }
+                      }}
+                      aria-disabled={isFetchingNextEpisode || isVideoLoading}
                       style={{
-                        cursor: isFetchingNextEpisode ? "wait" : "pointer",
+                        cursor: isFetchingNextEpisode || isVideoLoading ? "wait" : "pointer",
                       }}
                     >
-                      {isFetchingNextEpisode && <span className="spinner" />}
                       {"<"}
                     </div>
                   )}
@@ -898,16 +906,19 @@ function Homepage() {
                     playlistIndex < parsedLength() - 1 && (
                       <div
                         className={`next-episode-button ${
-                          isFetchingNextEpisode ? "disabled" : ""
+                          isFetchingNextEpisode || isVideoLoading ? "disabled" : ""
                         }`}
-                        onClick={() => moveInPlaylist("next")}
-                        style={{
-                          cursor: isFetchingNextEpisode ? "wait" : "pointer",
+                        onClick={() => {
+                          if (!isFetchingNextEpisode && !isVideoLoading) {
+                            moveInPlaylist("next");
+                          }
                         }}
-                        aria-disabled={isFetchingNextEpisode}
+                        style={{
+                          cursor: isFetchingNextEpisode || isVideoLoading ? "wait" : "pointer",
+                        }}
+                        aria-disabled={isFetchingNextEpisode || isVideoLoading}
                       >
-                        {isFetchingNextEpisode && <span className="spinner" />}
-                        {isFetchingNextEpisode ? "Searching..." : ">"}
+                        {">"}
                       </div>
                     )}
                 </div>
