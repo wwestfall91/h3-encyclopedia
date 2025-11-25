@@ -684,13 +684,18 @@ function Homepage() {
     const cards: JSX.Element[] = [];
     if (!people || people.length === 0) return cards;
 
-    // If there are no parsed timestamps, fall back to searching the episode title
-    const labelsToSearch =
-      videoTimestamps && videoTimestamps.length > 0
-        ? videoTimestamps
-        : currentEpisode && currentEpisode.title
-        ? [{ label: currentEpisode.title, seconds: 0 }]
-        : [];
+    // Search both timestamps AND episode title for person names
+    const labelsToSearch = [];
+    
+    // Add parsed timestamps if available
+    if (videoTimestamps && videoTimestamps.length > 0) {
+      labelsToSearch.push(...videoTimestamps);
+    }
+    
+    // Always also search the episode title if available
+    if (currentEpisode && currentEpisode.title) {
+      labelsToSearch.push({ label: currentEpisode.title, seconds: 0 });
+    }
 
     if (labelsToSearch.length === 0) return cards;
 
@@ -876,12 +881,19 @@ function Homepage() {
                       {"<"}
                     </div>
                   )}
-                  <YouTube
-                    videoId={currentEpisode?.getVideoId()}
-                    opts={opts}
-                    onReady={onReady}
-                    style={divStyle}
-                  />
+                  <div style={{ position: 'relative' }}>
+                    <YouTube
+                      videoId={currentEpisode?.getVideoId()}
+                      opts={opts}
+                      onReady={onReady}
+                      style={divStyle}
+                    />
+                    {isFetchingNextEpisode && (
+                      <div className="video-loading-overlay">
+                        <div className="video-loading-spinner" />
+                      </div>
+                    )}
+                  </div>
                   {playlistIndex != null &&
                     playlistIndex < parsedLength() - 1 && (
                       <div

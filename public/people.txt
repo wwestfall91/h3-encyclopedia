@@ -307,7 +307,7 @@ Pokimane	https://d.newsweek.com/en/full/1571727/pokimane-twitch-deal-exclusive-s
 Post Malone	https://www.rollingstone.com/wp-content/uploads/2024/08/post-malone-daughter-ddb.jpg	Friend	
 Prince Harry	https://images.hellomagazine.com/horizon/43/5889fe557d16-prince-harry-grey-suit.jpg	Neutral	
 ProJared	Images\ProJared_MajorasMask.png	Enemy	
-QTCinderella	https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/03/QTCinderella-Stream.jpeg	Neutral	
+QTCinderella	https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/03/QTCinderella-Stream.jpeg	Neutral	QT
 Queen of Melrose	https://cdn.cameo.com/thumbnails/660b540039dd7c2d4a5745cf-wm-thumbnail.jpg	Friend	
 R Kelly	https://cdn.britannica.com/49/235949-050-CE98A115/R-Kelly-leaves-criminal-courts-building-chicago-june-26-2019.jpg	Neutral	
 Rae	https://pbs.twimg.com/profile_images/1648119492906569728/EaXGZMHW_400x400.jpg	Family	
