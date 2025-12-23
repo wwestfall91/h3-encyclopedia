@@ -821,7 +821,7 @@ function Homepage() {
                 setPsychologySelected(false);
               }}
             >
-              SUMMER BREAK 2025
+              WINTER BREAK 2025
             </button>
             <button
               className={

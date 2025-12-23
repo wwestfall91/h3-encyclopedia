@@ -4,7 +4,7 @@ type Props = {
   title: string;
   image: string;
   onClickCallback: () => void;
-  comingSoon: boolean;
+  comingSoon: string | boolean;
 };
 
 function CustomCard1(props: Props) {
@@ -13,7 +13,7 @@ function CustomCard1(props: Props) {
       {props.comingSoon && (
         <div className="coming-soon">
           <div className="coming-soon-text">
-            Coming Soon
+            {props.comingSoon === true ? "Coming Soon" : props.comingSoon}
           </div>
         </div>
       )}
