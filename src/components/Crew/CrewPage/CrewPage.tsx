@@ -76,8 +76,8 @@ export function CrewPage() {
                 <CustomCard1
                   title={"Nate"}
                   image="https://static.wikia.nocookie.net/h3podcast/images/6/65/Download.jpg"
-                  onClickCallback={() => {}}
-                  comingSoon={true}
+                  onClickCallback={() => HandleCrewClick("Nate")}
+                  comingSoon={false}
                 />
               </div>
             </>
