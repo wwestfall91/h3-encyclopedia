@@ -43,22 +43,16 @@ export function CrewPage() {
                   onClickCallback={() => HandleCrewClick("Dan")}
                   comingSoon={false}
                 />
-                <CustomCard1
-                  title={"Love"}
-                  image={AllCrewAssets.Love.UniformLove}
-                  onClickCallback={() => HandleCrewClick("Love")}
+                {/* <CustomCard1
+                  title={"Ian"}
+                  image={AllCrewAssets.Ian.UniformIan}
+                  onClickCallback={() => HandleCrewClick("Ian")}
                   comingSoon={false}
-                />
+                /> */}
                 <CustomCard1
                   title={"Zach"}
                   image={AllCrewAssets.Zach.UniformZach}
                   onClickCallback={() => HandleCrewClick("Zach")}
-                  comingSoon={false}
-                />
-                <CustomCard1
-                  title={"Olivia"}
-                  image={AllCrewAssets.Olivia.UniformOlivia}
-                  onClickCallback={() => HandleCrewClick("Olivia")}
                   comingSoon={false}
                 />
                 <CustomCard1
@@ -68,16 +62,52 @@ export function CrewPage() {
                   comingSoon={true}
                 />
                 <CustomCard1
-                  title={"Lena"}
-                  image={AllCrewAssets.Lena.UniformLena}
+                  title={"Love"}
+                  image={AllCrewAssets.Love.UniformLove}
+                  onClickCallback={() => HandleCrewClick("Love")}
+                  comingSoon={false}
+                />
+                {/* <CustomCard1
+                  title={"Sam"}
+                  image={AllCrewAssets.Sam.UniformSam}
                   onClickCallback={() => {}}
                   comingSoon={true}
+                /> */}
+                <CustomCard1
+                  title={"Olivia"}
+                  image={AllCrewAssets.Olivia.UniformOlivia}
+                  onClickCallback={() => HandleCrewClick("Olivia")}
+                  comingSoon={false}
+                />
+                {/* <CustomCard1
+                  title={"Cam"}
+                  image={AllCrewAssets.Cameron.UniformCam}
+                  onClickCallback={() => {}}
+                  comingSoon={true}
+                /> */}
+                <CustomCard1
+                  title={"Lena"}
+                  image={AllCrewAssets.Lena.UniformLena}
+                  onClickCallback={() => HandleCrewClick("Lena")}
+                  comingSoon={false}
                 />
                 <CustomCard1
                   title={"Nate"}
                   image="https://static.wikia.nocookie.net/h3podcast/images/6/65/Download.jpg"
                   onClickCallback={() => HandleCrewClick("Nate")}
                   comingSoon={false}
+                />
+                <CustomCard1
+                    title={"Tamara"}
+                    image="https://static.wikia.nocookie.net/h3h3/images/c/cc/Tamara_Joseph.jpg"
+                    onClickCallback={() => {}}
+                    comingSoon={"Coming Soon"}
+                />
+                <CustomCard1
+                    title={"Morgan"}
+                    image="https://i.ytimg.com/vi/waklkPdiXPY/sddefault.jpg"
+                    onClickCallback={() => {}}
+                    comingSoon={"Coming Soon"}
                 />
               </div>
             </>
