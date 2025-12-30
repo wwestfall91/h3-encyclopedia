@@ -351,7 +351,7 @@ Steven Seagal	https://upload.wikimedia.org/wikipedia/commons/d/d9/Steven_Seagal_
 SteveWillDoIt	https://sureshot.com/cdn/shop/articles/SteveWillDoIt.png	Enemy	
 SunnyV2	https://yt3.googleusercontent.com/Hp09v_bD_EnSL3Y49DygS0R9-MKsBh1xkrlWtSAA5f8SQoPh3SYqhGwPiOhBj4iwxd_x7hzC=s900-c-k-c0x00ffffff-no-rj	Enemy	
 Swami	https://static.wikia.nocookie.net/h3podcast/images/2/20/Swami.jpg	Friend	
-Tamara (Undead Mummy)	https://static.wikia.nocookie.net/h3h3/images/c/cc/Tamara_Joseph.jpg	Family	
+Tamara	https://static.wikia.nocookie.net/h3h3/images/c/cc/Tamara_Joseph.jpg	Family	
 Tana Mongeau	https://i2.wp.com/hollywoodlife.com/wp-content/uploads/2019/06/tana-mongeau-1.jpg	Friend	
 Tati Westbrook	https://akns-images.eonline.com/eol_images/Entire_Site/2019421/rs_600x600-190521110753-600-Tati-Westbrook-LT-052119-Youtube.jpg	Neutral	
 Taylor Lorenz	https://digiday.com/wp-content/uploads/sites/3/2020/03/taylor_lorenz.png	Enemy	

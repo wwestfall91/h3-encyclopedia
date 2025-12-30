@@ -1,6 +1,5 @@
 import { useDataContext } from "../../context/DataContext";
 import "./SummerBreak.scss"
-import TopicComponent from "../Iceberg/TopicComponent";
 import CustomCard1 from "../../components/Cards/CustomCard1/CustomCard1";
 import { useNavigate } from "react-router";
 import AllCrewAssets from "../../assets/AllCrewAssets";
@@ -46,7 +45,7 @@ function SummerBreakSection() {
                             title={"Tamara"}
                             image="https://static.wikia.nocookie.net/h3h3/images/c/cc/Tamara_Joseph.jpg"
                             onClickCallback={() => navigate('/Crew')}
-                            comingSoon={"Coming 12/29"}
+                            comingSoon={false}
                         />
                         <CustomCard1
                             title={"Morgan"}

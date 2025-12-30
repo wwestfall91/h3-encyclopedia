@@ -100,8 +100,8 @@ export function CrewPage() {
                 <CustomCard1
                     title={"Tamara"}
                     image="https://static.wikia.nocookie.net/h3h3/images/c/cc/Tamara_Joseph.jpg"
-                    onClickCallback={() => {}}
-                    comingSoon={"Coming Soon"}
+                    onClickCallback={() => {HandleCrewClick("Tamara")}}
+                    comingSoon={false}
                 />
                 <CustomCard1
                     title={"Morgan"}

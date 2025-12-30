@@ -43,6 +43,7 @@ function RequestCrewMomentModal(props: Props) {
               <option selected={props.crewMember == "Olivia"} value="Olivia">Olivia</option>
               <option selected={props.crewMember == "Lena"} value="Lena">Lena</option>
               <option selected={props.crewMember == "Nate"} value="Nate">Nate</option>
+              <option selected={props.crewMember == "Tamara"} value="Tamara">Tamara</option>
             </select>
           </div>
           <div className="submit-modal-form-input">
