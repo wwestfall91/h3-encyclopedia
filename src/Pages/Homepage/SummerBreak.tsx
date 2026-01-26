@@ -3,6 +3,7 @@ import "./SummerBreak.scss"
 import CustomCard1 from "../../components/Cards/CustomCard1/CustomCard1";
 import { useNavigate } from "react-router";
 import AllCrewAssets from "../../assets/AllCrewAssets";
+import TopicComponent from "../Iceberg/TopicComponent";
 
 function SummerBreakSection() {
     // @ts-ignore
@@ -11,27 +12,6 @@ function SummerBreakSection() {
 
     return (
         <div className="break-page-container">
-            {/* <div className="left-side">
-                <div className="section-title-left">FAVORITE CREW MOMENTS</div>
-                <div className="data">
-                    <div className="data-title">June 30th - July 4th</div>
-                    <div className="data-items">
-                        <TopicComponent topic={topics.find(x => x.name == "Avery's Favorite Moments!")} />
-                        <TopicComponent topic={topics.find(x => x.name == "Hila's Favorite Moments!")} />
-                        <TopicComponent topic={topics.find(x => x.name == "Misc Crew Favorites!")} />
-                        <TopicComponent topic={topics.find(x => x.name == "Rae's Favorite Moments!")} />
-                        <TopicComponent topic={topics.find(x => x.name == "Zane's TOP TEN!")} />
-                    </div>
-                    <div className="data-title">June 23rd - June 27th</div>
-                    <div className="data-items">
-                        <TopicComponent topic={topics.find(x => x.name == "Zach's Favorite Moments!")} />
-                        <TopicComponent topic={topics.find(x => x.name == "Love's Favorite Moments!")} />
-                        <TopicComponent topic={topics.find(x => x.name == "Olivia's Favorite Moments!")} />
-                        <TopicComponent topic={topics.find(x => x.name == "AB's Favorite Moments!")} />
-                        <TopicComponent topic={topics.find(x => x.name == "Dan's Favorite Moments!")} />
-                    </div>
-                </div>
-            </div> */}
             <div className="right-side">
                 <div className="section-title-right">NEW CREW PAGES</div>
                 <div className="data">
@@ -51,7 +31,7 @@ function SummerBreakSection() {
                             title={"Morgan"}
                             image="https://i.ytimg.com/vi/waklkPdiXPY/sddefault.jpg"
                             onClickCallback={() => navigate('/Crew')}
-                            comingSoon={"Coming 1/5"}
+                            comingSoon={false}
                         />
                         <CustomCard1
                             title={"AB"}
@@ -59,16 +39,16 @@ function SummerBreakSection() {
                             onClickCallback={() => navigate('/Crew')}
                             comingSoon={"Coming Soon"}
                         />
-                    {/* <div className="data-items">
-
-                    </div> */}
-                    {/* <div className="data-items">
-                        <TopicComponent topic={topics.find(x => x.name == "H3H3Producitons")} overlayText="Level 4" />
-                        <TopicComponent topic={topics.find(x => x.name == "Kevin")} overlayText="Level 7" />
-                        <TopicComponent topic={topics.find(x => x.name == "The Denny's Incident")} overlayText="Level 6" />
-                        <TopicComponent topic={topics.find(x => x.name == "Hiking with Philip DeFranco")} overlayText="Level 7" />
-                        <TopicComponent topic={topics.find(x => x.name == "The Eel Pit")} overlayText="Level 7" />
-                    </div> */}
+                </div>
+            </div>
+            <div className="left-side">
+                <div className="section-title-left">NEW ICEBERG TOPICS</div>
+                <div className="data">
+                        <TopicComponent topic={topics.find(x => x.name == "The Todd n' Tuck")} overlayText="Level 10" />
+                        <TopicComponent topic={topics.find(x => x.name == "Traffic Report")} overlayText="Level 2" />
+                        <TopicComponent topic={topics.find(x => x.name == "Ethan's Fridge")} />
+                        <TopicComponent topic={topics.find(x => x.name == "Moo Deng Time")} image="https://upload.wikimedia.org/wikipedia/commons/d/d2/Moo_deng_%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%80%E0%B8%94%E0%B9%89%E0%B8%87_%282024-09-11%29_-_img_02.jpg" />
+                        <TopicComponent topic={topics.find(x => x.name == "Dan's Chips")} image="https://h3out.com/wp-content/uploads/2020/05/8be89833214bdedd54489fe4e17c54a0-1024x575.jpg" />
                 </div>
             </div>
         </div>

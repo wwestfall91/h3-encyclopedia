@@ -836,7 +836,7 @@ function Homepage() {
             >
               EPISODE DEBRIEF
             </button>
-            <button
+            {/* <button
               className={
                 psychologySelected
                   ? "subheader-button selected"
@@ -848,7 +848,7 @@ function Homepage() {
               }}
             >
               PSYCHOLOGY IN SEATTLE RATINGS
-            </button>
+            </button> */}
           </div>
         )}
 

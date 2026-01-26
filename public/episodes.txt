@@ -156,6 +156,7 @@ EthanAndHila	1	01-20-2016	ONE FRICKED UP DENTIST	https://www.youtube.com/watch?v
 EthanAndHila	2	05-15-2016	The Gaze of Miracles	https://www.youtube.com/watch?v=LoYFNS3aMqg	
 EthanAndHila	3	03-07-2016	Social Experiments with Joey Salads	https://youtu.be/nHHzQ8VPtAs	
 EthanAndHila	4	03-08-2016	What Happened to H3H3Productions!?	https://youtu.be/uvK4EVTcKHs	
+EthanAndHila	5	06-21-2015	Ethan and Hila in Disneyland	https://youtu.be/DjDFBrOywVw	
 EthanKlein	38	02-10-2022	MoistCritikal Is Destroying YouTube	https://youtu.be/8CcVkyFXHyw	
 Families	1	06-23-2021	The New Host Of Frenemies Is…	https://youtu.be/3CEMfve0fb8	
 Families	2	06-30-2021	Trisha Paytas vs Gabbie Hanna Explained By My Mom - Families #2	https://youtu.be/_SdeGi-8rZ8	
@@ -225,6 +226,7 @@ H3H3Productions	13	04-18-2020	Everybody Loves Ethan	https://youtu.be/9eN0CIyF2ok
 H3H3Productions	14	12-31-2016	EXPERIMENT Glowing 1000 degree KNIFE ft iDubbbzTV	https://youtu.be/gherdHE_HDo	
 H3H3Productions	15	06-08-2018	Shootin' With iDubbbz	https://youtu.be/JfsxLhPn-oA	
 H3H3Productions	16	01-31-2025	Content Nuke - Hasan Piker	https://youtu.be/ZSUDHx-1_ww	
+H3H3Productions	17	12-09-2015	h3h3productions Q&A 2015 (appreciate ya!)	https://youtu.be/ejdl2eANH-4	
 H3Show	1	04-22-2024	Fresh Got His GF Pregnant & Demands She Gets Rid Of It (She’s Calling In)  - H3 Show #1	https://youtu.be/0lt0tTr-lj4	
 H3Show	2	04-24-2024	Catching Up On All The Tea We Missed - H3 Show #2	https://youtu.be/x2cyP6KJ0Uc	
 H3Show	3	04-26-2024	Green Screen Tournament 2024 - H3 Show #3	https://youtu.be/Xel3UegLOLQ	
@@ -1020,3 +1022,4 @@ SYNT	31	05-16-2023	See You Next Tuesday #31	https://youtu.be/zOYZ3XMGjUM
 SYNT	97	02-20-2025	The Jay Shetty & Avocado Episode - SYNT #97	https://youtu.be/vVaHCn3smdE	
 Unknown	1	05-05-2015	Unknown	https://youtu.be/zOYZ3XMGjUM	
 Highlight	1	11-05-2021	Carlos is Launching an NFT - Interview	https://youtu.be/NObrnl_cyvI	
+VOD	1	08-24-2025	The Blind & Deaf Challenge Nearly Broke Us	https://youtu.be/RY7ELw1K-PA	

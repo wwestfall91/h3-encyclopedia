@@ -146,5 +146,10 @@ export enum Tag{
   MeatMountain,
   MiscCrewFavorites,
   RaesFavorites,
-  ZanesFavorites
+  ZanesFavorites,
+  ToddNTuck,
+  TrafficReport,
+  EthansFridge,
+  MooDengTime,
+  DansChips
 }

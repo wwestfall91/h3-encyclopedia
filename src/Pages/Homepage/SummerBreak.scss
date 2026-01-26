@@ -1,5 +1,6 @@
 .break-page-container{
   display: flex;
+  flex-direction: column;
   width:inherit;
   height:inherit;
   padding:.75rem;
@@ -10,11 +11,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width:50%;
   background-color: rgba(255, 255, 255, 0.356);
   outline: 2px solid rgba(0, 0, 0, 0.521);
   border-radius: 1rem;
   padding: 0 1rem 2rem 1rem;
+  flex-wrap: wrap;
 }
 
 .right-side{
@@ -26,6 +27,7 @@
   outline: 2px solid rgba(255, 255, 255, 0.521);
   border-radius: 1rem;
   padding: 0 1rem 2rem 1rem;
+  flex-wrap: wrap;
 }
 
 .data{

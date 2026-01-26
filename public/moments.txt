@@ -175,6 +175,7 @@ Spitting out Burrito	H3Show	137	14053		https://youtu.be/WRyfaf8tiQ8&t=14053		But
 Rolling Around in Pigshit	H3Show	144	10365		https://youtu.be/Ix2G5h3qSdo&t=10365		Button		Responding to Idubbbz’s Content Deputy - H3 Show #144		05-05-2025
 A Man on the Edge	H3Show	188	1658		https://youtu.be/FwRvFDkGMIw&t=1658		Button		My reputation is dirt. How do I fix it? - H3 Show #188		09-05-2025
 	H3Show	212	12477		https://youtu.be/VqUoAR_ZXsc&t=12477		Button		Colleen Ballinger Is Back & Already Cancelled (w/ Harley & Rich Lux) - H3 Show #212		11-17-2025
+SOUNDBITE TOURNAMENT 2025	H3Show	222	4637		https://youtu.be/yhiPyt9bd98&t=4637		Button		SOUNDBITE TOURNAMENT 2025 - H3 Show #222		12-17-2025
 Dan Lore											
 Bobby Lee Interruption	Podcast	148	2062		https://youtu.be/NK-_XJBYv-c&t=2062	Dan	Lore		Bobby Lee & Khalyla - H3 Podcast #148	Top Dan Moments	10-08-2019
 Dan Bans Rich Lux	H3TV	42	4956		https://youtu.be/QpElkT_nkgY&t=4956	Dan	Lore		We Went To ACE Fest... WOW - H3TV #42	Top Dan Moments	07-11-2022
@@ -851,7 +852,38 @@ Drunken Olivia Walks in a Straight Line	H3TV	111	12361	12552	https://www.youtube
 Jorel Interview After the Jimmie Lee Break-In	H3Show	64	7400	12835	https://youtu.be/vrgT8x57bDo&t=7400		ZanesFavorites		Jimmy Lee Breaks Into Studio, Gets Confronted, Permanently Banned - H3 Show #64		10-10-2024
 Crew Reacting to his Green Screen Submission	H3Show	3	9284	9506	https://youtu.be/Xel3UegLOLQ&t=9284	Zane (Tall Skeleton)	ZanesFavorites		Green Screen Tournament 2024 - H3 Show #3		04-26-2024
 Crew SHouting out his video essay!	H3TV	103	3755	3872	https://www.youtube.com/watch?v=WuaEyOStUds&t=3755	Zane (Tall Skeleton)	ZanesFavorites		Ethan Admits To Faking Illness For Money - H3TV #103		01-08-2024
-Ethan's BBTV Rant - "I'm crazier than you!"	H3TV	72	1435	1544	https://youtu.be/pHHVpvLqYCE&t=1435		ZanesFavorites		BBTV Stole $620,000 & Refuses To Return It... (in my opinion) CEO Shahrzad Rafati - H3TV #72		04-10-2023
+Ethan "I'm crazier than you" Klein	H3TV	72	1435	1544	https://youtu.be/pHHVpvLqYCE&t=1435		ZanesFavorites		BBTV Stole $620,000 & Refuses To Return It... (in my opinion) CEO Shahrzad Rafati - H3TV #72		04-10-2023
+Ethan's Chub n' Tuck Tutorial	H3H3Productions	17	318	414	https://youtu.be/ejdl2eANH-4&t=318	Ethan	ToddNTuck		h3h3productions Q&A 2015 (appreciate ya!)		12-09-2015
+Ethan does the Chub n' Tuck at Disney World	EthanAndHila	5	61	127	https://youtu.be/DjDFBrOywVw&t=61	Ethan	ToddNTuck		Ethan and Hila in Disneyland		06-21-2015
+The Todd n' Tuck is Born!	Podcast	129	4793		https://youtu.be/1owweBRXABQ&t=4793		ToddNTuck		Twitch Double Standard & Analyzing Belle Delphines Spit - H3 Podcast #129		07-26-2019
+Viewer meets Zach and Todd at their restaurant	H3TV	17	2129		https://youtu.be/OY934DPbmrc&t=2129		ToddNTuck		Keemstar vs The Quartering - H3TV #17		11-22-2021
+Todd goes to Zach's Live Show	H3TV	34	424		https://youtu.be/T5uYYBnwdH0&t=424		ToddNTuck		Elon Musk Cringe, Pete Davidson Cringe, Cobra Tate Cringe - H3TV #34		05-02-2022
+The Very First Traffic Report (LA)	H3Show	19	73	137	https://youtu.be/dAIDkR4xb7U&t=73		TrafficReport		Tana Mongeau Exposed Cody Ko - H3 Show #19		06-05-2024
+H3 Show #22 - 1st Report (Boston)	H3Show	22	602	711	https://youtu.be/bnLi7oii98g&t=602		TrafficReport		The Crew Switches Jobs And Feelings Get Hurt - H3 Show #22		06-12-2024
+H3 Show #22 - 2nd Report (Boston)	H3Show	22	1291	1371	https://youtu.be/bnLi7oii98g&t=1291		TrafficReport		The Crew Switches Jobs And Feelings Get Hurt - H3 Show #22		06-12-2024
+H3 Show #22 - Ethan Destroys the Set (Louisville)	H3Show	22	2617	2739	https://youtu.be/bnLi7oii98g&t=2617		TrafficReport		The Crew Switches Jobs And Feelings Get Hurt - H3 Show #22		06-12-2024
+H3 Show #22 - 4th Report (Truro)	H3Show	22	5081	5151	https://youtu.be/bnLi7oii98g&t=5081		TrafficReport		The Crew Switches Jobs And Feelings Get Hurt - H3 Show #22		06-12-2024
+H3 Show #22 - Ethan Gives a Weather Update	H3Show	22	5811	5901	https://youtu.be/bnLi7oii98g&t=5811		TrafficReport		The Crew Switches Jobs And Feelings Get Hurt - H3 Show #22		06-12-2024
+H3 Show #22 - 5th Report (Salt Lake City)	H3Show	22	10225	10284	https://youtu.be/bnLi7oii98g&t=10225		TrafficReport		The Crew Switches Jobs And Feelings Get Hurt - H3 Show #22		06-12-2024
+H3 Show #22 - 6th Report (Raleigh)	H3Show	22	12014	12093	https://youtu.be/bnLi7oii98g&t=12014		TrafficReport		The Crew Switches Jobs And Feelings Get Hurt - H3 Show #22		06-12-2024
+The 40 Minute Long Traffic Report	ContentCourt	10	3540	6007	https://youtu.be/nXB74iEuaX8&t=3540		TrafficReport		Content Court: Ethan Klein		08-29-2024
+The Gatsby of Fridges	H3Show	16	1362	1548	https://youtu.be/jvGC35qMLMw&t=1362		EthansFridge		AND THE RESULT OF MY COLONOSCOPY IS… - H3 Show #16		05-29-2024
+Ethan's Fridge cost $12,000?!	H3Show	16	1904	2250	https://youtu.be/jvGC35qMLMw&t=1904		EthansFridge		AND THE RESULT OF MY COLONOSCOPY IS… - H3 Show #16		05-29-2024
+Ethan's Golden Fridge	H3Show	16	8979	9019	https://youtu.be/jvGC35qMLMw&t=8979	Zane (Tall Skeleton)	EthansFridge		AND THE RESULT OF MY COLONOSCOPY IS… - H3 Show #16		05-29-2024
+Ethan's 1800 sq ft Fridge	H3Show	26	5759	5834	https://youtu.be/GkAiYALkd9Y&t=5759	Zane (Tall Skeleton)	EthansFridge		Did This Influencer Kill Her Cat? - H3 Show #26		06-21-2024
+Ethan's Fridge Tour	H3Show	182	4084	5340	https://youtu.be/cb32jRN7uUs&t=4084		EthansFridge		Another F**ked Up Package Arrived At The Studio - H3 Show #182		08-20-2025
+"ALL I SEE IS DAN EATING CHIPS"	Podcast	150	2949	2986	https://youtu.be/021de75ZxPs&t=2949	Dan	DansChips, Lore		Trisha Paytas Insults Hila & We Met Belle Delphine - H3 Podcast #150	Dans Chips	10-16-2019
+Looking at Memes on the Subreddit	Podcast	151	2893	2945	https://youtu.be/rrA1Wz5o_Hg&t=2893	Dan	DansChips, Lore		Ninja Texting Scam & PewDiePie Banned In China - H3 Podcast #151	Dans Chips	10-23-2019
+Dans Thoughts on the Memes	Podcast	153	469	511	https://youtu.be/fNCRxWmL5qw&t=469	Dan	DansChips, Lore		MrBeast Saves The Planet & Twitch Is Collapsing - H3 Podcast #153	Dans Chips	10-30-2019
+Dan's Got a Chip Problem	Podcast	166	1368	1404	https://youtu.be/UE-6zvdRapY&t=1368	Dan	DansChips, Lore		YouTube Removes iDubbbz Content Cop - H3 Podcast #166	Dans Chips	12-14-2019
+Dan Finds a Solution to the Chip Problem	Podcast	184	4835	4904	https://youtu.be/1M738YCJpfQ&t=4835	Dan	DansChips, Lore		Trisha Paytas Ruins The H3 Podcast - H3 Podcast #184	Dans Chips	03-28-2020
+Dan Shows Off His New Chips	Podcast	185	1230	1265	https://youtu.be/7W2bnrdiJzo&t=1230	Dan	DansChips, Lore		Is iDubbbz A Simp? - H3 Podcast #185	Dans Chips	04-03-2020
+Bringing Back the Chips!	H3TV	107	8809	8822	https://www.youtube.com/watch?v=Uf6JFPY0g2Y&t=8809	Dan	DansChips, Lore		Vaush No More Horsing Around - H3TV #107	Dans Chips	02-12-2024
+Sweden Has the Best Chips?	OTR	6	6026	6069	https://www.youtube.com/watch?v=sm39YIin0FU&t=6026	Dan	DansChips, Lore		Saying Goodbye To YouTube - Off The Rails #6	Dans Chips	07-29-2021
+Moo Deng Pallete Cleanser	H3Show	55	7010	7242	https://youtu.be/Ch3WcOM4gNs&t=7010		MooDengTime		Ethan Debates Anti-Semitic Sneako Fan - H3 Show #55		09-16-2024
+First "Moo Deng Time" (ft Reggie Watts!)	H3Show	56	12492	12715	https://youtu.be/mvzLHYGR05M&t=12492		MooDengTime		MrBeast, Logan Paul, KSI Sellout Their Child Audience ft. Reggie Watts - H3 Show #56		09-18-2024
+Pesto vs. Moo Deng	H3Show	62	8539	9000	https://youtu.be/KaK4EsM0NDk&t=8539		MooDengTime		Selena Gomez Cheating Controversy, Back Into The Metaverse - H3 Show #62		10-02-2024
+Dan ha HAD IT with Moo Deng	H3Show	67	164	1215	https://youtu.be/YUlacUvCG8I&t=164		MooDengTime		Addressing Hasan & His Community - H3 Show #67		10-16-2024
 Zach Lore											
 The Keto Cake	AfterDark	49	2866		https://www.youtube.com/watch?v=jgrTGlQ_IG8&t=2866	Zach	Lore		Joe Rogan Is A Giant Hypocrite - H3 After Dark #49	Top Zach Moments	09-03-2021
 His Foreskin is in P Diddy's backyard	Podcast	230	8608		https://youtu.be/MiJFpEbHRpc&t=8608	Zach	Lore		The American Meltdown - H3 Podcast #230	Top Zach Moments	01-06-2021
@@ -2515,3 +2547,10 @@ Bartholomew's Bedtime Stories	H3Show	193	1261	2250	https://youtu.be/MOTq0FDu410&
 Tamara Ratio's Ethan	H3Show	212	5964	6300	https://youtu.be/VqUoAR_ZXsc&t=5964	Tamara	Lore		Colleen Ballinger Is Back & Already Cancelled (w/ Harley & Rich Lux) - H3 Show #212	Top Tamara Moments	11-17-2025
 Tamara's Most Prized Possession	H3Show	183	10120	10440	https://youtu.be/MUwbx3To2Fo&t=10120	Tamara	Lore		Sharing Our Most Prized Posessions - H3 Show #183	Top Tamara Moments	08-22-2025
 TIME TO ROAR	H3Show	212	369	446	https://youtu.be/VqUoAR_ZXsc&t=369	Tamara	Lore		Colleen Ballinger Is Back & Already Cancelled (w/ Harley & Rich Lux) - H3 Show #212	Top Tamara Moments	11-17-2025
+Morgan Lore											
+Video Submission for The BacH3lore	OTR	104	8656	8907	https://www.youtube.com/watch?v=ZPdgcyuob2g&t=8656	Morgan Smalley	Lore		Jeff Wittek Is Your Bach3lor - Episode #1 - OTR #104	Top Morgan Moments	02-14-2024
+First Date With Jeff	OTR	106	5899	7240	https://www.youtube.com/watch?v=HOwHh6xs4eE&t=5899	Morgan Smalley	Lore		The BacH3lor Ep. 2 w/ Jeff Wittek - The First Dates - Off The Rails #106	Top Morgan Moments	02-28-2024
+A Romantic Boat Ride with Jeff	AfterDark	141	4100	8700	https://www.youtube.com/watch?v=MBDl186rta8&t=4100	Morgan Smalley	Lore		The BacH3lor Ep. 3 - A Romantic Boat Ride w/ Morgan (Ft. Jeff Wittek) - After Dark #141	Top Morgan Moments	03-15-2024
+Ethan Mentions Morgan is Working For Them!	H3Show	165	6593	6625	https://youtu.be/xu3obq7ssQ0&t=6593	Morgan Smalley	Lore		Adam McIntyre's Snark Scandal Proves Ethan Was Right About Reddit - H3 Show #165	Top Morgan Moments	07-11-2025
+Morgan First Appearance as a Crew Member!	H3Show	173	9927	10000	https://youtu.be/E-nFd59XDfY&t=9927	Morgan Smalley	Lore		Olivia Explains The Messiest Influencer Breakup Ever To a Room Full Of Haters - H3 Show #173	Top Morgan Moments	07-30-2025
+Morgan Hosts the Blind and Deaf Challenge!	VOD	1	0	1251	https://youtu.be/RY7ELw1K-PA&t=0	Morgan Smalley	Lore		The Blind & Deaf Challenge Nearly Broke Us	Top Morgan Moments	08-24-2025
