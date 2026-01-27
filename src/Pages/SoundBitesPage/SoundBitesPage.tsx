@@ -3,7 +3,6 @@ import "./SoundBitesPage.scss";
 import SubHeader from "../SubHeader/SubHeader";
 import { useState } from "react";
 import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
-import Coffee from "../../components/Coffee";
 
 export enum sortByType {
   Default,
@@ -21,7 +20,7 @@ function SoundbitesPage() {
     <>
       <div id="SoundbitePage">
         <div className="soundbite-page-container">
-          <Coffee></Coffee>
+          {/* <Coffee></Coffee> */}
           {showEmailModal && (
             <SubmitModal toggleShown={setShowEmailModal} soundbite={true}></SubmitModal>
           )}

@@ -2,7 +2,6 @@ import CrewMemberComponent from "../DanComponent/CrewMemberComponent";
 import CustomCard1 from "../../Cards/CustomCard1/CustomCard1";
 import { useState } from "react";
 import AllCrewAssets from "../../../assets/AllCrewAssets";
-import Coffee from "../../Coffee";
 import "./CrewPage.scss";
 
 export enum CrewMembers {
@@ -30,7 +29,7 @@ export function CrewPage() {
 
   return (
     <>
-      <Coffee></Coffee>
+      {/* <Coffee></Coffee> */}
       <div id="CrewPage">
         {isSelecting && (
           <div className="crew-page">

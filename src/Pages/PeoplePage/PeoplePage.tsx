@@ -1,5 +1,4 @@
 import { useEffect, useState, useRef, useCallback, useMemo } from "react";
-import Coffee from "../../components/Coffee";
 import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import PersonCard from "./PersonCard";
 import { useDataContext } from "../../context/DataContext";
@@ -88,7 +87,7 @@ function PeoplePage() {
   return (
     <div id="PeoplePage">
       <div className="soundbite-page-container">
-        <Coffee></Coffee>
+        {/* <Coffee></Coffee> */}
         {showEmailModal && (
           <SubmitModal
             toggleShown={setShowEmailModal}

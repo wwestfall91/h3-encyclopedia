@@ -1,7 +1,6 @@
 import { useDataContext } from "../../context/DataContext";
 import TopicComponent from "./TopicComponent";
 import { Tag } from "../../models/enums/Tag";
-import Coffee from "../../components/Coffee";
 import "./IcebergPage.scss";
 
 export function IcebergPage() {
@@ -9,7 +8,7 @@ export function IcebergPage() {
 
   return (
     <>      
-      <Coffee></Coffee>
+      {/* <Coffee></Coffee> */}
       <div id="IcebergPage">
         <div className="section-header">Level 1</div>
         <div className="section">

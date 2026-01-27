@@ -5,7 +5,6 @@ import { useDataContext } from '../../context/DataContext';
 import { Tag } from "../../models/enums/Tag";
 import { useEffect, useState } from "react";
 import { Moment } from "../../models/Moments/Moment";
-import Coffee from "../../components/Coffee";
 import "./ButtonPage.scss";
 
 function ButtonPage() {
@@ -43,7 +42,7 @@ function ButtonPage() {
 
   return (
     <div id="ButtonPage">
-      <Coffee></Coffee>
+      {/* <Coffee></Coffee> */}
       <div className="button-page-container">
         {buttonMoments && daysSinceLastButton != -1 &&
         <div className="days-since-incident-container">
