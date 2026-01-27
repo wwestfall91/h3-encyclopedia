@@ -1,5 +1,5 @@
 import TopicCard from "../Topics/TopicCard";
-import "./psychologyInSeattleSection.scss"
+import "./PsychologyInSeattleSection.scss"
 
 function PsychologyInSeattleSection() {
     return (
