@@ -6,7 +6,7 @@ if ($LASTEXITCODE -ne 0) { Write-Output 'Nothing to commit or commit failed.' } 
 git push origin $b
 if ($LASTEXITCODE -ne 0) { Write-Output 'Push failed; trying to set upstream...'; git push --set-upstream origin $b }
 mkdir -Force .github | Out-Null
-ssh-keygen -t ed25519 -f .github/hostinger_deploy_key -N '' -C 'github-actions@h3-encyclopedia' | Out-Null
+ssh-keygen -t ed25519 -f .github/hostinger_deploy_key -N "" -C 'github-actions@h3-encyclopedia' | Out-Null
 Write-Output '---PUBLIC KEY---'
 Get-Content .github/hostinger_deploy_key.pub
 Write-Output '---END PUBLIC KEY---'
