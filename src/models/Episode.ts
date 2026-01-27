@@ -70,9 +70,4 @@ export class Episode {
       : this.url.split("&t=")[0].split("be/")[1];
     return id;
   }
-
-  getVideoId(): string {
-    const id = this.url.includes("v=") ? this.url.split("&t=")[0].split("v=")[1] : this.url.split("&t=")[0].split("be/")[1]
-    return id;
-  }
 }
