@@ -2,7 +2,7 @@ import YouTube, { YouTubePlayer } from "react-youtube";
 import { useDataContext } from "../../context/DataContext";
 import { Episode } from "../../models/Episode";
 import { Moment } from "../../models/Moments/Moment";
-import "./modal.scss";
+import "./Modal.scss";
 import { useEffect, useState } from "react";
 
 // React-YouTube Documentation: https://developers.google.com/youtube/iframe_api_reference#Events
