@@ -1,4 +1,4 @@
-import "./coffee.scss"
+import "./Coffee.scss"
 
 function Coffee() {
     return (
