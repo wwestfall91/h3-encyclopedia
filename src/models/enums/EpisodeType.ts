@@ -19,4 +19,5 @@ export enum EpisodeType {
   FanChannel,
   LostEpisode,
   H3Show,
+  Highlight
 }

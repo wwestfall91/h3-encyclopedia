@@ -1,127 +1,391 @@
 title	sound	episodetype	episodenumber	episodedate	time	person	timestampurl	image
-In the Discord!	Keemstar_InTheDiscord.mp3	H3Show	119	03-07-2025	6839	Keemstar	https://youtu.be/ZDnseOSdk_8&t=6839	
-Okay I Like That	Ethan_OkayILikeThat.mp3	H3Show	123	03-17-2025	21979	Ethan	https://youtu.be/0Z4TGbApoIo&t=21979	/Images/Ethan_Drunk2025.png
-I Like it, I Fuck With That	Ethan_ILikeThatIFuckWithThat.mp3	H3Show	123	03-17-2025	21979	Ethan	https://youtu.be/0Z4TGbApoIo&t=21979	/Images/Ethan_Drunk2025.png
-Warzone!	YokoOno_Warzone.mp3	H3Show	117	03-03-2025	1083	Yoko Ono	https://youtu.be/RVwsloCHjCU&t=1083	/Images/Warzone.png
-Your Birthday Doesn't Matter That Much...	WingsOfRedemption_BirthdayNotImportant.mp3	Unknown	1	05-05-2015	0	Wings of Redemption	https://youtu.be/zOYZ3XMGjUM&t=0	
-I love Tesler!	Trump_IloveTeslur.mp3	H3Show	121	03-13-2025	9400	Donald Trump	https://youtu.be/Hc-F93YUWag&t=9400	
-Gorgeous	Love_Gorgeous.mp3	H3Show	120	03-11-2025	9326	Love	https://youtu.be/wWG9Msgmnh4&t=9326	
-Weird Goat Noise	Misc_WeirdGoatNoise.mp3	H3Show	120	03-11-2025	2058	Misc	https://youtu.be/wWG9Msgmnh4&t=2058	/Images/BlueHairedGirl.png
-They're Investigating You Homie!	Misc_TheyreInvestigatingYouHomie.mp3	H3Show	120	03-11-2025	2058	Misc	https://youtu.be/wWG9Msgmnh4&t=2058	/Images/BlueHairedGirl.png
-WHAT?!	Dan_WHAT.mp3	H3Show	118	03-05-2025	9177	Dan	https://youtu.be/yrWs1e_vw0U&t=9177	
-Ethan, WAKE UP!!!	Dan_EthanWAKEUP.mp3	H3Show	115	02-26-2025	4108	Dan	https://youtu.be/bq4Bq0KXlGE&t=4108	
-Uhh... BASED!	Frogan_UhBased.mp3	H3Show	113	02-22-2025	10445	Frogan	https://youtu.be/UK47xzasVxA&t=10445	
-Oh God...	JayShetty_OhGod.mp3	SYNT	97	02-20-2025	5249	Jay Shetty	https://youtu.be/vVaHCn3smdE&t=5249	
-That's so scary!	JayShetty_ThatsSoScary.mp3	SYNT	97	02-20-2025	7334	Jay Shetty	https://youtu.be/vVaHCn3smdE&t=7334	
-50 GIFTED SUBS!!!!	Keemstar_50GIFTED.mp3	H3Show	111	02-17-2025	767	Keemstar	https://youtu.be/N2W4RJ2tEnY&t=767	
-Mhm	Hasan_mmhmm.mp3	H3Show	109	02-12-2025	5276	Hasan Piker	https://youtu.be/A8MzE_Pr9XI&t=5276	
-ANYWHO I'M GONNA GO TO BED NOW	WholeCrew_AnywhoImGonnaGoToBedNow.mp3	H3Show	108	02-10-2025	10247	Misc	https://youtu.be/I0zmBdGEvwU&t=10247	https://www.redbrick.me/wp-content/uploads/2021/11/255880196_279179057470482_8982295856559572115_n1.jpg
-Anywho I'm gonna go to bed	HaileyWelch_AnywhoImGonnaGoToBed.mp3	H3Show	108	02-10-2025	2123	Hailey Welch (Hawk Tuah)	https://youtu.be/I0zmBdGEvwU&t=2123	
-The Rizzler Scream	TheRizzle_Ahhhh.mp3	H3Show	106	02-05-2025	5693	The Rizzler	https://youtu.be/6KV16LWcnTY&t=5693	
-Destiny is a great guy	Hasan_DestinyIsAGreatGuy.mp3	H3Show	106	02-05-2025	6320	Hasan Piker	https://youtu.be/6KV16LWcnTY&t=6320	
-I think so, don't you think so?	Howie_IThinkSo.mp3	H3Show	101	01-22-2025	4857	Howie Mandel	https://youtu.be/casAOxYGjPc&t=4857	
-You're coming off a little special needs	Howie_SpecialNeeds.mp3	H3Show	101	01-22-2025	4857	Howie Mandel	https://youtu.be/casAOxYGjPc&t=4857	
-Laugh #1	Hasan_Laugh1.mp3	H3Show	99	01-15-2025	3507	Hasan Piker	https://youtu.be/h1dnSmR_9C8&t=3507	
-Laugh #2	Hasan_Laugh2.mp3	H3Show	99	01-15-2025	3507	Hasan Piker	https://youtu.be/h1dnSmR_9C8&t=3507	
-Come into my mouth in the name of jesus!	Misc_ComeIntoMyMouthInTheNameOfJesus.mp3	H3Show	98	01-13-2025	5540	Misc	https://youtu.be/fV-1SveD9gQ&t=5540	https://i.ytimg.com/vi/9uG31s9U__c/mqdefault.jpg
-Come into my mouth	Misc_ComeIntoMyMouth.mp3	H3Show	98	01-13-2025	5540	Misc	https://youtu.be/fV-1SveD9gQ&t=5540	https://i.ytimg.com/vi/9uG31s9U__c/mqdefault.jpg
-Why don't they just BOMB the outer line?!	XQC_WhyDontTheyJustBomb.mp3	H3Show	98	01-13-2025	1370	XQC	https://youtu.be/fV-1SveD9gQ&t=1370	
-SHUT UP, I'M PLAYING THE FUCKING INTRO	Keemstar_ShutUpImPlayingTheIntro.mp3	H3Show	97	01-10-2025	2636	Keemstar	https://youtu.be/wv76IVGoaeY&t=2636	
-SHUT UP	Keemstar_SHUTUP.mp3	H3Show	97	01-10-2025	2636	Keemstar	https://youtu.be/wv76IVGoaeY&t=2636	
-SHUT THE FUCK UP	Keemstar_ShutTheFuckUp.mp3	H3Show	97	01-10-2025	2636	Keemstar	https://youtu.be/wv76IVGoaeY&t=2636	
-I have never had an original thought in my life	MikasRhetoric_IveNeverHadAnOriginalThought.mp3	H3Show	96	01-06-2025	13810	Mika's Rhetoric	https://youtu.be/0SWIbsrw5No&t=13810	
-I've also vouched for Jewish people	MikasRhetoric_IVouchedForJewishPeople.mp3	H3Show	96	01-06-2025	7683	Mika's Rhetoric	https://youtu.be/0SWIbsrw5No&t=7683	
-Hi everyone, it's me again	MikasRhetoric_HiEveryoneItsMeAgain.mp3	H3Show	96	01-06-2025	7133	Mika's Rhetoric	https://youtu.be/0SWIbsrw5No&t=7133	
-It's too thick, I can't suck it	Ninja_TooThickICantSuckIt.mp3	H3Show	96	01-06-2025	3303	Ninja	https://youtu.be/0SWIbsrw5No&t=3303	
-Your brother who passed away gets 5 big booms	CostcoGuys_SorryAboutPassingAway5BigBooms.mp3	H3Show	96	01-06-2025	119	Costco Guys	https://youtu.be/0SWIbsrw5No&t=119	
-BOOM BOOM BOOM BOOM BOOM!!	CostcoGuys_FiveBigBooms.mp3	H3Show	96	01-06-2025	119	Costco Guys	https://youtu.be/0SWIbsrw5No&t=119	
-I can see you, I can see what you're doing	RingoStarr_YesICanSeeYou.mp3	H3Show	93	12-16-2024	6125	Ringo Starr	https://youtu.be/x-hY1RZf8YE&t=6125	
-Fight Fight Fight!	RoseanneBarr_FightFightFight.mp3	H3Show	92	12-13-2024	11302	Roseanne Barr	https://youtu.be/OWBUXE42fuc&t=11302	
-FIIIIIIGHT!!!	RoseanneBarr_Fiiiight.mp3	H3Show	92	12-13-2024	11302	Roseanne Barr	https://youtu.be/OWBUXE42fuc&t=11302	
-You went and saw wicked?!	Keemstar_YouDidntSeeGladiator2.mp3	H3Show	86	11-27-2024	1461	Keemstar	https://youtu.be/P62RrxPzQR8&t=1461	
-The ideal stocking stuffer	RFKJr_IdealStockingStuffer.mp3	H3Show	86	11-27-2024	1736	RFK Jr	https://youtu.be/P62RrxPzQR8&t=1736	
-DAN YOU FUCK!! You coward!	Ethan_DanYouFUCK.mp3	H3Show	74	11-01-2024	3833	Ethan	https://youtu.be/H0vlj3QIFsU&t=3833	
-USA USA USA!!	ElonMusk_USA.mp3	H3Show	72	10-28-2024	1871	Elon Musk	https://youtu.be/HngwtqKyYdw&t=1871	
-Why is there mold in the Lunchly?!	Misc_WhyIsThereMoldInTheLunchly.mp3	H3Show	71	10-25-2024	5787	Misc	https://youtu.be/N8NGpo8N-ic&t=5787	https://i.dailymail.co.uk/1s/2024/10/22/16/91140581-13987187-TikTokkers_have_been_posting_on_the_social_media_platform_images-a-11_1729609399394.jpg
-They're eating the dogs	Trump_EatingTheDogs.mp3	H3Show	55	09-16-2024	705	Donald Trump	https://youtu.be/Ch3WcOM4gNs&t=705	
-When are we going to dance love?	DatingAndMoney101_WhenAreWeGonnaDanceLove.mp3	H3Show	55	09-16-2024	97	Dating&Money101	https://youtu.be/Ch3WcOM4gNs&t=97	
-America Deserved 9/11	Hasan_AmericaDeserved911.mp3	H3Show	55	09-16-2024	10091	Hasan Piker	https://youtu.be/Ch3WcOM4gNs&t=10091	
-I didn't think you could break a penis	Donna_BreakAPenis.mp3	H3Show	53	09-11-2024	9252	Donna Klein	https://youtu.be/ua5pUi11V3E&t=9252	
-He said 'no way' and I said 'way'	Trump_AndHeSaidNoWayAndISaidWay.mp3	H3Show	42	08-14-2024	7745	Donald Trump	https://youtu.be/oLWTNrvOd3c&t=7745	
-Here's my thing, I like a pretty penis	WingsofRedemption_HeresMyThingILikeAPrettyPenis.mp3	H3Show	40	08-09-2024	6945	Wings of Redemption	https://youtu.be/WXk7sEQlyIY&t=6945	
-The Carnivore diet will fix that	JordanPeterson_TheCarnivoreDietWillFixThat.mp3	H3Show	38	08-05-2024	3047	Jordan Peterson	https://youtu.be/W7LVYdyWwFU&t=3047	
-GET IT GET IT GET IT GET IT!!	JasonNash_GetItGetItGetIt.mp3	H3Show	32	07-22-2024	4275	Jason Nash	https://youtu.be/RMnIW8Xs7uA&t=4275	
-GO! GO!!!	JasonNash_GoGO.mp3	H3Show	32	07-22-2024	4275	Jason Nash	https://youtu.be/RMnIW8Xs7uA&t=4275	
-I only take it right on my chest	Love_RightOnMyChest.mp3	H3Show	31	07-19-2024	2993	Love	https://youtu.be/t7YKFG2TbGc&t=2993	
-Sieg Heil	Ethan_SeigHeil.mp3	H3Show	29	07-15-2024	7525	Ethan	https://youtu.be/gyIlayEQN3E&t=7525	
-WAHHHHH I GOT CALLED A CUCK ONLINE	BowBlax_WahhhIGotCalledACuckOnline.mp3	H3Show	23	06-14-2024	2398	Bowblax	https://youtu.be/LMOswKoe-Nc&t=2398	
-How am I supposed to do the show when I'm covered in slime?!	Dan_HowAmISupposeToDoTheShowWhenImCoveredInSlime.mp3	H3Show	22	06-12-2024	7263	Dan	https://youtu.be/bnLi7oii98g&t=7263	
-*WoW Raid Warning*	Misc_RaidWarningSound.mp3	H3Show	16	05-29-2024	5720	Misc	https://youtu.be/jvGC35qMLMw&t=5720	https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/07/world-of-warcraft-the-war-within-raid-schedule-changes.jpg
+Who you kiddin eh	AB_WhoYouKiddingEh.mp3	ContentCourt	5	11-05-2020	207	AB	https://youtu.be/RdC75IoAQoo&t=207	
+You know the age where we burn the witch? ...	AbaAndPreach_BurnTheWitch.mp3	AfterDark	108	06-02-2023	12939	Aba and Preach	https://www.youtube.com/watch?v=5tqh5bW7o7U&t=12939	
+The omelette of KNOWLEDGE	AbaAndPreach_OmeletteOfKnowledge.mp3	AfterDark	108	06-02-2023	12968	Aba and Preach	https://www.youtube.com/watch?v=5tqh5bW7o7U&t=12968	
+Some people are not motivated by growth	AdamGrant_SomePeopleAreNotMotivatedByGrowth.mp3	H3TV	98	11-13-2023	1017	Adam Grant	https://www.youtube.com/watch?v=v97xGpOpzuM&t=1017	
+How Dare You	AdamMcentire_HowDareYou.mp3	Unknown	1	05-05-2015	0	Adam McIntyre	https://youtu.be/zOYZ3XMGjUM&t=0	
+Im 21 FUCK YOU	AdinRoss_21FUCKYOU.mp3	H3TV	46	08-08-2022	9303	Adin Ross	https://youtu.be/XTU2hHPXVos&t=9303	
+Youre a dick rider a dick sucker...	AdinRoss_YoureADickSucker.mp3	H3TV	46	08-08-2022	8933	Adin Ross	https://youtu.be/XTU2hHPXVos&t=8933	
+PUSSY!	Adin Ross_Pussy.mp3	H3TV	46	08-08-2022	8933	Adin Ross	https://youtu.be/XTU2hHPXVos&t=8933	
+It's Just a Fact in my Opinion	Adin_Ross_its_just_a_fact_in_my_opinion.mp3	Unknown	1	05-05-2015	0	Adin Ross	https://youtu.be/zOYZ3XMGjUM&t=0	
+Who Would be Expecting Shrek?	AlPacino_WhoWouldBeExpectingShrek.mp3	Unknown	1	05-05-2015	0	Al Pacino	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Pooped My Pants	AlRoker_IPoopedMyPants.mp3	H3TV	7	09-07-2021	523	Al Roker	https://youtu.be/d9Y0O-FtKvA&t=523	
+Suckin a ding dong	AlexJones_SuckinADingDong.mp3	AfterDark	37	05-21-2021	7361	Alex Jones	https://youtu.be/SaC97huq9Ss&t=7361	
+Turned the Friggin Frogs Gay	AlexJones_TheyTurnTheFreakingFrogsGay.mp3	Podcast	243	04-15-2021	398	Alex Jones	https://youtu.be/0Os_vIpQXg4&t=398	
+I bet he's got some big old bitch tits	AlexJones_IBetHesGotSomeBigOldBitchTits.mp3	Podcast	207	08-17-2020	4925	Alex Jones	https://youtu.be/TpimNx4PJoY&t=4925	
+DESTROY THE CHILD!	AlexJones_DestroyTheChild.mp3	Podcast	77	08-11-2018	1593	Alex Jones	https://youtu.be/fA8eOB91-fY&t=1593	
+Liberal Liberal Liberal!	AlexJones_LiberalSong.mp3	Unknown	1	05-05-2015	0	Alex Jones	https://youtu.be/zOYZ3XMGjUM&t=0	
+Keemstar Shut Up	AlkiDavid_KeemstarSHUTUP.mp3	AfterDark	44	07-09-2021	7601	Alki David	https://www.youtube.com/watch?v=s2FpIS2ywlE&t=7601	
+SHUT UP BITCH	AlkiDavid_ShutupBITCH.mp3	AfterDark	44	07-09-2021	7601	Alki David	https://www.youtube.com/watch?v=s2FpIS2ywlE&t=7601	
+Im not gay no more!	AndrewCaldwel_ImNotGayNoMore.mp3	AfterDark	3	09-04-2020	7623	Andrew Caldwell	https://www.youtube.com/watch?v=2ujyWHUgcBI&t=7623	
+I Do it With Everyone	AndrewCuomo_IDoItWithEveryone.mp3	OTR	12	09-23-2021	3143	Andrew Cuomo	https://www.youtube.com/watch?v=14GDTiQ-_pE&t=3143	
+Thats the game	AndrewTate_ThatsTheGame.mp3	OTR	47	08-31-2022	2351	Andrew Tate	https://www.youtube.com/watch?v=mRMb2YKOOrs&t=2351	
+I have small dick energy	AndrewTate_SmallDickEnergy.mp3	Unknown	1	05-05-2015	0	Andrew Tate	https://youtu.be/zOYZ3XMGjUM&t=0	
+No!!	AndrewTate_No.mp3	Unknown	1	05-05-2015	0	Andrew Tate	https://youtu.be/zOYZ3XMGjUM&t=0	
+And obviously they were obviously Jewish	Anisa_AndObviouslyTheyWereJewish.mp3	Unknown	1	05-05-2015	0	Anisa	https://youtu.be/zOYZ3XMGjUM&t=0	
+Chestnusts slurping oer open flile	Anuk_Chestnuts.mp3	OTR	58	01-25-2023	6358	Anuc	https://www.youtube.com/watch?v=y19qnDm2tDs&t=6358	
+Angela Basset Did the Thing	ArianaDeBose_AngelaBassetDidTheThing.mp3	Unknown	1	05-05-2015	0	Ariana DeBose	https://youtu.be/zOYZ3XMGjUM&t=0	
+Suck a fat donut	AustinMcBroom_SuckAFatDonut.mp3	H3TV	42	07-11-2022	3327	Austin McBroom	https://youtu.be/QpElkT_nkgY&t=3327	
+Blood Boiling	AustinMcBroom_BloodBoiling.mp3	H3TV	2	07-24-2021	5550	Austin McBroom	https://www.youtube.com/watch?v=b9BRDiQPD-U&t=5550	
+In Reality You Guys Got Scammed	AustinMcBroom_InRealityYouGuysGotScammed.mp3	OTR	3	07-01-2021	4010	Austin McBroom	https://www.youtube.com/watch?v=6kNZujESbNI&t=4010	
+Im itching for that clout pill	AustinMcBroom_ImItchingForThatCloutPill.mp3	ContentCourt	5	11-05-2020	1200	Austin McBroom	https://youtu.be/RdC75IoAQoo&t=1200	
+I might really start selling the clout pill	AustinMcBroom_SellingTheCloutPill.mp3	ContentCourt	5	11-05-2020	4010	Austin McBroom	https://youtu.be/RdC75IoAQoo&t=4010	
+STOPPPPP	AustinMcBroom_Stop.mp3	ContentCourt	5	11-05-2020	493	Austin McBroom	https://youtu.be/RdC75IoAQoo&t=493	
+stoppppp	AustinMcBroom_Stop2.mp3	ContentCourt	5	11-05-2020	1041	Austin McBroom	https://youtu.be/RdC75IoAQoo&t=1041	
+Hi My Name is Awkwafina and I am in the movie ShangChi	Awkwafina_ShangChi.mp3	AfterDark	49	09-03-2021	1912	Awkwafina	https://www.youtube.com/watch?v=jgrTGlQ_IG8&t=1912	
+And DICK too!	Obama_AndDickToo.mp3	AfterDark	119	09-08-2023	274	Barrack Obama	https://www.youtube.com/watch?v=uJVzxi2WNGw&t=274	
+And Pussy Too!	Obama_AndPussyToo.mp3	Unknown	1	05-05-2015	0	Barrack Obama	https://youtu.be/zOYZ3XMGjUM&t=0	
+So thick	BelleDelphine_SoThick.mp3	Podcast	225	10-29-2020	4539	Belle Delphine	https://youtu.be/uutn8Lob_ek&t=4539	
+The Gnarlier the Better	BelleDelphine_TheGnarlierTheBetter.mp3	Podcast	225	10-29-2020	3714	Belle Delphine	https://youtu.be/uutn8Lob_ek&t=3714	
+Why did you unmatch me? It's me...	BenAffleck_WhyDidYouUnmatchMe.mp3	OTR	39	06-15-2022	5958	Ben Affleck	https://www.youtube.com/watch?v=6TsZE8Cu0-Q&t=5958	
+Extra Large and Extra Hard	BenShapiro_ExtraLargeAndExtraHard.mp3	Podcast	206	08-12-2020	5780	Ben Shapiro	https://youtu.be/IgTdy9DElWU&t=5780	
+Wet Ass PWord	BenShapiro_WetAssPWord.mp3	Podcast	206	08-12-2020	5761	Ben Shapiro	https://youtu.be/IgTdy9DElWU&t=5761	
+Biaaaaaaaaaaanca!	Its_your_girl_Biaaaaaaaaaaaaaannca.mp3	Unknown	1	05-05-2015	0	Biannca Prince	https://youtu.be/zOYZ3XMGjUM&t=0	
 Look what they're doing to the cow bro	BigNik_LookWhatTheyreDoingToTheCow.mp3	H3Show	15	05-24-2024	1663	Big Nik	https://youtu.be/iiz9Gispe5I&t=1663	
-I know Ethan hates me now	MoistCritical_EthanHatesMeNow.mp3	H3Show	15	05-24-2024	6226	Moist Critical	https://youtu.be/iiz9Gispe5I&t=6226	
-Shark Tank Stinger #1	Misc_SharkTank1.mp3	H3Show	15	05-24-2024	6900	Misc	https://youtu.be/iiz9Gispe5I&t=6900	https://m.media-amazon.com/images/S/pv-target-images/2e3ca20bf1d157d4c6373828a91077fc037a704f6641712b6fe795587f10010f.jpg
-Shark Tank Stinger #2	Misc_SharkTank2.mp3	H3Show	15	05-24-2024	6900	Misc	https://youtu.be/iiz9Gispe5I&t=6900	https://m.media-amazon.com/images/S/pv-target-images/2e3ca20bf1d157d4c6373828a91077fc037a704f6641712b6fe795587f10010f.jpg
-It's cool to be a soundbite I suppose	MoistCritical_CoolToBeASoundbite.mp3	H3Show	15	05-24-2024	6226	Moist Critical	https://youtu.be/iiz9Gispe5I&t=6226	
-RUDY COFFEE!	RudyGiuliani_RUDYCOFFEE.mp3	H3Show	14	05-22-2024	3206	Rudy Giuliani	https://youtu.be/dTNUv14yoKI&t=3206	
-Chocolatey	RudyGiuliani_Chocolatey.mp3	H3Show	14	05-22-2024	3210	Rudy Giuliani	https://youtu.be/dTNUv14yoKI&t=3210	
-You can't have a wood burning fireplace!	JordanPeterson_YouCantHaveAWoodBurningFireplace.mp3	H3Show	14	05-22-2024	3766	Jordan Peterson	https://youtu.be/dTNUv14yoKI&t=3766	
-Lets assume I was gay	FreshAndFit_LetsAssumeIWasGay.mp3	H3Show	13	05-20-2024	7023	Fresh and Fit	https://youtu.be/_0wT8yg4k3I&t=7023	
-It's a professional computer	Vitaly_ItsAProfessionalComputer.mp3	H3Show	12	05-17-2024	11219	Vitaly	https://youtu.be/iJsDndyIKKM&t=11219	
-WHAT DO YOU WANT FROM ME?!	LewisSaunderson_WhatDoYouWantFromMe.mp3	H3Show	9	05-10-2024	5928	Lewis Saunderson	https://youtu.be/-69bFbVEwhU&t=5928	
-Scream #1	Grimes_Scream1.mp3	H3Show	6	05-03-2024	10948	Grimes	https://youtu.be/dQO5biMTtsY&t=10948	
-Scream #2	Grimes_Scream2.mp3	H3Show	6	05-03-2024	10948	Grimes	https://youtu.be/dQO5biMTtsY&t=10948	
-Scream #3	Grimes_Scream3.mp3	H3Show	6	05-03-2024	10948	Grimes	https://youtu.be/dQO5biMTtsY&t=10948	
-She thought I looked good!	MelissaMcCarthy_SheThoughtILookedGood.mp3	H3Show	6	05-03-2024	1408	Melissa McCarthy	https://youtu.be/dQO5biMTtsY&t=1408	
-Cheeto	XQC_Cheetoh.mp3	H3Show	6	05-03-2024	6795	XQC	https://youtu.be/dQO5biMTtsY&t=6795	
-*The RING DINGER*	Chiropractor_TheRingDinger.mp3	H3Show	4	04-29-2024	933	Chiropractor	https://youtu.be/XPR4gCC10jc?t=933	
-The whistle goes WOOOOOO!	BubbRubbAndLilSis_TheWhistlesGoWoo.mp3	H3Show	2	04-24-2024	11649	Bubb Rubb & Lil Sis	https://youtu.be/x2cyP6KJ0Uc&t=11649	
-Oh My God, thank you for the gifted sub!	JustTree411_OhMyGodThankYouForTheGiftedSubs.mp3	H3Show	1	04-22-2024	6477	Just Tree 411	https://www.youtube.com/watch?v=0lt0tTr-lj4&t=6477s	
-Yay I got a subscriber!	JustTree411_YayIGotASubscriber.mp3	H3Show	1	04-22-2024	4451	Just Tree 411	https://youtu.be/0lt0tTr-lj4&t=4451	
-*Screams as car runs over foot	RichardSimons_Screaming.mp3	H3TV	113	04-01-2024	7433	Richard Simmons	https://www.youtube.com/watch?v=zkoKnz5zE3o&t=7433	
-Hold my fart like a bong rip	CandaceOwens_AndHoldMyFartLikeABongRip.mp3	OTR	109	03-20-2024	420	Candace Owens	https://www.youtube.com/watch?v=VN3bWz5HfBI&t=420	
-I want you to give me rimjob	CandiceOwens_Rimjob.mp3	OTR	109	03-20-2024	420	Candace Owens	https://www.youtube.com/watch?v=VN3bWz5HfBI&t=420	
-You can take the ULTIMATE load	JordanPeterson_TakeTheUltimateLoad.mp3	OTR	107	03-06-2024	5281	Jordan Peterson	https://www.youtube.com/watch?v=7H2vgnSz0tg&t=5281	
-Saudia Arabia and Russia will re-be-doog awhhh	Trump_SaudiArabiaAndRussiaWillReBeDoop.mp3	OTR	107	03-06-2024	5467	Donald Trump	https://www.youtube.com/watch?v=7H2vgnSz0tg&t=5467	
-UhHHhp	JimmieLee_UHHHP.mp3	OTR	105	02-21-2024	1096	Jimmie Lee	https://www.youtube.com/watch?v=8ZkY_nHj3vY&t=1096	
-That is so crazy	JesseLeePeterson_ThatIsSoCrazy.mp3	H3TV	108	02-20-2024	3474	Jesse Lee Peterson	https://www.youtube.com/watch?v=B3FlUe8izyI&t=3474	
-Tacoma Wept	Vaush_TakomaWept.mp3	AfterDark	136	02-09-2024	8748	Vaush	https://www.youtube.com/watch?v=H61pA1ZPTs8&t=8748	
-Bryce hall, the most popular, the coolest...	RyanKavanaugh_BryceHallTheMostPopularTheCoolest.mp3	OTR	103	02-07-2024	7421	Ryan Kavanaugh	https://www.youtube.com/watch?v=a2aX3RGRWSg&t=7421	
-If I see a black pilot...	CharlieKirk_IfISeeABlackPilot.mp3	H3TV	105	01-29-2024	5772	Charlie Kirk	https://www.youtube.com/watch?v=k1VrTaTohWA&t=5772	
-Im from the HEEEART of Brooklyn!	EthanBradberry_TheHeartOfBrooklyn.mp3	H3TV	105	01-29-2024	1173	Ethan Bradberry	https://www.youtube.com/watch?v=k1VrTaTohWA&t=1173	
-I was shooting ropes bro	Nate_IWasShootingRopesBro.mp3	H3Show	103	01-29-2024	1907	Nate	https://youtu.be/oDdnL6Pd9qU&t=1907	
-I wanna do a soundtrack to your feet!	WillIAm_SoundtrackToYourFeet.mp3	H3TV	105	01-29-2024	11617	Will.I.Am	https://www.youtube.com/watch?v=k1VrTaTohWA&t=11617	
-♪ IMAGINE IF NINJA GOT A LOW TAPER FADE ♪	Ericdoa_ImagineIfNinjaGotALowTaperFade.mp3	OTR	100	01-17-2024	6265	Ericdoa	https://www.youtube.com/watch?v=cfZM73q7NOc&t=6265	
-I have grown up with Megaman	Dan_IHaveGrownUpWithMegaMan.mp3	OTR	100	01-17-2024	1974	Dan	https://www.youtube.com/watch?v=cfZM73q7NOc&t=1974	
-Were the last line of defense - This is where the woke meets the wall	JoeRogan_WhereTheWokeMeetsTheWall.mp3	OTR	99	01-10-2024	6463	Joe Rogan	https://www.youtube.com/watch?v=GBj19zjrWzQ&t=6463	
-No - Ethan thats not how that works	JakeDoolittle_NoEthanThatsNotHowThatWorks.mp3	H3TV	103	01-08-2024	10012	Jake Doolittle	https://www.youtube.com/watch?v=WuaEyOStUds&t=10012	
-OooOoOops	JakeDoolittle_Ooooops.mp3	H3TV	103	01-08-2024	13046	Jake Doolittle	https://www.youtube.com/watch?v=WuaEyOStUds&t=13046	
-... When I was giving it to your FUCKING MOM!	Tipster_GivingItToYourMom.mp3	H3TV	103	01-08-2024	12510	Tipster	https://www.youtube.com/watch?v=WuaEyOStUds&t=12510	
-I want to fuck this bitch	Fidias_IWantToFuckThisBitch.mp3	AfterDark	131	12-15-2023	5349	Fidias	https://www.youtube.com/watch?v=evmZ3TGPbbk&t=5349	
-Margot Robbie...	Fidias_MargotRobbie.mp3	AfterDark	131	12-15-2023	5349	Fidias	https://www.youtube.com/watch?v=evmZ3TGPbbk&t=5349	
-Shut up silly woman	Trump_ShutupSillyWoman.mp3	OTR	98	12-13-2023	2962	Donald Trump	https://www.youtube.com/watch?v=vL8FTN9O4ms&t=2962	
-I said no pickles...	TheGoodDoctor_ISaidNoPickles.mp3	H3TV	102	12-11-2023	6808	The Good Doctor	https://www.youtube.com/watch?v=_uO9aEEOUa8&t=6808	
-Money? No Money! NO MONEY!!	YiLongMa_MoneyNoMoney.mp3	AfterDark	130	12-08-2023	8137	Yi Long Ma	https://www.youtube.com/watch?v=2WZn429v00U&t=8137	
 Come out in the name of jesus!	BigNik_ComeOutRightNowInTheNameOfJesus.mp3	H3TV	101	12-04-2023	9010	Big Nik	https://www.youtube.com/watch?v=uvV6dwI6auI&t=9010	
 *OOOOOOUUUUUGGGGHHHH*	BigNik_OOOOUUUUUGH.mp3	H3TV	101	12-04-2023	9010	Big Nik	https://www.youtube.com/watch?v=uvV6dwI6auI&t=9010	
-♪ AlLlL I NeeEEEd iS the RYThM DIViNE!! ... ♪	EnriqueIglesias_SingingPoorly.mp3	OTR	96	11-29-2023	743	Enrique Iglesias	https://www.youtube.com/watch?v=Z17qb2ybiuI&t=743	
-$28 A LOT for some Cookies	MoistCritical_CookieRant.mp3	H3TV	99	11-20-2023	10981	Moist Critical	https://www.youtube.com/watch?v=npYrseihU8E&t=10981	
-Cookie Rant	MoistCritical_Cookie Rant.mp3	H3TV	99	11-20-2023	10980	Moist Critical	https://www.youtube.com/watch?v=npYrseihU8E&t=10980	
-I think the angels threw her down...	CurtisAtwood_AngelsThrewHerDown.mp3	H3TV	98	11-13-2023	3588	Curtis Atwood	https://www.youtube.com/watch?v=v97xGpOpzuM&t=3588	
-Some people are not motivated by growth	AdamGrant_SomePeopleAreNotMotivatedByGrowth.mp3	H3TV	98	11-13-2023	1017	Adam Grant	https://www.youtube.com/watch?v=v97xGpOpzuM&t=1017	
-*Unemployment Rant*	Boogie_UnemploymentRant.mp3	OTR	93	11-08-2023	10917	Boogie2988	https://www.youtube.com/watch?v=FCzT_C9CJew&t=10917	
-It's interestingeh	Fidias_ItsInteresting.mp3	OTR	93	11-08-2023	7167	Fidias	https://www.youtube.com/watch?v=FCzT_C9CJew&t=7167	
-It's still real to me DAMMIT!	Misc_ItsStillRealToMeDammit.mp3	AfterDark	126	11-03-2023	2140	Misc	https://www.youtube.com/watch?v=3SwwKqSeF6c&t=2140	https://i.kym-cdn.com/entries/icons/original/000/004/158/1.jpg
-Turn up the mic!!	Trump_TurnUpTheMic.mp3	Leftovers	61	10-12-2023	12819	Donald Trump	https://www.youtube.com/watch?v=JFznOHunD_c&t=12819	
 ♪ And you lift us from the grouund ♪	BigNik_AndYouLiftUsFromTheGround.mp3	OTR	89	10-11-2023	6634	Big Nik	https://www.youtube.com/watch?v=YmbtrKQIgd8&t=6634	
+That's the Devil Right There	BigNik_ThatsTheDevilRightThere.mp3	Unknown	1	05-05-2015	0	Big Nik	https://youtu.be/zOYZ3XMGjUM&t=0	
+*Unemployment Rant*	Boogie_UnemploymentRant.mp3	OTR	93	11-08-2023	10917	Boogie2988	https://www.youtube.com/watch?v=FCzT_C9CJew&t=10917	
+I NEVER DID. I NEVER DID. I NEEEVER DID!	Boogie_INeverDid.mp3	OTR	77	06-21-2023	1293	Boogie2988	https://www.youtube.com/watch?v=9Kwq6HfbrbU&t=1293	
+Boogie's Rant - Did Ethan Klein? Let Me Sign That	Boogie_EthanKleinFullRant.mp3	Unknown	1	05-05-2015	0	Boogie2988	https://youtu.be/zOYZ3XMGjUM&t=0	
+WAHHHHH I GOT CALLED A CUCK ONLINE	BowBlax_WahhhIGotCalledACuckOnline.mp3	H3Show	23	06-14-2024	2398	Bowblax	https://youtu.be/LMOswKoe-Nc&t=2398	
+FIVE HUNDRED SUBS	Bowblax_500subs.mp3	OTR	46	08-17-2022	12033	Bowblax	https://www.youtube.com/watch?v=JEJi68zv1EQ&t=12033	
+BITCH YOU HAVE NOTHING	Bowblax_BITCHYOUHAVENOTHING.mp3	OTR	46	08-17-2022	11995	Bowblax	https://www.youtube.com/watch?v=JEJi68zv1EQ&t=11995	
+FUCKING FK FK FK FK	BowBlax_IFuckingFuckFuckFuckFuck.mp3	OTR	46	08-17-2022	11554	Bowblax	https://www.youtube.com/watch?v=JEJi68zv1EQ&t=11554	
+LET ME SPEEEEAAAAK	Bowblax_LETMESPEAAAK.mp3	OTR	46	08-17-2022	11799	Bowblax	https://www.youtube.com/watch?v=JEJi68zv1EQ&t=11799	
+TALK ABOUT THE ALLEGATIONS	BowBlax_TalkAboutTheAllegations.mp3	OTR	46	08-17-2022	11540	Bowblax	https://www.youtube.com/watch?v=JEJi68zv1EQ&t=11540	
+THIS! THIS! THIS IS WHY IM WATCHING	BowBlax_ThisIsWhyImWatching.mp3	OTR	46	08-17-2022	11545	Bowblax	https://www.youtube.com/watch?v=JEJi68zv1EQ&t=11545	
+Stop laughing AT SONIC	BowBlax_StopLaughingAtSonic.mp3	Unknown	1	05-05-2015	0	Bowblax	https://youtu.be/zOYZ3XMGjUM&t=0	
+Getting FUCKED BY A HORSE	Bowblax_GettingFuckedByAHorse.mp3	Unknown	1	05-05-2015	0	Bowblax	https://youtu.be/zOYZ3XMGjUM&t=0	
+What's Going on with that Hair?	Bowblax_WhatsGoingOnWithThatHair.mp3	Unknown	1	05-05-2015	0	Bowblax	https://youtu.be/zOYZ3XMGjUM&t=0	
+Jerking your dog off	BradleyMartyn_JerkingYourDogOff.mp3	OTR	47	08-31-2022	4297	Bradley Martyn	https://www.youtube.com/watch?v=mRMb2YKOOrs&t=4297	
+I Love that Fucking Game	BradleyMartin_ILoveThatFuckingGame.mp3	Unknown	1	05-05-2015	0	Bradley Martyn	https://youtu.be/zOYZ3XMGjUM&t=0	
+We drank beer	BrettKavanaugh_WeDrankBeer.mp3	AfterDark	40	06-11-2021	701	Brett Kavanaugh	https://www.youtube.com/watch?v=uvc-dX0fG3s&t=701	
+Deedee Megadoodoo	BriannaClark_DeeDeeMegaDooDoo.mp3	Podcast	136	08-20-2019	551	Brianna Clark	https://youtu.be/ulfHGdz6KB8&t=551	
+Holy shit fuck balls	BritneySpears_HolyShitFuckBalls.mp3	H3TV	19	12-06-2021	6828	Britney Spears	https://youtu.be/Ev37IedFjMU&t=6828	
+Holy shit wow fucking balls ay	BritneySpears_HolyShitWowFuckingBallsAy.mp3	H3TV	19	12-06-2021	6836	Britney Spears	https://youtu.be/Ev37IedFjMU&t=6836	
+The whistle goes WOOOOOO!	BubbRubbAndLilSis_TheWhistlesGoWoo.mp3	H3Show	2	04-24-2024	11649	Bubb Rubb & Lil Sis	https://youtu.be/x2cyP6KJ0Uc&t=11649	
+♪ Whistle Goes Woo Zelda Version ♪	BubbRubb_ZeldaMix.mp3	Unknown	1	05-05-2015	0	Bubb Rubb & Lil Sis	https://youtu.be/zOYZ3XMGjUM&t=0	
+Hold my fart like a bong rip	CandaceOwens_AndHoldMyFartLikeABongRip.mp3	OTR	109	03-20-2024	420	Candace Owens	https://www.youtube.com/watch?v=VN3bWz5HfBI&t=420	
+I want you to give me rimjob	CandiceOwens_Rimjob.mp3	OTR	109	03-20-2024	420	Candace Owens	https://www.youtube.com/watch?v=VN3bWz5HfBI&t=420	
+CORONA VIRUS!!	CardiB_Coronavirus.mp3	Unknown	1	05-05-2015	0	Cardi B	https://youtu.be/zOYZ3XMGjUM&t=0	
+BITCONNNNECT	CarlosMatos_BITCONNNNECT.mp3	H3H3Productions	2	01-23-2018	49	Carlos Matos	https://youtu.be/EhL2OWXZ26s&t=49	
+Hey hey heyyyy	CarlosMatos_HEYHEYHEYYYY.mp3	H3H3Productions	2	01-23-2018	36	Carlos Matos	https://youtu.be/EhL2OWXZ26s&t=36	
+I am so excited	CarlosMatos_ImSoExcited.mp3	H3H3Productions	2	01-23-2018	92	Carlos Matos	https://youtu.be/EhL2OWXZ26s&t=92	
+Mmmm NO NO NO	CarlosMatos_MmmMmmNoNoNo.mp3	H3H3Productions	2	01-23-2018	113	Carlos Matos	https://youtu.be/EhL2OWXZ26s&t=113	
+THE WORLD IS NOT ANYMORE THE WAY THAT IT USED TO BE!	CarlosMatos_TheWorldIsNotTheWayItUsedToBe.mp3	H3H3Productions	2	01-23-2018	110	Carlos Matos	https://youtu.be/EhL2OWXZ26s&t=110	
+What am I gonna do	CarlosMatos_WhatAmIGonnaDo.mp3	H3H3Productions	2	01-23-2018	356	Carlos Matos	https://youtu.be/EhL2OWXZ26s&t=356	
+WHATSA WHATSA WHATSA WHATSA WHATS UP	CarlosMatos_WhatsUp.mp3	H3H3Productions	2	01-23-2018	44	Carlos Matos	https://youtu.be/EhL2OWXZ26s&t=44	
+If I see a black pilot...	CharlieKirk_IfISeeABlackPilot.mp3	H3TV	105	01-29-2024	5772	Charlie Kirk	https://www.youtube.com/watch?v=k1VrTaTohWA&t=5772	
+Chet Hanks Joker Laugh	ChetHanks_Laugh.mp3	AfterDark	34	04-30-2021	8328	Chet Hanks	https://www.youtube.com/watch?v=ISvqL4D7SL4&t=8328	
+BOSS MAN BIDEN	ChetHanks_BOSSMANBIDEN.mp3	AfterDark	12	11-13-2020	4589	Chet Hanks	https://www.youtube.com/watch?v=g3gkFORfTZA&t=4589	
+PUSSYCLAT	ChetHanks_PUSSYCLOT.mp3	AfterDark	12	11-13-2020	4572	Chet Hanks	https://www.youtube.com/watch?v=g3gkFORfTZA&t=4572	
+SYKE	ChetHanks_SYYKE.mp3	AfterDark	12	11-13-2020	4568	Chet Hanks	https://www.youtube.com/watch?v=g3gkFORfTZA&t=4568	
+*The RING DINGER*	Chiropractor_TheRingDinger.mp3	H3Show	4	04-29-2024	933	Chiropractor	https://youtu.be/XPR4gCC10jc?t=933	
+So no cookies for you?	ChrisHansen_NoCookies.mp3	Unknown	1	05-05-2015	0	Chris Hansen	https://youtu.be/zOYZ3XMGjUM&t=0	
+Fart Joke!	ColleenBallinger_FartJoke.mp3	H3TV	82	07-10-2023	7978	Colleen Ballinger	https://youtu.be/eb8z8kaekfw&t=7978	
+Fuck me right?	ColleenBallinger_FuckMeRight.mp3	H3TV	82	07-10-2023	8593	Colleen Ballinger	https://youtu.be/eb8z8kaekfw&t=8593	
+Your brother who passed away gets 5 big booms	CostcoGuys_SorryAboutPassingAway5BigBooms.mp3	H3Show	96	01-06-2025	119	Costco Guys	https://youtu.be/0SWIbsrw5No&t=119	
+BOOM BOOM BOOM BOOM BOOM!!	CostcoGuys_FiveBigBooms.mp3	H3Show	96	01-06-2025	119	Costco Guys	https://youtu.be/0SWIbsrw5No&t=119	
+Ba ba ba ba ba ba ba ba BOOM	CostcoGuys_BaBaBaBaBaBaBaBaBOOM.mp3	Unknown	1	05-05-2015	0	Costco Guys	https://youtu.be/zOYZ3XMGjUM&t=0	
+BOOOOOOOOOMMMMMM	CostcoGuys_BOOM.mp3	Unknown	1	05-05-2015	0	Costco Guys	https://youtu.be/zOYZ3XMGjUM&t=0	
+Your Brother That Passed Away Gets 5 Big Booms!	CostcoGuys_SorryAboutPassingAwayTheyGet5BigBooms.mp3	Unknown	1	05-05-2015	0	Costco Guys	https://youtu.be/zOYZ3XMGjUM&t=0	
+Trying to think but nothing happens	Curly_ImTryingToThinkButNothingHappens.mp3	Podcast	245	04-29-2021	2851	Curly Howard	https://youtu.be/Htq468essmM&t=2851	
+I think the angels threw her down...	CurtisAtwood_AngelsThrewHerDown.mp3	H3TV	98	11-13-2023	3588	Curtis Atwood	https://www.youtube.com/watch?v=v97xGpOpzuM&t=3588	
+AB AB AB AB AB	Dad_AbAbAbAb.mp3	Unknown	1	05-05-2015	0	Dad (Nathan Barnatt)	https://youtu.be/zOYZ3XMGjUM&t=0	
+Suck... My Tongue	DalaiLama_SuckMyTongue.mp3	OTR	67	04-12-2023	5349	Dalai Lama	https://www.youtube.com/watch?v=hLMJZkI9Afc&t=5349	
+WHAT?!	Dan_WHAT.mp3	H3Show	118	03-05-2025	9177	Dan	https://youtu.be/yrWs1e_vw0U&t=9177	
+Ethan, WAKE UP!!!	Dan_EthanWAKEUP.mp3	H3Show	115	02-26-2025	4108	Dan	https://youtu.be/bq4Bq0KXlGE&t=4108	
+How am I supposed to do the show when I'm covered in slime?!	Dan_HowAmISupposeToDoTheShowWhenImCoveredInSlime.mp3	H3Show	22	06-12-2024	7263	Dan	https://youtu.be/bnLi7oii98g&t=7263	
+I have grown up with Megaman	Dan_IHaveGrownUpWithMegaMan.mp3	OTR	100	01-17-2024	1974	Dan	https://www.youtube.com/watch?v=cfZM73q7NOc&t=1974	
+Put your balls in my mouth	Dan_PutYourBallsInMyMouth.mp3	OTR	62	03-01-2023	4419	Dan	https://www.youtube.com/watch?v=XH6XCtQe4NI&t=4419	
+Jacket off	Dan_JacketOff.mp3	H3TV	57	11-14-2022	10361	Dan	https://youtu.be/Y0idXvAgs6Q&t=10361	
+Heil Hitler	Dan_HeilHitler.mp3	OTR	40	06-22-2022	9118	Dan	https://www.youtube.com/watch?v=ue2zpTPkthg&t=9118	
+Stick your funger	Dan_StickYourFunger.mp3	H3TV	19	12-06-2021	6596	Dan	https://youtu.be/Ev37IedFjMU&t=6596	
+I Cant Jerk Off to This	Dan_ICantJerkOffToThis.mp3	OTR	14	10-07-2021	3165	Dan	https://www.youtube.com/watch?v=wtOzt-oLZ3Q&t=3165	
+Im gonna cum	Dan_ImGonnaCum.mp3	OTR	1	05-27-2021	812	Dan	https://www.youtube.com/watch?v=JHGs0juAZX4&t=812	
+I Wanna Talk About Feet	Dan_IWannaTalkAboutFeet.mp3	Podcast	181	03-11-2020	4437	Dan	https://youtu.be/_fiKPLXYttw&t=4437	
+♪ DAN THE HATER!! ♪ ♪	Misc_DanTheHater.mp3	Podcast	178	02-26-2020	6514	Dan	https://youtu.be/BTDNJe8UiJE&t=6514	
+So sorry to interrupt, we have to go to break	Dan_SorryToInterrupt.mp3	Podcast	148	10-08-2019	2059	Dan	https://youtu.be/NK-_XJBYv-c&t=2059	
+Did Your Balls Come Out?	Dan did your balls come out.mp3	Unknown	1	05-05-2015	0	Dan	https://youtu.be/zOYZ3XMGjUM&t=0	
+Ahhh, It Keeps Comin!	Dan aa aa it keeps coming.mp3	Unknown	1	05-05-2015	0	Dan	https://youtu.be/zOYZ3XMGjUM&t=0	
+Katy Perry is Jewish??	Dan Katy Perry is Jewish.mp3	Unknown	1	05-05-2015	0	Dan	https://youtu.be/zOYZ3XMGjUM&t=0	
+I smoke marijuana so I dont beat my wife and children	DanaWhite_ISmokeSoIDontBeatMyWifeAndChildren.mp3	Unknown	1	05-05-2015	0	Dana White	https://youtu.be/zOYZ3XMGjUM&t=0	
+14 PAGES!!	DarkViper_Its14Pages.mp3	EthanKlein	38	02-10-2022	370	Dark Viper	https://youtu.be/8CcVkyFXHyw&t=370	
+When are we going to dance love?	DatingAndMoney101_WhenAreWeGonnaDanceLove.mp3	H3Show	55	09-16-2024	97	Dating&Money101	https://youtu.be/Ch3WcOM4gNs&t=97	
+109?!	Dating&Money_109.mp3	Unknown	1	05-05-2015	0	Dating&Money101	https://youtu.be/zOYZ3XMGjUM&t=0	
+Women be Shopping	Chappelle_WomenBeShopping.mp3	Unknown	1	05-05-2015	0	Dave Chappelle	https://youtu.be/zOYZ3XMGjUM&t=0	
+I missed the mark on that one	DavidDobrik_IMissedTheMarkWithThatOne.mp3	Podcast	240	03-17-2021	5146	David Dobrik	https://youtu.be/jrDi9gDSVu4&t=5146	
+Shout out to his family	DavidGuetta_ShoutoutToHisFamily.mp3	AfterDark	20	01-21-2021	11231	David Guetta	https://www.youtube.com/watch?v=1G3nt39Fd0o&t=11231	
+I Left that Yogurt Store and Didnt Get the Yogurt I Wanted	DemiLovato_DidntGetTheYogurtIWanted.mp3	Podcast	245	04-29-2021	4810	Demi Lovato	https://youtu.be/Htq468essmM&t=4810	
+And then I had a hard time the rest of the weekend	DemiLovato_HardTimeWeekend.mp3	Podcast	245	04-29-2021	4817	Demi Lovato	https://youtu.be/Htq468essmM&t=4817	
+Even if You Are Forming Memories Before 4...	Denims_RememberPast15.mp3	Unknown	1	05-05-2015	0	Denims	https://youtu.be/zOYZ3XMGjUM&t=0	
+So everyone in chat has a collection of 50+ memories...	Denims_CollectionOfMemoriesAtThree.mp3	Unknown	1	05-05-2015	0	Denims	https://youtu.be/zOYZ3XMGjUM&t=0	
+You have maybe 1 or 2 memories	Denims_YouHaveMaybeOneOrTwoMemories.mp3	Unknown	1	05-05-2015	0	Denims	https://youtu.be/zOYZ3XMGjUM&t=0	
+Whats your argument	DennisPrager_WhatsYourArgument.mp3	Leftovers	28	10-13-2022	1221	Dennis Prager	https://www.youtube.com/watch?v=RO6LOJj_p2g&t=1221	
+Hi Im Dick Tips	DickTips_HiImDickTips.mp3	Podcast	242	04-08-2021	82	Dick Tips	https://youtu.be/PcDqarjl4w0&t=82	
+DRAKE	DJAkademiks_DRAKE.mp3	H3TV	7	09-07-2021	299	DJ Akademiks	https://youtu.be/d9Y0O-FtKvA&t=299	
+Cappuccino	DJKhaled_Cappuccino.mp3	H3TV	86	08-07-2023	1935	DJ Khaled	https://youtu.be/8UizTBc6FP8&t=1935	
+Tell em to bring out the whole ocean!	DJKhaled_TheWholeOcean.mp3	H3TV	85	07-31-2023	5171	DJ Khaled	https://youtu.be/ETvW-4y6gMw&t=5171	
+GOD DID	DJKhaled_GodDid.mp3	AfterDark	91	11-25-2022	6665	DJ Khaled	https://www.youtube.com/watch?v=lUP64bI7INk&t=6665	
+I love Tesler!	Trump_ILoveTeslur.mp3	H3Show	121	03-13-2025	9400	Donald Trump	https://youtu.be/Hc-F93YUWag&t=9400	
+They're eating the dogs	Trump_EatingTheDogs.mp3	H3Show	55	09-16-2024	705	Donald Trump	https://youtu.be/Ch3WcOM4gNs&t=705	
+He said 'no way' and I said 'way'	Trump_AndHeSaidNoWayAndISaidWay.mp3	H3Show	42	08-14-2024	7745	Donald Trump	https://youtu.be/oLWTNrvOd3c&t=7745	
+Saudia Arabia and Russia will re-be-doog awhhh	Trump_SaudiArabiaAndRussiaWillReBeDoop.mp3	OTR	107	03-06-2024	5467	Donald Trump	https://www.youtube.com/watch?v=7H2vgnSz0tg&t=5467	
+Shut up silly woman	Trump_ShutupSillyWoman.mp3	OTR	98	12-13-2023	2962	Donald Trump	https://www.youtube.com/watch?v=vL8FTN9O4ms&t=2962	
+Turn up the mic!!	Trump_TurnUpTheMic.mp3	Leftovers	61	10-12-2023	12819	Donald Trump	https://www.youtube.com/watch?v=JFznOHunD_c&t=12819	
+Dont call him a fat pig	Trump_DontCallHimAFatPig.mp3	Leftovers	54	08-10-2023	6657	Donald Trump	https://www.youtube.com/watch?v=Pi6I56w96nE&t=6657	
+EXTREMELY WET	Trump_ExtremelyWet.mp3	Leftovers	54	08-10-2023	6581	Donald Trump	https://www.youtube.com/watch?v=Pi6I56w96nE&t=6581	
+Its about 104 or 5 degrees in this room	Trump_Its104Or5DegressInThisRoom.mp3	Leftovers	54	08-10-2023	6581	Donald Trump	https://www.youtube.com/watch?v=Pi6I56w96nE&t=6581	
+Please do not call him a fat pig	Trump_PleaseDoNotCallHimAFatPig.mp3	Leftovers	54	08-10-2023	6657	Donald Trump	https://www.youtube.com/watch?v=Pi6I56w96nE&t=6657	
+I did everything right and the indicted me	DonaldTrump_IDidEverythingRightAndTheyIndictedMe.mp3	Leftovers	50	06-15-2023	2458	Donald Trump	https://www.youtube.com/watch?v=GURoXvLOmYA&t=2458	
+We need to keep our country gay brup bup	DonaldTrump_KeepOurCountryGayAgainBupBup.mp3	AfterDark	87	10-07-2022	2498	Donald Trump	https://www.youtube.com/watch?v=Cjv07aA7WFw&t=2498	
+Dan please stand up	DonaldTrump_DanPleaseStandUp.mp3	OTR	22	12-15-2021	3973	Donald Trump	https://www.youtube.com/watch?v=tI_5oCeF_g4&t=3973	
+Ethan please stand up	DonaldTrump_EthanPleaseStandUp.mp3	OTR	22	12-15-2021	3973	Donald Trump	https://www.youtube.com/watch?v=tI_5oCeF_g4&t=3973	
+Ian please stand up	DonaldTrump_IanPleaseStandUp.mp3	OTR	22	12-15-2021	3973	Donald Trump	https://www.youtube.com/watch?v=tI_5oCeF_g4&t=3973	
+Ive been listening to Olivia the entire time	DonaldTrump_IveBeenListeningToOliviaTheEntireTime.mp3	OTR	19	11-18-2021	2430	Donald Trump	https://www.youtube.com/watch?v=hY0x8d3QWDA&t=2430	
+Olivia	DonaldTrump_Olivia.mp3	OTR	19	11-18-2021	2430	Donald Trump	https://www.youtube.com/watch?v=hY0x8d3QWDA&t=2430	
+We do a little trolling its called we do a little trolling	DonaldTrump_WeDoALittleTrolling.mp3	H3TV	4	08-02-2021	5723	Donald Trump	https://youtu.be/QhA1sdISvME&t=5723	
+We love you youre very special	DonaldTrump_WeLoveYouYoureVerySpecial.mp3	Podcast	230	01-06-2021	2119	Donald Trump	https://youtu.be/MiJFpEbHRpc&t=2119	
+Big massive dumps	DonaldTrump_BigMassiveDumps.mp3	Podcast	228	12-07-2020	6642	Donald Trump	https://youtu.be/kdIPAsPzFRQ&t=6642	
+They call em dumps	DonaldTrump_TheyCallThemDumps.mp3	Podcast	228	12-07-2020	6717	Donald Trump	https://youtu.be/kdIPAsPzFRQ&t=6717	
+Hey Dan thats not bad huh	DonaldTrump_HeyDanThatsNotBadHuh.mp3	AfterDark	15	12-04-2020	2333	Donald Trump	https://www.youtube.com/watch?v=iAnsNKeY4Hs&t=2333	
+I LOVE IT	DonaldTrump_ILoveIt.mp3	Podcast	206	08-12-2020	1966	Donald Trump	https://youtu.be/IgTdy9DElWU&t=1966	
+Im gonna cum	DonaldTrump_ImGonnaCum.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
+Bye Bye	DonaldTrump_ByeBye.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
+Okaaaay	DonaldTrump_Okaaaay.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
+Im blowin out my voice talking in this stupid mic!	Trump_BlowinOutMyVoiceTalkingToThisStupidMic.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
+This is the worst microphone I think Ive ever had.	Trump_ThisIsTheWorstMicrophoneIveEverHad.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
+This is the worst mic Ive ever had	Trump_WorstMicIveEverHad.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
+Mom I wanna vape	Trump_MomIWannaVape.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
+Mom I'm sorry!	Trump_MomImSorry.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
+Obamna (Obama)	Trump_Obamna.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
+THE N WORD!	Trump_TheNWord.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
+Mom I Wanna Vape!	Trump_MomIWantAVape.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
+Everythings Computer!	Trump_EverythingsComputer.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
+What the Hell is Going on?!	Trump_WhatTheHellIsGoingOn.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
+I didn't think you could break a penis	Donna_BreakAPenis.mp3	H3Show	53	09-11-2024	9252	Donna Klein	https://youtu.be/ua5pUi11V3E&t=9252	
+DEEZ NUTS	DonnaKlein_DeezNuts.mp3	AfterDark	99	03-24-2023	10100	Donna Klein	https://www.youtube.com/watch?v=FkTrjT_PDDc&t=10100	
+Its Friday Fuck baby fuck	Donna_ItsFridayFuck.mp3	Families	10	08-25-2021	677	Donna Klein	https://youtu.be/WOAWl_s0Kjs&t=677	
+Dubrick	Donna_Dubrik.mp3	Families	2	06-30-2021	5179	Donna Klein	https://youtu.be/_SdeGi-8rZ8&t=5179	
+Doobrik	Donna_Klein_Doobrick.mp3	Unknown	1	05-05-2015	0	Donna Klein	https://youtu.be/zOYZ3XMGjUM&t=0	
+You want some fucking teeth?	DrKennySmiles_SoYouWantSomeFuckingTeeth.mp3	H3TV	91	09-25-2023	9666	Dr Kenny Smiles	https://www.youtube.com/watch?v=qbDqgYZBEeY&t=9666	
+I hope you get ass cancer and DIE	DrPhil_IHopeYouGetAssCancerAndDie.mp3	H3TV	65	02-13-2023	1421	Dr Phil	https://youtu.be/JUgwnVF_zuA&t=1421	
+SIMP	DrPhil_SIMP.mp3	Podcast	215	09-14-2020	964	Dr Phil	https://youtu.be/H_S7N1J0Fm0&t=964	
+And I oop	DrPhil_AndIOop.mp3	Podcast	154	11-02-2019	1665	Dr Phil	https://youtu.be/OwlPtCDGluI&t=1665	
+Congrachulations!	Drake_Congratulations.mp3	Unknown	1	05-05-2015	0	Drake	https://youtu.be/zOYZ3XMGjUM&t=0	
+Im SorrEeey!	Drake_ImSorry.mp3	Unknown	1	05-05-2015	0	Drake	https://youtu.be/zOYZ3XMGjUM&t=0	
+I need a max wynn.	Drake_INeedTheMaxWin.mp3	Unknown	1	05-05-2015	0	Drake	https://youtu.be/zOYZ3XMGjUM&t=0	
+Ohhhh my Gohhhd!	Drake_OhMyGod.mp3	Unknown	1	05-05-2015	0	Drake	https://youtu.be/zOYZ3XMGjUM&t=0	
 A nightmare... A nightmare.	Dream_ANightmareANightmare.mp3	H3TV	93	10-09-2023	9297	Dream	https://www.youtube.com/watch?v=ZNFeRPMOu8g&t=9297	
 I cant breath when youre not there!	Dream_ICantBreathWhenYoureNotThere1.mp3	H3TV	93	10-09-2023	9249	Dream	https://www.youtube.com/watch?v=ZNFeRPMOu8g&t=9249	
 I cant BREATH WHEN YOURE NOT THEeeRe!	Dream_ICantBreathWhenYoureNotThere2.mp3	H3TV	93	10-09-2023	9300	Dream	https://www.youtube.com/watch?v=ZNFeRPMOu8g&t=9300	
 I cant sleep its a nightmare!	Dream_ICantSleepItsANightmare.mp3	H3TV	93	10-09-2023	9288	Dream	https://www.youtube.com/watch?v=ZNFeRPMOu8g&t=9288	
 Youre not there... Youre not there.	Dream_YoureNotThere.mp3	H3TV	93	10-09-2023	9342	Dream	https://www.youtube.com/watch?v=ZNFeRPMOu8g&t=9342	
-A crane fuckin smashed him right in his head	LilMo_ACraneSmashedHimRightInHisHead.mp3	OTR	87	09-27-2023	11049	Misc	https://www.youtube.com/watch?v=R8Y-ih8DLlc&t=11049	https://www.insideedition.com/sites/default/files/images/2022-06/062422_stunt_gone_wrong.jpg
-You want some fucking teeth?	DrKennySmiles_SoYouWantSomeFuckingTeeth.mp3	H3TV	91	09-25-2023	9666	Dr Kenny Smiles	https://www.youtube.com/watch?v=qbDqgYZBEeY&t=9666	
+Hell yeah HELL YEAH	Dream_HellYeahHELLYEAH.mp3	OTR	2	06-03-2021	1157	Dream	https://www.youtube.com/watch?v=RSirCfZjonY&t=1157	
+YUP	E40_Nope.mp3	Unknown	1	05-05-2015	0	E-40	https://youtu.be/zOYZ3XMGjUM&t=0	
+NOPE	E40_Yup.mp3	Unknown	1	05-05-2015	0	E-40	https://youtu.be/zOYZ3XMGjUM&t=0	
+USA USA USA!!	ElonMusk_USA.mp3	H3Show	72	10-28-2024	1871	Elon Musk	https://youtu.be/HngwtqKyYdw&t=1871	
+♪ AlLlL I NeeEEEd iS the RYThM DIViNE!! ... ♪	EnriqueIglesias_SingingPoorly.mp3	OTR	96	11-29-2023	743	Enrique Iglesias	https://www.youtube.com/watch?v=Z17qb2ybiuI&t=743	
+♪ IMAGINE IF NINJA GOT A LOW TAPER FADE ♪	Ericdoa_ImagineIfNinjaGotALowTaperFade.mp3	OTR	100	01-17-2024	6265	Ericdoa	https://www.youtube.com/watch?v=cfZM73q7NOc&t=6265	
+Okay I Like That	Ethan_OkayILikeThat.mp3	H3Show	123	03-17-2025	21979	Ethan	https://youtu.be/0Z4TGbApoIo&t=21979	/Images/Ethan_Drunk2025.png
+I Like it, I Fuck With That	Ethan_ILikeThatIFuckWithThat.mp3	H3Show	123	03-17-2025	21979	Ethan	https://youtu.be/0Z4TGbApoIo&t=21979	/Images/Ethan_Drunk2025.png
+DAN YOU FUCK!! You coward!	Ethan_DanYouFUCK.mp3	H3Show	74	11-01-2024	3833	Ethan	https://youtu.be/H0vlj3QIFsU&t=3833	
+Sieg Heil	Ethan_SeigHeil.mp3	H3Show	29	07-15-2024	7525	Ethan	https://youtu.be/gyIlayEQN3E&t=7525	
+WHAT?!	Ethan_BFFTWHAT.mp3	H3TV	82	07-10-2023	7978	Ethan	https://youtu.be/eb8z8kaekfw&t=7978	
+Its a rainy day out here in Los Angeles!	Ethan_ItsARainyDayOutHereInLosAngeles.mp3	Podcast	267	02-24-2023	3	Ethan	https://youtu.be/TsHmmkK8mQA&t=3	
+DAAAAN SWERDLOVE	Ethan_DanSwerdlove.mp3	H3TV	62	01-16-2023	3291	Ethan	https://youtu.be/lJNBlXTGSWk&t=3291	
+Dan has Never Looked Good	Ethan_DanHasNeverLookedGood.mp3	H3TV	56	11-07-2022	672	Ethan	https://youtu.be/mUSioSGBigU&t=672	
+LUNCHTIME	Ethan_LUNCHTIME.mp3	H3TV	55	10-31-2022	1035	Ethan	https://youtu.be/AlcD8_dyVvQ&t=1035	
+Do Not Waste That Sweet Milk	Ethan_DoNotWasteThatSweetMilk.mp3	Leftovers	19	07-21-2022	4159	Ethan	https://www.youtube.com/watch?v=Yb4bqqyH8_Y&t=4159	
+Stay in the kitchen and suck me off	Ethan_StayInTheKitchenAndSuckMeOff.mp3	H3TV	40	06-20-2022	8453	Ethan	https://youtu.be/PbuUz7yw9SA&t=8453	
+Who is Sam	Ethan_WhoIsSam.mp3	OTR	35	05-11-2022	9551	Ethan	https://www.youtube.com/watch?v=cNiIRTDfch0&t=9551	
+You Wanna Come to the Car and Suck my Cock	Ethan_YouWannaComeToMyCarAndSuck.mp3	Podcast	251	05-06-2022	1297	Ethan	https://youtu.be/NlPCUpYrMis&t=1297	
+SZIT (?) SZIT!!! (?)	Ethan_DrunkTalk.mp3	AfterDark	23	02-12-2021	22987	Ethan	https://www.youtube.com/watch?v=v4QZhtLnWKc&t=22987	
+X-X-X-Tassion	Ethan_XXXTassion.mp3	ContentCourt	2	09-24-2020	314	Ethan	https://youtu.be/VQ6bqvWmHoo&t=314	
+I DONT like it	Ethan_IDontLikeIt.mp3	Podcast	171	01-29-2020	6997	Ethan	https://youtu.be/XbeULz7ekV8&t=6997	
+OH MARVELOUS!!!!	Ethan_OhMarvelous.mp3	Podcast	157	11-13-2019	2065	Ethan	https://youtu.be/1GUgvMRNoTc&t=2065	
+I like it!	Ethan_ILikeIt.mp3	Podcast	155	11-06-2019	4990	Ethan	https://youtu.be/AkJZcJhh7qQ&t=4990	
+Spit on my tits and fuck em	Ethan_SpitOnMyTits.mp3	Podcast	131	08-02-2019	1398	Ethan	https://youtu.be/AH4m_aTgsFQ&t=1398	
+Blew my tits right off my fat body	Ethan_BlewMyTits.mp3	Unknown	1	05-05-2015	0	Ethan	https://youtu.be/zOYZ3XMGjUM&t=0	
+WOAAAAAAH	Ethan_WOOOOAAAAH.mp3	Unknown	1	05-05-2015	0	Ethan	https://youtu.be/zOYZ3XMGjUM&t=0	
+Sleepy AND Horny	Ethan_SleepyAndHorny.mp3	Unknown	1	05-05-2015	0	Ethan	https://youtu.be/zOYZ3XMGjUM&t=0	
+Im from the HEEEART of Brooklyn!	EthanBradberry_TheHeartOfBrooklyn.mp3	H3TV	105	01-29-2024	1173	Ethan Bradberry	https://www.youtube.com/watch?v=k1VrTaTohWA&t=1173	
+Faze Blanks	FazeBanks_FazeBlanks.mp3	AfterDark	36	05-13-2021	6589	Faze Banks	https://www.youtube.com/watch?v=4CP_nl037_c&t=6589	
+Im infinitely smarter than you	FazeBanks_InfinitelySmarterThanYou.mp3	AfterDark	36	05-13-2021	6598	Faze Banks	https://www.youtube.com/watch?v=4CP_nl037_c&t=6598	
+I think hes fucking stupid	FazeBanks_IThinkHesFuckingStupid.mp3	AfterDark	36	05-13-2021	6598	Faze Banks	https://www.youtube.com/watch?v=4CP_nl037_c&t=6598	
+I Had Sex in a Treehouse	FazeBanks_HadSexInATreehouse.mp3	Unknown	1	05-05-2015	0	Faze Banks	https://youtu.be/zOYZ3XMGjUM&t=0	
+This Place Has Been Marked and Violated Forever	FazeBanks_ThisPlaceHasBeenMarkedAndViolatedForever.mp3	Unknown	1	05-05-2015	0	Faze Banks	https://youtu.be/zOYZ3XMGjUM&t=0	
+My seed is all over this place	FazeBanks_MySeedIsAllOverThePlace.mp3	Unknown	1	05-05-2015	0	Faze Banks	https://youtu.be/zOYZ3XMGjUM&t=0	
+Facts Are Facts, Facts?	FazeBanks_FactsAreFactsFacts.mp3	Unknown	1	05-05-2015	0	Faze Banks	https://youtu.be/zOYZ3XMGjUM&t=0	
+H3H3 Humor	FazeBanks_H3H3humor.mp3	Unknown	1	05-05-2015	0	Faze Banks	https://youtu.be/zOYZ3XMGjUM&t=0	
+Bro, Are You Fucking High Right Now?	FazeBanks_FazeBanks_BroAreYouFuckingHighRightNow.mp3	Unknown	1	05-05-2015	0	Faze Banks	https://youtu.be/zOYZ3XMGjUM&t=0	
+I want to fuck this bitch	Fidias_IWantToFuckThisBitch.mp3	AfterDark	131	12-15-2023	5349	Fidias	https://www.youtube.com/watch?v=evmZ3TGPbbk&t=5349	
+Margot Robbie...	Fidias_MargotRobbie.mp3	AfterDark	131	12-15-2023	5349	Fidias	https://www.youtube.com/watch?v=evmZ3TGPbbk&t=5349	
+It's interestingeh	Fidias_ItsInteresting.mp3	OTR	93	11-08-2023	7167	Fidias	https://www.youtube.com/watch?v=FCzT_C9CJew&t=7167	
+Gay Trilogy	FouseyCuomoFifa_GayTrilogy.mp3	OTR	62	03-01-2023	390	FouseyTube	https://www.youtube.com/watch?v=XH6XCtQe4NI&t=390	
+CHEEEEZE	FouseyTube_CHEEZE.mp3	OTR	43	07-20-2022	8402	FouseyTube	https://www.youtube.com/watch?v=sJw_z60GrCM&t=8402	
+It Tastes Like Beef Jerky	FouseyTube_ItTastesLikeBeefJerky.mp3	OTR	43	07-20-2022	8415	FouseyTube	https://www.youtube.com/watch?v=sJw_z60GrCM&t=8415	
+I felt worthless I felt ugly I felt gay	FouseyTube_IFeltWorthless.mp3	Misc	3	01-28-2022	3446	FouseyTube	https://www.youtube.com/watch?v=daxr0SkHQm0&t=3446	
+Lets assume I was gay	Fresh&Fit_LetsAssumeIWasGay.mp3	H3Show	13	05-20-2024	7023	Fresh and Fit	https://youtu.be/_0wT8yg4k3I&t=7023	
+Man it is Wednesday man	Fresh&Fit_ItsWednesdayMan.mp3	AfterDark	71	04-29-2022	6803	Fresh and Fit	https://www.youtube.com/watch?v=cztc_OXvqJI&t=6803	
+Coconuts in Barbados	Fresh&Fit_CoconutsInBarbados.mp3	OTR	24	02-16-2022	7144	Fresh and Fit	https://www.youtube.com/watch?v=lXyGJVWafH8&t=7144	
+Coconuts and Your Divorce	Fresh&Fit_CoconutsAndYourDivorce.mp3	Unknown	1	05-05-2015	0	Fresh and Fit	https://youtu.be/zOYZ3XMGjUM&t=0	
+Uhh... BASED!	Frogan_UhBased.mp3	H3Show	113	02-22-2025	10445	Frogan	https://youtu.be/UK47xzasVxA&t=10445	
+U.S. Military? Boo Fuckin' Hoo!	Frogan_BooFuckingHoo.mp3	Unknown	1	05-05-2015	0	Frogan	https://youtu.be/zOYZ3XMGjUM&t=0	
+I like that	GarthBrooks_ILikeThat.mp3	Podcast	71	06-29-2018	4222	Garth Brooks	https://youtu.be/ecLCI0JhyW4&t=4222	
+Let the conversation begin	GarthBrooks_LetTheConversationBegin.mp3	Podcast	71	06-29-2018	4435	Garth Brooks	https://youtu.be/ecLCI0JhyW4&t=4435	
+Get into a Handstand or Some Weird Position...	GaryVee_GetIntoWeirdPositionAndLookAgain.mp3	Unknown	1	05-05-2015	0	Gary Vee	https://youtu.be/zOYZ3XMGjUM&t=0	
+Everyone Look at Your Phone Right Now	GaryVee_EveryoneLookAtYourPhoneRightNow.mp3	Unknown	1	05-05-2015	0	Gary Vee	https://youtu.be/zOYZ3XMGjUM&t=0	
+Now Put That Phone Down	GaryVee_PutThatPhoneDown.mp3	Unknown	1	05-05-2015	0	Gary Vee	https://youtu.be/zOYZ3XMGjUM&t=0	
+Different Perspectives!	GaryVee_DifferentPerspectives.mp3	Unknown	1	05-05-2015	0	Gary Vee	https://youtu.be/zOYZ3XMGjUM&t=0	
+Every Day Make Pretend One Got Shot In The Face	GaryVee_OnceADayShotInTheFace.mp3	Unknown	1	05-05-2015	0	Gary Vee	https://youtu.be/zOYZ3XMGjUM&t=0	
+Im a fucking savage you gotta do it	GregPaul_ImAFuckingSavage.mp3	AfterDark	33	04-23-2021	1870	Greg Paul	https://www.youtube.com/watch?v=MjDYycK6n7M&t=1870	
+Id rather speak up and be wrong than be muffled and be wrong	GregPaul_IdRatherBeWrong.mp3	Podcast	227	12-03-2020	975	Greg Paul	https://youtu.be/pvGrqiHky5k&t=975	
+Scream #1	Grimes_Scream1.mp3	H3Show	6	05-03-2024	10948	Grimes	https://youtu.be/dQO5biMTtsY&t=10948	
+Scream #2	Grimes_Scream2.mp3	H3Show	6	05-03-2024	10948	Grimes	https://youtu.be/dQO5biMTtsY&t=10948	
+Scream #3	Grimes_Scream3.mp3	H3Show	6	05-03-2024	10948	Grimes	https://youtu.be/dQO5biMTtsY&t=10948	
+Anywho I'm gonna go to bed	HaileyWelch_AnywhoImGonnaGoToBed.mp3	H3Show	108	02-10-2025	2123	Hailey Welch (Hawk Tuah)	https://youtu.be/I0zmBdGEvwU&t=2123	
+FLOCKA	HannibalBuress_FLOCKA.mp3	H3TV	48	08-22-2022	80	Hannibal B	https://youtu.be/FnZ2MLYKacc&t=80	
+Jew!	Jew.mp3	Unknown	1	05-05-2015	0	Harley Morenstein	https://youtu.be/zOYZ3XMGjUM&t=0	
+Graham Stephan is a jew!	Harley_GrahamStephanIsAJew.mp3	Unknown	1	05-05-2015	0	Harley Morenstein	https://youtu.be/zOYZ3XMGjUM&t=0	
+Denny's Rant	Harley_DennysRant.mp3	Unknown	1	05-05-2015	0	Harley Morenstein	https://youtu.be/zOYZ3XMGjUM&t=0	
+Ryan Kavanaugh is a force of nature	HarveyWeinstein_RyanKavanaughIsAForceOfNature.mp3	H3TV	21	01-17-2022	4546	Harvey Weinstein	https://youtu.be/sHrEyuHHM9U&t=4546	
+Mhm	Hasan_mmhmm.mp3	H3Show	109	02-12-2025	5276	Hasan Piker	https://youtu.be/A8MzE_Pr9XI&t=5276	
+Destiny is a great guy	Hasan_DestinyIsAGreatGuy.mp3	H3Show	106	02-05-2025	6320	Hasan Piker	https://youtu.be/6KV16LWcnTY&t=6320	
+Laugh #1	Hasan_Laugh1.mp3	H3Show	99	01-15-2025	3507	Hasan Piker	https://youtu.be/h1dnSmR_9C8&t=3507	
+Laugh #2	Hasan_Laugh2.mp3	H3Show	99	01-15-2025	3507	Hasan Piker	https://youtu.be/h1dnSmR_9C8&t=3507	
+America Deserved 9/11	Hasan_AmericaDeserved911.mp3	H3Show	55	09-16-2024	10091	Hasan Piker	https://youtu.be/Ch3WcOM4gNs&t=10091	
+Adolf Hitler DUDE!!	Hasan_AdolfHitlerDUDE.mp3	AfterDark	92	12-16-2022	10832	Hasan Piker	https://www.youtube.com/watch?v=GgwXXGtUCgE&t=10832	
+Weasily little liar dude	Hasan_WeasleyLittleLiar.mp3	H3TV	23	02-14-2022	6715	Hasan Piker	https://youtu.be/JZP7g-9ANRc&t=6715	
+CRACKA	HasanPiker_Cracka.mp3	Unknown	1	05-05-2015	0	Hasan Piker	https://youtu.be/zOYZ3XMGjUM&t=0	
+What a fucking piece of shit dude	HasanPiker_WhatAFuckingPieceOfShit.mp3	Unknown	1	05-05-2015	0	Hasan Piker	https://youtu.be/zOYZ3XMGjUM&t=0	
+Kaya, no... Place!	Hasan Kaya no place.mp3	Unknown	1	05-05-2015	0	Hasan Piker	https://youtu.be/zOYZ3XMGjUM&t=0	
+Place! Kaya, Place!	Hasan place Kaya place.mp3	Unknown	1	05-05-2015	0	Hasan Piker	https://youtu.be/zOYZ3XMGjUM&t=0	
+PLACE!	Hasan_PLACE.mp3	Unknown	1	05-05-2015	0	Hasan Piker	https://youtu.be/zOYZ3XMGjUM&t=0	
+Dan KKK Clancy	Hasan_DanKKKClansey.mp3	Unknown	1	05-05-2015	0	Hasan Piker	https://youtu.be/zOYZ3XMGjUM&t=0	
+HA-SS... on... KKK-ER	Hasan_HaSSanKKKer.mp3	Unknown	1	05-05-2015	0	Hasan Piker	https://youtu.be/zOYZ3XMGjUM&t=0	
+Oop there it is	Hila_OopThereItIs.mp3	AfterDark	25	02-26-2021	9168	Hila	https://www.youtube.com/watch?v=ugF3erryCls&t=9168	
+You didn't tell me you got some tea today!	Hila_YouDidntTellMeTea.mp3	Podcast	227	12-03-2020	595	Hila	https://youtu.be/pvGrqiHky5k&t=595	
+Have you visited Blacked	Hila_HaveYouVisitedBlacked.mp3	Podcast	225	10-29-2020	1281	Hila	https://youtu.be/uutn8Lob_ek&t=1281	
+I Want to Smell Feet	Hila_IWantToSmellFeet.mp3	Podcast	206	08-12-2020	938	Hila	https://youtu.be/IgTdy9DElWU&t=938	
+Haha Bitch Im laughing cause you big mad	Hila_ImLaughingCauseYouBigMad.mp3	Podcast	190	05-16-2020	5227	Hila	https://youtu.be/6BhJNuIN6rM&t=5227	
+Lets google some Isis videos	Hila_LetsGoogleSomeISISVideos.mp3	Unknown	1	05-05-2015	0	Hila	https://youtu.be/zOYZ3XMGjUM&t=0	
+Hilas Ricegum laugh	Hila_RiceGumLaugh.mp3	Unknown	1	05-05-2015	0	Hila	https://youtu.be/zOYZ3XMGjUM&t=0	
+What up big pimps	Hila_WhatUpBigPimps.mp3	Unknown	1	05-05-2015	0	Hila	https://youtu.be/zOYZ3XMGjUM&t=0	
+Youre in the wrong street cuz	Hila_WrongStreetCuz.mp3	Unknown	1	05-05-2015	0	Hila	https://youtu.be/zOYZ3XMGjUM&t=0	
+I'm just chillin' in Cedar Rapids	HillaryClinton_ImJustChillinInCedarRapids.mp3	Podcast	170	01-25-2020	2990	Hillary Clinton	https://youtu.be/RtQPOAHFrK0&t=2990	
+I think so, don't you think so?	Howie_IThinkSo.mp3	H3Show	101	01-22-2025	4857	Howie Mandel	https://youtu.be/casAOxYGjPc&t=4857	
+You're coming off a little special needs	Howie_SpecialNeeds.mp3	H3Show	101	01-22-2025	4857	Howie Mandel	https://youtu.be/casAOxYGjPc&t=4857	
+Im not gonna read it FUCK YOU	Howie_ImNotGonnaReadIt.mp3	Live	1	06-23-2023	3910	Howie Mandel	https://youtu.be/ShNedjrsI_E&t=3910	
+Show Us!! ...	Howie_ShowUs.mp3	Live	1	06-23-2023	2581	Howie Mandel	https://youtu.be/ShNedjrsI_E&t=2581	
+I took it down okay	Howie_ITookItDownOkay.mp3	H3TV	57	11-14-2022	204	Howie Mandel	https://youtu.be/Y0idXvAgs6Q&t=204	
+The number one podcast in the world	Howie_TheNumberOnePodcast.mp3	OTR	48	09-14-2022	3505	Howie Mandel	https://www.youtube.com/watch?v=bRu6UR5lzeE&t=3505	
+Im growing my hair back people	Howie_GrowingMyHairBackPeople.mp3	AfterDark	77	07-15-2022	5645	Howie Mandel	https://www.youtube.com/watch?v=VHkpIXco8Ks&t=5645	
+Does anyone know is this Covid Related? ...	Howie_IsThisCovidRelated.mp3	H3TV	42	07-11-2022	829	Howie Mandel	https://youtu.be/QpElkT_nkgY&t=829	
+Ow	Howie_Ow.mp3	H3TV	42	07-11-2022	829	Howie Mandel	https://youtu.be/QpElkT_nkgY&t=829	
+When my friend Neal bent over this happened	Howie_WhenMyFriendNeilBentOver.mp3	H3TV	42	07-11-2022	829	Howie Mandel	https://youtu.be/QpElkT_nkgY&t=829	
+Nothin'...	Howie_Nothing.mp3	Unknown	1	05-05-2015	0	Howie Mandel	https://youtu.be/zOYZ3XMGjUM&t=0	
+I'm Fine, People!	Howie_ImFinePeople.mp3	Unknown	1	05-05-2015	0	Howie Mandel	https://youtu.be/zOYZ3XMGjUM&t=0	
+♪ Howie's Pre Show Music ♪	Howie_PreShowMusic.mp3	Unknown	1	05-05-2015	0	Howie Mandel	https://youtu.be/zOYZ3XMGjUM&t=0	
+I'm strokin pussy down here	Ian_ImStrokingPussyDownHere.mp3	Podcast	236	02-18-2021	71	Ian	https://youtu.be/6rXRoIA4EEc&t=71	
+I've Been Chuggin' the Water!	Ian_IveBeenChuggingTheWater.mp3	Podcast	169	01-22-2020	4987	Ian	https://youtu.be/DzjVGrSyPP0&t=4987	
+I Gotta Pee So Bad	Ian_IGottaPeeSoBad.mp3	Podcast	106	03-01-2019	5667	Ian	https://youtu.be/-WGeIEK1yY4&t=5667	
+I've Got News For You, That Means You're Gay	IceT_ThatMeansYourGay.mp3	Podcast	234	02-04-2021	63	Ice T	https://youtu.be/4LbemPA5lEo&t=63	
+Lets Give it up for Dan	Idubbbz_LetsGiveItUpForDan.mp3	Unknown	1	05-05-2015	0	iDubbbz	https://youtu.be/zOYZ3XMGjUM&t=0	
+Suck my Ass, Bitch	Idubbbz_SuckMyAssBitch.mp3	Unknown	1	05-05-2015	0	iDubbbz	https://youtu.be/zOYZ3XMGjUM&t=0	
+This is Not What Podcasts Are!	Idubbbz_ThisIsNotWhatPodcastsAre.mp3	Unknown	1	05-05-2015	0	iDubbbz	https://youtu.be/zOYZ3XMGjUM&t=0	
+Ban 'em and Block 'em	Idubbbz_BanHimAndBlockHim.mp3	Unknown	1	05-05-2015	0	iDubbbz	https://youtu.be/zOYZ3XMGjUM&t=0	
 Okay, I like it, Picasso	ItsReefa_OkayILikeItPicasso.mp3	AfterDark	120	09-15-2023	6451	itsreefa	https://www.youtube.com/watch?v=-pPIPXwK1wQ&t=6451	
 What's this?!	ItsReefa_WhatsThis.mp3	AfterDark	120	09-15-2023	6451	itsreefa	https://www.youtube.com/watch?v=-pPIPXwK1wQ&t=6451	
+I would call that uh false advertising	JaRule_IWouldCallThatFalseAdvertising.mp3	Unknown	1	05-05-2015	0	Ja Rule	https://youtu.be/zOYZ3XMGjUM&t=0	
+I would call that uh FRAUD	JaRule_IWouldCallThatFraud.mp3	Unknown	1	05-05-2015	0	Ja Rule	https://youtu.be/zOYZ3XMGjUM&t=0	
+Thats FRAUD	JaRule_ThatsFraud.mp3	Unknown	1	05-05-2015	0	Ja Rule	https://youtu.be/zOYZ3XMGjUM&t=0	
+Thats not fraud	JaRule_ThatsNotFraud.mp3	Unknown	1	05-05-2015	0	Ja Rule	https://youtu.be/zOYZ3XMGjUM&t=0	
+Can we talk about the political and economic state of the world?	JadenSmith_PoliticalAndEconomicalStateOfTheWorld.mp3	OTR	32	04-20-2022	9650	Jaden Smith	https://www.youtube.com/watch?v=PUQPGI9fNok&t=9650	
+No - Ethan thats not how that works	JakeDoolittle_NoEthanThatsNotHowThatWorks.mp3	H3TV	103	01-08-2024	10012	Jake Doolittle	https://www.youtube.com/watch?v=WuaEyOStUds&t=10012	
+OooOoOops	JakeDoolittle_Ooooops.mp3	H3TV	103	01-08-2024	13046	Jake Doolittle	https://www.youtube.com/watch?v=WuaEyOStUds&t=13046	
+Gotcha hat	JakePaul_GotchaHat.mp3	Unknown	1	05-05-2015	0	Jake Paul	https://youtu.be/zOYZ3XMGjUM&t=0	
+Nah You're Trippin'	JakePaul_NawYoureTripping.mp3	Unknown	1	05-05-2015	0	Jake Paul	https://youtu.be/zOYZ3XMGjUM&t=0	
+Free Shipping Ya'll!	JakePaul_FreeShippingYall.mp3	Unknown	1	05-05-2015	0	Jake Paul	https://youtu.be/zOYZ3XMGjUM&t=0	
+WOMP WOMP WOMP	JamesCharles_WompWompWomp.mp3	Podcast	242	04-08-2021	389	James Charles	https://youtu.be/PcDqarjl4w0&t=389	
+YeaaAaaeEeeaaAaaeeEeEAaaH	JamesCharles_YeaaAaaeeeEeeaaAaaeeeEeeeEAaaaaH.mp3	Podcast	242	04-08-2021	389	James Charles	https://youtu.be/PcDqarjl4w0&t=389	
+Yeah really sad	JamesCharles_YeahReallySad.mp3	AfterDark	25	02-26-2021	4504	James Charles	https://www.youtube.com/watch?v=ugF3erryCls&t=4504	
+Spooked Magooked	JamesCharles_SpookedMagooked.mp3	AfterDark	19	01-15-2021	9234	James Charles	https://www.youtube.com/watch?v=QBmlIdXpGeU&t=9234	
+Lets get glam	JamesCharles_LetsGetGlam.mp3	AfterDark	18	01-08-2021	2141	James Charles	https://www.youtube.com/watch?v=7XytOqnusfo&t=2141	
+Ohhh nooOooo	JamesCharles_OhhhNooOoo.mp3	AfterDark	18	01-08-2021	41	James Charles	https://www.youtube.com/watch?v=7XytOqnusfo&t=41	
+Wow sister shnapped	JamesCharles_SisterSnapped.mp3	Unknown	1	05-05-2015	0	James Charles	https://youtu.be/zOYZ3XMGjUM&t=0	
+Hello!	JamesCharles_HELLO.mp3	Unknown	1	05-05-2015	0	James Charles	https://youtu.be/zOYZ3XMGjUM&t=0	
+OH FUCK	JamesCharles_AhhhFuck.mp3	Unknown	1	05-05-2015	0	James Charles	https://youtu.be/zOYZ3XMGjUM&t=0	
+Konichiwa	JamesCharles_Konichiwa.mp3	Unknown	1	05-05-2015	0	James Charles	https://youtu.be/zOYZ3XMGjUM&t=0	
+Mercy Bookoo	JamesCharles_MercyBookoo.mp3	Unknown	1	05-05-2015	0	James Charles	https://youtu.be/zOYZ3XMGjUM&t=0	
+Chow Bella	JamesCharles_ChowBella.mp3	Unknown	1	05-05-2015	0	James Charles	https://youtu.be/zOYZ3XMGjUM&t=0	
+Mama Mia!	JamesCharles_MamaMia.mp3	Unknown	1	05-05-2015	0	James Charles	https://youtu.be/zOYZ3XMGjUM&t=0	
+This is Digusting	JamesCharles_ThisIsDisgusting.mp3	Unknown	1	05-05-2015	0	James Charles	https://youtu.be/zOYZ3XMGjUM&t=0	
+Ah	JaredLeto_Ah.mp3	Unknown	1	05-05-2015	0	Jared Leto	https://youtu.be/zOYZ3XMGjUM&t=0	
+GET IT GET IT GET IT GET IT!!	JasonNash_GetItGetItGetIt.mp3	H3Show	32	07-22-2024	4275	Jason Nash	https://youtu.be/RMnIW8Xs7uA&t=4275	
+GO! GO!!!	JasonNash_GoGO.mp3	H3Show	32	07-22-2024	4275	Jason Nash	https://youtu.be/RMnIW8Xs7uA&t=4275	
+Hoy I'M JASON YANG	JasonYang_Hi.mp3	Unknown	1	05-05-2015	0	Jason Yang	https://youtu.be/zOYZ3XMGjUM&t=0	
+Now entering GLIZZY OVERDRIVE	JasonReborn_FullGlizzyOverDrive.mp3	AfterDark	117	08-25-2023	3859	Jason.Reborn	https://www.youtube.com/watch?v=HbATtwgldBw&t=3859	
+*INTENSE GLIZZY NOISES*	JasonReborn_GlizzyOverdriveConsumption.mp3	AfterDark	117	08-25-2023	3877	Jason.Reborn	https://www.youtube.com/watch?v=HbATtwgldBw&t=3877	
+Oh God...	JayShetty_OhGod.mp3	SYNT	97	02-20-2025	5249	Jay Shetty	https://youtu.be/vVaHCn3smdE&t=5249	
+That's so scary!	JayShetty_ThatsSoScary.mp3	SYNT	97	02-20-2025	7334	Jay Shetty	https://youtu.be/vVaHCn3smdE&t=7334	
+Okay Ethan	JeffWittek_OkayEthan.mp3	Frenemies	26	03-21-2021	7844	Jeff Wittek	https://www.youtube.com/watch?v=0XCZ-t5e-fI&t=7844	
+That is so crazy	JesseLeePeterson_ThatIsSoCrazy.mp3	H3TV	108	02-20-2024	3474	Jesse Lee Peterson	https://www.youtube.com/watch?v=B3FlUe8izyI&t=3474	
+Lesbians	JesseLeePeterson_Lesbians.mp3	H3TV	71	04-03-2023	5825	Jesse Lee Peterson	https://youtu.be/bVCmTR9UumY&t=5825	
+Amazin'!	JesseLeePeterson_Amazin.mp3	H3TV	71	04-03-2023	5858	Jesse Lee Peterson	https://youtu.be/bVCmTR9UumY&t=5858	
+*Does God know youre gay?*	JesseLeePeterson_DoesGodKnowYoureGay.mp3	H3TV	70	03-27-2023	3555	Jesse Lee Peterson	https://youtu.be/c3DrrRpa-Kg&t=3555	
+I didnt know you were gay!	JesseLeePeterson_IDidntKnowYouWereGay.mp3	H3TV	70	03-27-2023	3555	Jesse Lee Peterson	https://youtu.be/c3DrrRpa-Kg&t=3555	
+Thas Min Blowin	JesseLeePeterson_MindBlowin.mp3	H3TV	70	03-27-2023	3514	Jesse Lee Peterson	https://youtu.be/c3DrrRpa-Kg&t=3514	
+REeAAally?!	JesseLeePeterson_Reaaaally.mp3	H3TV	70	03-27-2023	3514	Jesse Lee Peterson	https://youtu.be/c3DrrRpa-Kg&t=3514	
+REeAAally?! Thas Min Blowin	JesseLeePeterson_REAALLYThatsMindblowin.mp3	H3TV	70	03-27-2023	3514	Jesse Lee Peterson	https://youtu.be/c3DrrRpa-Kg&t=3514	
+You Gay?	JesseLeePeterson_YouGay.mp3	H3TV	70	03-27-2023	3555	Jesse Lee Peterson	https://youtu.be/c3DrrRpa-Kg&t=3555	
+You Gaaay?!	JesseLeePeterson_YouGay2.mp3	H3TV	70	03-27-2023	3555	Jesse Lee Peterson	https://youtu.be/c3DrrRpa-Kg&t=3555	
+BETA	JesseLeePeterson_BETA.mp3	Unknown	1	05-05-2015	0	Jesse Lee Peterson	https://youtu.be/zOYZ3XMGjUM&t=0	
+HE CANT KEEP GETTING AWAY WITH IT	JessePinkman_HeCantKeepGettingAwayWithIt.mp3	Podcast	238	03-04-2021	480	Jesse Pinkman	https://www.youtube.com/watch?v=6woMi_8VjJw&t=480	
+WAN	Jidion_Wan.mp3	H3TV	47	08-15-2022	2553	Jidion	https://youtu.be/IFfxLKkYh8Q&t=2553	
+WDan	Jidion_WDan.mp3	H3TV	47	08-15-2022	2553	Jidion	https://youtu.be/IFfxLKkYh8Q&t=2553	
+UhHHhp	JimmieLee_UHHHP.mp3	OTR	105	02-21-2024	1096	Jimmie Lee	https://www.youtube.com/watch?v=8ZkY_nHj3vY&t=1096	
+Stop with the tomatoes!	JimmieLee_StopWithTheTomatoes.mp3	Live	1	06-23-2023	5414	Jimmie Lee	https://youtu.be/ShNedjrsI_E&t=5414	
+All different flavors 2	JimmieLee_AllDifferentFlavors2.mp3	Podcast	262	12-14-2022	5449	Jimmie Lee	https://youtu.be/5J1FoJhOkwg&t=5449	
+AudioAudioAudio	JimmieLee_AudioAudioAudio.mp3	OTR	29	03-30-2022	3007	Jimmie Lee	https://www.youtube.com/watch?v=kWqTHAD8C0k&t=3007	
+I Got my Eye on You	JimmieLee_GotMyEyeOnYou.mp3	OTR	29	03-30-2022	3667	Jimmie Lee	https://www.youtube.com/watch?v=kWqTHAD8C0k&t=3667	
+All different flavors #1	JimmieLee_AllDifferentFlavors1.mp3	Podcast	20	08-13-2017	1631	Jimmie Lee	https://youtu.be/rq8HL3jVy-M&t=1631	
+Shoot the Son of a Bitch!	JimmieLee_ShootTheSonOfABitch.mp3	Unknown	1	05-05-2015	0	Jimmie Lee	https://youtu.be/zOYZ3XMGjUM&t=0	
+MAYO FOR SAM!!	JoeBiden_MayoForSam.mp3	H3TV	73	04-17-2023	10773	Joe Biden	https://youtu.be/SasopDoAz14&t=10773	
+Benefits Everybody	JoeBiden_BenefitsEverybody.mp3	AfterDark	36	05-13-2021	4806	Joe Biden	https://www.youtube.com/watch?v=4CP_nl037_c&t=4806	
+Guess what It grows the economy	JoeBiden_GuessWhatItGrowsTheEconomy.mp3	AfterDark	36	05-13-2021	4806	Joe Biden	https://www.youtube.com/watch?v=4CP_nl037_c&t=4806	
+Hurts nobody	JoeBiden_HurtsNobody.mp3	AfterDark	36	05-13-2021	4806	Joe Biden	https://www.youtube.com/watch?v=4CP_nl037_c&t=4806	
+Dans a good man	JoeBiden_DansAGoodMan.mp3	AfterDark	28	03-19-2021	435	Joe Biden	https://www.youtube.com/watch?v=iKpd0ZTpkp8&t=435	
+Cmon Man	JoeBiden_CmonMan.mp3	AfterDark	20	01-21-2021	7	Joe Biden	https://www.youtube.com/watch?v=1G3nt39Fd0o&t=7	
+Youre a lying dog face pony soldier	JoeBiden_DogFaceLyingPonySoldier.mp3	Podcast	180	03-07-2020	1700	Joe Biden	https://youtu.be/dn0c1-TaHSQ&t=1700	
+Get your words straight Jack	JoeBiden_GetYourWordsStraightJack.mp3	Podcast	164	12-07-2019	4810	Joe Biden	https://youtu.be/q_q99sLLKm8&t=4810	
+Look fat heres the deal	JoeBiden_LookFat.mp3	Podcast	164	12-07-2019	4867	Joe Biden	https://youtu.be/q_q99sLLKm8&t=4867	
+I got hairy legs	JoeBiden_IGotHairyLegs.mp3	Podcast	163	12-04-2019	4738	Joe Biden	https://youtu.be/kWGaJlTjGBQ&t=4738	
+I love kids jumping on my lap	JoeBiden_ILoveKidsJumpinOnMyLap.mp3	Podcast	163	12-04-2019	4765	Joe Biden	https://youtu.be/kWGaJlTjGBQ&t=4765	
+That-Th-ThatThat...	JoeBiden_ThatThThatThat.mp3	Podcast	163	12-04-2019	4738	Joe Biden	https://youtu.be/kWGaJlTjGBQ&t=4738	
+Go to Joe 30330	JoeBiden_GoToJoe30330.mp3	Podcast	133	08-09-2019	2598	Joe Biden	https://youtu.be/pKt615DRnV4&t=2598	
+SODA!!	Biden_SODA.mp3	Unknown	1	05-05-2015	0	Joe Biden	https://youtu.be/zOYZ3XMGjUM&t=0	
+Eat out my ass	JoePesci_EatOutMyAss.mp3	AfterDark	7	10-02-2020	2876	Joe Pesci	https://www.youtube.com/watch?v=_uMN_NAThww&t=2876	
+Its the bitches thatll getcha	JoePesci_ItsTheBitchesThatllGetcha.mp3	AfterDark	7	10-02-2020	2937	Joe Pesci	https://www.youtube.com/watch?v=_uMN_NAThww&t=2937	
+Were the last line of defense - This is where the woke meets the wall	JoeRogan_WhereTheWokeMeetsTheWall.mp3	OTR	99	01-10-2024	6463	Joe Rogan	https://www.youtube.com/watch?v=GBj19zjrWzQ&t=6463	
+Why does it lie?	JoeRogan_OhWhyDoesItLie.mp3	SYNT	11	12-27-2022	1197	Joe Rogan	https://youtu.be/Yrof_UwWYCI&t=1197	
+It's crazy	JoeRogan_ItsCrazy.mp3	SYNT	11	12-27-2022	1148	Joe Rogan	https://youtu.be/Yrof_UwWYCI&t=1148	
+I'm such a sucker	JoeRogan_ImSuchASucker.mp3	SYNT	11	12-27-2022	1206	Joe Rogan	https://youtu.be/Yrof_UwWYCI&t=1206	
+Shh! Shh! (Kettlebell workout)	JoeRogan_Shh.mp3	H3TV	61	12-13-2022	4462	Joe Rogan	https://youtu.be/Jw8hmuc39kM&t=4462	
+5% difference is Astronomical	JoeRogan_FivePercentDifferentIsAstronomical.mp3	AfterDark	42	06-24-2021	9070	Joe Rogan	https://www.youtube.com/watch?v=-I_xmrcEAdU&t=9070	
+5% means everything	JoeRogan_FivePercentMeansEverything.mp3	AfterDark	42	06-24-2021	9070	Joe Rogan	https://www.youtube.com/watch?v=-I_xmrcEAdU&t=9070	
+Im not a doctor Im a fucking moron	JoeRogan_ImNotADoctor.mp3	AfterDark	37	05-21-2021	4350	Joe Rogan	https://youtu.be/SaC97huq9Ss&t=4350	
+Put the Photo Up	JoeRogan_PutThePhotoUp.mp3	Unknown	1	05-05-2015	0	Joe Rogan	https://youtu.be/zOYZ3XMGjUM&t=0	
+You got a Problem Because Hes Got a Big Dick	JoeRogan_YouGotAProblemBecauseHesGotABigDick.mp3	Unknown	1	05-05-2015	0	Joe Rogan	https://youtu.be/zOYZ3XMGjUM&t=0	
+Shorts and a Large Hog	JoeRogan_ShortsAndLargeHog.mp3	Unknown	1	05-05-2015	0	Joe Rogan	https://youtu.be/zOYZ3XMGjUM&t=0	
+Showing His Hog	JoeRogan_ShowingHisHog.mp3	Unknown	1	05-05-2015	0	Joe Rogan	https://youtu.be/zOYZ3XMGjUM&t=0	
+Fucking Sucking Chaos	JoeRogan_FuckingSuckingChaos.mp3	Unknown	1	05-05-2015	0	Joe Rogan	https://youtu.be/zOYZ3XMGjUM&t=0	
+A dick in briefs!	JoeRogan_ADickInBriefs.mp3	Unknown	1	05-05-2015	0	Joe Rogan	https://youtu.be/zOYZ3XMGjUM&t=0	
+Shredded, With a Large Hog	JoeRogan_ShreddedWithALargeHog.mp3	Unknown	1	05-05-2015	0	Joe Rogan	https://youtu.be/zOYZ3XMGjUM&t=0	
+Bear!	JoeRogan_BearNoise.mp3	Unknown	1	05-05-2015	0	Joe Rogan	https://youtu.be/zOYZ3XMGjUM&t=0	
+With her boob coming out	JoeySalads_WithHerBoobComingOut.mp3	EthanAndHila	3	03-07-2016	78	Joey Salads	https://youtu.be/nHHzQ8VPtAs&t=78	
 Im going to give you the blowjob of your life	SenatorJohnKennedy_BlowJobOfYourLife.mp3	Leftovers	57	09-14-2023	5526	John Kennedy	https://www.youtube.com/watch?v=EeFuFKH-uOo&t=5526	
 I cant wait to have your cock in my mouth	SenatorJohnKennedy_ICantWaitToHaveYourCockInMyMouth.mp3	Leftovers	57	09-14-2023	5526	John Kennedy	https://www.youtube.com/watch?v=EeFuFKH-uOo&t=5526	
 I got a new strap on harness today	SenatorJohnKennedy_IGotANewStrapOnHarnessToday.mp3	Leftovers	57	09-14-2023	5526	John Kennedy	https://www.youtube.com/watch?v=EeFuFKH-uOo&t=5526	
@@ -131,163 +395,110 @@ I want you inside of me	SenatorJohnKennedy_IWantYouInsideOfMe.mp3	Leftovers	57	0
 He asked me to turn over while he slipped a condom on himself	SenatorJohnKennedy_SlippedACondomOn.mp3	Leftovers	57	09-14-2023	5526	John Kennedy	https://www.youtube.com/watch?v=EeFuFKH-uOo&t=5526	
 He got on top and slowly inserted himself into me	SenatorJohnKennedy_SlowlyInsertedIntoMe.mp3	Leftovers	57	09-14-2023	5526	John Kennedy	https://www.youtube.com/watch?v=EeFuFKH-uOo&t=5526	
 This was MY ASS	SenatorJohnKennedy_ThisWasMyAss.mp3	Leftovers	57	09-14-2023	5526	John Kennedy	https://www.youtube.com/watch?v=EeFuFKH-uOo&t=5526	
-And DICK too!	Obama_AndDickToo.mp3	AfterDark	119	09-08-2023	274	Barrack Obama	https://www.youtube.com/watch?v=uJVzxi2WNGw&t=274	
-Now entering GLIZZY OVERDRIVE	JasonReborn_FullGlizzyOverDrive.mp3	AfterDark	117	08-25-2023	3859	Jason.Reborn	https://www.youtube.com/watch?v=HbATtwgldBw&t=3859	
-*INTENSE GLIZZY NOISES*	JasonReborn_GlizzyOverdriveConsumption.mp3	AfterDark	117	08-25-2023	3877	Jason.Reborn	https://www.youtube.com/watch?v=HbATtwgldBw&t=3877	
-Dont call him a fat pig	Trump_DontCallHimAFatPig.mp3	Leftovers	54	08-10-2023	6657	Donald Trump	https://www.youtube.com/watch?v=Pi6I56w96nE&t=6657	
-EXTREMELY WET	Trump_ExtremelyWet.mp3	Leftovers	54	08-10-2023	6581	Donald Trump	https://www.youtube.com/watch?v=Pi6I56w96nE&t=6581	
-Its about 104 or 5 degrees in this room	Trump_Its104Or5DegressInThisRoom.mp3	Leftovers	54	08-10-2023	6581	Donald Trump	https://www.youtube.com/watch?v=Pi6I56w96nE&t=6581	
-Please do not call him a fat pig	Trump_PleaseDoNotCallHimAFatPig.mp3	Leftovers	54	08-10-2023	6657	Donald Trump	https://www.youtube.com/watch?v=Pi6I56w96nE&t=6657	
-Cappuccino	DJKhaled_Cappuccino.mp3	H3TV	86	08-07-2023	1935	DJ Khaled	https://youtu.be/8UizTBc6FP8&t=1935	
-Tell em to bring out the whole ocean!	DJKhaled_TheWholeOcean.mp3	H3TV	85	07-31-2023	5171	DJ Khaled	https://youtu.be/ETvW-4y6gMw&t=5171	
-The death bell tolls.	Misc_DeathBell.mp3	Leftovers	52	07-27-2023	3077	Tipster	https://www.youtube.com/watch?v=JeUGqefy2TQ&t=3077	
-At least Ive seen what a vagina looks like	Tipster_VaginaLooksLike.mp3	AfterDark	112	07-21-2023	922	Tipster	https://www.youtube.com/watch?v=xTsLjVLC__U&t=922	
-Wheres my shoompa loompa?	Love_WheresMyShoompaLoompa.mp3	AfterDark	111	07-14-2023	9012	Love	https://www.youtube.com/watch?v=zqZW2EYb9YE&t=9012	
-Fart Joke!	ColleenBallinger_FartJoke.mp3	H3TV	82	07-10-2023	7978	Colleen Ballinger	https://youtu.be/eb8z8kaekfw&t=7978	
-Fuck me right?	ColleenBallinger_FuckMeRight.mp3	H3TV	82	07-10-2023	8593	Colleen Ballinger	https://youtu.be/eb8z8kaekfw&t=8593	
-WHAT?!	Ethan_BFFTWHAT.mp3	H3TV	82	07-10-2023	7978	Ethan	https://youtu.be/eb8z8kaekfw&t=7978	
-Im not gonna read it FUCK YOU	HowieMandel_ImNotGonnaReadIt.mp3	Live	1	06-23-2023	3910	Howie Mandel	https://youtu.be/ShNedjrsI_E&t=3910	
-Show Us!! ...	HowieMandel_ShowUs.mp3	Live	1	06-23-2023	2581	Howie Mandel	https://youtu.be/ShNedjrsI_E&t=2581	
-Stop with the tomatoes!	JimmieLee_StopWithTheTomatoes.mp3	Live	1	06-23-2023	5414	Jimmie Lee	https://youtu.be/ShNedjrsI_E&t=5414	
-I NEVER DID. I NEVER DID. I NEEEVER DID!	Boogie_INeverDid.mp3	OTR	77	06-21-2023	1293	Boogie2988	https://www.youtube.com/watch?v=9Kwq6HfbrbU&t=1293	
-Boom, Boom, Boom! Now let me hear you say WAY-HO!	Misc_BoomBoomBoomNowLetMeHearYouSayWayho.mp3	H3TV	81	06-19-2023	1309	Misc	https://youtu.be/bD3yMLPhozo&t=1309	https://lastfm.freetls.fastly.net/i/u/ar0/cc12d34f8db047a586854b87efb40d9e.jpg
-Cheers my dude	Tipster_CheersMyDude.mp3	AfterDark	110	06-16-2023	14	Tipster	https://www.youtube.com/watch?v=7oD8nY2Zssk&t=14	
-I did everything right and the indicted me	DonaldTrump_IDidEverythingRightAndTheyIndictedMe.mp3	Leftovers	50	06-15-2023	2458	Donald Trump	https://www.youtube.com/watch?v=GURoXvLOmYA&t=2458	
-You know the age where we burn the witch? ...	AbaAndPreach_BurnTheWitch.mp3	AfterDark	108	06-02-2023	12939	Aba and Preach	https://www.youtube.com/watch?v=5tqh5bW7o7U&t=12939	
-The omelette of KNOWLEDGE	AbaAndPreach_OmeletteOfKnowledge.mp3	AfterDark	108	06-02-2023	12968	Aba and Preach	https://www.youtube.com/watch?v=5tqh5bW7o7U&t=12968	
-This filter is suppose to make you look like BAHBEE	Mikayla_LookLikeBarbie.mp3	OTR	74	05-31-2023	10365	Mikayla Nogueira	https://www.youtube.com/watch?v=0ERGVU8l6Es&t=10365	
-MAKEUP BAG	Mikayla_MAKEUPBAG.mp3	H3TV	78	05-22-2023	7217	Mikayla Nogueira	https://youtu.be/5C0VjNTsjk8&t=7217	
-KIM KARDASHIAN	Mikayla_KIMKARDASHIAN.mp3	OTR	72	05-17-2023	1847	Mikayla Nogueira	https://www.youtube.com/watch?v=j_lLeMIwlmE&t=1847	
-KIM KARDASHIAN	Sam_KIMKARDASHIAN.mp3	OTR	72	05-17-2023	1847	Sam	https://www.youtube.com/watch?v=j_lLeMIwlmE&t=1847	
-Dan... Is jealous of me	RichLux_DanIsJealousOfMe.mp3	SYNT	31	05-16-2023	2284	Rich Lux	https://youtu.be/zOYZ3XMGjUM&t=2284	
-Dan is the Queen cant do nothing wrong!	RichLux_DanIsTheQueen.mp3	SYNT	31	05-16-2023	2805	Rich Lux	https://youtu.be/zOYZ3XMGjUM&t=2805	
-I cant STAND Dan	RichLux_ICantStandDan.mp3	SYNT	31	05-16-2023	2805	Rich Lux	https://youtu.be/zOYZ3XMGjUM&t=2805	
-FAT FAT FAT FAT	XQC_FatFatFatFat.mp3	H3TV	77	05-15-2023	2838	XQC	https://youtu.be/gTbcIW2L2PA&t=2838	
-I AM A SURGEON	TheGoodDoctor_IAmASurgeon.mp3	OTR	71	05-10-2023	6496	The Good Doctor	https://www.youtube.com/watch?v=WNCTjh7s0Z0&t=6496	
-Nooo!	TheGoodDoctor_No.mp3	OTR	71	05-10-2023	6622	The Good Doctor	https://www.youtube.com/watch?v=WNCTjh7s0Z0&t=6622	
-No-No-Nooo!	TheGoodDoctor_NoNoNo.mp3	OTR	71	05-10-2023	6622	The Good Doctor	https://www.youtube.com/watch?v=WNCTjh7s0Z0&t=6622	
-That doesnt work for me eiiiither	StevenCrowder_ThatDoesntWorkEither.mp3	AfterDark	103	04-28-2023	3345	Steven Crowder	https://www.youtube.com/watch?v=LWRDQIrF8tc&t=3345	
-MAYO FOR SAM!!	JoeBiden_MayoForSam.mp3	H3TV	73	04-17-2023	10773	Joe Biden	https://youtu.be/SasopDoAz14&t=10773	
-Gayy	SunnyV2_Gay.mp3	AfterDark	101	04-14-2023	7826	SunnyV2	https://www.youtube.com/watch?v=r6vG1VKGnOo&t=7826	
-I TIED UP AN FBI AGENT (Different Languages)	MrBeast_DifferentLanguages.mp3	AfterDark	101	04-14-2023	7622	Mr Beast	https://www.youtube.com/watch?v=r6vG1VKGnOo&t=7622	
-Suck... My Tongue	DalaiLama_SuckMyTongue.mp3	OTR	67	04-12-2023	5349	Dalai Lama	https://www.youtube.com/watch?v=hLMJZkI9Afc&t=5349	
-Grandpas feeling a little frisky	KidRock_GrandpasFeelingALittleFrisky.mp3	Podcast	269	04-07-2023	2950	Kid Rock	https://youtu.be/iq9a-cP0T2g&t=2950	
-Lesbians	JesseLeePeterson_Lesbians.mp3	H3TV	71	04-03-2023	5825	Jesse Lee Peterson	https://youtu.be/bVCmTR9UumY&t=5825	
-Amazin'!	JesseLeePeterson_Amazin.mp3	H3TV	71	04-03-2023	5858	Jesse Lee Peterson	https://youtu.be/bVCmTR9UumY&t=5858	
-You got me!	Love_YouGotMe.mp3	AfterDark	100	03-31-2023	7798	Love	https://www.youtube.com/watch?v=MgwMZS-9MBg&t=7798	
-*Does God know youre gay?*	JesseLeePeterson_DoesGodKnowYoureGay.mp3	H3TV	70	03-27-2023	3555	Jesse Lee Peterson	https://youtu.be/c3DrrRpa-Kg&t=3555	
-I didnt know you were gay!	JesseLeePeterson_IDidntKnowYouWereGay.mp3	H3TV	70	03-27-2023	3555	Jesse Lee Peterson	https://youtu.be/c3DrrRpa-Kg&t=3555	
-Thas Min Blowin	JesseLeePeterson_MindBlowin.mp3	H3TV	70	03-27-2023	3514	Jesse Lee Peterson	https://youtu.be/c3DrrRpa-Kg&t=3514	
-REeAAally?!	JesseLeePeterson_Reaaaally.mp3	H3TV	70	03-27-2023	3514	Jesse Lee Peterson	https://youtu.be/c3DrrRpa-Kg&t=3514	
-REeAAally?! Thas Min Blowin	JesseLeePeterson_REAALLYThatsMindblowin.mp3	H3TV	70	03-27-2023	3514	Jesse Lee Peterson	https://youtu.be/c3DrrRpa-Kg&t=3514	
-You Gay?	JesseLeePeterson_YouGay.mp3	H3TV	70	03-27-2023	3555	Jesse Lee Peterson	https://youtu.be/c3DrrRpa-Kg&t=3555	
-You Gaaay?!	JesseLeePeterson_YouGay2.mp3	H3TV	70	03-27-2023	3555	Jesse Lee Peterson	https://youtu.be/c3DrrRpa-Kg&t=3555	
-DEEZ NUTS	DonnaKlein_DeezNuts.mp3	AfterDark	99	03-24-2023	10100	Donna Klein	https://www.youtube.com/watch?v=FkTrjT_PDDc&t=10100	
-Put your balls in my mouth	Dan_PutYourBallsInMyMouth.mp3	OTR	62	03-01-2023	4419	Dan	https://www.youtube.com/watch?v=XH6XCtQe4NI&t=4419	
-Gay Trilogy	FouseyCuomoFifa_GayTrilogy.mp3	OTR	62	03-01-2023	390	FouseyTube	https://www.youtube.com/watch?v=XH6XCtQe4NI&t=390	
-Its a rainy day out here in Los Angeles!	Ethan_ItsARainyDayOutHereInLosAngeles.mp3	Podcast	267	02-24-2023	3	Ethan	https://youtu.be/TsHmmkK8mQA&t=3	
-Have-have a good night	MarcElliot_HaveAGoodNight.mp3	H3TV	66	02-20-2023	6909	Marc Elliot	https://youtu.be/Ro8kiM7Dg1Y&t=6909	
-I hope you get ass cancer and DIE	DrPhil_IHopeYouGetAssCancerAndDie.mp3	H3TV	65	02-13-2023	1421	Dr Phil	https://youtu.be/JUgwnVF_zuA&t=1421	
-A CARROTAH	XQC_ACarrotah.mp3	OTR	59	02-08-2023	5985	XQC	https://www.youtube.com/watch?v=wj-SQVepazg&t=5985	
+Grumpy	JohnnyDepp_Grumpy.mp3	H3TV	35	05-09-2022	8216	Johnny Depp	https://youtu.be/wzc8f4B--AU&t=8216	
+Human Fecal Matter	JohnnyDep_HumanFecalMatter.mp3	AfterDark	70	04-22-2022	10683	Johnny Depp	https://www.youtube.com/watch?v=Q_GoixIfwoY&t=10683	
+The Carnivore diet will fix that	JordanPeterson_TheCarnivoreDietWillFixThat.mp3	H3Show	38	08-05-2024	3047	Jordan Peterson	https://youtu.be/W7LVYdyWwFU&t=3047	
+You can't have a wood burning fireplace!	JordanPeterson_YouCantHaveAWoodBurningFireplace.mp3	H3Show	14	05-22-2024	3766	Jordan Peterson	https://youtu.be/dTNUv14yoKI&t=3766	
+You can take the ULTIMATE load	JordanPeterson_TakeTheUltimateLoad.mp3	OTR	107	03-06-2024	5281	Jordan Peterson	https://www.youtube.com/watch?v=7H2vgnSz0tg&t=5281	
+It was in June this year	JordanPeterson_ItWasInJuneThisYear.mp3	OTR	53	10-19-2022	2312	Jordan Peterson	https://www.youtube.com/watch?v=Hj7Tx9D8G-s&t=2312	
+Rats will dance for money if you pay them	JordanPeterson_RatsWillDanceForMoney.mp3	OTR	51	10-05-2022	663	Jordan Peterson	https://www.youtube.com/watch?v=NI1UG6QGdr8&t=663	
+Cut them off	JordanPeterson_CutThemOff.mp3	Leftovers	19	07-21-2022	6488	Jordan Peterson	https://www.youtube.com/watch?v=Yb4bqqyH8_Y&t=6488	
+Joker Church	JordanPeterson_JokerChurch.mp3	AfterDark	77	07-15-2022	7814	Jordan Peterson	https://www.youtube.com/watch?v=VHkpIXco8Ks&t=7814	
+Up yours woke moralists	JordanPeterson_UpYoursWokeMoralists.mp3	OTR	41	07-06-2022	10311	Jordan Peterson	https://www.youtube.com/watch?v=Hu_V2NwLnYk&t=10311	
+What rules you sons a bitches	JordanPeterson_WhatRulesYouSonsABitches.mp3	OTR	41	07-06-2022	6938	Jordan Peterson	https://www.youtube.com/watch?v=Hu_V2NwLnYk&t=6938	
+Sorry not beautiful	JordanPeterson_SorryNotBeautiful.mp3	Leftovers	16	06-09-2022	2750	Jordan Peterson	https://www.youtube.com/watch?v=LBCEZEni_5Q&t=2750	
+I saw my maternal grandmother...	JordanPeterson_Grandma.mp3	AfterDark	73	05-20-2022	2742	Jordan Peterson	https://www.youtube.com/watch?v=eZYbxWxDG3I&t=2742	
+What the hell are we gonna do without men	JordanPeterson_WhatAreWeGonnaDoWithoutMen.mp3	H3TV	12	10-18-2021	657	Jordan Peterson	https://youtu.be/_QK5EmPCd9g&t=657	
+Fuck you BUCKO!	JordanPeterson_FuckYouBucko.mp3	Unknown	1	05-05-2015	0	Jordan Peterson	https://youtu.be/zOYZ3XMGjUM&t=0	
+A DILF?!	JordanPeterson_ADILF.mp3	Unknown	1	05-05-2015	0	Jordan Peterson	https://youtu.be/zOYZ3XMGjUM&t=0	
+You Have to Use Pronouns!	JordanPeterson_YouHaveToUsePronouns.mp3	Unknown	1	05-05-2015	0	Jordan Peterson	https://youtu.be/zOYZ3XMGjUM&t=0	
+If I speak I am in big trouble	JoseMourinho_IfISpeakIAmInBigTrouble.mp3	OTR	51	10-05-2022	7105	Jose Mourinho	https://www.youtube.com/watch?v=NI1UG6QGdr8&t=7105	
+Oh My God, thank you for the gifted sub!	JustTree411_OhMyGodThankYouForTheGiftedSubs.mp3	H3Show	1	04-22-2024	6477	Just Tree 411	https://www.youtube.com/watch?v=0lt0tTr-lj4&t=6477s	
+Yay I got a subscriber!	JustTree411_YayIGotASubscriber.mp3	H3Show	1	04-22-2024	4451	Just Tree 411	https://youtu.be/0lt0tTr-lj4&t=4451	
+Baby I wasnt trying	JustinBeiber_BabyIWasntLying.mp3	Families	4	07-14-2021	4914	Justin Bieber	https://youtu.be/OJo0Z90eWDE&t=4914	
+Oh my God, We're Almost at 400	Kaceytron_AlmostAt400.mp3	Unknown	1	05-05-2015	0	KaceyTron	https://youtu.be/zOYZ3XMGjUM&t=0	
+Jokes on you Motherfucker, I'm Already Broke Dumbass	Kaceytron_AlreadyBrokeDumbass.mp3	Unknown	1	05-05-2015	0	KaceyTron	https://youtu.be/zOYZ3XMGjUM&t=0	
+An Attack on Me is an Attack on Everyone	Kaceytron_AttackOnMeOnEverybody.mp3	Unknown	1	05-05-2015	0	KaceyTron	https://youtu.be/zOYZ3XMGjUM&t=0	
+An Attack on Me is an Attack on All Humanity	Kaceytron_AttackOnMeOnHumanity.mp3	Unknown	1	05-05-2015	0	KaceyTron	https://youtu.be/zOYZ3XMGjUM&t=0	
+It Just Doesn't Make Sense	Kaceytron_DoesntMakeSense.mp3	Unknown	1	05-05-2015	0	KaceyTron	https://youtu.be/zOYZ3XMGjUM&t=0	
+Don't Mess With Me	Kaceytron_DontMessWithMe.mp3	Unknown	1	05-05-2015	0	KaceyTron	https://youtu.be/zOYZ3XMGjUM&t=0	
+His Wife!	Kaceytron_HisWife.mp3	Unknown	1	05-05-2015	0	KaceyTron	https://youtu.be/zOYZ3XMGjUM&t=0	
+I am Nobody to be Messed With	Kaceytron_IAmNobodyToBeMessedWith.mp3	Unknown	1	05-05-2015	0	KaceyTron	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Literally am Every Woman	Kaceytron_ImLiterallyEveryWoman.mp3	Unknown	1	05-05-2015	0	KaceyTron	https://youtu.be/zOYZ3XMGjUM&t=0	
+Can the Incels Stop Coming in Here and Killing the Vibes?	Kaceytron_IncelsKillingTheVibe.mp3	Unknown	1	05-05-2015	0	KaceyTron	https://youtu.be/zOYZ3XMGjUM&t=0	
+Moron	Kaceytron_Moron.mp3	Unknown	1	05-05-2015	0	KaceyTron	https://youtu.be/zOYZ3XMGjUM&t=0	
+Whatever	Kaceytron_Whateverrrr.mp3	Unknown	1	05-05-2015	0	KaceyTron	https://youtu.be/zOYZ3XMGjUM&t=0	
+What is Happening, I'm Trying to Follow, I've Lost the Plot	Kaceytron_WhatIsHappeningLostThePlot.mp3	Unknown	1	05-05-2015	0	KaceyTron	https://youtu.be/zOYZ3XMGjUM&t=0	
+What the Fuck is Going on Here?	Kaceytron_WhatTheFuckIsGoingOn.mp3	Unknown	1	05-05-2015	0	KaceyTron	https://youtu.be/zOYZ3XMGjUM&t=0	
+This is Ridiculous	Kaceytron_ThisIsRidiculous.mp3	Unknown	1	05-05-2015	0	KaceyTron	https://youtu.be/zOYZ3XMGjUM&t=0	
+He takes that 5%	KalliMetz_HeTakesThat5Percent.mp3	AfterDark	41	06-18-2021	2339	Kalli Metz	https://www.youtube.com/watch?v=8aCfvBnOcnU&t=2339	
+Do Not Cum	KamalaHarris_DoNotCum.mp3	Unknown	1	05-05-2015	0	Kamala Harris	https://youtu.be/zOYZ3XMGjUM&t=0	
+Now What?	Kanye_NowWhat.mp3	Unknown	1	05-05-2015	0	Kanye West	https://youtu.be/zOYZ3XMGjUM&t=0	
+In the Discord!	Keemstar_InTheDiscord.mp3	H3Show	119	03-07-2025	6839	Keemstar	https://youtu.be/ZDnseOSdk_8&t=6839	
+50 GIFTED SUBS!!!!	Keemstar_50GIFTED.mp3	H3Show	111	02-17-2025	767	Keemstar	https://youtu.be/N2W4RJ2tEnY&t=767	
+SHUT UP, I'M PLAYING THE FUCKING INTRO	Keemstar_ShutUpImPlayingTheIntro.mp3	H3Show	97	01-10-2025	2636	Keemstar	https://youtu.be/wv76IVGoaeY&t=2636	
+SHUT UP	Keemstar_SHUTUP.mp3	H3Show	97	01-10-2025	2636	Keemstar	https://youtu.be/wv76IVGoaeY&t=2636	
+SHUT THE FUCK UP	Keemstar_ShutTheFuckUp.mp3	H3Show	97	01-10-2025	2636	Keemstar	https://youtu.be/wv76IVGoaeY&t=2636	
+You went and saw wicked?!	Keemstar_YouDidntSeeGladiator2.mp3	H3Show	86	11-27-2024	1461	Keemstar	https://youtu.be/P62RrxPzQR8&t=1461	
 16 is the age of consent	Keemstar_16IsTheAgeOfConsent.mp3	AfterDark	94	02-03-2023	9610	Keemstar	https://www.youtube.com/watch?v=gBqepGXLnos&t=9610	
-Chestnusts slurping oer open flile	Anuk_Chestnuts.mp3	OTR	58	01-25-2023	6358	Anuc	https://www.youtube.com/watch?v=y19qnDm2tDs&t=6358	
-Keemstars rimshot	Misc_KeemstarsRimshot.mp3	OTR	57	01-18-2023	6093	Misc	https://www.youtube.com/watch?v=txuivldLEzo&t=6093	https://source.boomplaymusic.com/group10/M00/12/14/f871d2d705b3469f8391552a99cee9ff_320_320.jpg
-Sucking a Smoko	PrinceHarry_SuckingASmoko.mp3	OTR	57	01-18-2023	3284	Prince Harry	https://www.youtube.com/watch?v=txuivldLEzo&t=3284	
-Todger	PrinceHarry_Todger.mp3	OTR	57	01-18-2023	3002	Prince Harry	https://www.youtube.com/watch?v=txuivldLEzo&t=3002	
-You are a loser	MissBrantley_YouAreALoser.mp3	OTR	57	01-18-2023	5540	Miss Brantley	https://www.youtube.com/watch?v=txuivldLEzo&t=5540	
-You're a fun sucker	MissBrantley_YoureAFunSucker.mp3	OTR	57	01-18-2023	5540	Miss Brantley	https://www.youtube.com/watch?v=txuivldLEzo&t=5540	
-DAAAAN SWERDLOVE	Ethan_DanSwerdlove.mp3	H3TV	62	01-16-2023	3291	Ethan	https://youtu.be/lJNBlXTGSWk&t=3291	
-We are gay we are straight	Misc_WeAreGayWeAreStraight.mp3	H3TV	62	01-16-2023	10749	Misc	https://youtu.be/lJNBlXTGSWk&t=10749	https://miro.medium.com/v2/1*NtNByQ8WIgAGZh3dzJy8Xg.jpeg
-Why does it lie?	JoeRogan_OhWhyDoesItLie.mp3	SYNT	11	12-27-2022	1197	Joe Rogan	https://youtu.be/Yrof_UwWYCI&t=1197	
-It's crazy	JoeRogan_ItsCrazy.mp3	SYNT	11	12-27-2022	1148	Joe Rogan	https://youtu.be/Yrof_UwWYCI&t=1148	
-I'm such a sucker	JoeRogan_ImSuchASucker.mp3	SYNT	11	12-27-2022	1206	Joe Rogan	https://youtu.be/Yrof_UwWYCI&t=1206	
-Adolf Hitler DUDE!!	Hasan_AdolfHitlerDUDE.mp3	AfterDark	92	12-16-2022	10832	Hasan Piker	https://www.youtube.com/watch?v=GgwXXGtUCgE&t=10832	
-200 DPI	Misc_200dpi.mp3	AfterDark	92	12-16-2022	13741	Misc	https://www.youtube.com/watch?v=GgwXXGtUCgE&t=13741	https://c1.neweggimages.com/productimage/nb640/26-436-072-S01.jpg
-All different flavors 2	JimmieLee_AllDifferentFlavors2.mp3	Podcast	262	12-14-2022	5449	Jimmie Lee	https://youtu.be/5J1FoJhOkwg&t=5449	
-Shh! Shh! (Kettlebell workout)	JoeRogan_Shh.mp3	H3TV	61	12-13-2022	4462	Joe Rogan	https://youtu.be/Jw8hmuc39kM&t=4462	
-Kids love Hitler!	NickFuentes_KidsLoveHitler.mp3	Leftovers	34	12-08-2022	3003	Nick Fuentes	https://www.youtube.com/watch?v=mZDKKqeA6fI&t=3003	
-Am I Jewish?!	Ninja_AmIJewish.mp3	OTR	56	11-30-2022	1245	Ninja	https://www.youtube.com/watch?v=0TyXVP4OYNM&t=1245	
 The Pufferfish, right?	Keemstar_ThePufferfish.mp3	OTR	56	11-30-2022	5071	Keemstar	https://www.youtube.com/watch?v=0TyXVP4OYNM&t=5071	
 That Makes Sense	Keemstar_ThatMakesSense.mp3	H3TV	59	11-28-2022	4995	Keemstar	https://youtu.be/LY0H8sBnbZY&t=4995	
 An acoustic version or some shit	Keemstar_AcousticVersion.mp3	H3TV	59	11-28-2022	5607	Keemstar	https://youtu.be/LY0H8sBnbZY&t=5607	
 Chat is right!!	Keemstar_ChatIsRightImDisabled.mp3	H3TV	59	11-28-2022	9651	Keemstar	https://youtu.be/LY0H8sBnbZY&t=9651	
 It's the biggest drinking night of the year	Keemstar_ItsTheBiggestDrinkingNightOfTheYear.mp3	H3TV	59	11-28-2022	6837	Keemstar	https://youtu.be/LY0H8sBnbZY&t=6837	
-3200 DPI	Misc_3200DPI.mp3	H3TV	59	11-28-2022	7567	Misc	https://youtu.be/LY0H8sBnbZY&t=7567	https://c1.neweggimages.com/productimage/nb640/26-436-072-S01.jpg
-8200 DPI!!	Misc_8200DPI.mp3	H3TV	59	11-28-2022	7567	Misc	https://youtu.be/LY0H8sBnbZY&t=7567	https://c1.neweggimages.com/productimage/nb640/26-436-072-S01.jpg
 Baby, I need a Juul pod!!	Keemstar_BabyINeedAJuulPod.mp3	H3TV	59	11-28-2022	5237	Keemstar	https://youtu.be/LY0H8sBnbZY&t=5237	
 I'm drunk	Keemstar_ImDrunk.mp3	H3TV	59	11-28-2022	3773	Keemstar	https://youtu.be/LY0H8sBnbZY&t=3773	
-GOD DID	DJKhaled_GodDid.mp3	AfterDark	91	11-25-2022	6665	DJ Khaled	https://www.youtube.com/watch?v=lUP64bI7INk&t=6665	
-Jacket off	Dan_JacketOff.mp3	H3TV	57	11-14-2022	10361	Dan	https://youtu.be/Y0idXvAgs6Q&t=10361	
-I took it down okay	HowieMandel_ITookItDownOkay.mp3	H3TV	57	11-14-2022	204	Howie Mandel	https://youtu.be/Y0idXvAgs6Q&t=204	
-Its happening	Olivia_ITSHAPPENING.mp3	H3TV	57	11-14-2022	322	Olivia	https://youtu.be/Y0idXvAgs6Q&t=322	
-I thought it was free speech	Ninja_IThoughtItWasFreeSpeech.mp3	OTR	54	11-09-2022	376	Ninja	https://www.youtube.com/watch?v=BraYUdc3YRo&t=376	
-Hi everyone!	ElonMa_Everyone.mp3	OTR	54	11-09-2022	1614	Yi Long Ma	https://www.youtube.com/watch?v=BraYUdc3YRo&t=1614	
-Dan has Never Looked Good	Ethan_DanHasNeverLookedGood.mp3	H3TV	56	11-07-2022	672	Ethan	https://youtu.be/mUSioSGBigU&t=672	
-MONEY!	YilongMa_Money.mp3	Podcast	257	11-02-2022	3286	Yi Long Ma	https://youtu.be/WwSmgbQR9PA&t=3286	
-GIVE TO YA	YilongMe_GiveToYa.mp3	Podcast	257	11-02-2022	3306	Yi Long Ma	https://youtu.be/WwSmgbQR9PA&t=3306	
-LUNCHTIME	Ethan_LUNCHTIME.mp3	H3TV	55	10-31-2022	1035	Ethan	https://youtu.be/AlcD8_dyVvQ&t=1035	
-It was in June this year	JordanPeterson_ItWasInJuneThisYear.mp3	OTR	53	10-19-2022	2312	Jordan Peterson	https://www.youtube.com/watch?v=Hj7Tx9D8G-s&t=2312	
-Leaving my friendships BEHHIND	Kornbread_LeavinMyFriendshipsBehiiind.mp3	AfterDark	88	10-14-2022	7571	Kornbread	https://www.youtube.com/watch?v=OQOw4EDREDk&t=7571	
-Whats your argument	DennisPrager_WhatsYourArgument.mp3	Leftovers	28	10-13-2022	1221	Dennis Prager	https://www.youtube.com/watch?v=RO6LOJj_p2g&t=1221	
-I cant control my GOOOO	Ninja_CantControlMyGoo.mp3	OTR	52	10-12-2022	1758	Ninja	https://www.youtube.com/watch?v=PyYWRkS7ZmA&t=1758	
-We need to keep our country gay brup bup	DonaldTrump_KeepOurCountryGayAgainBupBup.mp3	AfterDark	87	10-07-2022	2498	Donald Trump	https://www.youtube.com/watch?v=Cjv07aA7WFw&t=2498	
-If I speak I am in big trouble	JoseMourinho_IfISpeakIAmInBigTrouble.mp3	OTR	51	10-05-2022	7105	Jose Mourinho	https://www.youtube.com/watch?v=NI1UG6QGdr8&t=7105	
-We got weights in fish	Misc_WeGotWeightsInFish.mp3	OTR	51	10-05-2022	9834	Misc	https://www.youtube.com/watch?v=NI1UG6QGdr8&t=9834	https://media-cldnry.s-nbcnews.com/image/upload/mpx/2704722219/2022_10/FISH-gjruah.jpg
-Yayayayayay woooooooooooo	Ninja_YayayayayaYAYAYAYAWOOOOOOOOO.mp3	OTR	51	10-05-2022	10417	Ninja	https://www.youtube.com/watch?v=NI1UG6QGdr8&t=10417	
-Rats will dance for money if you pay them	JordanPeterson_RatsWillDanceForMoney.mp3	OTR	51	10-05-2022	663	Jordan Peterson	https://www.youtube.com/watch?v=NI1UG6QGdr8&t=663	
-How you gonna milk an oat?!	LiverKing_HowYouGonnaMilkAnOat.mp3	Leftovers	26	09-29-2022	2061	Liver King	https://www.youtube.com/watch?v=5XtLmCevyRU&t=2061	
-Get yo balls off my face man	XQC_GetYourBallsOffMyFace.mp3	Leftovers	25	09-22-2022	468	XQC	https://www.youtube.com/watch?v=bm_LAUxPI_U&t=468	
-Hello	Ninja_Hello.mp3	AfterDark	84	09-16-2022	2736	Ninja	https://www.youtube.com/watch?v=ADAzc3jrxIY&t=2736	
-Sorry about your dad passing away	UncleGabe_ImSorryAboutYourDadPassingAway.mp3	AfterDark	84	09-16-2022	1299	Uncle Gabe	https://www.youtube.com/watch?v=ADAzc3jrxIY&t=1299	
-The number one podcast in the world	HowieMandel_TheNumberOnePodcast.mp3	OTR	48	09-14-2022	3505	Howie Mandel	https://www.youtube.com/watch?v=bRu6UR5lzeE&t=3505	
-Thank you for the gifted	Olivia_ThankYouForTheGifted.mp3	H3TV	51	09-12-2022	5781	Olivia	https://youtu.be/1Z4LTCCodeg&t=5781	
-Thats the game	AndrewTate_ThatsTheGame.mp3	OTR	47	08-31-2022	2351	Andrew Tate	https://www.youtube.com/watch?v=mRMb2YKOOrs&t=2351	
-Jerking your dog off	BradleyMartyn_JerkingYourDogOff.mp3	OTR	47	08-31-2022	4297	Bradley Martyn	https://www.youtube.com/watch?v=mRMb2YKOOrs&t=4297	
-FLOCKA	HannibalBuress_FLOCKA.mp3	H3TV	48	08-22-2022	80	Hannibal B	https://youtu.be/FnZ2MLYKacc&t=80	
-FIVE HUNDRED SUBS	Bowblax_500subs.mp3	OTR	46	08-17-2022	12033	Bowblax	https://www.youtube.com/watch?v=JEJi68zv1EQ&t=12033	
-BITCH YOU HAVE NOTHING	Bowblax_BITCHYOUHAVENOTHING.mp3	OTR	46	08-17-2022	11995	Bowblax	https://www.youtube.com/watch?v=JEJi68zv1EQ&t=11995	
-FUCKING FK FK FK FK	BowBlax_IFuckingFuckFuckFuckFuck.mp3	OTR	46	08-17-2022	11554	Bowblax	https://www.youtube.com/watch?v=JEJi68zv1EQ&t=11554	
-LET ME SPEEEEAAAAK	Bowblax_LETMESPEAAAK.mp3	OTR	46	08-17-2022	11799	Bowblax	https://www.youtube.com/watch?v=JEJi68zv1EQ&t=11799	
-TALK ABOUT THE ALLEGATIONS	BowBlax_TalkAboutTheAllegations.mp3	OTR	46	08-17-2022	11540	Bowblax	https://www.youtube.com/watch?v=JEJi68zv1EQ&t=11540	
-THIS! THIS! THIS IS WHY IM WATCHING	BowBlax_ThisIsWhyImWatching.mp3	OTR	46	08-17-2022	11545	Bowblax	https://www.youtube.com/watch?v=JEJi68zv1EQ&t=11545	
-WAN	Jidion_Wan.mp3	H3TV	47	08-15-2022	2553	Jidion	https://youtu.be/IFfxLKkYh8Q&t=2553	
-WDan	Jidion_WDan.mp3	H3TV	47	08-15-2022	2553	Jidion	https://youtu.be/IFfxLKkYh8Q&t=2553	
-I got my prostate milked by Ethan Klein	Olivia_IGotMyProstateMilked.mp3	OTR	45	08-10-2022	1932	Olivia	https://www.youtube.com/watch?v=pUAWStsw8jY&t=1932	
-Im 21 FUCK YOU	AdinRoss_21FUCKYOU.mp3	H3TV	46	08-08-2022	9303	Adin Ross	https://youtu.be/XTU2hHPXVos&t=9303	
-Youre a dick rider a dick sucker...	AdinRoss_YoureADickSucker.mp3	H3TV	46	08-08-2022	8933	Adin Ross	https://youtu.be/XTU2hHPXVos&t=8933	
-PUSSY!	Adin Ross_Pussy.mp3	H3TV	46	08-08-2022	8933	Adin Ross	https://youtu.be/XTU2hHPXVos&t=8933	
-Thank you for the gifted Crew pack	Ninja_ThankingCrewForTheGifted.mp3	OTR	44	07-27-2022	3257	Ninja	https://www.youtube.com/watch?v=ADeQ9CPU8SA&t=3257	
-I've fallen, and I can't get up!	Misc_IveFallen.mp3	OTR	44	07-27-2022	9578	Misc	https://www.youtube.com/watch?v=ADeQ9CPU8SA&t=9578	https://www.seniorliving.org/app/uploads/2018/11/Life-Alert-Help-Button.jpg
 *Screaming*	Keemstar_Screaming.mp3	H3TV	44	07-25-2022	7018	Keemstar	https://youtu.be/3tiiER1zHfE&t=7018	
 The Hannah we know?	Keemstar_TheHannahWeKnow.mp3	AfterDark	78	07-22-2022	3411	Keemstar	https://www.youtube.com/watch?v=M3NLg8ZTigQ&t=3411	
-Do Not Waste That Sweet Milk	Ethan_DoNotWasteThatSweetMilk.mp3	Leftovers	19	07-21-2022	4159	Ethan	https://www.youtube.com/watch?v=Yb4bqqyH8_Y&t=4159	
-Cut them off	JordanPeterson_CutThemOff.mp3	Leftovers	19	07-21-2022	6488	Jordan Peterson	https://www.youtube.com/watch?v=Yb4bqqyH8_Y&t=6488	
-CHEEEEZE	FouseyTube_CHEEZE.mp3	OTR	43	07-20-2022	8402	FouseyTube	https://www.youtube.com/watch?v=sJw_z60GrCM&t=8402	
-It Tastes Like Beef Jerky	FouseyTube_ItTastesLikeBeefJerky.mp3	OTR	43	07-20-2022	8415	FouseyTube	https://www.youtube.com/watch?v=sJw_z60GrCM&t=8415	
-Im growing my hair back people	HowieMandel_GrowingMyHairBackPeople.mp3	AfterDark	77	07-15-2022	5645	Howie Mandel	https://www.youtube.com/watch?v=VHkpIXco8Ks&t=5645	
-Joker Church	JordanPeterson_JokerChurch.mp3	AfterDark	77	07-15-2022	7814	Jordan Peterson	https://www.youtube.com/watch?v=VHkpIXco8Ks&t=7814	
-Suck a fat donut	AustinMcBroom_SuckAFatDonut.mp3	H3TV	42	07-11-2022	3327	Austin McBroom	https://youtu.be/QpElkT_nkgY&t=3327	
-Does anyone know is this Covid Related? ...	HowieMandel_IsThisCovidRelated.mp3	H3TV	42	07-11-2022	829	Howie Mandel	https://youtu.be/QpElkT_nkgY&t=829	
-Ow	HowieMandel_Ow.mp3	H3TV	42	07-11-2022	829	Howie Mandel	https://youtu.be/QpElkT_nkgY&t=829	
-When my friend Neal bent over this happened	HowieMandel_WhenMyFriendNeilBentOver.mp3	H3TV	42	07-11-2022	829	Howie Mandel	https://youtu.be/QpElkT_nkgY&t=829	
-Up yours woke moralists	JordanPeterson_UpYoursWokeMoralists.mp3	OTR	41	07-06-2022	10311	Jordan Peterson	https://www.youtube.com/watch?v=Hu_V2NwLnYk&t=10311	
-What rules you sons a bitches	JordanPeterson_WhatRulesYouSonsABitches.mp3	OTR	41	07-06-2022	6938	Jordan Peterson	https://www.youtube.com/watch?v=Hu_V2NwLnYk&t=6938	
-Heil Hitler	Dan_HeilHitler.mp3	OTR	40	06-22-2022	9118	Dan	https://www.youtube.com/watch?v=ue2zpTPkthg&t=9118	
-Stay in the kitchen and suck me off	Ethan_StayInTheKitchenAndSuckMeOff.mp3	H3TV	40	06-20-2022	8453	Ethan	https://youtu.be/PbuUz7yw9SA&t=8453	
-Why did you unmatch me? It's me...	BenAffleck_WhyDidYouUnmatchMe.mp3	OTR	39	06-15-2022	5958	Ben Affleck	https://www.youtube.com/watch?v=6TsZE8Cu0-Q&t=5958	
-Sorry not beautiful	JordanPeterson_SorryNotBeautiful.mp3	Leftovers	16	06-09-2022	2750	Jordan Peterson	https://www.youtube.com/watch?v=LBCEZEni_5Q&t=2750	
-I believe a citizen can own a nuclear warhead	TimPool_IndividualCitizenRightToOwnWarhead.mp3	H3TV	38	06-06-2022	3892	Tim Pool	https://youtu.be/CGOWQwC1Amo&t=3892	
-I saw my maternal grandmother...	JordanPeterson_Grandma.mp3	AfterDark	73	05-20-2022	2742	Jordan Peterson	https://www.youtube.com/watch?v=eZYbxWxDG3I&t=2742	
-Who is Sam	Ethan_WhoIsSam.mp3	OTR	35	05-11-2022	9551	Ethan	https://www.youtube.com/watch?v=cNiIRTDfch0&t=9551	
-Grumpy	JohnnyDepp_Grumpy.mp3	H3TV	35	05-09-2022	8216	Johnny Depp	https://youtu.be/wzc8f4B--AU&t=8216	
-You Wanna Come to the Car and Suck my Cock	Ethan_YouWannaComeToMyCarAndSuck.mp3	Podcast	251	05-06-2022	1297	Ethan	https://youtu.be/NlPCUpYrMis&t=1297	
-Man it is Wednesday man	FreshAndFit_ItsWednesdayMan.mp3	AfterDark	71	04-29-2022	6803	Fresh and Fit	https://www.youtube.com/watch?v=cztc_OXvqJI&t=6803	
-Lets go!	PandP_LetsGooo.mp3	AfterDark	71	04-29-2022	4981	P and P	https://www.youtube.com/watch?v=cztc_OXvqJI&t=4981	
-Close the Trunk	KrisJenner_CloseTheTrunk.mp3	OTR	33	04-27-2022	3919	Kris Jenner	https://www.youtube.com/watch?v=nnKBeuxk_bg&t=3919	
-Human Fecal Matter	JohnnyDep_HumanFecalMatter.mp3	AfterDark	70	04-22-2022	10683	Johnny Depp	https://www.youtube.com/watch?v=Q_GoixIfwoY&t=10683	
-Can we talk about the political and economic state of the world?	JadenSmith_PoliticalAndEconomicalStateOfTheWorld.mp3	OTR	32	04-20-2022	9650	Jaden Smith	https://www.youtube.com/watch?v=PUQPGI9fNok&t=9650	
 Cant wait to report your death HE-HA!	Keemstar_CantWaitToReportYourDeath.mp3	H3TV	30	04-04-2022	5025	Keemstar	https://youtu.be/ulmY5h0M4co&t=5025	
 This dumb motherfucker AB	Keemstar_ThisDumbFuckerAB.mp3	H3TV	30	04-04-2022	7714	Keemstar	https://youtu.be/ulmY5h0M4co&t=7714	
+There's a clip, go look for the clip!	Keemstar_TheresTheClip.mp3	H3TV	30	04-04-2022	8003	Keemstar	https://youtu.be/ulmY5h0M4co&t=8003	
+Why are you so cute when you talk shit	Keemstar_WhyAreYouSoCuteWhenYouTalkShit.mp3	H3TV	24	02-21-2022	6369	Keemstar	https://youtu.be/WmcJ_kZGVvE&t=6369	
+Im busted	Keemstar_ImBusted.mp3	OTR	22	12-15-2021	4258	Keemstar	https://www.youtube.com/watch?v=tI_5oCeF_g4&t=4258	
+SO FRUSTRATING	Keemstar_SOFRUSTRATING.mp3	OTR	22	12-15-2021	4258	Keemstar	https://www.youtube.com/watch?v=tI_5oCeF_g4&t=4258	
+ANIMALS DIE	Keemstar_ANIMALSDIE.mp3	OTR	17	11-04-2021	1370	Keemstar	https://www.youtube.com/watch?v=oHU006rCb2c&t=1370	
+MURDER ANIMALS	Keemstar_MURDERANIMALS.mp3	OTR	17	11-04-2021	1277	Keemstar	https://www.youtube.com/watch?v=oHU006rCb2c&t=1277	
+In a book HUH	Keemstar_ItWasUsedInABookHUH.mp3	H3TV	7	09-07-2021	3708	Keemstar	https://youtu.be/d9Y0O-FtKvA&t=3708	
+Box me bitch	Keemstar_BoxMeBitch.mp3	OTR	9	08-26-2021	1008	Keemstar	https://www.youtube.com/watch?v=btR1WbNWzKc&t=1008	
+That crypto shit	Keemstar_ThatCryptoShit.mp3	OTR	9	08-26-2021	1298	Keemstar	https://www.youtube.com/watch?v=btR1WbNWzKc&t=1298	
+Its like a Romeo Julia	Keemstar_ItsLikeARomeoJulia.mp3	Podcast	231	01-16-2021	1756	Keemstar	https://youtu.be/PUMB9LNlEhM&t=1756	
+GARBAGE	Keemstar_GARBAGE.mp3	Frenemies	15	01-05-2021	2580	Keemstar	https://www.youtube.com/watch?v=1gzsFgZ6_ds&t=2580	
+Death to all Jews	Keemstar_DeathToAllJews.mp3	AfterDark	10	10-30-2020	873	Keemstar	https://www.youtube.com/watch?v=Xsda33d1UXQ&t=873	
+I FUCKED UP	Keemstar_IFuckedUp.mp3	Unknown	1	05-05-2015	0	Keemstar	https://youtu.be/zOYZ3XMGjUM&t=0	
+Bad Emma Panda	Keemstar_BadEmmaPanda.mp3	Unknown	1	05-05-2015	0	Keemstar	https://youtu.be/zOYZ3XMGjUM&t=0	
+Conteeent	Keemstar_Conteeeeent.mp3	Unknown	1	05-05-2015	0	Keemstar	https://youtu.be/zOYZ3XMGjUM&t=0	
+This is a Boring Clip, Get me the Meat of the Clip	Keemstar_MeatOfTheClip.mp3	Unknown	1	05-05-2015	0	Keemstar	https://youtu.be/zOYZ3XMGjUM&t=0	
+Muta-da-har	Keemstar_Mutatehar.mp3	Unknown	1	05-05-2015	0	Keemstar	https://youtu.be/zOYZ3XMGjUM&t=0	
+Alright No No Fucking No	Keemstar_NoNoFuckingNoNo.mp3	Unknown	1	05-05-2015	0	Keemstar	https://youtu.be/zOYZ3XMGjUM&t=0	
+Fast as Fuck Boi	Keemstar_ImFastAsFuckBoii.mp3	Unknown	1	05-05-2015	0	Keemstar	https://youtu.be/zOYZ3XMGjUM&t=0	
+There's the Clip, go Look For the Clip!	Keemstar_TheresAClip.mp3	Unknown	1	05-05-2015	0	Keemstar	https://youtu.be/zOYZ3XMGjUM&t=0	
+Yikes!	Keemstar_Yikes.mp3	Unknown	1	05-05-2015	0	Keemstar	https://youtu.be/zOYZ3XMGjUM&t=0	
+Do you see it	KennethCopeland_DoItSeeIt.mp3	OTR	11	09-09-2021	3613	Kenneth Copeland	https://www.youtube.com/watch?v=AFkY41u0LGA&t=3613	
+Im healed in the name of Jesus	KennethCopeland_ImHealedInTheNameOfJesus.mp3	Podcast	235	02-11-2021	1160	Kenneth Copeland	https://youtu.be/3tqvNI1HIcI&t=1160	
+COVID 19	KennethCopeland_COVID19.mp3	Podcast	232	01-20-2021	4457	Kenneth Copeland	https://youtu.be/MHYpRIt7o_k&t=4457	
+Jesus is your source	KennethCopeland_JesusIsYourSource.mp3	Podcast	232	01-20-2021	890	Kenneth Copeland	https://youtu.be/MHYpRIt7o_k&t=890	
+Watch that demon die	KennethCopeland_WatchThatDemonDie.mp3	Podcast	232	01-20-2021	4281	Kenneth Copeland	https://youtu.be/MHYpRIt7o_k&t=4281	
+What are we gonna do	KennethCopeland_WhatAreWeGonnaDo.mp3	Podcast	232	01-20-2021	884	Kenneth Copeland	https://youtu.be/MHYpRIt7o_k&t=884	
+Hah Hah	KennethCopeland_HaaaHaaa.mp3	AfterDark	13	11-20-2020	1922	Kenneth Copeland	https://www.youtube.com/watch?v=34lUUDBPjZg&t=1922	
+From death to life	KennethCopeland_FromDeathToLife.mp3	Unknown	1	05-05-2015	0	Kenneth Copeland	https://youtu.be/zOYZ3XMGjUM&t=0	
+Speared to DEATH!	KennethCopeland_SpearedToDeath.mp3	Unknown	1	05-05-2015	0	Kenneth Copeland	https://youtu.be/zOYZ3XMGjUM&t=0	
+Burn, burn	KennethCopeland_BurnBurn.mp3	Unknown	1	05-05-2015	0	Kenneth Copeland	https://youtu.be/zOYZ3XMGjUM&t=0	
+Grandpas feeling a little frisky	KidRock_GrandpasFeelingALittleFrisky.mp3	Podcast	269	04-07-2023	2950	Kid Rock	https://youtu.be/iq9a-cP0T2g&t=2950	
+It seems like nobody wants to work these days	KimKardashian_NobodyWantsToWorkTheseDays.mp3	AfterDark	68	03-18-2022	13198	Kim Kardashian	https://www.youtube.com/watch?v=_VovzI50yC4&t=13198	
+Get your fucking ass up and work	KimKhardashian_GetYourAssUpAndWork.mp3	AfterDark	68	03-18-2022	13196	Kim Kardashian	https://www.youtube.com/watch?v=_VovzI50yC4&t=13196	
+Leaving my friendships BEHHIND	Kornbread_LeavinMyFriendshipsBehiiind.mp3	AfterDark	88	10-14-2022	7571	Kornbread	https://www.youtube.com/watch?v=OQOw4EDREDk&t=7571	
+Close the Trunk	KrisJenner_CloseTheTrunk.mp3	OTR	33	04-27-2022	3919	Kris Jenner	https://www.youtube.com/watch?v=nnKBeuxk_bg&t=3919	
+It's Not Easy	LanceStewart_NotEasy.mp3	Unknown	1	05-05-2015	0	Lance Stewart	https://youtu.be/zOYZ3XMGjUM&t=0	
+WHAT DO YOU WANT FROM ME?!	LewisSaunderson_WhatDoYouWantFromMe.mp3	H3Show	9	05-10-2024	5928	Lewis Saunderson	https://youtu.be/-69bFbVEwhU&t=5928	
+How you gonna milk an oat?!	LiverKing_HowYouGonnaMilkAnOat.mp3	Leftovers	26	09-29-2022	2061	Liver King	https://www.youtube.com/watch?v=5XtLmCevyRU&t=2061	
+I think there's someone hanging right there...	LoganPaul_IThinkTheresSomeoneHangingRightThere.mp3	H3H3Productions	5	01-16-2018	0	Logan Paul	https://www.youtube.com/watch?v=N3Dlpky9ey8&t=0	
+Im a motha freakin blueberry	LoganPaul_ImAMotherFreakingBlueberry.mp3	H3H3Productions	3	12-09-2016	684	Logan Paul	https://youtu.be/q7Gh_-KDXAk&t=684	
+Let me tell you bout banana	LoganPaul_LetMeTellYouAboutBanana.mp3	H3H3Productions	3	12-09-2016	684	Logan Paul	https://youtu.be/q7Gh_-KDXAk&t=684	
+Ohoho Now Im a strawberry	LoganPaul_NowImAStrawberry.mp3	H3H3Productions	3	12-09-2016	684	Logan Paul	https://youtu.be/q7Gh_-KDXAk&t=684	
+Gorgeous	Love_Gorgeous.mp3	H3Show	120	03-11-2025	9326	Love	https://youtu.be/wWG9Msgmnh4&t=9326	
+I only take it right on my chest	Love_RightOnMyChest.mp3	H3Show	31	07-19-2024	2993	Love	https://youtu.be/t7YKFG2TbGc&t=2993	
+Wheres my shoompa loompa?	Love_WheresMyShoompaLoompa.mp3	AfterDark	111	07-14-2023	9012	Love	https://www.youtube.com/watch?v=zqZW2EYb9YE&t=9012	
+You got me!	Love_YouGotMe.mp3	AfterDark	100	03-31-2023	7798	Love	https://www.youtube.com/watch?v=MgwMZS-9MBg&t=7798	
 5000 dun garn	Love_5000DunGarne.mp3	H3TV	30	04-04-2022	3099	Love	https://youtu.be/ulmY5h0M4co&t=3099	
 Anyone here from Arizona	Love_AnyoneHereFromArizona.mp3	H3TV	30	04-04-2022	3008	Love	https://youtu.be/ulmY5h0M4co&t=3008	
 God damn rascal	Love_GodDamnRascal.mp3	H3TV	30	04-04-2022	3023	Love	https://youtu.be/ulmY5h0M4co&t=3023	
@@ -295,248 +506,62 @@ ooohhhEEeeeee!	Love_oOoOoeeee.mp3	H3TV	30	04-04-2022	3021	Love	https://youtu.be/
 SHWEEEE	Love_ShweeEeeeEeEee.mp3	H3TV	30	04-04-2022	3404	Love	https://youtu.be/ulmY5h0M4co&t=3404	
 What the heckin dog?!	Love_WhatTheHeckinDog.mp3	H3TV	30	04-04-2022	3108	Love	https://youtu.be/ulmY5h0M4co&t=3108	
 YeEeEEee!!	Love_Yeeeee.mp3	H3TV	30	04-04-2022	3021	Love	https://youtu.be/ulmY5h0M4co&t=3021	
-There's a clip, go look for the clip!	Keemstar_TheresTheClip.mp3	H3TV	30	04-04-2022	8003	Keemstar	https://youtu.be/ulmY5h0M4co&t=8003	
-AudioAudioAudio	JimmieLee_AudioAudioAudio.mp3	OTR	29	03-30-2022	3007	Jimmie Lee	https://www.youtube.com/watch?v=kWqTHAD8C0k&t=3007	
-I Got my Eye on You	JimmieLee_GotMyEyeOnYou.mp3	OTR	29	03-30-2022	3667	Jimmie Lee	https://www.youtube.com/watch?v=kWqTHAD8C0k&t=3667	
-It seems like nobody wants to work these days	KimKardashian_NobodyWantsToWorkTheseDays.mp3	AfterDark	68	03-18-2022	13198	Kim Kardashian	https://www.youtube.com/watch?v=_VovzI50yC4&t=13198	
-Get your fucking ass up and work	KimKhardashian_GetYourAssUpAndWork.mp3	AfterDark	68	03-18-2022	13196	Kim Kardashian	https://www.youtube.com/watch?v=_VovzI50yC4&t=13196	
-What are you afraid of Ian	RoloTony_WhatAreYouAfraidOfIan.mp3	OTR	26	03-02-2022	7942	Rolo Tony	https://www.youtube.com/watch?v=AoBAiEK2Hug&t=7942	
-DIE DIE DIE	WendyWilliams_DIEDIEDIE.mp3	AfterDark	66	02-25-2022	5957	Wendy Williams	https://www.youtube.com/watch?v=UzU3uMgmm-0&t=5957	
-Why are you so cute when you talk shit	Keemstar_WhyAreYouSoCuteWhenYouTalkShit.mp3	H3TV	24	02-21-2022	6369	Keemstar	https://youtu.be/WmcJ_kZGVvE&t=6369	
-OHHHH monsieurerrrrrrr	Misc_OhMonsieur.mp3	AfterDark	65	02-18-2022	2439	Misc	https://www.youtube.com/watch?v=_mfxcipuqq0&t=2439	https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg3r5_02mijZmskXj5o7gbPHZjzEU30dUuCDGq7vDFSx2B54wPgasYXfD5-tfE7oiMjws&usqp=CAU
-Coconuts in Barbados	FreshAndFit_CoconutsInBarbados.mp3	OTR	24	02-16-2022	7144	Fresh and Fit	https://www.youtube.com/watch?v=lXyGJVWafH8&t=7144	
-Weasily little liar dude	Hasan_WeasleyLittleLiar.mp3	H3TV	23	02-14-2022	6715	Hasan Piker	https://youtu.be/JZP7g-9ANRc&t=6715	
-14 PAGES!!	DarkViper_Its14Pages.mp3	EthanKlein	38	02-10-2022	370	Dark Viper	https://youtu.be/8CcVkyFXHyw&t=370	
-I felt worthless I felt ugly I felt gay	FouseyTube_IFeltWorthless.mp3	Misc	3	01-28-2022	3446	FouseyTube	https://www.youtube.com/watch?v=daxr0SkHQm0&t=3446	
-Cant-Cant do this!	TheGoodDoctor_CantDoThis.mp3	Podcast	248	01-27-2022	630	The Good Doctor	https://youtu.be/ez_bTUjWG5Y&t=630	
-Ryan Kavanaugh is a force of nature	HarveyWeinstein_RyanKavanaughIsAForceOfNature.mp3	H3TV	21	01-17-2022	4546	Harvey Weinstein	https://youtu.be/sHrEyuHHM9U&t=4546	
 You guys are a bunch of pussies	Love_YouGuysAreABunchOfPussies.mp3	H3TV	21	01-17-2022	8053	Love	https://youtu.be/sHrEyuHHM9U&t=8053	
-An innappropriate relationship with a 14 year old Natalie Portman	RyanKavanaugh_14YearOldNataliePortman.mp3	H3TV	21	01-17-2022	4678	Ryan Kavanaugh	https://youtu.be/sHrEyuHHM9U&t=4678	
-Too much wine sorry	RyanKavanaugh_TooMuchWineSorry.mp3	H3TV	21	01-17-2022	4704	Ryan Kavanaugh	https://youtu.be/sHrEyuHHM9U&t=4704	
-What da fuck	Theodore_WhatTheFuck.mp3	H3TV	21	01-17-2022	552	Theodore	https://youtu.be/sHrEyuHHM9U&t=552	https://images.vexels.com/media/users/3/198194/isolated/preview/ba56ffbfdc62c7b7471a473d5b79312b-misc-label.png
-Dan please stand up	DonaldTrump_DanPleaseStandUp.mp3	OTR	22	12-15-2021	3973	Donald Trump	https://www.youtube.com/watch?v=tI_5oCeF_g4&t=3973	
-Ethan please stand up	DonaldTrump_EthanPleaseStandUp.mp3	OTR	22	12-15-2021	3973	Donald Trump	https://www.youtube.com/watch?v=tI_5oCeF_g4&t=3973	
-Ian please stand up	DonaldTrump_IanPleaseStandUp.mp3	OTR	22	12-15-2021	3973	Donald Trump	https://www.youtube.com/watch?v=tI_5oCeF_g4&t=3973	
-Im busted	Keemstar_ImBusted.mp3	OTR	22	12-15-2021	4258	Keemstar	https://www.youtube.com/watch?v=tI_5oCeF_g4&t=4258	
-SO FRUSTRATING	Keemstar_SOFRUSTRATING.mp3	OTR	22	12-15-2021	4258	Keemstar	https://www.youtube.com/watch?v=tI_5oCeF_g4&t=4258	
-Oh Im telling you	WilliamShatner_OhImTellingYou.mp3	OTR	22	12-15-2021	8378	William Shatner	https://www.youtube.com/watch?v=tI_5oCeF_g4&t=8378	
-Oh Jesus	WilliamShatner_OhJesus.mp3	OTR	22	12-15-2021	8357	William Shatner	https://www.youtube.com/watch?v=tI_5oCeF_g4&t=8357	
-Oh my God	WilliamShatner_OhMyGod.mp3	OTR	22	12-15-2021	8371	William Shatner	https://www.youtube.com/watch?v=tI_5oCeF_g4&t=8371	
-Holy shit fuck balls	BritneySpears_HolyShitFuckBalls.mp3	H3TV	19	12-06-2021	6828	Britney Spears	https://youtu.be/Ev37IedFjMU&t=6828	
-Holy shit wow fucking balls ay	BritneySpears_HolyShitWowFuckingBallsAy.mp3	H3TV	19	12-06-2021	6836	Britney Spears	https://youtu.be/Ev37IedFjMU&t=6836	
-Stick your funger	Dan_StickYourFunger.mp3	H3TV	19	12-06-2021	6596	Dan	https://youtu.be/Ev37IedFjMU&t=6596	
-Im not taking a pause to SHIT ALL OVER THE FLOOR	TheQuartering_ImNotTakingAPauseToSHITALLOVERTHEFLOOR.mp3	OTR	21	12-01-2021	8421	The Quartering	https://www.youtube.com/watch?v=QobESzsbh6M&t=8421	
-Family	Misc_Family.mp3	AfterDark	60	11-26-2021	3459	Misc	https://www.youtube.com/watch?v=kwDJN1CQzJY&t=3459	https://static1.srcdn.com/wordpress/wp-content/uploads/2021/11/Vin-Diesel-look-a-likes-family.jpg
-Shaun #1	Misc_SHAUN1.mp3	OTR	20	11-25-2021	3441	Misc	https://www.youtube.com/watch?v=lD1Z7NYUXjc&t=3441	https://i.ytimg.com/vi/DAhG9D9UO7c/maxresdefault.jpg
-Shaun #2	Misc_SHAUN2.mp3	OTR	20	11-25-2021	3441	Misc	https://www.youtube.com/watch?v=lD1Z7NYUXjc&t=3441	https://i.ytimg.com/vi/DAhG9D9UO7c/maxresdefault.jpg
-Ive been listening to Olivia the entire time	DonaldTrump_IveBeenListeningToOliviaTheEntireTime.mp3	OTR	19	11-18-2021	2430	Donald Trump	https://www.youtube.com/watch?v=hY0x8d3QWDA&t=2430	
-Olivia	DonaldTrump_Olivia.mp3	OTR	19	11-18-2021	2430	Donald Trump	https://www.youtube.com/watch?v=hY0x8d3QWDA&t=2430	
-ANIMALS DIE	Keemstar_ANIMALSDIE.mp3	OTR	17	11-04-2021	1370	Keemstar	https://www.youtube.com/watch?v=oHU006rCb2c&t=1370	
-MURDER ANIMALS	Keemstar_MURDERANIMALS.mp3	OTR	17	11-04-2021	1277	Keemstar	https://www.youtube.com/watch?v=oHU006rCb2c&t=1277	
-What the hell are we gonna do without men	JordanPeterson_WhatAreWeGonnaDoWithoutMen.mp3	H3TV	12	10-18-2021	657	Jordan Peterson	https://youtu.be/_QK5EmPCd9g&t=657	
-Theres shit all over the floor	TheQuartering_TheresSHITALLOVERTHEFLOOR.mp3	AfterDark	54	10-15-2021	6699	The Quartering	https://www.youtube.com/watch?v=eioZLqucKU4&t=6699	
-You know you get that crotch rot	TheQuartering_YouGetThatCrotchRot.mp3	AfterDark	54	10-15-2021	7649	The Quartering	https://www.youtube.com/watch?v=eioZLqucKU4&t=7649	
-Delete Me From This Conversation	Shaq_DeleteMeFromThisConversation.mp3	ContentCourt	7	10-14-2021	2151	Shaq	https://youtu.be/ZPt1p_KeTEE&t=2151	
-I Cant Jerk Off to This	Dan_ICantJerkOffToThis.mp3	OTR	14	10-07-2021	3165	Dan	https://www.youtube.com/watch?v=wtOzt-oLZ3Q&t=3165	
-AB did that everyone saw that	Love_AbDidThatEveryoneSawThat.mp3	H3TV	10	10-04-2021	8454	Love	https://youtu.be/Rs9bSkstX9s&t=8454	
-Hes so cool	Misc_HesSoCool.mp3	AfterDark	51	09-24-2021	6911	Misc	https://www.youtube.com/watch?v=GRJLngUhhno&t=6911	https://i.ytimg.com/vi/jqsajGenHTY/maxresdefault.jpg
-I Do it With Everyone	AndrewCuomo_IDoItWithEveryone.mp3	OTR	12	09-23-2021	3143	Andrew Cuomo	https://www.youtube.com/watch?v=14GDTiQ-_pE&t=3143	
-NEVER BE A BETA	OwenCook_NeverBeABeta.mp3	AfterDark	50	09-10-2021	4459	Owen Cook	https://www.youtube.com/watch?v=HnLJNxkS_AE&t=4459	
-Just never ever do it, it is DEATH!	OwenCook_NeverEverDoIt.mp3	AfterDark	50	09-10-2021	4457	Owen Cook	https://www.youtube.com/watch?v=HnLJNxkS_AE&t=4457	
-Do you see it	KennethCopeland_DoItSeeIt.mp3	OTR	11	09-09-2021	3613	Kenneth Copeland	https://www.youtube.com/watch?v=AFkY41u0LGA&t=3613	
-I Pooped My Pants	AlRoker_IPoopedMyPants.mp3	H3TV	7	09-07-2021	523	Al Roker	https://youtu.be/d9Y0O-FtKvA&t=523	
-DRAKE	DJAkademiks_DRAKE.mp3	H3TV	7	09-07-2021	299	DJ Akademiks	https://youtu.be/d9Y0O-FtKvA&t=299	
-In a book HUH	Keemstar_ItWasUsedInABookHUH.mp3	H3TV	7	09-07-2021	3708	Keemstar	https://youtu.be/d9Y0O-FtKvA&t=3708	
-Hi My Name is Awkwafina and I am in the movie ShangChi	Awkwafina_ShangChi.mp3	AfterDark	49	09-03-2021	1912	Awkwafina	https://www.youtube.com/watch?v=jgrTGlQ_IG8&t=1912	
-Rudy Giuliani, you nasty, filthy fucking animal	MichaelRapaport_RudyGiulianiYouNastyFilthy.mp3	OTR	9	08-26-2021	793	Michael Rapaport	https://www.youtube.com/watch?v=btR1WbNWzKc&t=793	
-Box me bitch	Keemstar_BoxMeBitch.mp3	OTR	9	08-26-2021	1008	Keemstar	https://www.youtube.com/watch?v=btR1WbNWzKc&t=1008	
-That crypto shit	Keemstar_ThatCryptoShit.mp3	OTR	9	08-26-2021	1298	Keemstar	https://www.youtube.com/watch?v=btR1WbNWzKc&t=1298	
-Its Friday Fuck baby fuck	Donna_ItsFridayFuck.mp3	Families	10	08-25-2021	677	Donna Klein	https://youtu.be/WOAWl_s0Kjs&t=677	
-Just Sayin	WendyWilliams_JustSayin.mp3	AfterDark	47	08-20-2021	394	Wendy Williams	https://www.youtube.com/watch?v=Xvasys6EONM&t=394	
-We do a little trolling its called we do a little trolling	DonaldTrump_WeDoALittleTrolling.mp3	H3TV	4	08-02-2021	5723	Donald Trump	https://youtu.be/QhA1sdISvME&t=5723	
-Blood Boiling	AustinMcBroom_BloodBoiling.mp3	H3TV	2	07-24-2021	5550	Austin McBroom	https://www.youtube.com/watch?v=b9BRDiQPD-U&t=5550	
-♫ Dink Doink is my favorite coin ♪	Misc_DinkDoinkYoureMyFavoriteCoin.mp3	OTR	5	07-15-2021	3474	Misc	https://www.youtube.com/watch?v=xamEkP8HLdA&t=3474	https://i.ytimg.com/vi/ZIwz3JbnqAc/maxresdefault.jpg
-Baby I wasnt trying	JustinBeiber_BabyIWasntLying.mp3	Families	4	07-14-2021	4914	Justin Bieber	https://youtu.be/OJo0Z90eWDE&t=4914	
-Keemstar Shut Up	AlkiDavid_KeemstarSHUTUP.mp3	AfterDark	44	07-09-2021	7601	Alki David	https://www.youtube.com/watch?v=s2FpIS2ywlE&t=7601	
-SHUT UP BITCH	AlkiDavid_ShutupBITCH.mp3	AfterDark	44	07-09-2021	7601	Alki David	https://www.youtube.com/watch?v=s2FpIS2ywlE&t=7601	
-She's also died	WendyWilliams_ShesAlsoDied.mp3	AfterDark	44	07-09-2021	7850	Wendy Williams	https://www.youtube.com/watch?v=s2FpIS2ywlE&t=7850	
-Yo Triller my thing is flipped	NoahBeck_YoTrillerMyThingsFlipped.mp3	AfterDark	43	07-02-2021	7422	Noah Beck	https://www.youtube.com/watch?v=lw8E6x_tiQE&t=7422	
-Ethan Klein is damaging everything making it all worse	TimPool_EthanKleinIsDamagingEverything.mp3	AfterDark	43	07-02-2021	2309	Tim Pool	https://www.youtube.com/watch?v=lw8E6x_tiQE&t=2309	
-A bag of turd you know a flaming turd bag	TimPool_FlamingTurdBag.mp3	AfterDark	43	07-02-2021	2709	Tim Pool	https://www.youtube.com/watch?v=lw8E6x_tiQE&t=2709	
-Excuse me AH	WilliamKnight_ExcuseMeAHH.mp3	AfterDark	43	07-02-2021	5569	William Knight	https://www.youtube.com/watch?v=lw8E6x_tiQE&t=5569	
-You know what the problem is? It's definitely not me	TimPool_YouKnowWhatTheProblemIs.mp3	AfterDark	43	07-02-2021	3141	Tim Pool	https://www.youtube.com/watch?v=lw8E6x_tiQE&t=3141	
-In Reality You Guys Got Scammed	AustinMcBroom_InRealityYouGuysGotScammed.mp3	OTR	3	07-01-2021	4010	Austin McBroom	https://www.youtube.com/watch?v=6kNZujESbNI&t=4010	
-Death to all of them	WendyWilliams_DeathToAllOfThem.mp3	OTR	3	07-01-2021	654	Wendy Williams	https://www.youtube.com/watch?v=6kNZujESbNI&t=654	
-Dubrick	Donna_Dubrik.mp3	Families	2	06-30-2021	5179	Donna Klein	https://youtu.be/_SdeGi-8rZ8&t=5179	
-5% difference is Astronomical	JoeRogan_FivePercentDifferentIsAstronomical.mp3	AfterDark	42	06-24-2021	9070	Joe Rogan	https://www.youtube.com/watch?v=-I_xmrcEAdU&t=9070	
-5% means everything	JoeRogan_FivePercentMeansEverything.mp3	AfterDark	42	06-24-2021	9070	Joe Rogan	https://www.youtube.com/watch?v=-I_xmrcEAdU&t=9070	
-I thought Ethan was a stand up guy	StevenCrowder_EthanStandUpGuy.mp3	Podcast	248	06-21-2021	645	Steven Crowder	https://youtu.be/ez_bTUjWG5Y&t=645	
-Oh no what a fucking nightmare!	StevenCrowder_OhNoSamSeder.mp3	Podcast	248	06-21-2021	630	Steven Crowder	https://youtu.be/ez_bTUjWG5Y&t=630	
-He takes that 5%	KalliMetz_HeTakesThat5Percent.mp3	AfterDark	41	06-18-2021	2339	Kalli Metz	https://www.youtube.com/watch?v=8aCfvBnOcnU&t=2339	
-It's the first time for me in the Marvel Universe	OwenWilson_MarvelFull.mp3	AfterDark	41	06-18-2021	723	Owen Wilson	https://www.youtube.com/watch?v=8aCfvBnOcnU&t=723	
-We drank beer	BrettKavanaugh_WeDrankBeer.mp3	AfterDark	40	06-11-2021	701	Brett Kavanaugh	https://www.youtube.com/watch?v=uvc-dX0fG3s&t=701	
-Hell yeah HELL YEAH	Dream_HellYeahHELLYEAH.mp3	OTR	2	06-03-2021	1157	Dream	https://www.youtube.com/watch?v=RSirCfZjonY&t=1157	
-You dont even have to think about it dude	StevenCrowder_YouDontEvenHaveToThinkAboutIt.mp3	AfterDark	38	05-28-2021	7471	Steven Crowder	https://www.youtube.com/watch?v=BUHxXNxEUYc&t=7471	
-Im gonna cum	Dan_ImGonnaCum.mp3	OTR	1	05-27-2021	812	Dan	https://www.youtube.com/watch?v=JHGs0juAZX4&t=812	
-Suckin a ding dong	AlexJones_SuckinADingDong.mp3	AfterDark	37	05-21-2021	7361	Alex Jones	https://youtu.be/SaC97huq9Ss&t=7361	
-Im not a doctor Im a fucking moron	JoeRogan_ImNotADoctor.mp3	AfterDark	37	05-21-2021	4350	Joe Rogan	https://youtu.be/SaC97huq9Ss&t=4350	
-Faze Blanks	FazeBanks_FazeBlanks.mp3	AfterDark	36	05-13-2021	6589	Faze Banks	https://www.youtube.com/watch?v=4CP_nl037_c&t=6589	
-Im infinitely smarter than you	FazeBanks_InfinitelySmarterThanYou.mp3	AfterDark	36	05-13-2021	6598	Faze Banks	https://www.youtube.com/watch?v=4CP_nl037_c&t=6598	
-I think hes fucking stupid	FazeBanks_IThinkHesFuckingStupid.mp3	AfterDark	36	05-13-2021	6598	Faze Banks	https://www.youtube.com/watch?v=4CP_nl037_c&t=6598	
-Benefits Everybody	JoeBiden_BenefitsEverybody.mp3	AfterDark	36	05-13-2021	4806	Joe Biden	https://www.youtube.com/watch?v=4CP_nl037_c&t=4806	
-Guess what It grows the economy	JoeBiden_GuessWhatItGrowsTheEconomy.mp3	AfterDark	36	05-13-2021	4806	Joe Biden	https://www.youtube.com/watch?v=4CP_nl037_c&t=4806	
-Hurts nobody	JoeBiden_HurtsNobody.mp3	AfterDark	36	05-13-2021	4806	Joe Biden	https://www.youtube.com/watch?v=4CP_nl037_c&t=4806	
-Safe Moon going to the moon baby!!	Misc_SafeMoonGoingToTheMoon.mp3	AfterDark	36	05-13-2021	11090	Misc	https://www.youtube.com/watch?v=4CP_nl037_c&t=11090	https://web-assets.esetstatic.com/wls/2021/09/falsa-app-criptomoneda-safemoon-1.jpg
-Theres no such thing as a coincidence	WilliamKnight_TheresNoSuchThingAsACoincidence.mp3	AfterDark	35	05-07-2021	7214	William Knight	https://www.youtube.com/watch?v=uw0c45OwQV0&t=7214	
-Chet Hanks Joker Laugh	ChetHanks_Laugh.mp3	AfterDark	34	04-30-2021	8328	Chet Hanks	https://www.youtube.com/watch?v=ISvqL4D7SL4&t=8328	
-Trying to think but nothing happens	Curly_ImTryingToThinkButNothingHappens.mp3	Podcast	245	04-29-2021	2851	Curly Howard	https://youtu.be/Htq468essmM&t=2851	
-I Left that Yogurt Store and Didnt Get the Yogurt I Wanted	DemiLovato_DidntGetTheYogurtIWanted.mp3	Podcast	245	04-29-2021	4810	Demi Lovato	https://youtu.be/Htq468essmM&t=4810	
-And then I had a hard time the rest of the weekend	DemiLovato_HardTimeWeekend.mp3	Podcast	245	04-29-2021	4817	Demi Lovato	https://youtu.be/Htq468essmM&t=4817	
-Im a fucking savage you gotta do it	GregPaul_ImAFuckingSavage.mp3	AfterDark	33	04-23-2021	1870	Greg Paul	https://www.youtube.com/watch?v=MjDYycK6n7M&t=1870	
-Money Ethan	Misc_MoneyEthan.mp3	AfterDark	33	04-23-2021	241	Misc	https://www.youtube.com/watch?v=MjDYycK6n7M&t=241	
-Shut up Bitch	TheRock_ShutUpBitch.mp3	Podcast	244	04-22-2021	4730	The Rock	https://youtu.be/bfKPts4BJkA&t=4730	
-Turned the Friggin Frogs Gay	AlexJones_TheyTurnTheFreakingFrogsGay.mp3	Podcast	243	04-15-2021	398	Alex Jones	https://youtu.be/0Os_vIpQXg4&t=398	
-Hi Im Dick Tips	DickTips_HiImDickTips.mp3	Podcast	242	04-08-2021	82	Dick Tips	https://youtu.be/PcDqarjl4w0&t=82	
-WOMP WOMP WOMP	JamesCharles_WompWompWomp.mp3	Podcast	242	04-08-2021	389	James Charles	https://youtu.be/PcDqarjl4w0&t=389	
-YeaaAaaeEeeaaAaaeeEeEAaaH	JamesCharles_YeaaAaaeeeEeeaaAaaeeeEeeeEAaaaaH.mp3	Podcast	242	04-08-2021	389	James Charles	https://youtu.be/PcDqarjl4w0&t=389	
-Anal sex	RudyGuiliani_AnalSex.mp3	Podcast	242	04-08-2021	4119	Rudy Giuliani	https://youtu.be/PcDqarjl4w0&t=4119	
-Its a sexual dance	RudyGuiliani_ItsASexualDance.mp3	Podcast	242	04-08-2021	4105	Rudy Giuliani	https://youtu.be/PcDqarjl4w0&t=4105	
-Time to take a short break	RudyGuiliani_TimeToTakeAShortBreak.mp3	Podcast	242	04-08-2021	4671	Rudy Giuliani	https://youtu.be/PcDqarjl4w0&t=4671	
-Isolated Fart	WendyWilliams_Fart.mp3	AfterDark	29	03-26-2021	4819	Wendy Williams	https://www.youtube.com/watch?v=Ze3pzXECLzY&t=4819	
-Okay Ethan	JeffWittek_OkayEthan.mp3	Frenemies	26	03-21-2021	7844	Jeff Wittek	https://www.youtube.com/watch?v=0XCZ-t5e-fI&t=7844	
-Dans a good man	JoeBiden_DansAGoodMan.mp3	AfterDark	28	03-19-2021	435	Joe Biden	https://www.youtube.com/watch?v=iKpd0ZTpkp8&t=435	
-I missed the mark on that one	DavidDobrik_IMissedTheMarkWithThatOne.mp3	Podcast	240	03-17-2021	5146	David Dobrik	https://youtu.be/jrDi9gDSVu4&t=5146	
-Semen is another kind of milk	PastorManning_SemenIsAnotherKindOfMilk.mp3	AfterDark	26	03-05-2021	5711	Pastor Manning	https://www.youtube.com/watch?v=xliblinydqE&t=5711	
-HE CANT KEEP GETTING AWAY WITH IT	JessePinkman_HeCantKeepGettingAwayWithIt.mp3	Podcast	238	03-04-2021	480	Jesse Pinkman	https://www.youtube.com/watch?v=6woMi_8VjJw&t=480	
-FUCK	SnoopDogg_FUCK.mp3	Podcast	238	03-04-2021	2514	Snoop Dogg	https://www.youtube.com/watch?v=6woMi_8VjJw&t=2514	
-Oop there it is	Hila_OopThereItIs.mp3	AfterDark	25	02-26-2021	9168	Hila	https://www.youtube.com/watch?v=ugF3erryCls&t=9168	
-Yeah really sad	JamesCharles_YeahReallySad.mp3	AfterDark	25	02-26-2021	4504	James Charles	https://www.youtube.com/watch?v=ugF3erryCls&t=4504	
-Im strokin pussy down here	Ian_ImStrokingPussyDownHere.mp3	Podcast	236	02-18-2021	71	Ian	https://youtu.be/6rXRoIA4EEc&t=71	
-SZIT (?) SZIT!!! (?)	Ethan_DrunkTalk.mp3	AfterDark	23	02-12-2021	22987	Ethan	https://www.youtube.com/watch?v=v4QZhtLnWKc&t=22987	
-Im healed in the name of Jesus	KennethCopeland_ImHealedInTheNameOfJesus.mp3	Podcast	235	02-11-2021	1160	Kenneth Copeland	https://youtu.be/3tqvNI1HIcI&t=1160	
-Im not a cat	Misc_ImNotACat.mp3	Podcast	235	02-11-2021	3712	Misc	https://youtu.be/3tqvNI1HIcI&t=3712	https://static01.nyt.com/images/2021/02/09/world/oakImage-1612906052458/oakImage-1612906052458-superJumbo.jpg
-Ive got news for you That means youre gay	IceT_ThatMeansYourGay.mp3	Podcast	234	02-04-2021	63	Ice T	https://youtu.be/4LbemPA5lEo&t=63	
-I know it was you Fredo	MichaelCorleon_IKnowItWasYouFredo.mp3	Podcast	233	01-27-2021	3053	Michael Corleone	https://youtu.be/vSkmUdAMm9I&t=3053	
-Shout out to his family	DavidGuetta_ShoutoutToHisFamily.mp3	AfterDark	20	01-21-2021	11231	David Guetta	https://www.youtube.com/watch?v=1G3nt39Fd0o&t=11231	
-Cmon Man	JoeBiden_CmonMan.mp3	AfterDark	20	01-21-2021	7	Joe Biden	https://www.youtube.com/watch?v=1G3nt39Fd0o&t=7	
-COVID 19	KennethCopeland_COVID19.mp3	Podcast	232	01-20-2021	4457	Kenneth Copeland	https://youtu.be/MHYpRIt7o_k&t=4457	
-Jesus is your source	KennethCopeland_JesusIsYourSource.mp3	Podcast	232	01-20-2021	890	Kenneth Copeland	https://youtu.be/MHYpRIt7o_k&t=890	
-Watch that demon die	KennethCopeland_WatchThatDemonDie.mp3	Podcast	232	01-20-2021	4281	Kenneth Copeland	https://youtu.be/MHYpRIt7o_k&t=4281	
-What are we gonna do	KennethCopeland_WhatAreWeGonnaDo.mp3	Podcast	232	01-20-2021	884	Kenneth Copeland	https://youtu.be/MHYpRIt7o_k&t=884	
-Its like a Romeo Julia	Keemstar_ItsLikeARomeoJulia.mp3	Podcast	231	01-16-2021	1756	Keemstar	https://youtu.be/PUMB9LNlEhM&t=1756	
-Spooked Magooked	JamesCharles_SpookedMagooked.mp3	AfterDark	19	01-15-2021	9234	James Charles	https://www.youtube.com/watch?v=QBmlIdXpGeU&t=9234	
-Lets get glam	JamesCharles_LetsGetGlam.mp3	AfterDark	18	01-08-2021	2141	James Charles	https://www.youtube.com/watch?v=7XytOqnusfo&t=2141	
-Ohhh nooOooo	JamesCharles_OhhhNooOoo.mp3	AfterDark	18	01-08-2021	41	James Charles	https://www.youtube.com/watch?v=7XytOqnusfo&t=41	
-We love you youre very special	DonaldTrump_WeLoveYouYoureVerySpecial.mp3	Podcast	230	01-06-2021	2119	Donald Trump	https://youtu.be/MiJFpEbHRpc&t=2119	
-GARBAGE	Keemstar_GARBAGE.mp3	Frenemies	15	01-05-2021	2580	Keemstar	https://www.youtube.com/watch?v=1gzsFgZ6_ds&t=2580	
-Big massive dumps	DonaldTrump_BigMassiveDumps.mp3	Podcast	228	12-07-2020	6642	Donald Trump	https://youtu.be/kdIPAsPzFRQ&t=6642	
-They call em dumps	DonaldTrump_TheyCallThemDumps.mp3	Podcast	228	12-07-2020	6717	Donald Trump	https://youtu.be/kdIPAsPzFRQ&t=6717	
-Hey Dan thats not bad huh	DonaldTrump_HeyDanThatsNotBadHuh.mp3	AfterDark	15	12-04-2020	2333	Donald Trump	https://www.youtube.com/watch?v=iAnsNKeY4Hs&t=2333	
-Id rather speak up and be wrong than be muffled and be wrong	GregPaul_IdRatherBeWrong.mp3	Podcast	227	12-03-2020	975	Greg Paul	https://youtu.be/pvGrqiHky5k&t=975	
-You didn't tell me you got some tea today!	Hila_YouDidntTellMeTea.mp3	Podcast	227	12-03-2020	595	Hila	https://youtu.be/pvGrqiHky5k&t=595	
-Hah Hah	KennethCopeland_HaaaHaaa.mp3	AfterDark	13	11-20-2020	1922	Kenneth Copeland	https://www.youtube.com/watch?v=34lUUDBPjZg&t=1922	
-BOSS MAN BIDEN	ChetHanks_BOSSMANBIDEN.mp3	AfterDark	12	11-13-2020	4589	Chet Hanks	https://www.youtube.com/watch?v=g3gkFORfTZA&t=4589	
-PUSSYCLAT	ChetHanks_PUSSYCLOT.mp3	AfterDark	12	11-13-2020	4572	Chet Hanks	https://www.youtube.com/watch?v=g3gkFORfTZA&t=4572	
-SYKE	ChetHanks_SYYKE.mp3	AfterDark	12	11-13-2020	4568	Chet Hanks	https://www.youtube.com/watch?v=g3gkFORfTZA&t=4568	
-Victory victory victory victory	PaulaWhite_VictoryVictoryVictoryVictory.mp3	AfterDark	11	11-06-2020	2364	Paula White	https://www.youtube.com/watch?v=C5fZYmnTd3Q&t=2364	
-Who you kiddin eh	AB_WhoYouKiddingEh.mp3	ContentCourt	5	11-05-2020	207	AB	https://youtu.be/RdC75IoAQoo&t=207	
-Im itching for that clout pill	AustinMcBroom_ImItchingForThatCloutPill.mp3	ContentCourt	5	11-05-2020	1200	Austin McBroom	https://youtu.be/RdC75IoAQoo&t=1200	
-I might really start selling the clout pill	AustinMcBroom_SellingTheCloutPill.mp3	ContentCourt	5	11-05-2020	4010	Austin McBroom	https://youtu.be/RdC75IoAQoo&t=4010	
-STOPPPPP	AustinMcBroom_Stop.mp3	ContentCourt	5	11-05-2020	493	Austin McBroom	https://youtu.be/RdC75IoAQoo&t=493	
-stoppppp	AustinMcBroom_Stop2.mp3	ContentCourt	5	11-05-2020	1041	Austin McBroom	https://youtu.be/RdC75IoAQoo&t=1041	
-Death to all Jews	Keemstar_DeathToAllJews.mp3	AfterDark	10	10-30-2020	873	Keemstar	https://www.youtube.com/watch?v=Xsda33d1UXQ&t=873	
-So thick	BelleDelphine_SoThick.mp3	Podcast	225	10-29-2020	4539	Belle Delphine	https://youtu.be/uutn8Lob_ek&t=4539	
-The Gnarlier the Better	BelleDelphine_TheGnarlierTheBetter.mp3	Podcast	225	10-29-2020	3714	Belle Delphine	https://youtu.be/uutn8Lob_ek&t=3714	
-Have you visited Blacked	Hila_HaveYouVisitedBlacked.mp3	Podcast	225	10-29-2020	1281	Hila	https://youtu.be/uutn8Lob_ek&t=1281	
-Sharples thats not your ID	Misc_SharplesThatsNotYourID.mp3	AfterDark	9	10-23-2020	3960	Misc	https://www.youtube.com/watch?v=0VUy5lRXk80&t=3960	https://www.thesun.co.uk/wp-content/uploads/2019/04/Key1.png
-I just peed in my basement	TheQuartering_IJustPeedInMyBasement.mp3	ContentCourt	4	10-21-2020	3369	The Quartering	https://youtu.be/pMW3hfX7Z_s&t=3369	
-My wife went out for pizza without me	TheQuartering_MyWifeWentOutForPizzaWithoutMe.mp3	ContentCourt	4	10-21-2020	3308	The Quartering	https://youtu.be/pMW3hfX7Z_s&t=3308	
-Fat fat fatty	TrishaPaytas_YoureFatFatFatty.mp3	Frenemies	4	10-06-2020	2772	Trisha Paytas	https://www.youtube.com/watch?v=B6hF6w_sMlw&t=2772	
-Eat out my ass	JoePesci_EatOutMyAss.mp3	AfterDark	7	10-02-2020	2876	Joe Pesci	https://www.youtube.com/watch?v=_uMN_NAThww&t=2876	
-Its the bitches thatll getcha	JoePesci_ItsTheBitchesThatllGetcha.mp3	AfterDark	7	10-02-2020	2937	Joe Pesci	https://www.youtube.com/watch?v=_uMN_NAThww&t=2937	
-And its become your familys heart and soul	TomSelleck_AndItSBecomeYourFamiliesHeartAndSoul.mp3	AfterDark	6	09-25-2020	6872	Tom Selleck	https://www.youtube.com/watch?v=xfPmKCcl_Gg&t=6872	
-Its Just a Loan	TomSelleck_ItsJustALoan.mp3	AfterDark	6	09-25-2020	6731	Tom Selleck	https://www.youtube.com/watch?v=xfPmKCcl_Gg&t=6731	
-X-X-X-Tassion	Ethan_XXXTassion.mp3	ContentCourt	2	09-24-2020	314	Ethan	https://youtu.be/VQ6bqvWmHoo&t=314	
-SIMP	DrPhil_SIMP.mp3	Podcast	215	09-14-2020	964	Dr Phil	https://youtu.be/H_S7N1J0Fm0&t=964	
-Thank you thank you	RingoStarr_ThankYouThankYou.mp3	Podcast	205	09-08-2020	3750	Ringo Starr	https://youtu.be/sVlTKQueUSE&t=3750	
-Im not gay no more!	AndrewCaldwel_ImNotGayNoMore.mp3	AfterDark	3	09-04-2020	7623	Andrew Caldwell	https://www.youtube.com/watch?v=2ujyWHUgcBI&t=7623	
+AB did that everyone saw that	Love_AbDidThatEveryoneSawThat.mp3	H3TV	10	10-04-2021	8097	Love	https://youtu.be/Rs9bSkstX9s&t=8097	
+And That Comes on the Back	Love_AndThatComesOnTheBack.mp3	Unknown	1	05-05-2015	0	Love	https://youtu.be/zOYZ3XMGjUM&t=0	
+I support Jenna's side	Love_ISupportJennaside.mp3	Unknown	1	05-05-2015	0	Love	https://youtu.be/zOYZ3XMGjUM&t=0	
+Put Me Between Your Legs!	Love_PutMeBetweenYourLegs.mp3	Unknown	1	05-05-2015	0	Love	https://youtu.be/zOYZ3XMGjUM&t=0	
+LETS UP THOSE NUMBERS!!	Ludwig_LetsUpThoseNumbers.mp3	Unknown	1	05-05-2015	0	Ludwig	https://youtu.be/zOYZ3XMGjUM&t=0	
+Have-have a good night	MarcElliot_HaveAGoodNight.mp3	H3TV	66	02-20-2023	6909	Marc Elliot	https://youtu.be/Ro8kiM7Dg1Y&t=6909	
+Good Smokey Flavor	MarkZuckerberg_GoodSmokyFlavor.mp3	H3H3Productions	4	08-05-2020	1035	Mark Zuckerberg	https://youtu.be/OCjN_yBkyDk&t=1035	
+Im the meat chef	MarkZuckerberg_NowImTheMeatChef.mp3	H3H3Productions	4	08-05-2020	1035	Mark Zuckerberg	https://youtu.be/OCjN_yBkyDk&t=1035	
+Smoking these meats!	MarkZuckerberg_SmokingTheseMeats.mp3	H3H3Productions	4	08-05-2020	1035	Mark Zuckerberg	https://youtu.be/OCjN_yBkyDk&t=1035	
 Anal Licking	MartinSsempa_AnalLicking.mp3	AfterDark	3	09-04-2020	7148	Martin Ssempa	https://www.youtube.com/watch?v=2ujyWHUgcBI&t=7148	
 Deepah	MartinSsempa_Deepah.mp3	AfterDark	3	09-04-2020	7366	Martin Ssempa	https://www.youtube.com/watch?v=2ujyWHUgcBI&t=7366	
 And this one is eating the poo poo all over the place	MartinSsempa_EatingPooPooAllOver.mp3	AfterDark	3	09-04-2020	7287	Martin Ssempa	https://www.youtube.com/watch?v=2ujyWHUgcBI&t=7287	
 Eat Da Poo Poo	MartinSsempa_EatThePooPoo.mp3	AfterDark	3	09-04-2020	7187	Martin Ssempa	https://www.youtube.com/watch?v=2ujyWHUgcBI&t=7187	
 This is seeck	MartinSsempa_ThisIsSick.mp3	AfterDark	3	09-04-2020	7328	Martin Ssempa	https://www.youtube.com/watch?v=2ujyWHUgcBI&t=7328	
-Why are you gay	SimonKaggwa_WhyAreYouGay.mp3	AfterDark	3	09-04-2020	6854	Simon Kaggwa Njala	https://www.youtube.com/watch?v=2ujyWHUgcBI&t=6854	
-I bet he's got some big old bitch tits	AlexJones_IBetHesGotSomeBigOldBitchTits.mp3	Podcast	207	08-17-2020	4925	Alex Jones	https://youtu.be/TpimNx4PJoY&t=4925	
-Extra Large and Extra Hard	BenShapiro_ExtraLargeAndExtraHard.mp3	Podcast	206	08-12-2020	5780	Ben Shapiro	https://youtu.be/IgTdy9DElWU&t=5780	
-Wet Ass PWord	BenShapiro_WetAssPWord.mp3	Podcast	206	08-12-2020	5761	Ben Shapiro	https://youtu.be/IgTdy9DElWU&t=5761	
-I LOVE IT	DonaldTrump_ILoveIt.mp3	Podcast	206	08-12-2020	1966	Donald Trump	https://youtu.be/IgTdy9DElWU&t=1966	
-I Want to Smell Feet	Hila_IWantToSmellFeet.mp3	Podcast	206	08-12-2020	938	Hila	https://youtu.be/IgTdy9DElWU&t=938	
-Good Smokey Flavor	MarkZuckerberg_GoodSmokyFlavor.mp3	H3H3Productions	4	08-05-2020	1035	Mark Zuckerberg	https://youtu.be/OCjN_yBkyDk&t=1035	
-Im the meat chef	MarkZuckerberg_NowImTheMeatChef.mp3	H3H3Productions	4	08-05-2020	1035	Mark Zuckerberg	https://youtu.be/OCjN_yBkyDk&t=1035	
-Smoking these meats!	MarkZuckerberg_SmokingTheseMeats.mp3	H3H3Productions	4	08-05-2020	1035	Mark Zuckerberg	https://youtu.be/OCjN_yBkyDk&t=1035	
-What the fuck	OliverTree_WhatTheFuck.mp3	Podcast	198	07-18-2020	502	Oliver Tree	https://youtu.be/tnCV_5QVp4s&t=502	
-Haha Bitch Im laughing cause you big mad	Hila_ImLaughingCauseYouBigMad.mp3	Podcast	190	05-16-2020	5227	Hila	https://youtu.be/6BhJNuIN6rM&t=5227	
-I Wanna Talk About Feet	Dan_IWannaTalkAboutFeet.mp3	Podcast	181	03-11-2020	4437	Dan	https://youtu.be/_fiKPLXYttw&t=4437	
-Youre a lying dog face pony soldier	JoeBiden_DogFaceLyingPonySoldier.mp3	Podcast	180	03-07-2020	1700	Joe Biden	https://youtu.be/dn0c1-TaHSQ&t=1700	
-♪ DAN THE HATER!! ♪ ♪	Misc_DanTheHater.mp3	Podcast	178	02-26-2020	6514	Dan	https://youtu.be/BTDNJe8UiJE&t=6514	
-I love pizza and I love people	PapaJohn_ILovePizzaAndILovePeople.mp3	Podcast	174	02-10-2020	80	Papa John	https://youtu.be/XGtMMYWhdUU&t=80	
-Pizzas actually very nutricious	PapaJohn_PizzaIsActuallyVeryNutricious.mp3	Podcast	174	02-10-2020	1036	Papa John	https://youtu.be/XGtMMYWhdUU&t=1036	
-I DONT like it	Ethan_IDontLikeIt.mp3	Podcast	171	01-29-2020	6997	Ethan	https://youtu.be/XbeULz7ekV8&t=6997	
-I'm just chillin' in Cedar Rapids	HillaryClinton_ImJustChillinInCedarRapids.mp3	Podcast	170	01-25-2020	2990	Hillary Clinton	https://youtu.be/RtQPOAHFrK0&t=2990	
-Ive been chuggin the waaater	Ian_IveBeenChugginTheWater.mp3	Podcast	169	01-22-2020	4987	Ian	https://youtu.be/DzjVGrSyPP0&t=4987	
-Get your words straight Jack	JoeBiden_GetYourWordsStraightJack.mp3	Podcast	164	12-07-2019	4810	Joe Biden	https://youtu.be/q_q99sLLKm8&t=4810	
-Look fat heres the deal	JoeBiden_LookFat.mp3	Podcast	164	12-07-2019	4867	Joe Biden	https://youtu.be/q_q99sLLKm8&t=4867	
-I got hairy legs	JoeBiden_IGotHairyLegs.mp3	Podcast	163	12-04-2019	4738	Joe Biden	https://youtu.be/kWGaJlTjGBQ&t=4738	
-I love kids jumping on my lap	JoeBiden_ILoveKidsJumpinOnMyLap.mp3	Podcast	163	12-04-2019	4765	Joe Biden	https://youtu.be/kWGaJlTjGBQ&t=4765	
-That-Th-ThatThat...	JoeBiden_ThatThThatThat.mp3	Podcast	163	12-04-2019	4738	Joe Biden	https://youtu.be/kWGaJlTjGBQ&t=4738	
-He has no pizza experience	PapaJohn_HeHasNoPizzaExperience.mp3	Podcast	161	11-27-2019	1289	Papa John	https://youtu.be/sjxi7xE8EsU&t=1289	
-Hes never been in the pizza category	PapaJohn_HesNeverBeenInThePizzaCategory.mp3	Podcast	161	11-27-2019	1292	Papa John	https://youtu.be/sjxi7xE8EsU&t=1292	
-OH MARVELOUS!!!!	Ethan_OhMarvelous.mp3	Podcast	157	11-13-2019	2065	Ethan	https://youtu.be/1GUgvMRNoTc&t=2065	
-I like it!	Ethan_ILikeIt.mp3	Podcast	155	11-06-2019	4990	Ethan	https://youtu.be/AkJZcJhh7qQ&t=4990	
-And I oop	DrPhil_AndIOop.mp3	Podcast	154	11-02-2019	1665	Dr Phil	https://youtu.be/OwlPtCDGluI&t=1665	
-Fuck you Dan	TrishaPaytas_FuckYouDan.mp3	Podcast	152	10-26-2019	3900	Trisha Paytas	https://youtu.be/_Ud00nah_n4&t=3900	
-So sorry to interrupt, we have to go to break	Dan_SorryToInterrupt.mp3	Podcast	148	10-08-2019	2059	Dan	https://youtu.be/NK-_XJBYv-c&t=2059	
-Deedee Megadoodoo	BriannaClark_DeeDeeMegaDooDoo.mp3	Podcast	136	08-20-2019	551	Brianna Clark	https://youtu.be/ulfHGdz6KB8&t=551	
-Excuse me sir	MobilityMary_ExcuseMeSir.mp3	Podcast	135	08-16-2019	1619	Mobility Mary	https://youtu.be/lYeKevWNU0g&t=1619	
-Its a disability mobility	MobilityMary_ItsADisabilityMobility.mp3	Podcast	135	08-16-2019	1693	Mobility Mary	https://youtu.be/lYeKevWNU0g&t=1693	
-OH MY GOD!	MobilityMary_OhMyGod.mp3	Podcast	135	08-16-2019	2048	Mobility Mary	https://youtu.be/lYeKevWNU0g&t=2048	
-Well better it hits me than hits you	MobilityMary_WellBetterItHitsMeThanHitsYou.mp3	Podcast	135	08-16-2019	2069	Mobility Mary	https://youtu.be/lYeKevWNU0g&t=2069	
-Go to Joe 30330	JoeBiden_GoToJoe30330.mp3	Podcast	133	08-09-2019	2598	Joe Biden	https://youtu.be/pKt615DRnV4&t=2598	
-Spit on my tits and fuck em	Ethan_SpitOnMyTits.mp3	Podcast	131	08-02-2019	1398	Ethan	https://youtu.be/AH4m_aTgsFQ&t=1398	
-Hello Twitter World!	OJSimpson_HelloTwitterWorld.mp3	Podcast	123	06-28-2019	6728	OJ Simpson	https://youtu.be/gzFnlFgrE2E&t=6728	
-Do you have your passports did you get your shots	RKelly_DoYouHaveYouPassports.mp3	Podcast	107	03-08-2019	3550	R Kelly	https://youtu.be/q73TtQLC-W4&t=3550	
-I Gotta Pee so Bad	Ian_IGottaPeeSoBad.mp3	Podcast	106	03-01-2019	5667	Ian	https://youtu.be/-WGeIEK1yY4&t=5667	
+And she thought I looked good!	MelissaMcCarthy_SheThoughtILookedGood.mp3	H3Show	6	05-03-2024	1408	Melissa McCarthy	https://youtu.be/dQO5biMTtsY&t=1408	
+I know it was you Fredo	MichaelCorleon_IKnowItWasYouFredo.mp3	Podcast	233	01-27-2021	3053	Michael Corleone	https://youtu.be/vSkmUdAMm9I&t=3053	
+Rudy Giuliani, you nasty, filthy fucking animal	MichaelRapaport_RudyGiulianiYouNastyFilthy.mp3	OTR	9	08-26-2021	793	Michael Rapaport	https://www.youtube.com/watch?v=btR1WbNWzKc&t=793	
+I have never had an original thought in my life	MikasRhetoric_IveNeverHadAnOriginalThought.mp3	H3Show	96	01-06-2025	13810	Mika's Rhetoric	https://youtu.be/0SWIbsrw5No&t=13810	
+I've also vouched for Jewish people	MikasRhetoric_IVouchedForJewishPeople.mp3	H3Show	96	01-06-2025	7683	Mika's Rhetoric	https://youtu.be/0SWIbsrw5No&t=7683	
+Hi everyone, it's me again	MikasRhetoric_HiEveryoneItsMeAgain.mp3	H3Show	96	01-06-2025	7133	Mika's Rhetoric	https://youtu.be/0SWIbsrw5No&t=7133	
+This filter is suppose to make you look like BAHBEE	Mikayla_LookLikeBarbie.mp3	OTR	74	05-31-2023	10365	Mikayla Nogueira	https://www.youtube.com/watch?v=0ERGVU8l6Es&t=10365	
+MAKEUP BAG	Mikayla_MAKEUPBAG.mp3	H3TV	78	05-22-2023	7217	Mikayla Nogueira	https://youtu.be/5C0VjNTsjk8&t=7217	
+KIM KARDASHIAN	Mikayla_KIMKARDASHIAN.mp3	OTR	72	05-17-2023	1847	Mikayla Nogueira	https://www.youtube.com/watch?v=j_lLeMIwlmE&t=1847	
+Just the Right Height, No Bucket Required	MikeHunt_JustTheRightHeightNoBucketRequired.mp3	Unknown	1	05-05-2015	0	Mike Hunt	https://youtu.be/zOYZ3XMGjUM&t=0	
 JESUS CROIST	MikeServin_JESUSCROIST.mp3	Podcast	103	02-10-2019	2329	Mike Servin	https://youtu.be/hWauSy4epQM&t=2329	
-erhaha	Ricegum_Laugh.mp3	H3H3Productions	1	01-06-2019	359	Ricegum	https://www.youtube.com/watch?v=HNdoEy1gdR8&t=359	
-Monotone Monica over here	Ricegum_MonotoneMonica.mp3	H3H3Productions	1	01-06-2019	359	Ricegum	https://www.youtube.com/watch?v=HNdoEy1gdR8&t=359	
-auugh	WillSmith_Ahhh.mp3	Podcast	98	12-14-2018	9806	Will Smith	https://youtu.be/0oLt5qfxtxQ&t=9806	
-Fortnite	WillSmith_Fortnite.mp3	Podcast	98	12-14-2018	9806	Will Smith	https://youtu.be/0oLt5qfxtxQ&t=9806	
-Its rewind time	WillSmith_ItsRewindTime.mp3	Podcast	98	12-14-2018	9806	Will Smith	https://youtu.be/0oLt5qfxtxQ&t=9806	
-Yaahh	WillSmith_Yuuuhh.mp3	Podcast	98	12-14-2018	9806	Will Smith	https://youtu.be/0oLt5qfxtxQ&t=9806	
-Thats hot	WillSmith_ThatsHot.mp3	Podcast	98	12-14-2018	9806	Will Smith	https://youtu.be/0oLt5qfxtxQ&t=9806	
+Weird Goat Noise	Misc_WeirdGoatNoise.mp3	H3Show	120	03-11-2025	2058	Misc	https://youtu.be/wWG9Msgmnh4&t=2058	/Images/BlueHairedGirl.png
+They're Investigating You Homie!	Misc_TheyreInvestigatingYouHomie.mp3	H3Show	120	03-11-2025	2058	Misc	https://youtu.be/wWG9Msgmnh4&t=2058	/Images/BlueHairedGirl.png
+ANYWHO I'M GONNA GO TO BED NOW	WholeCrew_AnywhoImGonnaGoToBedNow.mp3	H3Show	108	02-10-2025	10247	Misc	https://youtu.be/I0zmBdGEvwU&t=10247	https://www.redbrick.me/wp-content/uploads/2021/11/255880196_279179057470482_8982295856559572115_n1.jpg
+Come into my mouth in the name of jesus!	Misc_ComeIntoMyMouthInTheNameOfJesus.mp3	H3Show	98	01-13-2025	5540	Misc	https://youtu.be/fV-1SveD9gQ&t=5540	https://i.ytimg.com/vi/9uG31s9U__c/mqdefault.jpg
+Come into my mouth	Misc_ComeIntoMyMouth.mp3	H3Show	98	01-13-2025	5540	Misc	https://youtu.be/fV-1SveD9gQ&t=5540	https://i.ytimg.com/vi/9uG31s9U__c/mqdefault.jpg
+Why is there mold in the Lunchly?!	Misc_WhyIsThereMoldInTheLunchly.mp3	H3Show	71	10-25-2024	5787	Misc	https://youtu.be/N8NGpo8N-ic&t=5787	https://i.dailymail.co.uk/1s/2024/10/22/16/91140581-13987187-TikTokkers_have_been_posting_on_the_social_media_platform_images-a-11_1729609399394.jpg
+*WoW Raid Warning*	Misc_RaidWarningSound.mp3	H3Show	16	05-29-2024	5720	Misc	https://youtu.be/jvGC35qMLMw&t=5720	https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/07/world-of-warcraft-the-war-within-raid-schedule-changes.jpg
+Shark Tank Stinger #1	Misc_SharkTank1.mp3	H3Show	15	05-24-2024	6900	Misc	https://youtu.be/iiz9Gispe5I&t=6900	https://m.media-amazon.com/images/S/pv-target-images/2e3ca20bf1d157d4c6373828a91077fc037a704f6641712b6fe795587f10010f.jpg
+Shark Tank Stinger #2	Misc_SharkTank2.mp3	H3Show	15	05-24-2024	6900	Misc	https://youtu.be/iiz9Gispe5I&t=6900	https://m.media-amazon.com/images/S/pv-target-images/2e3ca20bf1d157d4c6373828a91077fc037a704f6641712b6fe795587f10010f.jpg
+It's still real to me DAMMIT!	Misc_ItsStillRealToMeDammit.mp3	AfterDark	126	11-03-2023	2140	Misc	https://www.youtube.com/watch?v=3SwwKqSeF6c&t=2140	https://i.kym-cdn.com/entries/icons/original/000/004/158/1.jpg
+A crane fuckin smashed him right in his head	LilMo_ACraneSmashedHimRightInHisHead.mp3	OTR	87	09-27-2023	11049	Misc	https://www.youtube.com/watch?v=R8Y-ih8DLlc&t=11049	https://www.wppecrane.com/wp-content/uploads/2020/08/GHC_50_IMG_2549_COB_F.png
+Boom, Boom, Boom! Now let me hear you say WAY-HO!	Misc_BoomBoomBoomNowLetMeHearYouSayWayho.mp3	H3TV	81	06-19-2023	1309	Misc	https://youtu.be/bD3yMLPhozo&t=1309	https://lastfm.freetls.fastly.net/i/u/ar0/cc12d34f8db047a586854b87efb40d9e.jpg
+Keemstars rimshot	Misc_KeemstarsRimshot.mp3	OTR	57	01-18-2023	6093	Misc	https://www.youtube.com/watch?v=txuivldLEzo&t=6093	https://source.boomplaymusic.com/group10/M00/12/14/f871d2d705b3469f8391552a99cee9ff_320_320.jpg
+We are gay we are straight	Misc_WeAreGayWeAreStraight.mp3	H3TV	62	01-16-2023	10749	Misc	https://youtu.be/lJNBlXTGSWk&t=10749	https://miro.medium.com/v2/1*NtNByQ8WIgAGZh3dzJy8Xg.jpeg
+200 DPI	Misc_200dpi.mp3	AfterDark	92	12-16-2022	13741	Misc	https://www.youtube.com/watch?v=GgwXXGtUCgE&t=13741	https://c1.neweggimages.com/productimage/nb640/26-436-072-S01.jpg
+3200 DPI	Misc_3200DPI.mp3	H3TV	59	11-28-2022	7567	Misc	https://youtu.be/LY0H8sBnbZY&t=7567	https://c1.neweggimages.com/productimage/nb640/26-436-072-S01.jpg
+8200 DPI!!	Misc_8200DPI.mp3	H3TV	59	11-28-2022	7567	Misc	https://youtu.be/LY0H8sBnbZY&t=7567	https://c1.neweggimages.com/productimage/nb640/26-436-072-S01.jpg
+We got weights in fish	Misc_WeGotWeightsInFish.mp3	OTR	51	10-05-2022	9834	Misc	https://www.youtube.com/watch?v=NI1UG6QGdr8&t=9834	https://media-cldnry.s-nbcnews.com/image/upload/mpx/2704722219/2022_10/FISH-gjruah.jpg
+I've fallen, and I can't get up!	Misc_IveFallen.mp3	OTR	44	07-27-2022	9578	Misc	https://www.youtube.com/watch?v=ADeQ9CPU8SA&t=9578	https://www.seniorliving.org/app/uploads/2018/11/Life-Alert-Help-Button.jpg
+OHHHH monsieurerrrrrrr	Misc_OhMonsieur.mp3	AfterDark	65	02-18-2022	2439	Misc	https://www.youtube.com/watch?v=_mfxcipuqq0&t=2439	https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg3r5_02mijZmskXj5o7gbPHZjzEU30dUuCDGq7vDFSx2B54wPgasYXfD5-tfE7oiMjws&usqp=CAU
+Family	Misc_Family.mp3	AfterDark	60	11-26-2021	3459	Misc	https://www.youtube.com/watch?v=kwDJN1CQzJY&t=3459	https://static1.srcdn.com/wordpress/wp-content/uploads/2021/11/Vin-Diesel-look-a-likes-family.jpg
+Shaun #1	Misc_SHAUN1.mp3	OTR	20	11-25-2021	3441	Misc	https://www.youtube.com/watch?v=lD1Z7NYUXjc&t=3441	https://i.ytimg.com/vi/DAhG9D9UO7c/maxresdefault.jpg
+Shaun #2	Misc_SHAUN2.mp3	OTR	20	11-25-2021	3441	Misc	https://www.youtube.com/watch?v=lD1Z7NYUXjc&t=3441	https://i.ytimg.com/vi/DAhG9D9UO7c/maxresdefault.jpg
+Hes so cool	Misc_HesSoCool.mp3	AfterDark	51	09-24-2021	6911	Misc	https://www.youtube.com/watch?v=GRJLngUhhno&t=6911	https://i.ytimg.com/vi/jqsajGenHTY/maxresdefault.jpg
+♫ Dink Doink is my favorite coin ♪	Misc_DinkDoinkYoureMyFavoriteCoin.mp3	OTR	5	07-15-2021	3474	Misc	https://www.youtube.com/watch?v=xamEkP8HLdA&t=3474	https://i.ytimg.com/vi/ZIwz3JbnqAc/maxresdefault.jpg
+Safe Moon going to the moon baby!!	Misc_SafeMoonGoingToTheMoon.mp3	AfterDark	36	05-13-2021	11090	Misc	https://www.youtube.com/watch?v=4CP_nl037_c&t=11090	https://web-assets.esetstatic.com/wls/2021/09/falsa-app-criptomoneda-safemoon-1.jpg
+Money Ethan	Misc_MoneyEthan.mp3	AfterDark	33	04-23-2021	241	Misc	https://www.youtube.com/watch?v=MjDYycK6n7M&t=241	
+Im not a cat	Misc_ImNotACat.mp3	Podcast	235	02-11-2021	3712	Misc	https://youtu.be/3tqvNI1HIcI&t=3712	https://static01.nyt.com/images/2021/02/09/world/oakImage-1612906052458/oakImage-1612906052458-superJumbo.jpg
+Sharples thats not your ID	Misc_SharplesThatsNotYourID.mp3	AfterDark	9	10-23-2020	3960	Misc	https://youtu.be/0VUy5lRXk80&t=3960	https://www.thesun.co.uk/wp-content/uploads/2019/04/Key1.png
 Fill that bag up!	Misc_FillThatBagUp.mp3	Podcast	98	12-14-2018	4532	Misc	https://youtu.be/0oLt5qfxtxQ&t=4532	https://i1.sndcdn.com/artworks-000483807144-1hznqa-t500x500.jpg
-DESTROY THE CHILD!	AlexJones_DestroyTheChild.mp3	Podcast	77	08-11-2018	1593	Alex Jones	https://youtu.be/fA8eOB91-fY&t=1593	
-I THOUGHT THE BITCH WAS WHITE	RoseanneBarr_IThoughtTheBitchWasWhite.mp3	Podcast	75	07-27-2018	4100	Roseanne Barr	https://youtu.be/pKENOdgWWUY&t=4100	
-I like that	GarthBrooks_ILikeThat.mp3	Podcast	71	06-29-2018	4222	Garth Brooks	https://youtu.be/ecLCI0JhyW4&t=4222	
-Let the conversation begin	GarthBrooks_LetTheConversationBegin.mp3	Podcast	71	06-29-2018	4435	Garth Brooks	https://youtu.be/ecLCI0JhyW4&t=4435	
-BITCONNNNECT	CarlosMatos_BITCONNNNECT.mp3	H3H3Productions	2	01-23-2018	49	Carlos Matos	https://youtu.be/EhL2OWXZ26s&t=49	
-Hey hey heyyyy	CarlosMatos_HEYHEYHEYYYY.mp3	H3H3Productions	2	01-23-2018	36	Carlos Matos	https://youtu.be/EhL2OWXZ26s&t=36	
-I am so excited	CarlosMatos_ImSoExcited.mp3	H3H3Productions	2	01-23-2018	92	Carlos Matos	https://youtu.be/EhL2OWXZ26s&t=92	
-Mmmm NO NO NO	CarlosMatos_MmmMmmNoNoNo.mp3	H3H3Productions	2	01-23-2018	113	Carlos Matos	https://youtu.be/EhL2OWXZ26s&t=113	
-THE WORLD IS NOT ANYMORE THE WAY THAT IT USED TO BE!	CarlosMatos_TheWorldIsNotTheWayItUsedToBe.mp3	H3H3Productions	2	01-23-2018	110	Carlos Matos	https://youtu.be/EhL2OWXZ26s&t=110	
-What am I gonna do	CarlosMatos_WhatAmIGonnaDo.mp3	H3H3Productions	2	01-23-2018	356	Carlos Matos	https://youtu.be/EhL2OWXZ26s&t=356	
-WHATSA WHATSA WHATSA WHATSA WHATS UP	CarlosMatos_WhatsUp.mp3	H3H3Productions	2	01-23-2018	44	Carlos Matos	https://youtu.be/EhL2OWXZ26s&t=44	
-I think there's someone hanging right there...	LoganPaul_IThinkTheresSomeoneHangingRightThere.mp3	H3H3Productions	5	01-16-2018	0	Logan Paul	https://www.youtube.com/watch?v=N3Dlpky9ey8&t=0	
-Someone save me	VinDiesel_SomeoneSaveMe.mp3	Podcast	21	08-17-2017	1317	Vin Diesel	https://youtu.be/MBZC4FxMQ_E&t=1317	
-Talk to me Baby	VinDiesel_TalkToMeBaby.mp3	Podcast	21	08-17-2017	1164	Vin Diesel	https://youtu.be/MBZC4FxMQ_E&t=1164	
-When did this turn into beautiful world	VinDiesel_WhenDidThisTurnIntoBeautifulWorld.mp3	Podcast	21	08-17-2017	1318	Vin Diesel	https://youtu.be/MBZC4FxMQ_E&t=1318	
-Wow man	VinDiesel_WowMan.mp3	Podcast	21	08-17-2017	1192	Vin Diesel	https://youtu.be/MBZC4FxMQ_E&t=1192	
-All different flavors #1	JimmieLee_AllDifferentFlavors1.mp3	Podcast	20	08-13-2017	1631	Jimmie Lee	https://youtu.be/rq8HL3jVy-M&t=1631	
-Im a motha freakin blueberry	LoganPaul_ImAMotherFreakingBlueberry.mp3	H3H3Productions	3	12-09-2016	684	Logan Paul	https://youtu.be/q7Gh_-KDXAk&t=684	
-Let me tell you bout banana	LoganPaul_LetMeTellYouAboutBanana.mp3	H3H3Productions	3	12-09-2016	684	Logan Paul	https://youtu.be/q7Gh_-KDXAk&t=684	
-Ohoho Now Im a strawberry	LoganPaul_NowImAStrawberry.mp3	H3H3Productions	3	12-09-2016	684	Logan Paul	https://youtu.be/q7Gh_-KDXAk&t=684	
-With her boob coming out	JoeySalads_WithHerBoobComingOut.mp3	EthanAndHila	3	03-07-2016	78	Joey Salads	https://youtu.be/nHHzQ8VPtAs&t=78	
-Can you guys BACK UP?!	Vitaly_BACKUP.mp3	H3H3Productions	8	10-05-2015	215	Vitaly	https://youtu.be/W_qePqppbdQ&t=215	
 Fart #1 (Just a fart)	Misc_Fart.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	https://www.shutterstock.com/image-vector/cute-funny-man-jumping-flying-600nw-1724667286.jpg
 Fart #2 (Dry and Deep)	Misc_FartDryAndDeep.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	https://www.shutterstock.com/image-vector/cute-funny-man-jumping-flying-600nw-1724667286.jpg
 Fart #3 (Long And Quiet)	Misc_FartLongAndQuiet.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	https://www.shutterstock.com/image-vector/cute-funny-man-jumping-flying-600nw-1724667286.jpg
@@ -545,61 +570,350 @@ Fart #5 (Toot)	Misc_FartToot.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zO
 Fart #6 (Weird)	Misc_FartWeird.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	https://www.shutterstock.com/image-vector/cute-funny-man-jumping-flying-600nw-1724667286.jpg
 Fart #7 (Wet and Disgusting)	Misc_FartWetAndDisgusting.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	https://www.shutterstock.com/image-vector/cute-funny-man-jumping-flying-600nw-1724667286.jpg
 Fart #8 (Shitting into a metal pot)	Misc_FartEcho.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	https://willoughby-ind.com/wp-content/uploads/2017/12/ETWS-1490-FM-400x400.png
-Stop laughing AT SONIC	BowBlax_StopLaughingAtSonic.mp3	Unknown	1	05-05-2015	0	Bowblax	https://youtu.be/zOYZ3XMGjUM&t=0	
-Im gonna cum	DonaldTrump_ImGonnaCum.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
-I FUCKED UP	Keemstar_IFuckedUp.mp3	Unknown	1	05-05-2015	0	Keemstar	https://youtu.be/zOYZ3XMGjUM&t=0	
-I have small dick energy	AndrewTate_SmallDickEnergy.mp3	Unknown	1	05-05-2015	0	Andrew Tate	https://youtu.be/zOYZ3XMGjUM&t=0	
-I smoke marijuana so I dont beat my wife and children	DanaWhite_ISmokeSoIDontBeatMyWifeAndChildren.mp3	Unknown	1	05-05-2015	0	Dana White	https://youtu.be/zOYZ3XMGjUM&t=0	
-Bye Bye	DonaldTrump_ByeBye.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
-Okaaaay	DonaldTrump_Okaaaay.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
-Congrachulations!	Drake_Congratulations.mp3	Unknown	1	05-05-2015	0	Drake	https://youtu.be/zOYZ3XMGjUM&t=0	
-Im SorrEeey!	Drake_ImSorry.mp3	Unknown	1	05-05-2015	0	Drake	https://youtu.be/zOYZ3XMGjUM&t=0	
-I need a max wynn.	Drake_INeedTheMaxWin.mp3	Unknown	1	05-05-2015	0	Drake	https://youtu.be/zOYZ3XMGjUM&t=0	
-Ohhhh my Gohhhd!	Drake_OhMyGod.mp3	Unknown	1	05-05-2015	0	Drake	https://youtu.be/zOYZ3XMGjUM&t=0	
-Blew my tits right off my fat body	Ethan_BlewMyTits.mp3	Unknown	1	05-05-2015	0	Ethan	https://youtu.be/zOYZ3XMGjUM&t=0	
-WOAAAAAAH	Ethan_WOOOOAAAAH.mp3	Unknown	1	05-05-2015	0	Ethan	https://youtu.be/zOYZ3XMGjUM&t=0	
-CRACKA	HasanPiker_Cracka.mp3	Unknown	1	05-05-2015	0	Hasan Piker	https://youtu.be/zOYZ3XMGjUM&t=0	
-What a fucking piece of shit dude	HasanPiker_WhatAFuckingPieceOfShit.mp3	Unknown	1	05-05-2015	0	Hasan Piker	https://youtu.be/zOYZ3XMGjUM&t=0	
-Lets google some Isis videos	Hila_LetsGoogleSomeISISVideos.mp3	Unknown	1	05-05-2015	0	Hila	https://youtu.be/zOYZ3XMGjUM&t=0	
-Hilas Ricegum laugh	Hila_RiceGumLaugh.mp3	Unknown	1	05-05-2015	0	Hila	https://youtu.be/zOYZ3XMGjUM&t=0	
-What up big pimps	Hila_WhatUpBigPimps.mp3	Unknown	1	05-05-2015	0	Hila	https://youtu.be/zOYZ3XMGjUM&t=0	
-Youre in the wrong street cuz	Hila_WrongStreetCuz.mp3	Unknown	1	05-05-2015	0	Hila	https://youtu.be/zOYZ3XMGjUM&t=0	
-Gotcha hat	JakePaul_GotchaHat.mp3	Unknown	1	05-05-2015	0	Jake Paul	https://youtu.be/zOYZ3XMGjUM&t=0	
-Wow sister shnapped	JamesCharles_SisterSnapped.mp3	Unknown	1	05-05-2015	0	James Charles	https://youtu.be/zOYZ3XMGjUM&t=0	
-Ah	JaredLeto_Ah.mp3	Unknown	1	05-05-2015	0	Jared Leto	https://youtu.be/zOYZ3XMGjUM&t=0	
-I would call that uh false advertising	JaRule_IWouldCallThatFalseAdvertising.mp3	Unknown	1	05-05-2015	0	Ja Rule	https://youtu.be/zOYZ3XMGjUM&t=0	
-I would call that uh FRAUD	JaRule_IWouldCallThatFraud.mp3	Unknown	1	05-05-2015	0	Ja Rule	https://youtu.be/zOYZ3XMGjUM&t=0	
-Thats FRAUD	JaRule_ThatsFraud.mp3	Unknown	1	05-05-2015	0	Ja Rule	https://youtu.be/zOYZ3XMGjUM&t=0	
-Thats not fraud	JaRule_ThatsNotFraud.mp3	Unknown	1	05-05-2015	0	Ja Rule	https://youtu.be/zOYZ3XMGjUM&t=0	
-BETA	JesseLeePeterson_BETA.mp3	Unknown	1	05-05-2015	0	Jesse Lee Peterson	https://youtu.be/zOYZ3XMGjUM&t=0	
-From death to life	KennethCopeland_FromDeathToLife.mp3	Unknown	1	05-05-2015	0	Kenneth Copeland	https://youtu.be/zOYZ3XMGjUM&t=0	
 *BONK*	Misc_BonkNoise.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
 Bruh.	Misc_Bruh.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
 HES STEALING IT	Misc_HesStealingIt.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
 Ladies and gentleman we are all deomstic terrorists	Misc_LadiesAndGentlemenWeAreAllDomesticTerrorists.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
 Something is about to bust	Misc_SomethingIsAboutToBust.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+God Bless America!! (Voice Crack)	Misc_GodBlessAmerica.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+24 Karat Gold Labubu	Misc_24KaratGoldLabubu.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+Biggest Fucking Bummer News	Misc_BiggestBummerNews.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+*Ding Ding* Shame	Misc_DINGDINGDINGSHAMESHAME.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Don't Want Your Damn Elephant On Me!	Misc_DontWantYourDamnElephant.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+Do you see him?	Misc_DoYouSeeHim.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Dont Want Your Damn Elephants Here!	Misc_ElephantsHere.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+WORLD PREMIERE	Misc_EthanWorldPremiere.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+Everybody Know a Pedophile	Misc_EverybodyKnowAPedophile.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+♪ Feminism is a problem ♫	Misc_FeminismIsAProblem.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Don't Want Your Elephant on My Face!	Misc_GetItOffMeElephant.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+If you see Jesus, Subscribe Right Now!	Misc_JesusSubscribeRightNow.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+Tiddies Jiggle Song	Misc_JiggleJiggleSong.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+Look at this Picture Closely	Misc_LookAtThisPictureClosely.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+Traffic Report + Moo Deng Time	Misc_MooDangTimeTrafficReport.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+Nah We Ain't Doin' That	Misc_NahWeWaintDoingThat.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+Now Squint Your Eyes	Misc_NowSquintYourEyes.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+An Important Announcement, Queen Elizabeth is Dead	Misc_QueenDeathAnnouncement.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+♪ Sad Cam Music ♪	Misc_SadCamMusic.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+Thank You For the Roses	Misc_ThankYouForTheRoses.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+♪ That's America! ♪	Misc_ThatsAmerica.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+That's True	Misc_ThatsTrue.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+TikTok is My Home	Misc_TikTokIsMyHome.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+TikTok is Our Home	Misc_TikTokIsOurHome.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+Turn Your Head Sideways	Misc_TurnYourHeadSideways.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+World Record Walnut Cracking Noises	Misc_WalnutSound.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+War Horn	Misc_WarHorn.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+What Part of That Do You Not Understand?!	Misc_WhatPartOfThatDontYouUnderstand.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+KNOCKING OVER MY WIFE!!	TomHanks_KnockingOverMyWife.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+One... Small... Man	NeilArmstrong_ThatsOneSmallStepForMan.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Was Bullied Because I Had Red Hair	FIFA_RedHair.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
+You are a loser	MissBrantley_YouAreALoser.mp3	OTR	57	01-18-2023	5540	Miss Brantley	https://www.youtube.com/watch?v=txuivldLEzo&t=5540	
+You're a fun sucker	MissBrantley_YoureAFunSucker.mp3	OTR	57	01-18-2023	5540	Miss Brantley	https://www.youtube.com/watch?v=txuivldLEzo&t=5540	
+That's Really Good!	Mizkif_ThatsReallyGood.mp3	Unknown	1	05-05-2015	0	Mizkif	https://youtu.be/zOYZ3XMGjUM&t=0	
+That's Very Good!	Mizkif_ThatsVeryGood.mp3	Unknown	1	05-05-2015	0	Mizkif	https://youtu.be/zOYZ3XMGjUM&t=0	
+Excuse me sir	MobilityMary_ExcuseMeSir.mp3	Podcast	135	08-16-2019	1619	Mobility Mary	https://youtu.be/lYeKevWNU0g&t=1619	
+Its a disability mobility	MobilityMary_ItsADisabilityMobility.mp3	Podcast	135	08-16-2019	1693	Mobility Mary	https://youtu.be/lYeKevWNU0g&t=1693	
+OH MY GOD!	MobilityMary_OhMyGod.mp3	Podcast	135	08-16-2019	2048	Mobility Mary	https://youtu.be/lYeKevWNU0g&t=2048	
+Well better it hits me than hits you	MobilityMary_WellBetterItHitsMeThanHitsYou.mp3	Podcast	135	08-16-2019	2069	Mobility Mary	https://youtu.be/lYeKevWNU0g&t=2069	
+Joe Biden Wake Up	Wali_JoeBidenWakeUp.mp3	Unknown	1	05-05-2015	0	Mohammad Rajab Wali	https://youtu.be/zOYZ3XMGjUM&t=0	
+Happy Birthday!	Wali_HappyBirthdayAB.mp3	Unknown	1	05-05-2015	0	Mohammad Rajab Wali	https://youtu.be/zOYZ3XMGjUM&t=0	
+I know Ethan hates me now	MoistCritical_EthanHatesMeNow.mp3	H3Show	15	05-24-2024	6226	Moist Critical	https://youtu.be/iiz9Gispe5I&t=6226	
+It's cool to be a soundbite I suppose	MoistCritical_CoolToBeASoundbite.mp3	H3Show	15	05-24-2024	6226	Moist Critical	https://youtu.be/iiz9Gispe5I&t=6226	
+$28 A LOT for some Cookies	MoistCritical_CookieRant.mp3	H3TV	99	11-20-2023	10981	Moist Critical	https://www.youtube.com/watch?v=npYrseihU8E&t=10981	
+Cookie Rant	MoistCritical_Cookie Rant.mp3	H3TV	99	11-20-2023	10980	Moist Critical	https://www.youtube.com/watch?v=npYrseihU8E&t=10980	
+DAMN YOU JEWS!	MoistCritical_DamnYouJews.mp3	Unknown	1	05-05-2015	0	Moist Critical	https://youtu.be/zOYZ3XMGjUM&t=0	
+Even Online Chess is Jewish Now!	MoistCritical_EvenOnlineChessIsJewishNowCrazy.mp3	Unknown	1	05-05-2015	0	Moist Critical	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Hate Jews So Fucking Much Man	MoistCritical_IHateJewsSoFuckingMuchMan.mp3	Unknown	1	05-05-2015	0	Moist Critical	https://youtu.be/zOYZ3XMGjUM&t=0	
+The Jews Brainwash Me While Eating Cheerio's!	MoistCritical_JewsBrainwashMe.mp3	Unknown	1	05-05-2015	0	Moist Critical	https://youtu.be/zOYZ3XMGjUM&t=0	
+The Jews Made My Cat Pissed Outside It's Literbox!	MoistCritical_JewsCatRant.mp3	Unknown	1	05-05-2015	0	Moist Critical	https://youtu.be/zOYZ3XMGjUM&t=0	
+JEWS WHY?!	MoistCritical_JewsWhy.mp3	Unknown	1	05-05-2015	0	Moist Critical	https://youtu.be/zOYZ3XMGjUM&t=0	
+Let me Guess, You're Jewish	MoistCritical_YoureJewish.mp3	Unknown	1	05-05-2015	0	Moist Critical	https://youtu.be/zOYZ3XMGjUM&t=0	
+I TIED UP AN FBI AGENT (Different Languages)	MrBeast_DifferentLanguages.mp3	AfterDark	101	04-14-2023	7622	Mr Beast	https://www.youtube.com/watch?v=r6vG1VKGnOo&t=7622	
+I'm on an Island Infested with Snakes!	MrBeast_IAmCurrentlyIslandInfestedWithSnakes.mp3	Unknown	1	05-05-2015	0	Mr Beast	https://youtu.be/zOYZ3XMGjUM&t=0	
+I was shooting ropes bro	Nate_IWasShootingRopesBro.mp3	H3Show	103	01-29-2025	1907	Nate	https://youtu.be/oDdnL6Pd9qU&t=1907	
+AB Referencing Something Other than Scarface and The Mummy	Nate_AbReferencingSomethingOtherThanScarfaceAndMummy.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+A Kid Yelled Out Fuck Mexicans	Nate_AKidYelledOutFuckMexicans.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+A Little Lizard	Nate_ALittleLizard.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Alright You Can Have It	Nate_AlrightYouCanHaveIt.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Are You Okay?	Nate_AreYouOkay.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Because I Was Trying to Romance Her and Couldn't Get Her	Nate_BecauseIWasTryingToRomanceHer.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Beef Tartare?	Nate_BeefTarTar.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+(Rant) Beef with his Brother ...	Nate_BeefWithHisBrotherRant.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Challenged?	Nate_Challenged.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Chat Says it Was a Bill Burr Fan	Nate_ChatSaysBillBurrFan.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Chill Out	Nate_ChillOut.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+He Look Like a Clown Without Makeup	Nate_ClownWithoutMakeup.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Corporate Job's Stupid Meetings	Nate_CorporateJobWasteOfTime.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Dan Just Like's Bullying Father's	Nate_DanJustLikeBullyingFathers.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Dating a Latina is Not For the Faint of Heart	Nate_DatingALatinaIsNotForTheFaintOfHeart.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Documentary?	Nate_Documentary.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Doki Doki Panic!	Nate_DokiDokiPanic.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Download That	Nate_DownloadThat.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Dr Pepper is Owned by Kurrig	Nate_DrPepperIsOwnedByKeirig.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Everyone Was Saying I Looked Like a Little Kid	Nate_EveryoneWasSayingILookedLikeAKid.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Gotta Get it Together, Ethan	Nate_GottaGetItTogetherEthan.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+(Rant) Guy Going to Gaza Context	Nate_HasanConsideredGoingToGaza.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Heat Kills the Germs, Right?	Nate_HeatKillsTheGerms.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+He Cooked All the Food	Nate_HeCookedAllTheFood.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+He Does	Nate_HeHasSoMuchFuckingAuraDudeComeOn.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+He Has so Much Fucking Aura Bro	Nate_HeDoes.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+He is the Second Best Batman...	Nate_HeIsTheSecondBestBatman.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+He's Cooked For Sure	Nate_ImGonnaWriteItInChat.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Hey Ethan Sorry to Interrupt, Philly D just Dropped	Nate_HesCookedForSure.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Hopefully You're Not Wearing Any Shorts	Nate_HeyEthanPhillyDJustDropped.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+How Does he Pee?	Nate_HopefullyNotWearingAnyShorts.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Do	Nate_HowDoesHePee.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Don't Think This is Real	Nate_IDo.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+(Rant) Instagram Live Uploads	Nate_IDontThinkThisIsReal.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Have One Too	Nate_IgLiveTalk.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Just Said Next Week	Nate_IHaveOneToo.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Like it When You Call Me Big Papa	Nate_IJustSaidNextWeek.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Like Pocahontas	Nate_ILikeItWhenYouCallMeBigPapa.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+At Some Point Stop Talking to People and Party	Nate_ILikePocahontas.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Mean it Sounds Pretty Cool to Me	Nate_IllSayAtSomePointStopTalkingToPeopleDrinkWithFriends.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+I'm Gonna Write it in Chat	Nate_IMeanSoundsPrettyCoolToMe.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+I'm Turning 30 This Year	Nate_ImTurning30ThisYear.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+If You Have Just Different Inflations it's 823 Million	Nate_InflationThreeHundredMillion.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Said It's Not Really That Funny	Nate_ISaidItsReallyNotThatFunny.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Is that on the List?	Nate_IsThatOnTheList.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+It Got Worse After the Obama Era	Nate_ItGotWorseAfterTheObamaEra.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Thought we Were Talking About That	Nate_IThoughtWeWereTalkingAboutThat.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+It Means Cock	Nate_ItMeansCock.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+It Starts Spinning Really Fast, You Know?	Nate_ItStartsSpinningReallyFast.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+It Was Nate, Nate Did it All	Nate_ItWasNateNateDidItAll.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Just go Back to the Show Bro	Nate_JustGoBackToTheShowBro.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+You Could Say Verga	Nate_JustSayVerga.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+*Laughing*	Nate_Laughing.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Lets Meet Tomorrow	Nate_LetsMeetTomorrow.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Love Skipped it	Nate_LoveSkippedIt.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+(Rant) Nicki Minaj	Nate_NickiMinajRant.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+No He Fucked Up	Nate_NoHeFuckedUp.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Not Downgrading Because She's White...	Nate_NotDowngradingBecauseShesWhite.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Not Really if I'm Being Honest	Nate_NotReallyIfImBeingHonest.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Now Maybe Punching Down	Nate_NowMaybePunchingDown.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Oceans 11 Made 450 Million Dollars	Nate_Oceans11MadeMillionsAtTheBoxOffice.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Of Course It's Real	Nate_OfCourseItsReal.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Okay...	Nate_Okay.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+He's the One Who Tests the Poison Food	Nate_PoisonFoodTester.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Pokemon ZA Bro	Nate_PokemonZABro.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Right Now?	Nate_RightNow.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Rum Tum Tugger	Nate_RumTumTugger.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Want to Learn How to Say Glove in Spanish?	Nate_SayGloveInSpanish.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Guante	Nate_SayingGuante.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+She Told Casey Today You Look Like Buzz Lightyear	Nate_SheToldCaseyYouLookLikeBuzzLightyear.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Shut Up Bro	Nate_ShutUpBro.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+The Sticks are too Small on the Steamdeck	Nate_SticksOnSteamdeckAreSmallerHarderToAim.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+The Tesseract has the Space Stone in it	Nate_TesseractSpaceStone.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+That's From King of the Hill	Nate_ThatIsFromKingOfTheHill.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+The Cherry Thing was Super Good	Nate_TheCherryThingWasSuperGood.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+The House Thing just Cracks me Up	Nate_TheHouseThingCracksMeUp.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+There's a Place Called Donut Hut	Nate_ThereIsAPlaceOnTheWayCalledDonutHut.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+This Looks Fake	Nate_ThisLooksFake.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Family Member Post TikTok on Instagram	Nate_TikTokOnInstagramStory.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Time is an Illusion, That's Correct	Nate_TimeIsAnIllusion.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+To be Fair it Probably Smells Like Shit	Nate_ToBeFairItProbablySmellsLikeShit.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Uh No	Nate_UhhYeaSure.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Uh Sure Why Not	Nate_UhSureWhyNot.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Why Aren't You Upset About it?	Nate_UpsetBcYouKnowHer.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Using the Bidet Cleaning Your Pito	Nate_UsingTheBidetCleaningYourPito.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Verga	Nate_Verga.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+He Talks About His Whole Career on YouTube	Nate_VideoIsGoodTalksAboutHisWholeCareer.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Wanna Fight a Baby?	Nate_WannaFightABaby.mp3	H3Show	175	08-04-2025	6930	Nate	https://youtu.be/o9e0kbC10J0&t=6930	
+Wanna Say Something Cool in Spanish?	Nate_WannaSaySomethingCoolInSpanish.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+What	Nate_What.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Who Put Him in the Void?	Nate_WhoPutHimInTheVoid.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Why'd You Post this Video	Nate_WhyDidYouPostThisVideo.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Wow I Wish that Were Me	Nate_WowIWishThatWereMe.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Yeah I'm Listening Don't Worry	Nate_YeahImListeningDontWorry.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Yeah It's Back Already	Nate_YeahItsBackAlready.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Yeah It's Dales Fake Name	Nate_YeahItsDalesFakeName.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Yeah Of Course Why Not	Nate_YeahOfCourseWhyNot.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Yeah That's a Skip	Nate_YeahThatsASkip.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Yes That's Him	Nate_YesThatsHim.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+You Could Hold onto Mine During the Show	Nate_YouCanHoldOntoMeDuringTheShow.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+You'd be Surprised Dan	Nate_YoudBeSurprisedDan.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Is it Cause You're 40 Now?	Nate_Youre40Now.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+You're Five Ten	Nate_YoureFiveTen.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+You're Welcome	Nate_YoureWelcome.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+You Want to Give me My Kiss Goodnight?	Nate_YouWantToGiveHimAKissGoodnight.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+(Rant) Denny's	Nate_DennysRant.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+(Rant) Lunchly	Nate_TalkingAboutLunchly.mp3	Unknown	1	05-05-2015	0	Nate	https://youtu.be/zOYZ3XMGjUM&t=0	
+Kids love Hitler!	NickFuentes_KidsLoveHitler.mp3	Leftovers	34	12-08-2022	3003	Nick Fuentes	https://www.youtube.com/watch?v=mZDKKqeA6fI&t=3003	
+It's too thick, I can't suck it	Ninja_TooThickICantSuckIt.mp3	H3Show	96	01-06-2025	3303	Ninja	https://youtu.be/0SWIbsrw5No&t=3303	
+Am I Jewish?!	Ninja_AmIJewish.mp3	OTR	56	11-30-2022	1245	Ninja	https://www.youtube.com/watch?v=0TyXVP4OYNM&t=1245	
+I thought it was free speech	Ninja_IThoughtItWasFreeSpeech.mp3	OTR	54	11-09-2022	376	Ninja	https://www.youtube.com/watch?v=BraYUdc3YRo&t=376	
+I cant control my GOOOO	Ninja_CantControlMyGoo.mp3	OTR	52	10-12-2022	1758	Ninja	https://www.youtube.com/watch?v=PyYWRkS7ZmA&t=1758	
+Yayayayayay woooooooooooo	Ninja_YayayayayaYAYAYAYAWOOOOOOOOO.mp3	OTR	51	10-05-2022	10417	Ninja	https://www.youtube.com/watch?v=NI1UG6QGdr8&t=10417	
+Hello	Ninja_Hello.mp3	AfterDark	84	09-16-2022	2736	Ninja	https://www.youtube.com/watch?v=ADAzc3jrxIY&t=2736	
+Thank you for the gifted Crew pack	Ninja_ThankingCrewForTheGifted.mp3	OTR	44	07-27-2022	3257	Ninja	https://www.youtube.com/watch?v=ADeQ9CPU8SA&t=3257	
+Yo Triller my thing is flipped	NoahBeck_YoTrillerMyThingsFlipped.mp3	AfterDark	43	07-02-2021	7422	Noah Beck	https://www.youtube.com/watch?v=lw8E6x_tiQE&t=7422	
+Hello Twitter World!	OJSimpson_HelloTwitterWorld.mp3	Podcast	123	06-28-2019	6728	OJ Simpson	https://youtu.be/gzFnlFgrE2E&t=6728	
+What the fuck	OliverTree_WhatTheFuck.mp3	Podcast	198	07-18-2020	502	Oliver Tree	https://youtu.be/tnCV_5QVp4s&t=502	
+Its happening	Olivia_ITSHAPPENING.mp3	H3TV	57	11-14-2022	322	Olivia	https://youtu.be/Y0idXvAgs6Q&t=322	
+Thank you for the gifted	Olivia_ThankYouForTheGifted.mp3	H3TV	51	09-12-2022	5781	Olivia	https://youtu.be/1Z4LTCCodeg&t=5781	
+I got my prostate milked by Ethan Klein	Olivia_IGotMyProstateMilked.mp3	OTR	45	08-10-2022	1932	Olivia	https://www.youtube.com/watch?v=pUAWStsw8jY&t=1932	
+NEVER BE A BETA	OwenCook_NeverBeABeta.mp3	AfterDark	50	09-10-2021	4459	Owen Cook	https://www.youtube.com/watch?v=HnLJNxkS_AE&t=4459	
+Just never ever do it, it is DEATH!	OwenCook_NeverEverDoIt.mp3	AfterDark	50	09-10-2021	4457	Owen Cook	https://www.youtube.com/watch?v=HnLJNxkS_AE&t=4457	
+It's the first time for me in the Marvel Universe	OwenWilson_MarvelFull.mp3	AfterDark	41	06-18-2021	723	Owen Wilson	https://www.youtube.com/watch?v=8aCfvBnOcnU&t=723	
+Lets go!	PandP_LetsGooo.mp3	AfterDark	71	04-29-2022	4981	P and P	https://www.youtube.com/watch?v=cztc_OXvqJI&t=4981	
+I love pizza and I love people	PapaJohn_ILovePizzaAndILovePeople.mp3	Podcast	174	02-10-2020	80	Papa John	https://youtu.be/XGtMMYWhdUU&t=80	
+Pizzas actually very nutricious	PapaJohn_PizzaIsActuallyVeryNutricious.mp3	Podcast	174	02-10-2020	1036	Papa John	https://youtu.be/XGtMMYWhdUU&t=1036	
+He has no pizza experience	PapaJohn_HeHasNoPizzaExperience.mp3	Podcast	161	11-27-2019	1289	Papa John	https://youtu.be/sjxi7xE8EsU&t=1289	
+Hes never been in the pizza category	PapaJohn_HesNeverBeenInThePizzaCategory.mp3	Podcast	161	11-27-2019	1292	Papa John	https://youtu.be/sjxi7xE8EsU&t=1292	
+Semen is another kind of milk	PastorManning_SemenIsAnotherKindOfMilk.mp3	AfterDark	26	03-05-2021	5711	Pastor Manning	https://www.youtube.com/watch?v=xliblinydqE&t=5711	
+Victory victory victory victory	PaulaWhite_VictoryVictoryVictoryVictory.mp3	AfterDark	11	11-06-2020	2364	Paula White	https://www.youtube.com/watch?v=C5fZYmnTd3Q&t=2364	
 SUP SUP SUP SUP SUP SUP SUP	PhillyD_supsupsupsup.mp3	Unknown	1	05-05-2015	0	Philip Defranco	https://youtu.be/zOYZ3XMGjUM&t=0	
+Olivia has found herself to be in hot water	PhillyD_OliviaBoilingWater.mp3	Unknown	1	05-05-2015	0	Philip Defranco	https://youtu.be/zOYZ3XMGjUM&t=0	
+Sucking a Smoko	PrinceHarry_SuckingASmoko.mp3	OTR	57	01-18-2023	3284	Prince Harry	https://www.youtube.com/watch?v=txuivldLEzo&t=3284	
+Todger	PrinceHarry_Todger.mp3	OTR	57	01-18-2023	3002	Prince Harry	https://www.youtube.com/watch?v=txuivldLEzo&t=3002	
+Yeah I did	ProJared_YeahIDidRant.mp3	Unknown	1	05-05-2015	0	ProJared	https://youtu.be/zOYZ3XMGjUM&t=0	
+You're Gonna Cuck Me	ProJared_YourGonnaCuckMe.mp3	Unknown	1	05-05-2015	0	ProJared	https://youtu.be/zOYZ3XMGjUM&t=0	
+Do you have your passports did you get your shots	RKelly_DoYouHaveYouPassports.mp3	Podcast	107	03-08-2019	3550	R Kelly	https://youtu.be/q73TtQLC-W4&t=3550	
+The ideal stocking stuffer	RFKJr_IdealStockingStuffer.mp3	H3Show	86	11-27-2024	1736	RFK Jr	https://youtu.be/P62RrxPzQR8&t=1736	
+It's a Bird Grasshopper	RfkJr_BirdGrasshopper.mp3	Unknown	1	05-05-2015	0	RFK Jr	https://youtu.be/zOYZ3XMGjUM&t=0	
+erhaha	Ricegum_Laugh.mp3	H3H3Productions	1	01-06-2019	359	Ricegum	https://www.youtube.com/watch?v=HNdoEy1gdR8&t=359	
+Monotone Monica over here	Ricegum_MonotoneMonica.mp3	H3H3Productions	1	01-06-2019	359	Ricegum	https://www.youtube.com/watch?v=HNdoEy1gdR8&t=359	
+Dan... Is jealous of me	RichLux_DanIsJealousOfMe.mp3	SYNT	31	05-16-2023	2284	Rich Lux	https://youtu.be/zOYZ3XMGjUM&t=2284	
+Dan is the Queen cant do nothing wrong!	RichLux_DanIsTheQueen.mp3	SYNT	31	05-16-2023	2805	Rich Lux	https://youtu.be/zOYZ3XMGjUM&t=2805	
+I cant STAND Dan	RichLux_ICantStandDan.mp3	SYNT	31	05-16-2023	2805	Rich Lux	https://youtu.be/zOYZ3XMGjUM&t=2805	
+Can't Even Ride Space Mountain	RichLux_RideSpaceMountain.mp3	Unknown	1	05-05-2015	0	Rich Lux	https://youtu.be/zOYZ3XMGjUM&t=0	
+*Screams as car runs over foot	RichardSimons_Screaming.mp3	H3TV	113	04-01-2024	7433	Richard Simmons	https://www.youtube.com/watch?v=zkoKnz5zE3o&t=7433	
+I can see you, I can see what you're doing	RingoStarr_YesICanSeeYou.mp3	H3Show	93	12-16-2024	6125	Ringo Starr	https://youtu.be/x-hY1RZf8YE&t=6125	
+Thank you thank you	RingoStarr_ThankYouThankYou.mp3	Podcast	205	09-08-2020	3750	Ringo Starr	https://youtu.be/sVlTKQueUSE&t=3750	
+Peace and Love	Ringo_ImWarningYouWithPeaceAndLove.mp3	Unknown	1	05-05-2015	0	Ringo Starr	https://youtu.be/zOYZ3XMGjUM&t=0	
 Its not your fault	RobinWilliams_ItsNotYourFault.mp3	Unknown	1	05-05-2015	0	Robin Williams	https://youtu.be/zOYZ3XMGjUM&t=0	
+What are you afraid of Ian	RoloTony_WhatAreYouAfraidOfIan.mp3	OTR	26	03-02-2022	7942	Rolo Tony	https://www.youtube.com/watch?v=AoBAiEK2Hug&t=7942	
+Fight Fight Fight!	RoseanneBarr_FightFightFight.mp3	H3Show	92	12-13-2024	11302	Roseanne Barr	https://youtu.be/OWBUXE42fuc&t=11302	
+FIIIIIIGHT!!!	RoseanneBarr_Fiiiight.mp3	H3Show	92	12-13-2024	11302	Roseanne Barr	https://youtu.be/OWBUXE42fuc&t=11302	
+I THOUGHT THE BITCH WAS WHITE	RoseanneBarr_IThoughtTheBitchWasWhite.mp3	Podcast	75	07-27-2018	4100	Roseanne Barr	https://youtu.be/pKENOdgWWUY&t=4100	
+I Thought the Bitch Was White...	Rosanne_IThoughtTheBitchWasWhite2.mp3	Unknown	1	05-05-2015	0	Roseanne Barr	https://youtu.be/zOYZ3XMGjUM&t=0	
+RUDY COFFEE!	RudyGiuliani_RUDYCOFFEE.mp3	H3Show	14	05-22-2024	3206	Rudy Giuliani	https://youtu.be/dTNUv14yoKI&t=3206	
+Chocolatey	RudyGiuliani_Chocolatey.mp3	H3Show	14	05-22-2024	3210	Rudy Giuliani	https://youtu.be/dTNUv14yoKI&t=3210	
+Anal sex	RudyGuiliani_AnalSex.mp3	Podcast	242	04-08-2021	4119	Rudy Giuliani	https://youtu.be/PcDqarjl4w0&t=4119	
+Its a sexual dance	RudyGuiliani_ItsASexualDance.mp3	Podcast	242	04-08-2021	4105	Rudy Giuliani	https://youtu.be/PcDqarjl4w0&t=4105	
+Time to take a short break	RudyGuiliani_TimeToTakeAShortBreak.mp3	Podcast	242	04-08-2021	4671	Rudy Giuliani	https://youtu.be/PcDqarjl4w0&t=4671	
+Bryce hall, the most popular, the coolest...	RyanKavanaugh_BryceHallTheMostPopularTheCoolest.mp3	OTR	103	02-07-2024	7421	Ryan Kavanaugh	https://www.youtube.com/watch?v=a2aX3RGRWSg&t=7421	
+An innappropriate relationship with a 14 year old Natalie Portman	RyanKavanaugh_14YearOldNataliePortman.mp3	H3TV	21	01-17-2022	4678	Ryan Kavanaugh	https://youtu.be/sHrEyuHHM9U&t=4678	
+Too much wine sorry	RyanKavanaugh_TooMuchWineSorry.mp3	H3TV	21	01-17-2022	4704	Ryan Kavanaugh	https://youtu.be/sHrEyuHHM9U&t=4704	
+KIM KARDASHIAN	Sam_KIMKARDASHIAN.mp3	OTR	72	05-17-2023	1847	Sam	https://www.youtube.com/watch?v=j_lLeMIwlmE&t=1847	
+Cucumber Snakerini!	ScottDisick_CucumbersSnackarini.mp3	Unknown	1	05-05-2015	0	Scott Disick	https://youtu.be/zOYZ3XMGjUM&t=0	
+I am Rectangular	SeanStephens_IAmRectangularFULL.mp3	Unknown	1	05-05-2015	0	Sean Stephens	https://youtu.be/zOYZ3XMGjUM&t=0	
+I am Rectagular (Joker Edit)	SeanStephens_IAmRectangularJokerEdit.mp3	Unknown	1	05-05-2015	0	Sean Stephens	https://youtu.be/zOYZ3XMGjUM&t=0	
+Delete Me From This Conversation	Shaq_DeleteMeFromThisConversation.mp3	ContentCourt	7	10-14-2021	2151	Shaq	https://youtu.be/ZPt1p_KeTEE&t=2151	
+Why are you gay	SimonKaggwa_WhyAreYouGay.mp3	AfterDark	3	09-04-2020	6854	Simon Kaggwa Njala	https://www.youtube.com/watch?v=2ujyWHUgcBI&t=6854	
+FUCK	SnoopDogg_FUCK.mp3	Podcast	238	03-04-2021	2514	Snoop Dogg	https://www.youtube.com/watch?v=6woMi_8VjJw&t=2514	
+Dan Chill	Steiny_DanChill.mp3	Unknown	1	05-05-2015	0	Steiny	https://youtu.be/zOYZ3XMGjUM&t=0	
+Like No Shotties or Anything	Nelk_NoShottys.mp3	Unknown	1	05-05-2015	0	Steiny	https://youtu.be/zOYZ3XMGjUM&t=0	
+That doesnt work for me eiiiither	StevenCrowder_ThatDoesntWorkEither.mp3	AfterDark	103	04-28-2023	3345	Steven Crowder	https://www.youtube.com/watch?v=LWRDQIrF8tc&t=3345	
+I thought Ethan was a stand up guy	StevenCrowder_EthanStandUpGuy.mp3	Podcast	248	06-21-2021	645	Steven Crowder	https://youtu.be/ez_bTUjWG5Y&t=645	
+Oh no what a fucking nightmare!	StevenCrowder_OhNoSamSeder.mp3	Podcast	248	06-21-2021	630	Steven Crowder	https://youtu.be/ez_bTUjWG5Y&t=630	
+You dont even have to think about it dude	StevenCrowder_YouDontEvenHaveToThinkAboutIt.mp3	AfterDark	38	05-28-2021	7471	Steven Crowder	https://www.youtube.com/watch?v=BUHxXNxEUYc&t=7471	
 Vladamir Putin	StevenSeagal_VladamirPutin.mp3	Unknown	1	05-05-2015	0	Steven Seagal	https://youtu.be/zOYZ3XMGjUM&t=0	
+Jeffrey Dahmers	SteveWillDoIt_JeffreyDahmers.mp3	Unknown	1	05-05-2015	0	SteveWillDoIt	https://youtu.be/zOYZ3XMGjUM&t=0	
+Gayy	SunnyV2_Gay.mp3	AfterDark	101	04-14-2023	7826	SunnyV2	https://www.youtube.com/watch?v=r6vG1VKGnOo&t=7826	
+All the SunnyV2 Mannerisms	SunnyV2_AllManerisms.mp3	Unknown	1	05-05-2015	0	SunnyV2	https://youtu.be/zOYZ3XMGjUM&t=0	
+Thank You So Much For Chatting With Me!	TaylorLorenz_DanThankYouDoMuchForChattingWithMeDan.mp3	Unknown	1	05-05-2015	0	Taylor Lorenz	https://youtu.be/zOYZ3XMGjUM&t=0	
+Don't Believe Your Eyes...	TaylorLorenz_DontBeleiveYourEyesBelieveActualJournalism.mp3	Unknown	1	05-05-2015	0	Taylor Lorenz	https://youtu.be/zOYZ3XMGjUM&t=0	
+Hasan is Unreasonably Good Looking...	TaylorLorenz_HasanIsHot.mp3	Unknown	1	05-05-2015	0	Taylor Lorenz	https://youtu.be/zOYZ3XMGjUM&t=0	
+Yeah, Don't Believe Your Eyes!	TaylorLorenz_YeahDontBelieveYourEyes.mp3	Unknown	1	05-05-2015	0	Taylor Lorenz	https://youtu.be/zOYZ3XMGjUM&t=0	
+Same Key of E	TerrenceHoward_SameKeyOfE.mp3	Unknown	1	05-05-2015	0	Terrence Howard	https://youtu.be/zOYZ3XMGjUM&t=0	
+I said no pickles...	TheGoodDoctor_ISaidNoPickles.mp3	H3TV	102	12-11-2023	6808	The Good Doctor	https://www.youtube.com/watch?v=_uO9aEEOUa8&t=6808	
+I AM A SURGEON	TheGoodDoctor_IAmASurgeon.mp3	OTR	71	05-10-2023	6496	The Good Doctor	https://www.youtube.com/watch?v=WNCTjh7s0Z0&t=6496	
+Nooo!	TheGoodDoctor_No.mp3	OTR	71	05-10-2023	6622	The Good Doctor	https://www.youtube.com/watch?v=WNCTjh7s0Z0&t=6622	
+No-No-Nooo!	TheGoodDoctor_NoNoNo.mp3	OTR	71	05-10-2023	6622	The Good Doctor	https://www.youtube.com/watch?v=WNCTjh7s0Z0&t=6622	
+Cant-Cant do this!	TheGoodDoctor_CantDoThis.mp3	Podcast	248	01-27-2022	630	The Good Doctor	https://youtu.be/ez_bTUjWG5Y&t=630	
+Im not taking a pause to SHIT ALL OVER THE FLOOR	TheQuartering_ImNotTakingAPauseToSHITALLOVERTHEFLOOR.mp3	OTR	21	12-01-2021	8421	The Quartering	https://www.youtube.com/watch?v=QobESzsbh6M&t=8421	
+Theres shit all over the floor	TheQuartering_TheresSHITALLOVERTHEFLOOR.mp3	AfterDark	54	10-15-2021	6699	The Quartering	https://www.youtube.com/watch?v=eioZLqucKU4&t=6699	
+You know you get that crotch rot	TheQuartering_YouGetThatCrotchRot.mp3	AfterDark	54	10-15-2021	7649	The Quartering	https://www.youtube.com/watch?v=eioZLqucKU4&t=7649	
+I just peed in my basement	TheQuartering_IJustPeedInMyBasement.mp3	ContentCourt	4	10-21-2020	3369	The Quartering	https://youtu.be/pMW3hfX7Z_s&t=3369	
+My wife went out for pizza without me	TheQuartering_MyWifeWentOutForPizzaWithoutMe.mp3	ContentCourt	4	10-21-2020	3308	The Quartering	https://youtu.be/pMW3hfX7Z_s&t=3308	
+The Rizzler Scream	TheRizzle_Ahhhh.mp3	H3Show	106	02-05-2025	5693	The Rizzler	https://youtu.be/6KV16LWcnTY&t=5693	
+Shut up Bitch	TheRock_ShutUpBitch.mp3	Podcast	244	04-22-2021	4730	The Rock	https://youtu.be/bfKPts4BJkA&t=4730	
+What da fuck	Theodore_WhatTheFuck.mp3	H3TV	21	01-17-2022	552	Theodore	https://youtu.be/sHrEyuHHM9U&t=552	https://images.vexels.com/media/users/3/198194/isolated/preview/ba56ffbfdc62c7b7471a473d5b79312b-misc-label.png
+I believe a citizen can own a nuclear warhead	TimPool_IndividualCitizenRightToOwnWarhead.mp3	H3TV	38	06-06-2022	3892	Tim Pool	https://youtu.be/CGOWQwC1Amo&t=3892	
+Ethan Klein is damaging everything making it all worse	TimPool_EthanKleinIsDamagingEverything.mp3	AfterDark	43	07-02-2021	2309	Tim Pool	https://www.youtube.com/watch?v=lw8E6x_tiQE&t=2309	
+A bag of turd you know a flaming turd bag	TimPool_FlamingTurdBag.mp3	AfterDark	43	07-02-2021	2709	Tim Pool	https://www.youtube.com/watch?v=lw8E6x_tiQE&t=2709	
+You know what the problem is? It's definitely not me	TimPool_YouKnowWhatTheProblemIs.mp3	AfterDark	43	07-02-2021	3141	Tim Pool	https://www.youtube.com/watch?v=lw8E6x_tiQE&t=3141	
+... When I was giving it to your FUCKING MOM!	Tipster_GivingItToYourMom.mp3	H3TV	103	01-08-2024	12510	Tipster	https://www.youtube.com/watch?v=WuaEyOStUds&t=12510	
+The death bell tolls.	Misc_DeathBell.mp3	Leftovers	52	07-27-2023	3077	Tipster	https://www.youtube.com/watch?v=JeUGqefy2TQ&t=3077	
+At least Ive seen what a vagina looks like	Tipster_VaginaLooksLike.mp3	AfterDark	112	07-21-2023	922	Tipster	https://www.youtube.com/watch?v=xTsLjVLC__U&t=922	
+Cheers my dude	Tipster_CheersMyDude.mp3	AfterDark	110	06-16-2023	14	Tipster	https://www.youtube.com/watch?v=7oD8nY2Zssk&t=14	
+And its become your familys heart and soul	TomSelleck_AndItSBecomeYourFamiliesHeartAndSoul.mp3	AfterDark	6	09-25-2020	6872	Tom Selleck	https://www.youtube.com/watch?v=xfPmKCcl_Gg&t=6872	
+Its Just a Loan	TomSelleck_ItsJustALoan.mp3	AfterDark	6	09-25-2020	6731	Tom Selleck	https://www.youtube.com/watch?v=xfPmKCcl_Gg&t=6731	
+And It's Become Your Families Heart and Soul	TomSelleck_AndItsBecomeYourFamilysHeartAndSoul.mp3	Unknown	1	05-05-2015	0	Tom Selleck	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Trust Them... I Think You Can Too	TomSelleck_ITrustThemIThinkYouCanToo.mp3	Unknown	1	05-05-2015	0	Tom Selleck	https://youtu.be/zOYZ3XMGjUM&t=0	
+A Reverse Mortgage Loan Isn't Some Kind of Trick	TomSelleck_ReverseMortgageLoanIsNotATrick.mp3	Unknown	1	05-05-2015	0	Tom Selleck	https://youtu.be/zOYZ3XMGjUM&t=0	
+So You Can Retire Better	TomSelleck_SoYouCanRetireBetter.mp3	Unknown	1	05-05-2015	0	Tom Selleck	https://youtu.be/zOYZ3XMGjUM&t=0	
+The Big Difference is How You Pay it Back	TomSelleck_TheBigDifferenceIsHowYouPayItBack.mp3	Unknown	1	05-05-2015	0	Tom Selleck	https://youtu.be/zOYZ3XMGjUM&t=0	
+This Isn't My First Rodeo	TomSelleck_ThisIsntMyFirstRodeo.mp3	Unknown	1	05-05-2015	0	Tom Selleck	https://youtu.be/zOYZ3XMGjUM&t=0	
+Blows and Sucks?	TomWard_BlowsAndSucks.mp3	Unknown	1	05-05-2015	0	Tom Ward	https://youtu.be/zOYZ3XMGjUM&t=0	
+Do Not Get Hard	TomWard_DoNotGetHard.mp3	Unknown	1	05-05-2015	0	Tom Ward	https://youtu.be/zOYZ3XMGjUM&t=0	
+Hugh Jasshole	TomWard_HughJasshole.mp3	Unknown	1	05-05-2015	0	Tom Ward	https://youtu.be/zOYZ3XMGjUM&t=0	
+Tom Ward Song 1	TomWard_Song1.mp3	Unknown	1	05-05-2015	0	Tom Ward	https://youtu.be/zOYZ3XMGjUM&t=0	
+Tom Ward Song 2	TomWard_Song2.mp3	Unknown	1	05-05-2015	0	Tom Ward	https://youtu.be/zOYZ3XMGjUM&t=0	
+Tom Ward Song 3	TomWard_Song3.mp3	Unknown	1	05-05-2015	0	Tom Ward	https://youtu.be/zOYZ3XMGjUM&t=0	
+Tom Ward Song 4	TomWard_Song4.mp3	Unknown	1	05-05-2015	0	Tom Ward	https://youtu.be/zOYZ3XMGjUM&t=0	
+Star Wars Sucks Ass	TomWard_StarWarsSucksAss.mp3	Unknown	1	05-05-2015	0	Tom Ward	https://youtu.be/zOYZ3XMGjUM&t=0	
+What is Ligma?	TomWard_WhatIsLigma.mp3	Unknown	1	05-05-2015	0	Tom Ward	https://youtu.be/zOYZ3XMGjUM&t=0	
+Fat fat fatty	TrishaPaytas_YoureFatFatFatty.mp3	Frenemies	4	10-06-2020	2772	Trisha Paytas	https://www.youtube.com/watch?v=B6hF6w_sMlw&t=2772	
+Fuck you Dan	TrishaPaytas_FuckYouDan.mp3	Podcast	152	10-26-2019	3900	Trisha Paytas	https://youtu.be/_Ud00nah_n4&t=3900	
 Fuck you AB	TrishaPaytas_FuckYouAB.mp3	Unknown	1	05-05-2015	0	Trisha Paytas	https://youtu.be/zOYZ3XMGjUM&t=0	
-Im blowin out my voice talking in this stupid mic!	Trump_BlowinOutMyVoiceTalkingToThisStupidMic.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
-This is the worst microphone I think Ive ever had.	Trump_ThisIsTheWorstMicrophoneIveEverHad.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
-This is the worst mic Ive ever had	Trump_WorstMicIveEverHad.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
+Trisha Meditating 1	Trisha_Meditating1.mp3	Unknown	1	05-05-2015	0	Trisha Paytas	https://youtu.be/zOYZ3XMGjUM&t=0	
+Trisha Meditating 2	Trisha_Meditating2.mp3	Unknown	1	05-05-2015	0	Trisha Paytas	https://youtu.be/zOYZ3XMGjUM&t=0	
+Trisha Meditating 3	Trisha_Meditating3.mp3	Unknown	1	05-05-2015	0	Trisha Paytas	https://youtu.be/zOYZ3XMGjUM&t=0	
+Trisha Meditating 4	Trisha_Meditating4.mp3	Unknown	1	05-05-2015	0	Trisha Paytas	https://youtu.be/zOYZ3XMGjUM&t=0	
 I guess I did something to piss of the Instagram God	TrumpJr_IGuessIDidSomethingToPissOfTheInstagramGods.mp3	Unknown	1	05-05-2015	0	Trump Jr	https://youtu.be/zOYZ3XMGjUM&t=0	
 Just watching my algorithms get crushed	TrumpJr_JustWatchingMyAlgorithmsGetCrushed.mp3	Unknown	1	05-05-2015	0	Trump Jr	https://youtu.be/zOYZ3XMGjUM&t=0	
+Sorry about your dad passing away	UncleGabe_ImSorryAboutYourDadPassingAway.mp3	AfterDark	84	09-16-2022	1299	Uncle Gabe	https://www.youtube.com/watch?v=ADAzc3jrxIY&t=1299	
 Fried Chicken Wednesday	UncleGabe_FriedChickenWednesdays.mp3	Unknown	1	05-05-2015	0	Uncle Gabe	https://youtu.be/zOYZ3XMGjUM&t=0	
 Its Friday baby	UncleGabe_ItsFridayBabyFUCK.mp3	Unknown	1	05-05-2015	0	Uncle Gabe	https://youtu.be/zOYZ3XMGjUM&t=0	
-Joe Biden Wake Up	Wali_JoeBidenWakeUp.mp3	Unknown	1	05-05-2015	0	Mohammad Rajab Wali	https://youtu.be/zOYZ3XMGjUM&t=0	
+Hi Ducky!	Gabe_HiDucky.mp3	Unknown	1	05-05-2015	0	Uncle Gabe	https://youtu.be/zOYZ3XMGjUM&t=0	
+Tacoma Wept	Vaush_TakomaWept.mp3	AfterDark	136	02-09-2024	8748	Vaush	https://www.youtube.com/watch?v=H61pA1ZPTs8&t=8748	
+Someone save me	VinDiesel_SomeoneSaveMe.mp3	Podcast	21	08-17-2017	1317	Vin Diesel	https://youtu.be/MBZC4FxMQ_E&t=1317	
+Talk to me Baby	VinDiesel_TalkToMeBaby.mp3	Podcast	21	08-17-2017	1164	Vin Diesel	https://youtu.be/MBZC4FxMQ_E&t=1164	
+When did this turn into beautiful world	VinDiesel_WhenDidThisTurnIntoBeautifulWorld.mp3	Podcast	21	08-17-2017	1318	Vin Diesel	https://youtu.be/MBZC4FxMQ_E&t=1318	
+Wow man	VinDiesel_WowMan.mp3	Podcast	21	08-17-2017	1192	Vin Diesel	https://youtu.be/MBZC4FxMQ_E&t=1192	
+It's a professional computer	Vitaly_ItsAProfessionalComputer.mp3	H3Show	12	05-17-2024	11219	Vitaly	https://youtu.be/iJsDndyIKKM&t=11219	
+Can you guys BACK UP?!	Vitaly_BACKUP.mp3	H3H3Productions	8	10-05-2015	215	Vitaly	https://youtu.be/W_qePqppbdQ&t=215	
+DIE DIE DIE	WendyWilliams_DIEDIEDIE.mp3	AfterDark	66	02-25-2022	5957	Wendy Williams	https://www.youtube.com/watch?v=UzU3uMgmm-0&t=5957	
+Just Sayin	WendyWilliams_JustSayin.mp3	AfterDark	47	08-20-2021	394	Wendy Williams	https://www.youtube.com/watch?v=Xvasys6EONM&t=394	
+She's also died	WendyWilliams_ShesAlsoDied.mp3	AfterDark	44	07-09-2021	7850	Wendy Williams	https://www.youtube.com/watch?v=s2FpIS2ywlE&t=7850	
+Death to all of them	WendyWilliams_DeathToAllOfThem.mp3	OTR	3	07-01-2021	654	Wendy Williams	https://www.youtube.com/watch?v=6kNZujESbNI&t=654	
+Isolated Fart	WendyWilliams_Fart.mp3	AfterDark	29	03-26-2021	4819	Wendy Williams	https://www.youtube.com/watch?v=Ze3pzXECLzY&t=4819	
 mmm-m-mm-m-mm-mm-m	WendyWilliams_MmMmMmMmMmM.mp3	Unknown	1	05-05-2015	0	Wendy Williams	https://youtu.be/zOYZ3XMGjUM&t=0	
+Clap if You Ever Wanted to Kill Somebody	WendyWiliams_ClapIfYouEverWantedToKillSomebody.mp3	Unknown	1	05-05-2015	0	Wendy Williams	https://youtu.be/zOYZ3XMGjUM&t=0	
+Clap if you Think She Should Suffer	WendyWilliams_ClapIfYouThinkSheShouldSuffer.mp3	Unknown	1	05-05-2015	0	Wendy Williams	https://youtu.be/zOYZ3XMGjUM&t=0	
+auugh	WillSmith_Ahhh.mp3	Podcast	98	12-14-2018	9806	Will Smith	https://youtu.be/0oLt5qfxtxQ&t=9806	
+Fortnite	WillSmith_Fortnite.mp3	Podcast	98	12-14-2018	9806	Will Smith	https://youtu.be/0oLt5qfxtxQ&t=9806	
+Its rewind time	WillSmith_ItsRewindTime.mp3	Podcast	98	12-14-2018	9806	Will Smith	https://youtu.be/0oLt5qfxtxQ&t=9806	
+Yaahh	WillSmith_Yuuuhh.mp3	Podcast	98	12-14-2018	9806	Will Smith	https://youtu.be/0oLt5qfxtxQ&t=9806	
+Thats hot	WillSmith_ThatsHot.mp3	Podcast	98	12-14-2018	9806	Will Smith	https://youtu.be/0oLt5qfxtxQ&t=9806	
 Keep fucking my my wifes mouth Im going to okay	WillSmith_KeepFuckingMyWifesMouth.mp3	Unknown	1	05-05-2015	0	Will Smith	https://youtu.be/zOYZ3XMGjUM&t=0	
-Mom I wanna vape	Trump_MomIWannaVape.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
-No!!	AndrewTate_No.mp3	Unknown	1	05-05-2015	0	Andrew Tate	https://youtu.be/zOYZ3XMGjUM&t=0	
-CORONA VIRUS!!	CardiB_Coronavirus.mp3	Unknown	1	05-05-2015	0	Cardi B	https://youtu.be/zOYZ3XMGjUM&t=0	
-So no cookies for you?	ChrisHansen_NoCookies.mp3	Unknown	1	05-05-2015	0	Chris Hansen	https://youtu.be/zOYZ3XMGjUM&t=0	
-Speared to DEATH!	KennethCopeland_SpearedToDeath.mp3	Unknown	1	05-05-2015	0	Kenneth Copeland	https://youtu.be/zOYZ3XMGjUM&t=0	
-God Bless America!! (Voice Crack)	Misc_GodBlessAmerica.mp3	Unknown	1	05-05-2015	0	Misc	https://youtu.be/zOYZ3XMGjUM&t=0	
-Same Key of E	TerrenceHoward_SameKeyOfE.mp3	Unknown	1	05-05-2015	0	Terrence Howard	https://youtu.be/zOYZ3XMGjUM&t=0	
-Mom I'm sorry!	Trump_MomImSorry.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
-Obamna (Obama)	Trump_Obamna.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
-THE N WORD!	Trump_TheNWord.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
+I wanna do a soundtrack to your feet!	WillIAm_SoundtrackToYourFeet.mp3	H3TV	105	01-29-2024	11617	Will.I.Am	https://www.youtube.com/watch?v=k1VrTaTohWA&t=11617	
+Excuse me AH	WilliamKnight_ExcuseMeAHH.mp3	AfterDark	43	07-02-2021	5569	William Knight	https://www.youtube.com/watch?v=lw8E6x_tiQE&t=5569	
+Theres no such thing as a coincidence	WilliamKnight_TheresNoSuchThingAsACoincidence.mp3	AfterDark	35	05-07-2021	7214	William Knight	https://www.youtube.com/watch?v=uw0c45OwQV0&t=7214	
+Oh Im telling you	WilliamShatner_OhImTellingYou.mp3	OTR	22	12-15-2021	8378	William Shatner	https://www.youtube.com/watch?v=tI_5oCeF_g4&t=8378	
+Oh Jesus	WilliamShatner_OhJesus.mp3	OTR	22	12-15-2021	8357	William Shatner	https://www.youtube.com/watch?v=tI_5oCeF_g4&t=8357	
+Oh my God	WilliamShatner_OhMyGod.mp3	OTR	22	12-15-2021	8371	William Shatner	https://www.youtube.com/watch?v=tI_5oCeF_g4&t=8371	
+Your Birthday Doesn't Matter That Much...	WingsOfRedemption_BirthdayNotImportant.mp3	Unknown	1	05-05-2015	0	Wings of Redemption	https://youtu.be/zOYZ3XMGjUM&t=0	
+Here's my thing, I like a pretty penis	WingsofRedemption_HeresMyThingILikeAPrettyPenis.mp3	H3Show	40	08-09-2024	6945	Wings of Redemption	https://youtu.be/WXk7sEQlyIY&t=6945	
+Your Birthday Doesn't Matter That Much...	Wings_Birthday.mp3	Unknown	1	05-05-2015	0	Wings of Redemption	https://youtu.be/zOYZ3XMGjUM&t=0	
+Everybody is 10% Gay	Wings_EverybodyIs10PercentGay.mp3	Unknown	1	05-05-2015	0	Wings of Redemption	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Like a Pretty Penis	Wings_ILikeAPrettyPenis.mp3	Unknown	1	05-05-2015	0	Wings of Redemption	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Just Like Manly Looking Women	Wings_ILikeManlyLookingWomen.mp3	Unknown	1	05-05-2015	0	Wings of Redemption	https://youtu.be/zOYZ3XMGjUM&t=0	
+My Dick is Immaculate, Son	Wings_MyDickIsImmaculate.mp3	Unknown	1	05-05-2015	0	Wings of Redemption	https://youtu.be/zOYZ3XMGjUM&t=0	
+You're Gay Dude	Wings_YoureGayDude.mp3	Unknown	1	05-05-2015	0	Wings of Redemption	https://youtu.be/zOYZ3XMGjUM&t=0	
+Why don't they just BOMB the outer line?!	XQC_WhyDontTheyJustBomb.mp3	H3Show	98	01-13-2025	1370	XQC	https://youtu.be/fV-1SveD9gQ&t=1370	
+Cheeto	XQC_Cheetoh.mp3	H3Show	6	05-03-2024	6795	XQC	https://youtu.be/dQO5biMTtsY&t=6795	
+FAT FAT FAT FAT	XQC_FatFatFatFat.mp3	H3TV	77	05-15-2023	2838	XQC	https://youtu.be/gTbcIW2L2PA&t=2838	
+A CARROTAH	XQC_ACarrotah.mp3	OTR	59	02-08-2023	5985	XQC	https://www.youtube.com/watch?v=wj-SQVepazg&t=5985	
+Get yo balls off my face man	XQC_GetYourBallsOffMyFace.mp3	Leftovers	25	09-22-2022	468	XQC	https://www.youtube.com/watch?v=bm_LAUxPI_U&t=468	
 Apple!	XQC_Apple.mp3	Unknown	1	05-05-2015	0	XQC	https://youtu.be/zOYZ3XMGjUM&t=0	
+You're a CLANKER!	XQC_YoureAClanker.mp3	Unknown	1	05-05-2015	0	XQC	https://youtu.be/zOYZ3XMGjUM&t=0	
+Go Guzzle Some Oil, Buddy	XQC_GoGuzzleSomeOilBuddy.mp3	Unknown	1	05-05-2015	0	XQC	https://youtu.be/zOYZ3XMGjUM&t=0	
+XQC Unintelligable Rambling	XQC_MumbleReading.mp3	Unknown	1	05-05-2015	0	XQC	https://youtu.be/zOYZ3XMGjUM&t=0	
+Yeah I Got It	XQC_YeahIGotIt.mp3	Unknown	1	05-05-2015	0	XQC	https://youtu.be/zOYZ3XMGjUM&t=0	
+Money? No Money! NO MONEY!!	YiLongMa_MoneyNoMoney.mp3	AfterDark	130	12-08-2023	8137	Yi Long Ma	https://www.youtube.com/watch?v=2WZn429v00U&t=8137	
+Hi everyone!	ElonMa_Everyone.mp3	OTR	54	11-09-2022	1614	Yi Long Ma	https://www.youtube.com/watch?v=BraYUdc3YRo&t=1614	
+MONEY!	YilongMa_Money.mp3	Podcast	257	11-02-2022	3286	Yi Long Ma	https://youtu.be/WwSmgbQR9PA&t=3286	
+GIVE TO YA	YilongMe_GiveToYa.mp3	Podcast	257	11-02-2022	3306	Yi Long Ma	https://youtu.be/WwSmgbQR9PA&t=3306	
+Warzone!	YokoOno_Warzone.mp3	H3Show	117	03-03-2025	1083	Yoko Ono	https://youtu.be/RVwsloCHjCU&t=1083	/Images/Warzone.png

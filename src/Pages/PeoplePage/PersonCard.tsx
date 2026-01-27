@@ -1,9 +1,7 @@
-import { useEffect, useState } from "react";
+import { useState, useMemo, memo } from "react";
 import "../../components/SoundbiteCard/SoundbiteCard.css";
 import { useDataContext } from "../../context/DataContext";
 import { Person } from "../../models/Person";
-import { Soundbite } from "../../models/Soundbite";
-import { Moment } from "../../models/Moments/Moment";
 import { MomentAndSoundbites_Modal } from "../../components/Modals/MomentAndSoundbites_Modal";
 import "./PersonCard.scss"
 
@@ -15,19 +13,17 @@ interface Props {
 function PersonCard(props: Props) {
     const {soundbites, moments } = useDataContext();
     const [modalOpen, setModalOpen] = useState(false);
-    const [relatedSoundbites, setRelatedSoundbites] = useState<Soundbite[]>([])
-    const [relatedMoments, setRelatedMoments] = useState<Moment[]>([])
 
-    useEffect(() => {
-      if(!props.person){
-        return
-      }
-        const relatedSoundbites = soundbites.filter(x => x.personName?.toLowerCase() == props.person!.name.toLowerCase())
-        const relatedMoments = moments.filter(x => x.people.includes(props.person!.name))
-  
-        setRelatedSoundbites(relatedSoundbites);
-        setRelatedMoments(relatedMoments);
-    }, [props.person, soundbites.length, moments.length])
+    // Memoize the expensive filtering operations
+    const relatedSoundbites = useMemo(() => {
+      if (!props.person) return [];
+      return soundbites.filter(x => x.personName?.toLowerCase() === props.person!.name.toLowerCase());
+    }, [props.person, soundbites]);
+
+    const relatedMoments = useMemo(() => {
+      if (!props.person) return [];
+      return moments.filter(x => x.people.includes(props.person!.name));
+    }, [props.person, moments]);
 
     function OpenModal() {
         setModalOpen(true);
@@ -41,7 +37,13 @@ function PersonCard(props: Props) {
             (relatedSoundbites.length > 0 || relatedMoments.length > 0) &&
               <div>
               {modalOpen && 
-                <MomentAndSoundbites_Modal title={props.person.name} description={""} moments={relatedMoments} soundbites={relatedSoundbites} isOpen={false} openModal={setModalOpen} ></MomentAndSoundbites_Modal>
+                <MomentAndSoundbites_Modal 
+                  title={props.person.name} 
+                  description={""} 
+                  moments={relatedMoments} 
+                  soundbites={relatedSoundbites} 
+                  isOpen={false} 
+                  openModal={setModalOpen} />
               }
               {props.person &&
                 <div className="card" key={props.person.image}>  
@@ -60,9 +62,22 @@ function PersonCard(props: Props) {
                     className="card-image"
                     src={props.person.image}
                     onClick={() => OpenModal()}
+                    loading="lazy"
+                    decoding="async"
                     />
+                
                 </div>
               }
+              {props.person.name == "Avery" && 
+                <div className="badge">
+                  <img className="picture" src="Images/GoldMedal_Tall.png"/>
+                </div>
+              }
+              {props.person.name == "Steiny" && 
+                <div className="badge">
+                  <img className="picture" src="Images/GoldMedal_Smallest.png"/>
+                </div>
+              }   
               </div>
             }
           </>
@@ -71,4 +86,4 @@ function PersonCard(props: Props) {
     );
 }
 
-export default PersonCard;
+export default memo(PersonCard);

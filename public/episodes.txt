@@ -152,10 +152,24 @@ ContentCourt	8	02-23-2024	Content Court: Adin Ross	https://youtu.be/tYxHTHIXg7s
 ContentCourt	9	02-23-2024	Content Court: Jack Doherty	https://youtu.be/DCw4csgcEsk	
 ContentCourt	10	08-29-2024	Content Court: Ethan Klein	https://youtu.be/nXB74iEuaX8	
 ContentCourt	11	10-08-2020	Content Court: James Charles	https://youtu.be/_kGTf6LfuJo	
+ContentCourt	1	09-17-2020	Content Court: Prince Family	https://youtu.be/XsI2yDSZjOY	
+ContentCourt	2	09-24-2020	Content Court: JayStation	https://youtu.be/VQ6bqvWmHoo	
+ContentCourt	3	10-01-2020	Content Court: TikTok Pranksters	https://youtu.be/6oJt2x4MuV4	
+ContentCourt	4	10-21-2020	Content Court: TheQuartering	https://youtu.be/pMW3hfX7Z_s	
+ContentCourt	5	11-05-2020	Content Court: The ACE Family	https://youtu.be/RdC75IoAQoo	
+ContentCourt	6	12-10-2020	Content Court: Jared Leto	https://youtu.be/3FICW6WUBtQ	
+ContentCourt	7	10-14-2021	Content Court: NELK	https://youtu.be/ZPt1p_KeTEE	
+ContentCourt	8	02-23-2024	Content Court: Adin Ross	https://youtu.be/tYxHTHIXg7s	
+ContentCourt	9	02-23-2024	Content Court: Jack Doherty	https://youtu.be/DCw4csgcEsk	
+ContentCourt	10	08-29-2024	Content Court: Ethan Klein	https://youtu.be/nXB74iEuaX8	
+ContentCourt	11	10-08-2020	Content Court: James Charles	https://youtu.be/_kGTf6LfuJo	
 EthanAndHila	1	01-20-2016	ONE FRICKED UP DENTIST	https://www.youtube.com/watch?v=uSlx0s5dtPM	
 EthanAndHila	2	05-15-2016	The Gaze of Miracles	https://www.youtube.com/watch?v=LoYFNS3aMqg	
 EthanAndHila	3	03-07-2016	Social Experiments with Joey Salads	https://youtu.be/nHHzQ8VPtAs	
+EthanAndHila	4	03-08-2016	What Happened to H3H3Productions!?	https://youtu.be/uvK4EVTcKHs	
+EthanAndHila	5	06-21-2015	Ethan and Hila in Disneyland	https://youtu.be/DjDFBrOywVw	
 EthanKlein	38	02-10-2022	MoistCritikal Is Destroying YouTube	https://youtu.be/8CcVkyFXHyw	
+Families	1	06-23-2021	The New Host Of Frenemies Is…	https://youtu.be/3CEMfve0fb8	
 Families	2	06-30-2021	Trisha Paytas vs Gabbie Hanna Explained By My Mom - Families #2	https://youtu.be/_SdeGi-8rZ8	
 Families	3	07-07-2021	The Biggest Cancellation In YouTube History - Families #3	https://youtu.be/L3XK1hC8KsM	
 Families	4	07-14-2021	Moms Embarrassing Story Destroyed My Soul - Families #4	https://youtu.be/OJo0Z90eWDE	
@@ -249,6 +263,7 @@ H3Show	23	06-14-2024	Ariana Grande Speaks Out About Dan Schneider, Logan Paul Ha
 H3Show	24	06-17-2024	It Took Me 20 Years To Say This... - H3 Show #24	https://youtu.be/-5DSOs6assM	
 H3Show	25	06-19-2024	Boogie2988 Tried To Expose Me, ImAllexx Controversy - H3 Show #25	https://youtu.be/alTfbx7vFxo	
 H3Show	26	06-21-2024	Did This Influencer Kill Her Cat? - H3 Show #26	https://youtu.be/GkAiYALkd9Y	
+H3Show	26	06-21-2024	Did This Influencer Kill Her Cat? - H3 Show #26	https://youtu.be/GkAiYALkd9Y	
 H3Show	27	06-24-2024	OkBaby, Ok Drama! - H3 Show #27	https://youtu.be/4pr97y3aopw	
 H3Show	28	06-26-2024	Meeting The Queen Of Melrose - H3 Show #28	https://youtu.be/-YJSijE7AZM	
 H3Show	29	07-15-2024	Cody Ko Exposed By D'Angelo Wallace, Boogie Lied About Having Cancer lol - H3 Show #29	https://youtu.be/gyIlayEQN3E	
@@ -264,6 +279,7 @@ H3Show	38	08-05-2024	MrBeast Exposed in New York Times Exposé, Brooke Schofield
 H3Show	39	08-07-2024	Brooke Schofield Is NOT Forgiven - H3 Show #39	https://youtu.be/SiFKlWCDfuY	
 H3Show	40	08-09-2024	MrBeast Hired A Pedo, QT Hired A Queen, Sam's Last Supper - H3 Show #40	https://youtu.be/WXk7sEQlyIY	
 H3Show	41	08-12-2024	Ethan Plays In The Celebrity Poker Tour LIVE - H3 Show #41	https://youtu.be/rOWa-1JR6hI	
+H3Show	41	08-12-2024	Ethan Plays In The Celebrity Poker Tour LIVE - H3 Show #41	https://youtu.be/rOWa-1JR6hI	
 H3Show	42	08-14-2024	I Won The Poker Tournament - H3 Show #42	https://youtu.be/oLWTNrvOd3c	
 H3Show	43	08-16-2024	Making Howie Mandel Watch The Worst Videos In Internet History - H3 Show #43	https://youtu.be/HyKgY7nwdrQ	
 H3Show	44	08-19-2024	Logan Paul Humiliates Himself In Italy à la Japan - H3 Show #44	https://youtu.be/6Skps2vLZ5I	
@@ -272,6 +288,7 @@ H3Show	46	08-23-2024	Olivia Explains The Blake Lively Drama To A Room Full Of Ha
 H3Show	47	08-26-2024	Huge Blake Lively Drama Update & Did Logan Paul Try To Kill His Dog? - H3 Show #47	https://youtu.be/YksbJ1RB-ic	
 H3Show	48	08-28-2024	Content Court: Jack Doherty - H3 Show #48	https://youtu.be/DCw4csgcEsk	
 H3Show	49	08-29-2024	Content Court: Ethan Klein - H3 Show #49	https://youtu.be/nXB74iEuaX8	
+H3Show	50	09-04-2024	Why Frenemies Is NEVER Coming Back - H3 Show #50	https://youtu.be/PhaQM3bbBoY	
 H3Show	50	09-04-2024	Why Frenemies Is NEVER Coming Back - H3 Show #50	https://youtu.be/PhaQM3bbBoY	
 H3Show	51	09-06-2024	Hot Presidents Tier List, Martin The Water Sommelier Drops In, Dan Saw Hamilton - H3 Show #51	https://youtu.be/9JPShI_iglU	
 H3Show	52	09-09-2024	Nikocado Lost 250lbs, Dr. Disrespect's Apology May Be Worse Than Colleen's - H3 Show #52	https://youtu.be/dkTJF5vqZNA	
@@ -287,6 +304,7 @@ H3Show	63	10-04-2024	David Dobrik's Legal Defense Leaked vs Jeff Wittek - H3 Sho
 H3Show	64	10-10-2024	Jimmy Lee Breaks Into Studio, Gets Confronted, Permanently Banned - H3 Show #64	https://youtu.be/vrgT8x57bDo	
 H3Show	65	10-11-2024	KSI's New Song Is So Bad He’s Blocking Criticism (& Probably This Video) - H3 Show #65	https://youtu.be/0eJx1bu4Ris	
 H3Show	66	10-14-2024	KSI Blocked Our Video & Lied About It, BOYS NIGHT! WE OUT HERE! - H3 Show #66	https://youtu.be/SAeHExAdKLk	
+H3Show	67	10-16-2024	Addressing Hasan & His Community - H3 Show #67	https://youtu.be/YUlacUvCG8I	
 H3Show	67	10-16-2024	Addressing Hasan & His Community - H3 Show #67	https://youtu.be/YUlacUvCG8I	
 H3Show	68	10-18-2024	I Watched Twilight For The First Time & I Have A Lot To Say - H3 Show #68	https://youtu.be/M9dYrhdXN88	
 H3Show	69	10-21-2024	Dan Clancy Must Resign As Twitch CEO - H3 Show #69	https://youtu.be/cjJqvaNWHEA	
@@ -320,6 +338,7 @@ H3Show	99	01-15-2025	Dream vs. TommyInnit Minecraft Drama Innit Oi! - H3 Show #9
 H3Show	100	01-17-2025	Free Wendy Williams!! Another Conservatorship!? & Love & Dan PowerPoint On WoW Drama - H3 Show #100	https://youtu.be/42OYpZFe5DY	
 H3Show	101	01-22-2025	Justin Baldoni Comes w/ Receipt & DEBUNKS Blake Lively Accusations? - H3 Show #101	https://youtu.be/casAOxYGjPc	
 H3Show	102	01-24-2025	My Life Is Falling Apart- Addressing The Controversy- I Shouldn’t Say This But I Must - H3 Show #102	https://youtu.be/3FKZxfBljlw	
+H3Show	103	01-29-2025	Content Nuke: Markiplier - H3 Show #103	https://youtu.be/oDdnL6Pd9qU	
 H3Show	103	01-29-2025	Content Nuke: Markiplier - H3 Show #103	https://youtu.be/oDdnL6Pd9qU	
 H3Show	104	01-31-2025	Countdown To Doomsday - H3 Show #104	https://youtu.be/vOZc89r3pJA	
 H3Show	105	02-03-2025	Nuclear Fallout - H3 Show #105	https://youtu.be/TETOdFWf99M	
@@ -688,6 +707,7 @@ OTR	111	04-03-2024	This Beauty TikToker Is Coming After Me - Off The Rails #111	
 Podcast	4	04-10-2017	H3 Podcast #4 - iDubbbzTV	https://youtu.be/7khgBDQR-WQ	
 Podcast	5	04-10-2017	H3 Podcast #5 - Keemstar	https://youtu.be/8CYAwhTI5vs	
 Podcast	6	04-10-2017	H3 Podcast #6 - Philip DeFranco	https://youtu.be/sImnKoiMEiI	
+Podcast	6	04-10-2017	H3 Podcast #6 - Philip DeFranco	https://youtu.be/sImnKoiMEiI	
 Podcast	7	05-22-2017	H3 Podcast #7 - Post Malone & Joji	https://youtu.be/l65hR94nfqY	
 Podcast	8	05-29-2017	H3 Podcast #8 - Markiplier & Ian Hecox (Smosh)	https://youtu.be/hrEFpGiETu8	
 Podcast	9	06-05-2017	H3 Podcast #9 - Joey Salads	https://youtu.be/IHL6HazIfQ0	
@@ -845,6 +865,7 @@ Podcast	162	11-29-2019	Try Not To Laugh Challenge With Dire Consequences - H3 Po
 Podcast	163	12-04-2019	Olivia Jade, PewDiePie & Trisha Paytas - H3 Podcast #163	https://youtu.be/kWGaJlTjGBQ	
 Podcast	164	12-07-2019	Were In YouTube Rewind - H3 Podcast #164	https://youtu.be/q_q99sLLKm8	
 Podcast	165	12-11-2019	K-pop Stans Cancel Us On Twitter - H3 Podcast #165 (reupload)	https://youtu.be/ilvnun60EsY	
+Podcast	165	12-11-2019	K-pop Stans Cancel Us On Twitter - H3 Podcast #165 (reupload)	https://youtu.be/ilvnun60EsY	
 Podcast	166	12-14-2019	YouTube Removes iDubbbz Content Cop - H3 Podcast #166	https://youtu.be/UE-6zvdRapY	
 Podcast	167	12-20-2019	Andrew Yang - H3 Podcast #167	https://youtu.be/2HXVws8ZQRc	
 Podcast	168	01-18-2020	Jack & Erik - H3 Podcast #168	https://youtu.be/rwhVqYVZHqI	
@@ -925,6 +946,7 @@ Podcast	246	05-20-2021	The Belle Delphine Mystery & Our New Studio - H3 Podcast 
 Podcast	247	06-17-2021	Bella Poarch - H3 Podcast #247	https://youtu.be/2jFIQr_cVz4	
 Podcast	248	01-27-2022	Oliver Tree - H3 Podcast #248	https://youtu.be/ez_bTUjWG5Y	
 Podcast	248	06-21-2021	Ethan Klein Debates Steven Crowder (Ft. Sam Seder) - H3 Podcast #248	https://youtu.be/Fvg5RTrFLfI	
+Podcast	248	06-21-2021	Ethan Klein Debates Steven Crowder (Ft. Sam Seder) - H3 Podcast #248	https://youtu.be/Fvg5RTrFLfI	
 Podcast	249	04-08-2022	Brittany Broski - H3 Podcast #249	https://youtu.be/ppyW70czRqU	
 Podcast	250	04-15-2022	iDubbbz & Anisa - H3 Podcast #250	https://youtu.be/68UMkX4Z08c	
 Podcast	251	05-06-2022	Bobby Lee & Khalyla Kuhn - H3 Podcast #251	https://youtu.be/NlPCUpYrMis	
@@ -951,3 +973,5 @@ SYNT	11	12-27-2022	See You Next Tuesday #11	https://youtu.be/Yrof_UwWYCI
 SYNT	31	05-16-2023	See You Next Tuesday #31	https://youtu.be/zOYZ3XMGjUM	
 SYNT	97	02-20-2025	The Jay Shetty & Avocado Episode - SYNT #97	https://youtu.be/vVaHCn3smdE	
 Unknown	1	05-05-2015	Unknown	https://youtu.be/zOYZ3XMGjUM	
+Highlight	1	11-05-2021	Carlos is Launching an NFT - Interview	https://youtu.be/NObrnl_cyvI	
+VOD	1	08-24-2025	The Blind & Deaf Challenge Nearly Broke Us	https://youtu.be/RY7ELw1K-PA	

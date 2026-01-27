@@ -1,0 +1,127 @@
+.break-page-container{
+  display: flex;
+  flex-direction: column;
+  width:inherit;
+  height:inherit;
+  padding:.75rem;
+  gap:.5rem;
+}
+
+.left-side{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.356);
+  outline: 2px solid rgba(0, 0, 0, 0.521);
+  border-radius: 1rem;
+  padding: 0 1rem 2rem 1rem;
+  flex-wrap: wrap;
+}
+
+.right-side{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  background-color: rgba(0, 0, 0, 0.356);
+  outline: 2px solid rgba(255, 255, 255, 0.521);
+  border-radius: 1rem;
+  padding: 0 1rem 2rem 1rem;
+  flex-wrap: wrap;
+}
+
+.data{
+  display: flex;
+  flex-direction: row;
+  padding-top: 1.5rem;
+  gap:1rem;
+}
+
+.data-title{
+  padding:.1rem;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  padding-top:1rem;
+}
+
+.white-date{
+  color:rgb(223, 223, 223);
+}
+
+.data-items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  border: 1px dotted rgba(0, 0, 0, 0.39);
+  border-radius: .5rem;
+  background-color: rgba(0, 0, 0, 0.226);
+  padding: 1rem;
+}
+
+.section-title-left{
+  font-size: 28px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.section-title-right{
+  font-size: 28px;
+  font-weight: 600;
+  text-decoration: underline;
+  color:rgb(206, 206, 206);
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .break-page-container{
+    flex-direction: column;
+  }
+  .data-items{
+    gap:.25rem;
+  }
+
+  .left-side{
+    width:100%
+  }
+  
+  .right-side{
+    width:100%
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .break-page-container{
+    flex-direction: column;
+  }
+  .data-items{
+    gap:.25rem;
+  }
+
+  .left-side{
+    width:100%
+  }
+  
+  .right-side{
+    width:100%
+  }
+}
+
+@media all and (max-width: 480px) {
+  .break-page-container{
+    flex-direction: column;
+  }
+  .data-items{
+    gap:.25rem;
+  }
+
+  .left-side{
+    width:100%
+  }
+  
+  .right-side{
+    width:100%
+  }
+}

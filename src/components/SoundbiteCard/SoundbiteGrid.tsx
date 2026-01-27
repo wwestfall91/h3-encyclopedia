@@ -1,7 +1,6 @@
 import SoundbiteCard from "./SoundbiteCard";
 import "./SoundbiteGrid.scss";
-import { Soundbite } from "../../models/Soundbite";
-import { useEffect, useState } from "react";
+import { useMemo, memo } from "react";
 import { sortByType } from "../../Pages/SoundBitesPage/SoundBitesPage";
 
 import { useDataContext } from "../../context/DataContext";
@@ -12,73 +11,35 @@ type Props = {
 };
 
 function SoundbiteGrid(props: Props) {
-  const [filteredSoundbites, setFilteredSoundbites] = useState<Soundbite[]>([]);
-  const [searchTermLength, setSearchTermLength] = useState<number>(0);
   const { soundbites, people } = useDataContext();
 
-  function sortByName(soundbites: Soundbite[]): Soundbite[] {
-    return soundbites.sort((a, b) => (a.title <= b.title ? -1 : 1));
-  }
-
-  // function sortByPeople(soundbites: Soundbite[]) : Soundbite[] {
-  //   const sortedSoundbites = soundbites.sort((a, b) => {
-  //     const personA = people.find(x => x.name == a.person)
-  //     const personB = people.find(x => x.name == b.person)
-
-  //     if(personA == undefined || personB == undefined)
-  //       return 0;
-
-  //     return personA.name <= personB.name ? -1 : 1;
-  //   });
-
-  //   return sortedSoundbites;
-  // }
-
-  // function sortByDate(soundbites: Soundbite[]): Soundbite[] {
-  //   return soundbites.sort(
-  //     (a, b) => Date.parse(a.episodeDate) - Date.parse(b.episodeDate)
-  //   );
-  // }
-
-  useEffect(() => {
-    if(soundbites != undefined){
-      setFilteredSoundbites(soundbites);
-    }
-  }, [soundbites])
-
-  useEffect(() => {
-    if(props.searchTerm.length < searchTermLength){ //My weird way to check if the user pressed backspace, if they did then load everything back in
-      setFilteredSoundbites(soundbites)
-      setSearchTermLength(props.searchTerm.length);
-      return;
+  // Memoize filtered and sorted soundbites to avoid recalculating on every render
+  const filteredSoundbites = useMemo(() => {
+    if (!soundbites || soundbites.length === 0) return [];
+    
+    const searchLower = props.searchTerm.toLowerCase();
+    
+    // Filter based on search term
+    let filtered = soundbites;
+    if (props.searchTerm.length >= 2) {
+      filtered = soundbites.filter((sb) => {
+        if (sb.sound === "") return false;
+        return (
+          sb.title.toLowerCase().includes(searchLower) ||
+          sb.personName?.toLowerCase().includes(searchLower)
+        );
+      });
+    } else {
+      filtered = soundbites.filter(sb => sb.sound !== "");
     }
 
-    setSearchTermLength(props.searchTerm.length);
-
-    setFilteredSoundbites(soundbites.filter(
-      (include) => 
-        include.sound != "" && props.searchTerm.length < 2 || 
-        include.title.toLowerCase().includes(props.searchTerm.toLowerCase()) || 
-        `${include.personName?.toLowerCase()} ${include.personName?.toLowerCase()}`.includes(props.searchTerm.toLowerCase())
-    ));
-  }, [props.searchTerm])
-
-  useEffect(() => {
+    // Sort if needed
     if (props.sortBy === sortByType.Name) {
-      setFilteredSoundbites(sortByName(soundbites));
+      return [...filtered].sort((a, b) => (a.title <= b.title ? -1 : 1));
     }
 
-    // if (props.sortBy === sortByType.Date) {
-    //   setSoundbites(sortByDate(soundbites));
-    // }
-
-    // if (props.sortBy === sortByType.Person) {
-    //   setSoundbites(sortByPeople(soundbites));
-    // }
-    // if (props.sortBy === sortByType.Default) {
-    //   setSoundbites(sortByDate(soundbites));
-    // }
-  }, [props.sortBy])
+    return filtered;
+  }, [soundbites, props.searchTerm, props.sortBy]);
 
   return (
     <div id="soundbite-grid-container">
@@ -93,4 +54,4 @@ function SoundbiteGrid(props: Props) {
   );
 }
 
-export default SoundbiteGrid;
+export default memo(SoundbiteGrid);

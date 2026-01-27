@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { Soundbite } from "../../models/Soundbite";
 import "./SoundbiteCard.css";
 import download_icon from "../../assets/icons/download_icon.png"
-import { useDataContext } from "../../context/DataContext";
 import { Person } from "../../models/Person";
 
 interface Props {
@@ -12,7 +11,6 @@ interface Props {
 
 function SoundbiteCard(props: Props) {
   const [isPlaying, setIsPlaying] = useState(false);
-  const { people } = useDataContext();
   const [person, setPerson] = useState<Person>();
   const [soundbiteAudio, setSoundbiteAudio] = useState<HTMLAudioElement>();
 
@@ -21,8 +19,8 @@ function SoundbiteCard(props: Props) {
   }, []);
 
   useEffect(() => {
-    setPerson(people.filter(x => x.name == props.soundbite.personName)[0])
-  }, [people.length]);
+    setPerson(props.person)
+  }, [props.person]);
 
   async function PlayAudio() {
     if(!soundbiteAudio){  // On the first pass, we need to setup a local audio variable. If we remove this, pausing functionality will break.

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import MomentComponent from "../../Moments/MomentComponent/MomentComponent";
 import "./CrewMemberComponent.scss";
 import RequestCrewMomentModal from "../../Modals/RequestCrewMomentModal/RequestCrewMomentModal";
@@ -18,6 +18,10 @@ function CrewMemberComponent(props: Props) {
   // useEffect(() => {
   //   getSections(moments)
   // }, [moments])
+
+  useEffect(() => {
+    showRequestModal ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'auto';
+  }, [showRequestModal])
 
   function getSections(filteredMoments : Moment[]){
     const allSections = filteredMoments.map(x => x.section?.replace("\r", ""))

@@ -22,3 +22,10 @@ dist/
 *.njsproj
 *.sln
 *.sw?
+
+# Text Files
+episodes.txt
+moments.txt
+people.txt
+soundbites.txt
+topics.txt

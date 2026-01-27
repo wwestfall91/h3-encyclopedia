@@ -3,9 +3,9 @@ import * as fileHelpers from "../database/FileHelpers"
 
 let people : Person[] = [];
 
-export function getPersonByName(name: string){
+export async function getPersonByName(name: string){
     if(people.length == 0){
-        people = fileHelpers.getAllPeople();
+        people = await fileHelpers.getAllPeople();
     }
     
     const person = people.filter((x) => x.name == name)[0];
