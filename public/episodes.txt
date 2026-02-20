@@ -1023,3 +1023,7 @@ SYNT	97	02-20-2025	The Jay Shetty & Avocado Episode - SYNT #97	https://youtu.be/
 Unknown	1	05-05-2015	Unknown	https://youtu.be/zOYZ3XMGjUM	
 Highlight	1	11-05-2021	Carlos is Launching an NFT - Interview	https://youtu.be/NObrnl_cyvI	
 VOD	1	08-24-2025	The Blind & Deaf Challenge Nearly Broke Us	https://youtu.be/RY7ELw1K-PA	
+VOD	2	11-28-2025	Hasan Defends China's War Against Gay People ft. Girl With a Microphone	https://youtu.be/kzq8v4nsrm0	
+AfterShow	1	01-26-2026	And The New Show Is… [H3 After Show #1)	https://youtu.be/ejoJZr7WjuU	
+VOD	3	11-06-2025	Hasan's TikTok Reposts Are Insane	https://youtu.be/WQNO2GuY-vc	
+Poker	1	02-06-2025	Ethan Gets Ritualistically Humiliated At Poker Ft. Waka Flocka Flame, Tana & Steiny	https://youtu.be/NRgyYJBDsw4	

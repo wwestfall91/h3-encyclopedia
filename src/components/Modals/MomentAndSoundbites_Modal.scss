@@ -8,7 +8,8 @@
   position: fixed;
   top:0;
   left:0;
-  z-index: 1000;
+  /* Ensure this modal overlay sits above all other elements */
+  z-index: 99999;
 
   .no-timestamps-available{
     display: flex;
@@ -120,7 +121,8 @@
     height:70vh;
     padding: .5rem 1.25rem;
     border-radius: 10px;
-    z-index: 101;
+    /* Keep the modal card above the overlay and other UI elements */
+    z-index: 100000;
     box-shadow: 17px 17px 19px -8px rgba(0, 0, 0, 0.8);
     -webkit-box-shadow: 17px 17px 19px -8px rgba(0, 0, 0, 0.8);
     -moz-box-shadow: 17px 17px 19px -8px rgba(0, 0, 0, 0.8);

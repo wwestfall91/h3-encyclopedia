@@ -3,6 +3,7 @@ import "./Homepage.scss";
 import { useEffect, useMemo, useRef, useState } from "react";
 import YouTube, { YouTubeEvent, YouTubePlayer } from "react-youtube";
 import SummerBreakSection from "./SummerBreak";
+import AfterDarkBG from "../../assets/images/AfterDarkBG.mp4";
 import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/GeneralFeedbackModal";
 import PsychologyInSeattleSection from "./PsychologyInSeattleSection";
@@ -21,33 +22,6 @@ function Homepage() {
   const episodeOffset = 0;
   const [isMobile, setIsMobile] = useState(false);
   const [currentEpisode, setCurrentEpisode] = useState<Episode>();
-
-  // useEffect(() => {
-  //   const episode = getEpisodeByNumber(198 - episodeOffset);
-  //   setCurrentEpisode(episode);
-  // }, [episodeOffset, episodes]);
-
-  // useEffect(() => {
-  //   if (!player || !currentEpisode) return;
-  //   try {
-  //     // Ensure the underlying iframe is present and has a src before posting messages to it.
-  //     const getIframe = (player as any).getIframe;
-  //     const iframe =
-  //       typeof getIframe === "function" ? getIframe.call(player) : null;
-  //     const src = iframe?.src;
-  //     if (!src) {
-  //       // iframe not ready yet; skip cue for now. It will be safe to cue later when the player emits onReady.
-  //       return;
-  //     }
-  //     player.cueVideoById(currentEpisode.getVideoId());
-  //   } catch (e) {
-  //     // Swallow errors to avoid crashing the whole app; surface to console for debugging.
-  //     // The YouTube widget can throw if the internal iframe isn't fully initialised yet.
-  //     // We'll avoid disrupting the UI and allow onReady to set the player when it's available.
-  //     // eslint-disable-next-line no-console
-  //     console.error("Failed to cue video:", e);
-  //   }
-  // }, [currentEpisode, player]);
 
   useEffect(() => {
     const handleResize = () => {
@@ -70,14 +44,6 @@ function Homepage() {
     });
     return episodesByDate[episodesByDate.length - 1];
   }
-
-  // const getEpisodeByNumber = (episodeNumber: number) => {
-  //   return episodes.find(
-  //     (x) =>
-  //       x.number == episodeNumber &&
-  //       x.type.toString() == EpisodeType[EpisodeType.H3Show]
-  //   );
-  // };
 
   // @ts-ignore
   const getEpisodeByTitle = (title: string) => {
@@ -128,9 +94,7 @@ function Homepage() {
   };
 
   // --- Video description timestamps ---
-  const [videoTimestamps, setVideoTimestamps] = useState<
-    { label: string; seconds: number }[]
-  >([]);
+  const [videoTimestamps, setVideoTimestamps] = useState<{ label: string; seconds: number }[]>([]);
   // We still store parsed timestamps for matching people and render them in the UI
   // timestamp UI removed; keep parsed timestamps for matching but no loading/error state
 
@@ -204,6 +168,9 @@ function Homepage() {
 
   const [isFetchingNextEpisode, setIsFetchingNextEpisode] = useState(false);
   const [isVideoLoading, setIsVideoLoading] = useState(true);
+  const [showVideo, setShowVideo] = useState(false);
+  const [isFadingOut, setIsFadingOut] = useState(false);
+  const fadeTimeoutRef = useRef<number | null>(null);
   const [fetchNextError, setFetchNextError] = useState<string | null>(null);
   // Strict navigation lock: only allow one navigation at a time
   const navigatingRef = useRef(false);
@@ -216,21 +183,6 @@ function Homepage() {
   };
   const [playlistItems, setPlaylistItems] = useState<PlaylistItem[]>([]);
   const [playlistIndex, setPlaylistIndex] = useState<number | null>(null);
-
-  // const parseEpisodeNumberFromTitle = (title: string): number | null => {
-  //   if (!title) return null;
-  //   // Try common patterns like "H3 Podcast #123" or "#123" or "Episode 123"
-  //   const regexes = [
-  //     /H3 Podcast\s*#\s*(\d+)/i,
-  //     /#\s*(\d{1,4})/,
-  //     /Episode\s*(\d{1,4})/i,
-  //   ];
-  //   for (const r of regexes) {
-  //     const m = title.match(r);
-  //     if (m && m[1]) return Number(m[1]);
-  //   }
-  //   return null;
-  // };
 
   const loadPlaylistFromYouTube = async (playlistType: 'live' | 'vods' = 'live'): Promise<{
     parsed: PlaylistItem[];
@@ -463,8 +415,25 @@ function Homepage() {
           return true;
         });
 
+        // Enforce After Show rules:
+        // - In VODs mode: keep only videos with "H3 After Show" in the title
+        // - In Live (H3 Show) mode: exclude any "H3 After Show" videos
+        const afterShowRegex = /H3\s*After\s*Dark/i;
+        if (playlistType === 'vods') {
+          const before = parsed.length;
+          parsed = parsed.filter((p) => afterShowRegex.test(p.title || ""));
+          // eslint-disable-next-line no-console
+          console.log(`AfterShow VODs filter: ${before} -> ${parsed.length}`);
+        } else {
+          const before = parsed.length;
+          parsed = parsed.filter((p) => !afterShowRegex.test(p.title || ""));
+          // eslint-disable-next-line no-console
+          console.log(`AfterShow Live exclusion: ${before} -> ${parsed.length}`);
+        }
+
         // If everything got filtered out unexpectedly, fall back to heuristic filtering on allItems
         if (parsed.length === 0 && allItems.length > 0) {
+          const afterShowRegexFallback = /H3\s*After\s*Dark/i;
           parsed = allItems
             .map((it: any) => ({
               videoId: it.snippet?.resourceId?.videoId,
@@ -484,6 +453,10 @@ function Homepage() {
               const t = (p.title || "").toLowerCase();
               for (const pat of blockedPatterns)
                 if (t.includes(pat)) return false;
+              // enforce Live exclusion in fallback
+              if (playlistType === 'live' && afterShowRegexFallback.test(p.title || "")) return false;
+              // enforce VODs-only in fallback
+              if (playlistType === 'vods' && !afterShowRegexFallback.test(p.title || "")) return false;
               return true;
             })
             .sort((a: any, b: any) => a.position - b.position);
@@ -539,6 +512,50 @@ function Homepage() {
     const playlistType = vodsOnDemandSelected ? 'vods' : 'live';
     loadPlaylistFromYouTube(playlistType);
     // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [vodsOnDemandSelected]);
+
+  // Control mounting/unmounting of the background video so we can fade it out
+  useEffect(() => {
+    // If user enables VODs, ensure video is shown and cancel any fade-out in progress
+    if (vodsOnDemandSelected) {
+      if (fadeTimeoutRef.current) {
+        window.clearTimeout(fadeTimeoutRef.current);
+        fadeTimeoutRef.current = null;
+      }
+      setIsFadingOut(false);
+      setShowVideo(true);
+      return;
+    }
+
+    // If user disables VODs but video is mounted, trigger fade-out then remove
+    if (showVideo) {
+      setIsFadingOut(true);
+      // match CSS fade-out duration (800ms)
+      fadeTimeoutRef.current = window.setTimeout(() => {
+        setShowVideo(false);
+        setIsFadingOut(false);
+        fadeTimeoutRef.current = null;
+      }, 800);
+    }
+
+    return () => {
+      if (fadeTimeoutRef.current) {
+        window.clearTimeout(fadeTimeoutRef.current);
+        fadeTimeoutRef.current = null;
+      }
+    };
+  }, [vodsOnDemandSelected, showVideo]);
+
+  // Toggle PageHeader 'after-dark' class so header can change when VODs (After Dark) is selected
+  useEffect(() => {
+    try {
+      const hdr = document.getElementById("PageHeader");
+      if (!hdr) return;
+      if (vodsOnDemandSelected) hdr.classList.add("after-dark");
+      else hdr.classList.remove("after-dark");
+    } catch (e) {
+      // ignore in non-browser environments
+    }
   }, [vodsOnDemandSelected]);
   // Only allow one navigation at a time; wait for API and UI to update before allowing another
   const moveInPlaylist = async (direction: "next" | "prev") => {
@@ -688,7 +705,6 @@ function Homepage() {
   const matchedPersonCards = useMemo(() => {
     const cards: JSX.Element[] = [];
     if (!people || people.length === 0) return cards;
-
     // Search both timestamps AND episode title for person names
     const labelsToSearch = [];
     
@@ -777,6 +793,31 @@ function Homepage() {
         />
       );
     }
+
+    if(currentEpisode?.title.includes("[H3 After Dark #1]")) {
+      cards.push(
+        <HomepagePersonCard
+          key={"Harley Morenstein"} 
+          person={people.find(p => p.name === "Harley Morenstein")} 
+        />
+      )
+
+      cards.push(
+        <HomepagePersonCard
+          key={"Girl With a Microphone"} 
+          person={people.find(p => p.name === "Girl With a Microphone")} 
+        />
+      )
+
+      cards.push(
+        <HomepagePersonCard
+          key={"David Valdes"} 
+          person={people.find(p => p.name === "David Valdes")} 
+        />
+      )
+
+    }
+
     return cards;
     // include jumpToTime and currentEpisode in deps so function references are fresh when they change
   }, [videoTimestamps, people, jumpToTime, currentEpisode]);
@@ -807,7 +848,23 @@ function Homepage() {
 
   return (
     <>
-      <div id="Homepage">
+      <div
+        id="Homepage"
+        className={
+          `${vodsOnDemandSelected ? "vods-bg" : ""} ${isFadingOut ? "vods-fade-out" : ""}`.trim()
+        }
+      >
+        {showVideo && (
+          <video
+            className={`background-video ${isFadingOut ? "fade-out" : ""}`}
+            src={AfterDarkBG}
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+          />
+        )}
         {!isMobile && (
           <div className="subheader">
             <button
@@ -926,12 +983,12 @@ function Homepage() {
                   <div 
                     className={vodsOnDemandSelected ? "youtube-section-button" : "youtube-section-button selected"}
                     onClick={() => setVodsOnDemandSelected(false)}>
-                      Live
+                      H3 Show
                   </div>
                   <div 
                     className={vodsOnDemandSelected ? "youtube-section-button selected" : "youtube-section-button"}
                     onClick={() => setVodsOnDemandSelected(true)}>
-                      Vods ON DEMAND
+                      H3 After Dark
                     </div>
                 </div>
               </div>

@@ -1,4 +1,5 @@
 #Homepage {
+  position: relative;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -8,6 +9,97 @@
     rgba(168, 97, 116) 0%,
     rgba(121, 103, 185, 1) 100%
   );
+
+  &.vods-bg {
+    /* keep the same gradient as the default so it shows while the video loads/fades in */
+    background: radial-gradient(
+      circle,
+      rgba(168, 97, 116) 0%,
+      rgba(121, 103, 185, 1) 100%
+    );
+    /* hide visual scrollbars while the video loads/fades in, but keep scrolling functional */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+
+    /* WebKit browsers */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .page-container {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+
+  /* While the video is fading out keep scrollbars hidden to avoid flicker */
+  &.vods-fade-out {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .page-container {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+
+  /* Background video styles */
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0;
+    will-change: opacity, transform;
+  }
+
+  /* page content will retain its own positioning and z-index so layout (e.g. sticky header) isn't broken */
+
+  /* Fade-in animation for background video */
+  @keyframes bgFadeIn {
+    from {
+      opacity: 0;
+      transform: scale(1.02);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  &.vods-bg .background-video {
+    animation: bgFadeIn 1200ms ease-in-out forwards;
+  }
+
+  /* Fade-out animation */
+  @keyframes bgFadeOut {
+    from {
+      opacity: 1;
+      transform: scale(1);
+    }
+    to {
+      opacity: 0;
+      transform: scale(1.02);
+    }
+  }
+
+  .background-video.fade-out {
+    animation: bgFadeOut 800ms ease-in-out forwards;
+  }
 
   .youtube-section-container{
     display: flex;
@@ -193,6 +285,8 @@
     flex-grow: 1;
     overflow: auto;
     width: 100vw;
+    position: relative;
+    z-index: 1; /* ensure content (buttons, controls) stay above the background video */
   }
 
   .video-container {
@@ -261,3 +355,18 @@
     }
   }
 }
+
+  .current-video-title {
+    h5 {
+      color: #272727; /* default title color */
+    }
+  }
+
+  /* When VODs mode is active, make the title white for contrast */
+  #Homepage .current-video-title h5 {
+    color: #272727; /* default title color (redundant inside block) */
+  }
+
+  #Homepage.vods-bg .current-video-title h5 {
+    color: #ffffff;
+  }

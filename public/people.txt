@@ -157,7 +157,7 @@ H3Lore (WaddlesJr)	Images\WaddlesJr.png	Friend
 Hailey Bieber	https://www.parismatch.com/lmnr/var/pm/public/media/image/Hailey-Bieber_0.jpg	Neutral	
 Hailey Welch (Hawk Tuah)	https://www.tennessean.com/gcdn/authoring/authoring-images/2024/07/03/PNAS/74290172007-0-u-9-a-2440.jpg	Neutral	
 Hannibal B	https://image.tmdb.org/t/p/w500/mcw3Orbg4vbALXTVG4hriZjH1sj.jpg	Neutral	
-Harley Morenstein	https://bleedingcool.com/wp-content/uploads/2020/11/Screen-Shot-2020-11-22-at-12.28.08-AM-1200x628.jpg	Friend	Harley
+Harley Morenstein	https://bleedingcool.com/wp-content/uploads/2020/11/Screen-Shot-2020-11-22-at-12.28.08-AM-1200x628.jpg	Family	Harley
 Harvey Weinstein	https://upload.wikimedia.org/wikipedia/commons/f/f6/Ryan_Kavanaugh2.PNG	Neutral	
 Hasan Piker	https://hips.hearstapps.com/hmg-prod/images/cosmo-hasanpiker-211-1518731685.jpg	Enemy	Hasan
 Helen Keller	Images\HelenKeller.png	Enemy	
@@ -401,3 +401,6 @@ Yoko Ono	https://ediblemanhattan.com/wp-content/uploads/2010/11/EM14-LowRes18.jp
 Yung Gravy	https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Yung_Gravy_2023_%28cropped%29.jpg/800px-Yung_Gravy_2023_%28cropped%29.jpg	Friend	
 Zach	https://static.wikia.nocookie.net/h3h3productions/images/9/90/GVL6evk8_400x400.jpg	Family	
 Zane (Tall Skeleton)	https://ugc.production.linktr.ee/3b0acd14-0d47-4148-8261-62066f6fd243_me-h3-greek.jpeg	Family	
+Jojo Siwa	https://upload.wikimedia.org/wikipedia/commons/c/c6/Jojo_Siwa_on_the_iHeart_Awards_2024_01.jpg	Neutral	
+Girl With a Microphone	Images\gwam_Profile_Picture.jpg	Family	
+David Valdes	Images\DavidValdes.png	Family	

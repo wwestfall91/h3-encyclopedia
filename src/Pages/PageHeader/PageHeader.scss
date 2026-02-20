@@ -19,6 +19,21 @@
   z-index:100;
   overflow:hidden;
 
+  /* make room for overlay pseudo-element */
+  position: sticky;
+  transition: background 1200ms ease-in-out;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 1200ms ease-in-out;
+    background: linear-gradient(90deg, rgba(45,0,80,0.95) 0%, rgba(237, 45, 255, 0.95) 100%, );
+  }
+
   .hamburger-list{
     display: flex;
     position: fixed;
@@ -58,6 +73,8 @@
     display: flex;
     height: 100%;
     padding-left: 1rem;
+    position: relative;
+    z-index: 2;
   }
   
   .header {
@@ -67,6 +84,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 0rem 4rem 0rem 1rem;
+    position: relative;
+    z-index: 2; /* place header content above overlay */
   }
   .right-header {
     display: flex;
@@ -122,5 +141,14 @@
       width: 100%;
     }
   } 
+}
+
+/* When Homepage toggles After Dark (VODs), add this class to fade the header overlay in */
+#PageHeader.after-dark::before {
+  opacity: 1;
+}
+
+#PageHeader.after-dark {
+  /* keep fallback background as well; overlay provides the neon look */
 }
 

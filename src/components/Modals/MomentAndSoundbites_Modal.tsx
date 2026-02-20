@@ -5,6 +5,7 @@ import { Soundbite } from "../../models/Soundbite";
 import "./MomentAndSoundbites_Modal.scss";
 import { useDataContext } from "../../context/DataContext";
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 
 export interface Props {
   title: string;
@@ -112,90 +113,76 @@ export function MomentAndSoundbites_Modal(props: Props) {
     },
   } as any;  
 
-  return (
+  const modalContent = (
     <div id="MomentAndSoundbites_Modal" onClick={() => props.openModal(false)}>
-      <div className="modal-background">
+      <div className="modal-background" onClick={() => props.openModal(false)}>
         <div className="modal-container" onClick={(e) => {e.stopPropagation();}}>
-        <div className="modal-close-button" onClick={() => {props.openModal(false);}}>X</div>
-        {!isMobile &&
-          <div className="modal-video-container">
-              <YouTube opts={opts} onReady={onReady} style={divStyle}></YouTube>
-          </div>
-        }
+          <div className="modal-close-button" onClick={() => {props.openModal(false);}}>X</div>
+          {!isMobile &&
+            <div className="modal-video-container">
+                <YouTube opts={opts} onReady={onReady} style={divStyle}></YouTube>
+            </div>
+          }
           <div className="content-container">
             <div className="modal-header">
               <div className="modal-title">{props.title}</div>
             </div>
             <div className="modal-description">{props.description}</div>
             <div className="modal-data">
-            <div className="data-section">
-              <div className="timestamp-notice">Due to pieces sometimes getting cut after airing, accuracy of timestamps may vary</div>
-              <div className="timestamp-notice">However, the episode is likely the correct one!</div>
-              {props.soundbites.length > 0 &&
-              <>
-                  <div className="related-links">Related Soundbites</div>
-                  <div className="modal-links-container-soundbites">
-                    {sortSoundbitesByDate(props.soundbites).map((soundbite) => (
-                      <>
-                        {soundbite.episodetype &&
-                        <div className={`link-row ${selectedMoment?.title == soundbite.title ? "selected" : "" }`} onClick={() => {{isMobile ? window.open(`${soundbite.url}`, '_blank') : setSelectedMoment(soundbite)}}}>
-                          <div className="related-links-date">
-                            {episodes.filter((x : Episode) => x.type == soundbite.episodetype && x.number == soundbite.episodenumber)[0].date}
+              <div className="data-section">
+                <div className="timestamp-notice">Due to pieces sometimes getting cut after airing, accuracy of timestamps may vary</div>
+                <div className="timestamp-notice">However, the episode is likely the correct one!</div>
+                {props.soundbites.length > 0 &&
+                <>
+                    <div className="related-links">Related Soundbites</div>
+                    <div className="modal-links-container-soundbites">
+                      {sortSoundbitesByDate(props.soundbites).map((soundbite) => (
+                        <>
+                          {soundbite.episodetype &&
+                          <div className={`link-row ${selectedMoment?.title == soundbite.title ? "selected" : "" }`} onClick={() => {{isMobile ? window.open(`${soundbite.url}`, '_blank') : setSelectedMoment(soundbite)}}}>
+                            <div className="related-links-date">
+                              {episodes.filter((x : Episode) => x.type == soundbite.episodetype && x.number == soundbite.episodenumber)[0].date}
+                            </div>
+                            <div className="related-links-hyperlink">
+                              {soundbite.title}
+                            </div>
+                            <div className="related-links-episode">
+                              {soundbite.getShortEpisodeTitle()}
+                            </div>
                           </div>
-                          <div className="related-links-hyperlink">
-                            {soundbite.title}
-                          </div>
-                          <div className="related-links-episode">
-                            {soundbite.getShortEpisodeTitle()}
-                          </div>
-                        </div>
-                        }
+                          }
 
-                        {/*Soundbites with unknown origins function differently*/}
-                        {!soundbite.episodetype &&
-                        <div className={`link-row ${isPlaying ? "selected" : "" }`} onClick={() => {PlayAudio(soundbite)}}>
-                          <div className="related-links-date">
-                            -Unknown-
+                          {!soundbite.episodetype &&
+                          <div className={`link-row ${isPlaying ? "selected" : "" }`} onClick={() => {PlayAudio(soundbite)}}>
+                            <div className="related-links-date">-Unknown-</div>
+                            <div>{soundbite.title}</div>
+                            <div className="related-links-episode">???</div>
                           </div>
-                          <div>
-                            {soundbite.title}
-                          </div>
-                          <div className="related-links-episode">
-                            ???
-                          </div>
+                          }
+                        </>
+                      ))}
+                      {props.soundbites.length === 0 &&
+                          <div className="no-timestamps-available">None available</div>
+                      }
+                    </div>
+                </>
+                }
+                <div className="data-section">
+                  <div className="related-links">Referenced in Episode</div>
+                  <div className="modal-links-container-moments">
+                    {sortMomentsByDate(props.moments, episodes).map((moment) => (
+                      <div className={`link-row ${selectedMoment?.title == moment.title ? "selected" : "" }`} onClick={() => {{isMobile ? window.open(`${moment.url}`, '_blank') :setSelectedMoment(moment)}}}>
+                        <div className="related-links-date">
+                          {episodes.filter((x : Episode) => x.type == moment.episodeType && x.number == moment.episodeNumber)[0].date}
                         </div>
-                        }
-                      </>
+                        <div className="related-links-hyperlink">{moment.title}</div>
+                        <div className="related-links-episode">{moment.getShortEpisodeTitle()}</div>
+                      </div>
                     ))}
-                    {props.soundbites.length === 0 &&
-                        <div className="no-timestamps-available">
-                          None available
-                        </div>
+                    {props.moments.length === 0 &&
+                        <div className="no-timestamps-available">No episodes available</div>
                     }
                   </div>
-                  </>
-                }
-              <div className="data-section">
-                <div className="related-links">Referenced in Episode</div>
-                <div className="modal-links-container-moments">
-                  {sortMomentsByDate(props.moments, episodes).map((moment) => (
-                    <div className={`link-row ${selectedMoment?.title == moment.title ? "selected" : "" }`} onClick={() => {{isMobile ? window.open(`${moment.url}`, '_blank') :setSelectedMoment(moment)}}}>
-                      <div className="related-links-date">
-                        {episodes.filter((x : Episode) => x.type == moment.episodeType && x.number == moment.episodeNumber)[0].date}
-                      </div>
-                      <div className="related-links-hyperlink">
-                        {moment.title}
-                      </div>
-                      <div className="related-links-episode">
-                        {moment.getShortEpisodeTitle()}
-                      </div>                
-                    </div>
-                  ))}
-                  {props.moments.length === 0 &&
-                      <div className="no-timestamps-available">
-                        No episodes available
-                      </div>
-                  }
                 </div>
               </div>
             </div>
@@ -203,8 +190,13 @@ export function MomentAndSoundbites_Modal(props: Props) {
         </div>
       </div>
     </div>
-    </div>
   );
+
+  if (typeof document !== "undefined") {
+    return createPortal(modalContent, document.body);
+  }
+
+  return null;
 }
 
 function sortMomentsByDate(moments: Moment[], episodes: Episode[]) {
