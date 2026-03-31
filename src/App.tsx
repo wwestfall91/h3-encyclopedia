@@ -1,6 +1,6 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import "./App.scss";
+import "./App.css";
 import SoundbitesPage from "./Pages/SoundBitesPage/SoundBitesPage";
 import Iceberg from "./Pages/Iceberg/IcebergPage";
 import CrewPage from "./components/Crew/CrewPage/CrewPage";

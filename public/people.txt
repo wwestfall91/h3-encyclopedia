@@ -404,3 +404,14 @@ Zane (Tall Skeleton)	https://ugc.production.linktr.ee/3b0acd14-0d47-4148-8261-62
 Jojo Siwa	https://upload.wikimedia.org/wikipedia/commons/c/c6/Jojo_Siwa_on_the_iHeart_Awards_2024_01.jpg	Neutral	
 Girl With a Microphone	Images\gwam_Profile_Picture.jpg	Family	
 David Valdes	Images\DavidValdes.png	Family	
+Kash Patel	https://www.advocate.com/media-library/kash-patel-fired-fbi-agent-for-displaying-lgbtq-pride-flag-during-biden-administration.jpg?id=61700511&width=1200&height=1200&coordinates=272%2C0%2C273%2C0	Enemy	
+Frankie MacDonald	https://i1.sndcdn.com/artworks-NOy1ot4T8dTSAaTr-j8K0yg-t500x500.jpg	Friend	
+Jamie Foxx	https://www.shutterstock.com/editorial/image-editorial/M7TeMb10N8TdI831MjY4NjY=/american-actor-jamie-foxx-arrives-los-angeles-440nw-13435194ft.jpg	Enemy	
+Clavicular	https://ktar.com/wp-content/uploads/2026/02/clavicular-arrested-scottsdale.jpg	Neutral	
+Ned Fulmer	https://www.cheatsheet.com/wp-content/uploads/2022/09/Ned-Fulmer.jpg?w=925&strip=all&quality=89	Enemy	
+Benny Blanco	https://cdn-images.dzcdn.net/images/artist/3c01adfaf98dba683d9b1c0c9fa53d70/1900x1900-000000-80-0-0.jpg	Neutral	
+Jim Carrey	https://compote.slate.com/images/52b61f29-8f24-4c9b-b081-2b3456ed76c5.jpeg?crop=1560%2C1040%2Cx0%2Cy0	Neutral	
+Nikocado Avocado	https://static.wikitide.net/amazingyoutuberswiki/6/6e/Nikocado.jpg	Neutral	
+Shia LaBeouf	https://f.i.uol.com.br/fotografia/2020/12/23/16087258875fe3357fc6d0c_1608725887_3x2_md.jpg	Neutral	
+Timothée Chalamet	https://upload.wikimedia.org/wikipedia/commons/5/5c/Timothée_Chalamet-63482_%28cropped%29.jpg	Neutral	
+Boy Throb	https://assets.teenvogue.com/photos/693c350bb528f36cfd46629a/16:9/w_2560%2Cc_limit/TNV_BoyThrob_HEADER1.jpg	Neutral	

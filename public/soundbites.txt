@@ -164,6 +164,7 @@ Obamna (Obama)	Trump_Obamna.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://yout
 THE N WORD!	Trump_TheNWord.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
 Mom I Wanna Vape!	Trump_MomIWantAVape.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
 Everythings Computer!	Trump_EverythingsComputer.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
+I Love Teslur!	Trump_ILoveTeslur.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
 What the Hell is Going on?!	Trump_WhatTheHellIsGoingOn.mp3	Unknown	1	05-05-2015	0	Donald Trump	https://youtu.be/zOYZ3XMGjUM&t=0	
 I didn't think you could break a penis	Donna_BreakAPenis.mp3	H3Show	53	09-11-2024	9252	Donna Klein	https://youtu.be/ua5pUi11V3E&t=9252	
 DEEZ NUTS	DonnaKlein_DeezNuts.mp3	AfterDark	99	03-24-2023	10100	Donna Klein	https://www.youtube.com/watch?v=FkTrjT_PDDc&t=10100	
@@ -184,8 +185,8 @@ I cant BREATH WHEN YOURE NOT THEeeRe!	Dream_ICantBreathWhenYoureNotThere2.mp3	H3
 I cant sleep its a nightmare!	Dream_ICantSleepItsANightmare.mp3	H3TV	93	10-09-2023	9288	Dream	https://www.youtube.com/watch?v=ZNFeRPMOu8g&t=9288	
 Youre not there... Youre not there.	Dream_YoureNotThere.mp3	H3TV	93	10-09-2023	9342	Dream	https://www.youtube.com/watch?v=ZNFeRPMOu8g&t=9342	
 Hell yeah HELL YEAH	Dream_HellYeahHELLYEAH.mp3	OTR	2	06-03-2021	1157	Dream	https://www.youtube.com/watch?v=RSirCfZjonY&t=1157	
-YUP	E40_Nope.mp3	Unknown	1	05-05-2015	0	E-40	https://youtu.be/zOYZ3XMGjUM&t=0	
-NOPE	E40_Yup.mp3	Unknown	1	05-05-2015	0	E-40	https://youtu.be/zOYZ3XMGjUM&t=0	
+YUP	E40_Yup.mp3	Unknown	1	05-05-2015	0	E-40	https://youtu.be/zOYZ3XMGjUM&t=0	
+NOPE	E40_Nope.mp3	Unknown	1	05-05-2015	0	E-40	https://youtu.be/zOYZ3XMGjUM&t=0	
 USA USA USA!!	ElonMusk_USA.mp3	H3Show	72	10-28-2024	1871	Elon Musk	https://youtu.be/HngwtqKyYdw&t=1871	
 ♪ AlLlL I NeeEEEd iS the RYThM DIViNE!! ... ♪	EnriqueIglesias_SingingPoorly.mp3	OTR	96	11-29-2023	743	Enrique Iglesias	https://www.youtube.com/watch?v=Z17qb2ybiuI&t=743	
 ♪ IMAGINE IF NINJA GOT A LOW TAPER FADE ♪	Ericdoa_ImagineIfNinjaGotALowTaperFade.mp3	OTR	100	01-17-2024	6265	Ericdoa	https://www.youtube.com/watch?v=cfZM73q7NOc&t=6265	
@@ -386,6 +387,7 @@ A dick in briefs!	JoeRogan_ADickInBriefs.mp3	Unknown	1	05-05-2015	0	Joe Rogan	ht
 Shredded, With a Large Hog	JoeRogan_ShreddedWithALargeHog.mp3	Unknown	1	05-05-2015	0	Joe Rogan	https://youtu.be/zOYZ3XMGjUM&t=0	
 Bear!	JoeRogan_BearNoise.mp3	Unknown	1	05-05-2015	0	Joe Rogan	https://youtu.be/zOYZ3XMGjUM&t=0	
 With her boob coming out	JoeySalads_WithHerBoobComingOut.mp3	EthanAndHila	3	03-07-2016	78	Joey Salads	https://youtu.be/nHHzQ8VPtAs&t=78	
+With Her Boob Comin' Out	JoeySalads_WithHerBoobComingOut.mp3	Unknown	1	05-05-2015	0	Joey Salads	https://youtu.be/zOYZ3XMGjUM&t=0	
 Im going to give you the blowjob of your life	SenatorJohnKennedy_BlowJobOfYourLife.mp3	Leftovers	57	09-14-2023	5526	John Kennedy	https://www.youtube.com/watch?v=EeFuFKH-uOo&t=5526	
 I cant wait to have your cock in my mouth	SenatorJohnKennedy_ICantWaitToHaveYourCockInMyMouth.mp3	Leftovers	57	09-14-2023	5526	John Kennedy	https://www.youtube.com/watch?v=EeFuFKH-uOo&t=5526	
 I got a new strap on harness today	SenatorJohnKennedy_IGotANewStrapOnHarnessToday.mp3	Leftovers	57	09-14-2023	5526	John Kennedy	https://www.youtube.com/watch?v=EeFuFKH-uOo&t=5526	
@@ -841,6 +843,7 @@ And its become your familys heart and soul	TomSelleck_AndItSBecomeYourFamiliesHe
 Its Just a Loan	TomSelleck_ItsJustALoan.mp3	AfterDark	6	09-25-2020	6731	Tom Selleck	https://www.youtube.com/watch?v=xfPmKCcl_Gg&t=6731	
 And It's Become Your Families Heart and Soul	TomSelleck_AndItsBecomeYourFamilysHeartAndSoul.mp3	Unknown	1	05-05-2015	0	Tom Selleck	https://youtu.be/zOYZ3XMGjUM&t=0	
 I Trust Them... I Think You Can Too	TomSelleck_ITrustThemIThinkYouCanToo.mp3	Unknown	1	05-05-2015	0	Tom Selleck	https://youtu.be/zOYZ3XMGjUM&t=0	
+It's Just a Loan	TomSelleck_ItsJustALoan.mp3	Unknown	1	05-05-2015	0	Tom Selleck	https://youtu.be/zOYZ3XMGjUM&t=0	
 A Reverse Mortgage Loan Isn't Some Kind of Trick	TomSelleck_ReverseMortgageLoanIsNotATrick.mp3	Unknown	1	05-05-2015	0	Tom Selleck	https://youtu.be/zOYZ3XMGjUM&t=0	
 So You Can Retire Better	TomSelleck_SoYouCanRetireBetter.mp3	Unknown	1	05-05-2015	0	Tom Selleck	https://youtu.be/zOYZ3XMGjUM&t=0	
 The Big Difference is How You Pay it Back	TomSelleck_TheBigDifferenceIsHowYouPayItBack.mp3	Unknown	1	05-05-2015	0	Tom Selleck	https://youtu.be/zOYZ3XMGjUM&t=0	

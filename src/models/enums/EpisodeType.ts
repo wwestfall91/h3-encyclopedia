@@ -22,5 +22,6 @@ export enum EpisodeType {
   Highlight,
   VOD,
   AfterShow,
-  Poker
+  Poker,
+  SteamyAwards
 }

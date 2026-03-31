@@ -2,11 +2,9 @@ import { useDataContext } from "../../context/DataContext";
 import "./Homepage.scss";
 import { useEffect, useMemo, useRef, useState } from "react";
 import YouTube, { YouTubeEvent, YouTubePlayer } from "react-youtube";
-import SummerBreakSection from "./SummerBreak";
 import AfterDarkBG from "../../assets/images/AfterDarkBG.mp4";
 import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/GeneralFeedbackModal";
-import PsychologyInSeattleSection from "./PsychologyInSeattleSection";
 import HomepagePersonCard from "./HomepagePersonCard";
 import { Episode } from "../../models/Episode";
 
@@ -14,8 +12,8 @@ function Homepage() {
   // @ts-ignore
   const { people, episodes, moments } = useDataContext();
   const [player, setPlayer] = useState<YouTubePlayer | null>(null);
-  const [breakTabSelected, setBreakTabSelected] = useState<boolean>(false);
-  const [psychologySelected, setPsychologySelected] = useState<boolean>(false);
+  //const [breakTabSelected, setBreakTabSelected] = useState<boolean>(false);
+  //const [psychologySelected, setPsychologySelected] = useState<boolean>(false);
   const [vodsOnDemandSelected, setVodsOnDemandSelected] = useState<boolean>(false);
   const [showEmailModal, setShowEmailModal] = useState<boolean>(false);
   // static offset currently unused as a stateful setter; keep as const to avoid unused state warning
@@ -867,7 +865,7 @@ function Homepage() {
         )}
         {!isMobile && (
           <div className="subheader">
-            <button
+            {/* <button
               className={
                 !breakTabSelected
                   ? "subheader-button"
@@ -879,8 +877,8 @@ function Homepage() {
               }}
             >
               WINTER BREAK 2025
-            </button>
-            <button
+            </button> */}
+            {/* <button
               className={
                 breakTabSelected || psychologySelected
                   ? "subheader-button"
@@ -892,7 +890,7 @@ function Homepage() {
               }}
             >
               EPISODE DEBRIEF
-            </button>
+            </button> */}
             {/* <button
               className={
                 psychologySelected
@@ -909,7 +907,7 @@ function Homepage() {
           </div>
         )}
 
-        {!breakTabSelected && !psychologySelected && (
+        {/* {!breakTabSelected && !psychologySelected && ( */}
           <>
             {!isMobile && (
               <div className="submit-button-container">
@@ -1005,9 +1003,9 @@ function Homepage() {
               </div>
             </div>
           </>
-        )}
-        {breakTabSelected && <SummerBreakSection />}
-        {psychologySelected && <PsychologyInSeattleSection />}
+        {/* )} */}
+        {/* {breakTabSelected && <SummerBreakSection />}
+        {psychologySelected && <PsychologyInSeattleSection />} */}
       </div>
       {showEmailModal && (
         <SubmitModal
