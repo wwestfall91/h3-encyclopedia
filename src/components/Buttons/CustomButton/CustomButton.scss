@@ -1,10 +1,9 @@
 #CustomButton {
   display: flex;
-  height: 100%;
 
   .custom-button-container {
     display: flex;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
     height:100%;
     font-family: Raleway, sans-serif;
@@ -12,11 +11,15 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     text-align: center;
-    padding: 0.25rem;
     cursor: pointer;
+    padding:.75rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.788);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.164);
+    
   }
   .custom-button-container:hover {
-    border-bottom: 0.25rem solid rgba(255, 255, 255, 0.404);
+    border-bottom: 0.25rem solid rgb(0, 0, 0);
   }
 
   .selected {

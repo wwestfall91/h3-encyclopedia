@@ -17,23 +17,22 @@ function ButtonPage() {
     if(buttonMoments == undefined || buttonMoments.length == 0)
       return;
 
-    const latestButton = buttonMoments![buttonMoments!.length - 1]
-    
-    const latestEpisode = episodes.filter((x : Episode) => x.type == latestButton.episodeType && x.number == latestButton.episodeNumber);
-    const lastButtonDate = new Date(latestEpisode[0].date as string);
-    
+    const latestButton = buttonMoments[0]
+
     const today = new Date(Date.now());
-    let diff = Math.abs(lastButtonDate.getTime() - today.getTime());
+
+    let diff = Math.abs(latestButton.date!.getTime() - today.getTime());
     let diffDays = Math.ceil(diff / (1000 * 60 * 60 * 24));
+    
     setDaysSinceLastButton(diffDays - 1);
   };
 
-  useEffect(() => {    
+  useEffect(() => {
     if(buttonMoments == undefined || buttonMoments.length == 0){
       setButtonMoments(moments.filter(x => x.tags?.includes(Tag.Button)).sort((a, b) => {
         let dateA = new Date(episodes.filter((x : Episode) => x.type == a.episodeType && x.number == a.episodeNumber)[0].date);
         let dateB = new Date(episodes.filter((x : Episode) => x.type == b.episodeType && x.number == b.episodeNumber)[0].date);
-        return dateA.getTime() - dateB.getTime();
+        return dateB.getTime() - dateA.getTime();
       }));
     }
 
@@ -65,12 +64,9 @@ function ButtonPage() {
         <div className="button-stats-subheader">
           <div className="body-header-center">
             {buttonMoments &&
-              <span>Total Button Hits: {buttonMoments.length}</span>
+              <span>Total Button Hits: {buttonMoments.length + 40}</span>
             }
           </div>
-          {/* <div className="body-header-center">
-            <span>Episodes: 70 (of 172) OR 40.69%</span>
-          </div> */}
           <div className="top-moments-container">
             {moments &&
             <div className="right-subheader">
@@ -92,7 +88,7 @@ function ButtonPage() {
         </div>
         <div className="body-header">All Button Moments</div>
         <div className="button-page-body">
-          {moments.filter(x => x.tags?.includes(Tag.Button)).map((moment) => (
+          {buttonMoments?.map((moment) => (
             <MomentComponent
               moment={moment}
               showEpisodeTitle={true}

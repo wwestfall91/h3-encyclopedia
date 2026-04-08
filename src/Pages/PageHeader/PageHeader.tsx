@@ -71,6 +71,14 @@ function PageHeader() {
               <CustomButton page={Page.Crew} />
               <CustomButton page={Page.Button} />
               <CustomButton page={Page.People} />
+              <div id="CustomButton" onClick={() => window.open(`https://snarkbrain.com/articles/`)}>
+                <div className="custom-button-container">
+                  Snark Brain
+                </div>
+                <div className="snark-brain">
+                  🧠
+                </div>
+              </div>
             </div>
           </div>
         }

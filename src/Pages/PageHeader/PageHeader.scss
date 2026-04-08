@@ -91,6 +91,23 @@
     display: flex;
     height:100%;
     gap: 1rem;
+    align-items: center;
+  }
+
+  .snark-brain{
+    display: flex;
+    position: absolute;
+    top:0;
+    right:0;
+    margin-right:50px;
+    margin-top:10px;
+    transform:rotate(15deg);
+    font-size:32px;
+  }
+
+  .snark-brain:hover{
+    cursor: pointer;
+    font-size:34px;
   }
   
   @media all and (min-width: 768px) and (max-width: 1200px) {
