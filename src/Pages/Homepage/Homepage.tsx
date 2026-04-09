@@ -258,7 +258,7 @@ function Homepage() {
 
       // Paginate through playlistItems (50 per page)
       // For VODs mode, limit to most recent 150 videos to speed up loading
-      const maxVideos = playlistType === 'vods' ? 150 : undefined;
+      const maxVideos = 30;
       let allItems: any[] = [];
       let pageToken: string | undefined = undefined;
       do {
@@ -555,9 +555,11 @@ function Homepage() {
       // ignore in non-browser environments
     }
   }, [vodsOnDemandSelected]);
+
   // Only allow one navigation at a time; wait for API and UI to update before allowing another
   const moveInPlaylist = async (direction: "next" | "prev") => {
     if (navigatingRef.current) return;
+
     navigatingRef.current = true;
     setIsFetchingNextEpisode(true);
     let timeoutId: any = null;
@@ -567,6 +569,7 @@ function Homepage() {
       setIsFetchingNextEpisode(false);
       setFetchNextError("Navigation timed out. Please try again.");
     }, 10000);
+
     try {
       setFetchNextError(null);
 
@@ -592,8 +595,12 @@ function Homepage() {
         const isPlayable = (p: PlaylistItem | undefined) => {
           if (!p) return false;
           if (p.isPublic === false) return false;
+
           const t = (p.title || "").toLowerCase();
-          for (const pat of blockedPatterns) if (t.includes(pat)) return false;
+          for (const pat of blockedPatterns) 
+            if (t.includes(pat)) 
+              return false;
+
           return true;
         };
 
