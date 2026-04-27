@@ -1,11 +1,11 @@
 #MomentAndSoundbites_Modal{
   display: flex;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
   height:100vh;
   width:100vw;
-  background-color: rgba(0, 0, 0, 0.6);
   align-items: center;
   justify-content: center;
-  position: fixed;
   top:0;
   left:0;
   /* Ensure this modal overlay sits above all other elements */
@@ -115,12 +115,11 @@
 
   .modal-background{
     position: absolute;
-    background-color: rgb(205, 239, 255);
-    width:fit-content;
-    max-width:90vw;
-    height:70vh;
-    padding: .5rem 1.25rem;
-    border-radius: 10px;
+    background: #EBD7FF;
+    background: linear-gradient(0deg,rgba(235, 215, 255, 1) 0%, rgba(226, 207, 245, 1) 90%, rgba(211, 142, 196, 1) 95%, rgba(210, 118, 143, 1) 100%);
+    width:70vw;
+    height:80vh;
+    border-radius: 0px 0px 10px 10px;
     /* Keep the modal card above the overlay and other UI elements */
     z-index: 100000;
     box-shadow: 17px 17px 19px -8px rgba(0, 0, 0, 0.8);
@@ -152,9 +151,7 @@
 
   .modal-container {
     display: flex;
-    width:100%;
-    height:100%;
-    justify-content: space-between;
+    flex-direction: row;
     border-radius: 10px;
     gap: 2rem;
   }
@@ -162,7 +159,9 @@
   .modal-video-container{
     display: flex;
     flex-direction: column;
+    height:70vh;
     justify-content: center;
+    align-items: center;
   }
 
   .video-title{
@@ -173,18 +172,16 @@
   }
 
   .modal-close-button {
-    position: absolute;
-    top:0;
-    right:22px;
-    font-size: 36px;
+    font-size: 30px;
     cursor: pointer;
+    border-radius: 50px;
   }
 
   .content-container{
     display: flex;
     flex-direction: column;
     gap: .25rem;
-    height:100%;
+    height:inherit;
     min-width: 25rem;
     max-width: 35rem;
   }
@@ -193,15 +190,14 @@
     display: flex;
     flex-direction: column;
     overflow:auto;
+    max-height:65vh;
     gap:1rem;
-    width:100%;
-    height:95%;
   }
 
   .data-section{
     display: flex;
     flex-direction: column;
-    height:fit-content;
+    overflow: auto;
     width:100%;
     padding-right:5px;
   }
@@ -209,9 +205,8 @@
   .modal-links-container {
     display: flex;
     flex-direction: column;
-    width:100%;
     gap: 0.5rem;
-    overflow: hidden;
+    overflow: auto;
     padding-right: 1rem;
     padding-bottom:1rem;
     padding-top:.2rem;
@@ -220,10 +215,8 @@
   .modal-links-container-soundbites{
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
-    overflow: hidden;
-    width:100%;
     gap: 0.5rem;
+    overflow: auto;
     padding-right: 1rem;
     padding-bottom:1rem;
     padding-top:.2rem;
@@ -234,7 +227,7 @@
     flex-direction: column;
     width:100%;
     gap: 0.5rem;
-    overflow: hidden;
+    overflow: auto;
     padding-right: 1rem;
     padding-bottom:1rem;
     padding-top:.2rem;
@@ -248,17 +241,15 @@
     display: flex;
     min-width:30rem;
     font-size: 32px;
-    border-bottom: black solid 3px;
     width: 100%;
   }
   .modal-header{
     display: flex;
     flex-direction: column;
     justify-content: unset;
-    max-height: 35%;
-    flex-grow: 1;
     overflow: auto;
     gap:10px;
+    
   }
 
   .timestamp-notice{
@@ -274,7 +265,6 @@
     flex-direction: column;
     font-family: monospace;
     font-size:14px;
-    flex-grow: 1;
     overflow: auto;
     width:100%;
   }
@@ -337,6 +327,16 @@
     @extend .link-row;
     background-color: rgba(255, 251, 0, 0.753);
   }
+
+  .modal-real-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:0px 10px;
+    margin-bottom: 10px;
+  }
   
   @media all and (min-width: 1024px) and (max-width: 1400) {
     .data-section{
@@ -351,11 +351,11 @@
     }
     .modal-description{
       display: flex;
-      flex-grow: 0;
     }
 
     .modal-container {
-      flex-direction: column;
+      display:flex;
+      flex-direction: row;
       width: 100%;
       overflow:auto;
     }
@@ -402,11 +402,11 @@
     }
     .modal-description{
       display: flex;
-      flex-grow: 0;
     }
 
     .modal-container {
-      flex-direction: column;
+      display: flex;
+      flex-direction: row;
       width: 100%;
       overflow:auto;
     }
@@ -454,11 +454,11 @@
     }
     .modal-description{
       display: flex;
-      flex-grow: 0;
     }
 
     .modal-container {
-      flex-direction: column;
+      display: flex;
+      flex-direction: row;
       width: 100%;
       overflow:auto;
     }
@@ -505,11 +505,11 @@
     }
     .modal-description{
       display: flex;
-      flex-grow: 0;
     }
 
     .modal-container {
-      flex-direction: column;
+      display: flex;
+      flex-direction: row;
       width: 100%;
       overflow:auto;
     }
