@@ -173,6 +173,9 @@ function Homepage() {
   const [showVideo, setShowVideo] = useState(false);
   const [isFadingOut, setIsFadingOut] = useState(false);
   const fadeTimeoutRef = useRef<number | null>(null);
+  const [showOliver3Bg, setShowOliver3Bg] = useState(false);
+  const [isOliver3FadingOut, setIsOliver3FadingOut] = useState(false);
+  const oliver3FadeTimeoutRef = useRef<number | null>(null);
   const [fetchNextError, setFetchNextError] = useState<string | null>(null);
   // Strict navigation lock: only allow one navigation at a time
   const navigatingRef = useRef(false);
@@ -562,6 +565,33 @@ function Homepage() {
     };
   }, [vodsOnDemandSelected, showVideo]);
 
+  // Control mounting/unmounting of the Oliver3 background image
+  useEffect(() => {
+    if (oliver3TabSelected) {
+      if (oliver3FadeTimeoutRef.current) {
+        window.clearTimeout(oliver3FadeTimeoutRef.current);
+        oliver3FadeTimeoutRef.current = null;
+      }
+      setIsOliver3FadingOut(false);
+      setShowOliver3Bg(true);
+      return;
+    }
+    if (showOliver3Bg) {
+      setIsOliver3FadingOut(true);
+      oliver3FadeTimeoutRef.current = window.setTimeout(() => {
+        setShowOliver3Bg(false);
+        setIsOliver3FadingOut(false);
+        oliver3FadeTimeoutRef.current = null;
+      }, 800);
+    }
+    return () => {
+      if (oliver3FadeTimeoutRef.current) {
+        window.clearTimeout(oliver3FadeTimeoutRef.current);
+        oliver3FadeTimeoutRef.current = null;
+      }
+    };
+  }, [oliver3TabSelected, showOliver3Bg]);
+
   // Toggle PageHeader 'after-dark' class so header can change when VODs (After Dark) is selected
   useEffect(() => {
     try {
@@ -874,7 +904,12 @@ function Homepage() {
       <div
         id="Homepage"
         className={
-          `${vodsOnDemandSelected ? "vods-bg" : ""} ${isFadingOut ? "vods-fade-out" : ""}`.trim()
+          [
+            vodsOnDemandSelected ? "vods-bg" : "",
+            isFadingOut ? "vods-fade-out" : "",
+            oliver3TabSelected ? "oliver3-bg" : "",
+            isOliver3FadingOut ? "oliver3-fade-out" : "",
+          ].filter(Boolean).join(" ")
         }
       >
         {showVideo && (
@@ -886,6 +921,13 @@ function Homepage() {
             loop
             playsInline
             preload="auto"
+          />
+        )}
+        {showOliver3Bg && (
+          <img
+            className={`background-image ${isOliver3FadingOut ? "fade-out" : ""}`}
+            src="/Images/Oliver3Podcast.png"
+            alt=""
           />
         )}
         {!isMobile && (
@@ -1035,7 +1077,7 @@ function Homepage() {
                 <div className="next-episode-error">{fetchNextError}</div>
               )}
               {/* Timestamps removed from UI per user request */}
-              <div className="topics-container">
+              <div className="topics-container" style={oliver3TabSelected ? { visibility: "hidden" } : undefined}>
                 {/* Dynamically generated person cards from timestamps */}
                 {matchedPersonCards && matchedPersonCards.length > 0 && (
                   <div className="topics">{matchedPersonCards}</div>
