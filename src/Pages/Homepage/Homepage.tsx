@@ -8,6 +8,7 @@ import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/G
 import HomepagePersonCard from "./HomepagePersonCard";
 import { Episode } from "../../models/Episode";
 import { PlaylistItem, OLIVER3_EPISODES } from "../../Helpers/Oliver3Helpers";
+import Oliver3TributeModal, { OLIVER3_TRIBUTE_STORAGE_KEY } from "../../components/Modals/Oliver3TributeModal/Oliver3TributeModal";
 
 function Homepage() {
   // @ts-ignore
@@ -20,6 +21,7 @@ function Homepage() {
   //const [psychologySelected, setPsychologySelected] = useState<boolean>(false);
   const [vodsOnDemandSelected, setVodsOnDemandSelected] = useState<boolean>(false);
   const [showEmailModal, setShowEmailModal] = useState<boolean>(false);
+  const [showOliver3TributeModal, setShowOliver3TributeModal] = useState<boolean>(false);
   // static offset currently unused as a stateful setter; keep as const to avoid unused state warning
   const episodeOffset = 0;
   const [isMobile, setIsMobile] = useState(false);
@@ -522,6 +524,16 @@ function Homepage() {
     ));
     setIsVideoLoading(true);
   };
+
+  // Show the Oliver3 tribute modal once when the first episode goes live
+  useEffect(() => {
+    if (
+      OLIVER3_EPISODES[0]?.isPublic &&
+      !localStorage.getItem(OLIVER3_TRIBUTE_STORAGE_KEY)
+    ) {
+      setShowOliver3TributeModal(true);
+    }
+  }, []);
 
   // Load appropriate playlist on initial mount
   useEffect(() => {
@@ -1095,6 +1107,9 @@ function Homepage() {
           soundbite={true}
           modal={<GeneralFeedbackModal />}
         />
+      )}
+      {showOliver3TributeModal && (
+        <Oliver3TributeModal onClose={() => setShowOliver3TributeModal(false)} />
       )}
     </>
   );
