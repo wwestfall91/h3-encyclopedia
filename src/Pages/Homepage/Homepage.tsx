@@ -7,13 +7,15 @@ import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/GeneralFeedbackModal";
 import HomepagePersonCard from "./HomepagePersonCard";
 import { Episode } from "../../models/Episode";
+import { PlaylistItem, OLIVER3_EPISODES } from "../../Helpers/Oliver3Helpers";
 
 function Homepage() {
   // @ts-ignore
   const { people, episodes, moments } = useDataContext();
   const [player, setPlayer] = useState<YouTubePlayer | null>(null);
-  const [oliver3TabSelected, setOliver3Selected] = useState<boolean>(true);
-  const [h3ShowTabSelected, setH3ShowTabSelected] = useState<boolean>(false);
+  const oliver3HasPublicEpisodes = OLIVER3_EPISODES.some(e => e.isPublic);
+  const [oliver3TabSelected, setOliver3Selected] = useState<boolean>(oliver3HasPublicEpisodes);
+  const [h3ShowTabSelected, setH3ShowTabSelected] = useState<boolean>(!oliver3HasPublicEpisodes);
   const [afterDarkTabSelected, setAfterDarkTabSelected] = useState<boolean>(false);
   //const [psychologySelected, setPsychologySelected] = useState<boolean>(false);
   const [vodsOnDemandSelected, setVodsOnDemandSelected] = useState<boolean>(false);
@@ -174,13 +176,6 @@ function Homepage() {
   const [fetchNextError, setFetchNextError] = useState<string | null>(null);
   // Strict navigation lock: only allow one navigation at a time
   const navigatingRef = useRef(false);
-  type PlaylistItem = {
-    videoId: string;
-    title: string;
-    publishAt: string;
-    position: number;
-    isPublic?: boolean;
-  };
   const [playlistItems, setPlaylistItems] = useState<PlaylistItem[]>([]);
   const [playlistIndex, setPlaylistIndex] = useState<number | null>(null);
 
@@ -507,29 +502,31 @@ function Homepage() {
     return null;
   };
 
-  const OLIVER3_EPISODES: PlaylistItem[] = [
-    { videoId: 'LWRqCA1ir9k', title: 'Oliver Tree - H3 Podcast #125', publishAt: new Date().toISOString(), position: 0, isPublic: true },
-    { videoId: 'ez_bTUjWG5Y', title: 'Oliver Tree - H3 Podcast #248', publishAt: new Date().toISOString(), position: 1, isPublic: true },
-  ];
-
   const loadOliver3Playlist = () => {
-    setPlaylistItems(OLIVER3_EPISODES);
-    setPlaylistIndex(0);
-    const first = OLIVER3_EPISODES[0];
+    const publicEpisodes = OLIVER3_EPISODES.filter(e => e.isPublic);
+    if (publicEpisodes.length === 0) return;
+    setPlaylistItems(publicEpisodes);
+    const lastIdx = publicEpisodes.length - 1;
+    setPlaylistIndex(lastIdx);
+    const latest = publicEpisodes[lastIdx];
     setCurrentEpisode(new Episode(
       'Oliver3',
       0,
-      first.publishAt,
-      first.title,
-      `https://www.youtube.com/watch?v=${first.videoId}`,
+      latest.publishAt,
+      latest.title,
+      `https://www.youtube.com/watch?v=${latest.videoId}`,
       []
     ));
     setIsVideoLoading(true);
   };
 
-  // Load Oliver3 playlist on initial mount (default tab)
+  // Load appropriate playlist on initial mount
   useEffect(() => {
-    loadOliver3Playlist();
+    if (OLIVER3_EPISODES.some(e => e.isPublic)) {
+      loadOliver3Playlist();
+    } else {
+      loadPlaylistFromYouTube('live');
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -994,17 +991,19 @@ function Homepage() {
                     )}
                 </div>
                 <div className="youtube-section-container">  
-                  <div 
-                    className={oliver3TabSelected ? "youtube-section-button selected" : "youtube-section-button"}
-                    onClick={() => {
-                      setOliver3Selected(true);
-                      setH3ShowTabSelected(false);
-                      setAfterDarkTabSelected(false);
-                      setVodsOnDemandSelected(false);
-                      loadOliver3Playlist();
-                    }}>
-                      Oliver3 Podcast
-                  </div>
+                  {OLIVER3_EPISODES.some(e => e.isPublic) && (
+                    <div
+                      className={oliver3TabSelected ? "youtube-section-button selected" : "youtube-section-button"}
+                      onClick={() => {
+                        setOliver3Selected(true);
+                        setH3ShowTabSelected(false);
+                        setAfterDarkTabSelected(false);
+                        setVodsOnDemandSelected(false);
+                        loadOliver3Playlist();
+                      }}>
+                        Oliver3 Podcast
+                    </div>
+                  )}
                   <div 
                     className={h3ShowTabSelected ? "youtube-section-button selected" : "youtube-section-button"}
                     onClick={() => {
