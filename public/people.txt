@@ -285,7 +285,7 @@ Ninja	https://www.svg.com/img/gallery/streamers-confirm-what-we-all-suspected-ab
 Noah Beck	https://deadline.com/wp-content/uploads/2021/08/Noah-Beck-Tries-Things.jpg	Neutral	
 Noah Samsen	https://www.famousbirthdays.com/headshots/noah-samsen-1.jpg	Enemy	
 OJ Simpson	https://s.abcnews.com/images/US/GTY_OJ_Simpson_MEM_150921.jpg	Enemy	OJ
-Oliver Tree	Images\OliverTree.png	Enemy	
+Oliver Tree	Images\OliverTree.png	Family	
 Olivia	https://static.wikia.nocookie.net/h3podcast/images/8/84/Olivia-lopes-5.webp	Family	
 Olivia's Dad	Images\OliviasDad.png	Family	Olivias Dad
 Owen Cook	https://beastpreneur.com/wp-content/uploads/2021/12/Real-Social-Dynamics-Owen-Cook-RSD-Tyler-Durden.jpg	Neutral	
