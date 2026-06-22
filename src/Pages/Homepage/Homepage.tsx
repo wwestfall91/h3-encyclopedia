@@ -12,7 +12,9 @@ function Homepage() {
   // @ts-ignore
   const { people, episodes, moments } = useDataContext();
   const [player, setPlayer] = useState<YouTubePlayer | null>(null);
-  //const [breakTabSelected, setBreakTabSelected] = useState<boolean>(false);
+  const [oliver3TabSelected, setOliver3Selected] = useState<boolean>(true);
+  const [h3ShowTabSelected, setH3ShowTabSelected] = useState<boolean>(false);
+  const [afterDarkTabSelected, setAfterDarkTabSelected] = useState<boolean>(false);
   //const [psychologySelected, setPsychologySelected] = useState<boolean>(false);
   const [vodsOnDemandSelected, setVodsOnDemandSelected] = useState<boolean>(false);
   const [showEmailModal, setShowEmailModal] = useState<boolean>(false);
@@ -505,12 +507,31 @@ function Homepage() {
     return null;
   };
 
-  // Load playlist based on selected mode (Live or VODs)
+  const OLIVER3_EPISODES: PlaylistItem[] = [
+    { videoId: 'LWRqCA1ir9k', title: 'Oliver Tree - H3 Podcast #125', publishAt: new Date().toISOString(), position: 0, isPublic: true },
+    { videoId: 'ez_bTUjWG5Y', title: 'Oliver Tree - H3 Podcast #248', publishAt: new Date().toISOString(), position: 1, isPublic: true },
+  ];
+
+  const loadOliver3Playlist = () => {
+    setPlaylistItems(OLIVER3_EPISODES);
+    setPlaylistIndex(0);
+    const first = OLIVER3_EPISODES[0];
+    setCurrentEpisode(new Episode(
+      'Oliver3',
+      0,
+      first.publishAt,
+      first.title,
+      `https://www.youtube.com/watch?v=${first.videoId}`,
+      []
+    ));
+    setIsVideoLoading(true);
+  };
+
+  // Load Oliver3 playlist on initial mount (default tab)
   useEffect(() => {
-    const playlistType = vodsOnDemandSelected ? 'vods' : 'live';
-    loadPlaylistFromYouTube(playlistType);
+    loadOliver3Playlist();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [vodsOnDemandSelected]);
+  }, []);
 
   // Control mounting/unmounting of the background video so we can fade it out
   useEffect(() => {
@@ -874,19 +895,6 @@ function Homepage() {
           <div className="subheader">
             {/* <button
               className={
-                !breakTabSelected
-                  ? "subheader-button"
-                  : "subheader-button selected"
-              }
-              onClick={() => {
-                setBreakTabSelected(true);
-                setPsychologySelected(false);
-              }}
-            >
-              WINTER BREAK 2025
-            </button> */}
-            {/* <button
-              className={
                 breakTabSelected || psychologySelected
                   ? "subheader-button"
                   : "subheader-button selected"
@@ -953,6 +961,7 @@ function Homepage() {
                   )}
                   <div style={{ position: 'relative' }}>
                     <YouTube
+                      key={currentEpisode?.getVideoId()}
                       videoId={currentEpisode?.getVideoId()}
                       opts={opts}
                       onReady={onReady}
@@ -986,13 +995,38 @@ function Homepage() {
                 </div>
                 <div className="youtube-section-container">  
                   <div 
-                    className={vodsOnDemandSelected ? "youtube-section-button" : "youtube-section-button selected"}
-                    onClick={() => setVodsOnDemandSelected(false)}>
+                    className={oliver3TabSelected ? "youtube-section-button selected" : "youtube-section-button"}
+                    onClick={() => {
+                      setOliver3Selected(true);
+                      setH3ShowTabSelected(false);
+                      setAfterDarkTabSelected(false);
+                      setVodsOnDemandSelected(false);
+                      loadOliver3Playlist();
+                    }}>
+                      Oliver3 Podcast
+                  </div>
+                  <div 
+                    className={h3ShowTabSelected ? "youtube-section-button selected" : "youtube-section-button"}
+                    onClick={() => {
+                      setOliver3Selected(false);
+                      setH3ShowTabSelected(true);
+                      setAfterDarkTabSelected(false);
+                      setVodsOnDemandSelected(false);
+                      setPlaylistItems([]);
+                      loadPlaylistFromYouTube('live');
+                    }}>
                       H3 Show
                   </div>
                   <div 
-                    className={vodsOnDemandSelected ? "youtube-section-button selected" : "youtube-section-button"}
-                    onClick={() => setVodsOnDemandSelected(true)}>
+                    className={afterDarkTabSelected ? "youtube-section-button selected" : "youtube-section-button"}
+                    onClick={() => {
+                      setOliver3Selected(false);
+                      setH3ShowTabSelected(false);
+                      setAfterDarkTabSelected(true);
+                      setVodsOnDemandSelected(true);
+                      setPlaylistItems([]);
+                      loadPlaylistFromYouTube('vods');
+                    }}>
                       H3 After Dark
                     </div>
                 </div>

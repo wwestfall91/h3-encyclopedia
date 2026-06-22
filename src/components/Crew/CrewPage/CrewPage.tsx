@@ -103,12 +103,12 @@ export function CrewPage() {
                     onClickCallback={() => {HandleCrewClick("Tamara")}}
                     comingSoon={false}
                 />
-                <CustomCard1
+                {/* <CustomCard1
                     title={"Morgan"}
                     image="https://i.ytimg.com/vi/waklkPdiXPY/sddefault.jpg"
                     onClickCallback={() => {HandleCrewClick("Morgan Smalley")}}
                     comingSoon={false}
-                />
+                /> */}
               </div>
             </>
             {/* <>

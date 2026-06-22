@@ -12,6 +12,11 @@ type Props = {
 function SubmitModal(props: Props) {
   const [soundbiteName, setSoundbiteName] = useState<string>("");
 
+  React.useEffect(() => {
+    document.body.style.overflow = "hidden";
+    return () => { document.body.style.overflow = ""; };
+  }, []);
+
   const sendEmail = async (e: any) => {
     e.preventDefault();
 
