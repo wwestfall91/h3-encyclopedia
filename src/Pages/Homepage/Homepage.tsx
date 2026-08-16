@@ -7,21 +7,17 @@ import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
 import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/GeneralFeedbackModal";
 import HomepagePersonCard from "./HomepagePersonCard";
 import { Episode } from "../../models/Episode";
-import { PlaylistItem, OLIVER3_EPISODES } from "../../Helpers/Oliver3Helpers";
-import Oliver3TributeModal, { OLIVER3_TRIBUTE_STORAGE_KEY } from "../../components/Modals/Oliver3TributeModal/Oliver3TributeModal";
+import { PlaylistItem } from "../../Helpers/Oliver3Helpers";
 
 function Homepage() {
   // @ts-ignore
   const { people, episodes, moments } = useDataContext();
   const [player, setPlayer] = useState<YouTubePlayer | null>(null);
-  const oliver3HasPublicEpisodes = OLIVER3_EPISODES.some(e => e.isPublic);
-  const [oliver3TabSelected, setOliver3Selected] = useState<boolean>(oliver3HasPublicEpisodes);
-  const [h3ShowTabSelected, setH3ShowTabSelected] = useState<boolean>(!oliver3HasPublicEpisodes);
+  const [h3ShowTabSelected, setH3ShowTabSelected] = useState<boolean>(true);
   const [afterDarkTabSelected, setAfterDarkTabSelected] = useState<boolean>(false);
   //const [psychologySelected, setPsychologySelected] = useState<boolean>(false);
   const [vodsOnDemandSelected, setVodsOnDemandSelected] = useState<boolean>(false);
   const [showEmailModal, setShowEmailModal] = useState<boolean>(false);
-  const [showOliver3TributeModal, setShowOliver3TributeModal] = useState<boolean>(false);
   // static offset currently unused as a stateful setter; keep as const to avoid unused state warning
   const episodeOffset = 0;
   const [isMobile, setIsMobile] = useState(false);
@@ -175,9 +171,6 @@ function Homepage() {
   const [showVideo, setShowVideo] = useState(false);
   const [isFadingOut, setIsFadingOut] = useState(false);
   const fadeTimeoutRef = useRef<number | null>(null);
-  const [showOliver3Bg, setShowOliver3Bg] = useState(false);
-  const [isOliver3FadingOut, setIsOliver3FadingOut] = useState(false);
-  const oliver3FadeTimeoutRef = useRef<number | null>(null);
   const [fetchNextError, setFetchNextError] = useState<string | null>(null);
   // Strict navigation lock: only allow one navigation at a time
   const navigatingRef = useRef(false);
@@ -507,41 +500,9 @@ function Homepage() {
     return null;
   };
 
-  const loadOliver3Playlist = () => {
-    const publicEpisodes = OLIVER3_EPISODES.filter(e => e.isPublic);
-    if (publicEpisodes.length === 0) return;
-    setPlaylistItems(publicEpisodes);
-    const lastIdx = publicEpisodes.length - 1;
-    setPlaylistIndex(lastIdx);
-    const latest = publicEpisodes[lastIdx];
-    setCurrentEpisode(new Episode(
-      'Oliver3',
-      0,
-      latest.publishAt,
-      latest.title,
-      `https://www.youtube.com/watch?v=${latest.videoId}`,
-      []
-    ));
-    setIsVideoLoading(true);
-  };
-
-  // Show the Oliver3 tribute modal once when the first episode goes live
+  // Load playlist on initial mount
   useEffect(() => {
-    if (
-      OLIVER3_EPISODES[0]?.isPublic &&
-      !localStorage.getItem(OLIVER3_TRIBUTE_STORAGE_KEY)
-    ) {
-      setShowOliver3TributeModal(true);
-    }
-  }, []);
-
-  // Load appropriate playlist on initial mount
-  useEffect(() => {
-    if (OLIVER3_EPISODES.some(e => e.isPublic)) {
-      loadOliver3Playlist();
-    } else {
-      loadPlaylistFromYouTube('live');
-    }
+    loadPlaylistFromYouTube('live');
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -576,33 +537,6 @@ function Homepage() {
       }
     };
   }, [vodsOnDemandSelected, showVideo]);
-
-  // Control mounting/unmounting of the Oliver3 background image
-  useEffect(() => {
-    if (oliver3TabSelected) {
-      if (oliver3FadeTimeoutRef.current) {
-        window.clearTimeout(oliver3FadeTimeoutRef.current);
-        oliver3FadeTimeoutRef.current = null;
-      }
-      setIsOliver3FadingOut(false);
-      setShowOliver3Bg(true);
-      return;
-    }
-    if (showOliver3Bg) {
-      setIsOliver3FadingOut(true);
-      oliver3FadeTimeoutRef.current = window.setTimeout(() => {
-        setShowOliver3Bg(false);
-        setIsOliver3FadingOut(false);
-        oliver3FadeTimeoutRef.current = null;
-      }, 800);
-    }
-    return () => {
-      if (oliver3FadeTimeoutRef.current) {
-        window.clearTimeout(oliver3FadeTimeoutRef.current);
-        oliver3FadeTimeoutRef.current = null;
-      }
-    };
-  }, [oliver3TabSelected, showOliver3Bg]);
 
   // Toggle PageHeader 'after-dark' class so header can change when VODs (After Dark) is selected
   useEffect(() => {
@@ -919,8 +853,6 @@ function Homepage() {
           [
             vodsOnDemandSelected ? "vods-bg" : "",
             isFadingOut ? "vods-fade-out" : "",
-            oliver3TabSelected ? "oliver3-bg" : "",
-            isOliver3FadingOut ? "oliver3-fade-out" : "",
           ].filter(Boolean).join(" ")
         }
       >
@@ -933,13 +865,6 @@ function Homepage() {
             loop
             playsInline
             preload="auto"
-          />
-        )}
-        {showOliver3Bg && (
-          <img
-            className={`background-image ${isOliver3FadingOut ? "fade-out" : ""}`}
-            src="/Images/Oliver3Podcast.png"
-            alt=""
           />
         )}
         {!isMobile && (
@@ -1045,23 +970,9 @@ function Homepage() {
                     )}
                 </div>
                 <div className="youtube-section-container">  
-                  {OLIVER3_EPISODES.some(e => e.isPublic) && (
-                    <div
-                      className={oliver3TabSelected ? "youtube-section-button selected" : "youtube-section-button"}
-                      onClick={() => {
-                        setOliver3Selected(true);
-                        setH3ShowTabSelected(false);
-                        setAfterDarkTabSelected(false);
-                        setVodsOnDemandSelected(false);
-                        loadOliver3Playlist();
-                      }}>
-                        Oliver3 Podcast
-                    </div>
-                  )}
                   <div 
                     className={h3ShowTabSelected ? "youtube-section-button selected" : "youtube-section-button"}
                     onClick={() => {
-                      setOliver3Selected(false);
                       setH3ShowTabSelected(true);
                       setAfterDarkTabSelected(false);
                       setVodsOnDemandSelected(false);
@@ -1073,7 +984,6 @@ function Homepage() {
                   <div 
                     className={afterDarkTabSelected ? "youtube-section-button selected" : "youtube-section-button"}
                     onClick={() => {
-                      setOliver3Selected(false);
                       setH3ShowTabSelected(false);
                       setAfterDarkTabSelected(true);
                       setVodsOnDemandSelected(true);
@@ -1089,7 +999,7 @@ function Homepage() {
                 <div className="next-episode-error">{fetchNextError}</div>
               )}
               {/* Timestamps removed from UI per user request */}
-              <div className="topics-container" style={oliver3TabSelected ? { visibility: "hidden" } : undefined}>
+              <div className="topics-container">
                 {/* Dynamically generated person cards from timestamps */}
                 {matchedPersonCards && matchedPersonCards.length > 0 && (
                   <div className="topics">{matchedPersonCards}</div>
@@ -1107,9 +1017,6 @@ function Homepage() {
           soundbite={true}
           modal={<GeneralFeedbackModal />}
         />
-      )}
-      {showOliver3TributeModal && (
-        <Oliver3TributeModal onClose={() => setShowOliver3TributeModal(false)} />
       )}
     </>
   );
