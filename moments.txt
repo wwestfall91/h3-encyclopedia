@@ -1495,7 +1495,7 @@ Noah Samsen Exposed as Creep	H3Show	128	3305	5065	https://youtu.be/hXVbxQPnSNs&t
 Noah Samsen's Community Posts	H3Show	133	3304	3517	https://youtu.be/Xab8OB1UD9M&t=3304	Noah Samsen			Bye Bye Vitaly (Updates on Sentencing) - H3 Show #133		04-09-2025
 Oliver Tree - H3 Podcast #125	Podcast	125	0	5672	https://youtu.be/LWRqCA1ir9k&t=0	Oliver Tree			Oliver Tree - H3 Podcast #125		07-12-2019
 Oliver Tree - H3 Podcast #198	Podcast	198	0	5904	https://youtu.be/tnCV_5QVp4s&t=0	Oliver Tree			Oliver Tree - H3 Podcast #198		07-18-2020
-Oliver Tree - H3 Podcast #248	Podcast	248	0	7400	https://youtu.be/ez_bTUjWG5Y&t=0	Oliver Tree			Oliver Tree - H3 Podcast #248		01-27-2022
+Oliver Tree - H3 Podcast #248	Podcast	248	0	7400	https://youtu.be/Fvg5RTrFLfI&t=0	Oliver Tree			Ethan Klein Debates Steven Crowder (Ft. Sam Seder) - H3 Podcast #248		06-21-2021
 Ethan Gifts Oliver the Cursed Stroller	H3TV	32	210	1060	https://youtu.be/yd6_HqM4wy0&t=210	Oliver Tree			Oliver Tree Calls In, Ethans Parents Call In, & ACE Family Scam Fest - H3TV #32		04-18-2022
 Oliver Returns the Favor	OTR	34	3320	5320	https://www.youtube.com/watch?v=MlmBHFH_CEg&t=3320	Oliver Tree			Chappelle Attacked, Oliver Tree Ripped Off, Joe Rogan Community In Turmoil - Off The Rails #34		05-04-2022
 Frenemies Is Back & Short Lived	Frenemies	41	0	7005	https://youtu.be/t29lvnxG0L4&t=0	Oliver Tree			Frenemies Is Back & Short Lived		06-17-2022
@@ -1739,7 +1739,7 @@ The Crews Steven Crowder Button Gag	OTR	81	1840		https://www.youtube.com/watch?v
 Steven Crowder and Alex Jones disavow Kanye	Leftovers	34	2570		https://www.youtube.com/watch?v=mZDKKqeA6fI&t=2570	Steven Crowder, Alex Jones, Kanye West			Hasan Banned From Twitch, Kanye West Still Hatin - Leftovers #34		12-08-2022
 Swami's first appearance	H3TV	13	5282		https://youtu.be/VUSyVSyRkPM&t=5282	Swami	Swami		Im Cancelled - H3TV #13		10-25-2021
 Swami on Families	Families	11	4205		https://youtu.be/6eKA1zsLvSM&t=4205	Swami	Swami		Families Reunion Holiday Special		12-09-2021
-Swami vs. Oliver Tree	Podcast	248	984		https://youtu.be/ez_bTUjWG5Y&t=984	Swami	Swami		Oliver Tree - H3 Podcast #248		01-27-2022
+Swami vs. Oliver Tree	Podcast	248	984		https://youtu.be/Fvg5RTrFLfI&t=984	Swami	Swami		Ethan Klein Debates Steven Crowder (Ft. Sam Seder) - H3 Podcast #248		06-21-2021
 Swami in BTS	BTS	13	1036		https://youtu.be/F95h2-qNov0&t=1036	Swami	Swami		(Members) H3 Podcast BTS #13		12-17-2021
 Watching Tamara's First Fan Animation	OTR	81	2134	2653	https://www.youtube.com/watch?v=-heIMOy6qDs&t=2134	Tamara			xQc Fallout, Howie Live Disaster, MrBeast Is Being Sued For $100 Million - Off The Rails #81		08-09-2023
 Waching Tamara's Second Fan Animation 	AfterDark	131	2273	2465	https://www.youtube.com/watch?v=evmZ3TGPbbk&t=2273	Tamara			Matt Rife Drama Power Point, Meet Our New Puppy - After Dark #131		12-15-2023
@@ -2229,7 +2229,7 @@ SOUNDBITE TOURNAMENT 2025	H3Show	222	4637		https://youtu.be/yhiPyt9bd98&t=4637		
 YOU SHOWED A NUDE WOMAN, ETHAN?!	H3Show	249	8128		https://youtu.be/1mImj_JnP90&t=8128		Button		The Chappell Roan Situation Explained - H3 Show #249		03-23-2026
 WHAT DO THE QUADRUPLE AMPUTIES KNOW, ETHAN?!	H3Show	250	12433		https://youtu.be/G6-FljSItB4&t=12433		Button		Trisha Paytas Guided Meditation - H3 Show #250		03-25-2026
 IS HE GOOD AT CORNHOLE, ETHAN?!	H3Show	250	12643		https://youtu.be/G6-FljSItB4&t=12643		Button		Trisha Paytas Guided Meditation - H3 Show #250		03-25-2026
-We'll Be Right Back, Folks!	H3Show	283	12		https://youtu.be/CU62uOJaCSg&t=12		Button		We're Moving! - H3 Show #283		06-21-2025
+We'll Be Right Back, Folks!	H3Show	283	12		https://youtu.be/CU62uOJaCSg&t=12		Button		We're Moving! - H3 Show #283		06-19-2026
 First Wikifeet Segment	Podcast	181	4478	6372	https://youtu.be/_fiKPLXYttw&t=4478		FootSoldiers		OJ Simpson Blocked Ethan After Getting Burned On Twitter - H3 Podcast #181		03-11-2020
 The Foot Soldiers are born!	AfterDark	15	2821	2842	https://www.youtube.com/watch?v=iAnsNKeY4Hs&t=2821		FootSoldiers		H3 After Dark - #15		12-04-2020
 The Wikifeet War Begins	AfterDark	37	882	1342	https://youtu.be/SaC97huq9Ss&t=882		FootSoldiers		Joe Rogan Trashed Hila On His Podcast - H3 After Dark # 37		05-21-2021
@@ -2741,3 +2741,33 @@ Mikayla's Cheating Controversy	H3Show	248	9541	13154	https://youtu.be/Wal8XoYtw5
 Anisa Lies About Harley	AfterShow	24	1474	6077	https://youtu.be/2OBB-kdc1cM&t=1474	Anisa			Anisa LIES about Harley		03-09-2026
 Anisa Calls Out Harley Live	AfterShow	24	7184	8201	https://youtu.be/2OBB-kdc1cM&t=7184	Anisa			Anisa LIES about Harley		03-09-2026
 Idubbbz Calls Out GWAM 	AfterShow	26	154	676	https://youtu.be/9aOhSNqqPbs&t=154	iDubbbz			Jessalyn Grace Deep Dive		03-11-2026
+Candace Owens vs Nikocado Avocado	OTR	61	7320	9850	https://www.youtube.com/watch?v=vRkstheL1DE&t=7320	Candace Owens, Nikocado Avocado			Curing 1,000 People of Their Tourettes - Off The Rails #61		02-22-2023
+Candace Owens Responds to Crowder	OTR	69	7555	9755	https://www.youtube.com/watch?v=TzRTvKPOqgI&t=7555	Candace Owens, Steven Crowder			Crowders wife left him lol - Off The Rails #69		04-26-2023
+Candace Owens Interviews Harvey Weinstein	H3Show	152	4180	5420	https://youtu.be/KkGQAM_5sE4&t=4180	Candace Owens, Harvey Weinstein			He’s Finally Apologized - H3 Show #152		05-28-2025
+French president sues Candace Owens	H3Show	170	6060	7185	https://youtu.be/flwxloMXkQE&t=6060	Candace Owens			I Had A Falling Out With Steiny & NELK - H3 Show #170		07-23-2025
+The Great Candace Owens & Tim Pool Fallout	H3Show	221	7230	9781	https://youtu.be/Sh4VlCzrf5I&t=7230	Tim Pool, Candace Owens, Tucker Carlson			This is too far...		12-10-2025
+Candace Owens Is Losing It	H3Show	224	12270	13080	https://youtu.be/yETzJ45rfs8&t=12270	Candace Owens			Everything Is Changing...		01-19-2026
+Mrbeast Faking His Challange - Call in from Rosanna Pansino	AfterDark	125	780	4920	https://www.youtube.com/watch?v=lNfOxmaiFJ0&t=780	Rosanna Pansino			MrBeast Called Out For Faking Video, New David Dobrik Clip Is Horrifying (Ft. Pokimane) - AD #125		10-27-2023
+Mold gate MrBeast & Rosanna Pansino	H3Show	71	5500	6830	https://youtu.be/N8NGpo8N-ic&t=5500	Rosanna Pansino			Lunchly Mold Scandal Rocks The Internet - H3 Show #71		10-25-2024
+Lauren Boebert Filed For Divorce With Her Husband	Leftovers	48	2335	2690	https://www.youtube.com/watch?v=OB5DjiRnbt8&t=2335	Lauren Boebert			Elon Klansman Musk, Rudy Penguin Giuliani, Dianne Crypt Keeper Feinstein - Leftovers #48		05-18-2023
+Lauren Boebert kicked out of Theater	Leftovers	57	4650	5100	https://www.youtube.com/watch?v=EeFuFKH-uOo&t=4650	Lauren Boebert			Joe Biden Is Getting Impeached - Leftovers #57		09-14-2023
+Lauren Boebert Is Awful	H3Show	240	7800	9220	https://youtu.be/xKCC3pA3NDQ&t=7800	Lauren Boebert			Selena Gomez Husband Drama		02-27-2026
+Taylor Swift & weight debate	OTR	54	11970	13471	https://www.youtube.com/watch?v=BraYUdc3YRo&t=11970	Taylor Swift			Dan Eats The Worlds Hottest Chip, Elon Musk Is Ruining Twitter, Defending Andrew Tate - OTR #54		11-09-2022
+Taylor Swift Dating Drama - Powerpoint	H3TV	76	8020	10010	https://youtu.be/GIKvJqf7AJ0&t=8020	Taylor Swift			Olivia Explains Taylor Swifts BF Drama, King Charles Sausage Fingers, MrBeast - H3TV #76		05-08-2023
+Olivia Went To The Taylor Swift	AfterDark	114	9194	9720	https://www.youtube.com/watch?v=eJDEB-EeV0E&t=9194	Taylor Swift, Olivia			Sour Candy Tier List, Kai Cenat Starts A Riot In NYC - After Dark #114		08-04-2023
+Taylor Swift's New Boyfriend Drama	OTR	87	7729	10220	https://www.youtube.com/watch?v=R8Y-ih8DLlc&t=7729	Taylor Swift			Korean Food Taste Test, Taylor Swifts New Boyfriend PowerPoint - Off The Rails #87		09-27-2023
+Barstool Vs Taylor Swift (GG)	OTR	88	5886	9240	https://www.youtube.com/watch?v=2bgjMRQJ6wI&t=5886	Taylor Swift			Shocking New David Dobrik Allegations, Barstool vs Taylor Swift - Off The Rails #88		10-04-2023
+Taylor Swift vs Kim Kardashian	H3Show	8	9000	9290	https://youtu.be/mexSokkrTXw&t=9000	Taylor Swift			Kendrick vs Drake Beef UPDATES, Kim Kardashian Is Losing Followers & being booed - H3 Show #8		05-08-2024
+Taylor Swift’s Gross But Funny Accident	H3Show	23	8372	8968	https://youtu.be/LMOswKoe-Nc&t=8372	Taylor Swift			Ariana Grande Speaks Out About Dan Schneider, Logan Paul Has Trump On Impaulsive - H3 Show #23		06-14-2024
+Taylor Swift’s Bizarre Dating History	H3Show	34	10734	10980	https://youtu.be/uPFyV_cLylI&t=10734	Taylor Swift			Queen Of Melrose Returns w TEA, Olympic Fashion Tier List - H3 Show #34		07-26-2024
+Goss Talk - Taylor Swift Lip Reading	H3Show	70	9080	9225	https://youtu.be/RRcDcNSc7rA&t=9080	Taylor Swift			I Watched Twilight New Moon For The First Time & I Have A Lot To Say- H3 Show #70		10-23-2024
+Colleen Ballinger Seen At Taylor Swift Concert	H3Show	94	940	1100	https://youtu.be/N1xImKJY0kU&t=940	Colleen Ballinger, Taylor Swift			Justin Bieber Needs To Leave Selena Gomez Alone!!! Power Point/Goss Talk Emergency - H3 Show #94		12-18-2024
+Taylor Swift Being Booed & Donald Trump Beef	H3Show	108	5530	5935	https://youtu.be/I0zmBdGEvwU&t=5530	Taylor Swift, Donald Trump			I'm Being Sued By An Ex-Employee - H3 Show #108		02-10-2025
+Taylor Swift Suing Kanye West	H3Show	134	11635	11790	https://youtu.be/z7g8lpsRqss&t=11635	Taylor Swift, Kanye West			Secret Recording Of Twitch CEO LEAKED - Is This The End For Twitch? - H3 Show #134		04-11-2025
+Class Ended Because Taylor Swift Got Married	H3Show	186	2790	3190	https://youtu.be/D48Bl3VqZsk&t=2790	Taylor Swift			Trump Is Stepping Down - H3 Show #186		09-02-2025
+Intro To Taylor Swift Drama	H3Show	196	1380	1740	https://youtu.be/Kxkw-3O9_94&t=1380	Taylor Swift			Taylor Swift Vs Charli XCX Beef Explained - H3 Show #196		10-03-2025
+The Great Taylor Swift & Charlie xcx Drama	H3Show	196	6270	9020	https://youtu.be/Kxkw-3O9_94&t=6270	Taylor Swift			Taylor Swift Vs Charli XCX Beef Explained - H3 Show #196		10-03-2025
+Harley’s Taylor Swift Story	AfterShow	7	540	720	https://youtu.be/FrPMZOvytSc&t=540	Taylor Swift, Harley Morenstein			Jeffrey Epstein is Alive…and Playing Fortnite?		02-06-2026
+Taylor Swift & Blake Lively & Baldoni Situation!!!	H3Show	232	5270	15111	https://youtu.be/AI_S6xqKy3M&t=5270	Taylor Swift, Blake Lively, Justin Baldoni			Cody Ko Is Back With a New Grift		02-06-2026
+Galya’s Favorite Topic Ever: Taylor Swift & Her Easter Eggs	AfterDark	72	4480	5422	https://www.youtube.com/watch?v=E-KsoC8FDtA&t=4480	Taylor Swift			Taylor Swift Wedding Rumors & Rating Fan Dating Profiles - H3 After Dark #72		05-13-2022
+Taylor Swift Wedding Rumors	AfterDark	72	5422	7045	https://www.youtube.com/watch?v=E-KsoC8FDtA&t=5422	Taylor Swift			Taylor Swift Wedding Rumors & Rating Fan Dating Profiles - H3 After Dark #72		05-13-2022
