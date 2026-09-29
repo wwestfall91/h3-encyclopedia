@@ -8,6 +8,13 @@ import GeneralFeedbackModal from "../../components/Modals/GeneralFeedbackModal/G
 import HomepagePersonCard from "./HomepagePersonCard";
 import { Episode } from "../../models/Episode";
 import { PlaylistItem } from "../../Helpers/Oliver3Helpers";
+import { EpisodeType } from "../../models/enums/EpisodeType";
+
+const AFTER_DARK_TITLE_PATTERN = /\bAfter\s+Dark\s*#\s*(\d+)\b/i;
+const H3_SHOW_TITLE_PATTERN = /\bH3\s+Show\s*#\s*\d+\b/i;
+
+const getAfterDarkNumber = (title: string) =>
+  Number(title.match(AFTER_DARK_TITLE_PATTERN)?.[1] ?? -1);
 
 function Homepage() {
   const { people, episodes } = useDataContext();
@@ -170,9 +177,10 @@ function Homepage() {
   const [showVideo, setShowVideo] = useState(false);
   const [isFadingOut, setIsFadingOut] = useState(false);
   const fadeTimeoutRef = useRef<number | null>(null);
-  const [fetchNextError, setFetchNextError] = useState<string | null>(null);
+  const [, setFetchNextError] = useState<string | null>(null);
   // Strict navigation lock: only allow one navigation at a time
   const navigatingRef = useRef(false);
+  const playlistRequestRef = useRef(0);
   const [playlistItems, setPlaylistItems] = useState<PlaylistItem[]>([]);
   const [playlistIndex, setPlaylistIndex] = useState<number | null>(null);
 
@@ -180,6 +188,7 @@ function Homepage() {
     parsed: PlaylistItem[];
     idx: number;
   } | null> => {
+    const requestId = ++playlistRequestRef.current;
     const YOUTUBE_API_KEY = (import.meta as any).env?.VITE_YOUTUBE_API_KEY;
     const H3_CHANNEL_ID = (import.meta as any).env?.VITE_H3_CHANNEL_ID;
     const H3_PLAYLIST_ID =
@@ -220,15 +229,11 @@ function Homepage() {
         throw new Error("Missing VITE_YOUTUBE_API_KEY");
       }
 
-      // Determine which playlist to use based on mode
+      // Prefer the channel uploads playlist so newly published episodes appear
+      // without waiting for a curated playlist to be updated.
       let targetPlaylistId = H3_PLAYLIST_ID;
       
-      if (playlistType === 'vods') {
-        // For VODs, fetch the channel's uploads playlist
-        if (!H3_CHANNEL_ID) {
-          throw new Error("Missing VITE_H3_CHANNEL_ID - required for VODs mode");
-        }
-        
+      if (H3_CHANNEL_ID) {
         // Get channel details to find the uploads playlist ID
         // Support both channel IDs (UC...) and handles (@username)
         const isHandle = H3_CHANNEL_ID.startsWith('@');
@@ -248,11 +253,12 @@ function Homepage() {
         }
         
         targetPlaylistId = uploadsPlaylistId;
+      } else if (playlistType === 'vods') {
+        throw new Error("Missing VITE_H3_CHANNEL_ID - required for VODs mode");
       }
 
-      // Paginate through playlistItems (50 per page)
-      // For VODs mode, limit to most recent 150 videos to speed up loading
-      const maxVideos = 30;
+      // Paginate through playlistItems (50 per page).
+      const maxVideos = playlistType === 'vods' ? 150 : 50;
       let allItems: any[] = [];
       let pageToken: string | undefined = undefined;
       do {
@@ -337,69 +343,6 @@ function Homepage() {
           .map((p) => ({ ...p, isPublic: publicIds.has(p.videoId) }))
           .filter((p) => p.isPublic);
 
-        // For VODs mode, filter out Shorts and Live content
-        if (playlistType === 'vods') {
-          const beforeFilter = parsed.length;
-          
-          // Patterns that indicate live content in titles
-          const livePatterns = [
-            /\blive\b/i,
-            /livestream/i,
-            /live stream/i,
-            /h3\s+show/i,              // "H3 Show" or "H3 SHOW"
-            /^h3\s+podcast\s+#\d+$/i,  // Format like "H3 Podcast #123"
-            /^leftovers\s+#\d+$/i,     // Format like "Leftovers #45"
-            /^off the rails\s+#\d+$/i, // Format like "Off The Rails #67"
-            /^h3tv\s+#\d+$/i,          // Format like "H3TV #89"
-            /after\s+dark/i,           // "After Dark"
-          ];
-          
-          parsed = parsed.filter((p) => {
-            const details = videoDetailsMap.get(p.videoId);
-            if (!details) return false;
-            
-            // Filter out live broadcasts (past, current, or upcoming)
-            // liveBroadcastContent can be: 'none', 'upcoming', 'live', or 'completed'
-            if (details.liveBroadcastContent !== 'none') {
-              return false;
-            }
-            
-            // Filter out videos with live-related keywords in title
-            const title = (p.title || '').trim();
-            for (const pattern of livePatterns) {
-              if (pattern.test(title)) {
-                return false;
-              }
-            }
-            
-            // Filter out Shorts and very long videos (likely live streams)
-            // Duration format: PT#H#M#S (e.g., PT1H23M45S, PT5M30S, PT45S)
-            const duration = details.duration;
-            if (duration) {
-              const match = duration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
-              if (match) {
-                const hours = parseInt(match[1] || '0', 10);
-                const minutes = parseInt(match[2] || '0', 10);
-                const seconds = parseInt(match[3] || '0', 10);
-                const totalSeconds = hours * 3600 + minutes * 60 + seconds;
-                
-                // Filter out videos 3 minutes (180 seconds) or less (YouTube Shorts)
-                if (totalSeconds <= 180) {
-                  return false;
-                }
-                
-                // Filter out videos longer than 4 hours (14400 seconds) - likely live streams
-                if (totalSeconds > 14400) {
-                  return false;
-                }
-              }
-            }
-            
-            return true;
-          });
-          console.log(`VODs filter: ${beforeFilter} videos -> ${parsed.length} videos after filtering`);
-        }
-
         // Also apply title heuristics as a safety net
         parsed = parsed.filter((p) => {
           const t = (p.title || "").toLowerCase();
@@ -407,25 +350,21 @@ function Homepage() {
           return true;
         });
 
-        // Enforce After Show rules:
-        // - In VODs mode: keep only videos with "H3 After Show" in the title
-        // - In Live (H3 Show) mode: exclude any "H3 After Show" videos
-        const afterShowRegex = /H3\s*After\s*Dark/i;
+        // Keep the renewed numbered After Dark series separate from H3 Show.
         if (playlistType === 'vods') {
           const before = parsed.length;
-          parsed = parsed.filter((p) => afterShowRegex.test(p.title || ""));
+          parsed = parsed.filter((p) => AFTER_DARK_TITLE_PATTERN.test(p.title || ""));
           // eslint-disable-next-line no-console
           console.log(`AfterShow VODs filter: ${before} -> ${parsed.length}`);
         } else {
           const before = parsed.length;
-          parsed = parsed.filter((p) => !afterShowRegex.test(p.title || ""));
+          parsed = parsed.filter((p) => H3_SHOW_TITLE_PATTERN.test(p.title || ""));
           // eslint-disable-next-line no-console
-          console.log(`AfterShow Live exclusion: ${before} -> ${parsed.length}`);
+          console.log(`H3 Show filter: ${before} -> ${parsed.length}`);
         }
 
         // If everything got filtered out unexpectedly, fall back to heuristic filtering on allItems
         if (parsed.length === 0 && allItems.length > 0) {
-          const afterShowRegexFallback = /H3\s*After\s*Dark/i;
           parsed = allItems
             .map((it: any) => ({
               videoId: it.snippet?.resourceId?.videoId,
@@ -445,10 +384,10 @@ function Homepage() {
               const t = (p.title || "").toLowerCase();
               for (const pat of blockedPatterns)
                 if (t.includes(pat)) return false;
-              // enforce Live exclusion in fallback
-              if (playlistType === 'live' && afterShowRegexFallback.test(p.title || "")) return false;
+              // enforce H3 Show-only in fallback
+              if (playlistType === 'live' && !H3_SHOW_TITLE_PATTERN.test(p.title || "")) return false;
               // enforce VODs-only in fallback
-              if (playlistType === 'vods' && !afterShowRegexFallback.test(p.title || "")) return false;
+              if (playlistType === 'vods' && !AFTER_DARK_TITLE_PATTERN.test(p.title || "")) return false;
               return true;
             })
             .sort((a: any, b: any) => a.position - b.position);
@@ -458,6 +397,8 @@ function Homepage() {
         parsed = parsed.filter((p: PlaylistItem) => {
           const t = (p.title || "").toLowerCase();
           for (const pat of blockedPatterns) if (t.includes(pat)) return false;
+          if (playlistType === 'vods' && !AFTER_DARK_TITLE_PATTERN.test(p.title || "")) return false;
+          if (playlistType === 'live' && !H3_SHOW_TITLE_PATTERN.test(p.title || "")) return false;
           return true;
         });
         setFetchNextError(
@@ -467,6 +408,8 @@ function Homepage() {
 
       if (parsed.length === 0)
         throw new Error("Playlist contained no public videos after filtering");
+
+      if (requestId !== playlistRequestRef.current) return null;
 
       setPlaylistItems(parsed);
 
@@ -499,11 +442,96 @@ function Homepage() {
     return null;
   };
 
-  // Load playlist on initial mount
+  const loadLocalAfterDarkPlaylist = () => {
+    playlistRequestRef.current += 1;
+    const afterDarkEpisodes = episodes
+      .filter(
+        (episode) =>
+          String(episode.type) === EpisodeType[EpisodeType.AfterShow] &&
+          AFTER_DARK_TITLE_PATTERN.test(episode.title)
+      )
+      .sort(
+        (a, b) =>
+          getAfterDarkNumber(b.title) - getAfterDarkNumber(a.title) ||
+          new Date(b.date).getTime() - new Date(a.date).getTime()
+      );
+
+    if (afterDarkEpisodes.length === 0) {
+      setFetchNextError("No After Dark episodes are available.");
+      return null;
+    }
+
+    const parsed = afterDarkEpisodes.map((episode, position) => ({
+      videoId: episode.getVideoId(),
+      title: episode.title,
+      publishAt: episode.date,
+      position,
+      isPublic: true,
+    }));
+
+    setFetchNextError(null);
+    setPlaylistItems(parsed);
+    setPlaylistIndex(0);
+    setCurrentEpisode(afterDarkEpisodes[0]);
+    setIsVideoLoading(true);
+    setIsFetchingNextEpisode(false);
+    return { parsed, idx: 0 };
+  };
+
+  const loadAfterDarkPlaylist = async () => {
+    const requestId = playlistRequestRef.current + 1;
+    const remotePlaylist = await loadPlaylistFromYouTube('vods');
+    if (requestId !== playlistRequestRef.current) return null;
+    return remotePlaylist ?? loadLocalAfterDarkPlaylist();
+  };
+
+  const loadLocalH3ShowPlaylist = () => {
+    playlistRequestRef.current += 1;
+    const h3ShowEpisodes = episodes
+      .filter(
+        (episode) =>
+          String(episode.type) === EpisodeType[EpisodeType.H3Show]
+      )
+      .sort(
+        (a, b) =>
+          new Date(b.date).getTime() - new Date(a.date).getTime() ||
+          Number(b.number) - Number(a.number)
+      );
+
+    if (h3ShowEpisodes.length === 0) {
+      setFetchNextError("No H3 Show episodes are available.");
+      return null;
+    }
+
+    const parsed = h3ShowEpisodes.map((episode, position) => ({
+      videoId: episode.getVideoId(),
+      title: episode.title,
+      publishAt: episode.date,
+      position,
+      isPublic: true,
+    }));
+
+    setFetchNextError(null);
+    setPlaylistItems(parsed);
+    setPlaylistIndex(0);
+    setCurrentEpisode(h3ShowEpisodes[0]);
+    setIsVideoLoading(true);
+    setIsFetchingNextEpisode(false);
+    return { parsed, idx: 0 };
+  };
+
+  const loadH3ShowPlaylist = async () => {
+    const requestId = playlistRequestRef.current + 1;
+    const remotePlaylist = await loadPlaylistFromYouTube('live');
+    if (requestId !== playlistRequestRef.current) return null;
+    return remotePlaylist ?? loadLocalH3ShowPlaylist();
+  };
+
+  // Retry when the asynchronously loaded local episode catalog becomes available.
   useEffect(() => {
-    loadPlaylistFromYouTube('live');
+    if (h3ShowTabSelected && episodes.length > 0) void loadH3ShowPlaylist();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [episodes.length]);
 
   // Control mounting/unmounting of the background video so we can fade it out
   useEffect(() => {
@@ -568,8 +596,9 @@ function Homepage() {
 
       // If playlist not loaded yet, load it and then compute the navigation target
       if (playlistItems.length === 0) {
-        const playlistType = vodsOnDemandSelected ? 'vods' : 'live';
-        const res = await loadPlaylistFromYouTube(playlistType);
+        const res = vodsOnDemandSelected
+          ? await loadAfterDarkPlaylist()
+          : await loadH3ShowPlaylist();
         if (!res) return;
         const parsed = res.parsed as PlaylistItem[];
         const loadedIdx = res.idx ?? 0;
@@ -976,7 +1005,7 @@ function Homepage() {
                       setAfterDarkTabSelected(false);
                       setVodsOnDemandSelected(false);
                       setPlaylistItems([]);
-                      loadPlaylistFromYouTube('live');
+                      void loadH3ShowPlaylist();
                     }}>
                       H3 Show
                   </div>
@@ -986,17 +1015,13 @@ function Homepage() {
                       setH3ShowTabSelected(false);
                       setAfterDarkTabSelected(true);
                       setVodsOnDemandSelected(true);
-                      setPlaylistItems([]);
-                      loadPlaylistFromYouTube('vods');
+                      void loadAfterDarkPlaylist();
                     }}>
                       H3 After Dark
                     </div>
                 </div>
               </div>
               
-              {fetchNextError && (
-                <div className="next-episode-error">{fetchNextError}</div>
-              )}
               {/* Timestamps removed from UI per user request */}
               <div className="topics-container">
                 {/* Dynamically generated person cards from timestamps */}
