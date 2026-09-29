@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { MomentsModal } from "../../components/Modals/Modal";
 import { Topic } from "../../models/Topic";
+import { Moment } from "../../models/Moments/Moment";
 import "./TopicComponent.scss";
 import { useDataContext } from "../../context/DataContext";
 
@@ -14,8 +15,14 @@ type Props = {
 
 function TopicComponent(props: Props) {
   const [modalOpen, setModalOpen] = useState(false);
-  const { moments } = useDataContext();
-  function OpenModal() {
+  const [topicMoments, setTopicMoments] = useState<Moment[]>([]);
+  const { loadMoments } = useDataContext();
+
+  async function openModal() {
+    if (!props.topic) return;
+
+    const moments = await loadMoments();
+    setTopicMoments(props.topic.getMoments(moments) ?? []);
     setModalOpen(true);
   }
 
@@ -25,11 +32,11 @@ function TopicComponent(props: Props) {
         <MomentsModal 
           title={props.topic.name} 
           description={props.topic.description} 
-          timestamps={props.topic.getMoments(moments)!} 
+          timestamps={topicMoments}
           isOpen={false} 
           openModal={setModalOpen} />
       }
-        <div id="TopicComponent" onClick={() => OpenModal()}>
+        <div id="TopicComponent" onClick={() => void openModal()}>
             <div className="topic-container">
               { props.overlayText &&
                 <div className="overlay">{props.overlayText}</div>

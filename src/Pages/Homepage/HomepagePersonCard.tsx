@@ -14,8 +14,10 @@ interface Props {
 }
 
 function HomepagePersonCard(props: Props) {
-  const { soundbites, moments } = useDataContext();
+  const { soundbites, loadMoments } = useDataContext();
   const [modalOpen, setModalOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [contentLoaded, setContentLoaded] = useState(false);
   const [relatedSoundbites, setRelatedSoundbites] = useState<Soundbite[]>([]);
   const [relatedMoments, setRelatedMoments] = useState<Moment[]>([]);
   const [isMobile, setIsMobile] = useState(false);
@@ -24,33 +26,35 @@ function HomepagePersonCard(props: Props) {
     setIsMobile(window.innerWidth < 1400);
   }, []);
 
-  useEffect(() => {
-    if (!props.person) {
-      return;
+  async function openModal() {
+    if (!props.person || isLoading) return;
+
+    if (!contentLoaded) {
+      setIsLoading(true);
+      const moments = await loadMoments();
+      const personName = props.person.name;
+
+      setRelatedSoundbites(
+        soundbites.filter(
+          (soundbite) =>
+            soundbite.personName?.toLowerCase() === personName.toLowerCase()
+        )
+      );
+      setRelatedMoments(
+        moments.filter((moment) => moment.people.includes(personName))
+      );
+      setContentLoaded(true);
+      setIsLoading(false);
     }
 
-    const relatedSoundbites = soundbites.filter(
-      (x) => x.personName?.toLowerCase() == props.person!.name.toLowerCase()
-    );
-    const relatedMoments = moments.filter((x) =>
-      x.people.includes(props.person!.name)
-    );
-
-    setRelatedSoundbites(relatedSoundbites);
-    setRelatedMoments(relatedMoments);
-  }, [props.person, soundbites.length, moments.length]);
-
-  function OpenModal() {
     setModalOpen(true);
   }
 
   return (
     <>
-      {props.person && soundbites && moments && (
+      {props.person && (
         <div id="PersonCard">
           <div className="card-container">
-            {(relatedSoundbites.length > 0 || relatedMoments.length > 0) && (
-              <>
                 {modalOpen && (
                   <MomentAndSoundbites_Modal
                     title={props.person.name}
@@ -61,22 +65,24 @@ function HomepagePersonCard(props: Props) {
                     openModal={setModalOpen}
                   />
                 )}
-                {props.person && (
                   <div
                     className={`card black-outline`}
                     key={props.person.image}
+                    aria-busy={isLoading}
                   >
                     <div className="person-container">
                       <div className="person-name">{props.person.name}</div>
-                      <div
+                      {(contentLoaded || isLoading) && <div
                         className={
                           props.title
                             ? `moment-counter with-title`
                             : "moment-counter"
                         }
                       >
-                        {relatedMoments.length + relatedSoundbites.length}
-                      </div>
+                        {isLoading
+                          ? "Loading..."
+                          : relatedMoments.length + relatedSoundbites.length}
+                      </div>}
                       <div
                         className={`allegiance-${props.person.allegiance.toLowerCase()}`}
                       >
@@ -100,12 +106,12 @@ function HomepagePersonCard(props: Props) {
                     <img
                       className="card-image"
                       src={props.person.image}
-                      onClick={() => OpenModal()}
+                      onClick={() => void openModal()}
+                      loading="lazy"
+                      decoding="async"
+                      alt={props.person.name}
                     />
                   </div>
-                )}
-              </>
-            )}
           </div>
           <>
             {!isMobile && props.jumpToTime && (

@@ -3,30 +3,8 @@
     min-height: 100vh;
     background-color: rgb(27, 27, 27);
 
-    .loading-spinner {
-        grid-column: 1 / -1;
-        text-align: center;
-        padding: 20px;
-        color: white;
-        font-size: 1.2em;
-        opacity: 0.8;
-
-        &::after {
-            content: '';
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            margin-left: 10px;
-            border: 2px solid #fff;
-            border-radius: 50%;
-            border-top-color: transparent;
-            animation: spin 1s linear infinite;
-        }
-    }
-}
-
-@keyframes spin {
-    to {
-        transform: rotate(360deg);
+    .person-card-slot {
+        content-visibility: auto;
+        contain-intrinsic-size: 320px 390px;
     }
 }

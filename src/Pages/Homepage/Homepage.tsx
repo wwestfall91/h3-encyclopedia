@@ -10,8 +10,7 @@ import { Episode } from "../../models/Episode";
 import { PlaylistItem } from "../../Helpers/Oliver3Helpers";
 
 function Homepage() {
-  // @ts-ignore
-  const { people, episodes, moments } = useDataContext();
+  const { people, episodes } = useDataContext();
   const [player, setPlayer] = useState<YouTubePlayer | null>(null);
   const [h3ShowTabSelected, setH3ShowTabSelected] = useState<boolean>(true);
   const [afterDarkTabSelected, setAfterDarkTabSelected] = useState<boolean>(false);

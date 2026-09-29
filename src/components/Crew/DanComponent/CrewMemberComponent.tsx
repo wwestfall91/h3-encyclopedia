@@ -13,11 +13,11 @@ type Props = {
 
 function CrewMemberComponent(props: Props) {
   const [showRequestModal, setShowRequestModel] = useState(false);
-  const { moments } = useDataContext();
+  const { moments, loadMoments } = useDataContext();
 
-  // useEffect(() => {
-  //   getSections(moments)
-  // }, [moments])
+  useEffect(() => {
+    void loadMoments();
+  }, [loadMoments]);
 
   useEffect(() => {
     showRequestModal ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'auto';

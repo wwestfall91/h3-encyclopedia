@@ -10,8 +10,12 @@ import "./ButtonPage.scss";
 
 function ButtonPage() {
   const [daysSinceLastButton, setDaysSinceLastButton] = useState<number>(-1);
-  const {moments, episodes} = useDataContext();
+  const {moments, episodes, loadMoments} = useDataContext();
   const [buttonMoments, setButtonMoments] = useState<Moment[]>();
+
+  useEffect(() => {
+    void loadMoments();
+  }, [loadMoments]);
 
   const calculateDays = async () => {
     if(buttonMoments == undefined || buttonMoments.length == 0)

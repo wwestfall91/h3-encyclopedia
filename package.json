@@ -7,6 +7,7 @@
     "dev": "vite",
     "start": "npm run dev",
     "build": "tsc && vite build",
+    "cache-people-images": "node scripts/cache-people-images.mjs",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "vitest run",
@@ -45,6 +46,7 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "sharp": "^0.35.5",
     "typescript": "^5.0.2",
     "vite": "^4.5.3",
     "vitest": "^4.1.9"

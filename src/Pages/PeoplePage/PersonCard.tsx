@@ -1,4 +1,4 @@
-import { useState, useMemo, memo } from "react";
+import { memo, useMemo, useState } from "react";
 import "../../components/SoundbiteCard/SoundbiteCard.css";
 import { useDataContext } from "../../context/DataContext";
 import { Person } from "../../models/Person";
@@ -11,31 +11,31 @@ interface Props {
 }
 
 function PersonCard(props: Props) {
-    const {soundbites, moments } = useDataContext();
+    const { soundbites, moments } = useDataContext();
     const [modalOpen, setModalOpen] = useState(false);
 
-    // Memoize the expensive filtering operations
     const relatedSoundbites = useMemo(() => {
       if (!props.person) return [];
-      return soundbites.filter(x => x.personName?.toLowerCase() === props.person!.name.toLowerCase());
+      const personName = props.person.name.toLowerCase();
+      return soundbites.filter(
+        (soundbite) => soundbite.personName?.toLowerCase() === personName
+      );
     }, [props.person, soundbites]);
 
     const relatedMoments = useMemo(() => {
       if (!props.person) return [];
-      return moments.filter(x => x.people.includes(props.person!.name));
+      const personName = props.person.name;
+      return moments.filter((moment) => moment.people.includes(personName));
     }, [props.person, moments]);
 
-    function OpenModal() {
-        setModalOpen(true);
+    function openModal() {
+      setModalOpen(true);
     }
 
     return (
         <>
         {props.person && 
-          <>
-            { 
-            (relatedSoundbites.length > 0 || relatedMoments.length > 0) &&
-              <div>
+          <div>
               {modalOpen && 
                 <MomentAndSoundbites_Modal 
                   title={props.person.name} 
@@ -45,8 +45,7 @@ function PersonCard(props: Props) {
                   isOpen={false} 
                   openModal={setModalOpen} />
               }
-              {props.person &&
-                <div className="card" key={props.person.image}>  
+                <div className="card" key={props.person.image}>
                     <div className="person-container">
                       <div className="person-name">
                           {props.person.name}
@@ -61,13 +60,13 @@ function PersonCard(props: Props) {
                     <img
                     className="card-image"
                     src={props.person.image}
-                    onClick={() => OpenModal()}
+                    onClick={openModal}
                     loading="lazy"
                     decoding="async"
+                    alt={props.person.name}
                     />
                 
                 </div>
-              }
               {props.person.name == "Avery" && 
                 <div className="badge">
                   <img className="picture" src="Images/GoldMedal_Tall.png"/>
@@ -79,8 +78,6 @@ function PersonCard(props: Props) {
                 </div>
               }   
               </div>
-            }
-          </>
           }
         </>
     );

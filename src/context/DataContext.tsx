@@ -1,4 +1,4 @@
-import React, { createContext, useState, ReactNode, useContext, useEffect } from 'react';
+import React, { createContext, useState, ReactNode, useContext, useEffect, useCallback, useRef } from 'react';
 import { Soundbite } from '../models/Soundbite';
 import * as fileHelpers from "../database/FileHelpers"
 import { Episode } from '../models/Episode';
@@ -12,6 +12,7 @@ interface DataContextType {
   people: Person[];
   episodes: Episode[];
   moments: Moment[];
+  loadMoments: () => Promise<Moment[]>;
   topics: Topic[];
 }
 
@@ -30,14 +31,25 @@ export const DataProvider: React.FC<Props> = ({ children }) => {
     const [episodes, setEpisodes] = useState<Episode[]>([]);
     const [moments, setMoments] = useState<Moment[]>([]);
     const [topics, setTopics] = useState<Topic[]>([]);
+    const momentsRequest = useRef<Promise<Moment[]> | null>(null);
+
+    const loadMoments = useCallback(async () => {
+      if (!momentsRequest.current) {
+        momentsRequest.current = fileHelpers.getAllMoments();
+      }
+
+      const loadedMoments = await momentsRequest.current;
+      setMoments(loadedMoments);
+      return loadedMoments;
+    }, []);
 
     useEffect(() => {
         setSoundbitesFromFile();
         setEpisodesFromFile();
         setPeopleFromFile();
-        setMomentsFromFile();
+        void loadMoments();
         setTopicsFromFile();
-    }, []);
+    }, [loadMoments]);
 
     const setSoundbitesFromFile = async () => {
         setSoundbites(await fileHelpers.getAllSoundbites());
@@ -51,16 +63,12 @@ export const DataProvider: React.FC<Props> = ({ children }) => {
         setPeople(await fileHelpers.getAllPeople());
     }
 
-    const setMomentsFromFile = async () => {
-      setMoments(await fileHelpers.getAllMoments());
-    }
-
     const setTopicsFromFile = async () => {
       setTopics(await fileHelpers.getAllTopics());
     }
 
     return (
-        <AppContext.Provider value={{soundbites, episodes, people, moments, topics}}>
+        <AppContext.Provider value={{soundbites, episodes, people, moments, loadMoments, topics}}>
           {children}
         </AppContext.Provider>
     );
