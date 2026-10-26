@@ -1,0 +1,154 @@
+#HilaSupportModal {
+  display: flex;
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background-color: rgba(0, 0, 0, 0.72);
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+
+  &.hila-modal-departing {
+    animation: hila-support-modal-fade 300ms ease-out forwards;
+  }
+
+  .hila-modal-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: min(92vw, 1500px);
+    max-height: 82vh;
+    overflow: hidden;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    padding: 2.25rem 2rem 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 18px 48px rgba(0, 0, 0, 0.5);
+    text-align: left;
+  }
+
+  @keyframes hila-support-modal-fade {
+    to {
+      opacity: 0;
+    }
+  }
+
+  .hila-modal-close-button {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: transparent;
+    border-radius: 999px;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .hila-modal-icon {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+
+  .hila-modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    min-height: 0;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.75;
+    font-family: Raleway, sans-serif;
+    color: #e9e9e9;
+
+    p,
+    ol,
+    li {
+      margin: 0;
+    }
+
+    ol {
+      padding-left: 1.5rem;
+      text-align: left;
+    }
+  }
+
+  .hila-modal-actions {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .hila-modal-button {
+    min-width: 180px;
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Raleway, sans-serif;
+    cursor: pointer;
+    transition: transform 0.15s ease, background-color 0.15s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+    }
+
+    &:disabled {
+      cursor: wait;
+      opacity: 0.7;
+      transform: none;
+    }
+  }
+
+  .hila-modal-support {
+    background-color: #4b8f6d;
+    color: #ffffff;
+  }
+
+  .hila-modal-message {
+    background-color: rgba(128, 0, 167, 0.486);
+    color: #ffffff;
+  }
+
+  .hila-modal-counter {
+    font-size: 0.9rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #d7d7d7;
+  }
+
+  .hila-modal-error {
+    color: #ffb4b4;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  @media all and (max-width: 480px) {
+    padding: 0.75rem;
+
+    .hila-modal-container {
+      width: 100%;
+      max-height: 94vh;
+      padding: 2rem 1.25rem 1.25rem;
+    }
+
+    .hila-modal-body {
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .hila-modal-button {
+      width: 100%;
+    }
+  }
+}

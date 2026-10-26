@@ -1,3 +1,36 @@
+.hila-support-flying-heart {
+  position: fixed;
+  z-index: 201;
+  pointer-events: none;
+  font-size: 2rem;
+  line-height: 1;
+  animation: hila-support-heart-flight 850ms ease-in-out forwards;
+}
+
+@keyframes hila-support-heart-flight {
+  0% {
+    transform: translate(-50%, -50%) scale(0.6);
+  }
+  45% {
+    transform: translate(
+      calc(-50% + var(--heart-dx) * 0.45),
+      calc(-50% + var(--heart-dy) * 0.45 - 60px)
+    ) scale(1.2);
+  }
+  100% {
+    transform: translate(
+      calc(-50% + var(--heart-dx)),
+      calc(-50% + var(--heart-dy))
+    ) scale(0.35);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hila-support-flying-heart {
+    animation-duration: 1ms;
+  }
+}
+
 #Homepage {
   position: relative;
   display: flex;
@@ -294,10 +327,37 @@
 
   .submit-button-container {
     display: flex;
+    align-items: center;
+    gap: 1rem;
     position: absolute;
     padding-top: 4rem;
     padding-left: 2rem;
     z-index: 2;
+  }
+
+  .hila-support-count {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    flex-shrink: 0;
+    padding: 0.4rem 0.65rem;
+    border-radius: 0.5rem;
+    background-color: rgb(83, 83, 83);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .hila-support-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
   }
 
   .submit-button {

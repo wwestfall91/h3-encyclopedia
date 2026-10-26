@@ -18,6 +18,8 @@ jobs:
 
       - name: Build
         run: npm run build # The build command of your project
+        env:
+          VITE_HILA_SUPPORT_API_URL: ${{ secrets.VITE_HILA_SUPPORT_API_URL }}
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
