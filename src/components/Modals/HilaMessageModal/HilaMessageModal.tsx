@@ -43,6 +43,7 @@ function HilaMessageModal({ toggleShown }: Props) {
           <input
             id="user"
             name="user"
+            placeholder="Tell me who this is from"
           />
         </div>
 
