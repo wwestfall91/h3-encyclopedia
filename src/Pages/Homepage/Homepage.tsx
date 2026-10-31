@@ -1,17 +1,9 @@
 import { useDataContext } from "../../context/DataContext";
 import "./Homepage.scss";
-import { CSSProperties, useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import YouTube, { YouTubeEvent, YouTubePlayer } from "react-youtube";
 import AfterDarkBG from "../../assets/images/AfterDarkBG.mp4";
-import SubmitModal from "../../components/Modals/SubmitModal/SubmitModal";
-import HilaSupportModal, {
-  HILA_SUPPORT_MODAL_STORAGE_KEY,
-} from "../../components/Modals/HilaSupportModal/HilaSupportModal";
-import HilaMessageModal from "../../components/Modals/HilaMessageModal/HilaMessageModal";
-import {
-  getHilaSupportCount,
-  incrementHilaSupportCount,
-} from "../../Helpers/HilaSupportCounter";
+import { getHilaSupportCount } from "../../Helpers/HilaSupportCounter";
 import HomepagePersonCard from "./HomepagePersonCard";
 import { Episode } from "../../models/Episode";
 import { PlaylistItem } from "../../Helpers/Oliver3Helpers";
@@ -30,34 +22,8 @@ function Homepage() {
   const [afterDarkTabSelected, setAfterDarkTabSelected] = useState<boolean>(false);
   //const [psychologySelected, setPsychologySelected] = useState<boolean>(false);
   const [vodsOnDemandSelected, setVodsOnDemandSelected] = useState<boolean>(false);
-  const [showHilaSupportModal, setShowHilaSupportModal] = useState<boolean>(() => {
-    try {
-      return window.localStorage.getItem(HILA_SUPPORT_MODAL_STORAGE_KEY) !== "true";
-    } catch (e) {
-      return true;
-    }
-  });
-  const [showHilaMessageModal, setShowHilaMessageModal] = useState<boolean>(false);
   const [supportCount, setSupportCount] = useState<number | null>(null);
   const [isLoadingSupportCount, setIsLoadingSupportCount] = useState(true);
-  const [isSubmittingSupport, setIsSubmittingSupport] = useState(false);
-  const [supportCountError, setSupportCountError] = useState<string | null>(null);
-  const supportCounterRef = useRef<HTMLSpanElement>(null);
-  const [supportHeartFlight, setSupportHeartFlight] = useState<{
-    x: number;
-    y: number;
-    dx: number;
-    dy: number;
-  } | null>(null);
-  const supportHeartStyle: (CSSProperties & {
-    "--heart-dx": string;
-    "--heart-dy": string;
-  }) | undefined = supportHeartFlight ? {
-    left: supportHeartFlight.x,
-    top: supportHeartFlight.y,
-    "--heart-dx": `${supportHeartFlight.dx}px`,
-    "--heart-dy": `${supportHeartFlight.dy}px`,
-  } : undefined;
   // static offset currently unused as a stateful setter; keep as const to avoid unused state warning
   const episodeOffset = 0;
   const [isMobile, setIsMobile] = useState(false);
@@ -71,14 +37,12 @@ function Homepage() {
   useEffect(() => {
     const controller = new AbortController();
     setIsLoadingSupportCount(true);
-    setSupportCountError(null);
 
     getHilaSupportCount(controller.signal)
       .then(setSupportCount)
       .catch((error: unknown) => {
         if (error instanceof DOMException && error.name === "AbortError") return;
         console.error("Unable to load Hila supporter count:", error);
-        setSupportCountError("The shared supporter count could not be loaded.");
       })
       .finally(() => {
         if (!controller.signal.aborted) setIsLoadingSupportCount(false);
@@ -97,66 +61,6 @@ function Homepage() {
 
     return () => window.removeEventListener("resize", handleResize); // Clean up
   }, [people.length]);
-
-  const markHilaSupportModalSeen = () => {
-    try {
-      window.localStorage.setItem(HILA_SUPPORT_MODAL_STORAGE_KEY, "true");
-    } catch (error) {
-      console.warn("Unable to remember that the Hila support modal was seen:", error);
-    }
-  };
-
-  const handleHilaSupport = async (button: HTMLButtonElement) => {
-    if (isSubmittingSupport || supportHeartFlight) return;
-
-    setIsSubmittingSupport(true);
-    setSupportCountError(null);
-
-    try {
-      const sharedCount = await incrementHilaSupportCount();
-      setSupportCount(sharedCount);
-      markHilaSupportModalSeen();
-      const target = supportCounterRef.current?.getBoundingClientRect();
-      if (
-        target && target.width > 0 && target.height > 0 &&
-        !window.matchMedia("(prefers-reduced-motion: reduce)").matches
-      ) {
-        const source = button.getBoundingClientRect();
-        const x = source.left + source.width / 2;
-        const y = source.top + source.height / 2;
-        setSupportHeartFlight({
-          x,
-          y,
-          dx: target.left + target.width / 2 - x,
-          dy: target.top + target.height / 2 - y,
-        });
-      } else {
-        setShowHilaSupportModal(false);
-      }
-    } catch (error) {
-      console.error("Unable to add Hila support:", error);
-      setSupportCountError("Your support could not be added. Please try again.");
-    } finally {
-      setIsSubmittingSupport(false);
-    }
-  };
-
-  const openHilaMessageModal = () => {
-    markHilaSupportModalSeen();
-    setShowHilaSupportModal(false);
-    setShowHilaMessageModal(true);
-  };
-
-  const handleModalLoveForHila = () => {
-    if (isSubmittingSupport || supportHeartFlight) return;
-
-    openHilaMessageModal();
-    incrementHilaSupportCount()
-      .then(setSupportCount)
-      .catch((error: unknown) => {
-        console.error("Unable to add Hila support from Love for Hila:", error);
-      });
-  };
 
   function getLatestEpisode() {
     if (episodes.length <= 0) return;
@@ -1048,14 +952,7 @@ function Homepage() {
           <>
             {!isMobile && (
               <div className="submit-button-container">
-                <button
-                  className="submit-button"
-                  onClick={openHilaMessageModal}
-                >
-                  💌 Love for Hila
-                </button>
                 <span
-                  ref={supportCounterRef}
                   className="hila-support-count"
                   role="status"
                   title={supportCountLabel}
@@ -1167,36 +1064,6 @@ function Homepage() {
         {/* {breakTabSelected && <SummerBreakSection />}
         {psychologySelected && <PsychologyInSeattleSection />} */}
       </div>
-      {showHilaSupportModal && (
-        <HilaSupportModal
-          onSupport={handleHilaSupport}
-          onMessage={handleModalLoveForHila}
-          isDeparting={supportHeartFlight !== null}
-          isLoadingCount={isLoadingSupportCount}
-          isSubmittingSupport={isSubmittingSupport}
-          counterError={supportCountError}
-        />
-      )}
-      {supportHeartFlight && (
-        <span
-          className="hila-support-flying-heart"
-          style={supportHeartStyle}
-          aria-hidden="true"
-          onAnimationEnd={() => {
-            setSupportHeartFlight(null);
-            setShowHilaSupportModal(false);
-          }}
-        >
-          ❤️
-        </span>
-      )}
-      {showHilaMessageModal && (
-        <SubmitModal
-          toggleShown={setShowHilaMessageModal}
-          soundbite={false}
-          modal={<HilaMessageModal toggleShown={setShowHilaMessageModal} />}
-        />
-      )}
     </>
   );
 }
